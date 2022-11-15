@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08c32b49e652e944be5c84dc4a8211b, type: 3}
+  m_Name: BehaviourSettings
+  m_EditorClassIdentifier: 
+  _behaviourScripts:
+  - Key: AWBodyMovementController
+  - Key: AWBodyShakeMovement
+  - Key: AWFeetMovement
+  _prefabBehaviourSettings:
+  - Value:
+    - Key: parent
+      Value:
+      - AWBodyMovementController
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: foot_front_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_front_left
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_left
+      Value:
+      - AWFeetMovement

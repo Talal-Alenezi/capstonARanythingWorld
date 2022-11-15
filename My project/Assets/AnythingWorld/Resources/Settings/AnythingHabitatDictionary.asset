@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b619225fce25364286451ad6a68902b, type: 3}
+  m_Name: AnythingHabitatDictionary
+  m_EditorClassIdentifier: 
+  habitats:
+  - name: testing
+    description: Just an area for testing. No objects!
+  - name: city
+    description: Bustling urban landscapes for all your urban needs.
+  - name: underwater
+    description: Deep in the ocean is a deep ocean.
+  - name: desert
+    description: Arid barron landscapes for your dry palette
+  - name: farm
+    description: Down on the farm are lots of farm animals
+  - name: icescape
+    description: Cold like ice but frozen and nice
+  - name: jungle
+    description: It's a jungle in here
+  - name: space
+    description: Deep in the universe's face hides the human race
+  - name: mountain
+    description: The peaks of your achievement

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85fa93ff71872646b9b77dad55b8a69, type: 3}
+  m_Name: FigureS
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 28.628633, y: 9.636982, z: 4.034462}
+  - {x: 5.1804194, y: 6.9232883, z: -0.17734146}
+  - {x: 18.374557, y: 16.70802, z: 3.657833}
+  - {x: 2.7178783, y: 16.953049, z: 0.7954712}
+  - {x: -12.938802, y: 17.198078, z: -2.0668907}
+  - {x: 0.5049648, y: 29.951487, z: 0.4613037}
+  - {x: -13.219286, y: 29.118874, z: 0.28725052}
+  anchorPoints:
+  - {x: 28.628633, y: 9.636982, z: 4.034462}
+  - {x: 2.7178783, y: 16.953049, z: 0.7954712}
+  - {x: -13.219286, y: 29.118874, z: 0.28725052}
+  controlPoints:
+  - {x: 5.1804194, y: 6.9232883, z: -0.17734146}
+  - {x: 18.374557, y: 16.70802, z: 3.657833}
+  - {x: -12.938802, y: 17.198078, z: -2.0668907}
+  - {x: 0.5049648, y: 29.951487, z: 0.4613037}
+  isClosed: 0
+  pathspace: 0
+  globalNormal: 0
+  perAnchorNormals:
+  - 0
+  - 0
+  - 0
+  - 0

@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8244ff07a7a1375429b12a17d76384ca, type: 3}
+  m_Name: AnimationSettings
+  m_EditorClassIdentifier: 
+  prefabBehaviourAnimationSettings:
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: foot_front_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_front_left
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: leg_front_right
+      Value:
+      - AWFeetMovement
+    - Key: leg_front_left
+      Value:
+      - AWFeetMovement
+    - Key: leg_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: leg_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: leg_front_right
+      Value:
+      - AWFeetMovement
+    - Key: leg_front_left
+      Value:
+      - AWFeetMovement
+    - Key: leg_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: leg_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: feet_front_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_front_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: feet_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_left
+      Value:
+      - AWFeetMovement
+    - Key: tail
+      Value:
+      - AWTurnTail
+    - Key: head_holder
+      Value:
+      - AWTurnHead
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: feet_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_left
+      Value:
+      - AWFeetMovement
+    - Key: tail
+      Value:
+      - AWTurnTail
+    - Key: head_holder
+      Value:
+      - AWTurnHead
+  - Value:
+    - Key: body
+      Value:
+      - AWWobble
+    - Key: wing_right
+      Value:
+      - AWWingFlap
+    - Key: wing_left
+      Value:
+      - AWWingFlap
+    - Key: leg_right
+      Value:
+      - AWWingFlap
+    - Key: leg_left
+      Value:
+      - AWWingFlap
+    - Key: head
+      Value:
+      - AWTurnHeadHorizontal
+  - Value:
+    - Key: feet_front_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_front_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_middle_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_middle_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: feet_front_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_front_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_midfront_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_midfront_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_midhind_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_midhind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: hand_right
+      Value:
+      - AWFeetMovement
+    - Key: hand_left
+      Value:
+      - AWFeetMovement
+    - Key: foot_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: foot_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: foot_front_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_front_left
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+    - Key: foot_front_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_front_left
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: foot_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: feet_front_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_front_left
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_right
+      Value:
+      - AWFeetMovement
+    - Key: feet_hind_left
+      Value:
+      - AWFeetMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement
+  - Value:
+    - Key: body
+      Value:
+      - AWBodyShakeMovement

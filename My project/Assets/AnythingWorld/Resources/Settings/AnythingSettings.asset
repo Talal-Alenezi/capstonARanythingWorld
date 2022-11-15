@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32909a4932dd34623902911ebe43009c, type: 3}
+  m_Name: AnythingSettings
+  m_EditorClassIdentifier: 
+  apiKey: 
+  appName: My App
+  email: 
+  dialogFlowAgentId: anything-world-api
+  frameRate: 60
+  physicsSolverIterations: 2
+  maximumAllowedTimestep: 0.1
+  anythingSetup: {fileID: 5334334621337651017, guid: 42f33aa46f8274e87bb68411cabfc206,
+    type: 3}
+  showDebugMessages: 0
+  defaultStitchedShader: {fileID: -6465566751694194690, guid: 054c8de7687810041a2b588bfb89ace9,
+    type: 3}
+  defaultUnstitchedShader: {fileID: -6465566751694194690, guid: b82f9af9ca3206d4dace2e258f513003,
+    type: 3}
+  defaultUnstitchedTransparentShader: {fileID: -6465566751694194690, guid: 88a78b6c1952ed146bfdcd137fff20be,
+    type: 3}
+  defaultStitchedTransparentShader: {fileID: -6465566751694194690, guid: 43f667075267b59439ae239d64b6c10b,
+    type: 3}

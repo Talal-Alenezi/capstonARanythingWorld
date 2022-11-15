@@ -1,0 +1,53 @@
+diff a/Anything World Unity/Assets/AnythingWorld/Samples/Examples/NavMeshExamples/Scripts/ForestSpawner.cs b/Anything World Unity/Assets/AnythingWorld/Samples/Examples/NavMeshExamples/Scripts/ForestSpawner.cs	(rejected hunks)
+@@ -65,31 +65,35 @@
+                  }
+              }
+          }
+-     }
+-     public void ClearExistingTrees()
+-     {
+-         if (treeList != null && treeList.Count > 0)
++         public void ClearExistingTrees()
+          {
+-             foreach (GameObject tree in treeList)
++             if (treeList != null && treeList.Count > 0)
+              {
+++<<<<<<< HEAD:Anything World Unity/Assets/AnythingWorld/Samples/Examples/NavMeshExamples/Scripts/ForestSpawner.cs
+ +                AnythingSafeDestroy.SafeDestroy(tree);
+++=======
++                 foreach (GameObject tree in treeList)
++                 {
++                     AWSafeDestroy.SafeDestroy(tree);
++                 }
+++>>>>>>> 40314f04f16552a7ed9ab94cf9a13203fc6c91de:Anything World Unity/Assets/AnythingWorld/Examples/NavMeshExamples/Scripts/ForestSpawner.cs
+              }
++             treeList = new List<GameObject>();
+          }
+-         treeList = new List<GameObject>();
+-     }
+-     void OnDrawGizmos()
+-     {
+-         if (ShowDebugGizmos == false) return;
+-         Gizmos.DrawWireCube(regionSize / 2, regionSize);
+-         if (points != null)
++         void OnDrawGizmos()
+          {
+-             foreach (Vector2 point in points)
++             if (ShowDebugGizmos == false) return;
++             Gizmos.DrawWireCube(regionSize / 2, regionSize);
++             if (points != null)
+              {
++                 foreach (Vector2 point in points)
++                 {
+  
+  
+-                 Vector3 point3D = new Vector3(point.x, 0, point.y);
+-                 point3D = point3D + transform.position;
+-                 Gizmos.DrawSphere(point3D, displayRadius);
++                     Vector3 point3D = new Vector3(point.x, 0, point.y);
++                     point3D = point3D + transform.position;
++                     Gizmos.DrawSphere(point3D, displayRadius);
++                 }
+              }
+          }
+      }

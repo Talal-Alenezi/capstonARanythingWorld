@@ -1,0 +1,744 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &45803567928324704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9120749436856178519}
+  - component: {fileID: 7552273254316928201}
+  m_Layer: 0
+  m_Name: kelp#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9120749436856178519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45803567928324704}
+  m_LocalRotation: {x: -0, y: 0.656059, z: -0, w: 0.7547096}
+  m_LocalPosition: {x: 11.108, y: -20.429998, z: 36.6}
+  m_LocalScale: {x: 3.1253664, y: 3.1253664, z: 3.1253664}
+  m_Children: []
+  m_Father: {fileID: 5073999977526227011}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7552273254316928201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45803567928324704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: kelp
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 1
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &1457656237593119962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093696639721997648}
+  - component: {fileID: 9178775379491005625}
+  m_Layer: 0
+  m_Name: kelp#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2093696639721997648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457656237593119962}
+  m_LocalRotation: {x: -0, y: 0.7880108, z: -0, w: -0.61566144}
+  m_LocalPosition: {x: 32.092, y: -31.829998, z: -1.9936}
+  m_LocalScale: {x: 1.264, y: 1.264, z: 1.264}
+  m_Children: []
+  m_Father: {fileID: 5073999977526227011}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9178775379491005625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457656237593119962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: kelp
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 1
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &1651040896098192556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5073999977526227011}
+  - component: {fileID: 8151471159904965495}
+  m_Layer: 0
+  m_Name: Kelp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5073999977526227011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651040896098192556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 133687654738374353}
+  - {fileID: 9221602132550289283}
+  - {fileID: 4275415018899394626}
+  - {fileID: 8044420474426622999}
+  - {fileID: 2093696639721997648}
+  - {fileID: 9120749436856178519}
+  m_Father: {fileID: 1921659470062488334}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8151471159904965495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651040896098192556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376ca3e6d9d1859429e0ecf549f1609d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectList:
+  - {fileID: 7854080343827960922}
+  - {fileID: 8351440468892761723}
+  - {fileID: 5969529747693705847}
+  - {fileID: 1347823682393037303}
+  - {fileID: 9178775379491005625}
+  - {fileID: 7552273254316928201}
+  uniqueModelGuidList: []
+  batchedAwObjList: []
+  loadInEditor: 1
+  objectsCreated: 1
+  requestList: []
+--- !u!1 &2066669389830984450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4275415018899394626}
+  - component: {fileID: 5969529747693705847}
+  m_Layer: 0
+  m_Name: kelp#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4275415018899394626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066669389830984450}
+  m_LocalRotation: {x: -0, y: 0.6360782, z: -0, w: 0.7716246}
+  m_LocalPosition: {x: -16.6, y: -32.43, z: -8.6}
+  m_LocalScale: {x: 2.4726, y: 2.4726, z: 2.4726}
+  m_Children: []
+  m_Father: {fileID: 5073999977526227011}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5969529747693705847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066669389830984450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: kelp
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 1
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &2207457848598189583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4527325218971256098}
+  - component: {fileID: 5685171880798357961}
+  m_Layer: 0
+  m_Name: pirate_ship#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4527325218971256098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207457848598189583}
+  m_LocalRotation: {x: 0.20357567, y: -0.020428848, z: -0.25737786, w: 0.9444026}
+  m_LocalPosition: {x: 45.490246, y: 19.147156, z: 97.88454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921659470062488334}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5685171880798357961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207457848598189583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: pirate_ship
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 0
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &3992945153323327580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9221602132550289283}
+  - component: {fileID: 8351440468892761723}
+  m_Layer: 0
+  m_Name: kelp#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9221602132550289283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992945153323327580}
+  m_LocalRotation: {x: -0, y: 0.819152, z: -0, w: -0.57357645}
+  m_LocalPosition: {x: 0, y: -25.969997, z: 23.7}
+  m_LocalScale: {x: 2.4726, y: 2.4726, z: 2.4726}
+  m_Children: []
+  m_Father: {fileID: 5073999977526227011}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8351440468892761723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3992945153323327580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: kelp
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 1
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &4973585275275604686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3052278414546349621}
+  - component: {fileID: 3892907281574070912}
+  m_Layer: 0
+  m_Name: ocean_bed#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3052278414546349621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973585275275604686}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921659470062488334}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3892907281574070912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973585275275604686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: ocean_bed
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 0
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &5934442559577151899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921659470062488334}
+  - component: {fileID: 1094308979042577935}
+  m_Layer: 0
+  m_Name: underwater
+  m_TagString: AWEnvironment
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921659470062488334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5934442559577151899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3052278414546349621}
+  - {fileID: 2813610022953252867}
+  - {fileID: 308429067454847887}
+  - {fileID: 4527325218971256098}
+  - {fileID: 5073999977526227011}
+  - {fileID: 2312896835750853602}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1094308979042577935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5934442559577151899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376ca3e6d9d1859429e0ecf549f1609d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectList: []
+  uniqueModelGuidList: []
+  batchedAwObjList: []
+  loadInEditor: 1
+  objectsCreated: 0
+  requestList: []
+--- !u!1 &6261347689359124152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8044420474426622999}
+  - component: {fileID: 1347823682393037303}
+  m_Layer: 0
+  m_Name: kelp#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8044420474426622999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261347689359124152}
+  m_LocalRotation: {x: -0, y: 0.9945219, z: -0, w: 0.10452842}
+  m_LocalPosition: {x: 32.092, y: -20.491358, z: 27.964}
+  m_LocalScale: {x: 3.1253664, y: 3.1253664, z: 3.1253664}
+  m_Children: []
+  m_Father: {fileID: 5073999977526227011}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1347823682393037303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261347689359124152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: kelp
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 1
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &6283891362921643107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 308429067454847887}
+  - component: {fileID: 4442559161926627894}
+  m_Layer: 0
+  m_Name: ocean_small_rocks#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &308429067454847887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283891362921643107}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921659470062488334}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4442559161926627894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6283891362921643107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: ocean_small_rocks
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 0
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &8630336733268161371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 133687654738374353}
+  - component: {fileID: 7854080343827960922}
+  m_Layer: 0
+  m_Name: kelp#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &133687654738374353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8630336733268161371}
+  m_LocalRotation: {x: -0, y: 0.92718387, z: -0, w: -0.3746066}
+  m_LocalPosition: {x: 0, y: -34.94, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5073999977526227011}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7854080343827960922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8630336733268161371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: kelp
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 1
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &8761242575817205685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2813610022953252867}
+  - component: {fileID: 7653876823165303766}
+  m_Layer: 0
+  m_Name: ocean_large_rocks#0000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2813610022953252867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761242575817205685}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.6436329, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921659470062488334}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7653876823165303766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761242575817205685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcb3d395e9444c35b381ebb725a4785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: ocean_large_rocks
+  objectGuid: 0000
+  createInEditor: 1
+  hasBehaviour: 0
+  hasCollider: 0
+  addMeshCollider: 0
+  randomYRotation: 0
+  globallyPosition: 0
+  batchedLoader: {fileID: 0}
+  attachedAwObj: {fileID: 0}
+--- !u!1 &9044678401677341649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2312896835750853602}
+  - component: {fileID: 3307003705399461519}
+  - component: {fileID: 2573370531507232674}
+  - component: {fileID: 4480819237191823407}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2312896835750853602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044678401677341649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 81.50542, y: 81.50542, z: 81.50542}
+  m_Children: []
+  m_Father: {fileID: 1921659470062488334}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3307003705399461519
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044678401677341649}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2573370531507232674
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044678401677341649}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4480819237191823407
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9044678401677341649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}

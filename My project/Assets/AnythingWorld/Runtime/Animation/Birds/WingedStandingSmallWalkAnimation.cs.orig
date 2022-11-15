@@ -1,0 +1,138 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WingedStandingSmallWalkAnimation : WalkAnimation
+{
+    #region Fields
+    // Animation settings
+    public float bodyShakeMovementSpeed = 1;
+    public float bodyShakeMovementFrequency = 0.4f;
+    public float rightFrontLegMovementSpeed = 2;
+    public float leftFrontLegMovementSpeed = 2;
+    public float rightFrontLegMovementRadius = 0.5f;
+    public float leftFrontLegMovementRadius = 0.5f;
+    public float rightFrontLegStartDegree = 180;
+    public float leftFrontLegStartDegree = 0;
+    public float tailTurnSpeed = 1;
+    public float tailTurnFrequency = 70;
+    public float headTurnSpeed = 1;
+    public float headTurnMaxAngle = 10;
+
+    public string Descriptor { get; set; } = "Walk";
+
+    /// ParameterController object used for monitoring parameters' changes
+    ParameterController paramControl;
+    #endregion
+
+    #region Unity Callbacks
+    void Start()
+    {
+        Initialization("winged_standing_small__walk", "walk");
+
+        // Initialize list of parameters used in this animation script
+        parametersList = new List<Parameter>()
+        {
+            new Parameter("body", "bodyShakeMovementSpeed","AWBodyShakeMovement", "MoveSpeed",bodyShakeMovementSpeed),
+            new Parameter("body", "bodyShakeMovementFrequency","AWBodyShakeMovement","Frequency",bodyShakeMovementFrequency),
+            new Parameter("feet_right", "rightFrontLegMovementSpeed","AWFeetMovement", "StepSpeed",rightFrontLegMovementSpeed),
+            new Parameter("feet_right", "rightFrontLegStartDegree","AWFeetMovement","StepDegree",rightFrontLegStartDegree),
+            new Parameter("feet_right", "rightFrontLegMovementRadius","AWFeetMovement","StepRadius",rightFrontLegMovementRadius),
+            new Parameter("feet_left", "leftFrontLegMovementSpeed","AWFeetMovement","StepSpeed",leftFrontLegMovementSpeed),
+            new Parameter("feet_left", "leftFrontLegStartDegree","AWFeetMovement","StepDegree",leftFrontLegStartDegree),
+            new Parameter("feet_left", "leftFrontLegMovementRadius","AWFeetMovement","StepRadius",leftFrontLegMovementRadius),
+            new Parameter("tail", "tailTurnSpeed","AWTurnTail","TurnSpeed",tailTurnSpeed),
+            new Parameter("tail", "tailTurnFrequency","AWTurnTail","Frequency",tailTurnFrequency),
+            new Parameter("head_holder", "headTurnSpeed","AWTurnHead","TurnSpeed",headTurnSpeed),
+            new Parameter("head_holder", "headTurnMaxAngle","AWTurnHead","MaxRotation",headTurnMaxAngle)
+        };
+
+        // Initialize paramControl and _prefabToScript variables
+        paramControl = new ParameterController(parametersList);
+
+
+
+        // TODO: careful! reliant on parent object script
+        controllingAWObj = transform.parent.GetComponent<AWObj>();
+        if (controllingAWObj == null)
+        {
+            controllingAWObj = transform.parent.parent.GetComponent<AWObj>();
+            if (controllingAWObj == null)
+            {
+                Debug.LogError($"No AWObj found for {gameObject.name}");
+                return;
+            }
+        }
+
+        StartCoroutine(WaitForAWObjCompletion());
+
+    }
+    #endregion
+    //Autos
+    
+
+    // Start is called before the first frame update
+    
+
+
+
+    /// <summary>
+    /// Method used for updating all parameters for the animation
+    /// </summary>
+    protected override void UpdateParameters()
+    {
+        // Check which parameters were modified
+        List<Parameter> modifiedParameters = paramControl.CheckParameters(new List<(string, dynamic)>() { ("bodyShakeMovementSpeed",bodyShakeMovementSpeed),
+            ("bodyShakeMovementFrequency",bodyShakeMovementFrequency),("rightFrontLegMovementSpeed",rightFrontLegMovementSpeed),
+            ("rightFrontLegStartDegree",rightFrontLegStartDegree),("rightFrontLegMovementRadius",rightFrontLegMovementRadius),
+            ("leftFrontLegMovementSpeed",leftFrontLegMovementSpeed),("leftFrontLegStartDegree",leftFrontLegStartDegree),
+            ("leftFrontLegMovementRadius",leftFrontLegMovementRadius), ("tailTurnSpeed",tailTurnSpeed),
+            ("tailTurnFrequency",tailTurnFrequency),("headTurnSpeed",headTurnSpeed),
+            ("headTurnMaxAngle",headTurnMaxAngle)});
+
+        // Update parmeters value in the proper script
+        foreach (var param in modifiedParameters)
+        {
+            prefabToScript[(param.PrefabPart, param.ScriptName)].ModifyParameter(param);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (scriptsSet)
+            UpdateParameters();
+    }
+
+    //------------------------------------------------------------------------Behaviour specific methods---------------------------------------------------------------
+
+
+    /// <summary>
+    /// Method used for updating the speed of feet movement in the animation
+    /// </summary>
+    /// <param name="speed"></param>
+    public override void UpdateMovementSpeed(float speed)
+    {
+        rightFrontLegMovementSpeed = speed;
+        leftFrontLegMovementSpeed = speed;
+    }
+
+    public override void ActivateShader()
+    {
+<<<<<<< HEAD
+        //throw new System.NotImplementedException();
+=======
+        // throw new System.NotImplementedException();
+>>>>>>> e0c70e82f56ded064ad033c07dd4e7c64b4c09af
+    }
+
+    public override void DeactivateShader()
+    {
+<<<<<<< HEAD
+        //throw new System.NotImplementedException();
+=======
+        // throw new System.NotImplementedException();
+>>>>>>> e0c70e82f56ded064ad033c07dd4e7c64b4c09af
+    }
+
+}
