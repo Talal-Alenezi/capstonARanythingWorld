@@ -36,13 +36,17 @@ public class TranslationController : MonoBehaviour
     private void FinishListeningHandler(string testresponse)
     {
         Debug.Log("The Final response " + testresponse);
-        if (testresponse == "hello" || testresponse=="salaam" || testresponse=="assalam alaikum")
+        if (testresponse == "hello" || testresponse=="salaam" || testresponse=="assalam alaikum" || testresponse=="hi" || testresponse== "greetings")
         {
             anim.SetTrigger("hello");
         }
         else if (testresponse == "i love you")
         {
             anim.SetTrigger("ily");
+        }
+        else if (testresponse == "thanks" || testresponse == "thank you" || testresponse=="shukran" || testresponse=="mercy")
+        {
+            anim.SetTrigger("thx");
         }
     }
 
