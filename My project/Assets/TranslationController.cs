@@ -46,7 +46,9 @@ public class TranslationController : MonoBehaviour
     // ANIMATION PLAYER
     void playAnim(string testresponse) // This Test Response is after spliting
     {
-        if (testresponse == "hello" || testresponse == "salaam" || testresponse == "assalam alaikum" || testresponse == "hi" || testresponse == "greetings")
+        if (testresponse == "in" || testresponse == "on" || testresponse == "and" || testresponse == "the") 
+        return;
+        else if (testresponse == "hello" || testresponse == "salaam" || testresponse == "assalam alaikum" || testresponse == "hi" || testresponse == "greetings")
         {
             anim.SetTrigger("hello");
         }
@@ -58,7 +60,7 @@ public class TranslationController : MonoBehaviour
         {
             anim.SetTrigger("thx");
         }
-        else if (testresponse == "engineer")
+        else if (testresponse == "engineer" || testresponse == "engineering")
         {
             anim.SetTrigger("engineer");
         }
@@ -105,25 +107,25 @@ public class TranslationController : MonoBehaviour
         else if (testresponse == "solve the problem")
         {
             anim.SetTrigger("solve the problem");
-        }else if (testresponse == "one"|| testresponse == "1")
+        } else if (testresponse == "one" || testresponse == "1")
         {
             anim.SetTrigger("one");
-        }else if (testresponse == "two"|| testresponse == "2")
+        } else if (testresponse == "two" || testresponse == "2")
         {
             anim.SetTrigger("two");
-        }else if (testresponse == "three"|| testresponse == "3")
+        } else if (testresponse == "three" || testresponse == "3")
         {
             anim.SetTrigger("three");
-        }else if (testresponse == "four"|| testresponse == "4")
+        } else if (testresponse == "four" || testresponse == "4")
         {
             anim.SetTrigger("four");
-        }else if (testresponse == "five"|| testresponse == "5")
+        } else if (testresponse == "five" || testresponse == "5")
         {
             anim.SetTrigger("five");
-        }else if (testresponse == "plus" || testresponse == "+")
+        } else if (testresponse == "plus" || testresponse == "+")
         {
             anim.SetTrigger("plus");
-        }else if (testresponse == "equal")
+        } else if (testresponse == "equal")
         {
             anim.SetTrigger("equal");
         }
