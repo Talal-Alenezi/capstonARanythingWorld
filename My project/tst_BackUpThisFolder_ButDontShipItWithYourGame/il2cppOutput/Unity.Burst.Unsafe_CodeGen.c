@@ -23,21 +23,21 @@
 // 0x00000009 System.Void* Unity.Burst.Unsafe::AsPointer(T&)
 // 0x0000000A System.Int32 Unity.Burst.Unsafe::SizeOf()
 // 0x0000000B System.Void Unity.Burst.Unsafe::CopyBlock(System.Void*,System.Void*,System.UInt32)
-extern void Unsafe_CopyBlock_mEE549E5B722DBA08465F585E64B08C6F0851C63A (void);
+extern void Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28 (void);
 // 0x0000000C System.Void Unity.Burst.Unsafe::CopyBlock(System.Byte&,System.Byte&,System.UInt32)
-extern void Unsafe_CopyBlock_mB2F0061CE4AC8B365EA84000AB91A07EC0688CFB (void);
+extern void Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7 (void);
 // 0x0000000D System.Void Unity.Burst.Unsafe::CopyBlockUnaligned(System.Void*,System.Void*,System.UInt32)
-extern void Unsafe_CopyBlockUnaligned_mA98259D4AD22A90DC7F39A97ECCF621E891613F3 (void);
+extern void Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB (void);
 // 0x0000000E System.Void Unity.Burst.Unsafe::CopyBlockUnaligned(System.Byte&,System.Byte&,System.UInt32)
-extern void Unsafe_CopyBlockUnaligned_m98682FA9FBBC2E6A5D4CD90EAC1D02E4E5F7B1BA (void);
+extern void Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509 (void);
 // 0x0000000F System.Void Unity.Burst.Unsafe::InitBlock(System.Void*,System.Byte,System.UInt32)
-extern void Unsafe_InitBlock_mA585B84FCBCAAC1BB9050AE53969FF1AF0EBD369 (void);
+extern void Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9 (void);
 // 0x00000010 System.Void Unity.Burst.Unsafe::InitBlock(System.Byte&,System.Byte,System.UInt32)
-extern void Unsafe_InitBlock_m9632C2B0D7D0ECC88CA7398C83BE8EBD151E81D9 (void);
+extern void Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A (void);
 // 0x00000011 System.Void Unity.Burst.Unsafe::InitBlockUnaligned(System.Void*,System.Byte,System.UInt32)
-extern void Unsafe_InitBlockUnaligned_m88E390D0E318E19F7680301AD5D3810DE69CD9DE (void);
+extern void Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E (void);
 // 0x00000012 System.Void Unity.Burst.Unsafe::InitBlockUnaligned(System.Byte&,System.Byte,System.UInt32)
-extern void Unsafe_InitBlockUnaligned_m617B4B62CFE8A1E30DE4B9F0AC6BF9CAB113D94A (void);
+extern void Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF (void);
 // 0x00000013 T Unity.Burst.Unsafe::As(System.Object)
 // 0x00000014 T& Unity.Burst.Unsafe::AsRef(System.Void*)
 // 0x00000015 T& Unity.Burst.Unsafe::AsRef(T&)
@@ -71,14 +71,14 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	NULL,
 	NULL,
 	NULL,
-	Unsafe_CopyBlock_mEE549E5B722DBA08465F585E64B08C6F0851C63A,
-	Unsafe_CopyBlock_mB2F0061CE4AC8B365EA84000AB91A07EC0688CFB,
-	Unsafe_CopyBlockUnaligned_mA98259D4AD22A90DC7F39A97ECCF621E891613F3,
-	Unsafe_CopyBlockUnaligned_m98682FA9FBBC2E6A5D4CD90EAC1D02E4E5F7B1BA,
-	Unsafe_InitBlock_mA585B84FCBCAAC1BB9050AE53969FF1AF0EBD369,
-	Unsafe_InitBlock_m9632C2B0D7D0ECC88CA7398C83BE8EBD151E81D9,
-	Unsafe_InitBlockUnaligned_m88E390D0E318E19F7680301AD5D3810DE69CD9DE,
-	Unsafe_InitBlockUnaligned_m617B4B62CFE8A1E30DE4B9F0AC6BF9CAB113D94A,
+	Unsafe_CopyBlock_m275884E0E5269EE20C4FDB816A13EB0A33A5DD28,
+	Unsafe_CopyBlock_mA8175DDFFADA01EFD26E7DC6C1056471691EEDC7,
+	Unsafe_CopyBlockUnaligned_mDC74221DAD22498BB43DABB5102F88D594774FEB,
+	Unsafe_CopyBlockUnaligned_mD13DB0668E061153051CCE10829A29C5D8EB9509,
+	Unsafe_InitBlock_m965E8E4DCB55DB85E260C50DF5BCB4C1AC9E72D9,
+	Unsafe_InitBlock_m22D44609198E040EFDD4B5FCC89DEF7C09EB420A,
+	Unsafe_InitBlockUnaligned_m59F5F56D7AF1385634EA2C8E6DA4ACFCDBA4783E,
+	Unsafe_InitBlockUnaligned_m8FA427864FE9EB5A31AA9672F5C3572782B6D1EF,
 	NULL,
 	NULL,
 	NULL,
@@ -111,14 +111,14 @@ static const int32_t s_InvokerIndices[37] =
 	0,
 	0,
 	0,
-	9049,
-	9049,
-	9049,
-	9049,
-	9054,
-	9054,
-	9054,
-	9054,
+	11379,
+	11379,
+	11379,
+	11379,
+	11384,
+	11384,
+	11384,
+	11384,
 	0,
 	0,
 	0,
@@ -136,8 +136,8 @@ static const int32_t s_InvokerIndices[37] =
 	0,
 	0,
 	0,
-	6939,
-	6939,
+	8784,
+	8784,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[8] = 
 {
@@ -150,24 +150,24 @@ static const Il2CppTokenRangePair s_rgctxIndices[8] =
 	{ 0x0600001D, { 6, 1 } },
 	{ 0x0600001E, { 7, 1 } },
 };
-extern const uint32_t g_rgctx_T_t1FDEFCA0B0E530419C707125EE8E74E3221D3778;
-extern const uint32_t g_rgctx_T_t97B5BE2F3817B8961E8509DF5982D2B810BCE818;
-extern const uint32_t g_rgctx_T_tEEBA3842B319E4DD94173281BA41EA604298A6D8;
-extern const uint32_t g_rgctx_T_t3DF4F371C547F52D537F3A819B23EB9BEC9C55AE;
-extern const uint32_t g_rgctx_T_t0DA05DAAE1602D536B9336ECFD5023C7250185BB;
-extern const uint32_t g_rgctx_T_tD9B75C3A90F5ADAE1D4CB286BF589C64D6F826CF;
-extern const uint32_t g_rgctx_T_t6431A832C0FE9B48DEC156C6F433FD40910285B7;
-extern const uint32_t g_rgctx_T_t3B1E77C02DB4AAB58F90922E3099FF9917049F54;
+extern const uint32_t g_rgctx_T_tEB8D46F97245B882F63326D53230C79015902431;
+extern const uint32_t g_rgctx_T_tF8135FE874E4C4B240ED271807B466F898DA8611;
+extern const uint32_t g_rgctx_T_t027756B82C233E462AF43A21E66F07D4CB86FFAC;
+extern const uint32_t g_rgctx_T_t905589086EA368E81EC0EEA886D17179F42579D0;
+extern const uint32_t g_rgctx_T_t06D93A8452704F60EACE7C67DC38480527E1F631;
+extern const uint32_t g_rgctx_T_t15FA8690674B2D208A84A61A2CB89EC6FEB61625;
+extern const uint32_t g_rgctx_T_tB526FC7BA2695990ECCBF409C7D9E387F74A8B4A;
+extern const uint32_t g_rgctx_T_t19052742042FCDC19A9AF1289F3BD70DFE6C64D2;
 static const Il2CppRGCTXDefinition s_rgctxValues[8] = 
 {
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t1FDEFCA0B0E530419C707125EE8E74E3221D3778 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t97B5BE2F3817B8961E8509DF5982D2B810BCE818 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tEEBA3842B319E4DD94173281BA41EA604298A6D8 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t3DF4F371C547F52D537F3A819B23EB9BEC9C55AE },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t0DA05DAAE1602D536B9336ECFD5023C7250185BB },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tD9B75C3A90F5ADAE1D4CB286BF589C64D6F826CF },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6431A832C0FE9B48DEC156C6F433FD40910285B7 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t3B1E77C02DB4AAB58F90922E3099FF9917049F54 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tEB8D46F97245B882F63326D53230C79015902431 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tF8135FE874E4C4B240ED271807B466F898DA8611 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t027756B82C233E462AF43A21E66F07D4CB86FFAC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t905589086EA368E81EC0EEA886D17179F42579D0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t06D93A8452704F60EACE7C67DC38480527E1F631 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t15FA8690674B2D208A84A61A2CB89EC6FEB61625 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB526FC7BA2695990ECCBF409C7D9E387F74A8B4A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t19052742042FCDC19A9AF1289F3BD70DFE6C64D2 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Burst_Unsafe_CodeGenModule = 

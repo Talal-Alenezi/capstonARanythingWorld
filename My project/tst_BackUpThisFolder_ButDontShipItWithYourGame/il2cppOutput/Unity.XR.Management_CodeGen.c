@@ -29,7 +29,7 @@ extern void XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51
 // 0x00000008 System.Void UnityEngine.XR.Management.XRGeneralSettings::set_Manager(UnityEngine.XR.Management.XRManagerSettings)
 extern void XRGeneralSettings_set_Manager_m8BF44008AF9941A38529BF4E9DD291B519CD3310 (void);
 // 0x00000009 UnityEngine.XR.Management.XRGeneralSettings UnityEngine.XR.Management.XRGeneralSettings::get_Instance()
-extern void XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C (void);
+extern void XRGeneralSettings_get_Instance_mF17EAF521849B0E007AEE3B009727D3DF9EF110F (void);
 // 0x0000000A UnityEngine.XR.Management.XRManagerSettings UnityEngine.XR.Management.XRGeneralSettings::get_AssignedSettings()
 extern void XRGeneralSettings_get_AssignedSettings_mBC55A93C750C07D07C3588D7238FAE6C0D8E005F (void);
 // 0x0000000B System.Boolean UnityEngine.XR.Management.XRGeneralSettings::get_InitManagerOnStart()
@@ -37,15 +37,15 @@ extern void XRGeneralSettings_get_InitManagerOnStart_mA117DE9A4754CC3BA0E7F99FB7
 // 0x0000000C System.Void UnityEngine.XR.Management.XRGeneralSettings::Awake()
 extern void XRGeneralSettings_Awake_mDB501D0A232DAB9D5E56F232CBB9FE5BFA8F5AE2 (void);
 // 0x0000000D System.Void UnityEngine.XR.Management.XRGeneralSettings::Quit()
-extern void XRGeneralSettings_Quit_m1AAD46F067D518F864C13ABD5832559C39540A54 (void);
+extern void XRGeneralSettings_Quit_m3B218691D59E9497B25D79208663313F2BD8FC5E (void);
 // 0x0000000E System.Void UnityEngine.XR.Management.XRGeneralSettings::Start()
 extern void XRGeneralSettings_Start_m191BC7C4C042DB4599D74254F6E62F346F20BDAB (void);
 // 0x0000000F System.Void UnityEngine.XR.Management.XRGeneralSettings::OnDestroy()
 extern void XRGeneralSettings_OnDestroy_mFEE1954662ED788B1A09309573EFA9DE210BEF96 (void);
 // 0x00000010 System.Void UnityEngine.XR.Management.XRGeneralSettings::AttemptInitializeXRSDKOnLoad()
-extern void XRGeneralSettings_AttemptInitializeXRSDKOnLoad_m1905ABBBDC0982AD1AF76D157881215BB66002B7 (void);
+extern void XRGeneralSettings_AttemptInitializeXRSDKOnLoad_m1320598CE38B6D6E727E3B9A3D0866A49971EE42 (void);
 // 0x00000011 System.Void UnityEngine.XR.Management.XRGeneralSettings::AttemptStartXRSDKOnBeforeSplashScreen()
-extern void XRGeneralSettings_AttemptStartXRSDKOnBeforeSplashScreen_m186BDD078384E5494797E213BA9BEE337747DD3A (void);
+extern void XRGeneralSettings_AttemptStartXRSDKOnBeforeSplashScreen_m129F6A2BCCFC1A83D5B203A471094EAA4B0DEB92 (void);
 // 0x00000012 System.Void UnityEngine.XR.Management.XRGeneralSettings::InitXRSDK()
 extern void XRGeneralSettings_InitXRSDK_m29F5580C758C0F617E9A2588AA861DE49E4EC779 (void);
 // 0x00000013 System.Void UnityEngine.XR.Management.XRGeneralSettings::StartXRSDK()
@@ -57,7 +57,7 @@ extern void XRGeneralSettings_DeInitXRSDK_mF101D7A880E1DC4958ADA2388E7140F4DF7B7
 // 0x00000016 System.Void UnityEngine.XR.Management.XRGeneralSettings::.ctor()
 extern void XRGeneralSettings__ctor_m17F368F5DF52B3CF764C69C6A551DC983874CB59 (void);
 // 0x00000017 System.Void UnityEngine.XR.Management.XRGeneralSettings::.cctor()
-extern void XRGeneralSettings__cctor_mA1B586D9E9534249DACCFD9CEA23C69A433F1A44 (void);
+extern void XRGeneralSettings__cctor_mE6379336A7C8BCB83C8A6E74B5AE998086EF81B6 (void);
 // 0x00000018 System.Boolean UnityEngine.XR.Management.XRLoader::Initialize()
 extern void XRLoader_Initialize_mA506BDCDF97BA180CDC5BF1945E29CF3766CA859 (void);
 // 0x00000019 System.Boolean UnityEngine.XR.Management.XRLoader::Start()
@@ -83,7 +83,7 @@ extern void XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E
 // 0x00000027 System.Void UnityEngine.XR.Management.XRLoaderHelper::.ctor()
 extern void XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699 (void);
 // 0x00000028 System.Boolean UnityEngine.XR.Management.XRManagementAnalytics::Initialize()
-extern void XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78 (void);
+extern void XRManagementAnalytics_Initialize_m1FE14275B4B3FD87504D6269FCD0112D8EFEEF78 (void);
 // 0x00000029 System.Boolean UnityEngine.XR.Management.XRManagerSettings::get_automaticLoading()
 extern void XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A (void);
 // 0x0000002A System.Void UnityEngine.XR.Management.XRManagerSettings::set_automaticLoading(System.Boolean)
@@ -159,21 +159,21 @@ static Il2CppMethodPointer s_methodPointers[73] =
 	XRConfigurationDataAttribute__ctor_m644D2F677622C19F3AF0AF72BC355A73A274597D,
 	XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42,
 	XRGeneralSettings_set_Manager_m8BF44008AF9941A38529BF4E9DD291B519CD3310,
-	XRGeneralSettings_get_Instance_m9F222F982E62E066E119754858D8E73CFE42048C,
+	XRGeneralSettings_get_Instance_mF17EAF521849B0E007AEE3B009727D3DF9EF110F,
 	XRGeneralSettings_get_AssignedSettings_mBC55A93C750C07D07C3588D7238FAE6C0D8E005F,
 	XRGeneralSettings_get_InitManagerOnStart_mA117DE9A4754CC3BA0E7F99FB7A593FF5B5B482A,
 	XRGeneralSettings_Awake_mDB501D0A232DAB9D5E56F232CBB9FE5BFA8F5AE2,
-	XRGeneralSettings_Quit_m1AAD46F067D518F864C13ABD5832559C39540A54,
+	XRGeneralSettings_Quit_m3B218691D59E9497B25D79208663313F2BD8FC5E,
 	XRGeneralSettings_Start_m191BC7C4C042DB4599D74254F6E62F346F20BDAB,
 	XRGeneralSettings_OnDestroy_mFEE1954662ED788B1A09309573EFA9DE210BEF96,
-	XRGeneralSettings_AttemptInitializeXRSDKOnLoad_m1905ABBBDC0982AD1AF76D157881215BB66002B7,
-	XRGeneralSettings_AttemptStartXRSDKOnBeforeSplashScreen_m186BDD078384E5494797E213BA9BEE337747DD3A,
+	XRGeneralSettings_AttemptInitializeXRSDKOnLoad_m1320598CE38B6D6E727E3B9A3D0866A49971EE42,
+	XRGeneralSettings_AttemptStartXRSDKOnBeforeSplashScreen_m129F6A2BCCFC1A83D5B203A471094EAA4B0DEB92,
 	XRGeneralSettings_InitXRSDK_m29F5580C758C0F617E9A2588AA861DE49E4EC779,
 	XRGeneralSettings_StartXRSDK_mC2BAC4CF6D76CC4704B9DAC2601FCF8CDB9A9F12,
 	XRGeneralSettings_StopXRSDK_m1ABC0D7F3AB9422CAE5993A1641836CE0DC394A2,
 	XRGeneralSettings_DeInitXRSDK_mF101D7A880E1DC4958ADA2388E7140F4DF7B7EDC,
 	XRGeneralSettings__ctor_m17F368F5DF52B3CF764C69C6A551DC983874CB59,
-	XRGeneralSettings__cctor_mA1B586D9E9534249DACCFD9CEA23C69A433F1A44,
+	XRGeneralSettings__cctor_mE6379336A7C8BCB83C8A6E74B5AE998086EF81B6,
 	XRLoader_Initialize_mA506BDCDF97BA180CDC5BF1945E29CF3766CA859,
 	XRLoader_Start_m8E73CE045F2B7D7BE46C5670C936880DDF380FD1,
 	XRLoader_Stop_m398D1FFBE01D294AD5DFB6DB8D807C1DDEA91C97,
@@ -190,7 +190,7 @@ static Il2CppMethodPointer s_methodPointers[73] =
 	NULL,
 	XRLoaderHelper_Deinitialize_m879052C82795CBA2443070F8206798BED6C0C5E7,
 	XRLoaderHelper__ctor_mEAD9691DBE10C223AB11AB7056ED0B3BA59D7699,
-	XRManagementAnalytics_Initialize_mA0727A2B768833A169E4FBC45B7F6F2A09FAEC78,
+	XRManagementAnalytics_Initialize_m1FE14275B4B3FD87504D6269FCD0112D8EFEEF78,
 	XRManagerSettings_get_automaticLoading_mF28DC51D46409F4D75DCF53E38C8E6B28444B01A,
 	XRManagerSettings_set_automaticLoading_m8F328FA730A8DD8C62D9A8FA8569A2084D530E0E,
 	XRManagerSettings_get_automaticRunning_mE6F4B5875CF9B098B0B20388E77B651EB633D166,
@@ -227,79 +227,79 @@ static Il2CppMethodPointer s_methodPointers[73] =
 };
 static const int32_t s_InvokerIndices[73] = 
 {
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	3019,
-	6806,
-	5473,
-	12423,
-	6806,
-	6696,
-	6939,
-	12473,
-	6939,
-	6939,
-	12473,
-	12473,
-	6939,
-	6939,
-	6939,
-	6939,
-	6939,
-	12473,
-	6696,
-	6696,
-	6696,
-	6696,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	3994,
+	8633,
+	6978,
+	15046,
+	8633,
+	8503,
+	8784,
+	15099,
+	8784,
+	8784,
+	15099,
+	15099,
+	8784,
+	8784,
+	8784,
+	8784,
+	8784,
+	15099,
+	8503,
+	8503,
+	8503,
+	8503,
 	0,
-	4835,
-	6939,
-	0,
-	0,
+	6216,
+	8784,
 	0,
 	0,
 	0,
 	0,
 	0,
-	6696,
-	6939,
-	12388,
-	6696,
-	5364,
-	6696,
-	5364,
-	6806,
-	6806,
-	6696,
-	6806,
-	5473,
 	0,
-	6939,
-	6806,
-	1830,
-	3851,
-	3851,
-	3851,
-	6939,
-	6939,
-	6939,
-	6939,
-	6939,
-	6939,
-	6806,
-	5473,
-	6806,
-	6939,
-	5440,
-	6939,
-	6696,
-	6939,
-	6806,
-	6939,
-	6806,
+	0,
+	8503,
+	8784,
+	15009,
+	8503,
+	6847,
+	8503,
+	6847,
+	8633,
+	8633,
+	8503,
+	8633,
+	6978,
+	0,
+	8784,
+	8633,
+	2511,
+	5004,
+	5004,
+	5004,
+	8784,
+	8784,
+	8784,
+	8784,
+	8784,
+	8784,
+	8633,
+	6978,
+	8633,
+	8784,
+	6935,
+	8784,
+	8503,
+	8784,
+	8633,
+	8784,
+	8633,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[8] = 
 {
@@ -321,7 +321,7 @@ extern const uint32_t g_rgctx_T_t33F97C7A0EC049E81B790F15B06A784991EF2E57;
 extern const uint32_t g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_t5C19882F056170FFBC337AB1996C22F4F3D0087A_m2D10291859C420E98DC9F67E7BC059D94EFB2995;
 extern const uint32_t g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A;
 extern const uint32_t g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A;
-extern const uint32_t g_rgctx_SubsystemManager_GetSubsystemDescriptors_TisTDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_m6D2D3BAC3B2104373E3EF5A7C21C25923929902F;
+extern const uint32_t g_rgctx_SubsystemManager_GetSubsystemDescriptors_TisTDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_m2A8C2AF78157BEF1F626B59D6A480D7809E1A20E;
 extern const uint32_t g_rgctx_List_1_t8C622A547070267F95814ECC4460B2421F6CE5FA;
 extern const uint32_t g_rgctx_List_1_get_Count_mA2FF9BD8129720B95F4DD92EBD1A322AB6ED8D61;
 extern const uint32_t g_rgctx_List_1_GetEnumerator_m34B293E1376FAB46C6EDE95161ABD611CE4F6049;
@@ -347,7 +347,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[24] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_XRLoaderHelper_GetLoadedSubsystem_TisT_t5C19882F056170FFBC337AB1996C22F4F3D0087A_m2D10291859C420E98DC9F67E7BC059D94EFB2995 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A },
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t5C19882F056170FFBC337AB1996C22F4F3D0087A },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_GetSubsystemDescriptors_TisTDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_m6D2D3BAC3B2104373E3EF5A7C21C25923929902F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SubsystemManager_GetSubsystemDescriptors_TisTDescriptor_t2B74798ADF57AC69447766D064ECD0EFD59B49C3_m2A8C2AF78157BEF1F626B59D6A480D7809E1A20E },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t8C622A547070267F95814ECC4460B2421F6CE5FA },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_mA2FF9BD8129720B95F4DD92EBD1A322AB6ED8D61 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_GetEnumerator_m34B293E1376FAB46C6EDE95161ABD611CE4F6049 },

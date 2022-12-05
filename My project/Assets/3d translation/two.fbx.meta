@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: 6d9568e5aecd13c44aac80b7a4404aa6
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -7414347442814847209
+    second: 2
   externalObjects: {}
   materials:
     materialImportMode: 2

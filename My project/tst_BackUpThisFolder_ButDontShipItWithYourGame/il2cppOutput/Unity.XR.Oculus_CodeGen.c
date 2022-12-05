@@ -13,49 +13,49 @@
 
 
 // 0x00000001 System.Void Unity.XR.Oculus.Utils::SetColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4)
-extern void Utils_SetColorScaleAndOffset_m75F70D601D8634D1B8016898EAA699820F738EF2 (void);
+extern void Utils_SetColorScaleAndOffset_mBCF1B16AAE2A720788E10D75CB29AA3A097C48FE (void);
 // 0x00000002 Unity.XR.Oculus.SystemHeadset Unity.XR.Oculus.Utils::GetSystemHeadsetType()
-extern void Utils_GetSystemHeadsetType_m9DA59EDFF28E5445F351BFE0C6574F12E07FDD91 (void);
+extern void Utils_GetSystemHeadsetType_m772BC674D52677149AB8AAE23F51CFA75ADA7FE2 (void);
 // 0x00000003 System.Boolean Unity.XR.Oculus.Utils::SetFoveationLevel(System.Int32)
-extern void Utils_SetFoveationLevel_m133D8F1FA3820637CF3AA54083D54636B85E3644 (void);
+extern void Utils_SetFoveationLevel_mE53287738F0CEB2FFDCA293687DF3A84F6D3FE6B (void);
 // 0x00000004 System.Boolean Unity.XR.Oculus.Utils::EnableDynamicFFR(System.Boolean)
-extern void Utils_EnableDynamicFFR_m1E1AFFB8CBC78A75C3AB9C8EE1D53002E0176B88 (void);
+extern void Utils_EnableDynamicFFR_m347FDDB3406996E62E762263E5356325738AE045 (void);
 // 0x00000005 System.Int32 Unity.XR.Oculus.Utils::GetFoveationLevel()
-extern void Utils_GetFoveationLevel_m33A6944E95E4EC3DDC80216F88064A68F8C12E7B (void);
+extern void Utils_GetFoveationLevel_m4AECAE33089FCE7AAE8ABCA224B63E3DA24A2E42 (void);
 // 0x00000006 System.Void Unity.XR.Oculus.InputFocus::add_InputFocusAcquired(System.Action)
-extern void InputFocus_add_InputFocusAcquired_mA8C7E7D598DD5231B794344BAD8E5A045903ECBB (void);
+extern void InputFocus_add_InputFocusAcquired_m5CD36E7497F9CE17350C428950C12D91436E2CCD (void);
 // 0x00000007 System.Void Unity.XR.Oculus.InputFocus::remove_InputFocusAcquired(System.Action)
-extern void InputFocus_remove_InputFocusAcquired_mCDA79AF7C64903CAC8203CD80695BFFFF41FB1CD (void);
+extern void InputFocus_remove_InputFocusAcquired_m0A73927172E614C9763DF0ADBD73298391177045 (void);
 // 0x00000008 System.Void Unity.XR.Oculus.InputFocus::add_InputFocusLost(System.Action)
-extern void InputFocus_add_InputFocusLost_mA3BAC183DE3A481D20D32439CDE3399CFE0CF6CD (void);
+extern void InputFocus_add_InputFocusLost_m2B3440549F824156867619DA3180FBE76A8AE190 (void);
 // 0x00000009 System.Void Unity.XR.Oculus.InputFocus::remove_InputFocusLost(System.Action)
-extern void InputFocus_remove_InputFocusLost_m0AA42A75AD2BC5B4AAE5DDE93BC9D5FB915B8BAA (void);
+extern void InputFocus_remove_InputFocusLost_m8520D908B784C5042A07F6B8797ABC988EE9C90B (void);
 // 0x0000000A System.Boolean Unity.XR.Oculus.InputFocus::get_hasInputFocus()
-extern void InputFocus_get_hasInputFocus_mB9DD992DB215FF22B842E83C96118736B463A64C (void);
+extern void InputFocus_get_hasInputFocus_m8CB62D564201581EC234AC80FEA79DEF16E2C2F2 (void);
 // 0x0000000B System.Void Unity.XR.Oculus.InputFocus::Update()
-extern void InputFocus_Update_mAA7C0E54D60D5D05EF693009DA4AFE7C63BE044A (void);
+extern void InputFocus_Update_mF5E717737BF081B1D05D01E9D2AC4D32564694F0 (void);
 // 0x0000000C System.Void Unity.XR.Oculus.InputFocus::.ctor()
 extern void InputFocus__ctor_m3FDC5A5ECFC5247C91B39C8EE86F768A28CD1F0E (void);
 // 0x0000000D System.Boolean Unity.XR.Oculus.Boundary::GetBoundaryConfigured()
-extern void Boundary_GetBoundaryConfigured_m7183DA782C7EB580E70B499D8B55BBA226A6B9D6 (void);
+extern void Boundary_GetBoundaryConfigured_mFDFAC988DCAB99E021C5438D274A12D5C08553E9 (void);
 // 0x0000000E System.Boolean Unity.XR.Oculus.Boundary::GetBoundaryDimensions(Unity.XR.Oculus.Boundary/BoundaryType,UnityEngine.Vector3&)
-extern void Boundary_GetBoundaryDimensions_m271019296BCF211170845B68A8A6F93B73C54435 (void);
+extern void Boundary_GetBoundaryDimensions_m81665C07EB3DBA51F14A23368958693EC592D2BA (void);
 // 0x0000000F System.Boolean Unity.XR.Oculus.Boundary::GetBoundaryVisible()
-extern void Boundary_GetBoundaryVisible_m2EFDBAF717B810653962E1B5E0D11ADF5A35C5E4 (void);
+extern void Boundary_GetBoundaryVisible_m2066498A95DCDB13660F7DCE7A7EAD6DE1C781E1 (void);
 // 0x00000010 System.Void Unity.XR.Oculus.Boundary::SetBoundaryVisible(System.Boolean)
-extern void Boundary_SetBoundaryVisible_m49E92EF5DF493A2D8D704A4479383F6A4AB774B7 (void);
+extern void Boundary_SetBoundaryVisible_m550F1A4DDE150D503DE9F7F9014E9070176BEB85 (void);
 // 0x00000011 System.Void Unity.XR.Oculus.Development::TrySetDeveloperMode(System.Boolean)
-extern void Development_TrySetDeveloperMode_m900F2C89D15334020DB39313D6863E90ECD62ABE (void);
+extern void Development_TrySetDeveloperMode_m785765B0E2E5285B35FFF96800DFA606D2EF5E00 (void);
 // 0x00000012 System.Void Unity.XR.Oculus.Development::OverrideDeveloperModeStart()
-extern void Development_OverrideDeveloperModeStart_m7017971A663FEE72864A6D5039091E21DB045C1B (void);
+extern void Development_OverrideDeveloperModeStart_m7F66F18ADB77A7AF047440A70AD8A49321C0CB04 (void);
 // 0x00000013 System.Void Unity.XR.Oculus.Development::OverrideDeveloperModeStop()
-extern void Development_OverrideDeveloperModeStop_m89921E0CCD7DAC487814309D82E5D42288C8BBC4 (void);
+extern void Development_OverrideDeveloperModeStop_m3E1041375863ADAB74ADA1D1CB273E1DECD72862 (void);
 // 0x00000014 System.Void Unity.XR.Oculus.InputLayoutLoader::.cctor()
-extern void InputLayoutLoader__cctor_m583FFAD32786497380B8848BA46F404B61240C30 (void);
+extern void InputLayoutLoader__cctor_mC1DFB91B251A25962EB1AD679D8407A896C119B7 (void);
 // 0x00000015 System.Void Unity.XR.Oculus.InputLayoutLoader::RegisterInputLayouts()
-extern void InputLayoutLoader_RegisterInputLayouts_m1BCF7047F6678BCDCAFD96C28A71430E117087FD (void);
+extern void InputLayoutLoader_RegisterInputLayouts_m65A8E1F7D8D7DB485C9553E8A05273ABA2D9F6F4 (void);
 // 0x00000016 Unity.XR.Oculus.OculusLoader/DeviceSupportedResult Unity.XR.Oculus.OculusLoader::IsDeviceSupported()
-extern void OculusLoader_IsDeviceSupported_m478A97E527F8DA4B6C08459445739C2E9C72C36D (void);
+extern void OculusLoader_IsDeviceSupported_m1B465FD6B781F4EC026AE1591A09A437D451EDCE (void);
 // 0x00000017 UnityEngine.XR.XRDisplaySubsystem Unity.XR.Oculus.OculusLoader::get_displaySubsystem()
 extern void OculusLoader_get_displaySubsystem_mBF36D42BABD9D5DA3ECE4F2D25862BF35C29D4E3 (void);
 // 0x00000018 UnityEngine.XR.XRInputSubsystem Unity.XR.Oculus.OculusLoader::get_inputSubsystem()
@@ -71,7 +71,7 @@ extern void OculusLoader_Stop_mD8C0412877AD12612ED916895FEB52EA4CADB30F (void);
 // 0x0000001D System.Boolean Unity.XR.Oculus.OculusLoader::Deinitialize()
 extern void OculusLoader_Deinitialize_mC164D18317DB38A780AD46B671CAD17830ED9930 (void);
 // 0x0000001E System.Void Unity.XR.Oculus.OculusLoader::RuntimeLoadOVRPlugin()
-extern void OculusLoader_RuntimeLoadOVRPlugin_m32633DD701CFD191697981E7111D34B6DF482ABC (void);
+extern void OculusLoader_RuntimeLoadOVRPlugin_mDE054BB0D71AC9027DDF4E185387D07B41314397 (void);
 // 0x0000001F Unity.XR.Oculus.OculusSettings Unity.XR.Oculus.OculusLoader::GetSettings()
 extern void OculusLoader_GetSettings_m2FA61767F36A8CFB03124EB295A79C7A7F0A863B (void);
 // 0x00000020 System.Boolean Unity.XR.Oculus.OculusLoader::CheckUnityVersionCompatibility()
@@ -79,193 +79,193 @@ extern void OculusLoader_CheckUnityVersionCompatibility_mC211D3EFA35B0E509154B8F
 // 0x00000021 System.Void Unity.XR.Oculus.OculusLoader::.ctor()
 extern void OculusLoader__ctor_m80DAEED59119B8AE0D9F39C2F410CED5AF61007F (void);
 // 0x00000022 System.Void Unity.XR.Oculus.OculusLoader::.cctor()
-extern void OculusLoader__cctor_mCCDC2B69B603B15F29071A77AFB992F4A2535CCB (void);
+extern void OculusLoader__cctor_m7363F3F6C91405E202624170D8F7323317735396 (void);
 // 0x00000023 System.Boolean Unity.XR.Oculus.Performance::TrySetCPULevel(System.Int32)
-extern void Performance_TrySetCPULevel_mC2223CBF9E58F9A73EB88A0562EA2EDBA4ACA21C (void);
+extern void Performance_TrySetCPULevel_m1A67D6E53EB4896D1525018144EEECDECFDC386A (void);
 // 0x00000024 System.Boolean Unity.XR.Oculus.Performance::TrySetGPULevel(System.Int32)
-extern void Performance_TrySetGPULevel_m3700D943DDB328BB060529317E1DBE1261DD8135 (void);
+extern void Performance_TrySetGPULevel_m18A9540555E223D81388DFE70AABE1F22A8E6D12 (void);
 // 0x00000025 System.Boolean Unity.XR.Oculus.Performance::TryGetAvailableDisplayRefreshRates(System.Single[]&)
-extern void Performance_TryGetAvailableDisplayRefreshRates_m10DCEC50ACA2C917984F2FA0AA03D374D8282866 (void);
+extern void Performance_TryGetAvailableDisplayRefreshRates_mDC13DE9810168FBA12B7C035FB47443FE517C112 (void);
 // 0x00000026 System.Boolean Unity.XR.Oculus.Performance::TrySetDisplayRefreshRate(System.Single)
-extern void Performance_TrySetDisplayRefreshRate_m7820F3FE24F801F9A071688EF82E16FCEF404F95 (void);
+extern void Performance_TrySetDisplayRefreshRate_mA986AF6C01393034B30522560FCB9F28319C5FA1 (void);
 // 0x00000027 System.Boolean Unity.XR.Oculus.Performance::TryGetDisplayRefreshRate(System.Single&)
-extern void Performance_TryGetDisplayRefreshRate_m0CCDA416DC24AB8B3171B4DA28DCCD63631323FA (void);
+extern void Performance_TryGetDisplayRefreshRate_m84EB392DE7AD3E0F3A2AD1C79820B44D663D65B2 (void);
 // 0x00000028 System.String Unity.XR.Oculus.Stats::get_PluginVersion()
-extern void Stats_get_PluginVersion_m1C241BBDEE69FFFF57ACEEE42B441C75C34C4EA4 (void);
+extern void Stats_get_PluginVersion_mDE3803AC252EA1119F94F44FF7FF40A6C18EDBD9 (void);
 // 0x00000029 UnityEngine.IntegratedSubsystem Unity.XR.Oculus.Stats::GetOculusDisplaySubsystem()
-extern void Stats_GetOculusDisplaySubsystem_m9A09B8096996A92963F6226D54D2C929819D5829 (void);
+extern void Stats_GetOculusDisplaySubsystem_m5A7F2E9A691742F9FCCE65D4482D06B029ABEB0B (void);
 // 0x0000002A System.Void Unity.XR.Oculus.Stats::.ctor()
 extern void Stats__ctor_m8EE6D4544ED048D96A6679385FFF8EECEA33E08B (void);
 // 0x0000002B System.Void Unity.XR.Oculus.Stats::.cctor()
-extern void Stats__cctor_m579D3FD2DC24D63A3CB0EA4581EE345D412E4C85 (void);
+extern void Stats__cctor_mB9016BAA912519CF0C75E95869592AAC5266A495 (void);
 // 0x0000002C System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_GPUAppTime()
-extern void AdaptivePerformance_get_GPUAppTime_m5D37A5B750FFA0BBD001F399BF6E5528ABFF1BA2 (void);
+extern void AdaptivePerformance_get_GPUAppTime_m3B2D5EC2B01BE289AB996982E1EB84F953E8D591 (void);
 // 0x0000002D System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_GPUCompositorTime()
-extern void AdaptivePerformance_get_GPUCompositorTime_mA8070CCE34B43B3A0B4BEFC4CE4772D1C06521E2 (void);
+extern void AdaptivePerformance_get_GPUCompositorTime_m6AF1B5D2C388C97CEFBEE4A782DB5B3C4F503416 (void);
 // 0x0000002E System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_MotionToPhoton()
-extern void AdaptivePerformance_get_MotionToPhoton_m8CDBEDC36B414C003043DD62A7524037C4C111A2 (void);
+extern void AdaptivePerformance_get_MotionToPhoton_mA1A3C54D12CC1ABB5B182A4BA6E515530097ADD7 (void);
 // 0x0000002F System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_RefreshRate()
-extern void AdaptivePerformance_get_RefreshRate_m6BEC7E148E6996EE4258A0B023DB1887DB04A392 (void);
+extern void AdaptivePerformance_get_RefreshRate_m5BB0DDF21E0BEFD8CC1A1EF43A3D53F841B04F7C (void);
 // 0x00000030 System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_BatteryTemp()
-extern void AdaptivePerformance_get_BatteryTemp_mBFD5ED14346CEE66944507B0CA27E87B952F194F (void);
+extern void AdaptivePerformance_get_BatteryTemp_mF2742285E38C52383733A82A3BA84D51FF9475E2 (void);
 // 0x00000031 System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_BatteryLevel()
-extern void AdaptivePerformance_get_BatteryLevel_m8902BBC7F8A870A702A1182B88C33F4574FA645B (void);
+extern void AdaptivePerformance_get_BatteryLevel_m617DF61FBE36A30C493DEAD5C3CA1C6752A96AB1 (void);
 // 0x00000032 System.Boolean Unity.XR.Oculus.Stats/AdaptivePerformance::get_PowerSavingMode()
-extern void AdaptivePerformance_get_PowerSavingMode_m3934F288CF8E796DE7F8106F7E075D21CB1D55B0 (void);
+extern void AdaptivePerformance_get_PowerSavingMode_mC920BDC1E5A06CF98B93F984CC6FCEAACF0DBBDB (void);
 // 0x00000033 System.Single Unity.XR.Oculus.Stats/AdaptivePerformance::get_AdaptivePerformanceScale()
-extern void AdaptivePerformance_get_AdaptivePerformanceScale_m1B4C297932F8200332FE62A551AC69A6C46B5AAF (void);
+extern void AdaptivePerformance_get_AdaptivePerformanceScale_m6529DDA8BCB8F44BD0AF7903263DCE5309EE0007 (void);
 // 0x00000034 System.Int32 Unity.XR.Oculus.Stats/AdaptivePerformance::get_CPULevel()
-extern void AdaptivePerformance_get_CPULevel_mDDA743A4F819E7E8E954571F0940B8C705EE5F65 (void);
+extern void AdaptivePerformance_get_CPULevel_m3DCD68ABD96FA9D9D39C8C3C7261BC999D626492 (void);
 // 0x00000035 System.Int32 Unity.XR.Oculus.Stats/AdaptivePerformance::get_GPULevel()
-extern void AdaptivePerformance_get_GPULevel_m344115378339731737EAB7847BD0A8358C139962 (void);
+extern void AdaptivePerformance_get_GPULevel_m4BEAF12A43005F89BBFA697C089296D1077C815E (void);
 // 0x00000036 System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_AppCPUTime()
-extern void PerfMetrics_get_AppCPUTime_m606D329458729333566AB3CEC85717F71A6633B4 (void);
+extern void PerfMetrics_get_AppCPUTime_m28D85B7DFAD154064CBEF9DBA6099E9D702FD84D (void);
 // 0x00000037 System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_AppGPUTime()
-extern void PerfMetrics_get_AppGPUTime_mF5A4AE1F88CE0D6D5FDD5CC3A6364475F71DD98A (void);
+extern void PerfMetrics_get_AppGPUTime_m925EFF7AE44FE0166C5A7D2BDD4AA3AEBCBC1DCB (void);
 // 0x00000038 System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_CompositorCPUTime()
-extern void PerfMetrics_get_CompositorCPUTime_mDDF1668CD1BC0657E879DFD4F4898EBEDF9B23F2 (void);
+extern void PerfMetrics_get_CompositorCPUTime_m5B7D7E122B01D222A23F4B3E887841707319EC65 (void);
 // 0x00000039 System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_CompositorGPUTime()
-extern void PerfMetrics_get_CompositorGPUTime_mBF7B62F774F80FB3E7E6D62690AEEDEEE1410E1B (void);
+extern void PerfMetrics_get_CompositorGPUTime_mA94CF5C2D35786F1217F491BB54B028FFA997448 (void);
 // 0x0000003A System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_GPUUtilization()
-extern void PerfMetrics_get_GPUUtilization_m5621AD04B860C5586E1479BE85FDA0FD91908C2C (void);
+extern void PerfMetrics_get_GPUUtilization_m6D6CC3B06B287994F3D8205E56BDEFF6B2CC3C13 (void);
 // 0x0000003B System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_CPUUtilizationAverage()
-extern void PerfMetrics_get_CPUUtilizationAverage_m0CEDE98E0DC04A04723C7DF9D216B67415ED4F12 (void);
+extern void PerfMetrics_get_CPUUtilizationAverage_mCA26A4C31FF5C165D157BC4D590F00AAAB428A29 (void);
 // 0x0000003C System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_CPUUtilizationWorst()
-extern void PerfMetrics_get_CPUUtilizationWorst_mE53AC89C35AD9DA3DC539DB6B6AFB0906DF26B53 (void);
+extern void PerfMetrics_get_CPUUtilizationWorst_mF4796A24D39DBD986678B15259609891A80E562F (void);
 // 0x0000003D System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_CPUClockFrequency()
-extern void PerfMetrics_get_CPUClockFrequency_mA5A4AAF33A303B453FFC7537A1516B55D8B25731 (void);
+extern void PerfMetrics_get_CPUClockFrequency_mB8BB203CB4B17190C6DC88A6E1D3352E1CB4DD47 (void);
 // 0x0000003E System.Single Unity.XR.Oculus.Stats/PerfMetrics::get_GPUClockFrequency()
-extern void PerfMetrics_get_GPUClockFrequency_mB33488C129386D0EF0D15F027FFB3C2A76A40906 (void);
+extern void PerfMetrics_get_GPUClockFrequency_m14A0CEA0F7A1977BBF671E1470320B4691362E0F (void);
 // 0x0000003F System.Void Unity.XR.Oculus.Stats/PerfMetrics::EnablePerfMetrics(System.Boolean)
-extern void PerfMetrics_EnablePerfMetrics_m8BCD93329F3F316FB16CDF61077D28732D4BDA67 (void);
+extern void PerfMetrics_EnablePerfMetrics_mD249F962C4060F3899ED22233F95F72B2DF596A8 (void);
 // 0x00000040 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_AppQueueAheadTime()
-extern void AppMetrics_get_AppQueueAheadTime_m7D7D2E18AF4541D3D96231FEBA0E58EDE0E09F68 (void);
+extern void AppMetrics_get_AppQueueAheadTime_m58343959F0FE6388CC18CBC734C778006ED2B034 (void);
 // 0x00000041 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_AppCPUElapsedTime()
-extern void AppMetrics_get_AppCPUElapsedTime_m2C8258441111F39E4412939EF174893FAD8DBBFB (void);
+extern void AppMetrics_get_AppCPUElapsedTime_mF167FA15C3C2D950654E4ECBAC5BB95E79315930 (void);
 // 0x00000042 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_CompositorDroppedFrames()
-extern void AppMetrics_get_CompositorDroppedFrames_m0282BBDDB0E5FD143212DA2F7E640C19D7175AC5 (void);
+extern void AppMetrics_get_CompositorDroppedFrames_mD99E7780BFCF171326C754A31EBD2BC5AFBEE1C1 (void);
 // 0x00000043 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_CompositorLatency()
-extern void AppMetrics_get_CompositorLatency_mFAF066A98B7BA03541C44C4C3C892A5428AEF2F8 (void);
+extern void AppMetrics_get_CompositorLatency_mDC2952E3864F2BA367FC80466563B73D3DEF6181 (void);
 // 0x00000044 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_CompositorCPUTime()
-extern void AppMetrics_get_CompositorCPUTime_mC0F68748285040FEADE7EAFF7C67AA761B5E5955 (void);
+extern void AppMetrics_get_CompositorCPUTime_m19EBA6AD7F096EA01331C106CA3F776468FB9DF7 (void);
 // 0x00000045 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_CPUStartToGPUEnd()
-extern void AppMetrics_get_CPUStartToGPUEnd_mCD1DE2D96D31248BB067EEFE21B04B0B6E1719EA (void);
+extern void AppMetrics_get_CPUStartToGPUEnd_m656EF39126FA6DA1320C90792A946AAF4E00CE4E (void);
 // 0x00000046 System.Single Unity.XR.Oculus.Stats/AppMetrics::get_GPUEndToVsync()
-extern void AppMetrics_get_GPUEndToVsync_m592455C4344DEFD7EA676D4481EE9A504E5E0907 (void);
+extern void AppMetrics_get_GPUEndToVsync_m25EA0C53CDA56685525D9786BD65E0E41D931F56 (void);
 // 0x00000047 System.Void Unity.XR.Oculus.Stats/AppMetrics::EnableAppMetrics(System.Boolean)
-extern void AppMetrics_EnableAppMetrics_mA48C5AD3B0A5D4A1CAA45A3DF5C4623536ACF9B4 (void);
+extern void AppMetrics_EnableAppMetrics_mF7F5E280BECF6A354040E91DCC4B90D44708F8A6 (void);
 // 0x00000048 System.Void Unity.XR.Oculus.NativeMethods::SetColorScale(System.Single,System.Single,System.Single,System.Single)
-extern void NativeMethods_SetColorScale_m71466C371AE4D8AE0393FCA19BCB93DFF87FCF9B (void);
+extern void NativeMethods_SetColorScale_m1C8DF141B1784FA737E3AA5A62AEE0D3F3BC480E (void);
 // 0x00000049 System.Void Unity.XR.Oculus.NativeMethods::SetColorOffset(System.Single,System.Single,System.Single,System.Single)
-extern void NativeMethods_SetColorOffset_m708A9D66EF8DBDDBD1DB4F5FFCC572F007742BF8 (void);
+extern void NativeMethods_SetColorOffset_m1F08E1EB6CCD8D77726FA473328C3936C6A5800A (void);
 // 0x0000004A System.Boolean Unity.XR.Oculus.NativeMethods::GetIsSupportedDevice()
-extern void NativeMethods_GetIsSupportedDevice_m336DCB5F80772C6F89CBF1CA7122EDC4C35D78D4 (void);
+extern void NativeMethods_GetIsSupportedDevice_mF9F435A347218EF642A3C7C770151F9A4758BBCB (void);
 // 0x0000004B System.Boolean Unity.XR.Oculus.NativeMethods::LoadOVRPlugin(System.String)
-extern void NativeMethods_LoadOVRPlugin_mE7DA65BF795C1E1E7DB69B59793C413556875F7F (void);
+extern void NativeMethods_LoadOVRPlugin_mAD776BE0CE1A3C7FC318567179EC0D4F83AE3DCD (void);
 // 0x0000004C System.Void Unity.XR.Oculus.NativeMethods::UnloadOVRPlugin()
-extern void NativeMethods_UnloadOVRPlugin_m38401A33540C13466A3F9073B42AB7ADCDD2B34E (void);
+extern void NativeMethods_UnloadOVRPlugin_m76EDAB4F61FDEF92E545D4C3957FB7DA4D170512 (void);
 // 0x0000004D System.Void Unity.XR.Oculus.NativeMethods::SetUserDefinedSettings(Unity.XR.Oculus.NativeMethods/UserDefinedSettings)
-extern void NativeMethods_SetUserDefinedSettings_m42FD3CA27980B25D9C638E3AC876749FBB23CBA6 (void);
+extern void NativeMethods_SetUserDefinedSettings_m8F63140EA513FAC3AA59EF03F9BA7B8D76BAA70F (void);
 // 0x0000004E System.Void Unity.XR.Oculus.NativeMethods::SetHasUserAuthorizedEyeTrackingPermission(System.Boolean)
-extern void NativeMethods_SetHasUserAuthorizedEyeTrackingPermission_mC35B88244AA80A2CA74022E853A6D94CF10C4ACA (void);
+extern void NativeMethods_SetHasUserAuthorizedEyeTrackingPermission_m9251C6251FC7C33C680818D062F3E1A8F15E63F7 (void);
 // 0x0000004F System.Int32 Unity.XR.Oculus.NativeMethods::SetCPULevel(System.Int32)
-extern void NativeMethods_SetCPULevel_mC41C8161E7E18D20F81200D55D9E753E9C945DEF (void);
+extern void NativeMethods_SetCPULevel_m1FA232841B113C4513A510187B153C77C5E24A9D (void);
 // 0x00000050 System.Int32 Unity.XR.Oculus.NativeMethods::SetGPULevel(System.Int32)
-extern void NativeMethods_SetGPULevel_m2AC7CFBE5A721004B00E1584236A864BBF65EB3F (void);
+extern void NativeMethods_SetGPULevel_m76F42DD51A3F0BB1833FF28956D0C496DB16D132 (void);
 // 0x00000051 System.Void Unity.XR.Oculus.NativeMethods::GetOVRPVersion(System.Byte[])
-extern void NativeMethods_GetOVRPVersion_m38823D86CD59C69E62D5835B798C1E1BAAF696BA (void);
+extern void NativeMethods_GetOVRPVersion_m9339E90D18E151143160AA02069A532107A63083 (void);
 // 0x00000052 System.Void Unity.XR.Oculus.NativeMethods::EnablePerfMetrics(System.Boolean)
-extern void NativeMethods_EnablePerfMetrics_m0701876E6E45D0BFEB5D2695338AD29090AAAC5C (void);
+extern void NativeMethods_EnablePerfMetrics_m2492CAAFD94EB682B5F5EC9199941BAEBC7C672B (void);
 // 0x00000053 System.Void Unity.XR.Oculus.NativeMethods::EnableAppMetrics(System.Boolean)
-extern void NativeMethods_EnableAppMetrics_m2B18E67E20FD049593C2A332FB34E9AB9558B719 (void);
+extern void NativeMethods_EnableAppMetrics_m1E09D2B7FEA3C91CC269F8B2C2A3D1774BDA3587 (void);
 // 0x00000054 System.Boolean Unity.XR.Oculus.NativeMethods::SetDeveloperModeStrict(System.Boolean)
-extern void NativeMethods_SetDeveloperModeStrict_mDD7A7FF224AC714D8D8C265C2E1452DB0AE653C8 (void);
+extern void NativeMethods_SetDeveloperModeStrict_m02A0EC7138B986A79917C05F817CF75DE804D058 (void);
 // 0x00000055 System.Boolean Unity.XR.Oculus.NativeMethods::GetHasInputFocus()
-extern void NativeMethods_GetHasInputFocus_m1257051A904A1CD9F07C962F059E01223F14DF1B (void);
+extern void NativeMethods_GetHasInputFocus_m469FAFAF42C3F421244F4F9A09BDA10F79AECF43 (void);
 // 0x00000056 System.Boolean Unity.XR.Oculus.NativeMethods::GetBoundaryConfigured()
-extern void NativeMethods_GetBoundaryConfigured_m4010CCBA97D29852557408736FCE53C8A3CB6C9F (void);
+extern void NativeMethods_GetBoundaryConfigured_mA46B7F80EB13EA0E683C6ECD401EBEBBE16D79F5 (void);
 // 0x00000057 System.Boolean Unity.XR.Oculus.NativeMethods::GetBoundaryDimensions(Unity.XR.Oculus.Boundary/BoundaryType,UnityEngine.Vector3&)
-extern void NativeMethods_GetBoundaryDimensions_m2C4E14BF8B564D95BA1FD6D7F6BB3CDC68A368CD (void);
+extern void NativeMethods_GetBoundaryDimensions_m0BAE0666700C9FA278A3E767F216E46734FFF8F4 (void);
 // 0x00000058 System.Boolean Unity.XR.Oculus.NativeMethods::GetBoundaryVisible()
-extern void NativeMethods_GetBoundaryVisible_m68BB43585F6289250D59230FF61F4411537D169C (void);
+extern void NativeMethods_GetBoundaryVisible_m01035E70C07620D93EFEA287310C2BD1F8922F83 (void);
 // 0x00000059 System.Void Unity.XR.Oculus.NativeMethods::SetBoundaryVisible(System.Boolean)
-extern void NativeMethods_SetBoundaryVisible_m8281A6859FEE7659C63C644B9C37245D187FAC8F (void);
+extern void NativeMethods_SetBoundaryVisible_m36857FFC348678CB742169E1D270DA3CAC5C52E1 (void);
 // 0x0000005A System.Boolean Unity.XR.Oculus.NativeMethods::GetAppShouldQuit()
-extern void NativeMethods_GetAppShouldQuit_mF7D33F7306C09A47EEE51C3B5569497A2BA0031B (void);
+extern void NativeMethods_GetAppShouldQuit_m8B8CE94E700636ED76D7E2A38B6B65E5EB77CAE9 (void);
 // 0x0000005B System.Boolean Unity.XR.Oculus.NativeMethods::GetDisplayAvailableFrequencies(System.IntPtr,System.Int32&)
-extern void NativeMethods_GetDisplayAvailableFrequencies_m7A3461EECCFE5AAFE6EA83A486D7DA8313098EEF (void);
+extern void NativeMethods_GetDisplayAvailableFrequencies_m5CBDC394EDB259D1FCD2525AD4EDE1C546F1342B (void);
 // 0x0000005C System.Boolean Unity.XR.Oculus.NativeMethods::SetDisplayFrequency(System.Single)
-extern void NativeMethods_SetDisplayFrequency_m1EF40C70A0CFA32EB0D5426681C13177C496F03F (void);
+extern void NativeMethods_SetDisplayFrequency_mE671959DC912251A8114C9B2B96D3E6C0238427C (void);
 // 0x0000005D System.Boolean Unity.XR.Oculus.NativeMethods::GetDisplayFrequency(System.Single&)
-extern void NativeMethods_GetDisplayFrequency_mB096687577976716563167FA72DD77F669A18C65 (void);
+extern void NativeMethods_GetDisplayFrequency_mEA796C5C77BB7F2E317D52A9582A7B2D3446DA8E (void);
 // 0x0000005E Unity.XR.Oculus.SystemHeadset Unity.XR.Oculus.NativeMethods::GetSystemHeadsetType()
-extern void NativeMethods_GetSystemHeadsetType_mD18D6819F35C667E7E150E538A884850C6E89A4E (void);
+extern void NativeMethods_GetSystemHeadsetType_m02F548DEC426D8D49F5E5997E77CF44DD323EC55 (void);
 // 0x0000005F System.Boolean Unity.XR.Oculus.NativeMethods::GetTiledMultiResSupported()
-extern void NativeMethods_GetTiledMultiResSupported_mBEFDE3CDA036B5D2B2FADCCCC791C6035E711970 (void);
+extern void NativeMethods_GetTiledMultiResSupported_m2610D600FFCD16AAD67F58619F7B0DEB4A18BACD (void);
 // 0x00000060 System.Void Unity.XR.Oculus.NativeMethods::SetTiledMultiResLevel(System.Int32)
-extern void NativeMethods_SetTiledMultiResLevel_mAA62ED9D93CA810457DE6B4E90DD27B877739D7B (void);
+extern void NativeMethods_SetTiledMultiResLevel_m354B87BBBA193EE0F9207AA88B55651E30911445 (void);
 // 0x00000061 System.Int32 Unity.XR.Oculus.NativeMethods::GetTiledMultiResLevel()
-extern void NativeMethods_GetTiledMultiResLevel_mA712F64DAA92C2D399980A48ABFE282E92887012 (void);
+extern void NativeMethods_GetTiledMultiResLevel_mFF9B2C5A8AD509F19919A2448A65AF2B9F9A81EB (void);
 // 0x00000062 System.Void Unity.XR.Oculus.NativeMethods::SetTiledMultiResDynamic(System.Boolean)
-extern void NativeMethods_SetTiledMultiResDynamic_m8FC41964A4A054ADC21137FDD47C03248139FA05 (void);
+extern void NativeMethods_SetTiledMultiResDynamic_m0861F0D2D18A7514EE5A152403A54B473A5551EC (void);
 // 0x00000063 System.Boolean Unity.XR.Oculus.NativeMethods::GetEyeTrackedFoveatedRenderingSupported()
-extern void NativeMethods_GetEyeTrackedFoveatedRenderingSupported_m7017B3CE2D6DE03700864069DECC810199A2C9E0 (void);
+extern void NativeMethods_GetEyeTrackedFoveatedRenderingSupported_mF88B7D8DB3BA8951A72A90F09E7977F99940F57A (void);
 // 0x00000064 System.Void Unity.XR.Oculus.NativeMethods/Internal::SetColorScale(System.Single,System.Single,System.Single,System.Single)
-extern void Internal_SetColorScale_m0CF78314E44A665ECFD2F23F091AF8698EF671A5 (void);
+extern void Internal_SetColorScale_mAC28727FE6D4F2F3660EFDF7F50982F802C8CB64 (void);
 // 0x00000065 System.Void Unity.XR.Oculus.NativeMethods/Internal::SetColorOffset(System.Single,System.Single,System.Single,System.Single)
-extern void Internal_SetColorOffset_mB2961D46D55669467F0C3DEEAD4502F28248E984 (void);
+extern void Internal_SetColorOffset_m5CDD31B7F5E522310170F5A8ACBE479E62DE0A10 (void);
 // 0x00000066 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetIsSupportedDevice()
-extern void Internal_GetIsSupportedDevice_m737F888EF5B63C9A5205B97FC0555CBED941568E (void);
+extern void Internal_GetIsSupportedDevice_m7530D527AEB2CE8A0F7B6F11238AC8FBF48C7BAF (void);
 // 0x00000067 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::LoadOVRPlugin(System.String)
-extern void Internal_LoadOVRPlugin_m9C05A911848136E203C79089AB828E9F8B094BA8 (void);
+extern void Internal_LoadOVRPlugin_m3F6E66D68CD709C8F8745013B2D924078BF3BA77 (void);
 // 0x00000068 System.Void Unity.XR.Oculus.NativeMethods/Internal::UnloadOVRPlugin()
-extern void Internal_UnloadOVRPlugin_mADAC9DD8335CFB22730ECF073A49BC8C89562613 (void);
+extern void Internal_UnloadOVRPlugin_m69974222D7D37522D4AFB7FF0037EC6E52E7B3AD (void);
 // 0x00000069 System.Void Unity.XR.Oculus.NativeMethods/Internal::SetUserDefinedSettings(Unity.XR.Oculus.NativeMethods/UserDefinedSettings)
-extern void Internal_SetUserDefinedSettings_mFB3E779348369441A2822EAEB2D45F728C5C1BEC (void);
+extern void Internal_SetUserDefinedSettings_mC5F760CAF91842559E576F638FC31777B4BB909E (void);
 // 0x0000006A System.Void Unity.XR.Oculus.NativeMethods/Internal::SetHasUserAuthorizedEyeTrackingPermission(System.Boolean)
-extern void Internal_SetHasUserAuthorizedEyeTrackingPermission_m4C206014E71D2A988E9E7D8848EA7F4B10D144F8 (void);
+extern void Internal_SetHasUserAuthorizedEyeTrackingPermission_m185B5180942436DFC7C87C2FAEBB00283620BBBC (void);
 // 0x0000006B System.Int32 Unity.XR.Oculus.NativeMethods/Internal::SetCPULevel(System.Int32)
-extern void Internal_SetCPULevel_m50846DBC8F018A48D7E85322474C7ABC1294CA27 (void);
+extern void Internal_SetCPULevel_mE16D6B1120B73B881A87B3B8E82F91F4B4DC3F00 (void);
 // 0x0000006C System.Int32 Unity.XR.Oculus.NativeMethods/Internal::SetGPULevel(System.Int32)
-extern void Internal_SetGPULevel_m37B7AB9351972BD300DC4082CBD7BD9B3ED0E7E8 (void);
+extern void Internal_SetGPULevel_m81B4173CC0AA6E1CF71EE796F4D94732AE239353 (void);
 // 0x0000006D System.Void Unity.XR.Oculus.NativeMethods/Internal::GetOVRPVersion(System.Byte[])
-extern void Internal_GetOVRPVersion_m0520E7DF32DAF9849741C5021281EE5E08648E5B (void);
+extern void Internal_GetOVRPVersion_mB754554431E4660FBF909672068E75CA35CC134D (void);
 // 0x0000006E System.Void Unity.XR.Oculus.NativeMethods/Internal::EnablePerfMetrics(System.Boolean)
-extern void Internal_EnablePerfMetrics_mA09098817AD178FB7866F322161AA2E96A0D9443 (void);
+extern void Internal_EnablePerfMetrics_m90D95D613CA9DFF5A025354FEE9605D82A149EAC (void);
 // 0x0000006F System.Void Unity.XR.Oculus.NativeMethods/Internal::EnableAppMetrics(System.Boolean)
-extern void Internal_EnableAppMetrics_m1BA9E761EE232812C41F2768308D2E6BA559965C (void);
+extern void Internal_EnableAppMetrics_m37D2C8164A1F6D665A8B917935BC2600ECC2A6E3 (void);
 // 0x00000070 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::SetDeveloperModeStrict(System.Boolean)
-extern void Internal_SetDeveloperModeStrict_m0A501B72BA2BFBB119B94006225C227206A631C1 (void);
+extern void Internal_SetDeveloperModeStrict_mC178DAA59C11333268F6D2DD6D4BBEB6A28FD5F6 (void);
 // 0x00000071 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetAppHasInputFocus()
-extern void Internal_GetAppHasInputFocus_m0569830C6EDC013793FE3C523FBA23517DB07A0B (void);
+extern void Internal_GetAppHasInputFocus_mC460DF4EFE848C75E477A0228E62C5955884A0BC (void);
 // 0x00000072 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetBoundaryConfigured()
-extern void Internal_GetBoundaryConfigured_m449078868F8DECD125BEBA07D1D1D7EB9766E9AF (void);
+extern void Internal_GetBoundaryConfigured_m77C40D747EA6D194F0029B6597074794875775C9 (void);
 // 0x00000073 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetBoundaryDimensions(Unity.XR.Oculus.Boundary/BoundaryType,UnityEngine.Vector3&)
-extern void Internal_GetBoundaryDimensions_mAE3195FBFDE6A3213BA8748376FB0F8B7554754B (void);
+extern void Internal_GetBoundaryDimensions_m5486CDCCE00FA1D4A3DE95CEBBC81D62797EA586 (void);
 // 0x00000074 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetBoundaryVisible()
-extern void Internal_GetBoundaryVisible_mCD829BA8761743E005786D1B6BE9345F01A6CF3F (void);
+extern void Internal_GetBoundaryVisible_m0C5B2309AD11933284B47229B990E760D7CD2904 (void);
 // 0x00000075 System.Void Unity.XR.Oculus.NativeMethods/Internal::SetBoundaryVisible(System.Boolean)
-extern void Internal_SetBoundaryVisible_mD04D1930919267DE52554242A2AA7B3D9955E193 (void);
+extern void Internal_SetBoundaryVisible_m9D7D102E67AFF73DE524274DF5AB06ABC6B725B9 (void);
 // 0x00000076 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetAppShouldQuit()
-extern void Internal_GetAppShouldQuit_m969E969C8CB61307597152EAFAA9251E145B48E2 (void);
+extern void Internal_GetAppShouldQuit_mFE5F2F0047FE03890E797254F8F04E9D2FC169B2 (void);
 // 0x00000077 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetDisplayAvailableFrequencies(System.IntPtr,System.Int32&)
-extern void Internal_GetDisplayAvailableFrequencies_m265CF48B6D6244BD5999ED28F4417922A3964BCC (void);
+extern void Internal_GetDisplayAvailableFrequencies_mD87B2B99F82E2A7C8E948F4460DDD94FD1F5DA5A (void);
 // 0x00000078 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::SetDisplayFrequency(System.Single)
-extern void Internal_SetDisplayFrequency_m6E8BE138EDF3AD30421E8A299597827A81F86804 (void);
+extern void Internal_SetDisplayFrequency_mF380F22E7D7A1873F5E5D7B59B8C471BE8B40996 (void);
 // 0x00000079 System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetDisplayFrequency(System.Single&)
-extern void Internal_GetDisplayFrequency_mF645008727871526DAE4877348FD48E0AEFE6316 (void);
+extern void Internal_GetDisplayFrequency_m06B03F1EBE989260CC9266D8ECC9E4BB6211C105 (void);
 // 0x0000007A Unity.XR.Oculus.SystemHeadset Unity.XR.Oculus.NativeMethods/Internal::GetSystemHeadsetType()
-extern void Internal_GetSystemHeadsetType_m0901C44C3A772A62308D273AA37CF55BA6CEE646 (void);
+extern void Internal_GetSystemHeadsetType_m86982DAC1289E79F74B3A60F86CF03ACA1B4AA3D (void);
 // 0x0000007B System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetTiledMultiResSupported()
-extern void Internal_GetTiledMultiResSupported_m7A36253D53F4DA8D56E1EFA242457D3771220FBF (void);
+extern void Internal_GetTiledMultiResSupported_m2638793145460B0A2EFAF01E25EDD8D14B92B037 (void);
 // 0x0000007C System.Void Unity.XR.Oculus.NativeMethods/Internal::SetTiledMultiResLevel(System.Int32)
-extern void Internal_SetTiledMultiResLevel_m59849D5EF74DE2C7F25813486E3ED47C947F15C3 (void);
+extern void Internal_SetTiledMultiResLevel_m7638F3D237E542D9E4A511F8A3404F839AA267C2 (void);
 // 0x0000007D System.Int32 Unity.XR.Oculus.NativeMethods/Internal::GetTiledMultiResLevel()
-extern void Internal_GetTiledMultiResLevel_mC95B03E83E572C960C79746554C070E91A43F8BC (void);
+extern void Internal_GetTiledMultiResLevel_m3119A41A3BE276ED922F58E8C1FD5597A0C717C4 (void);
 // 0x0000007E System.Void Unity.XR.Oculus.NativeMethods/Internal::SetTiledMultiResDynamic(System.Boolean)
-extern void Internal_SetTiledMultiResDynamic_m92E2C4C0C862B7A30582EE5B96006FFE3367D658 (void);
+extern void Internal_SetTiledMultiResDynamic_m65F3A091532C0D2877789AF1D4E01F9B7D522302 (void);
 // 0x0000007F System.Boolean Unity.XR.Oculus.NativeMethods/Internal::GetEyeTrackedFoveatedRenderingSupported()
-extern void Internal_GetEyeTrackedFoveatedRenderingSupported_mA2F9106F5BD6571BB7D19D2FFDF61EF36D33F0E5 (void);
+extern void Internal_GetEyeTrackedFoveatedRenderingSupported_m7F4A3E1F40C329D5C5E40B4DB459BE9218868CD6 (void);
 // 0x00000080 System.UInt16 Unity.XR.Oculus.OculusSettings::GetStereoRenderingMode()
 extern void OculusSettings_GetStereoRenderingMode_mE9C6ABC56B9EDEB3BE5599B091BB6699429BB6BD (void);
 // 0x00000081 System.Void Unity.XR.Oculus.OculusSettings::Awake()
@@ -273,13 +273,13 @@ extern void OculusSettings_Awake_m6206BE150DEB602C65EEF7C255DE3BA17FB1452E (void
 // 0x00000082 System.Void Unity.XR.Oculus.OculusSettings::.ctor()
 extern void OculusSettings__ctor_m2A441A38D66B2B4538A2CE744BCFD3283910F324 (void);
 // 0x00000083 System.Void Unity.XR.Oculus.OculusUsages::.cctor()
-extern void OculusUsages__cctor_m7024A4EF41067C41E2C7F24147CBBB7684B11E6C (void);
+extern void OculusUsages__cctor_m3BC2BDB6198C21AF208C5DD0C8A59C5A2D8E7129 (void);
 // 0x00000084 System.Void Unity.XR.Oculus.RegisterUpdateCallback::Initialize()
-extern void RegisterUpdateCallback_Initialize_m0256D76B69C444418E9E394DD280C4D54F122BC5 (void);
+extern void RegisterUpdateCallback_Initialize_m041B05AB55DFBFA8F93BF453AB89A68C5DD2FFE6 (void);
 // 0x00000085 System.Void Unity.XR.Oculus.RegisterUpdateCallback::Deinitialize()
-extern void RegisterUpdateCallback_Deinitialize_m3826762052F507B9B18E62483D8341495B5EEA13 (void);
+extern void RegisterUpdateCallback_Deinitialize_m8AE7F6714C9AA27ECAF8DF1C48B771DABBC292D4 (void);
 // 0x00000086 System.Void Unity.XR.Oculus.RegisterUpdateCallback::Update()
-extern void RegisterUpdateCallback_Update_m782D01D846D30720A9212BC883A3602D5B5B5958 (void);
+extern void RegisterUpdateCallback_Update_mD7B551FC22C28DA0808C540C95B2B401497D84CF (void);
 // 0x00000087 UnityEngine.InputSystem.Controls.ButtonControl Unity.XR.Oculus.Input.OculusHMD::get_userPresence()
 extern void OculusHMD_get_userPresence_m3F99F25C0301EFEB5E0EC4FE65B3247F6A9D1BF2 (void);
 // 0x00000088 System.Void Unity.XR.Oculus.Input.OculusHMD::set_userPresence(UnityEngine.InputSystem.Controls.ButtonControl)
@@ -572,28 +572,28 @@ extern void GearVRTrackedController_FinishSetup_m4F2A16D981EDF0CA9C9D77E0B9DB774
 extern void GearVRTrackedController__ctor_m9720D55C758ECEBA40D4805C6C5CC081D47D903B (void);
 static Il2CppMethodPointer s_methodPointers[279] = 
 {
-	Utils_SetColorScaleAndOffset_m75F70D601D8634D1B8016898EAA699820F738EF2,
-	Utils_GetSystemHeadsetType_m9DA59EDFF28E5445F351BFE0C6574F12E07FDD91,
-	Utils_SetFoveationLevel_m133D8F1FA3820637CF3AA54083D54636B85E3644,
-	Utils_EnableDynamicFFR_m1E1AFFB8CBC78A75C3AB9C8EE1D53002E0176B88,
-	Utils_GetFoveationLevel_m33A6944E95E4EC3DDC80216F88064A68F8C12E7B,
-	InputFocus_add_InputFocusAcquired_mA8C7E7D598DD5231B794344BAD8E5A045903ECBB,
-	InputFocus_remove_InputFocusAcquired_mCDA79AF7C64903CAC8203CD80695BFFFF41FB1CD,
-	InputFocus_add_InputFocusLost_mA3BAC183DE3A481D20D32439CDE3399CFE0CF6CD,
-	InputFocus_remove_InputFocusLost_m0AA42A75AD2BC5B4AAE5DDE93BC9D5FB915B8BAA,
-	InputFocus_get_hasInputFocus_mB9DD992DB215FF22B842E83C96118736B463A64C,
-	InputFocus_Update_mAA7C0E54D60D5D05EF693009DA4AFE7C63BE044A,
+	Utils_SetColorScaleAndOffset_mBCF1B16AAE2A720788E10D75CB29AA3A097C48FE,
+	Utils_GetSystemHeadsetType_m772BC674D52677149AB8AAE23F51CFA75ADA7FE2,
+	Utils_SetFoveationLevel_mE53287738F0CEB2FFDCA293687DF3A84F6D3FE6B,
+	Utils_EnableDynamicFFR_m347FDDB3406996E62E762263E5356325738AE045,
+	Utils_GetFoveationLevel_m4AECAE33089FCE7AAE8ABCA224B63E3DA24A2E42,
+	InputFocus_add_InputFocusAcquired_m5CD36E7497F9CE17350C428950C12D91436E2CCD,
+	InputFocus_remove_InputFocusAcquired_m0A73927172E614C9763DF0ADBD73298391177045,
+	InputFocus_add_InputFocusLost_m2B3440549F824156867619DA3180FBE76A8AE190,
+	InputFocus_remove_InputFocusLost_m8520D908B784C5042A07F6B8797ABC988EE9C90B,
+	InputFocus_get_hasInputFocus_m8CB62D564201581EC234AC80FEA79DEF16E2C2F2,
+	InputFocus_Update_mF5E717737BF081B1D05D01E9D2AC4D32564694F0,
 	InputFocus__ctor_m3FDC5A5ECFC5247C91B39C8EE86F768A28CD1F0E,
-	Boundary_GetBoundaryConfigured_m7183DA782C7EB580E70B499D8B55BBA226A6B9D6,
-	Boundary_GetBoundaryDimensions_m271019296BCF211170845B68A8A6F93B73C54435,
-	Boundary_GetBoundaryVisible_m2EFDBAF717B810653962E1B5E0D11ADF5A35C5E4,
-	Boundary_SetBoundaryVisible_m49E92EF5DF493A2D8D704A4479383F6A4AB774B7,
-	Development_TrySetDeveloperMode_m900F2C89D15334020DB39313D6863E90ECD62ABE,
-	Development_OverrideDeveloperModeStart_m7017971A663FEE72864A6D5039091E21DB045C1B,
-	Development_OverrideDeveloperModeStop_m89921E0CCD7DAC487814309D82E5D42288C8BBC4,
-	InputLayoutLoader__cctor_m583FFAD32786497380B8848BA46F404B61240C30,
-	InputLayoutLoader_RegisterInputLayouts_m1BCF7047F6678BCDCAFD96C28A71430E117087FD,
-	OculusLoader_IsDeviceSupported_m478A97E527F8DA4B6C08459445739C2E9C72C36D,
+	Boundary_GetBoundaryConfigured_mFDFAC988DCAB99E021C5438D274A12D5C08553E9,
+	Boundary_GetBoundaryDimensions_m81665C07EB3DBA51F14A23368958693EC592D2BA,
+	Boundary_GetBoundaryVisible_m2066498A95DCDB13660F7DCE7A7EAD6DE1C781E1,
+	Boundary_SetBoundaryVisible_m550F1A4DDE150D503DE9F7F9014E9070176BEB85,
+	Development_TrySetDeveloperMode_m785765B0E2E5285B35FFF96800DFA606D2EF5E00,
+	Development_OverrideDeveloperModeStart_m7F66F18ADB77A7AF047440A70AD8A49321C0CB04,
+	Development_OverrideDeveloperModeStop_m3E1041375863ADAB74ADA1D1CB273E1DECD72862,
+	InputLayoutLoader__cctor_mC1DFB91B251A25962EB1AD679D8407A896C119B7,
+	InputLayoutLoader_RegisterInputLayouts_m65A8E1F7D8D7DB485C9553E8A05273ABA2D9F6F4,
+	OculusLoader_IsDeviceSupported_m1B465FD6B781F4EC026AE1591A09A437D451EDCE,
 	OculusLoader_get_displaySubsystem_mBF36D42BABD9D5DA3ECE4F2D25862BF35C29D4E3,
 	OculusLoader_get_inputSubsystem_m3690AE48575D2196C79757CE5F21C96F1A0963B2,
 	OculusLoader_Initialize_mDEFC017849247485E672462C30068D016613B08A,
@@ -601,111 +601,111 @@ static Il2CppMethodPointer s_methodPointers[279] =
 	OculusLoader_Start_m0FBB6E2DE04857565E8B5E09165D380E24DBCCBE,
 	OculusLoader_Stop_mD8C0412877AD12612ED916895FEB52EA4CADB30F,
 	OculusLoader_Deinitialize_mC164D18317DB38A780AD46B671CAD17830ED9930,
-	OculusLoader_RuntimeLoadOVRPlugin_m32633DD701CFD191697981E7111D34B6DF482ABC,
+	OculusLoader_RuntimeLoadOVRPlugin_mDE054BB0D71AC9027DDF4E185387D07B41314397,
 	OculusLoader_GetSettings_m2FA61767F36A8CFB03124EB295A79C7A7F0A863B,
 	OculusLoader_CheckUnityVersionCompatibility_mC211D3EFA35B0E509154B8F2993B08079A5C4413,
 	OculusLoader__ctor_m80DAEED59119B8AE0D9F39C2F410CED5AF61007F,
-	OculusLoader__cctor_mCCDC2B69B603B15F29071A77AFB992F4A2535CCB,
-	Performance_TrySetCPULevel_mC2223CBF9E58F9A73EB88A0562EA2EDBA4ACA21C,
-	Performance_TrySetGPULevel_m3700D943DDB328BB060529317E1DBE1261DD8135,
-	Performance_TryGetAvailableDisplayRefreshRates_m10DCEC50ACA2C917984F2FA0AA03D374D8282866,
-	Performance_TrySetDisplayRefreshRate_m7820F3FE24F801F9A071688EF82E16FCEF404F95,
-	Performance_TryGetDisplayRefreshRate_m0CCDA416DC24AB8B3171B4DA28DCCD63631323FA,
-	Stats_get_PluginVersion_m1C241BBDEE69FFFF57ACEEE42B441C75C34C4EA4,
-	Stats_GetOculusDisplaySubsystem_m9A09B8096996A92963F6226D54D2C929819D5829,
+	OculusLoader__cctor_m7363F3F6C91405E202624170D8F7323317735396,
+	Performance_TrySetCPULevel_m1A67D6E53EB4896D1525018144EEECDECFDC386A,
+	Performance_TrySetGPULevel_m18A9540555E223D81388DFE70AABE1F22A8E6D12,
+	Performance_TryGetAvailableDisplayRefreshRates_mDC13DE9810168FBA12B7C035FB47443FE517C112,
+	Performance_TrySetDisplayRefreshRate_mA986AF6C01393034B30522560FCB9F28319C5FA1,
+	Performance_TryGetDisplayRefreshRate_m84EB392DE7AD3E0F3A2AD1C79820B44D663D65B2,
+	Stats_get_PluginVersion_mDE3803AC252EA1119F94F44FF7FF40A6C18EDBD9,
+	Stats_GetOculusDisplaySubsystem_m5A7F2E9A691742F9FCCE65D4482D06B029ABEB0B,
 	Stats__ctor_m8EE6D4544ED048D96A6679385FFF8EECEA33E08B,
-	Stats__cctor_m579D3FD2DC24D63A3CB0EA4581EE345D412E4C85,
-	AdaptivePerformance_get_GPUAppTime_m5D37A5B750FFA0BBD001F399BF6E5528ABFF1BA2,
-	AdaptivePerformance_get_GPUCompositorTime_mA8070CCE34B43B3A0B4BEFC4CE4772D1C06521E2,
-	AdaptivePerformance_get_MotionToPhoton_m8CDBEDC36B414C003043DD62A7524037C4C111A2,
-	AdaptivePerformance_get_RefreshRate_m6BEC7E148E6996EE4258A0B023DB1887DB04A392,
-	AdaptivePerformance_get_BatteryTemp_mBFD5ED14346CEE66944507B0CA27E87B952F194F,
-	AdaptivePerformance_get_BatteryLevel_m8902BBC7F8A870A702A1182B88C33F4574FA645B,
-	AdaptivePerformance_get_PowerSavingMode_m3934F288CF8E796DE7F8106F7E075D21CB1D55B0,
-	AdaptivePerformance_get_AdaptivePerformanceScale_m1B4C297932F8200332FE62A551AC69A6C46B5AAF,
-	AdaptivePerformance_get_CPULevel_mDDA743A4F819E7E8E954571F0940B8C705EE5F65,
-	AdaptivePerformance_get_GPULevel_m344115378339731737EAB7847BD0A8358C139962,
-	PerfMetrics_get_AppCPUTime_m606D329458729333566AB3CEC85717F71A6633B4,
-	PerfMetrics_get_AppGPUTime_mF5A4AE1F88CE0D6D5FDD5CC3A6364475F71DD98A,
-	PerfMetrics_get_CompositorCPUTime_mDDF1668CD1BC0657E879DFD4F4898EBEDF9B23F2,
-	PerfMetrics_get_CompositorGPUTime_mBF7B62F774F80FB3E7E6D62690AEEDEEE1410E1B,
-	PerfMetrics_get_GPUUtilization_m5621AD04B860C5586E1479BE85FDA0FD91908C2C,
-	PerfMetrics_get_CPUUtilizationAverage_m0CEDE98E0DC04A04723C7DF9D216B67415ED4F12,
-	PerfMetrics_get_CPUUtilizationWorst_mE53AC89C35AD9DA3DC539DB6B6AFB0906DF26B53,
-	PerfMetrics_get_CPUClockFrequency_mA5A4AAF33A303B453FFC7537A1516B55D8B25731,
-	PerfMetrics_get_GPUClockFrequency_mB33488C129386D0EF0D15F027FFB3C2A76A40906,
-	PerfMetrics_EnablePerfMetrics_m8BCD93329F3F316FB16CDF61077D28732D4BDA67,
-	AppMetrics_get_AppQueueAheadTime_m7D7D2E18AF4541D3D96231FEBA0E58EDE0E09F68,
-	AppMetrics_get_AppCPUElapsedTime_m2C8258441111F39E4412939EF174893FAD8DBBFB,
-	AppMetrics_get_CompositorDroppedFrames_m0282BBDDB0E5FD143212DA2F7E640C19D7175AC5,
-	AppMetrics_get_CompositorLatency_mFAF066A98B7BA03541C44C4C3C892A5428AEF2F8,
-	AppMetrics_get_CompositorCPUTime_mC0F68748285040FEADE7EAFF7C67AA761B5E5955,
-	AppMetrics_get_CPUStartToGPUEnd_mCD1DE2D96D31248BB067EEFE21B04B0B6E1719EA,
-	AppMetrics_get_GPUEndToVsync_m592455C4344DEFD7EA676D4481EE9A504E5E0907,
-	AppMetrics_EnableAppMetrics_mA48C5AD3B0A5D4A1CAA45A3DF5C4623536ACF9B4,
-	NativeMethods_SetColorScale_m71466C371AE4D8AE0393FCA19BCB93DFF87FCF9B,
-	NativeMethods_SetColorOffset_m708A9D66EF8DBDDBD1DB4F5FFCC572F007742BF8,
-	NativeMethods_GetIsSupportedDevice_m336DCB5F80772C6F89CBF1CA7122EDC4C35D78D4,
-	NativeMethods_LoadOVRPlugin_mE7DA65BF795C1E1E7DB69B59793C413556875F7F,
-	NativeMethods_UnloadOVRPlugin_m38401A33540C13466A3F9073B42AB7ADCDD2B34E,
-	NativeMethods_SetUserDefinedSettings_m42FD3CA27980B25D9C638E3AC876749FBB23CBA6,
-	NativeMethods_SetHasUserAuthorizedEyeTrackingPermission_mC35B88244AA80A2CA74022E853A6D94CF10C4ACA,
-	NativeMethods_SetCPULevel_mC41C8161E7E18D20F81200D55D9E753E9C945DEF,
-	NativeMethods_SetGPULevel_m2AC7CFBE5A721004B00E1584236A864BBF65EB3F,
-	NativeMethods_GetOVRPVersion_m38823D86CD59C69E62D5835B798C1E1BAAF696BA,
-	NativeMethods_EnablePerfMetrics_m0701876E6E45D0BFEB5D2695338AD29090AAAC5C,
-	NativeMethods_EnableAppMetrics_m2B18E67E20FD049593C2A332FB34E9AB9558B719,
-	NativeMethods_SetDeveloperModeStrict_mDD7A7FF224AC714D8D8C265C2E1452DB0AE653C8,
-	NativeMethods_GetHasInputFocus_m1257051A904A1CD9F07C962F059E01223F14DF1B,
-	NativeMethods_GetBoundaryConfigured_m4010CCBA97D29852557408736FCE53C8A3CB6C9F,
-	NativeMethods_GetBoundaryDimensions_m2C4E14BF8B564D95BA1FD6D7F6BB3CDC68A368CD,
-	NativeMethods_GetBoundaryVisible_m68BB43585F6289250D59230FF61F4411537D169C,
-	NativeMethods_SetBoundaryVisible_m8281A6859FEE7659C63C644B9C37245D187FAC8F,
-	NativeMethods_GetAppShouldQuit_mF7D33F7306C09A47EEE51C3B5569497A2BA0031B,
-	NativeMethods_GetDisplayAvailableFrequencies_m7A3461EECCFE5AAFE6EA83A486D7DA8313098EEF,
-	NativeMethods_SetDisplayFrequency_m1EF40C70A0CFA32EB0D5426681C13177C496F03F,
-	NativeMethods_GetDisplayFrequency_mB096687577976716563167FA72DD77F669A18C65,
-	NativeMethods_GetSystemHeadsetType_mD18D6819F35C667E7E150E538A884850C6E89A4E,
-	NativeMethods_GetTiledMultiResSupported_mBEFDE3CDA036B5D2B2FADCCCC791C6035E711970,
-	NativeMethods_SetTiledMultiResLevel_mAA62ED9D93CA810457DE6B4E90DD27B877739D7B,
-	NativeMethods_GetTiledMultiResLevel_mA712F64DAA92C2D399980A48ABFE282E92887012,
-	NativeMethods_SetTiledMultiResDynamic_m8FC41964A4A054ADC21137FDD47C03248139FA05,
-	NativeMethods_GetEyeTrackedFoveatedRenderingSupported_m7017B3CE2D6DE03700864069DECC810199A2C9E0,
-	Internal_SetColorScale_m0CF78314E44A665ECFD2F23F091AF8698EF671A5,
-	Internal_SetColorOffset_mB2961D46D55669467F0C3DEEAD4502F28248E984,
-	Internal_GetIsSupportedDevice_m737F888EF5B63C9A5205B97FC0555CBED941568E,
-	Internal_LoadOVRPlugin_m9C05A911848136E203C79089AB828E9F8B094BA8,
-	Internal_UnloadOVRPlugin_mADAC9DD8335CFB22730ECF073A49BC8C89562613,
-	Internal_SetUserDefinedSettings_mFB3E779348369441A2822EAEB2D45F728C5C1BEC,
-	Internal_SetHasUserAuthorizedEyeTrackingPermission_m4C206014E71D2A988E9E7D8848EA7F4B10D144F8,
-	Internal_SetCPULevel_m50846DBC8F018A48D7E85322474C7ABC1294CA27,
-	Internal_SetGPULevel_m37B7AB9351972BD300DC4082CBD7BD9B3ED0E7E8,
-	Internal_GetOVRPVersion_m0520E7DF32DAF9849741C5021281EE5E08648E5B,
-	Internal_EnablePerfMetrics_mA09098817AD178FB7866F322161AA2E96A0D9443,
-	Internal_EnableAppMetrics_m1BA9E761EE232812C41F2768308D2E6BA559965C,
-	Internal_SetDeveloperModeStrict_m0A501B72BA2BFBB119B94006225C227206A631C1,
-	Internal_GetAppHasInputFocus_m0569830C6EDC013793FE3C523FBA23517DB07A0B,
-	Internal_GetBoundaryConfigured_m449078868F8DECD125BEBA07D1D1D7EB9766E9AF,
-	Internal_GetBoundaryDimensions_mAE3195FBFDE6A3213BA8748376FB0F8B7554754B,
-	Internal_GetBoundaryVisible_mCD829BA8761743E005786D1B6BE9345F01A6CF3F,
-	Internal_SetBoundaryVisible_mD04D1930919267DE52554242A2AA7B3D9955E193,
-	Internal_GetAppShouldQuit_m969E969C8CB61307597152EAFAA9251E145B48E2,
-	Internal_GetDisplayAvailableFrequencies_m265CF48B6D6244BD5999ED28F4417922A3964BCC,
-	Internal_SetDisplayFrequency_m6E8BE138EDF3AD30421E8A299597827A81F86804,
-	Internal_GetDisplayFrequency_mF645008727871526DAE4877348FD48E0AEFE6316,
-	Internal_GetSystemHeadsetType_m0901C44C3A772A62308D273AA37CF55BA6CEE646,
-	Internal_GetTiledMultiResSupported_m7A36253D53F4DA8D56E1EFA242457D3771220FBF,
-	Internal_SetTiledMultiResLevel_m59849D5EF74DE2C7F25813486E3ED47C947F15C3,
-	Internal_GetTiledMultiResLevel_mC95B03E83E572C960C79746554C070E91A43F8BC,
-	Internal_SetTiledMultiResDynamic_m92E2C4C0C862B7A30582EE5B96006FFE3367D658,
-	Internal_GetEyeTrackedFoveatedRenderingSupported_mA2F9106F5BD6571BB7D19D2FFDF61EF36D33F0E5,
+	Stats__cctor_mB9016BAA912519CF0C75E95869592AAC5266A495,
+	AdaptivePerformance_get_GPUAppTime_m3B2D5EC2B01BE289AB996982E1EB84F953E8D591,
+	AdaptivePerformance_get_GPUCompositorTime_m6AF1B5D2C388C97CEFBEE4A782DB5B3C4F503416,
+	AdaptivePerformance_get_MotionToPhoton_mA1A3C54D12CC1ABB5B182A4BA6E515530097ADD7,
+	AdaptivePerformance_get_RefreshRate_m5BB0DDF21E0BEFD8CC1A1EF43A3D53F841B04F7C,
+	AdaptivePerformance_get_BatteryTemp_mF2742285E38C52383733A82A3BA84D51FF9475E2,
+	AdaptivePerformance_get_BatteryLevel_m617DF61FBE36A30C493DEAD5C3CA1C6752A96AB1,
+	AdaptivePerformance_get_PowerSavingMode_mC920BDC1E5A06CF98B93F984CC6FCEAACF0DBBDB,
+	AdaptivePerformance_get_AdaptivePerformanceScale_m6529DDA8BCB8F44BD0AF7903263DCE5309EE0007,
+	AdaptivePerformance_get_CPULevel_m3DCD68ABD96FA9D9D39C8C3C7261BC999D626492,
+	AdaptivePerformance_get_GPULevel_m4BEAF12A43005F89BBFA697C089296D1077C815E,
+	PerfMetrics_get_AppCPUTime_m28D85B7DFAD154064CBEF9DBA6099E9D702FD84D,
+	PerfMetrics_get_AppGPUTime_m925EFF7AE44FE0166C5A7D2BDD4AA3AEBCBC1DCB,
+	PerfMetrics_get_CompositorCPUTime_m5B7D7E122B01D222A23F4B3E887841707319EC65,
+	PerfMetrics_get_CompositorGPUTime_mA94CF5C2D35786F1217F491BB54B028FFA997448,
+	PerfMetrics_get_GPUUtilization_m6D6CC3B06B287994F3D8205E56BDEFF6B2CC3C13,
+	PerfMetrics_get_CPUUtilizationAverage_mCA26A4C31FF5C165D157BC4D590F00AAAB428A29,
+	PerfMetrics_get_CPUUtilizationWorst_mF4796A24D39DBD986678B15259609891A80E562F,
+	PerfMetrics_get_CPUClockFrequency_mB8BB203CB4B17190C6DC88A6E1D3352E1CB4DD47,
+	PerfMetrics_get_GPUClockFrequency_m14A0CEA0F7A1977BBF671E1470320B4691362E0F,
+	PerfMetrics_EnablePerfMetrics_mD249F962C4060F3899ED22233F95F72B2DF596A8,
+	AppMetrics_get_AppQueueAheadTime_m58343959F0FE6388CC18CBC734C778006ED2B034,
+	AppMetrics_get_AppCPUElapsedTime_mF167FA15C3C2D950654E4ECBAC5BB95E79315930,
+	AppMetrics_get_CompositorDroppedFrames_mD99E7780BFCF171326C754A31EBD2BC5AFBEE1C1,
+	AppMetrics_get_CompositorLatency_mDC2952E3864F2BA367FC80466563B73D3DEF6181,
+	AppMetrics_get_CompositorCPUTime_m19EBA6AD7F096EA01331C106CA3F776468FB9DF7,
+	AppMetrics_get_CPUStartToGPUEnd_m656EF39126FA6DA1320C90792A946AAF4E00CE4E,
+	AppMetrics_get_GPUEndToVsync_m25EA0C53CDA56685525D9786BD65E0E41D931F56,
+	AppMetrics_EnableAppMetrics_mF7F5E280BECF6A354040E91DCC4B90D44708F8A6,
+	NativeMethods_SetColorScale_m1C8DF141B1784FA737E3AA5A62AEE0D3F3BC480E,
+	NativeMethods_SetColorOffset_m1F08E1EB6CCD8D77726FA473328C3936C6A5800A,
+	NativeMethods_GetIsSupportedDevice_mF9F435A347218EF642A3C7C770151F9A4758BBCB,
+	NativeMethods_LoadOVRPlugin_mAD776BE0CE1A3C7FC318567179EC0D4F83AE3DCD,
+	NativeMethods_UnloadOVRPlugin_m76EDAB4F61FDEF92E545D4C3957FB7DA4D170512,
+	NativeMethods_SetUserDefinedSettings_m8F63140EA513FAC3AA59EF03F9BA7B8D76BAA70F,
+	NativeMethods_SetHasUserAuthorizedEyeTrackingPermission_m9251C6251FC7C33C680818D062F3E1A8F15E63F7,
+	NativeMethods_SetCPULevel_m1FA232841B113C4513A510187B153C77C5E24A9D,
+	NativeMethods_SetGPULevel_m76F42DD51A3F0BB1833FF28956D0C496DB16D132,
+	NativeMethods_GetOVRPVersion_m9339E90D18E151143160AA02069A532107A63083,
+	NativeMethods_EnablePerfMetrics_m2492CAAFD94EB682B5F5EC9199941BAEBC7C672B,
+	NativeMethods_EnableAppMetrics_m1E09D2B7FEA3C91CC269F8B2C2A3D1774BDA3587,
+	NativeMethods_SetDeveloperModeStrict_m02A0EC7138B986A79917C05F817CF75DE804D058,
+	NativeMethods_GetHasInputFocus_m469FAFAF42C3F421244F4F9A09BDA10F79AECF43,
+	NativeMethods_GetBoundaryConfigured_mA46B7F80EB13EA0E683C6ECD401EBEBBE16D79F5,
+	NativeMethods_GetBoundaryDimensions_m0BAE0666700C9FA278A3E767F216E46734FFF8F4,
+	NativeMethods_GetBoundaryVisible_m01035E70C07620D93EFEA287310C2BD1F8922F83,
+	NativeMethods_SetBoundaryVisible_m36857FFC348678CB742169E1D270DA3CAC5C52E1,
+	NativeMethods_GetAppShouldQuit_m8B8CE94E700636ED76D7E2A38B6B65E5EB77CAE9,
+	NativeMethods_GetDisplayAvailableFrequencies_m5CBDC394EDB259D1FCD2525AD4EDE1C546F1342B,
+	NativeMethods_SetDisplayFrequency_mE671959DC912251A8114C9B2B96D3E6C0238427C,
+	NativeMethods_GetDisplayFrequency_mEA796C5C77BB7F2E317D52A9582A7B2D3446DA8E,
+	NativeMethods_GetSystemHeadsetType_m02F548DEC426D8D49F5E5997E77CF44DD323EC55,
+	NativeMethods_GetTiledMultiResSupported_m2610D600FFCD16AAD67F58619F7B0DEB4A18BACD,
+	NativeMethods_SetTiledMultiResLevel_m354B87BBBA193EE0F9207AA88B55651E30911445,
+	NativeMethods_GetTiledMultiResLevel_mFF9B2C5A8AD509F19919A2448A65AF2B9F9A81EB,
+	NativeMethods_SetTiledMultiResDynamic_m0861F0D2D18A7514EE5A152403A54B473A5551EC,
+	NativeMethods_GetEyeTrackedFoveatedRenderingSupported_mF88B7D8DB3BA8951A72A90F09E7977F99940F57A,
+	Internal_SetColorScale_mAC28727FE6D4F2F3660EFDF7F50982F802C8CB64,
+	Internal_SetColorOffset_m5CDD31B7F5E522310170F5A8ACBE479E62DE0A10,
+	Internal_GetIsSupportedDevice_m7530D527AEB2CE8A0F7B6F11238AC8FBF48C7BAF,
+	Internal_LoadOVRPlugin_m3F6E66D68CD709C8F8745013B2D924078BF3BA77,
+	Internal_UnloadOVRPlugin_m69974222D7D37522D4AFB7FF0037EC6E52E7B3AD,
+	Internal_SetUserDefinedSettings_mC5F760CAF91842559E576F638FC31777B4BB909E,
+	Internal_SetHasUserAuthorizedEyeTrackingPermission_m185B5180942436DFC7C87C2FAEBB00283620BBBC,
+	Internal_SetCPULevel_mE16D6B1120B73B881A87B3B8E82F91F4B4DC3F00,
+	Internal_SetGPULevel_m81B4173CC0AA6E1CF71EE796F4D94732AE239353,
+	Internal_GetOVRPVersion_mB754554431E4660FBF909672068E75CA35CC134D,
+	Internal_EnablePerfMetrics_m90D95D613CA9DFF5A025354FEE9605D82A149EAC,
+	Internal_EnableAppMetrics_m37D2C8164A1F6D665A8B917935BC2600ECC2A6E3,
+	Internal_SetDeveloperModeStrict_mC178DAA59C11333268F6D2DD6D4BBEB6A28FD5F6,
+	Internal_GetAppHasInputFocus_mC460DF4EFE848C75E477A0228E62C5955884A0BC,
+	Internal_GetBoundaryConfigured_m77C40D747EA6D194F0029B6597074794875775C9,
+	Internal_GetBoundaryDimensions_m5486CDCCE00FA1D4A3DE95CEBBC81D62797EA586,
+	Internal_GetBoundaryVisible_m0C5B2309AD11933284B47229B990E760D7CD2904,
+	Internal_SetBoundaryVisible_m9D7D102E67AFF73DE524274DF5AB06ABC6B725B9,
+	Internal_GetAppShouldQuit_mFE5F2F0047FE03890E797254F8F04E9D2FC169B2,
+	Internal_GetDisplayAvailableFrequencies_mD87B2B99F82E2A7C8E948F4460DDD94FD1F5DA5A,
+	Internal_SetDisplayFrequency_mF380F22E7D7A1873F5E5D7B59B8C471BE8B40996,
+	Internal_GetDisplayFrequency_m06B03F1EBE989260CC9266D8ECC9E4BB6211C105,
+	Internal_GetSystemHeadsetType_m86982DAC1289E79F74B3A60F86CF03ACA1B4AA3D,
+	Internal_GetTiledMultiResSupported_m2638793145460B0A2EFAF01E25EDD8D14B92B037,
+	Internal_SetTiledMultiResLevel_m7638F3D237E542D9E4A511F8A3404F839AA267C2,
+	Internal_GetTiledMultiResLevel_m3119A41A3BE276ED922F58E8C1FD5597A0C717C4,
+	Internal_SetTiledMultiResDynamic_m65F3A091532C0D2877789AF1D4E01F9B7D522302,
+	Internal_GetEyeTrackedFoveatedRenderingSupported_m7F4A3E1F40C329D5C5E40B4DB459BE9218868CD6,
 	OculusSettings_GetStereoRenderingMode_mE9C6ABC56B9EDEB3BE5599B091BB6699429BB6BD,
 	OculusSettings_Awake_m6206BE150DEB602C65EEF7C255DE3BA17FB1452E,
 	OculusSettings__ctor_m2A441A38D66B2B4538A2CE744BCFD3283910F324,
-	OculusUsages__cctor_m7024A4EF41067C41E2C7F24147CBBB7684B11E6C,
-	RegisterUpdateCallback_Initialize_m0256D76B69C444418E9E394DD280C4D54F122BC5,
-	RegisterUpdateCallback_Deinitialize_m3826762052F507B9B18E62483D8341495B5EEA13,
-	RegisterUpdateCallback_Update_m782D01D846D30720A9212BC883A3602D5B5B5958,
+	OculusUsages__cctor_m3BC2BDB6198C21AF208C5DD0C8A59C5A2D8E7129,
+	RegisterUpdateCallback_Initialize_m041B05AB55DFBFA8F93BF453AB89A68C5DD2FFE6,
+	RegisterUpdateCallback_Deinitialize_m8AE7F6714C9AA27ECAF8DF1C48B771DABBC292D4,
+	RegisterUpdateCallback_Update_mD7B551FC22C28DA0808C540C95B2B401497D84CF,
 	OculusHMD_get_userPresence_m3F99F25C0301EFEB5E0EC4FE65B3247F6A9D1BF2,
 	OculusHMD_set_userPresence_mB822E4C919255DEA7B345732805309D0B5F779BB,
 	OculusHMD_get_trackingState_m0BCE1701B96912BC22E1282A1FF87DC2822746EE,
@@ -854,285 +854,285 @@ static Il2CppMethodPointer s_methodPointers[279] =
 };
 static const int32_t s_InvokerIndices[279] = 
 {
-	10248,
-	12414,
-	11050,
-	11044,
-	12414,
-	11595,
-	11595,
-	11595,
-	11595,
-	12388,
-	12473,
-	6939,
-	12388,
-	9493,
-	12388,
-	11584,
-	11584,
-	12473,
-	12473,
-	12473,
-	12473,
-	12414,
-	6806,
-	6806,
-	6696,
-	5473,
-	6696,
-	6696,
-	6696,
-	12473,
-	6806,
-	6696,
-	6939,
-	12473,
-	11050,
-	11050,
-	11042,
-	11059,
-	11042,
-	12423,
-	12423,
-	6939,
-	12473,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12388,
-	12453,
-	12414,
-	12414,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	11584,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	12453,
-	11584,
-	8437,
-	8437,
-	12388,
-	11053,
-	12473,
-	11607,
-	11584,
-	11179,
-	11179,
-	11595,
-	11584,
-	11584,
-	11044,
-	12388,
-	12388,
-	9493,
-	12388,
-	11584,
-	12388,
-	9500,
-	11059,
-	11042,
-	12414,
-	12388,
-	11591,
-	12414,
-	11584,
-	12388,
-	8437,
-	8437,
-	12388,
-	11053,
-	12473,
-	11607,
-	11584,
-	11179,
-	11179,
-	11595,
-	11584,
-	11584,
-	11044,
-	12388,
-	12388,
-	9493,
-	12388,
-	11584,
-	12388,
-	9500,
-	11059,
-	11042,
-	12414,
-	12388,
-	11591,
-	12414,
-	11584,
-	12388,
-	6922,
-	6939,
-	6939,
-	12473,
-	12473,
-	12473,
-	12473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	6939,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	6939,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	6939,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	6939,
-	6939,
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	6939,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6806,
-	5473,
-	6939,
-	6939,
+	12742,
+	15036,
+	13575,
+	13569,
+	15036,
+	14174,
+	14174,
+	14174,
+	14174,
+	15009,
+	15099,
+	8784,
+	15009,
+	11864,
+	15009,
+	14162,
+	14162,
+	15099,
+	15099,
+	15099,
+	15099,
+	15036,
+	8633,
+	8633,
+	8503,
+	6978,
+	8503,
+	8503,
+	8503,
+	15099,
+	8633,
+	8503,
+	8784,
+	15099,
+	13575,
+	13575,
+	13567,
+	13584,
+	13567,
+	15046,
+	15046,
+	8784,
+	15099,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15009,
+	15078,
+	15036,
+	15036,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	14162,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	15078,
+	14162,
+	10625,
+	10625,
+	15009,
+	13578,
+	15099,
+	14188,
+	14162,
+	13713,
+	13713,
+	14174,
+	14162,
+	14162,
+	13569,
+	15009,
+	15009,
+	11864,
+	15009,
+	14162,
+	15009,
+	11874,
+	13584,
+	13567,
+	15036,
+	15009,
+	14170,
+	15036,
+	14162,
+	15009,
+	10625,
+	10625,
+	15009,
+	13578,
+	15099,
+	14188,
+	14162,
+	13713,
+	13713,
+	14174,
+	14162,
+	14162,
+	13569,
+	15009,
+	15009,
+	11864,
+	15009,
+	14162,
+	15009,
+	11874,
+	13584,
+	13567,
+	15036,
+	15009,
+	14170,
+	15036,
+	14162,
+	15009,
+	8763,
+	8784,
+	8784,
+	15099,
+	15099,
+	15099,
+	15099,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	8784,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	8784,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	8784,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	8784,
+	8784,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	8784,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8633,
+	6978,
+	8784,
+	8784,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Oculus_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_Oculus_CodeGenModule = 
