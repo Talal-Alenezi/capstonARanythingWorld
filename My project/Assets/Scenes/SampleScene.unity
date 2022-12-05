@@ -148,7 +148,7 @@ PrefabInstance:
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54
+      value: -0.53999996
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
@@ -1550,6 +1550,7 @@ GameObject:
   - component: {fileID: 1188516329}
   - component: {fileID: 1188516328}
   - component: {fileID: 1188516327}
+  - component: {fileID: 1188516330}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1592,12 +1593,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: d0515781-3c15-4b2a-b523-9e9e9e023c5a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: af711e71-2a70-4710-a0a5-ef624cf5e990
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -1620,12 +1621,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 8d96f401-5e28-4ef7-b0cc-80edbda1045f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: d5ffa056-8559-43f4-bfb6-5d1cdaea817f
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -1712,6 +1713,39 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1188516330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188516325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1688320270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,6 +1811,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 13.62, y: 0, z: 0}
+--- !u!1 &1829372759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 397231503135729236, guid: b576966c13a37054eb8c8ef8d0901022,
+    type: 3}
+  m_PrefabInstance: {fileID: 151387244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1829372763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829372759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec08c69ded81354ca03a603fc6c6122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camera2Follow: {fileID: 1188516329}
 --- !u!1 &2081631410
 GameObject:
   m_ObjectHideFlags: 0

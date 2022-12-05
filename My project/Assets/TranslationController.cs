@@ -36,7 +36,17 @@ public class TranslationController : MonoBehaviour
     private void FinishListeningHandler(string testresponse)
     {
         Debug.Log("The Final response " + testresponse);
-        if (testresponse == "hello" || testresponse=="salaam" || testresponse=="assalam alaikum" || testresponse=="hi" || testresponse== "greetings")
+        var words = testresponse.Split(' ');
+        
+        StartCoroutine(Timer(words));
+        
+
+    }
+
+    // ANIMATION PLAYER
+    void playAnim(string testresponse) // This Test Response is after spliting
+    {
+        if (testresponse == "hello" || testresponse == "salaam" || testresponse == "assalam alaikum" || testresponse == "hi" || testresponse == "greetings")
         {
             anim.SetTrigger("hello");
         }
@@ -44,7 +54,7 @@ public class TranslationController : MonoBehaviour
         {
             anim.SetTrigger("ily");
         }
-        else if (testresponse == "thanks" || testresponse == "thank you" || testresponse=="shukran" || testresponse=="mercy")
+        else if (testresponse == "thanks" || testresponse == "thank you" || testresponse == "shukran" || testresponse == "mercy")
         {
             anim.SetTrigger("thx");
         }
@@ -63,7 +73,7 @@ public class TranslationController : MonoBehaviour
         else if (testresponse == "10 to the power of 0 equal to 1" || testresponse == "10^0=1" || testresponse == "10^0 equal 1" || testresponse == "10^0 equal one" || testresponse == "10 power 0 equal 1")
         {
             anim.SetTrigger("10 to power of 0");
-        } 
+        }
         else if (testresponse == "book")
         {
             anim.SetTrigger("book");
@@ -95,6 +105,27 @@ public class TranslationController : MonoBehaviour
         else if (testresponse == "solve the problem")
         {
             anim.SetTrigger("solve the problem");
+        }else if (testresponse == "one"|| testresponse == "1")
+        {
+            anim.SetTrigger("one");
+        }else if (testresponse == "two"|| testresponse == "2")
+        {
+            anim.SetTrigger("two");
+        }else if (testresponse == "three"|| testresponse == "3")
+        {
+            anim.SetTrigger("three");
+        }else if (testresponse == "four"|| testresponse == "4")
+        {
+            anim.SetTrigger("four");
+        }else if (testresponse == "five"|| testresponse == "5")
+        {
+            anim.SetTrigger("five");
+        }else if (testresponse == "plus" || testresponse == "+")
+        {
+            anim.SetTrigger("plus");
+        }else if (testresponse == "equal")
+        {
+            anim.SetTrigger("equal");
         }
 
 
@@ -107,7 +138,25 @@ public class TranslationController : MonoBehaviour
 
     private void InProcessListeningHandler(string testresponse)
     {
-        Debug.Log("In Progress:" + testresponse);
+        Debug.Log("In Progress: " + testresponse);
+    }
+
+
+
+    // ENUMERATOR
+    IEnumerator Timer(string[] words)
+    {
+        //string[] words = { "thanks", "book", "hello" };
+        for (int i = 0; i < words.Length; i++)
+        {
+            playAnim(words[i]);
+            print(words[i]);
+            yield return new WaitForSeconds(2.57f);
+            print("coroutine is here");
+        }
+        
+        
+        
     }
 
 }
