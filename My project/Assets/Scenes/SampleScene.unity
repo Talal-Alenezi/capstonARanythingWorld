@@ -190,6 +190,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6147621107532670821, guid: b576966c13a37054eb8c8ef8d0901022,
+        type: 3}
+      propertyPath: buttonB
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147621107532670821, guid: b576966c13a37054eb8c8ef8d0901022,
+        type: 3}
+      propertyPath: controllerR
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147621107532670821, guid: b576966c13a37054eb8c8ef8d0901022,
+        type: 3}
+      propertyPath: buttonScndry
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b576966c13a37054eb8c8ef8d0901022, type: 3}
 --- !u!1 &462681920

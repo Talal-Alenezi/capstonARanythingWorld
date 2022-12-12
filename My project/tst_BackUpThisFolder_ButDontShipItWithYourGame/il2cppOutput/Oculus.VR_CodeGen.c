@@ -30,21 +30,21 @@ extern void OVRComposition_ComputeCameraWorldSpacePose_mE9631B0A264E85ECE66191E2
 // 0x0000000A OVRPose OVRComposition::ComputeCameraTrackingSpacePose(OVRPlugin/CameraExtrinsics)
 extern void OVRComposition_ComputeCameraTrackingSpacePose_mC4A030F3A9682988B3BFB6125687349474E598A7 (void);
 // 0x0000000B System.Void OVRCompositionUtil::SafeDestroy(UnityEngine.GameObject)
-extern void OVRCompositionUtil_SafeDestroy_m4082E77813CE34EB02D8196CBBEE1C6D64A6F853 (void);
+extern void OVRCompositionUtil_SafeDestroy_m3BE0355B9C49BC36FC8B2350158B712E95FB213F (void);
 // 0x0000000C System.Void OVRCompositionUtil::SafeDestroy(UnityEngine.GameObject&)
-extern void OVRCompositionUtil_SafeDestroy_m24F1A6ACCC752943C6706BE97F1079C2113AA793 (void);
+extern void OVRCompositionUtil_SafeDestroy_m7A340325537FB13185AE399E80B4953CA5AE8693 (void);
 // 0x0000000D OVRPlugin/CameraDevice OVRCompositionUtil::ConvertCameraDevice(OVRManager/CameraDevice)
-extern void OVRCompositionUtil_ConvertCameraDevice_mD80092349F6CAFF86078F9F036FB74A50B8BB627 (void);
+extern void OVRCompositionUtil_ConvertCameraDevice_mB034354B863BF0B7EDDE257657C584FB84E4AE79 (void);
 // 0x0000000E OVRBoundary/BoundaryType OVRCompositionUtil::ToBoundaryType(OVRManager/VirtualGreenScreenType)
-extern void OVRCompositionUtil_ToBoundaryType_mE861E8810B49176B7B9DAD6E8B0E721D8068465E (void);
+extern void OVRCompositionUtil_ToBoundaryType_mDFB017A0B99DB2B5CC2103B48DED5A0FE968F8F3 (void);
 // 0x0000000F UnityEngine.Vector3 OVRCompositionUtil::GetWorldPosition(UnityEngine.Vector3)
-extern void OVRCompositionUtil_GetWorldPosition_mB58DDE9068BB854DC3B1026DD1A630B643D5BA9B (void);
+extern void OVRCompositionUtil_GetWorldPosition_m5904635E71490CDE1E4344956D706DD43D557C1A (void);
 // 0x00000010 UnityEngine.Vector3 OVRCompositionUtil::GetWorldPosition(UnityEngine.Camera,UnityEngine.Vector3)
-extern void OVRCompositionUtil_GetWorldPosition_m657E9FB310D9542A6633B230913CBEF291660A5F (void);
+extern void OVRCompositionUtil_GetWorldPosition_mBD639A182646B171CE40EBB5996A5F016D2F4DCE (void);
 // 0x00000011 System.Single OVRCompositionUtil::GetMaximumBoundaryDistance(UnityEngine.Camera,OVRBoundary/BoundaryType)
-extern void OVRCompositionUtil_GetMaximumBoundaryDistance_mCBF7EEE8E011CAB03C2E3496A3700FE61708864B (void);
+extern void OVRCompositionUtil_GetMaximumBoundaryDistance_m647BEE7A5D2558C7C40F4E093699C5FD68EB6B29 (void);
 // 0x00000012 UnityEngine.Mesh OVRCompositionUtil::BuildBoundaryMesh(OVRBoundary/BoundaryType,System.Single,System.Single)
-extern void OVRCompositionUtil_BuildBoundaryMesh_mCCFA03AC1BFCC383E867ACE0646EE51ED535C74B (void);
+extern void OVRCompositionUtil_BuildBoundaryMesh_m00B88D8AD877B639AFCEA5DD7E0BB78C0C154094 (void);
 // 0x00000013 System.Void OVRCompositionUtil::.ctor()
 extern void OVRCompositionUtil__ctor_mFDD14BC86EB6C12B36C8D5D01476EC272E3AD4DB (void);
 // 0x00000014 OVRManager/CompositionMethod OVRExternalComposition::CompositionMethod()
@@ -96,7 +96,7 @@ extern void OVRBoundary_SetVisible_mF2689CF6BF7037ED9E75A17D2FECA446E5717BC1 (vo
 // 0x0000002B System.Void OVRBoundary::.ctor()
 extern void OVRBoundary__ctor_m31595FDCF7D3AC48703766DB883781D480F6092D (void);
 // 0x0000002C System.Void OVRBoundary::.cctor()
-extern void OVRBoundary__cctor_m24C4718A5E5BDFFFBE37C5BFA01528CE9A217A68 (void);
+extern void OVRBoundary__cctor_mA4BD5576D1981B383C2E86D758ABD36B65AD8094 (void);
 // 0x0000002D UnityEngine.Camera OVRCameraRig::get_leftEyeCamera()
 extern void OVRCameraRig_get_leftEyeCamera_m1C1CA12F69226BE8B0AC3142DAF77BDED7DF27CD (void);
 // 0x0000002E UnityEngine.Camera OVRCameraRig::get_rightEyeCamera()
@@ -166,91 +166,91 @@ extern void OVRCameraRig_ComputeTrackReferenceMatrix_mC9992770E28658186CA27D6FA8
 // 0x0000004E System.Void OVRCameraRig::.ctor()
 extern void OVRCameraRig__ctor_m4ACFDD4B846326F356022FCCA1ED3A740DF89CC3 (void);
 // 0x0000004F OVRPose OVRExtensions::ToTrackingSpacePose(UnityEngine.Transform,UnityEngine.Camera)
-extern void OVRExtensions_ToTrackingSpacePose_mC664102B90CAB4B52A82EC7D956527E3C9B26231 (void);
+extern void OVRExtensions_ToTrackingSpacePose_m17C9DAB4F69BB5D40513F37B70CE267950036ADA (void);
 // 0x00000050 OVRPose OVRExtensions::ToWorldSpacePose(OVRPose)
-extern void OVRExtensions_ToWorldSpacePose_m164C2CFC64175342EBDC26BEA105913AD541C968 (void);
+extern void OVRExtensions_ToWorldSpacePose_mDDC7F6BEA2CA9D327FEB4B87EB04624B555E3698 (void);
 // 0x00000051 OVRPose OVRExtensions::ToWorldSpacePose(OVRPose,UnityEngine.Camera)
-extern void OVRExtensions_ToWorldSpacePose_m75DF239EDEFF3DE9C0BA27D638376B6DB04017B7 (void);
+extern void OVRExtensions_ToWorldSpacePose_mB00CD2AC97FB573C5FA5E4093A1F7441244CA097 (void);
 // 0x00000052 OVRPose OVRExtensions::ToHeadSpacePose(OVRPose)
-extern void OVRExtensions_ToHeadSpacePose_m83148C8D41C8393A80F9DD6911F7A82F88823798 (void);
+extern void OVRExtensions_ToHeadSpacePose_m7F667DBDB06C8F4220FD99DFA518919D373D75DA (void);
 // 0x00000053 OVRPose OVRExtensions::ToHeadSpacePose(UnityEngine.Transform,UnityEngine.Camera)
-extern void OVRExtensions_ToHeadSpacePose_m1DFAA9425ADD276D689316470A8195C56815DCB0 (void);
+extern void OVRExtensions_ToHeadSpacePose_m76E544EB993FA33F3045ECD44176D6E5859EC866 (void);
 // 0x00000054 OVRPose OVRExtensions::ToOVRPose(UnityEngine.Transform,System.Boolean)
-extern void OVRExtensions_ToOVRPose_m602545F1775227F218ABCDC7627C341569E43C3B (void);
+extern void OVRExtensions_ToOVRPose_m52593B4249478412DFA025AD6DE338B96CFBC265 (void);
 // 0x00000055 System.Void OVRExtensions::FromOVRPose(UnityEngine.Transform,OVRPose,System.Boolean)
-extern void OVRExtensions_FromOVRPose_mB038A67D101524CA418F900612661DBE0D307F2B (void);
+extern void OVRExtensions_FromOVRPose_m983A33FEB6E214D8C598A2DC90A7481D32962C27 (void);
 // 0x00000056 OVRPose OVRExtensions::ToOVRPose(OVRPlugin/Posef)
-extern void OVRExtensions_ToOVRPose_m4214167164096F3CFB13ED4585C3754E09AEBB7A (void);
+extern void OVRExtensions_ToOVRPose_m2D557CFD8B775C88FDED26B3D31A67E8AB53B14F (void);
 // 0x00000057 OVRTracker/Frustum OVRExtensions::ToFrustum(OVRPlugin/Frustumf)
-extern void OVRExtensions_ToFrustum_m7C551E1698819934FD0A051C321275D7A62EB579 (void);
+extern void OVRExtensions_ToFrustum_m45E52DA30C3E3732A9EB8017F26A20B22E0AA791 (void);
 // 0x00000058 UnityEngine.Color OVRExtensions::FromColorf(OVRPlugin/Colorf)
-extern void OVRExtensions_FromColorf_mE351E42F7B631F889E28FDEEE6AAB83DA6E6E531 (void);
+extern void OVRExtensions_FromColorf_m184ABD0368BF462046337F75DC915FC48FE63F9E (void);
 // 0x00000059 OVRPlugin/Colorf OVRExtensions::ToColorf(UnityEngine.Color)
-extern void OVRExtensions_ToColorf_mEEF9DF99BC49142554C254971355217C99AB05E8 (void);
+extern void OVRExtensions_ToColorf_m20FCBAD27C65FC66A589BD8F20399151B7704AE7 (void);
 // 0x0000005A UnityEngine.Vector3 OVRExtensions::FromVector3f(OVRPlugin/Vector3f)
-extern void OVRExtensions_FromVector3f_m79EBAA210C1FC66D5A41814FD467EC1D1AAA02A7 (void);
+extern void OVRExtensions_FromVector3f_m4B3B578358199C40F4345A055E0DDE60EDF508DC (void);
 // 0x0000005B UnityEngine.Vector3 OVRExtensions::FromFlippedXVector3f(OVRPlugin/Vector3f)
-extern void OVRExtensions_FromFlippedXVector3f_mCF64073D3FC08B769D9069DA074A652DC3F71175 (void);
+extern void OVRExtensions_FromFlippedXVector3f_m5A85238667CEAEF47A9B9C07B3746D1CE07EE663 (void);
 // 0x0000005C UnityEngine.Vector3 OVRExtensions::FromFlippedZVector3f(OVRPlugin/Vector3f)
-extern void OVRExtensions_FromFlippedZVector3f_mBAB3D7B7B97387C15727F15A77BD2B6DE1B5C9A1 (void);
+extern void OVRExtensions_FromFlippedZVector3f_m32D17BCDA62BC3F8C9A6442F06A42BBE79140F62 (void);
 // 0x0000005D OVRPlugin/Vector3f OVRExtensions::ToVector3f(UnityEngine.Vector3)
-extern void OVRExtensions_ToVector3f_mE3D204AD86D1DE4C32D86A2DC1388B597579CC2A (void);
+extern void OVRExtensions_ToVector3f_m21A8631A98D29AED03A5ED3FF46475646703F4DC (void);
 // 0x0000005E OVRPlugin/Vector3f OVRExtensions::ToFlippedXVector3f(UnityEngine.Vector3)
-extern void OVRExtensions_ToFlippedXVector3f_m276FA31E0614EC4DB8A7946ED611A88DE601FE01 (void);
+extern void OVRExtensions_ToFlippedXVector3f_mA2A020BA9EA176639A686434A1AD523D2F2774CE (void);
 // 0x0000005F OVRPlugin/Vector3f OVRExtensions::ToFlippedZVector3f(UnityEngine.Vector3)
-extern void OVRExtensions_ToFlippedZVector3f_m118B1A616B81F528A9E7028179A5F67CF0A93F51 (void);
+extern void OVRExtensions_ToFlippedZVector3f_m62CC475050FFCDA6E53230DCE20070AB0228D6FA (void);
 // 0x00000060 UnityEngine.Vector4 OVRExtensions::FromVector4f(OVRPlugin/Vector4f)
-extern void OVRExtensions_FromVector4f_m14DC5847C070228AB4516217378D65E0BF05BCC6 (void);
+extern void OVRExtensions_FromVector4f_m4DD74CD049DA884F5267686D442362289050F330 (void);
 // 0x00000061 OVRPlugin/Vector4f OVRExtensions::ToVector4f(UnityEngine.Vector4)
-extern void OVRExtensions_ToVector4f_m49F07A90E4EDAAB683ECC85F7A59A4921A97DB2C (void);
+extern void OVRExtensions_ToVector4f_mD9E82AE2DD8B0AC86AEF77AA5783B6B3BA77B43F (void);
 // 0x00000062 UnityEngine.Quaternion OVRExtensions::FromQuatf(OVRPlugin/Quatf)
-extern void OVRExtensions_FromQuatf_mEDD158A3769DAB2B109473AC9FC7E6D74F0FD82C (void);
+extern void OVRExtensions_FromQuatf_m9D9957171C088A2715767B6FE9449E97CC764E23 (void);
 // 0x00000063 UnityEngine.Quaternion OVRExtensions::FromFlippedXQuatf(OVRPlugin/Quatf)
-extern void OVRExtensions_FromFlippedXQuatf_m22AB997CA79C83AB049758C60BD36D7118C9BB05 (void);
+extern void OVRExtensions_FromFlippedXQuatf_m691F815BB73E2D9030CF56997FC3B62C0BFF4DBA (void);
 // 0x00000064 UnityEngine.Quaternion OVRExtensions::FromFlippedZQuatf(OVRPlugin/Quatf)
-extern void OVRExtensions_FromFlippedZQuatf_mFCBE64BC455CB946CC4FDBF91959F0E51468E111 (void);
+extern void OVRExtensions_FromFlippedZQuatf_mF626F183B84EA8C08153550313227736286F2657 (void);
 // 0x00000065 OVRPlugin/Quatf OVRExtensions::ToQuatf(UnityEngine.Quaternion)
-extern void OVRExtensions_ToQuatf_m0DD0173F128E3DB0FA03F6B33DBD61EC2668DEC9 (void);
+extern void OVRExtensions_ToQuatf_mF7543BB09A1D01A842FB07FE7F7997E988BAC06E (void);
 // 0x00000066 OVRPlugin/Quatf OVRExtensions::ToFlippedXQuatf(UnityEngine.Quaternion)
-extern void OVRExtensions_ToFlippedXQuatf_mDCCD98929CC48EDFE294A85353CC3C0458D45F97 (void);
+extern void OVRExtensions_ToFlippedXQuatf_m1C2B31B727EB07DDDA0A1EC72252D173A6AAEE46 (void);
 // 0x00000067 OVRPlugin/Quatf OVRExtensions::ToFlippedZQuatf(UnityEngine.Quaternion)
-extern void OVRExtensions_ToFlippedZQuatf_m07BEB1388439114B0F238DE8D9DFD14A0C448F52 (void);
+extern void OVRExtensions_ToFlippedZQuatf_m3C842AE77FAD382FD91D0F8E81CCA1EF9393BCEF (void);
 // 0x00000068 OVR.OpenVR.HmdMatrix34_t OVRExtensions::ConvertToHMDMatrix34(UnityEngine.Matrix4x4)
-extern void OVRExtensions_ConvertToHMDMatrix34_mC2E6FA94CA87293D3011AE40C9EBB7CB0952A915 (void);
+extern void OVRExtensions_ConvertToHMDMatrix34_m9AC5EB6C0C501D7CD2A75641ECA5CD0CCE0D3EBA (void);
 // 0x00000069 UnityEngine.Transform OVRExtensions::FindChildRecursive(UnityEngine.Transform,System.String)
-extern void OVRExtensions_FindChildRecursive_m40B8D64AD820A50DF2E6301753A157CDBF14D1CA (void);
+extern void OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1 (void);
 // 0x0000006A System.Boolean OVRExtensions::Equals(UnityEngine.Gradient,UnityEngine.Gradient)
-extern void OVRExtensions_Equals_m702DB816FABA05778B6428A9F46F64B6E03D5B11 (void);
+extern void OVRExtensions_Equals_m95EBD3F8BF44E0C6A15D05F3E80511818E85EC0D (void);
 // 0x0000006B System.Void OVRExtensions::CopyFrom(UnityEngine.Gradient,UnityEngine.Gradient)
-extern void OVRExtensions_CopyFrom_m0C2030405540BF430B16C236FCD3CC6FFFD0DD75 (void);
+extern void OVRExtensions_CopyFrom_m3F2884B6167DB393417CE26D1BB8A81F733AC036 (void);
 // 0x0000006C OVRPlugin/SpaceStorageLocation OVRExtensions::ToSpaceStorageLocation(OVRSpace/StorageLocation)
-extern void OVRExtensions_ToSpaceStorageLocation_m8A7A7AEF3198A36C7D689F5DB2F86719D10052BD (void);
+extern void OVRExtensions_ToSpaceStorageLocation_mFF7C8770305D5CFCCB62FB78319A81CEFFF6926C (void);
 // 0x0000006D System.Boolean OVRNodeStateProperties::IsHmdPresent()
-extern void OVRNodeStateProperties_IsHmdPresent_m7ACB316D37EDFFCEF6AB24503AD8F4C7FA5E1A5B (void);
+extern void OVRNodeStateProperties_IsHmdPresent_m007E7C0AA8B7D85019F2238007C8F5F28DB3547D (void);
 // 0x0000006E System.Boolean OVRNodeStateProperties::GetNodeStatePropertyVector3(UnityEngine.XR.XRNode,NodeStatePropertyType,OVRPlugin/Node,OVRPlugin/Step,UnityEngine.Vector3&)
-extern void OVRNodeStateProperties_GetNodeStatePropertyVector3_m40CA506AC8F2D5F402FBA3AAE2059110B8656940 (void);
+extern void OVRNodeStateProperties_GetNodeStatePropertyVector3_mFA9CA29D9B8B68721EBFF755AE379F019ADB3EA1 (void);
 // 0x0000006F System.Boolean OVRNodeStateProperties::GetNodeStatePropertyQuaternion(UnityEngine.XR.XRNode,NodeStatePropertyType,OVRPlugin/Node,OVRPlugin/Step,UnityEngine.Quaternion&)
-extern void OVRNodeStateProperties_GetNodeStatePropertyQuaternion_m1FFBED819E7AA22BDB65F27FE466C2807DE2768A (void);
+extern void OVRNodeStateProperties_GetNodeStatePropertyQuaternion_m749DB6361263E70DEC52E819715BC9AF5B67F5AD (void);
 // 0x00000070 System.Boolean OVRNodeStateProperties::ValidateProperty(UnityEngine.XR.XRNode,UnityEngine.XR.XRNodeState&)
-extern void OVRNodeStateProperties_ValidateProperty_m1A325A61B0AFDCBBF90F288570ADB9DC4E2FDB20 (void);
+extern void OVRNodeStateProperties_ValidateProperty_m66BE4D56E1A6DB20F1A3F9E467C9383808D7CFBB (void);
 // 0x00000071 System.Boolean OVRNodeStateProperties::GetUnityXRNodeStateVector3(UnityEngine.XR.XRNode,NodeStatePropertyType,UnityEngine.Vector3&)
-extern void OVRNodeStateProperties_GetUnityXRNodeStateVector3_mB43250412518FC7D88C677D7F2857751664E5062 (void);
+extern void OVRNodeStateProperties_GetUnityXRNodeStateVector3_m52E9B0208D19154F7805D52A3DCF08CCEB98DCBD (void);
 // 0x00000072 System.Boolean OVRNodeStateProperties::GetUnityXRNodeStateQuaternion(UnityEngine.XR.XRNode,NodeStatePropertyType,UnityEngine.Quaternion&)
-extern void OVRNodeStateProperties_GetUnityXRNodeStateQuaternion_mE4A617556859DD5527BF18EEB5595B3E620D0F19 (void);
+extern void OVRNodeStateProperties_GetUnityXRNodeStateQuaternion_m40E36460805902B63D5D9708D09A06480AF8B852 (void);
 // 0x00000073 System.Void OVRNodeStateProperties::.cctor()
-extern void OVRNodeStateProperties__cctor_m43688D41DE00920935DBCC0D7380B3DD8C726491 (void);
+extern void OVRNodeStateProperties__cctor_m0827CC7FD82274244CDCC653C6B0B7AA6D9199DC (void);
 // 0x00000074 OVRPose OVRPose::get_identity()
-extern void OVRPose_get_identity_m4409F3CA3E819FE07D71D4E5A76099F592E471DB (void);
+extern void OVRPose_get_identity_m80A35AA376851112A6104A67226582D63EB0739B (void);
 // 0x00000075 System.Boolean OVRPose::Equals(System.Object)
 extern void OVRPose_Equals_m42E2F7D3D7889EF3D74CF4DC4D9A87A04AC86634 (void);
 // 0x00000076 System.Int32 OVRPose::GetHashCode()
 extern void OVRPose_GetHashCode_mD700EAA03E636053D0C77615148E3665C8B9C517 (void);
 // 0x00000077 System.Boolean OVRPose::op_Equality(OVRPose,OVRPose)
-extern void OVRPose_op_Equality_m4E8E6D60FD0CCDE3AF494034D5230CC1291835DF (void);
+extern void OVRPose_op_Equality_m4675E5CB0312BB39F6E1491CB24F3BA314E8426B (void);
 // 0x00000078 System.Boolean OVRPose::op_Inequality(OVRPose,OVRPose)
-extern void OVRPose_op_Inequality_m87B9186236218A6547846E6E1B0C2A4ACBD8155E (void);
+extern void OVRPose_op_Inequality_mA2693C878A3FC4BFBA0BCB1431EB9C9BA11713B7 (void);
 // 0x00000079 OVRPose OVRPose::op_Multiply(OVRPose,OVRPose)
-extern void OVRPose_op_Multiply_m1A9E96B2CEC65E2E9984369083A4E9F8D7547C82 (void);
+extern void OVRPose_op_Multiply_mCAC208D92589C2CA928CB093B3C504DFA9866AFE (void);
 // 0x0000007A OVRPose OVRPose::Inverse()
 extern void OVRPose_Inverse_m13457B6B61C9A6D088EBB4F9BCDB1D8137CB21C7 (void);
 // 0x0000007B OVRPose OVRPose::flipZ()
@@ -328,7 +328,7 @@ extern void OVRGLTFAccessor__ctor_m68B3A3F1DA44DF09936A580CEBE1966D9479952E (voi
 // 0x0000009F System.Int32 OVRGLTFAccessor::GetDataCount()
 extern void OVRGLTFAccessor_GetDataCount_mB551B1EF751456B689476BAD27D039B228D650DF (void);
 // 0x000000A0 OVRGLTFType OVRGLTFAccessor::ToOVRType(System.String)
-extern void OVRGLTFAccessor_ToOVRType_m940116EC77EA3FF6B8A97A5E2D56DE20AA9EC857 (void);
+extern void OVRGLTFAccessor_ToOVRType_m018007DD1E7EC4838A878EFC53A41AE96AA69774 (void);
 // 0x000000A1 System.Void OVRGLTFAccessor::ReadAsInt(OVRBinaryChunk,System.Int32[]&,System.Int32)
 extern void OVRGLTFAccessor_ReadAsInt_m023DA914214C1B583F5B7F8A5A4593673FCBC663 (void);
 // 0x000000A2 System.Void OVRGLTFAccessor::ReadAsFloat(OVRBinaryChunk,System.Single[]&,System.Int32)
@@ -381,7 +381,7 @@ extern void OVRGLTFAnimatinonNode_CloneVector3_m63BE4B4C588326092C5FEA43C65472B9
 // 0x000000BA UnityEngine.Quaternion OVRGLTFAnimatinonNode::CloneQuaternion(UnityEngine.Quaternion)
 extern void OVRGLTFAnimatinonNode_CloneQuaternion_mA35EFC7C8CEA64C91D7B46ADF41B5FCF8B78EE8E (void);
 // 0x000000BB System.Void OVRGLTFAnimatinonNode::.cctor()
-extern void OVRGLTFAnimatinonNode__cctor_m86092A11D3444B5920E5B5CBF74160EA77CE1920 (void);
+extern void OVRGLTFAnimatinonNode__cctor_m0EF5455B2EB217E8283AFA92AEC639EE537CF809 (void);
 // 0x000000BC System.Void OVRGLTFLoader::.ctor(System.String)
 extern void OVRGLTFLoader__ctor_mB10D004509F431544BA1807E8116C4C8B1FAE1A0 (void);
 // 0x000000BD System.Void OVRGLTFLoader::.ctor(System.Byte[])
@@ -397,9 +397,9 @@ extern void OVRGLTFLoader_SetTextureQualityFiltering_mAE48E84446DCC3C6DE48E351FB
 // 0x000000C2 System.Void OVRGLTFLoader::SetMipMapBias(System.Single)
 extern void OVRGLTFLoader_SetMipMapBias_m33E0FF942DE3583602A9621D8667349C0AD680C5 (void);
 // 0x000000C3 OVRTextureQualityFiltering OVRGLTFLoader::DetectTextureQuality(UnityEngine.Texture2D&)
-extern void OVRGLTFLoader_DetectTextureQuality_m2258282E75216EEBA7FD429B1252FAA5C5DD65AA (void);
+extern void OVRGLTFLoader_DetectTextureQuality_m76780087A4F1810E790BCA75CA556FB2C4384B67 (void);
 // 0x000000C4 System.Void OVRGLTFLoader::ApplyTextureQuality(OVRTextureQualityFiltering,UnityEngine.Texture2D&)
-extern void OVRGLTFLoader_ApplyTextureQuality_m781831CF52305784FD0173F66A0F09D5C7F47E17 (void);
+extern void OVRGLTFLoader_ApplyTextureQuality_m92EA40B76B4192DE4C62EEA2357A7351B831D69E (void);
 // 0x000000C5 System.Boolean OVRGLTFLoader::ValidateGLB(System.IO.Stream)
 extern void OVRGLTFLoader_ValidateGLB_m995D23F3010DD4056F87927A626D04952DC61F44 (void);
 // 0x000000C6 System.Byte[] OVRGLTFLoader::ReadChunk(System.IO.Stream,OVRChunkType)
@@ -413,7 +413,7 @@ extern void OVRGLTFLoader_ProcessNode_m8A5C11B849763D8962F63E02AB712EC5EBD255AB 
 // 0x000000CA OVRMeshData OVRGLTFLoader::ProcessMesh(OVRSimpleJSON.JSONNode,System.Boolean)
 extern void OVRGLTFLoader_ProcessMesh_mF91568D83B8A66F17203D034A0CBBED4B2C49640 (void);
 // 0x000000CB System.Void OVRGLTFLoader::FlipTraingleIndices(System.Int32[]&)
-extern void OVRGLTFLoader_FlipTraingleIndices_m42C973790B6BF863D24315BFAA801CE3FAC8C807 (void);
+extern void OVRGLTFLoader_FlipTraingleIndices_m1617743E9399BDCF78252D08AAC971765922074C (void);
 // 0x000000CC System.Void OVRGLTFLoader::ProcessSkin(OVRSimpleJSON.JSONNode,UnityEngine.SkinnedMeshRenderer)
 extern void OVRGLTFLoader_ProcessSkin_m8FF56F055503C65D6757CADF6D58F26CF0224430 (void);
 // 0x000000CD OVRMaterialData OVRGLTFLoader::ProcessMaterial(System.Int32)
@@ -429,43 +429,43 @@ extern void OVRGLTFLoader_GetInputNodeType_m6855E527F9D42B495EE2B7C6F0E57E5EC296
 // 0x000000D2 System.Void OVRGLTFLoader::ProcessAnimations()
 extern void OVRGLTFLoader_ProcessAnimations_m18520166D04EFA7EAB282ADED9CA7AD0DE30043B (void);
 // 0x000000D3 System.Void OVRGLTFLoader::.cctor()
-extern void OVRGLTFLoader__cctor_mF943E4669165250FE58BD269335BB2CFF0A2FFEE (void);
+extern void OVRGLTFLoader__cctor_mB936219A4E9F944ED89730A586CD08836A624FAB (void);
 // 0x000000D4 System.Void OVRGLTFLoader/<>c__DisplayClass27_0::.ctor()
 extern void U3CU3Ec__DisplayClass27_0__ctor_mAA33415A6334C948D5FB6FF0676C5FAB37792F1B (void);
 // 0x000000D5 System.Void OVRGLTFLoader/<>c__DisplayClass27_0::<ProcessMesh>b__0()
 extern void U3CU3Ec__DisplayClass27_0_U3CProcessMeshU3Eb__0_m998C738F6C4AB24E0AE93FC5AAD2910A88E229D5 (void);
 // 0x000000D6 System.Void OVRHaptics::.cctor()
-extern void OVRHaptics__cctor_mE8B0B9597F222B09CC22F994E9ED3717E2AE57C3 (void);
+extern void OVRHaptics__cctor_mA37F799C36EEE23EBA0E65CD8D730008A01BDE57 (void);
 // 0x000000D7 System.Void OVRHaptics::Process()
-extern void OVRHaptics_Process_mB12981E1FC697F7943B95071776EA371893570D9 (void);
+extern void OVRHaptics_Process_m4C06440CFE490FDE9213449D6DF094E68E55C4CB (void);
 // 0x000000D8 System.Int32 OVRHaptics/Config::get_SampleRateHz()
-extern void Config_get_SampleRateHz_m677F6A7D5D7B2B177894138C4B247C29B4713E8A (void);
+extern void Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47 (void);
 // 0x000000D9 System.Void OVRHaptics/Config::set_SampleRateHz(System.Int32)
-extern void Config_set_SampleRateHz_m6EFE2BB2B3287B4660F4E1F336B8741839AB96F3 (void);
+extern void Config_set_SampleRateHz_mDCD3C6D84B82FAEE86652D00EB57F6D1C52692B5 (void);
 // 0x000000DA System.Int32 OVRHaptics/Config::get_SampleSizeInBytes()
-extern void Config_get_SampleSizeInBytes_mB27163A406D160F54D008B5614160B8B91AD3609 (void);
+extern void Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209 (void);
 // 0x000000DB System.Void OVRHaptics/Config::set_SampleSizeInBytes(System.Int32)
-extern void Config_set_SampleSizeInBytes_m0ECD79E4F64CB28E2D2524F790CEB7D8E428A426 (void);
+extern void Config_set_SampleSizeInBytes_mFD9B00CDEDFDB3C01D5958A9ECEEF22C80651A22 (void);
 // 0x000000DC System.Int32 OVRHaptics/Config::get_MinimumSafeSamplesQueued()
-extern void Config_get_MinimumSafeSamplesQueued_m59C94056A410D30A00AA93551A2E63F502CDC24E (void);
+extern void Config_get_MinimumSafeSamplesQueued_m479D3DEBCD5251637DC7FDE141FBECAC70DE5A1C (void);
 // 0x000000DD System.Void OVRHaptics/Config::set_MinimumSafeSamplesQueued(System.Int32)
-extern void Config_set_MinimumSafeSamplesQueued_m26A3EC47FA65CCC9894B98BC93DCBDB543D8253B (void);
+extern void Config_set_MinimumSafeSamplesQueued_m08F042C5BB8DCCBEE448EAD12412D3336ABAEFC5 (void);
 // 0x000000DE System.Int32 OVRHaptics/Config::get_MinimumBufferSamplesCount()
-extern void Config_get_MinimumBufferSamplesCount_mC7DD9A3D05C4D93B8501E76F06700A1BDDAF363C (void);
+extern void Config_get_MinimumBufferSamplesCount_m27DBFB9FEA1CB7EF08AC8C62B2F7B99CF1B9457C (void);
 // 0x000000DF System.Void OVRHaptics/Config::set_MinimumBufferSamplesCount(System.Int32)
-extern void Config_set_MinimumBufferSamplesCount_m73977E0C31FC1EA199292E49BBCD2E21826889C4 (void);
+extern void Config_set_MinimumBufferSamplesCount_m866A99335F02A0402AEE83DA6BDD06BEB7FEA7A3 (void);
 // 0x000000E0 System.Int32 OVRHaptics/Config::get_OptimalBufferSamplesCount()
-extern void Config_get_OptimalBufferSamplesCount_mB91EBF0905CF6C760F1D5B0C2AC637C173FB2947 (void);
+extern void Config_get_OptimalBufferSamplesCount_mBC971D5C4CF6F34A8A3925DC8103A09E3E8BF4F7 (void);
 // 0x000000E1 System.Void OVRHaptics/Config::set_OptimalBufferSamplesCount(System.Int32)
-extern void Config_set_OptimalBufferSamplesCount_m5C84E34A87EA994209369D1553F1D376DBDA8C42 (void);
+extern void Config_set_OptimalBufferSamplesCount_m5B583871BC4784C547969664A7DCC45343792E7F (void);
 // 0x000000E2 System.Int32 OVRHaptics/Config::get_MaximumBufferSamplesCount()
-extern void Config_get_MaximumBufferSamplesCount_m26CFBFBF7983DB69424E806DFE895B67D6C7E5B1 (void);
+extern void Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0 (void);
 // 0x000000E3 System.Void OVRHaptics/Config::set_MaximumBufferSamplesCount(System.Int32)
-extern void Config_set_MaximumBufferSamplesCount_m198B2636E713BB15F5D860A9597857001A4184B7 (void);
+extern void Config_set_MaximumBufferSamplesCount_m9D324EE5E616DCD4DA7F6563973A3B430B6D1C0A (void);
 // 0x000000E4 System.Void OVRHaptics/Config::.cctor()
-extern void Config__cctor_mC43C9D8086427677837242D68C8A7BA1635A2807 (void);
+extern void Config__cctor_m1E562E3C40232AC081DE7CCC55A917623D792DF0 (void);
 // 0x000000E5 System.Void OVRHaptics/Config::Load()
-extern void Config_Load_m694E7091FC13E791A8026AF1D914F6FAF26BE8F8 (void);
+extern void Config_Load_m37407D28EF74FBA74FEDBFD78695E65CD859A330 (void);
 // 0x000000E6 System.Void OVRHaptics/OVRHapticsChannel::.ctor(System.UInt32)
 extern void OVRHapticsChannel__ctor_m79C872D3637A1862B08A58D00A21F413D3B1CA96 (void);
 // 0x000000E7 System.Void OVRHaptics/OVRHapticsChannel::Preempt(OVRHapticsClip)
@@ -537,139 +537,139 @@ extern void OVRHeadsetEmulator_IsTweakingPitch_m996A63E4DE8EEE3BC82947D7AE8F5666
 // 0x00000108 System.Void OVRHeadsetEmulator::.ctor()
 extern void OVRHeadsetEmulator__ctor_m468B5EF0EA89C3133B2F07D99E4E61DC8CEE77E1 (void);
 // 0x00000109 System.Boolean OVRInput::get_pluginSupportsActiveController()
-extern void OVRInput_get_pluginSupportsActiveController_m24B3A71FDEFAB7D9063604BF2CD97106533A4FC4 (void);
+extern void OVRInput_get_pluginSupportsActiveController_m273F22B55C9B8197B8B372827D45933173F51C05 (void);
 // 0x0000010A System.Void OVRInput::.cctor()
-extern void OVRInput__cctor_m26AAF392678E97A3158021F185CEC2475492684A (void);
+extern void OVRInput__cctor_m8795EFB9DA9E021E059009CB980EB0608FBCD540 (void);
 // 0x0000010B System.Void OVRInput::Update()
-extern void OVRInput_Update_m519C7854794F56EA59C901E8022C361F35C6A0E2 (void);
+extern void OVRInput_Update_m46BEA0A1B8C6592A25FBA12F61D471770EC72076 (void);
 // 0x0000010C System.Void OVRInput::FixedUpdate()
-extern void OVRInput_FixedUpdate_m356D624CF6552C2A0345EBF56C065C6AF4F64917 (void);
+extern void OVRInput_FixedUpdate_m0B2BA5C8485902E1A0EE19A1F7066E671D8ECCB5 (void);
 // 0x0000010D System.Boolean OVRInput::GetControllerOrientationTracked(OVRInput/Controller)
-extern void OVRInput_GetControllerOrientationTracked_mB7635DB0E06D1ADEC34913E447516AC6C1537C38 (void);
+extern void OVRInput_GetControllerOrientationTracked_m29C61E840A641F6639492E4AD2A852A786E6EC7F (void);
 // 0x0000010E System.Boolean OVRInput::GetControllerOrientationValid(OVRInput/Controller)
-extern void OVRInput_GetControllerOrientationValid_m224B2F9F87C5E1B27967594C0FE850B6DB0C1C3A (void);
+extern void OVRInput_GetControllerOrientationValid_m9EE0634367BCEAF60C6DDBA9CF527F2CEC8327C1 (void);
 // 0x0000010F System.Boolean OVRInput::GetControllerPositionTracked(OVRInput/Controller)
-extern void OVRInput_GetControllerPositionTracked_m6AA772C1B15D737CD5BA828FAFF5DF70B869F6CB (void);
+extern void OVRInput_GetControllerPositionTracked_mA3D8C4DFC17FB1808C78A865556E394BF565CF0A (void);
 // 0x00000110 System.Boolean OVRInput::GetControllerPositionValid(OVRInput/Controller)
-extern void OVRInput_GetControllerPositionValid_m875602C0217417208E690EFEE0B53D272CDC55DE (void);
+extern void OVRInput_GetControllerPositionValid_m3ACDABE2BD5335A8DE615A2F9A5C9D63CE329E94 (void);
 // 0x00000111 UnityEngine.Vector3 OVRInput::GetLocalControllerPosition(OVRInput/Controller)
-extern void OVRInput_GetLocalControllerPosition_m5630E056EBDF6BD0A317D19DE90AFC0C80233B69 (void);
+extern void OVRInput_GetLocalControllerPosition_mD8A4504C441B477AB11C92CB7FBD561ECF15E253 (void);
 // 0x00000112 UnityEngine.Vector3 OVRInput::GetLocalControllerVelocity(OVRInput/Controller)
-extern void OVRInput_GetLocalControllerVelocity_m1A5B297A1EA73829B9DF840E5FAC02C147376AEC (void);
+extern void OVRInput_GetLocalControllerVelocity_m2E8ED9F38FCB0E781C796E72917D27F65A3EFF14 (void);
 // 0x00000113 UnityEngine.Vector3 OVRInput::GetLocalControllerAcceleration(OVRInput/Controller)
-extern void OVRInput_GetLocalControllerAcceleration_m0A471C0C14EFBE5A08E1D9835D7DC0B782D1FD42 (void);
+extern void OVRInput_GetLocalControllerAcceleration_m89D4A94FC2E1282CED140A6BC5D54527B1E98ECD (void);
 // 0x00000114 UnityEngine.Quaternion OVRInput::GetLocalControllerRotation(OVRInput/Controller)
-extern void OVRInput_GetLocalControllerRotation_mD0D287501357996403558E697CC65161E0B5D51A (void);
+extern void OVRInput_GetLocalControllerRotation_mF2ECF5F8BBB3EF1CF9D4B5E0A1BEC6CA9036515F (void);
 // 0x00000115 UnityEngine.Vector3 OVRInput::GetLocalControllerAngularVelocity(OVRInput/Controller)
-extern void OVRInput_GetLocalControllerAngularVelocity_m6FC346488296969200B490FA401D175B7E2B936B (void);
+extern void OVRInput_GetLocalControllerAngularVelocity_m4A05C6F3F878F119AEB2E5222154B773C3FE8F24 (void);
 // 0x00000116 UnityEngine.Vector3 OVRInput::GetLocalControllerAngularAcceleration(OVRInput/Controller)
-extern void OVRInput_GetLocalControllerAngularAcceleration_m20BA7564AFE8142E990F3EB8D0BCE022CCB29141 (void);
+extern void OVRInput_GetLocalControllerAngularAcceleration_mEF0691E48437D9A49899E17BA2F5501DDDF9E762 (void);
 // 0x00000117 System.Boolean OVRInput::GetLocalControllerStatesWithoutPrediction(OVRInput/Controller,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&,UnityEngine.Vector3&)
-extern void OVRInput_GetLocalControllerStatesWithoutPrediction_m87360EC011EE8181919D0797066E165425C0BC3B (void);
+extern void OVRInput_GetLocalControllerStatesWithoutPrediction_m103D67215F6473717F5FA7747FD6B835070248C2 (void);
 // 0x00000118 OVRInput/Handedness OVRInput::GetDominantHand()
-extern void OVRInput_GetDominantHand_m49F7B8237D73BA6040C3AE9BE7728E7164F4FD49 (void);
+extern void OVRInput_GetDominantHand_m19E38B4B4C4B246B2ABE605F1ED7F0041B88E6F0 (void);
 // 0x00000119 System.Boolean OVRInput::Get(OVRInput/Button,OVRInput/Controller)
-extern void OVRInput_Get_m32EEE63D73D2D4B6F5E98495B8E1F2FA8583CB41 (void);
+extern void OVRInput_Get_m8CF227684F49E1C26239D78F826E11A956E909C1 (void);
 // 0x0000011A System.Boolean OVRInput::Get(OVRInput/RawButton,OVRInput/Controller)
-extern void OVRInput_Get_mE1592108DD22A90FA3B639CE2C0C8252456978BA (void);
+extern void OVRInput_Get_m537C5F53DCBD027936460E4183648F5EEBA6A654 (void);
 // 0x0000011B System.Boolean OVRInput::GetResolvedButton(OVRInput/Button,OVRInput/RawButton,OVRInput/Controller)
-extern void OVRInput_GetResolvedButton_m36CD24B8A49E4602179FD4910881AE0E77D8F796 (void);
+extern void OVRInput_GetResolvedButton_mBB31573503E0C243CFCF461E9D8ABACA3B9C1DEE (void);
 // 0x0000011C System.Boolean OVRInput::GetDown(OVRInput/Button,OVRInput/Controller)
-extern void OVRInput_GetDown_mB545BE1CFB07364E7DE792A9CD7C4B614736525A (void);
+extern void OVRInput_GetDown_mEC4F71AEC93D3AF1A041934CA4C61680C6DB9AC7 (void);
 // 0x0000011D System.Boolean OVRInput::GetDown(OVRInput/RawButton,OVRInput/Controller)
-extern void OVRInput_GetDown_mC2E24999ECC6EA949C438059BA9D32B0E0311BE5 (void);
+extern void OVRInput_GetDown_mEF663E99B6E5FABB41B86716C6D04C788C979139 (void);
 // 0x0000011E System.Boolean OVRInput::GetResolvedButtonDown(OVRInput/Button,OVRInput/RawButton,OVRInput/Controller)
-extern void OVRInput_GetResolvedButtonDown_m07042E9082916B411E1F654E62C4D2360A01F10D (void);
+extern void OVRInput_GetResolvedButtonDown_m7AAC44E0388502D43F5A6887AE2ACEEE69642C9F (void);
 // 0x0000011F System.Boolean OVRInput::GetUp(OVRInput/Button,OVRInput/Controller)
-extern void OVRInput_GetUp_m11DA43291070262B20D13A3E599EBE0C6A2D02D5 (void);
+extern void OVRInput_GetUp_m66B13613FF16CBAB8B0A77A5ADCFD1A3A68F3898 (void);
 // 0x00000120 System.Boolean OVRInput::GetUp(OVRInput/RawButton,OVRInput/Controller)
-extern void OVRInput_GetUp_m744B92CAFECBDE18143C162274A3AD02BC210559 (void);
+extern void OVRInput_GetUp_mFBB66C8829A20CBA56AB5A01B27B9B656AB8E385 (void);
 // 0x00000121 System.Boolean OVRInput::GetResolvedButtonUp(OVRInput/Button,OVRInput/RawButton,OVRInput/Controller)
-extern void OVRInput_GetResolvedButtonUp_mF00C55E7F16718758E9E475101399E3CE326C6BD (void);
+extern void OVRInput_GetResolvedButtonUp_m270DD35F9328AA02FD57704B03BD9C48439290FE (void);
 // 0x00000122 System.Boolean OVRInput::Get(OVRInput/Touch,OVRInput/Controller)
-extern void OVRInput_Get_mB693E89754D1B7E5B10630B1ED4886716EC813ED (void);
+extern void OVRInput_Get_m6C2E703E080DE2688C40ACA3F68F83F906E625A2 (void);
 // 0x00000123 System.Boolean OVRInput::Get(OVRInput/RawTouch,OVRInput/Controller)
-extern void OVRInput_Get_m6DA8EC194C108E9E9AE5428E5B7B03EAD5AEF96F (void);
+extern void OVRInput_Get_mBEB70324F4BE01D02BE80C0A871A096F1D28D598 (void);
 // 0x00000124 System.Boolean OVRInput::GetResolvedTouch(OVRInput/Touch,OVRInput/RawTouch,OVRInput/Controller)
-extern void OVRInput_GetResolvedTouch_mEE58EF5A4E89F46E9B9CECD642D587F15F2D06EB (void);
+extern void OVRInput_GetResolvedTouch_m73FE92C1ADB5D80A899E286D292ED84071FE8CFE (void);
 // 0x00000125 System.Boolean OVRInput::GetDown(OVRInput/Touch,OVRInput/Controller)
-extern void OVRInput_GetDown_mD09ACA67CA75A39A86C5C7C73590D72A536CFF75 (void);
+extern void OVRInput_GetDown_m5491C09889270B683C537503A0C6BF872504AAA8 (void);
 // 0x00000126 System.Boolean OVRInput::GetDown(OVRInput/RawTouch,OVRInput/Controller)
-extern void OVRInput_GetDown_m701C295CAA2805D53A78CCE7FEF172C906CD741C (void);
+extern void OVRInput_GetDown_m486EC70E23DEE19E6AB8364AC09CE97AD4EA4AA7 (void);
 // 0x00000127 System.Boolean OVRInput::GetResolvedTouchDown(OVRInput/Touch,OVRInput/RawTouch,OVRInput/Controller)
-extern void OVRInput_GetResolvedTouchDown_m748C410FC0234AE61981FC3DFD2D0D8A970EA0F4 (void);
+extern void OVRInput_GetResolvedTouchDown_m66E8EEDD8A035AB53C72094860E4B470B383B6BA (void);
 // 0x00000128 System.Boolean OVRInput::GetUp(OVRInput/Touch,OVRInput/Controller)
-extern void OVRInput_GetUp_mD29400DF2E80D8AFB4648F3211D0D53863CB004D (void);
+extern void OVRInput_GetUp_m3E4D89CF77514121520D52DBA85E0376826875D8 (void);
 // 0x00000129 System.Boolean OVRInput::GetUp(OVRInput/RawTouch,OVRInput/Controller)
-extern void OVRInput_GetUp_m9B79F44E6A7B04A57672C35691E88477C54A1F49 (void);
+extern void OVRInput_GetUp_mA6D9A9EF681EE249F1128D2EDB8A64492D6088E9 (void);
 // 0x0000012A System.Boolean OVRInput::GetResolvedTouchUp(OVRInput/Touch,OVRInput/RawTouch,OVRInput/Controller)
-extern void OVRInput_GetResolvedTouchUp_mD845A30EE7415F7711247F26BA2330B604ADCEAF (void);
+extern void OVRInput_GetResolvedTouchUp_m209C2025FE3912C6A88EBEEC418D28E49CB48C35 (void);
 // 0x0000012B System.Boolean OVRInput::Get(OVRInput/NearTouch,OVRInput/Controller)
-extern void OVRInput_Get_m6B7E9C82EFD00F5004635BB56A987523901340FD (void);
+extern void OVRInput_Get_m3231F0E900AB4B2AF1BCBCB2045C6D2AF125C0C7 (void);
 // 0x0000012C System.Boolean OVRInput::Get(OVRInput/RawNearTouch,OVRInput/Controller)
-extern void OVRInput_Get_mC95B42D9B6377232DD46BC8A43A7940BFD913CE9 (void);
+extern void OVRInput_Get_mFE6AE2B8D10329B84EDD4D3A6BA08617F5323A87 (void);
 // 0x0000012D System.Boolean OVRInput::GetResolvedNearTouch(OVRInput/NearTouch,OVRInput/RawNearTouch,OVRInput/Controller)
-extern void OVRInput_GetResolvedNearTouch_m2CC25FDA2452E963359FD8CFA8A71A99037CE473 (void);
+extern void OVRInput_GetResolvedNearTouch_mED99EAB619BBCBC6C3A1D39EFFE67D1D2882C1A7 (void);
 // 0x0000012E System.Boolean OVRInput::GetDown(OVRInput/NearTouch,OVRInput/Controller)
-extern void OVRInput_GetDown_m2E0AEC224D721698ACBE44E609EED4692C12AA47 (void);
+extern void OVRInput_GetDown_m154A3DF72CA4730638205848FA0818BBC8E7C341 (void);
 // 0x0000012F System.Boolean OVRInput::GetDown(OVRInput/RawNearTouch,OVRInput/Controller)
-extern void OVRInput_GetDown_m59DEA85D8BC8821F7D5811EA415DC1C5A4E14EE0 (void);
+extern void OVRInput_GetDown_m4ACA316A238725299B4330463494315FDF2A9133 (void);
 // 0x00000130 System.Boolean OVRInput::GetResolvedNearTouchDown(OVRInput/NearTouch,OVRInput/RawNearTouch,OVRInput/Controller)
-extern void OVRInput_GetResolvedNearTouchDown_m6B12E13339131EE746096568C6DD98EB4C174E73 (void);
+extern void OVRInput_GetResolvedNearTouchDown_m6FD16DD559D5DF8B54918EE7C11D43CCF6345FC1 (void);
 // 0x00000131 System.Boolean OVRInput::GetUp(OVRInput/NearTouch,OVRInput/Controller)
-extern void OVRInput_GetUp_mBA340433C47BD95D561A2803E1ADA00560F219BF (void);
+extern void OVRInput_GetUp_m31EB27909F84F5A072599C2198E542436692A8F6 (void);
 // 0x00000132 System.Boolean OVRInput::GetUp(OVRInput/RawNearTouch,OVRInput/Controller)
-extern void OVRInput_GetUp_m884F951D60BCA739C8DB3ACA19E256FEE2D78272 (void);
+extern void OVRInput_GetUp_mC566682F46106E82E01F6FF3F58B55F4293CF9D3 (void);
 // 0x00000133 System.Boolean OVRInput::GetResolvedNearTouchUp(OVRInput/NearTouch,OVRInput/RawNearTouch,OVRInput/Controller)
-extern void OVRInput_GetResolvedNearTouchUp_mF07585843B3364CFBDD6855AD234E2CAE5C807C6 (void);
+extern void OVRInput_GetResolvedNearTouchUp_mF91233ABD8E1D6CC43D2D6929B5EC95D584D3941 (void);
 // 0x00000134 System.Single OVRInput::Get(OVRInput/Axis1D,OVRInput/Controller)
-extern void OVRInput_Get_mA7B4373DD73AC43517A18BC88CA2CA812E5D2EAA (void);
+extern void OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8 (void);
 // 0x00000135 System.Single OVRInput::Get(OVRInput/RawAxis1D,OVRInput/Controller)
-extern void OVRInput_Get_m3C5F38DA522FF7CC4FB7CA34615A93FB3A98BA51 (void);
+extern void OVRInput_Get_m012EDBD26DA72A28E233C6067036C4DB52ECB515 (void);
 // 0x00000136 System.Single OVRInput::GetResolvedAxis1D(OVRInput/Axis1D,OVRInput/RawAxis1D,OVRInput/Controller)
-extern void OVRInput_GetResolvedAxis1D_mBA905ED49848F2490F9A70EA1BD4A7CD93011EBB (void);
+extern void OVRInput_GetResolvedAxis1D_mF5209B0321AE338095757D7353B262549E274EA1 (void);
 // 0x00000137 UnityEngine.Vector2 OVRInput::Get(OVRInput/Axis2D,OVRInput/Controller)
-extern void OVRInput_Get_m5DC55CC9D553D98F95937AB80D77C1120BB56CC6 (void);
+extern void OVRInput_Get_mF4EA350D5898449529C641C72B7D440DF81180C8 (void);
 // 0x00000138 UnityEngine.Vector2 OVRInput::Get(OVRInput/RawAxis2D,OVRInput/Controller)
-extern void OVRInput_Get_mEA4FADD377F893A4C93B3CE3ED332F6D33DD5D98 (void);
+extern void OVRInput_Get_mB457003E7F3A6A8901B7A1D6CB6A167A5829E304 (void);
 // 0x00000139 UnityEngine.Vector2 OVRInput::GetResolvedAxis2D(OVRInput/Axis2D,OVRInput/RawAxis2D,OVRInput/Controller)
-extern void OVRInput_GetResolvedAxis2D_m0FEDEF166240C006B8918B3CA69A935434F0A2D3 (void);
+extern void OVRInput_GetResolvedAxis2D_m906A84A42FEF829D334263869BE8B73F67DBE2BC (void);
 // 0x0000013A OVRInput/Controller OVRInput::GetConnectedControllers()
-extern void OVRInput_GetConnectedControllers_m4EF5F5C48A11AA32286CB818986AC1BA36F0DE65 (void);
+extern void OVRInput_GetConnectedControllers_m70645A9B001F6880D104D779341958174139332D (void);
 // 0x0000013B System.Boolean OVRInput::IsControllerConnected(OVRInput/Controller)
-extern void OVRInput_IsControllerConnected_m0B791C75044ACB8D9903C153BFAA703C4BA0596F (void);
+extern void OVRInput_IsControllerConnected_mC3BA5BE3D3A5642D36965D4CD82525C989F85E9A (void);
 // 0x0000013C OVRInput/Controller OVRInput::GetActiveController()
-extern void OVRInput_GetActiveController_mFBDF474AA755532D526CC199FC821AD849FA049B (void);
+extern void OVRInput_GetActiveController_m1F0234F8333A98DC3F2BF49A9ECA6530139B6A65 (void);
 // 0x0000013D System.Void OVRInput::StartVibration(System.Single,System.Single,UnityEngine.XR.XRNode)
-extern void OVRInput_StartVibration_m9E8EA9E3BBBA5C1D8C763D051560283665F441CC (void);
+extern void OVRInput_StartVibration_mC60F6AD7169146CCCC1EE049A1BA447F06E67EBD (void);
 // 0x0000013E System.Void OVRInput::SetOpenVRLocalPose(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Quaternion)
-extern void OVRInput_SetOpenVRLocalPose_mC0BBBB5D8FE8DC42B3E9ED55B68CE78000651998 (void);
+extern void OVRInput_SetOpenVRLocalPose_m27E4294B7780884FF0BC1A8605403289A12C8894 (void);
 // 0x0000013F System.String OVRInput::GetOpenVRStringProperty(OVR.OpenVR.ETrackedDeviceProperty,System.UInt32)
-extern void OVRInput_GetOpenVRStringProperty_m6E123398DEAD31B4EA82FCB8F449955C5D279C47 (void);
+extern void OVRInput_GetOpenVRStringProperty_m98D9EFA2CF5CB4A3D5B1FBF211792C9BF3694211 (void);
 // 0x00000140 System.Void OVRInput::UpdateXRControllerNodeIds()
-extern void OVRInput_UpdateXRControllerNodeIds_mE6A7CC188A3A29E5A43E081041C9C17EC773FD8B (void);
+extern void OVRInput_UpdateXRControllerNodeIds_mBADEA537A0EE550060596054C9FE13B8B041E8CA (void);
 // 0x00000141 System.Void OVRInput::UpdateXRControllerHaptics()
-extern void OVRInput_UpdateXRControllerHaptics_m7CD95F861744BA76F0F4FAD4F4C0447644531FEE (void);
+extern void OVRInput_UpdateXRControllerHaptics_m9E0932C8F3F7602C10857A4B6AA0CEFF52F1CC78 (void);
 // 0x00000142 System.Void OVRInput::InitHapticInfo()
-extern void OVRInput_InitHapticInfo_mD524CDE3903194E3EFBBE72C7016A4F338BB959B (void);
+extern void OVRInput_InitHapticInfo_mAF5586A61678F7D8D7BA986F970A21226E4FC06F (void);
 // 0x00000143 System.Void OVRInput::PlayHapticImpulse(System.Single,UnityEngine.XR.XRNode)
-extern void OVRInput_PlayHapticImpulse_mB3B8D6863627A15327415367335636FD20836BA6 (void);
+extern void OVRInput_PlayHapticImpulse_m1361B3A6FDE69152D291A4AAC0C0D3537926F77B (void);
 // 0x00000144 System.Boolean OVRInput::IsValidOpenVRDevice(System.UInt32)
-extern void OVRInput_IsValidOpenVRDevice_mCAA690A028743775F4BDC7690DE47E55F2E3D945 (void);
+extern void OVRInput_IsValidOpenVRDevice_m7ADD9AC581CBA6737A77731FEB481BD1E9D75B64 (void);
 // 0x00000145 System.Void OVRInput::SetControllerVibration(System.Single,System.Single,OVRInput/Controller)
-extern void OVRInput_SetControllerVibration_m9E3D44A89F9D1C3086837F2FEDFDCC869C9F81EA (void);
+extern void OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E (void);
 // 0x00000146 System.Byte OVRInput::GetControllerBatteryPercentRemaining(OVRInput/Controller)
-extern void OVRInput_GetControllerBatteryPercentRemaining_m3E48AFC16828C2D54FC2C5C63E9EE0F7FD545F60 (void);
+extern void OVRInput_GetControllerBatteryPercentRemaining_m71749CA732247A262C0274C88BCE39BE6F48FF08 (void);
 // 0x00000147 UnityEngine.Vector2 OVRInput::CalculateAbsMax(UnityEngine.Vector2,UnityEngine.Vector2)
-extern void OVRInput_CalculateAbsMax_mAB115C270EAFE3D24E1101550A429F67FBEEA3A3 (void);
+extern void OVRInput_CalculateAbsMax_m01D62F439662772B8DFACA54195A979A2E151F19 (void);
 // 0x00000148 System.Single OVRInput::CalculateAbsMax(System.Single,System.Single)
-extern void OVRInput_CalculateAbsMax_m72AB78CB545B8BE4EDAF8EC43AA521A08F3B2F8B (void);
+extern void OVRInput_CalculateAbsMax_mC5712340231F606B82E84C5E7BC769E5A4EBA008 (void);
 // 0x00000149 UnityEngine.Vector2 OVRInput::CalculateDeadzone(UnityEngine.Vector2,System.Single)
-extern void OVRInput_CalculateDeadzone_mCECB0055103E7B8A6CB19DBA9A7B373B9C16C83B (void);
+extern void OVRInput_CalculateDeadzone_m62E502D296247D79A188319599508836C0B88D9C (void);
 // 0x0000014A System.Single OVRInput::CalculateDeadzone(System.Single,System.Single)
-extern void OVRInput_CalculateDeadzone_mE1C9D07AEBE7F227F906ADB61B08A77D6BDDB1A2 (void);
+extern void OVRInput_CalculateDeadzone_m6BA8FADBF3D06FE95AD5264B167531F78C4AB3C4 (void);
 // 0x0000014B System.Boolean OVRInput::ShouldResolveController(OVRInput/Controller,OVRInput/Controller)
-extern void OVRInput_ShouldResolveController_mEAEE3D3DC8B010FD7DF390E39AD557D5B7B11BCA (void);
+extern void OVRInput_ShouldResolveController_m28BB36AA2D586B8F1C75071D26654B77285AA952 (void);
 // 0x0000014C System.Void OVRInput/HapticInfo::.ctor()
 extern void HapticInfo__ctor_m386E367D1A8EB72F22817794BDD0E4EAD8210F0F (void);
 // 0x0000014D System.Void OVRInput/OVRControllerBase::.ctor()
@@ -844,17 +844,17 @@ extern void OVRControllerGamepadMac_ConfigureAxis2DMap_mD5B20EBDB898E22A1B5402AA
 // 0x000001A4 System.Void OVRInput/OVRControllerGamepadMac::SetControllerVibration(System.Single,System.Single)
 extern void OVRControllerGamepadMac_SetControllerVibration_m5A7E59C4A54B0F4EB4A50DEEF383757504D5D535 (void);
 // 0x000001A5 System.Boolean OVRInput/OVRControllerGamepadMac::OVR_GamepadController_Initialize()
-extern void OVRControllerGamepadMac_OVR_GamepadController_Initialize_m112B7FA06AE9AF160462637D4560D9C4F4EA1C1D (void);
+extern void OVRControllerGamepadMac_OVR_GamepadController_Initialize_m72F97AC807C2BAA9976D756E7A40DD76B71F5AC4 (void);
 // 0x000001A6 System.Boolean OVRInput/OVRControllerGamepadMac::OVR_GamepadController_Destroy()
-extern void OVRControllerGamepadMac_OVR_GamepadController_Destroy_m106B7CE22FE6B9D37797A06A01C6291619E28D37 (void);
+extern void OVRControllerGamepadMac_OVR_GamepadController_Destroy_m07D88D01676804674B5D925D44901065E4F60606 (void);
 // 0x000001A7 System.Boolean OVRInput/OVRControllerGamepadMac::OVR_GamepadController_Update()
-extern void OVRControllerGamepadMac_OVR_GamepadController_Update_mD4BFB85DBFBA1B585231C23E90FE1764A0742E06 (void);
+extern void OVRControllerGamepadMac_OVR_GamepadController_Update_m21C43716E9120CE70369FDC6494DACC5A801B380 (void);
 // 0x000001A8 System.Single OVRInput/OVRControllerGamepadMac::OVR_GamepadController_GetAxis(System.Int32)
-extern void OVRControllerGamepadMac_OVR_GamepadController_GetAxis_mD78033B6333D1A4D291DAAD56D35A6D385D1CA8F (void);
+extern void OVRControllerGamepadMac_OVR_GamepadController_GetAxis_m41CD3A55785A96F3D23135887F6B533AE876FA6D (void);
 // 0x000001A9 System.Boolean OVRInput/OVRControllerGamepadMac::OVR_GamepadController_GetButton(System.Int32)
-extern void OVRControllerGamepadMac_OVR_GamepadController_GetButton_m4DCEDD50CC16777EADB3A224E5E16DFEB68D82C4 (void);
+extern void OVRControllerGamepadMac_OVR_GamepadController_GetButton_mDF6B711CFDB8DAF5B89EF037982F46ECB5BD9171 (void);
 // 0x000001AA System.Boolean OVRInput/OVRControllerGamepadMac::OVR_GamepadController_SetVibration(System.Int32,System.Single,System.Single)
-extern void OVRControllerGamepadMac_OVR_GamepadController_SetVibration_m8E5F2B5410B8C36E198D6739EAD447A6B839C61E (void);
+extern void OVRControllerGamepadMac_OVR_GamepadController_SetVibration_m2AA01AAFCCBFC268F3F94B35F500CDA714444864 (void);
 // 0x000001AB System.Void OVRInput/OVRControllerGamepadAndroid::.ctor()
 extern void OVRControllerGamepadAndroid__ctor_m2B20446135A5F6216BBF57ADB65A8E55264F991B (void);
 // 0x000001AC System.Void OVRInput/OVRControllerGamepadAndroid::ConfigureButtonMap()
@@ -868,131 +868,131 @@ extern void OVRControllerGamepadAndroid_ConfigureAxis1DMap_mA102C673C1A726B08549
 // 0x000001B0 System.Void OVRInput/OVRControllerGamepadAndroid::ConfigureAxis2DMap()
 extern void OVRControllerGamepadAndroid_ConfigureAxis2DMap_m82F40C8233710052ED92FE8BCC1BCAD2FACD5B9F (void);
 // 0x000001B1 System.Boolean OVRKtxTexture::Load(System.Byte[],OVRTextureData&)
-extern void OVRKtxTexture_Load_m86E57F794BC13FD4053BAD96F9A1905A9F64A971 (void);
+extern void OVRKtxTexture_Load_m6544AE7B274113799991C2C0231C5F68185DB9FD (void);
 // 0x000001B2 System.Void OVRKtxTexture::.ctor()
 extern void OVRKtxTexture__ctor_m94563268E7228EDB9B48E3CCF53DC27D0D9A3AE2 (void);
 // 0x000001B3 System.Void OVRLayerAttribute::.ctor()
 extern void OVRLayerAttribute__ctor_mD6EC6EF2AC708B6CA90913C30A09093C1199BD74 (void);
 // 0x000001B4 OVRManager OVRManager::get_instance()
-extern void OVRManager_get_instance_mD4D2BEB818DA7BFC5DA79F80E6768804A896EE10 (void);
+extern void OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C (void);
 // 0x000001B5 System.Void OVRManager::set_instance(OVRManager)
-extern void OVRManager_set_instance_m5B58C38EF3706A960047C1627F91D232C73905A2 (void);
+extern void OVRManager_set_instance_m268BE0B7206FEB81BA8B8EB5221AB2BA10E91E0E (void);
 // 0x000001B6 OVRDisplay OVRManager::get_display()
-extern void OVRManager_get_display_m47142D90CA5D019B1925D74C5BB2ED67DEFA6430 (void);
+extern void OVRManager_get_display_m1D17D6867547AC786E00A4CF60B863275AC1AF3D (void);
 // 0x000001B7 System.Void OVRManager::set_display(OVRDisplay)
-extern void OVRManager_set_display_m1E474E9AB724728C722025473C2CFC6956B8CBC1 (void);
+extern void OVRManager_set_display_mAD68A004132C01084A443254AC164FD31BCDFE6B (void);
 // 0x000001B8 OVRTracker OVRManager::get_tracker()
-extern void OVRManager_get_tracker_m92FF34E61792669ACF77ABF0B43F6FD64BFE72F5 (void);
+extern void OVRManager_get_tracker_mA945BED7BDB670E0F82A7EAD0A401651C8605259 (void);
 // 0x000001B9 System.Void OVRManager::set_tracker(OVRTracker)
-extern void OVRManager_set_tracker_m1163B6C8AE60AE7FBA3914378A720E3DBCC4B0E0 (void);
+extern void OVRManager_set_tracker_m50D4C4C76BA97D4775D75620D4CC033398E72433 (void);
 // 0x000001BA OVRBoundary OVRManager::get_boundary()
-extern void OVRManager_get_boundary_mA989844E4C1493A4CC97164D72FF186916878B97 (void);
+extern void OVRManager_get_boundary_m7495B93002198ABB5346F3F696712133AF7EA943 (void);
 // 0x000001BB System.Void OVRManager::set_boundary(OVRBoundary)
-extern void OVRManager_set_boundary_m8953E1D2F5DBCB753AD0657B8729DCA2767CA3B4 (void);
+extern void OVRManager_set_boundary_mCEFC4DA00ED1094A5758AC15FF744BDC4B6091E4 (void);
 // 0x000001BC OVRRuntimeSettings OVRManager::get_runtimeSettings()
-extern void OVRManager_get_runtimeSettings_m2C515DB54EE186C788DAA70A0443DA76935B3DAE (void);
+extern void OVRManager_get_runtimeSettings_m6DFAF39BFB4B75B251235D43B02696D70BFA897A (void);
 // 0x000001BD System.Void OVRManager::set_runtimeSettings(OVRRuntimeSettings)
-extern void OVRManager_set_runtimeSettings_m3BD04F0E805B7172AFDCBD23494C746A20FBB7D6 (void);
+extern void OVRManager_set_runtimeSettings_m66D09D518E906F1A50738B3BFA760EE8B117C469 (void);
 // 0x000001BE OVRProfile OVRManager::get_profile()
-extern void OVRManager_get_profile_m1E3D821B200306960F434F31AA621292CF374BC8 (void);
+extern void OVRManager_get_profile_m7BD564E8E26977B10A35BBB1E639FEDDB1357D6D (void);
 // 0x000001BF System.Void OVRManager::add_HMDAcquired(System.Action)
-extern void OVRManager_add_HMDAcquired_m19A18AFD27AD38AB5FF255BCE012A24892C8CE5B (void);
+extern void OVRManager_add_HMDAcquired_mFE57FD76987A5EEB1B03660911CA3B67BCE3F345 (void);
 // 0x000001C0 System.Void OVRManager::remove_HMDAcquired(System.Action)
-extern void OVRManager_remove_HMDAcquired_m68E5C912645BCC5810EA63A549F03B15F519A43B (void);
+extern void OVRManager_remove_HMDAcquired_m7F955D650B4E8D7BAA276F87F9EE42E344874049 (void);
 // 0x000001C1 System.Void OVRManager::add_HMDLost(System.Action)
-extern void OVRManager_add_HMDLost_m28EE3DC5B601DCA9E7BC2624F88E981AB0E7B8BF (void);
+extern void OVRManager_add_HMDLost_m987CB5028BB5E42DCB77716A0DD24F83A46D9B28 (void);
 // 0x000001C2 System.Void OVRManager::remove_HMDLost(System.Action)
-extern void OVRManager_remove_HMDLost_m90CC4DFAFC60BA24FC7F69E24311E7214001F378 (void);
+extern void OVRManager_remove_HMDLost_m8EA17A97037A9624D6466C44C781C7E7CBFCEE12 (void);
 // 0x000001C3 System.Void OVRManager::add_HMDMounted(System.Action)
-extern void OVRManager_add_HMDMounted_m26EED3A0EC894116011EED2E22E3FF80CDA16F71 (void);
+extern void OVRManager_add_HMDMounted_m8F0D43C1A18DEF38FF1F22F49CB90D652F58C3AE (void);
 // 0x000001C4 System.Void OVRManager::remove_HMDMounted(System.Action)
-extern void OVRManager_remove_HMDMounted_mFDE777845B388404C2CE61F56A1AF805599836AD (void);
+extern void OVRManager_remove_HMDMounted_mE3ACD3FCCFAC0AF372978085E2950B5B872685A8 (void);
 // 0x000001C5 System.Void OVRManager::add_HMDUnmounted(System.Action)
-extern void OVRManager_add_HMDUnmounted_mDADFB863CA94A9901BE3FA8F9F630C84BFFA3784 (void);
+extern void OVRManager_add_HMDUnmounted_mAF5F0B3B0F77CA5888B1ADE89E1006590C656691 (void);
 // 0x000001C6 System.Void OVRManager::remove_HMDUnmounted(System.Action)
-extern void OVRManager_remove_HMDUnmounted_mD13575A35AD960C1798808A42409129F9853CC22 (void);
+extern void OVRManager_remove_HMDUnmounted_mF0EC72A064E8A4598DC5720CEAB9793F80ABBD36 (void);
 // 0x000001C7 System.Void OVRManager::add_VrFocusAcquired(System.Action)
-extern void OVRManager_add_VrFocusAcquired_m3C85F553E98A4D0FD8C66951BCBA673C022272F1 (void);
+extern void OVRManager_add_VrFocusAcquired_m5463761A27A4D48A803583B059557E53DBBAB88F (void);
 // 0x000001C8 System.Void OVRManager::remove_VrFocusAcquired(System.Action)
-extern void OVRManager_remove_VrFocusAcquired_m8721D26ACF91BE5C1197C89B3EB986A2C4DA5899 (void);
+extern void OVRManager_remove_VrFocusAcquired_mD5CBD147F95529A4538FC2FD21D70456D9D9949C (void);
 // 0x000001C9 System.Void OVRManager::add_VrFocusLost(System.Action)
-extern void OVRManager_add_VrFocusLost_m674DB8ACCE95A8F08DF5791BF02CC3B04AC841FD (void);
+extern void OVRManager_add_VrFocusLost_m5143F087674161119B4D970BF8497AA8D60CAAB1 (void);
 // 0x000001CA System.Void OVRManager::remove_VrFocusLost(System.Action)
-extern void OVRManager_remove_VrFocusLost_mE52F62BAFDE44E913691F080F03A431B936891F2 (void);
+extern void OVRManager_remove_VrFocusLost_m4F0A4DDB3D5C5C18019BA47661C69CE935B1AC5B (void);
 // 0x000001CB System.Void OVRManager::add_InputFocusAcquired(System.Action)
-extern void OVRManager_add_InputFocusAcquired_m9F32B1C78ED186499113DB5A2E3DB0F5FA468818 (void);
+extern void OVRManager_add_InputFocusAcquired_m303EF833FD42193E22AFA2851C1E80861B53F41B (void);
 // 0x000001CC System.Void OVRManager::remove_InputFocusAcquired(System.Action)
-extern void OVRManager_remove_InputFocusAcquired_m34222D8C80FAA61CF971C109AC1028A809FF1D09 (void);
+extern void OVRManager_remove_InputFocusAcquired_m739A9413A8A163181FB382725F8B9B1975368283 (void);
 // 0x000001CD System.Void OVRManager::add_InputFocusLost(System.Action)
-extern void OVRManager_add_InputFocusLost_m284412D6ACDED9957738EFB8571B803803A2C621 (void);
+extern void OVRManager_add_InputFocusLost_mB75E6525CCFD54E827174479582C861448199E44 (void);
 // 0x000001CE System.Void OVRManager::remove_InputFocusLost(System.Action)
-extern void OVRManager_remove_InputFocusLost_mF906DC28576482D31EB16591BAE11CD97BBF7D93 (void);
+extern void OVRManager_remove_InputFocusLost_m331F5CDD3BACD07943A5A3380702145A744E7172 (void);
 // 0x000001CF System.Void OVRManager::add_AudioOutChanged(System.Action)
-extern void OVRManager_add_AudioOutChanged_mAF8476BA743B5EB97725B06A50C6E7569FC9E9FC (void);
+extern void OVRManager_add_AudioOutChanged_m03C919B466E4D30B688D95972D7999E6FE69E284 (void);
 // 0x000001D0 System.Void OVRManager::remove_AudioOutChanged(System.Action)
-extern void OVRManager_remove_AudioOutChanged_m620ABE0E38CB2962F2241CA88467B9F50E02824F (void);
+extern void OVRManager_remove_AudioOutChanged_m0FEF1697BE6E7FCAB62EC858A1C185EF4ED8B84A (void);
 // 0x000001D1 System.Void OVRManager::add_AudioInChanged(System.Action)
-extern void OVRManager_add_AudioInChanged_m870FBD7958A7E8477F3F0B09BED9E3E0CAD0808F (void);
+extern void OVRManager_add_AudioInChanged_m0DD4932B838687CCD3B813CAE3A6EAFDA177208B (void);
 // 0x000001D2 System.Void OVRManager::remove_AudioInChanged(System.Action)
-extern void OVRManager_remove_AudioInChanged_mBB4BD07D4EAE7A78B34D58CCAD89FDA1FDCD6FDA (void);
+extern void OVRManager_remove_AudioInChanged_m1DF19AEB75AAF33FC631CC885168AA1F3D64C146 (void);
 // 0x000001D3 System.Void OVRManager::add_TrackingAcquired(System.Action)
-extern void OVRManager_add_TrackingAcquired_m6366ACD8E57F2EAC69B11FD3E7AA573E408FB8F3 (void);
+extern void OVRManager_add_TrackingAcquired_m46AFE598ACA4041D6D092254D5112A871C8CC134 (void);
 // 0x000001D4 System.Void OVRManager::remove_TrackingAcquired(System.Action)
-extern void OVRManager_remove_TrackingAcquired_mC3424E905697C24FC859BE6A8E4C71DEC6F8D366 (void);
+extern void OVRManager_remove_TrackingAcquired_mC90F8B7B98CA62B8AD346042D00AB6285D85FC5A (void);
 // 0x000001D5 System.Void OVRManager::add_TrackingLost(System.Action)
-extern void OVRManager_add_TrackingLost_m77A09C04A1A1440A8FA2D6C71BCE246A3619B147 (void);
+extern void OVRManager_add_TrackingLost_m07C8584949DA169F9D9206E49E6DE61D82254E8D (void);
 // 0x000001D6 System.Void OVRManager::remove_TrackingLost(System.Action)
-extern void OVRManager_remove_TrackingLost_m6BC2271B2479CD9DAEB8F30A68BBE8BA08626910 (void);
+extern void OVRManager_remove_TrackingLost_mC974B10AB7A7BB55E79FE3C258A7E7565E564620 (void);
 // 0x000001D7 System.Void OVRManager::add_DisplayRefreshRateChanged(System.Action`2<System.Single,System.Single>)
-extern void OVRManager_add_DisplayRefreshRateChanged_m8102DC84E357CB03A54D9BEE39BCA8F1CB4E7739 (void);
+extern void OVRManager_add_DisplayRefreshRateChanged_m2E17B5AD96C76D2DDF81B8113DAE278D0B530D94 (void);
 // 0x000001D8 System.Void OVRManager::remove_DisplayRefreshRateChanged(System.Action`2<System.Single,System.Single>)
-extern void OVRManager_remove_DisplayRefreshRateChanged_m3DFEAC113CBF61A3A40028F305684A4234DF0333 (void);
+extern void OVRManager_remove_DisplayRefreshRateChanged_m86971E2283734F2364AACA47B15CC8695DC2CF7E (void);
 // 0x000001D9 System.Void OVRManager::add_SpatialAnchorCreateComplete(System.Action`4<System.UInt64,System.Boolean,OVRSpace,System.Guid>)
-extern void OVRManager_add_SpatialAnchorCreateComplete_m6C0C1732CD9930871B375F2C8C425E92A93C040E (void);
+extern void OVRManager_add_SpatialAnchorCreateComplete_mA0D4C04B6FE291E992ECDE7577253EEE5B1EF9D0 (void);
 // 0x000001DA System.Void OVRManager::remove_SpatialAnchorCreateComplete(System.Action`4<System.UInt64,System.Boolean,OVRSpace,System.Guid>)
-extern void OVRManager_remove_SpatialAnchorCreateComplete_mB7BD7A1A8C9D007BC9CB2A80B595D6804A815422 (void);
+extern void OVRManager_remove_SpatialAnchorCreateComplete_m62EC453F5F0A2BB2AFF0BD577E68F5281EEAF7A7 (void);
 // 0x000001DB System.Void OVRManager::add_SpaceSetComponentStatusComplete(System.Action`6<System.UInt64,System.Boolean,OVRSpace,System.Guid,OVRPlugin/SpaceComponentType,System.Boolean>)
-extern void OVRManager_add_SpaceSetComponentStatusComplete_m4D5B0E82550143CB30F39D524FBCE5DD56A91956 (void);
+extern void OVRManager_add_SpaceSetComponentStatusComplete_mE0147432E451B15768EB752A9091967A4129F7A0 (void);
 // 0x000001DC System.Void OVRManager::remove_SpaceSetComponentStatusComplete(System.Action`6<System.UInt64,System.Boolean,OVRSpace,System.Guid,OVRPlugin/SpaceComponentType,System.Boolean>)
-extern void OVRManager_remove_SpaceSetComponentStatusComplete_mD60953B0B0278C81ADC1EB3E98A1B2D86D7A6E0C (void);
+extern void OVRManager_remove_SpaceSetComponentStatusComplete_mF641750E9DD27E2FDD787FA7D67739D21040150C (void);
 // 0x000001DD System.Void OVRManager::add_SpaceQueryResults(System.Action`1<System.UInt64>)
-extern void OVRManager_add_SpaceQueryResults_mCB94FC77319260F93CCEFE921C59DD4538A521B5 (void);
+extern void OVRManager_add_SpaceQueryResults_m49193AA310D5B5F802B0442167C4DD7B5F278093 (void);
 // 0x000001DE System.Void OVRManager::remove_SpaceQueryResults(System.Action`1<System.UInt64>)
-extern void OVRManager_remove_SpaceQueryResults_m7B531D311862F45C70D0327B1C2E8C0A9F78087A (void);
+extern void OVRManager_remove_SpaceQueryResults_m19C1446D9F244FA3A8A596D309466C085F513910 (void);
 // 0x000001DF System.Void OVRManager::add_SpaceQueryComplete(System.Action`2<System.UInt64,System.Boolean>)
-extern void OVRManager_add_SpaceQueryComplete_mF3272830FBD4A659AC05EB6554F33F6BB700253E (void);
+extern void OVRManager_add_SpaceQueryComplete_m551A184F8F9E0CE981B6802960442163B2E14E37 (void);
 // 0x000001E0 System.Void OVRManager::remove_SpaceQueryComplete(System.Action`2<System.UInt64,System.Boolean>)
-extern void OVRManager_remove_SpaceQueryComplete_mA7E94CD0F9C9E728C4E17354ED4B40493AF09571 (void);
+extern void OVRManager_remove_SpaceQueryComplete_m885B3CD1B32BE4F4FCD58AC94D5D6B831D7144EF (void);
 // 0x000001E1 System.Void OVRManager::add_SpaceSaveComplete(System.Action`4<System.UInt64,OVRSpace,System.Boolean,System.Guid>)
-extern void OVRManager_add_SpaceSaveComplete_m10479BA3284CA6AAC15A9B25AF4CE87805881589 (void);
+extern void OVRManager_add_SpaceSaveComplete_m127A86DF05C5544D94F99125A783BBC825095C3F (void);
 // 0x000001E2 System.Void OVRManager::remove_SpaceSaveComplete(System.Action`4<System.UInt64,OVRSpace,System.Boolean,System.Guid>)
-extern void OVRManager_remove_SpaceSaveComplete_m3FD81A6B8AEF2496D363AE716BCC0753FDA0DBBB (void);
+extern void OVRManager_remove_SpaceSaveComplete_mA3D0E92A5518AD713A7B5262AE4EC6ECE529F703 (void);
 // 0x000001E3 System.Void OVRManager::add_SpaceEraseComplete(System.Action`4<System.UInt64,System.Boolean,System.Guid,OVRPlugin/SpaceStorageLocation>)
-extern void OVRManager_add_SpaceEraseComplete_m8E2A5FBD238CFC5BDFA3134168943978862486E2 (void);
+extern void OVRManager_add_SpaceEraseComplete_m41A630D65B0835AB54F59C4B2D62EA3CD26085C5 (void);
 // 0x000001E4 System.Void OVRManager::remove_SpaceEraseComplete(System.Action`4<System.UInt64,System.Boolean,System.Guid,OVRPlugin/SpaceStorageLocation>)
-extern void OVRManager_remove_SpaceEraseComplete_m32C84E2C439AC0BA99DA12EA11FFDFB1AD2E3007 (void);
+extern void OVRManager_remove_SpaceEraseComplete_m4B92FBCCC4DAC94F9C6CCB058C17BBB66DEDBF91 (void);
 // 0x000001E5 System.Void OVRManager::add_SceneCaptureComplete(System.Action`2<System.UInt64,System.Boolean>)
-extern void OVRManager_add_SceneCaptureComplete_m99BA1ED2135D7B5B9499C3E251C1DB8C6739601E (void);
+extern void OVRManager_add_SceneCaptureComplete_m26AE5F4B81DDEA72B3466AC811BE62C3E70ECEF4 (void);
 // 0x000001E6 System.Void OVRManager::remove_SceneCaptureComplete(System.Action`2<System.UInt64,System.Boolean>)
-extern void OVRManager_remove_SceneCaptureComplete_m0D5AB48DA6BC72FF34BE5E45FBBEC086F7DA5687 (void);
+extern void OVRManager_remove_SceneCaptureComplete_mB1C40810BBC411BE7B21C74704F120E7661BD58F (void);
 // 0x000001E7 System.Void OVRManager::add_HSWDismissed(System.Action)
-extern void OVRManager_add_HSWDismissed_mDDA7D886AE76FE673C219C748DF3E2EB9AEB98F9 (void);
+extern void OVRManager_add_HSWDismissed_m5DABEA5F11521738B24AA16736D15AFBF678D325 (void);
 // 0x000001E8 System.Void OVRManager::remove_HSWDismissed(System.Action)
-extern void OVRManager_remove_HSWDismissed_m1EB921F45237288E61947A8EB12E7E7E150FDEE8 (void);
+extern void OVRManager_remove_HSWDismissed_m596F0A139EA7AA7ABDEED3C29DE4E69C4E4CC94B (void);
 // 0x000001E9 System.Boolean OVRManager::get_isHmdPresent()
-extern void OVRManager_get_isHmdPresent_mB67263111520276B78C4B34BBA12EE406B27608D (void);
+extern void OVRManager_get_isHmdPresent_m098F56E4E9C2ECAC87EAB61C7680F0FBD2A2C445 (void);
 // 0x000001EA System.Void OVRManager::set_isHmdPresent(System.Boolean)
-extern void OVRManager_set_isHmdPresent_m183A821D6AE041624E653686D2EFCEEC807A28DA (void);
+extern void OVRManager_set_isHmdPresent_m4879663A8AA591EE662CEF9F18686D6B89789B7E (void);
 // 0x000001EB System.String OVRManager::get_audioOutId()
-extern void OVRManager_get_audioOutId_m12CC60966DCE9D4026F62E0EE80C8C3464B4FE4B (void);
+extern void OVRManager_get_audioOutId_m651EBD87C90304B389EE161C3CF7C34B871A8C14 (void);
 // 0x000001EC System.String OVRManager::get_audioInId()
-extern void OVRManager_get_audioInId_m0C355703D817066A0B568612FA90990A70DC36DB (void);
+extern void OVRManager_get_audioInId_m7D6CF9485C5019C86715CAED3AD18F9DD6BFE093 (void);
 // 0x000001ED System.Boolean OVRManager::get_hasVrFocus()
-extern void OVRManager_get_hasVrFocus_m9BC81336369618E3328B23996BCFE499ADD7F58D (void);
+extern void OVRManager_get_hasVrFocus_mF029C34D16F6733BC210CAA447C39629FB107D90 (void);
 // 0x000001EE System.Void OVRManager::set_hasVrFocus(System.Boolean)
-extern void OVRManager_set_hasVrFocus_m937E92E197BA9B673769633B3D40A9CB19510862 (void);
+extern void OVRManager_set_hasVrFocus_m85C981DA02ECC6A7829D348FCBC2149040CD5321 (void);
 // 0x000001EF System.Boolean OVRManager::get_hasInputFocus()
-extern void OVRManager_get_hasInputFocus_mEB4394C8A8171916B2ACC9958C6362802EAF3128 (void);
+extern void OVRManager_get_hasInputFocus_m253B15D1BC6272BF1ECA54344D7EF3AEF3B9A0A0 (void);
 // 0x000001F0 System.Boolean OVRManager::get_chromatic()
 extern void OVRManager_get_chromatic_m66422D4D596EAEC0F2FFD0952FBDD900E667964A (void);
 // 0x000001F1 System.Void OVRManager::set_chromatic(System.Boolean)
@@ -1008,7 +1008,7 @@ extern void OVRManager_set_colorGamut_m12885C55A4AF562CF4DA969CE3DFE90B2905509F 
 // 0x000001F6 OVRManager/ColorSpace OVRManager::get_nativeColorGamut()
 extern void OVRManager_get_nativeColorGamut_mF692E6191E57771EBA2012882E723366718F910F (void);
 // 0x000001F7 System.Boolean OVRManager::IsAdaptiveResSupportedByEngine()
-extern void OVRManager_IsAdaptiveResSupportedByEngine_m20EF5C87B91D2D340AFE61C110066367D3B315AE (void);
+extern void OVRManager_IsAdaptiveResSupportedByEngine_m0DDF3D6F04942A7B1A3B08F930D3847B90D6577D (void);
 // 0x000001F8 UnityEngine.Vector3 OVRManager::get_headPoseRelativeOffsetRotation()
 extern void OVRManager_get_headPoseRelativeOffsetRotation_m24093D9748A541A44618C282B5858BD49C83F3C9 (void);
 // 0x000001F9 System.Void OVRManager::set_headPoseRelativeOffsetRotation(UnityEngine.Vector3)
@@ -1018,9 +1018,9 @@ extern void OVRManager_get_headPoseRelativeOffsetTranslation_m699900022730F69357
 // 0x000001FB System.Void OVRManager::set_headPoseRelativeOffsetTranslation(UnityEngine.Vector3)
 extern void OVRManager_set_headPoseRelativeOffsetTranslation_m8B70891033EA3A0A28D9C1986E7B5D58016CCBA6 (void);
 // 0x000001FC System.Boolean OVRManager::get_eyeFovPremultipliedAlphaModeEnabled()
-extern void OVRManager_get_eyeFovPremultipliedAlphaModeEnabled_m0F7AF209DA449656198B7FCD886F2D25A446BD6E (void);
+extern void OVRManager_get_eyeFovPremultipliedAlphaModeEnabled_mEC89DD999B94EE52F17D6E7AF5352C9EA74C8145 (void);
 // 0x000001FD System.Void OVRManager::set_eyeFovPremultipliedAlphaModeEnabled(System.Boolean)
-extern void OVRManager_set_eyeFovPremultipliedAlphaModeEnabled_m3FB6C95CB509E5EFF8254267725DEB816584A073 (void);
+extern void OVRManager_set_eyeFovPremultipliedAlphaModeEnabled_m14DD45453E82E21D899542D37BA0BB52B03A2FBB (void);
 // 0x000001FE System.Boolean OVRManager::OVRMixedRealityCaptureConfiguration.get_enableMixedReality()
 extern void OVRManager_OVRMixedRealityCaptureConfiguration_get_enableMixedReality_mD185DB1E7D51D6620623A2B7AFD6E61DD8C81D80 (void);
 // 0x000001FF System.Void OVRManager::OVRMixedRealityCaptureConfiguration.set_enableMixedReality(System.Boolean)
@@ -1144,67 +1144,67 @@ extern void OVRManager_get_vsyncCount_m1BBE8D04E02C2431A29E2F1A98AB685293B4A8E5 
 // 0x0000023A System.Void OVRManager::set_vsyncCount(System.Int32)
 extern void OVRManager_set_vsyncCount_m60B468D8FC499D98DADE378D3860E3EFDCC2A6AD (void);
 // 0x0000023B System.Single OVRManager::get_batteryLevel()
-extern void OVRManager_get_batteryLevel_mD6EAC105A3B4A126C0292D224D48C1AC949F351C (void);
+extern void OVRManager_get_batteryLevel_mFC31D7E00026FF53AE50F88CB34B920FE94BC7A1 (void);
 // 0x0000023C System.Single OVRManager::get_batteryTemperature()
-extern void OVRManager_get_batteryTemperature_m1337B1D846A0C5F36B494C7F3051DF4A29BD3453 (void);
+extern void OVRManager_get_batteryTemperature_m9CBB0FCF7221B75BA7C32C2E070672274F374E05 (void);
 // 0x0000023D System.Int32 OVRManager::get_batteryStatus()
-extern void OVRManager_get_batteryStatus_m39C502AE80D72F8DABCA80586D256F90AEA223CA (void);
+extern void OVRManager_get_batteryStatus_m2635DB26851BCF82E01EAF7CE1380148B576731E (void);
 // 0x0000023E System.Single OVRManager::get_volumeLevel()
-extern void OVRManager_get_volumeLevel_m5071E793EC9855B44C2C4CFDFAE1A0C1C86142D3 (void);
+extern void OVRManager_get_volumeLevel_mBB5AC2A247DA26358425288C17CFF8E1998575B1 (void);
 // 0x0000023F OVRManager/ProcessorPerformanceLevel OVRManager::get_suggestedCpuPerfLevel()
-extern void OVRManager_get_suggestedCpuPerfLevel_m3DDF67CDE3EC55C2C000CCD290A945903CE80B56 (void);
+extern void OVRManager_get_suggestedCpuPerfLevel_m243AB9A106880E1768C273A81EE0B4AEA453A307 (void);
 // 0x00000240 System.Void OVRManager::set_suggestedCpuPerfLevel(OVRManager/ProcessorPerformanceLevel)
-extern void OVRManager_set_suggestedCpuPerfLevel_m9A2BAB66953B16B8DCD1FAFD7B5D35DE638280CC (void);
+extern void OVRManager_set_suggestedCpuPerfLevel_m8ADF8B1F94FB15461A329C77483D57C31E28E765 (void);
 // 0x00000241 OVRManager/ProcessorPerformanceLevel OVRManager::get_suggestedGpuPerfLevel()
-extern void OVRManager_get_suggestedGpuPerfLevel_m352593CBFF9FCF208D81FA2E999655F07D9271C7 (void);
+extern void OVRManager_get_suggestedGpuPerfLevel_mA6653F19E71E42A263E69FD2C4F4CB4B0DB5DF47 (void);
 // 0x00000242 System.Void OVRManager::set_suggestedGpuPerfLevel(OVRManager/ProcessorPerformanceLevel)
-extern void OVRManager_set_suggestedGpuPerfLevel_mA07589D8A5FBA11C59BEE8E6E1BF89F90811733E (void);
+extern void OVRManager_set_suggestedGpuPerfLevel_mF73FCC236503028B36D67F2553228E0ED7432662 (void);
 // 0x00000243 System.Int32 OVRManager::get_cpuLevel()
-extern void OVRManager_get_cpuLevel_m3808707092D5529F35A6903349B6572EFE157A68 (void);
+extern void OVRManager_get_cpuLevel_m989D92F71D3A4ACC406B8B85D9DD315661D7E542 (void);
 // 0x00000244 System.Void OVRManager::set_cpuLevel(System.Int32)
-extern void OVRManager_set_cpuLevel_m9D3FFADAA039D6DA3D4AA42A68775E2C3E0E8043 (void);
+extern void OVRManager_set_cpuLevel_mA5EC637A6AE162348E0592894D798911F2DF8420 (void);
 // 0x00000245 System.Int32 OVRManager::get_gpuLevel()
-extern void OVRManager_get_gpuLevel_mDE6CEB5A283993463C9B2AC2655D82F85BE6C6F2 (void);
+extern void OVRManager_get_gpuLevel_mF6DD3FBD45FC1A6D4C5E38CFF2454B71F2D36E06 (void);
 // 0x00000246 System.Void OVRManager::set_gpuLevel(System.Int32)
-extern void OVRManager_set_gpuLevel_mDD55D1A40A33EB64B272F1FEC65B672911D5822F (void);
+extern void OVRManager_set_gpuLevel_mB46AE04D1CC806405EEA2EBDC69D0A2301F5D89D (void);
 // 0x00000247 System.Boolean OVRManager::get_isPowerSavingActive()
-extern void OVRManager_get_isPowerSavingActive_mC72AC440B7D15ABFC8D9EA29E9C5426265DF6830 (void);
+extern void OVRManager_get_isPowerSavingActive_mA12EADC12279FA3B9AA781D8490A5E6BE742FCA2 (void);
 // 0x00000248 OVRManager/EyeTextureFormat OVRManager::get_eyeTextureFormat()
-extern void OVRManager_get_eyeTextureFormat_m9B0DA8C530A148129A8533674947D59E8594E433 (void);
+extern void OVRManager_get_eyeTextureFormat_mB0841EE941F0A85BC73E3C54B7958A6240946F3B (void);
 // 0x00000249 System.Void OVRManager::set_eyeTextureFormat(OVRManager/EyeTextureFormat)
-extern void OVRManager_set_eyeTextureFormat_mB267612E1D2835142371DBCE6148EFE21D9ADB2A (void);
+extern void OVRManager_set_eyeTextureFormat_m0B690B20957C9EB17E648899080E4EBBBA87CCED (void);
 // 0x0000024A System.Boolean OVRManager::get_fixedFoveatedRenderingSupported()
-extern void OVRManager_get_fixedFoveatedRenderingSupported_m08FD555755116F254D131C15B47133F6BB8E6823 (void);
+extern void OVRManager_get_fixedFoveatedRenderingSupported_m39647A33AEFE5A6129DE3290038E3F4D9F9BC6C1 (void);
 // 0x0000024B OVRManager/FixedFoveatedRenderingLevel OVRManager::get_fixedFoveatedRenderingLevel()
-extern void OVRManager_get_fixedFoveatedRenderingLevel_m8B248EB67F1FE5A11D32FD87755B2A7764D0DCBD (void);
+extern void OVRManager_get_fixedFoveatedRenderingLevel_m50C462362955957310B24040F150D573CD565EAB (void);
 // 0x0000024C System.Void OVRManager::set_fixedFoveatedRenderingLevel(OVRManager/FixedFoveatedRenderingLevel)
-extern void OVRManager_set_fixedFoveatedRenderingLevel_m9D96BB8D216D8258466377209B20C261A9190F88 (void);
+extern void OVRManager_set_fixedFoveatedRenderingLevel_m8903AC90BC000FD46ED4E26673BAB531BA615929 (void);
 // 0x0000024D System.Boolean OVRManager::get_useDynamicFixedFoveatedRendering()
-extern void OVRManager_get_useDynamicFixedFoveatedRendering_mF4663BA53CB17EF8F9210076D64F65CD36FFE996 (void);
+extern void OVRManager_get_useDynamicFixedFoveatedRendering_m57B77674E15DB93717951E23515E8C28D13871D5 (void);
 // 0x0000024E System.Void OVRManager::set_useDynamicFixedFoveatedRendering(System.Boolean)
-extern void OVRManager_set_useDynamicFixedFoveatedRendering_mCA6980802189AF669B57CBC4B5301D25638F8663 (void);
+extern void OVRManager_set_useDynamicFixedFoveatedRendering_m2BBB38EA8596D5006096F25E2EDE0465713D9CEA (void);
 // 0x0000024F System.Boolean OVRManager::get_tiledMultiResSupported()
-extern void OVRManager_get_tiledMultiResSupported_m373F27B1D367C4D151D8448357B22F84AD727A0A (void);
+extern void OVRManager_get_tiledMultiResSupported_mD4174BEC4D5F947320A84A7E19453D3CBFF7B507 (void);
 // 0x00000250 OVRManager/TiledMultiResLevel OVRManager::get_tiledMultiResLevel()
-extern void OVRManager_get_tiledMultiResLevel_m304E545D86F08E9A7664E473E64E3AB9218A453A (void);
+extern void OVRManager_get_tiledMultiResLevel_m50854DFB8ECD18C7E7C3D387F319F36CB1E7161A (void);
 // 0x00000251 System.Void OVRManager::set_tiledMultiResLevel(OVRManager/TiledMultiResLevel)
-extern void OVRManager_set_tiledMultiResLevel_m66290DA17C42731DA0BC2E56A5D3C8E103F36511 (void);
+extern void OVRManager_set_tiledMultiResLevel_mA2B8AA96F86CE73B3976A4D56D22740E5AB39EFA (void);
 // 0x00000252 System.Boolean OVRManager::get_gpuUtilSupported()
-extern void OVRManager_get_gpuUtilSupported_m3F37685C3D30165E36FBC76AE195F2D3CBC7D7A0 (void);
+extern void OVRManager_get_gpuUtilSupported_m8DD9BD0B0A2FB610F7A9B7394B5FA06106A87845 (void);
 // 0x00000253 System.Single OVRManager::get_gpuUtilLevel()
-extern void OVRManager_get_gpuUtilLevel_m040E12966C03E64AB5EC63D88E6EA5901DADCFED (void);
+extern void OVRManager_get_gpuUtilLevel_m0ACF6D4407F663F5BC99C8496118665EDEC29FFF (void);
 // 0x00000254 OVRManager/SystemHeadsetType OVRManager::get_systemHeadsetType()
-extern void OVRManager_get_systemHeadsetType_mFEFCD63808176CE3CB7D76CD155B83CBE0E20F1E (void);
+extern void OVRManager_get_systemHeadsetType_mCF5CFA237F93EC8DE90C8F9241846C505C7388B1 (void);
 // 0x00000255 System.Void OVRManager::SetColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4,System.Boolean)
-extern void OVRManager_SetColorScaleAndOffset_m7A4594D0F77677F9B2CCC8906CE884D4742583FD (void);
+extern void OVRManager_SetColorScaleAndOffset_m3756CA99B3CF9E00D72A00EC70DBEA8CCF4CA03E (void);
 // 0x00000256 System.Void OVRManager::SetOpenVRLocalPose(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Quaternion)
-extern void OVRManager_SetOpenVRLocalPose_mE70D88E8D892A1E281143172FF7D67F4F72F053C (void);
+extern void OVRManager_SetOpenVRLocalPose_m249ED4C08F44B43E368E9F1B235430493041CBF5 (void);
 // 0x00000257 OVRPose OVRManager::GetOpenVRControllerOffset(UnityEngine.XR.XRNode)
-extern void OVRManager_GetOpenVRControllerOffset_mDE53202DBFF77956B83CFF210223D4892B9A6DCD (void);
+extern void OVRManager_GetOpenVRControllerOffset_mCA3A47777AA4F15B22B35DF6732091990E8CC9B4 (void);
 // 0x00000258 System.Void OVRManager::SetSpaceWarp(System.Boolean)
-extern void OVRManager_SetSpaceWarp_m5B5DD874D37AEE729668E42C1B304B2CAD0171B9 (void);
+extern void OVRManager_SetSpaceWarp_m389627B35A017F0C4F16A1225EA730EA54E0BB99 (void);
 // 0x00000259 System.Boolean OVRManager::GetSpaceWarp()
-extern void OVRManager_GetSpaceWarp_m79F75466B059ADBA53EE284ADFBB56679BEB7204 (void);
+extern void OVRManager_GetSpaceWarp_m2A01D15434181512E30B0CD641115D51B3E080C6 (void);
 // 0x0000025A OVRManager/TrackingOrigin OVRManager::get_trackingOriginType()
 extern void OVRManager_get_trackingOriginType_m352B753617F98DC58AD3F8E4324E23C7CF3A47E0 (void);
 // 0x0000025B System.Void OVRManager::set_trackingOriginType(OVRManager/TrackingOrigin)
@@ -1218,23 +1218,23 @@ extern void OVRManager_get_isUserPresent_m1E7754523C4912B5EFADE6950DC9D7AA507269
 // 0x0000025F System.Void OVRManager::set_isUserPresent(System.Boolean)
 extern void OVRManager_set_isUserPresent_mAC629CEC482B5627A507D4FB93DE81ADA0366703 (void);
 // 0x00000260 System.Version OVRManager::get_utilitiesVersion()
-extern void OVRManager_get_utilitiesVersion_m3E56BDE870EE1F53C2EDE947D196DA007DE8AD18 (void);
+extern void OVRManager_get_utilitiesVersion_mA14867182039A0B84E83EC82DFDD6DC4D7E79582 (void);
 // 0x00000261 System.Version OVRManager::get_pluginVersion()
-extern void OVRManager_get_pluginVersion_mEFA4EC6431DA652FF1AA58820FB62C341E8E3C93 (void);
+extern void OVRManager_get_pluginVersion_m533197D0A28BF0A6E16E911DC1124C9C65D4D980 (void);
 // 0x00000262 System.Version OVRManager::get_sdkVersion()
-extern void OVRManager_get_sdkVersion_mF56E8A1B63AAAB6B31749784EFFC78A750C231A8 (void);
+extern void OVRManager_get_sdkVersion_m18413A4E8DECFD0862E7F5A496491B07566CB786 (void);
 // 0x00000263 System.Boolean OVRManager::MixedRealityEnabledFromCmd()
-extern void OVRManager_MixedRealityEnabledFromCmd_mF2B757FB83F1EDAA0753E66DB4687E8F02A4F694 (void);
+extern void OVRManager_MixedRealityEnabledFromCmd_m787D2EDFB851604BAB34C6BF6DB63E939C5EAF19 (void);
 // 0x00000264 System.Boolean OVRManager::UseDirectCompositionFromCmd()
-extern void OVRManager_UseDirectCompositionFromCmd_mFBB26A197F1B36E0B5F98A5ABE3E52CB9156DD34 (void);
+extern void OVRManager_UseDirectCompositionFromCmd_m9E607F41C058A2B0EA0B100A41AAE1BC340ABAB6 (void);
 // 0x00000265 System.Boolean OVRManager::UseExternalCompositionFromCmd()
-extern void OVRManager_UseExternalCompositionFromCmd_mC1E7A01E2BEEC6C709DF4A80D85B046FE1AE7047 (void);
+extern void OVRManager_UseExternalCompositionFromCmd_mF210F9E9E6B124AC97E68BB0883D6B7DEBC83FFC (void);
 // 0x00000266 System.Boolean OVRManager::CreateMixedRealityCaptureConfigurationFileFromCmd()
-extern void OVRManager_CreateMixedRealityCaptureConfigurationFileFromCmd_m244878FFB96B4DC746740A825DA845745D9C635B (void);
+extern void OVRManager_CreateMixedRealityCaptureConfigurationFileFromCmd_m41504DC04CEF4A9D01DD0A02BC5958AB36AE6D28 (void);
 // 0x00000267 System.Boolean OVRManager::LoadMixedRealityCaptureConfigurationFileFromCmd()
-extern void OVRManager_LoadMixedRealityCaptureConfigurationFileFromCmd_m5D7EF550E5CEB27074566802AA884B3EFC7F665D (void);
+extern void OVRManager_LoadMixedRealityCaptureConfigurationFileFromCmd_m855C9154778F7C85531A28C62437FC541F4A767B (void);
 // 0x00000268 System.Boolean OVRManager::IsUnityAlphaOrBetaVersion()
-extern void OVRManager_IsUnityAlphaOrBetaVersion_m96A92DCF46F89C7656F6315F3B11615025D5A8AD (void);
+extern void OVRManager_IsUnityAlphaOrBetaVersion_m3281FEF5765FFD207B8BDBB627CC6EDDF18688E0 (void);
 // 0x00000269 System.Void OVRManager::InitOVRManager()
 extern void OVRManager_InitOVRManager_m70F462CB3521560EDE92D4C54EF0FAD199386053 (void);
 // 0x0000026A System.Void OVRManager::Awake()
@@ -1242,11 +1242,11 @@ extern void OVRManager_Awake_mA05D8839D3601DAB90A8782566C092B01B462F9C (void);
 // 0x0000026B System.Void OVRManager::SetCurrentXRDevice()
 extern void OVRManager_SetCurrentXRDevice_m28B26EC00E7F673A3AF5DEE7D732EDFA987E427F (void);
 // 0x0000026C UnityEngine.XR.XRDisplaySubsystem OVRManager::GetCurrentDisplaySubsystem()
-extern void OVRManager_GetCurrentDisplaySubsystem_mDD993AF3DD6941432D9F5FCB34B10DF681729E14 (void);
+extern void OVRManager_GetCurrentDisplaySubsystem_m9DF732778B060759D2E11E04E49A39A43451CAA8 (void);
 // 0x0000026D UnityEngine.XR.XRDisplaySubsystemDescriptor OVRManager::GetCurrentDisplaySubsystemDescriptor()
-extern void OVRManager_GetCurrentDisplaySubsystemDescriptor_mE1B354B167ED2494D0305696DD8EEB5B48FC3ECF (void);
+extern void OVRManager_GetCurrentDisplaySubsystemDescriptor_m774D6D4F85D85E72BCF228C576EAAF55E3CD978E (void);
 // 0x0000026E UnityEngine.XR.XRInputSubsystem OVRManager::GetCurrentInputSubsystem()
-extern void OVRManager_GetCurrentInputSubsystem_mD4B0FD55842E0F814B9B7D4D40D63FA9939A8284 (void);
+extern void OVRManager_GetCurrentInputSubsystem_m6343BBB6BBB22C59B70C2502CCFF5D0073B7272D (void);
 // 0x0000026F System.Void OVRManager::Initialize()
 extern void OVRManager_Initialize_m339CEB2C05C31DCDA1C4390EE2635DC90D538821 (void);
 // 0x00000270 System.Void OVRManager::Update()
@@ -1254,7 +1254,7 @@ extern void OVRManager_Update_mD885028FB6C03BA477FAE5757EB706ACB632CAB7 (void);
 // 0x00000271 System.Void OVRManager::UpdateHMDEvents()
 extern void OVRManager_UpdateHMDEvents_m2B05C0DAB70C5325A95E4B7AC01F9CE17CD647B4 (void);
 // 0x00000272 UnityEngine.Camera OVRManager::FindMainCamera()
-extern void OVRManager_FindMainCamera_m890F5341E95135B20182BB88C65EEE3786AD140E (void);
+extern void OVRManager_FindMainCamera_mCCD7BE229B2DA34FFCB009A527BBE8F40F57EB49 (void);
 // 0x00000273 System.Void OVRManager::OnDisable()
 extern void OVRManager_OnDisable_m0A146074A2646C9AB36FD309C987545F26593BC2 (void);
 // 0x00000274 System.Void OVRManager::LateUpdate()
@@ -1272,33 +1272,33 @@ extern void OVRManager_OnApplicationQuit_mFE6276AD538E13AF339753F5CD7C9D4E6623BB
 // 0x0000027A System.Void OVRManager::ReturnToLauncher()
 extern void OVRManager_ReturnToLauncher_m64B09A054CC401504D8BE35DADBD86E272959D2B (void);
 // 0x0000027B System.Void OVRManager::PlatformUIConfirmQuit()
-extern void OVRManager_PlatformUIConfirmQuit_mCEB4740933FBE617E3A228F10106CAF6E834E1BB (void);
+extern void OVRManager_PlatformUIConfirmQuit_m535F93DC2CAE215773CB4B8A10F47E921086FBC3 (void);
 // 0x0000027C System.Void OVRManager::StaticInitializeMixedRealityCapture(OVRMixedRealityCaptureConfiguration)
-extern void OVRManager_StaticInitializeMixedRealityCapture_mE1A9FBB871DDDD49BBB78A97BF0D67E2A6D9957C (void);
+extern void OVRManager_StaticInitializeMixedRealityCapture_mECD5892929515DFF005276CD46C2B270F0F7A533 (void);
 // 0x0000027D System.Void OVRManager::StaticUpdateMixedRealityCapture(OVRMixedRealityCaptureConfiguration,UnityEngine.GameObject,OVRManager/TrackingOrigin)
-extern void OVRManager_StaticUpdateMixedRealityCapture_m19D2E134EB6378478CA48D817391B0A6D22ECF6B (void);
+extern void OVRManager_StaticUpdateMixedRealityCapture_m68D3A9F860CCE3910D11D4C80FE04E984D863810 (void);
 // 0x0000027E System.Void OVRManager::StaticShutdownMixedRealityCapture(OVRMixedRealityCaptureConfiguration)
-extern void OVRManager_StaticShutdownMixedRealityCapture_m257CE48E43B688AC923B2DB1124263CA71B0DF90 (void);
+extern void OVRManager_StaticShutdownMixedRealityCapture_mA2C3B9797235B17834EA372AB99D1024EB81F0F7 (void);
 // 0x0000027F System.Boolean OVRManager::IsInsightPassthroughSupported()
-extern void OVRManager_IsInsightPassthroughSupported_m2EF4B6646232A5B9406E4EECC9C00C4F5A42B0F3 (void);
+extern void OVRManager_IsInsightPassthroughSupported_m7DF8A3280003DDF6DDEC9D69A23E89332751C72A (void);
 // 0x00000280 System.Boolean OVRManager::PassthroughInitializedOrPending(OVRManager/PassthroughInitializationState)
-extern void OVRManager_PassthroughInitializedOrPending_m5B18DB2F3FD4F63A193E8B6589ED4518FD7AE1B9 (void);
+extern void OVRManager_PassthroughInitializedOrPending_m7B360381FEDC2014AFB1ABB74E907B62B0D14348 (void);
 // 0x00000281 System.Boolean OVRManager::InitializeInsightPassthrough()
-extern void OVRManager_InitializeInsightPassthrough_m46E9108C4AEEA1A59D71FC2B67C77DF5C7FC92E9 (void);
+extern void OVRManager_InitializeInsightPassthrough_m016E6C16576A1E4F6B7871E7FDE7D2671119F67E (void);
 // 0x00000282 System.Void OVRManager::ShutdownInsightPassthrough()
-extern void OVRManager_ShutdownInsightPassthrough_m3F6C3F7D1CE6E54715E59C7FDA312B0AAEA4E42F (void);
+extern void OVRManager_ShutdownInsightPassthrough_mBBB77D5EB2CE95920737C34F1A0A5E6C14A6E576 (void);
 // 0x00000283 System.Void OVRManager::UpdateInsightPassthrough(System.Boolean)
-extern void OVRManager_UpdateInsightPassthrough_m7C02E0B066014B7A1875FC89A669FA7E99F16D2C (void);
+extern void OVRManager_UpdateInsightPassthrough_mB261855F40DB798505F3B863C29E7ED598546A4F (void);
 // 0x00000284 System.Boolean OVRManager::IsInsightPassthroughInitialized()
-extern void OVRManager_IsInsightPassthroughInitialized_m7D2BD00AEED2591D17EEF25E762436B4272F50A4 (void);
+extern void OVRManager_IsInsightPassthroughInitialized_m7752AC4A37C80B772E4E66527F3401A6D31D1A1B (void);
 // 0x00000285 System.Boolean OVRManager::HasInsightPassthroughInitFailed()
-extern void OVRManager_HasInsightPassthroughInitFailed_m093A172FF35DB05160FA698E47B8841F79C1CAB3 (void);
+extern void OVRManager_HasInsightPassthroughInitFailed_m1C8BCFB02BFFE5C02B93C37682092AFBB2EE9A11 (void);
 // 0x00000286 System.Boolean OVRManager::IsInsightPassthroughInitPending()
-extern void OVRManager_IsInsightPassthroughInitPending_mB659AD07D73D6966BBAD6C76ED07BE5733FEF712 (void);
+extern void OVRManager_IsInsightPassthroughInitPending_m395E00ABC60591E79946909FD5674AF052EA6132 (void);
 // 0x00000287 System.Void OVRManager::.ctor()
 extern void OVRManager__ctor_mDC0740CE9C6AE096D5776DE2563D037A9674CEEE (void);
 // 0x00000288 System.Void OVRManager::.cctor()
-extern void OVRManager__cctor_mDFAADBDA3A21DA2655ECDE0163E98AE0EE9E401E (void);
+extern void OVRManager__cctor_mF1E19AAD77D4814E8B25D6BC99781E284D145226 (void);
 // 0x00000289 System.Void OVRManager/InstantiateMrcCameraDelegate::.ctor(System.Object,System.IntPtr)
 extern void InstantiateMrcCameraDelegate__ctor_m3613036BFF2909C20F242A350AFEFBB611B49CDE (void);
 // 0x0000028A UnityEngine.GameObject OVRManager/InstantiateMrcCameraDelegate::Invoke(UnityEngine.GameObject,OVRManager/MrcCameraType)
@@ -1308,7 +1308,7 @@ extern void InstantiateMrcCameraDelegate_BeginInvoke_m25962DC38630D8BF5D03BC03D3
 // 0x0000028C UnityEngine.GameObject OVRManager/InstantiateMrcCameraDelegate::EndInvoke(System.IAsyncResult)
 extern void InstantiateMrcCameraDelegate_EndInvoke_m7EE0B3F5C84177BCD3F6AF624D350C89F4E78703 (void);
 // 0x0000028D System.Void OVRManager/<>c::.cctor()
-extern void U3CU3Ec__cctor_mE017AF50C956CC095682D4F045E9E323CA2A04B5 (void);
+extern void U3CU3Ec__cctor_mB2A9B3F5C48AC38D2AD22E77439B5CE299F3C0B3 (void);
 // 0x0000028E System.Void OVRManager/<>c::.ctor()
 extern void U3CU3Ec__ctor_mA51B0B94D30D6F7881646C10D2B3D7B2D054A7F7 (void);
 // 0x0000028F System.String OVRManager/<>c::<InitOVRManager>b__375_0(System.Single)
@@ -1316,13 +1316,13 @@ extern void U3CU3Ec_U3CInitOVRManagerU3Eb__375_0_mA216AD9EC975891BC398CD83DC1E7A
 // 0x00000290 System.Int32 OVRManager/<>c::<FindMainCamera>b__390_0(UnityEngine.Camera,UnityEngine.Camera)
 extern void U3CU3Ec_U3CFindMainCameraU3Eb__390_0_mB04EEC9BF6BA3DB58F65506CB1B797B9856B8008 (void);
 // 0x00000291 System.Void OVRMixedReality::Update(UnityEngine.GameObject,UnityEngine.Camera,OVRMixedRealityCaptureConfiguration,OVRManager/TrackingOrigin)
-extern void OVRMixedReality_Update_mD4CA17D8AB657205000BB214CAC42C59E2DB999E (void);
+extern void OVRMixedReality_Update_m3D99309363838A6B8BC1BDA6F45ED303760EBD10 (void);
 // 0x00000292 System.Void OVRMixedReality::Cleanup()
-extern void OVRMixedReality_Cleanup_mAD2B92BDD32CAFD26ED8F70454985E9CF191F0E1 (void);
+extern void OVRMixedReality_Cleanup_m312DAB9A4C89085DB090214409B45DEF56B82B62 (void);
 // 0x00000293 System.Void OVRMixedReality::RecenterPose()
-extern void OVRMixedReality_RecenterPose_m3C04FC487B583E328C6BF87547F14DDE442E4472 (void);
+extern void OVRMixedReality_RecenterPose_mB64B820721561C52228A4F6B6E3F1370E821F193 (void);
 // 0x00000294 System.Void OVRMixedReality::.cctor()
-extern void OVRMixedReality__cctor_mA588829B3E03A2573B79C738F8F56E84BAF61022 (void);
+extern void OVRMixedReality__cctor_mD44D53CC9B26C7B86208271F65AED0DA9F0A6831 (void);
 // 0x00000295 System.Void OVROnCompleteListener::.ctor()
 extern void OVROnCompleteListener__ctor_m9FE34015830AE3B9BB7150A892709D49560AFECA (void);
 // 0x00000296 System.Void OVROnCompleteListener::onSuccess()
@@ -1342,7 +1342,7 @@ extern void OVROverlay_get_layout_m4893928952320613F6AAD4E58DCEBDD373B621C8 (voi
 // 0x0000029E System.Int32 OVROverlay::get_texturesPerStage()
 extern void OVROverlay_get_texturesPerStage_m673F2EE33C14D1A244CBF00394A423B3E81C0D42 (void);
 // 0x0000029F System.Boolean OVROverlay::NeedsTexturesForShape(OVROverlay/OverlayShape)
-extern void OVROverlay_NeedsTexturesForShape_mD59BDF5768EF7E99A7D234BE47E97599A55DC209 (void);
+extern void OVROverlay_NeedsTexturesForShape_m7F193B7A4CDE200B3DBF3AF44CD30ADB43AD947D (void);
 // 0x000002A0 System.Boolean OVROverlay::CreateLayer(System.Int32,System.Int32,OVRPlugin/EyeTextureFormat,System.Int32,OVRPlugin/Sizei,OVRPlugin/OverlayShape)
 extern void OVROverlay_CreateLayer_mC0E0B6F846A16A366032C5C66227138D3688693D (void);
 // 0x000002A1 System.Boolean OVROverlay::CreateLayerTextures(System.Boolean,OVRPlugin/Sizei,System.Boolean)
@@ -1372,11 +1372,11 @@ extern void OVROverlay_SubmitLayer_mA4FDF12219922CA745CBBB7BDA95369AE20D9D3C (vo
 // 0x000002AD System.Void OVROverlay::SetupEditorPreview()
 extern void OVROverlay_SetupEditorPreview_mF9A7D1B2C3EF702AAB085F89B011F0B4F921BDD8 (void);
 // 0x000002AE System.Boolean OVROverlay::IsPassthroughShape(OVROverlay/OverlayShape)
-extern void OVROverlay_IsPassthroughShape_m729F5C457914AD7679FF611F971367E4D83E0D93 (void);
+extern void OVROverlay_IsPassthroughShape_m55C84A60A68C66F3DECEFCA715790802F15D9E4D (void);
 // 0x000002AF System.Void OVROverlay::Awake()
 extern void OVROverlay_Awake_mB54AC71CEA29CAB6BBE878BD33D20175EFB4EF42 (void);
 // 0x000002B0 System.String OVROverlay::get_OpenVROverlayKey()
-extern void OVROverlay_get_OpenVROverlayKey_mCE1276F39C04FD83E04115169A03A5B2172712EB (void);
+extern void OVROverlay_get_OpenVROverlayKey_mA6EFD0D14077D0B125F7EAC089FB07DA6B461C27 (void);
 // 0x000002B1 System.Void OVROverlay::OnEnable()
 extern void OVROverlay_OnEnable_mB81E961EA0098FEB20672A65263420E14E30B788 (void);
 // 0x000002B2 System.Void OVROverlay::InitOVROverlay()
@@ -1394,7 +1394,7 @@ extern void OVROverlay_LateUpdate_m6743D430CC40E5B751CD6BD03D3716B855DA2332 (voi
 // 0x000002B8 System.Void OVROverlay::.ctor()
 extern void OVROverlay__ctor_m80847924F2D9ADF9C73C1C0A74CF08CAA8481AFC (void);
 // 0x000002B9 System.Void OVROverlay::.cctor()
-extern void OVROverlay__cctor_m21CC95226773603E805A184A1D6F29F05EC9B6AB (void);
+extern void OVROverlay__cctor_m89F324918424E1DC72B00A6A45DD1BA732691D39 (void);
 // 0x000002BA System.Void OVROverlay/ExternalSurfaceObjectCreated::.ctor(System.Object,System.IntPtr)
 extern void ExternalSurfaceObjectCreated__ctor_mFA4D4D3BDF696714C027E672F1325F0EE1294500 (void);
 // 0x000002BB System.Void OVROverlay/ExternalSurfaceObjectCreated::Invoke()
@@ -1418,27 +1418,27 @@ extern void OVROverlayMeshGenerator_Update_m249566824FED07AD489EE436F9429F8A32AF
 // 0x000002C4 System.Void OVROverlayMeshGenerator::UpdateMesh(OVROverlay/OverlayShape,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,UnityEngine.Rect)
 extern void OVROverlayMeshGenerator_UpdateMesh_m2603AA497C6D130965D7CF739E7CF47805123808 (void);
 // 0x000002C5 System.Void OVROverlayMeshGenerator::GenerateMesh(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>,OVROverlay/OverlayShape,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,UnityEngine.Rect)
-extern void OVROverlayMeshGenerator_GenerateMesh_m5634852F00C34A84A383762CB5EA03C36C794A28 (void);
+extern void OVROverlayMeshGenerator_GenerateMesh_mB75C8F84AF03E9BE9640DF0273A564393E80FE15 (void);
 // 0x000002C6 UnityEngine.Vector2 OVROverlayMeshGenerator::GetSphereUV(System.Single,System.Single,System.Single)
-extern void OVROverlayMeshGenerator_GetSphereUV_mB8FEAEF9D815DA4314256DD25194F3E844AACC94 (void);
+extern void OVROverlayMeshGenerator_GetSphereUV_mE4193C8ACD7E979C663D9B4578DF7535DA5A1CFD (void);
 // 0x000002C7 UnityEngine.Vector3 OVROverlayMeshGenerator::GetSphereVert(System.Single,System.Single)
-extern void OVROverlayMeshGenerator_GetSphereVert_m6713AF310D0F521C2DB997A4F3CA669A8BDEAF2A (void);
+extern void OVROverlayMeshGenerator_GetSphereVert_m401F6E2B393F46D8464C0790C56DF09A690A68B2 (void);
 // 0x000002C8 System.Void OVROverlayMeshGenerator::BuildSphere(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,UnityEngine.Rect,System.Single,System.Int32,System.Int32,System.Single)
-extern void OVROverlayMeshGenerator_BuildSphere_m9503773BF9A611EFC0F5A5928C30666F60D6F9B5 (void);
+extern void OVROverlayMeshGenerator_BuildSphere_m51233AE309329018A3D8638C6947C608F7B93AAB (void);
 // 0x000002C9 UnityEngine.Vector2 OVROverlayMeshGenerator::GetCubeUV(OVROverlayMeshGenerator/CubeFace,UnityEngine.Vector2,System.Single)
-extern void OVROverlayMeshGenerator_GetCubeUV_mDEDD893FFCC5B8E870B2201FF7F5A876086BC856 (void);
+extern void OVROverlayMeshGenerator_GetCubeUV_mCB91294D38FE68DA4FAAE987E40B10EE10FFA7EE (void);
 // 0x000002CA UnityEngine.Vector3 OVROverlayMeshGenerator::GetCubeVert(OVROverlayMeshGenerator/CubeFace,UnityEngine.Vector2,System.Single)
-extern void OVROverlayMeshGenerator_GetCubeVert_m927357C4E8247DA4414D200F231009D087617A22 (void);
+extern void OVROverlayMeshGenerator_GetCubeVert_m44EB95FADD4FE41AA7BEE65E13B8ADCD66611691 (void);
 // 0x000002CB System.Void OVROverlayMeshGenerator::BuildCube(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Int32,System.Single)
-extern void OVROverlayMeshGenerator_BuildCube_m8AE84630105D46F97487595C4EBD3BCD9C89FD1C (void);
+extern void OVROverlayMeshGenerator_BuildCube_m46E6CA40B0D0EFD5E8444ACE5B5392310BF249A0 (void);
 // 0x000002CC System.Void OVROverlayMeshGenerator::BuildQuad(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>,UnityEngine.Rect)
-extern void OVROverlayMeshGenerator_BuildQuad_m691A8DD44FEE87EF90705B04E7658E89E5359D42 (void);
+extern void OVROverlayMeshGenerator_BuildQuad_mB1FCC71A2CD56B6C297534AFFCF35966C8E4A715 (void);
 // 0x000002CD System.Void OVROverlayMeshGenerator::BuildHemicylinder(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<System.Int32>,UnityEngine.Vector3,UnityEngine.Rect,System.Int32)
-extern void OVROverlayMeshGenerator_BuildHemicylinder_mD2FC7B394522205B1359DE01361079184CDA0CF0 (void);
+extern void OVROverlayMeshGenerator_BuildHemicylinder_mE212847CA876709D043AD10B7BECA25D09BA3267 (void);
 // 0x000002CE System.Void OVROverlayMeshGenerator::.ctor()
 extern void OVROverlayMeshGenerator__ctor_m536EB8951098E813484DE6EFE9C3CBFF48AB6CC6 (void);
 // 0x000002CF System.Void OVROverlayMeshGenerator::.cctor()
-extern void OVROverlayMeshGenerator__cctor_m529BFD1B511C13DFB1A39960D2C3BC5C4C38C107 (void);
+extern void OVROverlayMeshGenerator__cctor_m139EE6E81A791C25CD212CB72195473AAA256C0A (void);
 // 0x000002D0 System.Void OVRPassthroughLayer::AddSurfaceGeometry(UnityEngine.GameObject,System.Boolean)
 extern void OVRPassthroughLayer_AddSurfaceGeometry_mF2776AE6648CC7D9965F7B034DFCC43754B5C1DC (void);
 // 0x000002D1 System.Void OVRPassthroughLayer::RemoveSurfaceGeometry(UnityEngine.GameObject)
@@ -1486,11 +1486,11 @@ extern void OVRPassthroughLayer_AllocateColorMapData_m61F047B657587FF656E594DA0C
 // 0x000002E6 System.Void OVRPassthroughLayer::DeallocateColorMapData()
 extern void OVRPassthroughLayer_DeallocateColorMapData_m27DD701AC996AF26FA5743BCEC1E65CD32D072D1 (void);
 // 0x000002E7 UnityEngine.Gradient OVRPassthroughLayer::CreateNeutralColorMapGradient()
-extern void OVRPassthroughLayer_CreateNeutralColorMapGradient_m579151252F97A885324084E56B2F5B473C8955C4 (void);
+extern void OVRPassthroughLayer_CreateNeutralColorMapGradient_mA2FDB12D596B31068265B14ABD4DA0EABA1E5900 (void);
 // 0x000002E8 System.Void OVRPassthroughLayer::UpdateColorMapFromControls(System.Boolean)
 extern void OVRPassthroughLayer_UpdateColorMapFromControls_m225CA79F217B89D23261324CEBD84B2BD26441E3 (void);
 // 0x000002E9 System.Void OVRPassthroughLayer::computeBrightnessContrastPosterizeMap(System.Byte[],System.Single,System.Single,System.Single)
-extern void OVRPassthroughLayer_computeBrightnessContrastPosterizeMap_mEF972EE582B6A948BAD6F0655C8F9B2F85116DF3 (void);
+extern void OVRPassthroughLayer_computeBrightnessContrastPosterizeMap_mE78F2E256326E2AE89FAFF4ACC7740AB98A53BEB (void);
 // 0x000002EA System.Void OVRPassthroughLayer::WriteColorToColorMap(System.Int32,UnityEngine.Color&)
 extern void OVRPassthroughLayer_WriteColorToColorMap_m62C01F16EAF846C8A443390F55861290656F191C (void);
 // 0x000002EB System.Void OVRPassthroughLayer::WriteFloatToColorMap(System.Int32,System.Single)
@@ -1514,7 +1514,7 @@ extern void OVRPassthroughLayer_OnDestroy_m1846455F9129C5171CF4C27A31C5011D21E45
 // 0x000002F4 System.Void OVRPassthroughLayer::.ctor()
 extern void OVRPassthroughLayer__ctor_m6262C7EA75BEA033DBFEFEA9965352BC97900EB7 (void);
 // 0x000002F5 System.Void OVRPassthroughLayer::.cctor()
-extern void OVRPassthroughLayer__cctor_mC52A4661AE72899047347817C6E3173A64CFBC57 (void);
+extern void OVRPassthroughLayer__cctor_mAFFCE87A08B45AB6507FE8EA5C35F60883055C54 (void);
 // 0x000002F6 System.Void OVRPassthroughLayer/<>c__DisplayClass9_0::.ctor()
 extern void U3CU3Ec__DisplayClass9_0__ctor_m760BBF5F185B28366495014CBC77D004EFD99BD2 (void);
 // 0x000002F7 System.Boolean OVRPassthroughLayer/<>c__DisplayClass9_0::<RemoveSurfaceGeometry>b__0(OVRPassthroughLayer/DeferredPassthroughMeshAddition)
@@ -1530,433 +1530,433 @@ extern void OVRPlatformMenu_Awake_mD884337F9692E6C70E13F84FC3582A4E185D0830 (voi
 // 0x000002FC System.Void OVRPlatformMenu::ShowConfirmQuitMenu()
 extern void OVRPlatformMenu_ShowConfirmQuitMenu_mAEBFA4DAB4A137863BCBEE4FC62959C767F29CA0 (void);
 // 0x000002FD System.Boolean OVRPlatformMenu::RetreatOneLevel()
-extern void OVRPlatformMenu_RetreatOneLevel_mDD124D09AF9BEB5EB7AC7B61DE999A631BA212D8 (void);
+extern void OVRPlatformMenu_RetreatOneLevel_mC1C0494C96D2FA0CD4ABE762CCC4D030568C2BF9 (void);
 // 0x000002FE System.Void OVRPlatformMenu::Update()
 extern void OVRPlatformMenu_Update_m3F636630FCE3EB75ED5F0763838B2BFCDECEAD99 (void);
 // 0x000002FF System.Void OVRPlatformMenu::.ctor()
 extern void OVRPlatformMenu__ctor_m14B02B57DD88BFD789CD8DD8ABF3AEC364D0E2EF (void);
 // 0x00000300 System.Void OVRPlatformMenu::.cctor()
-extern void OVRPlatformMenu__cctor_m76479B114BC7D358D2146C38044B989CF6B1E184 (void);
+extern void OVRPlatformMenu__cctor_m6152254212CC003591104D85CB4B0568515538CD (void);
 // 0x00000301 System.Version OVRPlugin::get_version()
-extern void OVRPlugin_get_version_mD38BDA8BD9504D9F144E712F6E5D652CC93346AE (void);
+extern void OVRPlugin_get_version_mF6424FE1E91DF97DE08CD5C7AE1FBC60873A354E (void);
 // 0x00000302 System.Version OVRPlugin::get_nativeSDKVersion()
-extern void OVRPlugin_get_nativeSDKVersion_m409B19CA59267907EA61772EECC073B9D107B2AD (void);
+extern void OVRPlugin_get_nativeSDKVersion_mBE25B31B01647B580765EA355C508A235EB07E63 (void);
 // 0x00000303 System.Void OVRPlugin::SetLogCallback2(OVRPlugin/LogCallback2DelegateType)
-extern void OVRPlugin_SetLogCallback2_mFB7DA4760D31CB08EF9182AF41A7A324C1354398 (void);
+extern void OVRPlugin_SetLogCallback2_m3ADF158B1ACCA39216810940690A253F5F53A437 (void);
 // 0x00000304 System.Boolean OVRPlugin::get_initialized()
-extern void OVRPlugin_get_initialized_mDFB1CF1B3823439B0F27EDF9CFB69B794CB7FF7B (void);
+extern void OVRPlugin_get_initialized_m7D7AAEEED41ED4B5798882B6038CF169E2BF0443 (void);
 // 0x00000305 OVRPlugin/XrApi OVRPlugin::get_nativeXrApi()
-extern void OVRPlugin_get_nativeXrApi_m450DA10431E055B87CD929688E613148FEB3670A (void);
+extern void OVRPlugin_get_nativeXrApi_m32634338020C30D956A1579A7745C94BD77279F3 (void);
 // 0x00000306 System.Boolean OVRPlugin::get_chromatic()
-extern void OVRPlugin_get_chromatic_m4F1C529F9810AE9E192A62C0594EE7FE398E7AA7 (void);
+extern void OVRPlugin_get_chromatic_m70D923C4EC1A9BDBCB8CAB71133F960808FBC60C (void);
 // 0x00000307 System.Void OVRPlugin::set_chromatic(System.Boolean)
-extern void OVRPlugin_set_chromatic_mC90909BB17605D44183C553B327CB34ED90D2D07 (void);
+extern void OVRPlugin_set_chromatic_mAE129890213C1F44B1FCB1F74EAA00E12A95ABA1 (void);
 // 0x00000308 System.Boolean OVRPlugin::get_monoscopic()
-extern void OVRPlugin_get_monoscopic_m09B5137503030AEAC8463780FA235A76125A4B1C (void);
+extern void OVRPlugin_get_monoscopic_m1FB2A64C1DF99193B13E940E9DEDE96C3A9ABF64 (void);
 // 0x00000309 System.Void OVRPlugin::set_monoscopic(System.Boolean)
-extern void OVRPlugin_set_monoscopic_mCAF46FC83AFABC2DDB5707A5552E74677B7B71B4 (void);
+extern void OVRPlugin_set_monoscopic_m10D8914343874239BBCCA4F68B3FB2DE1A9F2F2D (void);
 // 0x0000030A System.Boolean OVRPlugin::get_rotation()
-extern void OVRPlugin_get_rotation_m51297F33A1993CF2C31DE0A54530CCF4F2C69190 (void);
+extern void OVRPlugin_get_rotation_m2E4F3FEF1C901B0A651768802CC50E2E41455612 (void);
 // 0x0000030B System.Void OVRPlugin::set_rotation(System.Boolean)
-extern void OVRPlugin_set_rotation_m89977CC9A88A99A29A6641C8339A3A6FB3C4F52A (void);
+extern void OVRPlugin_set_rotation_m920187095C1DC0E97287249A8AA27D0CB5E80A7C (void);
 // 0x0000030C System.Boolean OVRPlugin::get_position()
-extern void OVRPlugin_get_position_mE65B028884CDA3420B901E6D41289D4E78C85E73 (void);
+extern void OVRPlugin_get_position_m91B04E783511D2AF6B6BDA7D4A418AD66CBB13C3 (void);
 // 0x0000030D System.Void OVRPlugin::set_position(System.Boolean)
-extern void OVRPlugin_set_position_m1AC1ECEB949914C14194E9224B26211D274E0ADD (void);
+extern void OVRPlugin_set_position_m19264BEAFB4C2C952B11652E212E84F3411FB26F (void);
 // 0x0000030E System.Boolean OVRPlugin::get_useIPDInPositionTracking()
-extern void OVRPlugin_get_useIPDInPositionTracking_m8E70C4835C9B2A6A79719C1A020055D59307DA8E (void);
+extern void OVRPlugin_get_useIPDInPositionTracking_mE681D01015DEC2C4041BDE7623A97EE7B5C0A638 (void);
 // 0x0000030F System.Void OVRPlugin::set_useIPDInPositionTracking(System.Boolean)
-extern void OVRPlugin_set_useIPDInPositionTracking_m9DF184A1997C656928194CABB9F44AA7D9D57487 (void);
+extern void OVRPlugin_set_useIPDInPositionTracking_m8C4F941E9A7273575ACC10F250E07665DFB5D6FF (void);
 // 0x00000310 System.Boolean OVRPlugin::get_positionSupported()
-extern void OVRPlugin_get_positionSupported_m2791DD7845B95397C910C9B4868831FD379AE3F0 (void);
+extern void OVRPlugin_get_positionSupported_m0AD37A0C6351F659E5079BF3F99214A25425A10F (void);
 // 0x00000311 System.Boolean OVRPlugin::get_positionTracked()
-extern void OVRPlugin_get_positionTracked_mE936B8EB3870C7D211295AC9A202BF0B77FA58F8 (void);
+extern void OVRPlugin_get_positionTracked_m2CDA85E3B5D4C1672B87AA635F1A659E9B2BDB71 (void);
 // 0x00000312 System.Boolean OVRPlugin::get_powerSaving()
-extern void OVRPlugin_get_powerSaving_m6DC8F8725F069B95F08CF46881639BA0DB253859 (void);
+extern void OVRPlugin_get_powerSaving_mDBF4706807A5A4108C653C75BD9F46AE029D349B (void);
 // 0x00000313 System.Boolean OVRPlugin::get_hmdPresent()
-extern void OVRPlugin_get_hmdPresent_m2705D905A552C48637E71354BAC221B069B95D9E (void);
+extern void OVRPlugin_get_hmdPresent_mF451D2F9EE38733FF956ADD714F161EA803F8F6A (void);
 // 0x00000314 System.Boolean OVRPlugin::get_userPresent()
-extern void OVRPlugin_get_userPresent_m817658CFEBBA22237689DCF1A7F83A2D5C363E86 (void);
+extern void OVRPlugin_get_userPresent_mDC6C3FFE8897342A888E529C7BEAF368413C8151 (void);
 // 0x00000315 System.Boolean OVRPlugin::get_headphonesPresent()
-extern void OVRPlugin_get_headphonesPresent_mB6C898D26FA273C51BA2D4E8F140D26458C72E16 (void);
+extern void OVRPlugin_get_headphonesPresent_m5D5EE5B33694318A84A6B40DE9EF610695627597 (void);
 // 0x00000316 System.Int32 OVRPlugin::get_recommendedMSAALevel()
-extern void OVRPlugin_get_recommendedMSAALevel_mDDED8274F81EB8D6E00061729D8BC06EF5C05569 (void);
+extern void OVRPlugin_get_recommendedMSAALevel_m0E78179F7FB2477BB5977DD3F660E9FF595AE7B1 (void);
 // 0x00000317 OVRPlugin/SystemRegion OVRPlugin::get_systemRegion()
-extern void OVRPlugin_get_systemRegion_m683C517E8513CA03C90E5FC598E569AE153974DA (void);
+extern void OVRPlugin_get_systemRegion_m664F38F33BF9D3BACE25644BF4D48D1ED3D1A8A6 (void);
 // 0x00000318 System.String OVRPlugin::get_audioOutId()
-extern void OVRPlugin_get_audioOutId_m91163ED440CDA7F0F396ACB5ACDAD5AF468DFA67 (void);
+extern void OVRPlugin_get_audioOutId_m5D5085CAAC63B5F1C4FB8E2160278EBC7BC7CCDA (void);
 // 0x00000319 System.String OVRPlugin::get_audioInId()
-extern void OVRPlugin_get_audioInId_m03ED10D01EE81A624B128462B66398F6B0C3B609 (void);
+extern void OVRPlugin_get_audioInId_m69899C3CA94D7DFD3E580D40DE456876775000DE (void);
 // 0x0000031A System.Boolean OVRPlugin::get_hasVrFocus()
-extern void OVRPlugin_get_hasVrFocus_mED702E6732D8DB50B818FEB1FD1AC49104B69FBB (void);
+extern void OVRPlugin_get_hasVrFocus_m3BE22CA34415F44FD722A0D2547388F0C943900E (void);
 // 0x0000031B System.Boolean OVRPlugin::get_hasInputFocus()
-extern void OVRPlugin_get_hasInputFocus_m7D3A9901EC134A3E729B7193142E971E0B290366 (void);
+extern void OVRPlugin_get_hasInputFocus_m26E031618D6BF901538C11D3A4FF8F82208BEEDD (void);
 // 0x0000031C System.Boolean OVRPlugin::get_shouldQuit()
-extern void OVRPlugin_get_shouldQuit_m2C083B5E48E4F811AB80401B718754A8746D0061 (void);
+extern void OVRPlugin_get_shouldQuit_mBA5C91B74C034F11AB43669726D8DC8D775668E5 (void);
 // 0x0000031D System.Boolean OVRPlugin::get_shouldRecenter()
-extern void OVRPlugin_get_shouldRecenter_m29FB143DF9ED2DB437B12E744DA2EE565506B259 (void);
+extern void OVRPlugin_get_shouldRecenter_m82A62121BEF853ED4A8BF5AFB87DCFB1F7B1F5AB (void);
 // 0x0000031E System.String OVRPlugin::get_productName()
-extern void OVRPlugin_get_productName_m83EC59C1BE86D45CB521C22F99214ECD3B66AE07 (void);
+extern void OVRPlugin_get_productName_mF2E3AB2A95F1FE2DDC35AAEADD9887782C4916C0 (void);
 // 0x0000031F System.String OVRPlugin::get_latency()
-extern void OVRPlugin_get_latency_m6F1BB362148AC85805D1244BD9D6185B8D9D7BAD (void);
+extern void OVRPlugin_get_latency_mBE733B8BEBAEC5CBFA114AB9BB0D03657CFCA511 (void);
 // 0x00000320 System.Single OVRPlugin::get_eyeDepth()
-extern void OVRPlugin_get_eyeDepth_mEAD35F3B9D9AF13BD0FB072A579FD470C9E5803C (void);
+extern void OVRPlugin_get_eyeDepth_mEE80884305950C7646BA2FA99BD6C937B4C5448A (void);
 // 0x00000321 System.Void OVRPlugin::set_eyeDepth(System.Single)
-extern void OVRPlugin_set_eyeDepth_m5171C0875C1E5F0288608475D4EC0ADC5EEA4C9C (void);
+extern void OVRPlugin_set_eyeDepth_m5B503B1343888A143D75166A8387F683F04DE06D (void);
 // 0x00000322 System.Single OVRPlugin::get_eyeHeight()
-extern void OVRPlugin_get_eyeHeight_m400E9589516D9FA749C6C177B7630EAE5758F43C (void);
+extern void OVRPlugin_get_eyeHeight_m40B9791C4078E06FE3CAB2D7CD102CCB4DBE7C0E (void);
 // 0x00000323 System.Void OVRPlugin::set_eyeHeight(System.Single)
-extern void OVRPlugin_set_eyeHeight_mCAF812BE4BCE85301294889264A2335F2BF3BBF7 (void);
+extern void OVRPlugin_set_eyeHeight_m9DEEB3566BD3F5DF53AEE1172ACB4E9910936F61 (void);
 // 0x00000324 System.Single OVRPlugin::get_batteryLevel()
-extern void OVRPlugin_get_batteryLevel_mB5E0A70920BE300190914A86B0603AFAA9BAC47A (void);
+extern void OVRPlugin_get_batteryLevel_mAD1E25BC5576FC800E9F9E1FCF54C00921D123FF (void);
 // 0x00000325 System.Single OVRPlugin::get_batteryTemperature()
-extern void OVRPlugin_get_batteryTemperature_m2FC1627776755B978E8612C1758EE8ED9668113D (void);
+extern void OVRPlugin_get_batteryTemperature_m4316A3EEA5599A957148DF73FEC745244D251F6F (void);
 // 0x00000326 OVRPlugin/ProcessorPerformanceLevel OVRPlugin::get_suggestedCpuPerfLevel()
-extern void OVRPlugin_get_suggestedCpuPerfLevel_m656CEFECDF4ABBE01DC0CEEB356E22174E41C52D (void);
+extern void OVRPlugin_get_suggestedCpuPerfLevel_m9499E63FC5C08EF4D1F38C494088FD3ADFAAFF9D (void);
 // 0x00000327 System.Void OVRPlugin::set_suggestedCpuPerfLevel(OVRPlugin/ProcessorPerformanceLevel)
-extern void OVRPlugin_set_suggestedCpuPerfLevel_mFCA8A0E1A9B4F40C4B2736291D7CF706C6806D83 (void);
+extern void OVRPlugin_set_suggestedCpuPerfLevel_m0CA3B9722D6D34AD41A978A5A0B5D1C966D237A8 (void);
 // 0x00000328 OVRPlugin/ProcessorPerformanceLevel OVRPlugin::get_suggestedGpuPerfLevel()
-extern void OVRPlugin_get_suggestedGpuPerfLevel_mD941B6237DF003155887FF6ED58A868095656DEA (void);
+extern void OVRPlugin_get_suggestedGpuPerfLevel_mE702E2D9C76882032DED8E00516B587180288EE0 (void);
 // 0x00000329 System.Void OVRPlugin::set_suggestedGpuPerfLevel(OVRPlugin/ProcessorPerformanceLevel)
-extern void OVRPlugin_set_suggestedGpuPerfLevel_m3FCC54F6B8E23EFD6B4E9782F726B2934DFB7A7F (void);
+extern void OVRPlugin_set_suggestedGpuPerfLevel_mF464D8BB311C080501ED0608C34295F8A4796BD3 (void);
 // 0x0000032A System.Int32 OVRPlugin::get_cpuLevel()
-extern void OVRPlugin_get_cpuLevel_mCC616B53E1983573553123A52BBBCD7B3EC2983B (void);
+extern void OVRPlugin_get_cpuLevel_m3FCC053F18121BBAC4C60F22BE26FC4493528DDA (void);
 // 0x0000032B System.Void OVRPlugin::set_cpuLevel(System.Int32)
-extern void OVRPlugin_set_cpuLevel_m3FC42524DB524E301AC60FC0D411E0F7E8822250 (void);
+extern void OVRPlugin_set_cpuLevel_m6F7A4BAF88E9ABD0749E01645A8360A153195314 (void);
 // 0x0000032C System.Int32 OVRPlugin::get_gpuLevel()
-extern void OVRPlugin_get_gpuLevel_m78CABA91DED29BADE10AE36EF72A2EE7DD056AC2 (void);
+extern void OVRPlugin_get_gpuLevel_m84965A56CFF04CF1487A64D2D3943A4A3C7D0DFE (void);
 // 0x0000032D System.Void OVRPlugin::set_gpuLevel(System.Int32)
-extern void OVRPlugin_set_gpuLevel_m5B187EC6A38EA8A097B7895A4D267D344FDD0074 (void);
+extern void OVRPlugin_set_gpuLevel_m90EF3A1F0124C0ABE559550DCEDD13DBEE34599D (void);
 // 0x0000032E System.Int32 OVRPlugin::get_vsyncCount()
-extern void OVRPlugin_get_vsyncCount_m2F908B57CF9F0797489F38C37E72A47FD65FDAB9 (void);
+extern void OVRPlugin_get_vsyncCount_m43E11EECD32DC9547222AF21B9FE0BA27974984C (void);
 // 0x0000032F System.Void OVRPlugin::set_vsyncCount(System.Int32)
-extern void OVRPlugin_set_vsyncCount_m5B23F4E1960D6451F4837BEF6C4EBE0FBA85D69A (void);
+extern void OVRPlugin_set_vsyncCount_mFDB0AD3E722E6889A3081C4DE015A0CF2ADC9A88 (void);
 // 0x00000330 System.Single OVRPlugin::get_systemVolume()
-extern void OVRPlugin_get_systemVolume_m1FB1A743ED1F1D572AD89157B89B7E65A72F2E35 (void);
+extern void OVRPlugin_get_systemVolume_mE1D94CF0D3609D2F1A4FAE3D31CF170FF464F864 (void);
 // 0x00000331 System.Single OVRPlugin::get_ipd()
-extern void OVRPlugin_get_ipd_m4162DA5414013EE3322952F82A1A7FD5B3DA1EE4 (void);
+extern void OVRPlugin_get_ipd_mE330E8430700E7E9BD35C51DF649921BE6F0D41D (void);
 // 0x00000332 System.Void OVRPlugin::set_ipd(System.Single)
-extern void OVRPlugin_set_ipd_m665F5B202C43AE179E46EB516D33BDA1CBFD741E (void);
+extern void OVRPlugin_set_ipd_m51487F239AF4DA324C9C0F9FC8471477930CC3C0 (void);
 // 0x00000333 System.Boolean OVRPlugin::get_occlusionMesh()
-extern void OVRPlugin_get_occlusionMesh_mB2FFFFE309E97A3C88544780E1C6005BE196B2AE (void);
+extern void OVRPlugin_get_occlusionMesh_m9DE08B59CA33AE2D60BA00BE9E167C14EE617904 (void);
 // 0x00000334 System.Void OVRPlugin::set_occlusionMesh(System.Boolean)
-extern void OVRPlugin_set_occlusionMesh_m5E3731477D3BE0CD6B4F2B3EB56DC246284A3778 (void);
+extern void OVRPlugin_set_occlusionMesh_m9885D0C924ED047C8F97821CFEBF1589026EF28A (void);
 // 0x00000335 OVRPlugin/BatteryStatus OVRPlugin::get_batteryStatus()
-extern void OVRPlugin_get_batteryStatus_mFC690CCC2BB21BB8E5F9C11272A33E5465AFDFF5 (void);
+extern void OVRPlugin_get_batteryStatus_m59B52C68609A52F12E97B5412509C78C47A64426 (void);
 // 0x00000336 OVRPlugin/Frustumf OVRPlugin::GetEyeFrustum(OVRPlugin/Eye)
-extern void OVRPlugin_GetEyeFrustum_m98488B2F749B6FEC7759C0421E7A69752A3D035B (void);
+extern void OVRPlugin_GetEyeFrustum_m12BCC5C8828CF638B1BC1CF2A08102D27F81D702 (void);
 // 0x00000337 OVRPlugin/Sizei OVRPlugin::GetEyeTextureSize(OVRPlugin/Eye)
-extern void OVRPlugin_GetEyeTextureSize_m541E560E45532BF0597E2872F9D1972730591FF2 (void);
+extern void OVRPlugin_GetEyeTextureSize_mD3C6CA584BD823620FE2A43668A9488050FECE46 (void);
 // 0x00000338 OVRPlugin/Posef OVRPlugin::GetTrackerPose(OVRPlugin/Tracker)
-extern void OVRPlugin_GetTrackerPose_m8BF368BB7281B53C06A16EBE43C82CC1105234EF (void);
+extern void OVRPlugin_GetTrackerPose_mB193F95ACEFE43EE149B747BF97E288121C9827E (void);
 // 0x00000339 OVRPlugin/Frustumf OVRPlugin::GetTrackerFrustum(OVRPlugin/Tracker)
-extern void OVRPlugin_GetTrackerFrustum_mBE272A7F28FD7AB399ED74560C70078EC2264E7C (void);
+extern void OVRPlugin_GetTrackerFrustum_m35BD5EE1EA9E92A4A4AEC7F7C1FF8ADCD521C2FE (void);
 // 0x0000033A System.Boolean OVRPlugin::ShowUI(OVRPlugin/PlatformUI)
-extern void OVRPlugin_ShowUI_m66BCFAF068B2280D8D6B8A9B996C26DC13694C40 (void);
+extern void OVRPlugin_ShowUI_m92CACED0C9DAE308F644CEB83AE396FC1444AB0A (void);
 // 0x0000033B System.Boolean OVRPlugin::EnqueueSubmitLayer(System.Boolean,System.Boolean,System.Boolean,System.IntPtr,System.IntPtr,System.Int32,System.Int32,OVRPlugin/Posef,OVRPlugin/Vector3f,System.Int32,OVRPlugin/OverlayShape,System.Boolean,OVRPlugin/TextureRectMatrixf,System.Boolean,UnityEngine.Vector4,UnityEngine.Vector4,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-extern void OVRPlugin_EnqueueSubmitLayer_m8D1FCFA22BB3DB3B21F0EB629080FA75656D7F14 (void);
+extern void OVRPlugin_EnqueueSubmitLayer_mD0A5E2CDB5157DAC27426A1C49939A0194BD4333 (void);
 // 0x0000033C OVRPlugin/LayerDesc OVRPlugin::CalculateLayerDesc(OVRPlugin/OverlayShape,OVRPlugin/LayerLayout,OVRPlugin/Sizei,System.Int32,System.Int32,OVRPlugin/EyeTextureFormat,System.Int32)
-extern void OVRPlugin_CalculateLayerDesc_mDF54FF4A4DB16269E53D988A1D53D4D2D15B3959 (void);
+extern void OVRPlugin_CalculateLayerDesc_m1C5C994D88D2EB1BC56103558F7DB7AFDFDF04C9 (void);
 // 0x0000033D System.Boolean OVRPlugin::EnqueueSetupLayer(OVRPlugin/LayerDesc,System.Int32,System.IntPtr)
-extern void OVRPlugin_EnqueueSetupLayer_m76FE8AEA81F96044DA7EA5566EBAC398AB207089 (void);
+extern void OVRPlugin_EnqueueSetupLayer_mA1D5C761EE406503F0AA37B6C55C0AC87D61023F (void);
 // 0x0000033E System.Boolean OVRPlugin::EnqueueDestroyLayer(System.IntPtr)
-extern void OVRPlugin_EnqueueDestroyLayer_mCAC9587C72AB2DBA8087E0217F13F3D521E17C8E (void);
+extern void OVRPlugin_EnqueueDestroyLayer_mC4A991C01B4734190C2F8291670BE84B30AB252B (void);
 // 0x0000033F System.IntPtr OVRPlugin::GetLayerTexture(System.Int32,System.Int32,OVRPlugin/Eye)
-extern void OVRPlugin_GetLayerTexture_m9E277AF579E757461763F689CABFA572176AFD3D (void);
+extern void OVRPlugin_GetLayerTexture_mE4789C583C8282A195DCBBCCBBBEB5A44073A5C8 (void);
 // 0x00000340 System.Int32 OVRPlugin::GetLayerTextureStageCount(System.Int32)
-extern void OVRPlugin_GetLayerTextureStageCount_m2CA347FDCC8ED8D91F8950955205F16463447067 (void);
+extern void OVRPlugin_GetLayerTextureStageCount_m7ACFF1E9AA4708B227460BB30021AA34347ED874 (void);
 // 0x00000341 System.IntPtr OVRPlugin::GetLayerAndroidSurfaceObject(System.Int32)
-extern void OVRPlugin_GetLayerAndroidSurfaceObject_m333BD30580AA23516501E17517F3B5D07D3915F5 (void);
+extern void OVRPlugin_GetLayerAndroidSurfaceObject_m8DE03D3352A89AEC9F67BDEB8C3026140A264B97 (void);
 // 0x00000342 System.Boolean OVRPlugin::UpdateNodePhysicsPoses(System.Int32,System.Double)
-extern void OVRPlugin_UpdateNodePhysicsPoses_m56F719C30849918041EE23D7E5C100FDE22A6B4B (void);
+extern void OVRPlugin_UpdateNodePhysicsPoses_m30A4EB300401EF39239AE6418ED8CF994C51707C (void);
 // 0x00000343 OVRPlugin/Posef OVRPlugin::GetNodePose(OVRPlugin/Node,OVRPlugin/Step)
-extern void OVRPlugin_GetNodePose_mC574769E829FF6B5C3093342A8563E4A940159E0 (void);
+extern void OVRPlugin_GetNodePose_m973B3CA31C019465A53494EB440C13C2AE229CB3 (void);
 // 0x00000344 OVRPlugin/Vector3f OVRPlugin::GetNodeVelocity(OVRPlugin/Node,OVRPlugin/Step)
-extern void OVRPlugin_GetNodeVelocity_mE872ADD53DABCF1737F56981E772B1F7CEB58FCB (void);
+extern void OVRPlugin_GetNodeVelocity_mC6007F1CDD87AD15237BD493E94BBB7607C40C75 (void);
 // 0x00000345 OVRPlugin/Vector3f OVRPlugin::GetNodeAngularVelocity(OVRPlugin/Node,OVRPlugin/Step)
-extern void OVRPlugin_GetNodeAngularVelocity_m8E6FFB026AEC6757FBB755D23C59257E54FBC855 (void);
+extern void OVRPlugin_GetNodeAngularVelocity_mF69AC351336CBD146A0D7F5543ABDB54C299F742 (void);
 // 0x00000346 OVRPlugin/Vector3f OVRPlugin::GetNodeAcceleration(OVRPlugin/Node,OVRPlugin/Step)
-extern void OVRPlugin_GetNodeAcceleration_mDCBF3DB0B4F4FDE44F90F67C77CC6C7D610ED6CA (void);
+extern void OVRPlugin_GetNodeAcceleration_mC5F4163A51573C63CCC196CC775E7AD774A79575 (void);
 // 0x00000347 OVRPlugin/Vector3f OVRPlugin::GetNodeAngularAcceleration(OVRPlugin/Node,OVRPlugin/Step)
-extern void OVRPlugin_GetNodeAngularAcceleration_m5BABADDA3E28B6BABE3A7A1B8BD97757C25C160E (void);
+extern void OVRPlugin_GetNodeAngularAcceleration_mDE952D5093E24464A59BC6393ADE49AAE9624374 (void);
 // 0x00000348 System.Boolean OVRPlugin::GetNodePresent(OVRPlugin/Node)
-extern void OVRPlugin_GetNodePresent_mA4CF851470FDD9BD2A22455766CA3096E21CA0AF (void);
+extern void OVRPlugin_GetNodePresent_m5650738AE833C3C1DD04EBF700433AF236A2B20B (void);
 // 0x00000349 System.Boolean OVRPlugin::GetNodeOrientationTracked(OVRPlugin/Node)
-extern void OVRPlugin_GetNodeOrientationTracked_m6D579C16CD6FC7F85F50DA5F55A61DD482D8EAEC (void);
+extern void OVRPlugin_GetNodeOrientationTracked_m2F4F1AF81CEA7FB1BC6B8025E99A1D0E93CBDC9F (void);
 // 0x0000034A System.Boolean OVRPlugin::GetNodeOrientationValid(OVRPlugin/Node)
-extern void OVRPlugin_GetNodeOrientationValid_m608D8340A89D64B8BCB85CE21AD4E9DD9A284C5C (void);
+extern void OVRPlugin_GetNodeOrientationValid_m84C2B516B7C2D28967C271C8F5068028E6816717 (void);
 // 0x0000034B System.Boolean OVRPlugin::GetNodePositionTracked(OVRPlugin/Node)
-extern void OVRPlugin_GetNodePositionTracked_mD3FCB582732E4DC9AE63FC0B2A33BB7DAA4B0D90 (void);
+extern void OVRPlugin_GetNodePositionTracked_m7921BCEF65C51982D626A264426AE6A31BCB110B (void);
 // 0x0000034C System.Boolean OVRPlugin::GetNodePositionValid(OVRPlugin/Node)
-extern void OVRPlugin_GetNodePositionValid_m01FFE182822279CCDBC61C417F66CB2207679397 (void);
+extern void OVRPlugin_GetNodePositionValid_m855200815DB6B89892A8057D87434E62177ADFDC (void);
 // 0x0000034D OVRPlugin/PoseStatef OVRPlugin::GetNodePoseStateRaw(OVRPlugin/Node,OVRPlugin/Step)
-extern void OVRPlugin_GetNodePoseStateRaw_mF0E833685FE05F1395B36E1FB5CA817BCCF367AB (void);
+extern void OVRPlugin_GetNodePoseStateRaw_m61CEEA16C9293DECBE65A0D3807AD0D3A009B1DD (void);
 // 0x0000034E OVRPlugin/PoseStatef OVRPlugin::GetNodePoseStateAtTime(System.Double,OVRPlugin/Node)
-extern void OVRPlugin_GetNodePoseStateAtTime_mB83B8FE35DE6368997417BFBBCB18748DC4DD747 (void);
+extern void OVRPlugin_GetNodePoseStateAtTime_mED0C74C8CFDDD726EC01F9B1E142553A527306B3 (void);
 // 0x0000034F OVRPlugin/PoseStatef OVRPlugin::GetNodePoseStateImmediate(OVRPlugin/Node)
-extern void OVRPlugin_GetNodePoseStateImmediate_mA776387E5CC070720DD36466A1C9F4D749AFAA79 (void);
+extern void OVRPlugin_GetNodePoseStateImmediate_m82DA3F8A7A7287C93F32AE7FE510509392F2F288 (void);
 // 0x00000350 OVRPlugin/Posef OVRPlugin::GetCurrentTrackingTransformPose()
-extern void OVRPlugin_GetCurrentTrackingTransformPose_mD320A3897D5557E1AC61AA77D7450B3BCC1C7008 (void);
+extern void OVRPlugin_GetCurrentTrackingTransformPose_m26FE0E5A2A3988A5A51300CF4395D2FB6CDB6C67 (void);
 // 0x00000351 OVRPlugin/Posef OVRPlugin::GetTrackingTransformRawPose()
-extern void OVRPlugin_GetTrackingTransformRawPose_m992E31FD50734E57278F32ABC0E05B1BD0428373 (void);
+extern void OVRPlugin_GetTrackingTransformRawPose_m2C557055AE8931607BEA55B0AD94C64DCD8B3135 (void);
 // 0x00000352 OVRPlugin/Posef OVRPlugin::GetTrackingTransformRelativePose(OVRPlugin/TrackingOrigin)
-extern void OVRPlugin_GetTrackingTransformRelativePose_mF20873D49F8601A9714D711C573F812CC7EED485 (void);
+extern void OVRPlugin_GetTrackingTransformRelativePose_m594736E2B1E616394C8BEBE60A2ACB5FEE4F3005 (void);
 // 0x00000353 OVRPlugin/ControllerState OVRPlugin::GetControllerState(System.UInt32)
-extern void OVRPlugin_GetControllerState_m0266B6C9385A2D55AEF8109CD7094657CC6A87DE (void);
+extern void OVRPlugin_GetControllerState_m73D1A6D01CEE7C591B8469FE1478F8CB9DEC5CD6 (void);
 // 0x00000354 OVRPlugin/ControllerState2 OVRPlugin::GetControllerState2(System.UInt32)
-extern void OVRPlugin_GetControllerState2_mCE012A31E2B7FF0ACFFB66C76C8C40A30EB1A8D0 (void);
+extern void OVRPlugin_GetControllerState2_mF786249CBA5D0B982D07F2166DCF1DA9573B5E90 (void);
 // 0x00000355 OVRPlugin/ControllerState4 OVRPlugin::GetControllerState4(System.UInt32)
-extern void OVRPlugin_GetControllerState4_mFD2B8E9ECDA99CCBC53931F14D7DF341F2F16914 (void);
+extern void OVRPlugin_GetControllerState4_m728848DEFBC02ED0E9A2064A9D230F96D1C36760 (void);
 // 0x00000356 System.Boolean OVRPlugin::SetControllerVibration(System.UInt32,System.Single,System.Single)
-extern void OVRPlugin_SetControllerVibration_m306AFDBAF1CF986CBD86412413EDB77EF1BC81AE (void);
+extern void OVRPlugin_SetControllerVibration_mAE3456564B4AEF71F875080A33A62AD05C3A71E6 (void);
 // 0x00000357 OVRPlugin/HapticsDesc OVRPlugin::GetControllerHapticsDesc(System.UInt32)
-extern void OVRPlugin_GetControllerHapticsDesc_mEBBC8F2C0F110EF91B3A8DC01E45717F039BBB1F (void);
+extern void OVRPlugin_GetControllerHapticsDesc_m4F5B99D7454F62CAAB43656B5BEBAE3181405737 (void);
 // 0x00000358 OVRPlugin/HapticsState OVRPlugin::GetControllerHapticsState(System.UInt32)
-extern void OVRPlugin_GetControllerHapticsState_m5EEFBE83C7B0FD5A29AA0737FDBAC04A165F590D (void);
+extern void OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE (void);
 // 0x00000359 System.Boolean OVRPlugin::SetControllerHaptics(System.UInt32,OVRPlugin/HapticsBuffer)
-extern void OVRPlugin_SetControllerHaptics_mA652A1D128A07D1EFE9B572D51219A99F3C1B79C (void);
+extern void OVRPlugin_SetControllerHaptics_mF261D7841611D1A96353C34F471145D69A15A0DE (void);
 // 0x0000035A System.Single OVRPlugin::GetEyeRecommendedResolutionScale()
-extern void OVRPlugin_GetEyeRecommendedResolutionScale_mF65DE827FB82276BFAB49E008816CCA2E775D55F (void);
+extern void OVRPlugin_GetEyeRecommendedResolutionScale_m34971898A2CC5FF31CF75643E325F2B1E884E3F2 (void);
 // 0x0000035B System.Single OVRPlugin::GetAppCpuStartToGpuEndTime()
-extern void OVRPlugin_GetAppCpuStartToGpuEndTime_m15281D842C9EDEA7F31CBC29219D2A234371C1CA (void);
+extern void OVRPlugin_GetAppCpuStartToGpuEndTime_m7B73C7070638AF61077F7EB8798087FF491B0CD1 (void);
 // 0x0000035C System.Boolean OVRPlugin::GetBoundaryConfigured()
-extern void OVRPlugin_GetBoundaryConfigured_m586FDA1BBD731317B79A77CC4FC536B29F81E055 (void);
+extern void OVRPlugin_GetBoundaryConfigured_m4D821F906F0809B123EAB8C967A552F55129ACAB (void);
 // 0x0000035D OVRPlugin/BoundaryTestResult OVRPlugin::TestBoundaryNode(OVRPlugin/Node,OVRPlugin/BoundaryType)
-extern void OVRPlugin_TestBoundaryNode_mEE4BB9A13DB9005AD26386E8312EF9661E00819F (void);
+extern void OVRPlugin_TestBoundaryNode_mA69B94641CE0ED776B3C41B3AC2B5F31ACF53CE6 (void);
 // 0x0000035E OVRPlugin/BoundaryTestResult OVRPlugin::TestBoundaryPoint(OVRPlugin/Vector3f,OVRPlugin/BoundaryType)
-extern void OVRPlugin_TestBoundaryPoint_mD13DDCAA252711BDBBBD07AC8706D47E8FF67F63 (void);
+extern void OVRPlugin_TestBoundaryPoint_m1BF9E66593D64870FA5EA2112C511DD7B7B0683C (void);
 // 0x0000035F OVRPlugin/BoundaryGeometry OVRPlugin::GetBoundaryGeometry(OVRPlugin/BoundaryType)
-extern void OVRPlugin_GetBoundaryGeometry_m8565A68A34A3B5995DACA0E076CCF03FC01C7426 (void);
+extern void OVRPlugin_GetBoundaryGeometry_mC63FA471B107D38D532DEB22EAD559551EE565B6 (void);
 // 0x00000360 System.Boolean OVRPlugin::GetBoundaryGeometry2(OVRPlugin/BoundaryType,System.IntPtr,System.Int32&)
-extern void OVRPlugin_GetBoundaryGeometry2_m40622F9531101A8D95BEB248BEB606CE7D4BE5A3 (void);
+extern void OVRPlugin_GetBoundaryGeometry2_m17D8F2B206A7FEE004630496DF3C185E35342EAD (void);
 // 0x00000361 OVRPlugin/AppPerfStats OVRPlugin::GetAppPerfStats()
-extern void OVRPlugin_GetAppPerfStats_m34A33EFF2EB9FF6067BAA523766C4199449B321D (void);
+extern void OVRPlugin_GetAppPerfStats_m6EFAAA8BDE8A02239502B151F481D813C73380E9 (void);
 // 0x00000362 System.Boolean OVRPlugin::ResetAppPerfStats()
-extern void OVRPlugin_ResetAppPerfStats_mB6215BAE35BBB49F2F41FA5FE53200AC2214581D (void);
+extern void OVRPlugin_ResetAppPerfStats_mDDEEB7329441AFBADC0C47159E76A3E203CC4D03 (void);
 // 0x00000363 System.Single OVRPlugin::GetAppFramerate()
-extern void OVRPlugin_GetAppFramerate_m6E695354C2D1E4EE2BED50D4CCF779C88063320F (void);
+extern void OVRPlugin_GetAppFramerate_mCA873E5D8A4530857583F99C9DD9AD301A415742 (void);
 // 0x00000364 System.Boolean OVRPlugin::SetHandNodePoseStateLatency(System.Double)
-extern void OVRPlugin_SetHandNodePoseStateLatency_mE19FF44EB8FBB6AA3A9E55804BAF40D9A0BAA642 (void);
+extern void OVRPlugin_SetHandNodePoseStateLatency_m6C83FFA012290D85DD9DE0657BE18A99C5B580EF (void);
 // 0x00000365 System.Double OVRPlugin::GetHandNodePoseStateLatency()
-extern void OVRPlugin_GetHandNodePoseStateLatency_m11D464943BC1941E12E60912EAAA7FDC30C439F1 (void);
+extern void OVRPlugin_GetHandNodePoseStateLatency_m28B5B2E04415BD93C9475BFC6BD3356A312B813D (void);
 // 0x00000366 OVRPlugin/EyeTextureFormat OVRPlugin::GetDesiredEyeTextureFormat()
-extern void OVRPlugin_GetDesiredEyeTextureFormat_m4093DDC7E2A8ED3B3517F5577C6ADCA8EAC456D8 (void);
+extern void OVRPlugin_GetDesiredEyeTextureFormat_m7C94FE67F60CB7B0A4AAAF2D8E3B0A0F1CCC4FEF (void);
 // 0x00000367 System.Boolean OVRPlugin::SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat)
-extern void OVRPlugin_SetDesiredEyeTextureFormat_m862BB8053F686802F401863601B3EB2B25B6B4CE (void);
+extern void OVRPlugin_SetDesiredEyeTextureFormat_m397C4AB18923A2C1B6A3425B42A7064EB6EAB2D9 (void);
 // 0x00000368 System.Boolean OVRPlugin::InitializeMixedReality()
-extern void OVRPlugin_InitializeMixedReality_m25AAD567E9A401BFDBA3BFB39D96C7FDC1B91928 (void);
+extern void OVRPlugin_InitializeMixedReality_mF600771E1D581C7DEAEE9EA75A9741E7B95888C5 (void);
 // 0x00000369 System.Boolean OVRPlugin::ShutdownMixedReality()
-extern void OVRPlugin_ShutdownMixedReality_mD2F70D1FFD9E42A578AD761E8D27D9084C39648D (void);
+extern void OVRPlugin_ShutdownMixedReality_mB656E8CCEFB6FCEC25B8597307566A0C1883D1FE (void);
 // 0x0000036A System.Boolean OVRPlugin::IsMixedRealityInitialized()
-extern void OVRPlugin_IsMixedRealityInitialized_mE1CAF88DC2B6500CB8C3476F5D839D52E5975A0E (void);
+extern void OVRPlugin_IsMixedRealityInitialized_mFAF884E1917CA77347F31FA3312FF0C50E52D7FE (void);
 // 0x0000036B System.Int32 OVRPlugin::GetExternalCameraCount()
-extern void OVRPlugin_GetExternalCameraCount_m8372877043CC5A6C5163F6426698E5FBF25B467E (void);
+extern void OVRPlugin_GetExternalCameraCount_mCF884D51AD3C5666FB5C4B9CDC8E7A6C0CF719F7 (void);
 // 0x0000036C System.Boolean OVRPlugin::UpdateExternalCamera()
-extern void OVRPlugin_UpdateExternalCamera_m42E2F9F0970B3043AF4A298197567C5A6CD30DCC (void);
+extern void OVRPlugin_UpdateExternalCamera_m094289B0059CB8C32F17C7E6A5C4418FF0812FB6 (void);
 // 0x0000036D System.Boolean OVRPlugin::GetMixedRealityCameraInfo(System.Int32,OVRPlugin/CameraExtrinsics&,OVRPlugin/CameraIntrinsics&)
-extern void OVRPlugin_GetMixedRealityCameraInfo_m9787D50DE1D079A4AA39A2295DDD5DE5F26E9AD3 (void);
+extern void OVRPlugin_GetMixedRealityCameraInfo_m22A50602684F756CAF5CF17E526DFF0B8CB7E4C6 (void);
 // 0x0000036E System.Boolean OVRPlugin::OverrideExternalCameraFov(System.Int32,System.Boolean,OVRPlugin/Fovf)
-extern void OVRPlugin_OverrideExternalCameraFov_mDC5157834EC80A6EE0C39FC66ABB22E99B166E0C (void);
+extern void OVRPlugin_OverrideExternalCameraFov_m8849D6E87FCBDFECBEC1E25E5099A631AE9824E4 (void);
 // 0x0000036F System.Boolean OVRPlugin::GetUseOverriddenExternalCameraFov(System.Int32)
-extern void OVRPlugin_GetUseOverriddenExternalCameraFov_mC4D72A65DCA9E449D802CCF01C033B5886606B85 (void);
+extern void OVRPlugin_GetUseOverriddenExternalCameraFov_m8338AC617E952C1CFB6DCC1403CDBB38032747D9 (void);
 // 0x00000370 System.Boolean OVRPlugin::OverrideExternalCameraStaticPose(System.Int32,System.Boolean,OVRPlugin/Posef)
-extern void OVRPlugin_OverrideExternalCameraStaticPose_m8085585E364DC308431BA12075C69473510DD448 (void);
+extern void OVRPlugin_OverrideExternalCameraStaticPose_mEA816D3079803A2375D520C5AFF748780CF6AC58 (void);
 // 0x00000371 System.Boolean OVRPlugin::GetUseOverriddenExternalCameraStaticPose(System.Int32)
-extern void OVRPlugin_GetUseOverriddenExternalCameraStaticPose_m3D9770C291BF1635CD10EEB4B3745F14ABCE3759 (void);
+extern void OVRPlugin_GetUseOverriddenExternalCameraStaticPose_m6F48A2E135F43889623814D7F1150DC71DCD8EB5 (void);
 // 0x00000372 System.Boolean OVRPlugin::ResetDefaultExternalCamera()
-extern void OVRPlugin_ResetDefaultExternalCamera_m9D8F8981DF2C672A896A0BEC390A8473EBCF8FE2 (void);
+extern void OVRPlugin_ResetDefaultExternalCamera_mABA1DDF03790F2D8CABBDFF98204604AE9D674B6 (void);
 // 0x00000373 System.Boolean OVRPlugin::SetDefaultExternalCamera(System.String,OVRPlugin/CameraIntrinsics&,OVRPlugin/CameraExtrinsics&)
-extern void OVRPlugin_SetDefaultExternalCamera_mD99ECC5531D16FC114ACE424E89F24B7BE681934 (void);
+extern void OVRPlugin_SetDefaultExternalCamera_m72A8D2E0A81939CFF330DF7BB4CDBEF9D2C61AD7 (void);
 // 0x00000374 System.Boolean OVRPlugin::SetExternalCameraProperties(System.String,OVRPlugin/CameraIntrinsics&,OVRPlugin/CameraExtrinsics&)
-extern void OVRPlugin_SetExternalCameraProperties_mB7E4D164A2E7C1A16C7DC46FC21B56D3BA52BAE9 (void);
+extern void OVRPlugin_SetExternalCameraProperties_m41ABA588AFDD74A9A5BCC3B5E5D38C8EE0C16591 (void);
 // 0x00000375 System.Boolean OVRPlugin::IsInsightPassthroughSupported()
-extern void OVRPlugin_IsInsightPassthroughSupported_mAAE0BA18E9A11F3F0BCC3E3FE2D24155DEB318E0 (void);
+extern void OVRPlugin_IsInsightPassthroughSupported_m7AE9F209201C3853A8DBF56F8AD3DAAA13ED8529 (void);
 // 0x00000376 System.Boolean OVRPlugin::InitializeInsightPassthrough()
-extern void OVRPlugin_InitializeInsightPassthrough_m525927443C44222752116848935F75FEBF17979B (void);
+extern void OVRPlugin_InitializeInsightPassthrough_m533CFC66EFCBCF4C9B69AC938D2E2653724D2304 (void);
 // 0x00000377 System.Boolean OVRPlugin::ShutdownInsightPassthrough()
-extern void OVRPlugin_ShutdownInsightPassthrough_m61429F4C39016C9FF85573CC610CA6DF4429B4AA (void);
+extern void OVRPlugin_ShutdownInsightPassthrough_m8BD5F14E5C47D98E1E78889BEDC2D32DE96C9F96 (void);
 // 0x00000378 System.Boolean OVRPlugin::IsInsightPassthroughInitialized()
-extern void OVRPlugin_IsInsightPassthroughInitialized_m317DDFD4141BB43AAF9E8539ACD02F10C66DCE3B (void);
+extern void OVRPlugin_IsInsightPassthroughInitialized_m1637AFD376CCC2D63B5C34475FD012FD7DF3EB36 (void);
 // 0x00000379 OVRPlugin/Result OVRPlugin::GetInsightPassthroughInitializationState()
-extern void OVRPlugin_GetInsightPassthroughInitializationState_m523490FA5FBCE15CF2D8F4CB4332F4C4663B7910 (void);
+extern void OVRPlugin_GetInsightPassthroughInitializationState_m3E668E023B953E8204B732EBCD358FAC7B7660C4 (void);
 // 0x0000037A System.Boolean OVRPlugin::CreateInsightTriangleMesh(System.Int32,UnityEngine.Vector3[],System.Int32[],System.UInt64&)
-extern void OVRPlugin_CreateInsightTriangleMesh_mBAE6566D2152877AF589C11A9366DAF95889F194 (void);
+extern void OVRPlugin_CreateInsightTriangleMesh_m180C5CE9209FC4295F5F8895FA6281F3F3AF8375 (void);
 // 0x0000037B System.Boolean OVRPlugin::DestroyInsightTriangleMesh(System.UInt64)
-extern void OVRPlugin_DestroyInsightTriangleMesh_m7D9877DDC5A6411040C411A513D73567332365FD (void);
+extern void OVRPlugin_DestroyInsightTriangleMesh_m47FE862A94B72A6A0123B456373C6E96F424CA5A (void);
 // 0x0000037C System.Boolean OVRPlugin::AddInsightPassthroughSurfaceGeometry(System.Int32,System.UInt64,UnityEngine.Matrix4x4,System.UInt64&)
-extern void OVRPlugin_AddInsightPassthroughSurfaceGeometry_m4A407400341C5B12F4200FD32FF462126060882C (void);
+extern void OVRPlugin_AddInsightPassthroughSurfaceGeometry_m30C6149BFD3DE003AE132D31362DB09050F0AE03 (void);
 // 0x0000037D System.Boolean OVRPlugin::DestroyInsightPassthroughGeometryInstance(System.UInt64)
-extern void OVRPlugin_DestroyInsightPassthroughGeometryInstance_m77E9AF44BABACE006C35407202A18C1AA4E22F3E (void);
+extern void OVRPlugin_DestroyInsightPassthroughGeometryInstance_m29F91859DD5501CF2F07CDF05D03A843A017BB3B (void);
 // 0x0000037E System.Boolean OVRPlugin::UpdateInsightPassthroughGeometryTransform(System.UInt64,UnityEngine.Matrix4x4)
-extern void OVRPlugin_UpdateInsightPassthroughGeometryTransform_m06C21F291E8C4E74CAC78E4D6C59DE85B0D270C4 (void);
+extern void OVRPlugin_UpdateInsightPassthroughGeometryTransform_m064F843F9ADC49FB8BB515C08C2D8ADFE411D23E (void);
 // 0x0000037F System.Boolean OVRPlugin::SetInsightPassthroughStyle(System.Int32,OVRPlugin/InsightPassthroughStyle)
-extern void OVRPlugin_SetInsightPassthroughStyle_m45FCB843803657B2D04E8D15A20A353C1D9DF4C9 (void);
+extern void OVRPlugin_SetInsightPassthroughStyle_m2A1432B9083EA50F7A7F1ADD0640E21F5379C43D (void);
 // 0x00000380 System.Boolean OVRPlugin::SetInsightPassthroughKeyboardHandsIntensity(System.Int32,OVRPlugin/InsightPassthroughKeyboardHandsIntensity)
-extern void OVRPlugin_SetInsightPassthroughKeyboardHandsIntensity_mF84BAB12E1ADCBDB776BD4442B300B1164BC4268 (void);
+extern void OVRPlugin_SetInsightPassthroughKeyboardHandsIntensity_mBCD38A3B8B0B71126F1EEE96EAF5A90EA3FA3938 (void);
 // 0x00000381 OVRPlugin/Vector3f OVRPlugin::GetBoundaryDimensions(OVRPlugin/BoundaryType)
-extern void OVRPlugin_GetBoundaryDimensions_mC4FAB7B8260D20A7486EEB7D43E9189D0CC723EF (void);
+extern void OVRPlugin_GetBoundaryDimensions_m1BCF492A6E66D04D2DE9B70FDB0BF006A2874291 (void);
 // 0x00000382 System.Boolean OVRPlugin::GetBoundaryVisible()
-extern void OVRPlugin_GetBoundaryVisible_mB3C13703C2896FCB729E21D8ACD1028C4FE6741C (void);
+extern void OVRPlugin_GetBoundaryVisible_m33803E6B9ABD4C41F49709544AC0B5A61AB103BB (void);
 // 0x00000383 System.Boolean OVRPlugin::SetBoundaryVisible(System.Boolean)
-extern void OVRPlugin_SetBoundaryVisible_m9ACDB647585261A7F61E598FB55B20AE570E2018 (void);
+extern void OVRPlugin_SetBoundaryVisible_m99998E882FCF896C6D5B513B20DFB9386C003008 (void);
 // 0x00000384 OVRPlugin/SystemHeadset OVRPlugin::GetSystemHeadsetType()
-extern void OVRPlugin_GetSystemHeadsetType_mB67CC4842F39C514F6DFEE62B6FD88EA3014E3B0 (void);
+extern void OVRPlugin_GetSystemHeadsetType_m78DFDBECE24A926CF89B9A8D93931C78A3824B01 (void);
 // 0x00000385 OVRPlugin/Controller OVRPlugin::GetActiveController()
-extern void OVRPlugin_GetActiveController_m13DB323F94147FF1E8C0C9775E8CC544067AFEA4 (void);
+extern void OVRPlugin_GetActiveController_mB51206F4C3221D56F5D78602D98A765A57E6A14C (void);
 // 0x00000386 OVRPlugin/Controller OVRPlugin::GetConnectedControllers()
-extern void OVRPlugin_GetConnectedControllers_mEB5107663B1CA24FDAEBAF33B99CF1387396A2DD (void);
+extern void OVRPlugin_GetConnectedControllers_m32CC5DB7DC0C5AD45529BD1A6A9CE6BA80E0E3B5 (void);
 // 0x00000387 OVRPlugin/Bool OVRPlugin::ToBool(System.Boolean)
-extern void OVRPlugin_ToBool_mEBA926D022EA3721603D2B1E777A21F4688BB06C (void);
+extern void OVRPlugin_ToBool_mA03A0E6DE11F1A1726BE77C6A026C7D86B74BCD0 (void);
 // 0x00000388 OVRPlugin/TrackingOrigin OVRPlugin::GetTrackingOriginType()
-extern void OVRPlugin_GetTrackingOriginType_m0C164240FE1F3ED0BA589D8A80D440DD424EB825 (void);
+extern void OVRPlugin_GetTrackingOriginType_m2EDAA913509E615DD626803932B8CE16955F961A (void);
 // 0x00000389 System.Boolean OVRPlugin::SetTrackingOriginType(OVRPlugin/TrackingOrigin)
-extern void OVRPlugin_SetTrackingOriginType_m9A14C7B9DA422CB5851CA2F8E454592CCB6EEB9D (void);
+extern void OVRPlugin_SetTrackingOriginType_mC03CEE60AF8A00DE01E5071C8CCBE8C366ED2105 (void);
 // 0x0000038A OVRPlugin/Posef OVRPlugin::GetTrackingCalibratedOrigin()
-extern void OVRPlugin_GetTrackingCalibratedOrigin_m503F610FE8D2E24D309A3E3DB0AEE16FA9A3D7B9 (void);
+extern void OVRPlugin_GetTrackingCalibratedOrigin_mC6723351933DF6147F564A229DDA9996BAA6C501 (void);
 // 0x0000038B System.Boolean OVRPlugin::SetTrackingCalibratedOrigin()
-extern void OVRPlugin_SetTrackingCalibratedOrigin_m8D55A88EDE2E588F2A1A173C11955D0B13545DA7 (void);
+extern void OVRPlugin_SetTrackingCalibratedOrigin_m6FCE1F2BA611F17F51AD9AB2291D03942B8F55D3 (void);
 // 0x0000038C System.Boolean OVRPlugin::RecenterTrackingOrigin(OVRPlugin/RecenterFlags)
-extern void OVRPlugin_RecenterTrackingOrigin_m19F8588D6252EF9C9C1D0AA9AEDFD286394FB669 (void);
+extern void OVRPlugin_RecenterTrackingOrigin_m3B3530979125EC2E416FE9F3CA8B6ECBCFF64A4B (void);
 // 0x0000038D System.Boolean OVRPlugin::get_fixedFoveatedRenderingSupported()
-extern void OVRPlugin_get_fixedFoveatedRenderingSupported_m26897DFC3AD1954654107234E41CF868CA55A46B (void);
+extern void OVRPlugin_get_fixedFoveatedRenderingSupported_mAA2ED8AD8AEF2EDAE1234213993594EEBDBD491D (void);
 // 0x0000038E OVRPlugin/FixedFoveatedRenderingLevel OVRPlugin::get_fixedFoveatedRenderingLevel()
-extern void OVRPlugin_get_fixedFoveatedRenderingLevel_m413F5D00B78220A2ED6714D95876031F997EA7E3 (void);
+extern void OVRPlugin_get_fixedFoveatedRenderingLevel_mB47E89ECEE55C187A2A6BAD2ED96C6C562E7F3F8 (void);
 // 0x0000038F System.Void OVRPlugin::set_fixedFoveatedRenderingLevel(OVRPlugin/FixedFoveatedRenderingLevel)
-extern void OVRPlugin_set_fixedFoveatedRenderingLevel_mC2A32951044E73BF6C10E8FC1ED21207FFE24555 (void);
+extern void OVRPlugin_set_fixedFoveatedRenderingLevel_m7621A311282BD1D71AB6EB9BE3F2C65D96DFFC5F (void);
 // 0x00000390 System.Boolean OVRPlugin::get_useDynamicFixedFoveatedRendering()
-extern void OVRPlugin_get_useDynamicFixedFoveatedRendering_mE820BB4066BCA37BF15A13630CCA63CE6EB6068A (void);
+extern void OVRPlugin_get_useDynamicFixedFoveatedRendering_m5BC239BD83D054F496B9FD8ED4AF3BA234BCBE06 (void);
 // 0x00000391 System.Void OVRPlugin::set_useDynamicFixedFoveatedRendering(System.Boolean)
-extern void OVRPlugin_set_useDynamicFixedFoveatedRendering_m818A95CDAEE65202271078EF6B0B5981E5532E5E (void);
+extern void OVRPlugin_set_useDynamicFixedFoveatedRendering_m0AA5406E21978CDD460C239831981EF6A21DCC09 (void);
 // 0x00000392 System.Boolean OVRPlugin::get_tiledMultiResSupported()
-extern void OVRPlugin_get_tiledMultiResSupported_mD558CDF86014E3321D9EACB286E342338C33C146 (void);
+extern void OVRPlugin_get_tiledMultiResSupported_m96D9AD06A6D11CA28400DA480D72487566598F21 (void);
 // 0x00000393 OVRPlugin/TiledMultiResLevel OVRPlugin::get_tiledMultiResLevel()
-extern void OVRPlugin_get_tiledMultiResLevel_mD85F65600FEC6D1B7AB96902E150693BCB06E957 (void);
+extern void OVRPlugin_get_tiledMultiResLevel_m2B30DD960F78E38A3AE9E4D71EE0B8ABEBC49E3D (void);
 // 0x00000394 System.Void OVRPlugin::set_tiledMultiResLevel(OVRPlugin/TiledMultiResLevel)
-extern void OVRPlugin_set_tiledMultiResLevel_m7774DC2F2CFF36C8C65E9F83E0957413A9B8BEE3 (void);
+extern void OVRPlugin_set_tiledMultiResLevel_mF23599F1A1CE3E784EDB4D2224805E991FBEA65E (void);
 // 0x00000395 System.Boolean OVRPlugin::get_gpuUtilSupported()
-extern void OVRPlugin_get_gpuUtilSupported_m5A5711ECFC7EFDB3619128355D92DB07C0ADF8E8 (void);
+extern void OVRPlugin_get_gpuUtilSupported_m1D267F4837B77A2294C4697796433D213E316863 (void);
 // 0x00000396 System.Single OVRPlugin::get_gpuUtilLevel()
-extern void OVRPlugin_get_gpuUtilLevel_mC4D335984D0C2A809FEFB380E036EFC9E0F22653 (void);
+extern void OVRPlugin_get_gpuUtilLevel_m12DED52CD5A80E85355D1847ADDFFDD9A2F333F9 (void);
 // 0x00000397 System.Single[] OVRPlugin::get_systemDisplayFrequenciesAvailable()
-extern void OVRPlugin_get_systemDisplayFrequenciesAvailable_m11215058F2FA1DCB9DC3AF176BAC424D567BEF9B (void);
+extern void OVRPlugin_get_systemDisplayFrequenciesAvailable_m0C8838572B37964AD96032AA4F4C021F077AE68D (void);
 // 0x00000398 System.Single OVRPlugin::get_systemDisplayFrequency()
-extern void OVRPlugin_get_systemDisplayFrequency_m61C309CECEF5E67DF369F591E3A4D27C2BAC699F (void);
+extern void OVRPlugin_get_systemDisplayFrequency_mE361150773912E90EB67F7A13520B90C1612D70E (void);
 // 0x00000399 System.Void OVRPlugin::set_systemDisplayFrequency(System.Single)
-extern void OVRPlugin_set_systemDisplayFrequency_m228B8C0548F88E6EB7EBD7A66E42B273F3D155EB (void);
+extern void OVRPlugin_set_systemDisplayFrequency_m1C71496AF03BFA13D61113389F4C8CC065043034 (void);
 // 0x0000039A System.Boolean OVRPlugin::get_eyeFovPremultipliedAlphaModeEnabled()
-extern void OVRPlugin_get_eyeFovPremultipliedAlphaModeEnabled_m7FD0040423B9803B24DE69AD0F12BFDF4D38854E (void);
+extern void OVRPlugin_get_eyeFovPremultipliedAlphaModeEnabled_m284A864237949572788B57BFF7B47392A9AFC93E (void);
 // 0x0000039B System.Void OVRPlugin::set_eyeFovPremultipliedAlphaModeEnabled(System.Boolean)
-extern void OVRPlugin_set_eyeFovPremultipliedAlphaModeEnabled_m782F2A15FB57F941978BC47584526E52A61E73A7 (void);
+extern void OVRPlugin_set_eyeFovPremultipliedAlphaModeEnabled_mB0D53565317E5A7A5922B447F2B71D2A3DDA331C (void);
 // 0x0000039C System.Boolean OVRPlugin::GetNodeFrustum2(OVRPlugin/Node,OVRPlugin/Frustumf2&)
-extern void OVRPlugin_GetNodeFrustum2_m77B6361E661E01F90C23ABB57F51C72BDBA8F10C (void);
+extern void OVRPlugin_GetNodeFrustum2_mACA9E4870E1360284D30B033B6E5488778C6487D (void);
 // 0x0000039D System.Boolean OVRPlugin::get_AsymmetricFovEnabled()
-extern void OVRPlugin_get_AsymmetricFovEnabled_mD7217B714F8EAE945A060214EB70E8E096683B62 (void);
+extern void OVRPlugin_get_AsymmetricFovEnabled_mB5652400E43010E2F075F27AF21835154F9916BB (void);
 // 0x0000039E System.Boolean OVRPlugin::get_EyeTextureArrayEnabled()
-extern void OVRPlugin_get_EyeTextureArrayEnabled_m4534A75F01C0ED039215ADE3786FC91F64774D25 (void);
+extern void OVRPlugin_get_EyeTextureArrayEnabled_m16DFC619BF9FAD94EAAA87EDE6F06D22BBED02A9 (void);
 // 0x0000039F OVRPlugin/Handedness OVRPlugin::GetDominantHand()
-extern void OVRPlugin_GetDominantHand_mE941A1A94C1D536D4BD25A0BC281DCDF1A5084A4 (void);
+extern void OVRPlugin_GetDominantHand_m28AFC594B67C692D753781414C50839D323EAEBC (void);
 // 0x000003A0 System.Boolean OVRPlugin::SendEvent(System.String,System.String,System.String)
-extern void OVRPlugin_SendEvent_mF5A7D57407048DEBC15A3D2301B35AACA6B12166 (void);
+extern void OVRPlugin_SendEvent_m2724870AAEAEC48E83D56DB0019FEB45B917A70D (void);
 // 0x000003A1 System.Boolean OVRPlugin::SetHeadPoseModifier(OVRPlugin/Quatf&,OVRPlugin/Vector3f&)
-extern void OVRPlugin_SetHeadPoseModifier_m5EE5870AAF3EABB655728203FF464C31EC33F3C9 (void);
+extern void OVRPlugin_SetHeadPoseModifier_mBB073CB97E2AC7C4952A36E1AE1F7A825AE9D815 (void);
 // 0x000003A2 System.Boolean OVRPlugin::GetHeadPoseModifier(OVRPlugin/Quatf&,OVRPlugin/Vector3f&)
-extern void OVRPlugin_GetHeadPoseModifier_m1030D45BFD1FC1360DB512CFD1011FB66F492630 (void);
+extern void OVRPlugin_GetHeadPoseModifier_mF5EB4C2BAE8E41E5282E28B72A3163B0411EC46A (void);
 // 0x000003A3 System.Boolean OVRPlugin::IsPerfMetricsSupported(OVRPlugin/PerfMetrics)
-extern void OVRPlugin_IsPerfMetricsSupported_m675B2B2E394C1082D299739403E874BF9022F2C4 (void);
+extern void OVRPlugin_IsPerfMetricsSupported_m7DCE58992D7B5C198BC293FFEEFF1137F8BE728E (void);
 // 0x000003A4 System.Nullable`1<System.Single> OVRPlugin::GetPerfMetricsFloat(OVRPlugin/PerfMetrics)
-extern void OVRPlugin_GetPerfMetricsFloat_mEE525BCD635EA8A48B52B6909E80451F08C43B2F (void);
+extern void OVRPlugin_GetPerfMetricsFloat_m81670F46771F8955B03943A98EE3D97A54A84B93 (void);
 // 0x000003A5 System.Nullable`1<System.Int32> OVRPlugin::GetPerfMetricsInt(OVRPlugin/PerfMetrics)
-extern void OVRPlugin_GetPerfMetricsInt_mB02F0AF0EAC127FE340D469CCC073AF22709F800 (void);
+extern void OVRPlugin_GetPerfMetricsInt_m2041024026E708EEEAC78795E45C2D747F26DC7C (void);
 // 0x000003A6 System.Double OVRPlugin::GetTimeInSeconds()
-extern void OVRPlugin_GetTimeInSeconds_m2A01F9423B790AABD5D361FCAD85A34DACA3B1A0 (void);
+extern void OVRPlugin_GetTimeInSeconds_m14194E403D2D2F9AC59CFADD5289DC58169575BF (void);
 // 0x000003A7 System.Boolean OVRPlugin::SetColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4,System.Boolean)
-extern void OVRPlugin_SetColorScaleAndOffset_mFFFB4A260CA1772B2D87E10E4CE826FA8C7B07F7 (void);
+extern void OVRPlugin_SetColorScaleAndOffset_m23BE07937AE6D262C0264959EDA7050DC48B22F7 (void);
 // 0x000003A8 System.Boolean OVRPlugin::AddCustomMetadata(System.String,System.String)
-extern void OVRPlugin_AddCustomMetadata_m09F005EC8F7C2BD68DD22BFD52577A86D76B9F08 (void);
+extern void OVRPlugin_AddCustomMetadata_mFAD0F24082A936B071E48C1DE647CE0C1BA1ACD5 (void);
 // 0x000003A9 System.Boolean OVRPlugin::SetDeveloperMode(OVRPlugin/Bool)
-extern void OVRPlugin_SetDeveloperMode_m4E00716986A1557AECA330DF103AF856F374BA2D (void);
+extern void OVRPlugin_SetDeveloperMode_m666BA62AB965FE5E7E2857C29F619EE186CC8155 (void);
 // 0x000003AA System.Single OVRPlugin::GetAdaptiveGPUPerformanceScale()
-extern void OVRPlugin_GetAdaptiveGPUPerformanceScale_m71BA6F7BA4C5EC5EB1E6556D151BD6F69E9D6BDF (void);
+extern void OVRPlugin_GetAdaptiveGPUPerformanceScale_m63885FBAE63F786AE483D29DDB512C77DCE208B2 (void);
 // 0x000003AB System.Boolean OVRPlugin::GetHandTrackingEnabled()
-extern void OVRPlugin_GetHandTrackingEnabled_mBA4A09A9DE9E8732762A13B84749565562DCCC69 (void);
+extern void OVRPlugin_GetHandTrackingEnabled_mA027BFA6D39F5D90DA4776E71A778513C13CDB05 (void);
 // 0x000003AC System.Boolean OVRPlugin::GetHandState(OVRPlugin/Step,OVRPlugin/Hand,OVRPlugin/HandState&)
-extern void OVRPlugin_GetHandState_mC5F7ADF817DE4C2608C43564CF9709D94CEAE3A8 (void);
+extern void OVRPlugin_GetHandState_mE2C770D20C35F76C32CF9EB09E1D7EA43A5BEAFA (void);
 // 0x000003AD System.Boolean OVRPlugin::GetSkeleton(OVRPlugin/SkeletonType,OVRPlugin/Skeleton&)
-extern void OVRPlugin_GetSkeleton_m48E5BA197751B2FD13D707397E1C91340712C199 (void);
+extern void OVRPlugin_GetSkeleton_m21D6A984F3C35DF7EF079BC722984F504A856E34 (void);
 // 0x000003AE System.Boolean OVRPlugin::GetSkeleton2(OVRPlugin/SkeletonType,OVRPlugin/Skeleton2&)
-extern void OVRPlugin_GetSkeleton2_m2F524044C8DA1831FACD8C9D374A4ABCA76F3A25 (void);
+extern void OVRPlugin_GetSkeleton2_m0EC957E2CF1FCC3B28C8E64B55B448FC3A34901E (void);
 // 0x000003AF System.Boolean OVRPlugin::GetMesh(OVRPlugin/MeshType,OVRPlugin/Mesh&)
-extern void OVRPlugin_GetMesh_m7E80799ED952AED69A416DE5A18A8B81006FD695 (void);
+extern void OVRPlugin_GetMesh_m41AADDFBD27DBF2B4CFB103CB8C93F00F6BA6E44 (void);
 // 0x000003B0 System.Boolean OVRPlugin::StartKeyboardTracking(System.UInt64)
-extern void OVRPlugin_StartKeyboardTracking_m3D976FEF6405F3102CEC47325A31002AB6FD763E (void);
+extern void OVRPlugin_StartKeyboardTracking_mAA0B649E8AFD8CF13885AA51C7013BBD29BCD05A (void);
 // 0x000003B1 System.Boolean OVRPlugin::StopKeyboardTracking()
-extern void OVRPlugin_StopKeyboardTracking_mCE56ECC1ED477B51C7D753B5867BA72E4FD3E447 (void);
+extern void OVRPlugin_StopKeyboardTracking_m638639C4445BF0333869E59973CA3ABAA2E6888D (void);
 // 0x000003B2 System.Boolean OVRPlugin::GetKeyboardState(OVRPlugin/Step,OVRPlugin/KeyboardState&)
-extern void OVRPlugin_GetKeyboardState_m773E857B63F7E4C0A89004764F84E78869F0D6AC (void);
+extern void OVRPlugin_GetKeyboardState_m35AA30844C3FDDE0C797BD8C5B39E38F3604D362 (void);
 // 0x000003B3 System.Boolean OVRPlugin::GetSystemKeyboardDescription(OVRPlugin/TrackedKeyboardQueryFlags,OVRPlugin/KeyboardDescription&)
-extern void OVRPlugin_GetSystemKeyboardDescription_m49BBAA12C10821F7CE91ABC6D676AE0C037FC2F2 (void);
+extern void OVRPlugin_GetSystemKeyboardDescription_m2DC4A085F3C9D8407D83C7886BF42D1E4526BE69 (void);
 // 0x000003B4 System.Int32 OVRPlugin::GetLocalTrackingSpaceRecenterCount()
-extern void OVRPlugin_GetLocalTrackingSpaceRecenterCount_m6606963F72425BA978FF2BF01AA169DB86B6BBF8 (void);
+extern void OVRPlugin_GetLocalTrackingSpaceRecenterCount_m985226B8EF52AEBC99563EAE477B0C2FB6E12EAA (void);
 // 0x000003B5 System.Boolean OVRPlugin::GetSystemHmd3DofModeEnabled()
-extern void OVRPlugin_GetSystemHmd3DofModeEnabled_m0E8A61BB4C61590121B821BBDF6060DC8F4A6237 (void);
+extern void OVRPlugin_GetSystemHmd3DofModeEnabled_m3B6B1BCAA765379D8480F778822627CE8728763B (void);
 // 0x000003B6 System.Boolean OVRPlugin::SetClientColorDesc(OVRPlugin/ColorSpace)
-extern void OVRPlugin_SetClientColorDesc_mBA96DC274607D46E1B286A0C8A717393DF39E462 (void);
+extern void OVRPlugin_SetClientColorDesc_m7E7BD58DCDF8C2320A4741E1D45F0CECB72CD346 (void);
 // 0x000003B7 OVRPlugin/ColorSpace OVRPlugin::GetHmdColorDesc()
-extern void OVRPlugin_GetHmdColorDesc_mF432FDD21E9F5BCE7A36D3CDEFFC00B4FE347DDF (void);
+extern void OVRPlugin_GetHmdColorDesc_mAE1EC23074A7E9D9E6805686A00F1E82E11AD00B (void);
 // 0x000003B8 System.Boolean OVRPlugin::PollEvent(OVRPlugin/EventDataBuffer&)
-extern void OVRPlugin_PollEvent_mF78BB181FB8DA73876DE555088297DC2F6988652 (void);
+extern void OVRPlugin_PollEvent_mB91F8F706861047BD2CCD1BDC0AB6374642503E0 (void);
 // 0x000003B9 System.UInt64 OVRPlugin::GetNativeOpenXRInstance()
-extern void OVRPlugin_GetNativeOpenXRInstance_mD0F647F89F7864EFFF56787F70D6E5484EDDDFAC (void);
+extern void OVRPlugin_GetNativeOpenXRInstance_mCDB3798FFB361CD670AB9A8E937C2056E9978AD0 (void);
 // 0x000003BA System.UInt64 OVRPlugin::GetNativeOpenXRSession()
-extern void OVRPlugin_GetNativeOpenXRSession_mD69C28546912232D54E6B9C0DF6895FF8BCBF8DA (void);
+extern void OVRPlugin_GetNativeOpenXRSession_m9310783676B3E115D4B3509CBE45D89BD61FC1BD (void);
 // 0x000003BB System.Boolean OVRPlugin::SetKeyboardOverlayUV(OVRPlugin/Vector2f)
-extern void OVRPlugin_SetKeyboardOverlayUV_m78842D05184B5ECF0032EB934E430C6382FD9372 (void);
+extern void OVRPlugin_SetKeyboardOverlayUV_mFB47E828234D37C52F40E0E2BC9A936A869E8909 (void);
 // 0x000003BC System.Boolean OVRPlugin::CreateSpatialAnchor(OVRPlugin/SpatialAnchorCreateInfo,System.UInt64&)
-extern void OVRPlugin_CreateSpatialAnchor_mE5D8C13588BC6A8E9E894E6404A18FDB2DC5DC01 (void);
+extern void OVRPlugin_CreateSpatialAnchor_mF6FFB445CDAAC948FCCD37A0714B2E90CF5B238A (void);
 // 0x000003BD System.Boolean OVRPlugin::SetSpaceComponentStatus(System.UInt64,OVRPlugin/SpaceComponentType,System.Boolean,System.Double,System.UInt64&)
-extern void OVRPlugin_SetSpaceComponentStatus_m9B7FF3E7EE5F0625B88584074D351F12A6D3EFB9 (void);
+extern void OVRPlugin_SetSpaceComponentStatus_mE711659BA25197948D2C6B71962FA6CE54FD08CF (void);
 // 0x000003BE System.Boolean OVRPlugin::GetSpaceComponentStatus(System.UInt64,OVRPlugin/SpaceComponentType,System.Boolean&,System.Boolean&)
-extern void OVRPlugin_GetSpaceComponentStatus_mCD8309E94B595C517B2AB80FA93F83A37D9A1BED (void);
+extern void OVRPlugin_GetSpaceComponentStatus_m696F271B0C19564580C6DAC3AEE92EFC6B24FD56 (void);
 // 0x000003BF System.Boolean OVRPlugin::EnumerateSpaceSupportedComponents(System.UInt64,System.UInt32&,OVRPlugin/SpaceComponentType[])
-extern void OVRPlugin_EnumerateSpaceSupportedComponents_mB476E78B4AC849174B8D01402D11FA4132912177 (void);
+extern void OVRPlugin_EnumerateSpaceSupportedComponents_m149FE99EF9805CEA676799CAFAFD6966C756BE55 (void);
 // 0x000003C0 System.Boolean OVRPlugin::SaveSpace(System.UInt64,OVRPlugin/SpaceStorageLocation,OVRPlugin/SpaceStoragePersistenceMode,System.UInt64&)
-extern void OVRPlugin_SaveSpace_mD93B4E8D18C55E16BC412DA09390A6EE1C897AD1 (void);
+extern void OVRPlugin_SaveSpace_m66BFD129173D88142458672A4593ED1C9B89C861 (void);
 // 0x000003C1 System.Boolean OVRPlugin::EraseSpace(System.UInt64,OVRPlugin/SpaceStorageLocation,System.UInt64&)
-extern void OVRPlugin_EraseSpace_m31E5148A46B6066427B30947351AA7C910864F95 (void);
+extern void OVRPlugin_EraseSpace_m6EA51C5FD8165982A9A8C4404EEEF61C0FCF1D52 (void);
 // 0x000003C2 System.Boolean OVRPlugin::GetSpaceUuid(System.UInt64,System.Guid&)
-extern void OVRPlugin_GetSpaceUuid_mC248E4A785FDF77C29604A86F58BECD771661AC7 (void);
+extern void OVRPlugin_GetSpaceUuid_mBF9496BFE7D3D6EC364AA83E0114487936E6C7FF (void);
 // 0x000003C3 System.Boolean OVRPlugin::QuerySpaces(OVRPlugin/SpaceQueryInfo,System.UInt64&)
-extern void OVRPlugin_QuerySpaces_mC323247509DD8D7AECEFFB0DABF89D37D9280140 (void);
+extern void OVRPlugin_QuerySpaces_m3DF782A5086FFA9842F03A455BB969848CBF2560 (void);
 // 0x000003C4 System.Boolean OVRPlugin::RetrieveSpaceQueryResults(System.UInt64,OVRPlugin/SpaceQueryResult[]&)
-extern void OVRPlugin_RetrieveSpaceQueryResults_mC614B282ED8616F404CB6759BBF40DFA8640139E (void);
+extern void OVRPlugin_RetrieveSpaceQueryResults_mEAA25D672A9EAA5E275CC0EE5B23F52EE8239C78 (void);
 // 0x000003C5 System.Boolean OVRPlugin::TryLocateSpace(System.UInt64,OVRPlugin/TrackingOrigin,OVRPlugin/Posef&)
-extern void OVRPlugin_TryLocateSpace_m0C4E8F2E30ED0F2B183EF3B201A7BDD6C8A7DA25 (void);
+extern void OVRPlugin_TryLocateSpace_m845BF1CAA48C0AFCAA25673E1FAFD5A0D1CA8A41 (void);
 // 0x000003C6 OVRPlugin/Posef OVRPlugin::LocateSpace(System.UInt64,OVRPlugin/TrackingOrigin)
-extern void OVRPlugin_LocateSpace_mA4632A6172C6FB7544343E3E7F997A88DEEE8092 (void);
+extern void OVRPlugin_LocateSpace_mE03EDE3AD734A66342EF22E31147216E2D27F416 (void);
 // 0x000003C7 System.Boolean OVRPlugin::DestroySpace(System.UInt64)
-extern void OVRPlugin_DestroySpace_m953A028260DDDDAF164BE628772D71BE37CD8145 (void);
+extern void OVRPlugin_DestroySpace_mC53A688B7DE2EAC7186F087C8E3395D581928D90 (void);
 // 0x000003C8 System.Boolean OVRPlugin::GetSpaceContainer(System.UInt64,System.Guid[]&)
-extern void OVRPlugin_GetSpaceContainer_m8D47617252B69C775443AA92948D5BAAFAF8332D (void);
+extern void OVRPlugin_GetSpaceContainer_mA00171DEC1E52CC15AB98A20665472FF5EF01235 (void);
 // 0x000003C9 System.Boolean OVRPlugin::GetSpaceBoundingBox2D(System.UInt64,OVRPlugin/Rectf&)
-extern void OVRPlugin_GetSpaceBoundingBox2D_m22D763492DAE1660648150A93102947264B0E08D (void);
+extern void OVRPlugin_GetSpaceBoundingBox2D_mF6CFC14B8B9B4A1921C7EE3CA59C08A279D34543 (void);
 // 0x000003CA System.Boolean OVRPlugin::GetSpaceBoundingBox3D(System.UInt64,OVRPlugin/Boundsf&)
-extern void OVRPlugin_GetSpaceBoundingBox3D_m0DDDB9C6CEBB9A69A30DCC3AEB9D59CCBAB1DBF4 (void);
+extern void OVRPlugin_GetSpaceBoundingBox3D_m7E0DE79DC9ACA978950D18D90A54502AE6293224 (void);
 // 0x000003CB System.Boolean OVRPlugin::GetSpaceSemanticLabels(System.UInt64,System.String&)
-extern void OVRPlugin_GetSpaceSemanticLabels_m63624654CCFBFE7686F907D15097F2633D681D89 (void);
+extern void OVRPlugin_GetSpaceSemanticLabels_m95748D37CAEFD3C3CE74EA0A47864C9215B3E394 (void);
 // 0x000003CC System.Boolean OVRPlugin::GetSpaceRoomLayout(System.UInt64,OVRPlugin/RoomLayout&)
-extern void OVRPlugin_GetSpaceRoomLayout_m528D913FB19EBB2BA961D30879714E1788814048 (void);
+extern void OVRPlugin_GetSpaceRoomLayout_m4FB8F9BB7CCE94674ED3B909C54CA2A629A19052 (void);
 // 0x000003CD System.Boolean OVRPlugin::GetSpaceBoundary2D(System.UInt64,UnityEngine.Vector2[]&)
-extern void OVRPlugin_GetSpaceBoundary2D_mA68CBE683FA07C1013A483A3DED74677A3456C4A (void);
+extern void OVRPlugin_GetSpaceBoundary2D_m50018E87B3D0D57D1F5DF9364FDAC91D8FD6C52C (void);
 // 0x000003CE System.Boolean OVRPlugin::RequestSceneCapture(System.String,System.UInt64&)
-extern void OVRPlugin_RequestSceneCapture_m486B75E9E5134DA2EB4F3BB5117BA713148157DF (void);
+extern void OVRPlugin_RequestSceneCapture_mE8656FE903728534DD79F44A84EA3423AB330535 (void);
 // 0x000003CF System.String[] OVRPlugin::GetRenderModelPaths()
-extern void OVRPlugin_GetRenderModelPaths_m4BD1A315247E70FDA18C8466310FD702E2045A74 (void);
+extern void OVRPlugin_GetRenderModelPaths_m38E661CF50ADD0B3C4D31C64B36ACD8F04D0A6B7 (void);
 // 0x000003D0 System.Boolean OVRPlugin::GetRenderModelProperties(System.String,OVRPlugin/RenderModelProperties&)
-extern void OVRPlugin_GetRenderModelProperties_mDDE339D931FFADC7B7E431AA15D1191985109D2F (void);
+extern void OVRPlugin_GetRenderModelProperties_m2127B2E834AAB019EAA607A12F06B7F51875D7C1 (void);
 // 0x000003D1 System.Byte[] OVRPlugin::LoadRenderModel(System.UInt64)
-extern void OVRPlugin_LoadRenderModel_m5716C22337A101851362772045D53C5E2EFEF697 (void);
+extern void OVRPlugin_LoadRenderModel_m93104E60058F91148AF4E797E59B72CBA5ECA0ED (void);
 // 0x000003D2 System.Void OVRPlugin::.cctor()
-extern void OVRPlugin__cctor_m24DAE4937A52187FFE7F845DF4B0B6B4887D9664 (void);
+extern void OVRPlugin__cctor_m077322BF80F9EC92EF39237D5279ED27FFB57075 (void);
 // 0x000003D3 System.Void OVRPlugin/GUID::.ctor()
 extern void GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592 (void);
 // 0x000003D4 System.Void OVRPlugin/LogCallback2DelegateType::.ctor(System.Object,System.IntPtr)
@@ -1970,29 +1970,29 @@ extern void LogCallback2DelegateType_EndInvoke_mC7B48D5B4FC38B3458BAAAEC61C845C9
 // 0x000003D8 System.String OVRPlugin/Vector3f::ToString()
 extern void Vector3f_ToString_mFC0B69F218C99D76D365CC7F17BC71F2846AD488 (void);
 // 0x000003D9 System.Void OVRPlugin/Vector3f::.cctor()
-extern void Vector3f__cctor_m2C84D143D01482D67175BDE298641EFAC13AF0A2 (void);
+extern void Vector3f__cctor_m4DFFCF86739F044BB63BC32DCBC87DD9CFA1501A (void);
 // 0x000003DA System.String OVRPlugin/Vector4f::ToString()
 extern void Vector4f_ToString_mDDD15308CE22943F6B53977C5F241C814904A962 (void);
 // 0x000003DB System.Void OVRPlugin/Vector4f::.cctor()
-extern void Vector4f__cctor_m7119EEB70905B79BD00A22B7CFB136A0B9D4EDCF (void);
+extern void Vector4f__cctor_mA79A44FEB71B5B38EE5073D4E376B83019B457E8 (void);
 // 0x000003DC System.String OVRPlugin/Vector4s::ToString()
 extern void Vector4s_ToString_mBC64A905C5FA27C52FFED666519F28F4BA1DBD3D (void);
 // 0x000003DD System.Void OVRPlugin/Vector4s::.cctor()
-extern void Vector4s__cctor_m8E1820632CBB7DD9DBD3C0CA6663990AAB256A3B (void);
+extern void Vector4s__cctor_mA5A9A72497399B3B3324543EB26A9200B98E4E90 (void);
 // 0x000003DE System.String OVRPlugin/Quatf::ToString()
 extern void Quatf_ToString_m7D21BA328034872FA4320AE85900AC88CB416638 (void);
 // 0x000003DF System.Void OVRPlugin/Quatf::.cctor()
-extern void Quatf__cctor_m62ED126FD161503A6543E5675AB4A8803FD76A1E (void);
+extern void Quatf__cctor_m1CA2189B544CC953433DAE63AACC88E45FBAB03B (void);
 // 0x000003E0 System.String OVRPlugin/Posef::ToString()
 extern void Posef_ToString_m61C690AF99338707AAA5B2EE13C1D26A559F7CB1 (void);
 // 0x000003E1 System.Void OVRPlugin/Posef::.cctor()
-extern void Posef__cctor_mDAE2D96C973D46F88AD4B68D300AF843A57BF639 (void);
+extern void Posef__cctor_m88721D5D0BA7DC18744696BC697037A4E1184925 (void);
 // 0x000003E2 System.String OVRPlugin/TextureRectMatrixf::ToString()
 extern void TextureRectMatrixf_ToString_m3C6721D4B05BF1C6E105355CEA9137F8B73D6005 (void);
 // 0x000003E3 System.Void OVRPlugin/TextureRectMatrixf::.cctor()
-extern void TextureRectMatrixf__cctor_m2D3640D59FC0A5A03BCE29F91C5D53D0174A4010 (void);
+extern void TextureRectMatrixf__cctor_mDD5A9E8E69038A5345A184576AAFD38B06A61088 (void);
 // 0x000003E4 System.Void OVRPlugin/PoseStatef::.cctor()
-extern void PoseStatef__cctor_mF4B0877AAB8F920CDB334D770C8DB1EE9735A2ED (void);
+extern void PoseStatef__cctor_m24EC355618059C552B667D464EF347903A3C10E4 (void);
 // 0x000003E5 System.Void OVRPlugin/ControllerState4::.ctor(OVRPlugin/ControllerState2)
 extern void ControllerState4__ctor_mA5FE4C52D5ED20979D9BF951EEF3BC8D469FF0BA (void);
 // 0x000003E6 System.Void OVRPlugin/ControllerState2::.ctor(OVRPlugin/ControllerState)
@@ -2004,11 +2004,11 @@ extern void Sizei_Equals_m6241643139D00163890C05BEF76C41F6F655A9C2 (void);
 // 0x000003E9 System.Int32 OVRPlugin/Sizei::GetHashCode()
 extern void Sizei_GetHashCode_m1364F281E4DC0D220EDE950F66CE9CDE19C52F5E (void);
 // 0x000003EA System.Void OVRPlugin/Sizei::.cctor()
-extern void Sizei__cctor_m1AE04D5FA317270A5D5970E6701FC938A4A9722F (void);
+extern void Sizei__cctor_m41C01D0D0FB2A1FD6B7A6BB14F3475398ACE6302 (void);
 // 0x000003EB System.Void OVRPlugin/Sizef::.cctor()
-extern void Sizef__cctor_mCAA6207AA55880ED45DC313117CDEA413E680F41 (void);
+extern void Sizef__cctor_m045E27506C92AB7F5BE6A59465B2B2690F866B51 (void);
 // 0x000003EC System.Void OVRPlugin/Size3f::.cctor()
-extern void Size3f__cctor_m9840C840C3E0106FD351DB08E3AACC9A0F5BA67B (void);
+extern void Size3f__cctor_m49071A4A799CD6A8C0C678C2DBF8D53A9C68CF3D (void);
 // 0x000003ED System.String OVRPlugin/Colorf::ToString()
 extern void Colorf_ToString_m904A670184A81A824256F46D8DD2BEA8910896E0 (void);
 // 0x000003EE System.String OVRPlugin/LayerDesc::ToString()
@@ -2020,814 +2020,814 @@ extern void LayerDescInternal_ToLayerDesc_m2ABE4794C769070C0105053F0ACC46412370A
 // 0x000003F1 System.Void OVRPlugin/Mesh::.ctor()
 extern void Mesh__ctor_m5903E10D78432C705B54608D792B5763AFEB30AA (void);
 // 0x000003F2 System.Boolean OVRPlugin/Media::Initialize()
-extern void Media_Initialize_m5FC8BA4A9C7AEB220568D6BCA14DCE0BA942A0E0 (void);
+extern void Media_Initialize_m940C4B3CAFAC0A7B12B461AE9C0F57F65A534772 (void);
 // 0x000003F3 System.Boolean OVRPlugin/Media::Shutdown()
-extern void Media_Shutdown_m9313BCAD7B4B175DDE2515BE6B861CAE71D069A7 (void);
+extern void Media_Shutdown_m8ABD858739EAE7E2D18F4CC94898D86DCB222DB9 (void);
 // 0x000003F4 System.Boolean OVRPlugin/Media::GetInitialized()
-extern void Media_GetInitialized_mB52E3CB7DA201B000C525A4CA9DFA184985F7A47 (void);
+extern void Media_GetInitialized_m0786F11D130FC9598B90C01A542F76A002F4D048 (void);
 // 0x000003F5 System.Boolean OVRPlugin/Media::Update()
-extern void Media_Update_m1A36A8A3C288EA699E233940F59BA42CAFEB5876 (void);
+extern void Media_Update_m2059A835F3BE32366432FED120C16EAB71614D8B (void);
 // 0x000003F6 OVRPlugin/Media/MrcActivationMode OVRPlugin/Media::GetMrcActivationMode()
-extern void Media_GetMrcActivationMode_mE6B7F1A967B25D1ED463C059882F4C22D1EF5CB4 (void);
+extern void Media_GetMrcActivationMode_mBEC7A08B2A65E76BEEE473C62D4EF408B0C1F4DA (void);
 // 0x000003F7 System.Boolean OVRPlugin/Media::SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode)
-extern void Media_SetMrcActivationMode_m334632E3B8D35E5560CB9F63C88C7358AF8D914C (void);
+extern void Media_SetMrcActivationMode_mE35E5A9E3D238093D464B58DD3CC40BCE5E021B7 (void);
 // 0x000003F8 System.Boolean OVRPlugin/Media::SetPlatformInitialized()
-extern void Media_SetPlatformInitialized_m74520E65863EC75EBF78B1B18FE5D89E775F8488 (void);
+extern void Media_SetPlatformInitialized_m9B65CDA79FC0BBC680529D915036DE634F1B11FA (void);
 // 0x000003F9 OVRPlugin/Media/PlatformCameraMode OVRPlugin/Media::GetPlatformCameraMode()
-extern void Media_GetPlatformCameraMode_m6115C3308C72DCADE26012587F53F4727763EC04 (void);
+extern void Media_GetPlatformCameraMode_m96BBB2F30D32E2CC093A2734C928EC9FE988336C (void);
 // 0x000003FA System.Boolean OVRPlugin/Media::SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode)
-extern void Media_SetPlatformCameraMode_m9080408C7BF91D7E1EC5B7DDA4150AA306264BDE (void);
+extern void Media_SetPlatformCameraMode_m9EB2DA075AF8C58E468D6B0A80F54649E248BBED (void);
 // 0x000003FB System.Boolean OVRPlugin/Media::IsMrcEnabled()
-extern void Media_IsMrcEnabled_mECDA7FC0FA2B28FEBC6455117C44D92841280B4F (void);
+extern void Media_IsMrcEnabled_m80792FE50576181B7D52751D2A92B7CFC5DE05E6 (void);
 // 0x000003FC System.Boolean OVRPlugin/Media::IsMrcActivated()
-extern void Media_IsMrcActivated_m096390CD11CCECBF2BA79300152FD341E3D8DE98 (void);
+extern void Media_IsMrcActivated_m789D03726393864E19EE0516C7EA3773CA122844 (void);
 // 0x000003FD System.Boolean OVRPlugin/Media::UseMrcDebugCamera()
-extern void Media_UseMrcDebugCamera_m2D8E182AB0D199024B1909177D091489B00C14F5 (void);
+extern void Media_UseMrcDebugCamera_m9EC535D2E51E13AA632663A62F3BC98FA2DE7AE4 (void);
 // 0x000003FE System.Boolean OVRPlugin/Media::SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType)
-extern void Media_SetMrcInputVideoBufferType_mD767916807E93B4F3BE5F65DD53205752094E34C (void);
+extern void Media_SetMrcInputVideoBufferType_mDE256F23EB488EFC24FB4E87EB5FA2220848F4E6 (void);
 // 0x000003FF OVRPlugin/Media/InputVideoBufferType OVRPlugin/Media::GetMrcInputVideoBufferType()
-extern void Media_GetMrcInputVideoBufferType_mFDE57C010EBDEC4929A4DEEA99DF06FDE3D7A265 (void);
+extern void Media_GetMrcInputVideoBufferType_m84171F6829839074E24610A3F0BC5AD9002DA353 (void);
 // 0x00000400 System.Boolean OVRPlugin/Media::SetMrcFrameSize(System.Int32,System.Int32)
-extern void Media_SetMrcFrameSize_m9B0A377992A23311FBC10568BC1A89D6D8267999 (void);
+extern void Media_SetMrcFrameSize_mA845695F6965493C52B4874D7AEC27F0139E909B (void);
 // 0x00000401 System.Void OVRPlugin/Media::GetMrcFrameSize(System.Int32&,System.Int32&)
-extern void Media_GetMrcFrameSize_mAC606316224CFEFED058F820D15639DEEC95E6E0 (void);
+extern void Media_GetMrcFrameSize_m7762AC9F68059EE27CD7DB17E430347F008EEC2F (void);
 // 0x00000402 System.Boolean OVRPlugin/Media::SetMrcAudioSampleRate(System.Int32)
-extern void Media_SetMrcAudioSampleRate_m983555D0AC9B30991450E3392AC8F6AD29705432 (void);
+extern void Media_SetMrcAudioSampleRate_m9534D4DC9CDE248D5D7A5D9A8DAB2580B4D88E44 (void);
 // 0x00000403 System.Int32 OVRPlugin/Media::GetMrcAudioSampleRate()
-extern void Media_GetMrcAudioSampleRate_mF60BD70CC8C8F09DAB115DC2883DA6523AB9422B (void);
+extern void Media_GetMrcAudioSampleRate_m1CF647A72BE65C5FC6D87F03008723E4BB7EEE8D (void);
 // 0x00000404 System.Boolean OVRPlugin/Media::SetMrcFrameImageFlipped(System.Boolean)
-extern void Media_SetMrcFrameImageFlipped_m4F6618A377D38DA67E36453231758EB81F184962 (void);
+extern void Media_SetMrcFrameImageFlipped_m7017BA5F4AE6A40CFF4D29076F4638E4CEFDA0CE (void);
 // 0x00000405 System.Boolean OVRPlugin/Media::GetMrcFrameImageFlipped()
-extern void Media_GetMrcFrameImageFlipped_mE73E73785DBB1735472E06BF9FEC65E4036779C4 (void);
+extern void Media_GetMrcFrameImageFlipped_m871D3CE89CA5D8D6AF588F0871A793FFA1423D7B (void);
 // 0x00000406 System.Boolean OVRPlugin/Media::EncodeMrcFrame(System.IntPtr,System.IntPtr,System.Single[],System.Int32,System.Int32,System.Double,System.Double,System.Int32&)
-extern void Media_EncodeMrcFrame_m484516B6ABF31C9406DAB77B63601C9E887B3177 (void);
+extern void Media_EncodeMrcFrame_mF9A39DCFCF88A807172CE8E1019ED4C50AF51D4F (void);
 // 0x00000407 System.Boolean OVRPlugin/Media::EncodeMrcFrame(UnityEngine.RenderTexture,System.Single[],System.Int32,System.Int32,System.Double,System.Double,System.Int32&)
-extern void Media_EncodeMrcFrame_m07020CB6FE62FA7E41910E5C47FEBE4DD0274904 (void);
+extern void Media_EncodeMrcFrame_m494B203C4816A6DC6CB1C991F5ECB304F697332E (void);
 // 0x00000408 System.Boolean OVRPlugin/Media::SyncMrcFrame(System.Int32)
-extern void Media_SyncMrcFrame_m840170729D8B329828B1BF63154F7D8B3EBE17F8 (void);
+extern void Media_SyncMrcFrame_m7FB69917156264534E8BA246F62022A7E0DB86CE (void);
 // 0x00000409 System.Boolean OVRPlugin/Media::SetAvailableQueueIndexVulkan(System.UInt32)
-extern void Media_SetAvailableQueueIndexVulkan_m67E0B23D53310772734A5346FC1FCBC6BB3C46CE (void);
+extern void Media_SetAvailableQueueIndexVulkan_m7B8F350B4D3DD38BC5CA47D1E49690EB53509A22 (void);
 // 0x0000040A System.Boolean OVRPlugin/Media::SetMrcHeadsetControllerPose(OVRPlugin/Posef,OVRPlugin/Posef,OVRPlugin/Posef)
-extern void Media_SetMrcHeadsetControllerPose_m92271CDDE1EBE6D6E5D4F58E19FD493F2A89FE28 (void);
+extern void Media_SetMrcHeadsetControllerPose_m3588F22C3C883F5BD0E20FF54F32008E057C5F72 (void);
 // 0x0000040B System.Boolean OVRPlugin/Media::IsCastingToRemoteClient()
-extern void Media_IsCastingToRemoteClient_mFD59C7E93EB9E396DDBF9F9FE6E644D4B41D1A25 (void);
+extern void Media_IsCastingToRemoteClient_m088AAC67D35A01ABB6FA56C4BA814584CFDDBEBC (void);
 // 0x0000040C System.Void OVRPlugin/Media::.ctor()
 extern void Media__ctor_m446A6464BF97ADCA836A1BC676588F13C311DF21 (void);
 // 0x0000040D System.Void OVRPlugin/PinnedArray`1::.ctor(T[])
 // 0x0000040E System.Void OVRPlugin/PinnedArray`1::Dispose()
 // 0x0000040F System.IntPtr OVRPlugin/PinnedArray`1::op_Implicit(OVRPlugin/PinnedArray`1<T>)
 // 0x00000410 System.IntPtr OVRPlugin/Ktx::LoadKtxFromMemory(System.IntPtr,System.UInt32)
-extern void Ktx_LoadKtxFromMemory_m110288433DACDD3D48006DD0FE05756B2931C36D (void);
+extern void Ktx_LoadKtxFromMemory_mD2759F02E4770B460F61326A173531D0CA95AEE5 (void);
 // 0x00000411 System.UInt32 OVRPlugin/Ktx::GetKtxTextureWidth(System.IntPtr)
-extern void Ktx_GetKtxTextureWidth_m7BF89EA2EF9B46F9EE422DA982FF7D427AA2FEE7 (void);
+extern void Ktx_GetKtxTextureWidth_m67DD7AE87930DB3BDF234E66BB7769BAF7F601F3 (void);
 // 0x00000412 System.UInt32 OVRPlugin/Ktx::GetKtxTextureHeight(System.IntPtr)
-extern void Ktx_GetKtxTextureHeight_m5475EEE8DE4FA27CE323DC7AE7C05DF7D635804E (void);
+extern void Ktx_GetKtxTextureHeight_mBC788B33843F0C9BEFA7028D5AEEE274A23BDA89 (void);
 // 0x00000413 System.Boolean OVRPlugin/Ktx::TranscodeKtxTexture(System.IntPtr,System.UInt32)
-extern void Ktx_TranscodeKtxTexture_m64E68AED06590352E1D475923176445C58245A68 (void);
+extern void Ktx_TranscodeKtxTexture_mFAAB5B6D9BE3FA318722FBA974E8398AD6AF95B1 (void);
 // 0x00000414 System.UInt32 OVRPlugin/Ktx::GetKtxTextureSize(System.IntPtr)
-extern void Ktx_GetKtxTextureSize_m9EF8BA3CD94E4FE432515F5BF1BE4E1270F9B708 (void);
+extern void Ktx_GetKtxTextureSize_mA4515CCDDE6EB440616387342085739CF80C7AF9 (void);
 // 0x00000415 System.Boolean OVRPlugin/Ktx::GetKtxTextureData(System.IntPtr,System.IntPtr,System.UInt32)
-extern void Ktx_GetKtxTextureData_m99E3382C7423AF7979BFA3EB2EB70D2B0B956E72 (void);
+extern void Ktx_GetKtxTextureData_m3057F7B0487BD7B5A1C38915EF342BA6FC17E75D (void);
 // 0x00000416 System.Boolean OVRPlugin/Ktx::DestroyKtxTexture(System.IntPtr)
-extern void Ktx_DestroyKtxTexture_mCFA8B533B55A536481C8C6A7D7BFBC2FFB7D2A33 (void);
+extern void Ktx_DestroyKtxTexture_mD7EC5644F5EF3C12498F62EE3B150B34A7FC3A3A (void);
 // 0x00000417 System.Void OVRPlugin/Ktx::.ctor()
 extern void Ktx__ctor_mECB242F43229DCD818FD52FFDDD18520B51CFB90 (void);
 // 0x00000418 System.Void OVRPlugin/UnityOpenXR::SetClientVersion()
-extern void UnityOpenXR_SetClientVersion_mAC4CA5215DAA6E3CB5FBF5E0EB2206188C342105 (void);
+extern void UnityOpenXR_SetClientVersion_m4090E8C9C4B6DCE29E0B4947BCEB6F943C1E14A5 (void);
 // 0x00000419 System.IntPtr OVRPlugin/UnityOpenXR::HookGetInstanceProcAddr(System.IntPtr)
-extern void UnityOpenXR_HookGetInstanceProcAddr_m6B4344343B4462DF23D0C0791E6E3F3FEF5979C7 (void);
+extern void UnityOpenXR_HookGetInstanceProcAddr_m47D995F8D369E3C5128B927468F0ABD95352EFD4 (void);
 // 0x0000041A System.Boolean OVRPlugin/UnityOpenXR::OnInstanceCreate(System.UInt64)
-extern void UnityOpenXR_OnInstanceCreate_mEED637D12C602398B59281B43D7C31A1B0132600 (void);
+extern void UnityOpenXR_OnInstanceCreate_mD8C51F81DF5B66595890F4D53FD5C11B066E3AF5 (void);
 // 0x0000041B System.Void OVRPlugin/UnityOpenXR::OnInstanceDestroy(System.UInt64)
-extern void UnityOpenXR_OnInstanceDestroy_m942ACA5B34C69F715A62E2F3027C03F372FCC39D (void);
+extern void UnityOpenXR_OnInstanceDestroy_m434D377978F23755AEA67D5A447614023E0802CF (void);
 // 0x0000041C System.Void OVRPlugin/UnityOpenXR::OnSessionCreate(System.UInt64)
-extern void UnityOpenXR_OnSessionCreate_m4C0510ADCF325E4159E8D937098BAF26CA3BB60F (void);
+extern void UnityOpenXR_OnSessionCreate_m1AC2B5B77ACF1FD2BDB44AD92902B86724284D1F (void);
 // 0x0000041D System.Void OVRPlugin/UnityOpenXR::OnAppSpaceChange(System.UInt64)
-extern void UnityOpenXR_OnAppSpaceChange_m14566DF3E7E50C78965328A439A324DFC4EEF827 (void);
+extern void UnityOpenXR_OnAppSpaceChange_m75150D53FE36E1F1063AB0C95AB5418BF155AD06 (void);
 // 0x0000041E System.Void OVRPlugin/UnityOpenXR::OnSessionStateChange(System.Int32,System.Int32)
-extern void UnityOpenXR_OnSessionStateChange_mDC71289839D1CEE0FFA5C5269195CD26781B43DA (void);
+extern void UnityOpenXR_OnSessionStateChange_m0C99770FA4B4B984958C15BB609D093A8C9B0F46 (void);
 // 0x0000041F System.Void OVRPlugin/UnityOpenXR::OnSessionBegin(System.UInt64)
-extern void UnityOpenXR_OnSessionBegin_m84DCA4CB9CF8301AB052D9BE819D91E5B9791BA6 (void);
+extern void UnityOpenXR_OnSessionBegin_m0422580F20229CC217DB02155FC2DC0D867F74CE (void);
 // 0x00000420 System.Void OVRPlugin/UnityOpenXR::OnSessionEnd(System.UInt64)
-extern void UnityOpenXR_OnSessionEnd_m7C5450C855EAFED41A649D10ADEEE8D7F21CF293 (void);
+extern void UnityOpenXR_OnSessionEnd_mEC2BB76CD260EC200996264B816F8715C04EA755 (void);
 // 0x00000421 System.Void OVRPlugin/UnityOpenXR::OnSessionExiting(System.UInt64)
-extern void UnityOpenXR_OnSessionExiting_mDAC32ACFEF5EEC6DA13305C30499946D17C58C7A (void);
+extern void UnityOpenXR_OnSessionExiting_m5A219E00988AF17792094B9D1E4B31F8FBC50DB1 (void);
 // 0x00000422 System.Void OVRPlugin/UnityOpenXR::OnSessionDestroy(System.UInt64)
-extern void UnityOpenXR_OnSessionDestroy_m80E7324D4580FD144A9E78F655064741D45D6755 (void);
+extern void UnityOpenXR_OnSessionDestroy_mE22528F3A18F2409377CD0862CC005D7F07442BD (void);
 // 0x00000423 System.Void OVRPlugin/UnityOpenXR::.ctor()
 extern void UnityOpenXR__ctor_mE8295713E334C615D85C302675A888CA9FD124E0 (void);
 // 0x00000424 OVRPlugin/Sizei OVRPlugin/OVRP_0_1_0::ovrp_GetEyeTextureSize(OVRPlugin/Eye)
-extern void OVRP_0_1_0_ovrp_GetEyeTextureSize_m836E67E227FEE748B633D2FA1E58FE0CB57A4991 (void);
+extern void OVRP_0_1_0_ovrp_GetEyeTextureSize_m9E588DCFE015DCC9F5833DCFE786D74FD792670E (void);
 // 0x00000425 System.Void OVRPlugin/OVRP_0_1_0::.cctor()
-extern void OVRP_0_1_0__cctor_m04717F504465919ACB397D9D119E6ACAAFD133B9 (void);
+extern void OVRP_0_1_0__cctor_m1207FC2480A461794E7A38000393885BDCA83CEA (void);
 // 0x00000426 OVRPlugin/Bool OVRPlugin/OVRP_0_1_1::ovrp_SetOverlayQuad2(OVRPlugin/Bool,OVRPlugin/Bool,System.IntPtr,System.IntPtr,OVRPlugin/Posef,OVRPlugin/Vector3f)
-extern void OVRP_0_1_1_ovrp_SetOverlayQuad2_m15432362ED5B1D839C1CD288626431A36778B0A8 (void);
+extern void OVRP_0_1_1_ovrp_SetOverlayQuad2_m4C4B963D5FE9EC8A0D39144ED9B2A9F2A1EEBC7E (void);
 // 0x00000427 System.Void OVRPlugin/OVRP_0_1_1::.cctor()
-extern void OVRP_0_1_1__cctor_m9F9B351856AB349EE1E0D27D94A5339880D26DF0 (void);
+extern void OVRP_0_1_1__cctor_m0649217F7952A90A28C5C4D5645665F3608BC8E9 (void);
 // 0x00000428 OVRPlugin/Posef OVRPlugin/OVRP_0_1_2::ovrp_GetNodePose(OVRPlugin/Node)
-extern void OVRP_0_1_2_ovrp_GetNodePose_mBBD0DAD76E2E4D24D74A99FC86F50FBF1FD76AAF (void);
+extern void OVRP_0_1_2_ovrp_GetNodePose_m9EF6663B74E7B01F28E13ACB255BB9594E9D5E25 (void);
 // 0x00000429 OVRPlugin/Bool OVRPlugin/OVRP_0_1_2::ovrp_SetControllerVibration(System.UInt32,System.Single,System.Single)
-extern void OVRP_0_1_2_ovrp_SetControllerVibration_m04CDF1EB14F384D6EA87759D257E526F64127910 (void);
+extern void OVRP_0_1_2_ovrp_SetControllerVibration_m898DCAADB12D5467AF20DDAC710CD29EE893C578 (void);
 // 0x0000042A System.Void OVRPlugin/OVRP_0_1_2::.cctor()
-extern void OVRP_0_1_2__cctor_mD40429A6703FAABB319D5D4A97861DC94FFC7E45 (void);
+extern void OVRP_0_1_2__cctor_mF07D5611C6950D6469B659017180AA9FB992420C (void);
 // 0x0000042B OVRPlugin/Posef OVRPlugin/OVRP_0_1_3::ovrp_GetNodeVelocity(OVRPlugin/Node)
-extern void OVRP_0_1_3_ovrp_GetNodeVelocity_m7CAD7D105B478EC6C8F31E0337DEE427F7C1C845 (void);
+extern void OVRP_0_1_3_ovrp_GetNodeVelocity_m34ACA4CF2DC37FCF3DA7A1D21E46EAD60D7B7A02 (void);
 // 0x0000042C OVRPlugin/Posef OVRPlugin/OVRP_0_1_3::ovrp_GetNodeAcceleration(OVRPlugin/Node)
-extern void OVRP_0_1_3_ovrp_GetNodeAcceleration_mDC3786E9D10870CE8BBE30E8BAF91558BC2E0D51 (void);
+extern void OVRP_0_1_3_ovrp_GetNodeAcceleration_mF114E0838EBB93312EECEC234DA111F8A450B615 (void);
 // 0x0000042D System.Void OVRPlugin/OVRP_0_1_3::.cctor()
-extern void OVRP_0_1_3__cctor_m447FB695C9AB924B187805A556140F8E7D051451 (void);
+extern void OVRP_0_1_3__cctor_m91F2DA0F6CDEB37F0743039EB1FA0804C15C46FC (void);
 // 0x0000042E System.Void OVRPlugin/OVRP_0_5_0::.cctor()
-extern void OVRP_0_5_0__cctor_m0F2E32A4F02B87EAE0DC303686A4071252DB0662 (void);
+extern void OVRP_0_5_0__cctor_m924613E9314878C56833189241812BDC836304D5 (void);
 // 0x0000042F OVRPlugin/TrackingOrigin OVRPlugin/OVRP_1_0_0::ovrp_GetTrackingOriginType()
-extern void OVRP_1_0_0_ovrp_GetTrackingOriginType_mF9DADBFBB33A278E2F7254D5317415101AE3B313 (void);
+extern void OVRP_1_0_0_ovrp_GetTrackingOriginType_mB46F4FF93094A8FB11A72DC96959FC56A0DA1C65 (void);
 // 0x00000430 OVRPlugin/Bool OVRPlugin/OVRP_1_0_0::ovrp_SetTrackingOriginType(OVRPlugin/TrackingOrigin)
-extern void OVRP_1_0_0_ovrp_SetTrackingOriginType_m234718AC148CDAB639DCDB66F8100CFB20BFA868 (void);
+extern void OVRP_1_0_0_ovrp_SetTrackingOriginType_m52A18E87D06983536D0F95C488908743E7FC493A (void);
 // 0x00000431 OVRPlugin/Posef OVRPlugin/OVRP_1_0_0::ovrp_GetTrackingCalibratedOrigin()
-extern void OVRP_1_0_0_ovrp_GetTrackingCalibratedOrigin_m8BA1D5B9DE2C845B5C3335FBB50F3F3E23520035 (void);
+extern void OVRP_1_0_0_ovrp_GetTrackingCalibratedOrigin_m5F6C2FC17F115CAD4A25994407F638A5DBA03A4D (void);
 // 0x00000432 OVRPlugin/Bool OVRPlugin/OVRP_1_0_0::ovrp_RecenterTrackingOrigin(System.UInt32)
-extern void OVRP_1_0_0_ovrp_RecenterTrackingOrigin_m3878469DDBF5381F678E015089FB97AAB9CAE798 (void);
+extern void OVRP_1_0_0_ovrp_RecenterTrackingOrigin_m28535B0DB9D76CC5D321CE1C961C6B519279886B (void);
 // 0x00000433 System.Void OVRPlugin/OVRP_1_0_0::.cctor()
-extern void OVRP_1_0_0__cctor_mAFC72953B19B09BC0951D7134C4B8EC56B8EBA08 (void);
+extern void OVRP_1_0_0__cctor_m5B4F4C52C125FC55636FE6108C779E0B8A95CC7F (void);
 // 0x00000434 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetInitialized()
-extern void OVRP_1_1_0_ovrp_GetInitialized_mC1DE6CBB809DAAF3B0EC5908C74B71EBC40A9C03 (void);
+extern void OVRP_1_1_0_ovrp_GetInitialized_mEA98F3D27637DBA74F3A38D43DDFCF2F94496A63 (void);
 // 0x00000435 System.IntPtr OVRPlugin/OVRP_1_1_0::_ovrp_GetVersion()
-extern void OVRP_1_1_0__ovrp_GetVersion_m0CC747D6FFCF408733758114E4424C5034373805 (void);
+extern void OVRP_1_1_0__ovrp_GetVersion_m451BED4B06927E92DBE33A6653AA74EFBF563952 (void);
 // 0x00000436 System.String OVRPlugin/OVRP_1_1_0::ovrp_GetVersion()
-extern void OVRP_1_1_0_ovrp_GetVersion_mB6D7E142F01B380A5BA51D52EC883D1BA298EEB5 (void);
+extern void OVRP_1_1_0_ovrp_GetVersion_mBAACF9E7F7D87C503690D8D83BD5AA86DFD1D3DF (void);
 // 0x00000437 System.IntPtr OVRPlugin/OVRP_1_1_0::_ovrp_GetNativeSDKVersion()
-extern void OVRP_1_1_0__ovrp_GetNativeSDKVersion_mA37DD044D34BB37A3D1BA924786AA96B055BC0E4 (void);
+extern void OVRP_1_1_0__ovrp_GetNativeSDKVersion_mE3D670BE8931F886E5F80F3E913DE87BFDB08CF4 (void);
 // 0x00000438 System.String OVRPlugin/OVRP_1_1_0::ovrp_GetNativeSDKVersion()
-extern void OVRP_1_1_0_ovrp_GetNativeSDKVersion_m4F1CFFAD8D7F4F101322E7007B522B888B6E6F85 (void);
+extern void OVRP_1_1_0_ovrp_GetNativeSDKVersion_mAC76B2E3EF5065FB7C0BFCCB0272DDF84925F7D7 (void);
 // 0x00000439 System.IntPtr OVRPlugin/OVRP_1_1_0::ovrp_GetAudioOutId()
-extern void OVRP_1_1_0_ovrp_GetAudioOutId_m2995EFC77BE80874F8C61BDCC25AB38301D85496 (void);
+extern void OVRP_1_1_0_ovrp_GetAudioOutId_m959348833B92B360079E67E0F58591DBE194E07F (void);
 // 0x0000043A System.IntPtr OVRPlugin/OVRP_1_1_0::ovrp_GetAudioInId()
-extern void OVRP_1_1_0_ovrp_GetAudioInId_m832502A55BFFE60692C3E725F52826E9578F36EC (void);
+extern void OVRP_1_1_0_ovrp_GetAudioInId_m20EB06D09F33A428990307FDA97CF1A6396BD6FA (void);
 // 0x0000043B System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetEyeTextureScale()
-extern void OVRP_1_1_0_ovrp_GetEyeTextureScale_mDA45C4812B218919C851124E9F77C378C5A028CD (void);
+extern void OVRP_1_1_0_ovrp_GetEyeTextureScale_m95DF679D8446CADAD54D8E23CC8BFBD891CF220A (void);
 // 0x0000043C OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetEyeTextureScale(System.Single)
-extern void OVRP_1_1_0_ovrp_SetEyeTextureScale_m399A0806EC992DBD0A90B1638304122C415AFAE0 (void);
+extern void OVRP_1_1_0_ovrp_SetEyeTextureScale_m75CA2B7886113E268E70B432BEC125D60A4F7DAB (void);
 // 0x0000043D OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetTrackingOrientationSupported()
-extern void OVRP_1_1_0_ovrp_GetTrackingOrientationSupported_mA06CDAD4920B422477B0A331AEB82602BABDB75F (void);
+extern void OVRP_1_1_0_ovrp_GetTrackingOrientationSupported_mE099BE7B53DC4D9D716401D58AC67991E0FDC35C (void);
 // 0x0000043E OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetTrackingOrientationEnabled()
-extern void OVRP_1_1_0_ovrp_GetTrackingOrientationEnabled_m070766DF95A6A095186FD65E815F17798B8EE026 (void);
+extern void OVRP_1_1_0_ovrp_GetTrackingOrientationEnabled_m4FD76E20189B013037A09A9EDB70A890E7E69975 (void);
 // 0x0000043F OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetTrackingOrientationEnabled(OVRPlugin/Bool)
-extern void OVRP_1_1_0_ovrp_SetTrackingOrientationEnabled_m4F5D7695451D6C8221F1BC028F8EB2B6622BCC96 (void);
+extern void OVRP_1_1_0_ovrp_SetTrackingOrientationEnabled_m339C12EDB7FB3E285054396398D800E4D22933CE (void);
 // 0x00000440 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetTrackingPositionSupported()
-extern void OVRP_1_1_0_ovrp_GetTrackingPositionSupported_m90D934F21996F74FD2D1F478020DC24619AAC8C1 (void);
+extern void OVRP_1_1_0_ovrp_GetTrackingPositionSupported_m901C59C45F5B4D96F142FDAEF28FA63B324AF971 (void);
 // 0x00000441 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetTrackingPositionEnabled()
-extern void OVRP_1_1_0_ovrp_GetTrackingPositionEnabled_mDA8E184A805BE686B1FFB0725771354B2A2153BD (void);
+extern void OVRP_1_1_0_ovrp_GetTrackingPositionEnabled_m4BA824BC01E6495E4AC588124155372CAFAFAAF4 (void);
 // 0x00000442 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetTrackingPositionEnabled(OVRPlugin/Bool)
-extern void OVRP_1_1_0_ovrp_SetTrackingPositionEnabled_m19F1E69517B14F434CD18143A4442D7E746C55A2 (void);
+extern void OVRP_1_1_0_ovrp_SetTrackingPositionEnabled_mECD025121EA993B0C8814CCF21F750F4E70C9A7B (void);
 // 0x00000443 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetNodePresent(OVRPlugin/Node)
-extern void OVRP_1_1_0_ovrp_GetNodePresent_m98E359CC5071984AB2C419A70F55298A2E9C2DF9 (void);
+extern void OVRP_1_1_0_ovrp_GetNodePresent_mB989DB6880F4799042109DDAAAEC6666A4A66C56 (void);
 // 0x00000444 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetNodeOrientationTracked(OVRPlugin/Node)
-extern void OVRP_1_1_0_ovrp_GetNodeOrientationTracked_m175C6C9E236D18A88514E7DCB751F2B6901CE4DF (void);
+extern void OVRP_1_1_0_ovrp_GetNodeOrientationTracked_m7452D433E4454E9C67D2E0F0839B2E455F980F69 (void);
 // 0x00000445 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetNodePositionTracked(OVRPlugin/Node)
-extern void OVRP_1_1_0_ovrp_GetNodePositionTracked_m19299A235AD4F6AE15FD784D0829E535FE15FBB0 (void);
+extern void OVRP_1_1_0_ovrp_GetNodePositionTracked_m9FA9814BFF1D0FBB3A21C88222CDD0029F408381 (void);
 // 0x00000446 OVRPlugin/Frustumf OVRPlugin/OVRP_1_1_0::ovrp_GetNodeFrustum(OVRPlugin/Node)
-extern void OVRP_1_1_0_ovrp_GetNodeFrustum_m824A8F4DFE5687969DD193634AF61ED26EA6F46F (void);
+extern void OVRP_1_1_0_ovrp_GetNodeFrustum_mFDE9D6D124A962A9504A9F234F97021E209ECCED (void);
 // 0x00000447 OVRPlugin/ControllerState OVRPlugin/OVRP_1_1_0::ovrp_GetControllerState(System.UInt32)
-extern void OVRP_1_1_0_ovrp_GetControllerState_mEB5D1B4E299E4C4F6E26B3DEE75E318E3FB491F9 (void);
+extern void OVRP_1_1_0_ovrp_GetControllerState_m87FCF33583901F1E46033F0E8E03F947DD615D57 (void);
 // 0x00000448 System.Int32 OVRPlugin/OVRP_1_1_0::ovrp_GetSystemCpuLevel()
-extern void OVRP_1_1_0_ovrp_GetSystemCpuLevel_mFCC88E723DF350501312E040D0E0D3D319FDD208 (void);
+extern void OVRP_1_1_0_ovrp_GetSystemCpuLevel_mA893E2FF434FFDC291D269C4423D5A4E105AD6E1 (void);
 // 0x00000449 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetSystemCpuLevel(System.Int32)
-extern void OVRP_1_1_0_ovrp_SetSystemCpuLevel_m00007115428256A599E0729DCED84589E9ADF742 (void);
+extern void OVRP_1_1_0_ovrp_SetSystemCpuLevel_m433D88531CD06C9872BF45A0D08D5D366BF65D90 (void);
 // 0x0000044A System.Int32 OVRPlugin/OVRP_1_1_0::ovrp_GetSystemGpuLevel()
-extern void OVRP_1_1_0_ovrp_GetSystemGpuLevel_m0A5DFB466E2FC458C067DD8422AD01E6801621EE (void);
+extern void OVRP_1_1_0_ovrp_GetSystemGpuLevel_mC9E1FAF7B9B0DEBE66E03384AF102E61A6FFA750 (void);
 // 0x0000044B OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetSystemGpuLevel(System.Int32)
-extern void OVRP_1_1_0_ovrp_SetSystemGpuLevel_m1097E1822D202030CAFD573B70855224ABEF3570 (void);
+extern void OVRP_1_1_0_ovrp_SetSystemGpuLevel_m67E503332C1E1084E6AF79CAFE5DAB07DBE2C3B0 (void);
 // 0x0000044C OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetSystemPowerSavingMode()
-extern void OVRP_1_1_0_ovrp_GetSystemPowerSavingMode_mCF42C46C5A5CEC58868B336FE0D04E53D8E31389 (void);
+extern void OVRP_1_1_0_ovrp_GetSystemPowerSavingMode_m9552146DBEA86A8AD6FF3AE1487F7CA04306F4C9 (void);
 // 0x0000044D System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetSystemDisplayFrequency()
-extern void OVRP_1_1_0_ovrp_GetSystemDisplayFrequency_mB092A6BD082A6BC3BD917B9E8F49C1CA571D2FEF (void);
+extern void OVRP_1_1_0_ovrp_GetSystemDisplayFrequency_m683D288B3E9A54A6C660310218DB16366CB3B2B3 (void);
 // 0x0000044E System.Int32 OVRPlugin/OVRP_1_1_0::ovrp_GetSystemVSyncCount()
-extern void OVRP_1_1_0_ovrp_GetSystemVSyncCount_mE2131E1E73D08C7AD9D381EDEE9910119E540DAF (void);
+extern void OVRP_1_1_0_ovrp_GetSystemVSyncCount_mEEED2FB2DA8F947BC71306DC10089B9A5B30725B (void);
 // 0x0000044F System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetSystemVolume()
-extern void OVRP_1_1_0_ovrp_GetSystemVolume_m9A7BBA161CFAC04B6EF3F01167F20692E502CC9A (void);
+extern void OVRP_1_1_0_ovrp_GetSystemVolume_mC2383C729C91389B8CAA75638087ECC737B7415A (void);
 // 0x00000450 OVRPlugin/BatteryStatus OVRPlugin/OVRP_1_1_0::ovrp_GetSystemBatteryStatus()
-extern void OVRP_1_1_0_ovrp_GetSystemBatteryStatus_m8E192749C52A0091C270D9A33B06E6E1611B5781 (void);
+extern void OVRP_1_1_0_ovrp_GetSystemBatteryStatus_m01A74E86BF4EB799B6EA2647A0A32C86FAD8F585 (void);
 // 0x00000451 System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetSystemBatteryLevel()
-extern void OVRP_1_1_0_ovrp_GetSystemBatteryLevel_mC5D6A4C8B3D1F96646C460524AF958879BCD2065 (void);
+extern void OVRP_1_1_0_ovrp_GetSystemBatteryLevel_mB19C839E51EF393ADF5D616AC813D5D8697A4E6E (void);
 // 0x00000452 System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetSystemBatteryTemperature()
-extern void OVRP_1_1_0_ovrp_GetSystemBatteryTemperature_mEE9A0EB7FC8159D7D1E0249E5BE6FEE1C0E3EC9D (void);
+extern void OVRP_1_1_0_ovrp_GetSystemBatteryTemperature_m05C7D23EB7E963C6468560F6022588D24A3A12D2 (void);
 // 0x00000453 System.IntPtr OVRPlugin/OVRP_1_1_0::_ovrp_GetSystemProductName()
-extern void OVRP_1_1_0__ovrp_GetSystemProductName_m2E7747DF0B902FEA8C095B949B2E944F69FF6AFB (void);
+extern void OVRP_1_1_0__ovrp_GetSystemProductName_mD48630409C31D250076F9FE2F398E1FC98CB3BC9 (void);
 // 0x00000454 System.String OVRPlugin/OVRP_1_1_0::ovrp_GetSystemProductName()
-extern void OVRP_1_1_0_ovrp_GetSystemProductName_m67221C6405A379E5F43F7E08CBAAA760E137BBF6 (void);
+extern void OVRP_1_1_0_ovrp_GetSystemProductName_m7CD1F0F9522BD79B9649FC52DBA8D8570FC696DD (void);
 // 0x00000455 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_ShowSystemUI(OVRPlugin/PlatformUI)
-extern void OVRP_1_1_0_ovrp_ShowSystemUI_m4ECE88130D11D5B9F0DE5C1C4A24D247FD64D256 (void);
+extern void OVRP_1_1_0_ovrp_ShowSystemUI_m385BBEFEADBC3DBD6B836EC5DCCD368F4BF18EAE (void);
 // 0x00000456 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetAppMonoscopic()
-extern void OVRP_1_1_0_ovrp_GetAppMonoscopic_m7985F99D54F0EBCD1605495AF9E4FEA9A030B3EF (void);
+extern void OVRP_1_1_0_ovrp_GetAppMonoscopic_m0CD858529A993D1857B733F0D496B3AE0641B0D5 (void);
 // 0x00000457 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetAppMonoscopic(OVRPlugin/Bool)
-extern void OVRP_1_1_0_ovrp_SetAppMonoscopic_mED3FDB0B5334DC4950FCFFA27AA652CAD36C5748 (void);
+extern void OVRP_1_1_0_ovrp_SetAppMonoscopic_mDBF764FFD0B02002934FDA42D047061DB3678A0B (void);
 // 0x00000458 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetAppHasVrFocus()
-extern void OVRP_1_1_0_ovrp_GetAppHasVrFocus_mCCEFBF787550716AA9370D032F71554C8598EAA2 (void);
+extern void OVRP_1_1_0_ovrp_GetAppHasVrFocus_m55F1CE2E97746A3D68D08FA7077646D7F4A0A3CF (void);
 // 0x00000459 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetAppShouldQuit()
-extern void OVRP_1_1_0_ovrp_GetAppShouldQuit_m208D7DDECFB8468C962F042F9E2820CBEF06A72E (void);
+extern void OVRP_1_1_0_ovrp_GetAppShouldQuit_m4A0B3BFDD778E0FD616A33DFB913D4E695C9157D (void);
 // 0x0000045A OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetAppShouldRecenter()
-extern void OVRP_1_1_0_ovrp_GetAppShouldRecenter_mBB5D437D6335DB82CDDEA051265E88A4979E7FB9 (void);
+extern void OVRP_1_1_0_ovrp_GetAppShouldRecenter_mD6E6877AFFD62E2EE6A7FC5A46FDA4D8B50957BB (void);
 // 0x0000045B System.IntPtr OVRPlugin/OVRP_1_1_0::_ovrp_GetAppLatencyTimings()
-extern void OVRP_1_1_0__ovrp_GetAppLatencyTimings_mB3BBB8368188985D975FDC208A592E8D698D9E5F (void);
+extern void OVRP_1_1_0__ovrp_GetAppLatencyTimings_mA856BAACA286A069DEBB2BF3AF35D136D7AE49EC (void);
 // 0x0000045C System.String OVRPlugin/OVRP_1_1_0::ovrp_GetAppLatencyTimings()
-extern void OVRP_1_1_0_ovrp_GetAppLatencyTimings_m995AE74D86F1440CC779BEB9C1EBD27A2420C3D1 (void);
+extern void OVRP_1_1_0_ovrp_GetAppLatencyTimings_m5B806702D87698B591783431AE21E3E731218224 (void);
 // 0x0000045D OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_GetUserPresent()
-extern void OVRP_1_1_0_ovrp_GetUserPresent_m90454EAD9F19C9008467086F127A6FB916B60019 (void);
+extern void OVRP_1_1_0_ovrp_GetUserPresent_m864D7B3482EB0307794D200134307CCEDE989FDB (void);
 // 0x0000045E System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetUserIPD()
-extern void OVRP_1_1_0_ovrp_GetUserIPD_mD40A112504F21A05080B553D72321CB6514747DE (void);
+extern void OVRP_1_1_0_ovrp_GetUserIPD_m6DBD30FAF797A625AFD67402E1B6B241D4FED555 (void);
 // 0x0000045F OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetUserIPD(System.Single)
-extern void OVRP_1_1_0_ovrp_SetUserIPD_mA902ED3F1223974FCC1B3DE538B152EA3D1E1F60 (void);
+extern void OVRP_1_1_0_ovrp_SetUserIPD_m2823B3D7DBC77681243DA6D1078FBF9BD4609D7A (void);
 // 0x00000460 System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetUserEyeDepth()
-extern void OVRP_1_1_0_ovrp_GetUserEyeDepth_mA67FFDE16D457D30E13C70AAEFC22F55D5E0E70B (void);
+extern void OVRP_1_1_0_ovrp_GetUserEyeDepth_mABBBEB7BE0F2E94DD3CEBCED326972547A6F12C7 (void);
 // 0x00000461 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetUserEyeDepth(System.Single)
-extern void OVRP_1_1_0_ovrp_SetUserEyeDepth_m043647E1B23F2AD2E1B6FE25B37083D1DB0C2F20 (void);
+extern void OVRP_1_1_0_ovrp_SetUserEyeDepth_mC77356E4CE9754F15B882FF77CB7D4651CE59032 (void);
 // 0x00000462 System.Single OVRPlugin/OVRP_1_1_0::ovrp_GetUserEyeHeight()
-extern void OVRP_1_1_0_ovrp_GetUserEyeHeight_m103239B87564E234006ED0DAB7846DD46DC146EA (void);
+extern void OVRP_1_1_0_ovrp_GetUserEyeHeight_mFE4A6EE387CE6F6166E9705918E7F68E02934923 (void);
 // 0x00000463 OVRPlugin/Bool OVRPlugin/OVRP_1_1_0::ovrp_SetUserEyeHeight(System.Single)
-extern void OVRP_1_1_0_ovrp_SetUserEyeHeight_m494FB77FB49F2D0FCD24EC0FE6B57D97ED8EEE1C (void);
+extern void OVRP_1_1_0_ovrp_SetUserEyeHeight_mED32A995767BC1A503CA889F83E1C3CCAE030B48 (void);
 // 0x00000464 System.Void OVRPlugin/OVRP_1_1_0::.cctor()
-extern void OVRP_1_1_0__cctor_m8752D7E3973D432A0FA05B5AD7C1EF314680F0FC (void);
+extern void OVRP_1_1_0__cctor_mEEEEE459FA1737E663C27DB0E64ADF68590087EC (void);
 // 0x00000465 OVRPlugin/Bool OVRPlugin/OVRP_1_2_0::ovrp_SetSystemVSyncCount(System.Int32)
-extern void OVRP_1_2_0_ovrp_SetSystemVSyncCount_m61FAAF788C427D40926696DEB148B245AFDAE89B (void);
+extern void OVRP_1_2_0_ovrp_SetSystemVSyncCount_m98B92A70A04C292DE93A168D4737167FC269A37B (void);
 // 0x00000466 OVRPlugin/Bool OVRPlugin/OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin()
-extern void OVRP_1_2_0_ovrpi_SetTrackingCalibratedOrigin_m54BA3E296CD349132525CC04FCFF4B398CDF3DD1 (void);
+extern void OVRP_1_2_0_ovrpi_SetTrackingCalibratedOrigin_m0F94A78E5C7E256213EDEA9853059A1D4D2CD842 (void);
 // 0x00000467 System.Void OVRPlugin/OVRP_1_2_0::.cctor()
-extern void OVRP_1_2_0__cctor_mFCAAFE839C2A3DC054ABB249ABA6E0903C365765 (void);
+extern void OVRP_1_2_0__cctor_m77CB7226DEE34D088AA8FE09591FA0AEA6777B11 (void);
 // 0x00000468 OVRPlugin/Bool OVRPlugin/OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled()
-extern void OVRP_1_3_0_ovrp_GetEyeOcclusionMeshEnabled_m183062B0F2ECED49D0A8DB01904075C516D664AF (void);
+extern void OVRP_1_3_0_ovrp_GetEyeOcclusionMeshEnabled_m72B7CD6083DF055E1818859D7804943948F73504 (void);
 // 0x00000469 OVRPlugin/Bool OVRPlugin/OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled(OVRPlugin/Bool)
-extern void OVRP_1_3_0_ovrp_SetEyeOcclusionMeshEnabled_mE68968EEA8E192A39E0E20062BA4A8CCAECD0102 (void);
+extern void OVRP_1_3_0_ovrp_SetEyeOcclusionMeshEnabled_m3FEAB7020FEB45BF07CB72C79F0C7BD23783B960 (void);
 // 0x0000046A OVRPlugin/Bool OVRPlugin/OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent()
-extern void OVRP_1_3_0_ovrp_GetSystemHeadphonesPresent_m5E25AA3A5635D8699B5E8D686C0C08030A344540 (void);
+extern void OVRP_1_3_0_ovrp_GetSystemHeadphonesPresent_mE0F4990B3AC7E54717F584688AADE90F66BEB937 (void);
 // 0x0000046B System.Void OVRPlugin/OVRP_1_3_0::.cctor()
-extern void OVRP_1_3_0__cctor_m2DEC36CC8BEC7B7E9CDE4DC209B5BE8183954AA8 (void);
+extern void OVRP_1_3_0__cctor_m28BD044CCAAD0074D8F8E3D27DFE6E7C8721512B (void);
 // 0x0000046C OVRPlugin/SystemRegion OVRPlugin/OVRP_1_5_0::ovrp_GetSystemRegion()
-extern void OVRP_1_5_0_ovrp_GetSystemRegion_m5ACED71030CAF03E45D250403B19F9EC65894D91 (void);
+extern void OVRP_1_5_0_ovrp_GetSystemRegion_m4A8AD5B1D69F5F1172B3330A42D844391FD38C53 (void);
 // 0x0000046D System.Void OVRPlugin/OVRP_1_5_0::.cctor()
-extern void OVRP_1_5_0__cctor_mF047ABA62029C8F7F29FB49BE8D08E5C572EA854 (void);
+extern void OVRP_1_5_0__cctor_m1F76AFF023639945FA00840BB5ADC65D6A74C87E (void);
 // 0x0000046E OVRPlugin/Bool OVRPlugin/OVRP_1_6_0::ovrp_GetTrackingIPDEnabled()
-extern void OVRP_1_6_0_ovrp_GetTrackingIPDEnabled_m08EC55D4A42884A58A8AFE8454C2A5E6E915BA17 (void);
+extern void OVRP_1_6_0_ovrp_GetTrackingIPDEnabled_m01AADE8049AEAB6729692F986A1FC12545F26A74 (void);
 // 0x0000046F OVRPlugin/Bool OVRPlugin/OVRP_1_6_0::ovrp_SetTrackingIPDEnabled(OVRPlugin/Bool)
-extern void OVRP_1_6_0_ovrp_SetTrackingIPDEnabled_m2E9CB0FC2B734A71C1E90CBBF57774D787F578F3 (void);
+extern void OVRP_1_6_0_ovrp_SetTrackingIPDEnabled_mC39DB7A4C961A96DC93FE19002EB05FDFED7F2E7 (void);
 // 0x00000470 OVRPlugin/HapticsDesc OVRPlugin/OVRP_1_6_0::ovrp_GetControllerHapticsDesc(System.UInt32)
-extern void OVRP_1_6_0_ovrp_GetControllerHapticsDesc_m69528A982229CE9E74233987BF09BED8EFEB6F97 (void);
+extern void OVRP_1_6_0_ovrp_GetControllerHapticsDesc_mDA4482922AA29B5048853D66B3D01166475BF51E (void);
 // 0x00000471 OVRPlugin/HapticsState OVRPlugin/OVRP_1_6_0::ovrp_GetControllerHapticsState(System.UInt32)
-extern void OVRP_1_6_0_ovrp_GetControllerHapticsState_m9581E09252D70AF060147E2FC09AF4C7EEF7FE7E (void);
+extern void OVRP_1_6_0_ovrp_GetControllerHapticsState_m47DA9AAD6E91C6400550258A7191D75F4FC1E319 (void);
 // 0x00000472 OVRPlugin/Bool OVRPlugin/OVRP_1_6_0::ovrp_SetControllerHaptics(System.UInt32,OVRPlugin/HapticsBuffer)
-extern void OVRP_1_6_0_ovrp_SetControllerHaptics_m1EC4A9097D189E0A92DEE34ADC647D80B04880DA (void);
+extern void OVRP_1_6_0_ovrp_SetControllerHaptics_mF78D19A478DEF4E3E9D19625CD38D9D00FE0378C (void);
 // 0x00000473 OVRPlugin/Bool OVRPlugin/OVRP_1_6_0::ovrp_SetOverlayQuad3(System.UInt32,System.IntPtr,System.IntPtr,System.IntPtr,OVRPlugin/Posef,OVRPlugin/Vector3f,System.Int32)
-extern void OVRP_1_6_0_ovrp_SetOverlayQuad3_mDAB5DFA994004E7D1E8AD5D643C97BE6AA8C4932 (void);
+extern void OVRP_1_6_0_ovrp_SetOverlayQuad3_m7DEEB1609FB20B0EBF404129B1B45D71FC9A40FC (void);
 // 0x00000474 System.Single OVRPlugin/OVRP_1_6_0::ovrp_GetEyeRecommendedResolutionScale()
-extern void OVRP_1_6_0_ovrp_GetEyeRecommendedResolutionScale_mC2D831491FD589DD429C40F5E218CD016CF09947 (void);
+extern void OVRP_1_6_0_ovrp_GetEyeRecommendedResolutionScale_mCFAFA7554B3776EEDCE740B6F1A5F9A168E2C95D (void);
 // 0x00000475 System.Single OVRPlugin/OVRP_1_6_0::ovrp_GetAppCpuStartToGpuEndTime()
-extern void OVRP_1_6_0_ovrp_GetAppCpuStartToGpuEndTime_m46463606ACD1921590B817E77670CF03616F2248 (void);
+extern void OVRP_1_6_0_ovrp_GetAppCpuStartToGpuEndTime_mF79D451117E6E4C4D20B36EFE3D35F8098C91CCC (void);
 // 0x00000476 System.Int32 OVRPlugin/OVRP_1_6_0::ovrp_GetSystemRecommendedMSAALevel()
-extern void OVRP_1_6_0_ovrp_GetSystemRecommendedMSAALevel_m6F8BF79376CE8958F309136ED71D742638F17FE8 (void);
+extern void OVRP_1_6_0_ovrp_GetSystemRecommendedMSAALevel_mAA869EA0F0CAA39E32BE18E342F377854CB36D2F (void);
 // 0x00000477 System.Void OVRPlugin/OVRP_1_6_0::.cctor()
-extern void OVRP_1_6_0__cctor_mADA1178AA6FF543DA4A93D31EE9C56D590F5D880 (void);
+extern void OVRP_1_6_0__cctor_mAB533DBB7661D96A784B32F2305E040495B8B63E (void);
 // 0x00000478 OVRPlugin/Bool OVRPlugin/OVRP_1_7_0::ovrp_GetAppChromaticCorrection()
-extern void OVRP_1_7_0_ovrp_GetAppChromaticCorrection_mC98919AA4428524EF7E807853E0EEFC87B8A3A17 (void);
+extern void OVRP_1_7_0_ovrp_GetAppChromaticCorrection_m600DFD3314C3D9F3D4ACC76C813CB3513393161B (void);
 // 0x00000479 OVRPlugin/Bool OVRPlugin/OVRP_1_7_0::ovrp_SetAppChromaticCorrection(OVRPlugin/Bool)
-extern void OVRP_1_7_0_ovrp_SetAppChromaticCorrection_mFEAA5F44EED959F0A3701975272A7534494341B2 (void);
+extern void OVRP_1_7_0_ovrp_SetAppChromaticCorrection_m50CC07A859285AB29EB5BDC69F22D0CF7DC10BE0 (void);
 // 0x0000047A System.Void OVRPlugin/OVRP_1_7_0::.cctor()
-extern void OVRP_1_7_0__cctor_m7C1D72D19FB1688C2D47C434F00BFFEDD142E22B (void);
+extern void OVRP_1_7_0__cctor_m03C0FBFFF6DFC6714A8202C93C123EE051DA95D3 (void);
 // 0x0000047B OVRPlugin/Bool OVRPlugin/OVRP_1_8_0::ovrp_GetBoundaryConfigured()
-extern void OVRP_1_8_0_ovrp_GetBoundaryConfigured_mC565508906BAD4EC462D1B261A19AD3B55727837 (void);
+extern void OVRP_1_8_0_ovrp_GetBoundaryConfigured_m1C475C155B4250979F5D7109CF7921F2225FB42E (void);
 // 0x0000047C OVRPlugin/BoundaryTestResult OVRPlugin/OVRP_1_8_0::ovrp_TestBoundaryNode(OVRPlugin/Node,OVRPlugin/BoundaryType)
-extern void OVRP_1_8_0_ovrp_TestBoundaryNode_mFFAF5011AA1CC85E31BF41C5364B3A9046FEAC56 (void);
+extern void OVRP_1_8_0_ovrp_TestBoundaryNode_m15EA26FA5674AEF917A3F2380CF8EDC37A5EB0B1 (void);
 // 0x0000047D OVRPlugin/BoundaryTestResult OVRPlugin/OVRP_1_8_0::ovrp_TestBoundaryPoint(OVRPlugin/Vector3f,OVRPlugin/BoundaryType)
-extern void OVRP_1_8_0_ovrp_TestBoundaryPoint_m9E0EB0BECA575C1C2DB348E4B2404F2A033BDCC2 (void);
+extern void OVRP_1_8_0_ovrp_TestBoundaryPoint_m8358A7595BA12BB9E8BE2BC438ED0E1CD572C0B5 (void);
 // 0x0000047E OVRPlugin/BoundaryGeometry OVRPlugin/OVRP_1_8_0::ovrp_GetBoundaryGeometry(OVRPlugin/BoundaryType)
-extern void OVRP_1_8_0_ovrp_GetBoundaryGeometry_m1CE154CD720B06F794C4A13C3156682CBE2052B9 (void);
+extern void OVRP_1_8_0_ovrp_GetBoundaryGeometry_m5F7B55C67FE61B4ECCA8C209E6086FC1051D9A11 (void);
 // 0x0000047F OVRPlugin/Vector3f OVRPlugin/OVRP_1_8_0::ovrp_GetBoundaryDimensions(OVRPlugin/BoundaryType)
-extern void OVRP_1_8_0_ovrp_GetBoundaryDimensions_m79E4F98BD41CC7580BC91F8B0547E84598124E1C (void);
+extern void OVRP_1_8_0_ovrp_GetBoundaryDimensions_m876B11F06AB04D70CAF3DD00AC023EF2B00988EA (void);
 // 0x00000480 OVRPlugin/Bool OVRPlugin/OVRP_1_8_0::ovrp_GetBoundaryVisible()
-extern void OVRP_1_8_0_ovrp_GetBoundaryVisible_m55B83F6E62B167E4719C9A0992B4781CD0CB3688 (void);
+extern void OVRP_1_8_0_ovrp_GetBoundaryVisible_mDC6DA7219233F1E8D93C85C3AFC103661EDA6C7D (void);
 // 0x00000481 OVRPlugin/Bool OVRPlugin/OVRP_1_8_0::ovrp_SetBoundaryVisible(OVRPlugin/Bool)
-extern void OVRP_1_8_0_ovrp_SetBoundaryVisible_m71F62223F178988446500617ECD1EC11CAF6892C (void);
+extern void OVRP_1_8_0_ovrp_SetBoundaryVisible_m128075E56BC9B89E209AE1AFB9830707028B5B2A (void);
 // 0x00000482 OVRPlugin/Bool OVRPlugin/OVRP_1_8_0::ovrp_Update2(System.Int32,System.Int32,System.Double)
-extern void OVRP_1_8_0_ovrp_Update2_m7DB0CCCA3F068177FCADFD77F2530D7625DCA2C4 (void);
+extern void OVRP_1_8_0_ovrp_Update2_m6756CC495662B84A6D60AA8642F74AE33E960C34 (void);
 // 0x00000483 OVRPlugin/Posef OVRPlugin/OVRP_1_8_0::ovrp_GetNodePose2(System.Int32,OVRPlugin/Node)
-extern void OVRP_1_8_0_ovrp_GetNodePose2_m2FD2F27AE057881B61387532CFF30966E37BD0AB (void);
+extern void OVRP_1_8_0_ovrp_GetNodePose2_m66FC50D7808388A3727ED7DE8F36C0AB20FC9CF3 (void);
 // 0x00000484 OVRPlugin/Posef OVRPlugin/OVRP_1_8_0::ovrp_GetNodeVelocity2(System.Int32,OVRPlugin/Node)
-extern void OVRP_1_8_0_ovrp_GetNodeVelocity2_mF45E475D667B1F3163371C877454D2E673DEE932 (void);
+extern void OVRP_1_8_0_ovrp_GetNodeVelocity2_mF0B82E77F8D5A0C18727AD7D2DA777E374A3B309 (void);
 // 0x00000485 OVRPlugin/Posef OVRPlugin/OVRP_1_8_0::ovrp_GetNodeAcceleration2(System.Int32,OVRPlugin/Node)
-extern void OVRP_1_8_0_ovrp_GetNodeAcceleration2_m1434EE489C5870E5812093D8E5EAD77C597F6331 (void);
+extern void OVRP_1_8_0_ovrp_GetNodeAcceleration2_mECC5F0E6C1A7F5046A79B1220645E3F9DEBFB782 (void);
 // 0x00000486 System.Void OVRPlugin/OVRP_1_8_0::.cctor()
-extern void OVRP_1_8_0__cctor_mB0F1EAB4971F67EEF485559D95ABFE851FC7C603 (void);
+extern void OVRP_1_8_0__cctor_mD61DE2467C8FF611F7383381B3D8A77E2E2240FF (void);
 // 0x00000487 OVRPlugin/SystemHeadset OVRPlugin/OVRP_1_9_0::ovrp_GetSystemHeadsetType()
-extern void OVRP_1_9_0_ovrp_GetSystemHeadsetType_m724239B7BCE866A37FF52AF6EF6E22447BCD3842 (void);
+extern void OVRP_1_9_0_ovrp_GetSystemHeadsetType_m796B817B52B09D72FECC607FD69406BE0421EF35 (void);
 // 0x00000488 OVRPlugin/Controller OVRPlugin/OVRP_1_9_0::ovrp_GetActiveController()
-extern void OVRP_1_9_0_ovrp_GetActiveController_m7657509945B01A3429CD0E0EC78C055E98963261 (void);
+extern void OVRP_1_9_0_ovrp_GetActiveController_m1C8DCBDA7ED0BD43A90975A1D1B08F490AB7F828 (void);
 // 0x00000489 OVRPlugin/Controller OVRPlugin/OVRP_1_9_0::ovrp_GetConnectedControllers()
-extern void OVRP_1_9_0_ovrp_GetConnectedControllers_m2BD24F2A0C7279935E4EE279D8D38F2845367FE5 (void);
+extern void OVRP_1_9_0_ovrp_GetConnectedControllers_m2EB7767C552A9259CFA948174DFEAA4F2C512041 (void);
 // 0x0000048A OVRPlugin/Bool OVRPlugin/OVRP_1_9_0::ovrp_GetBoundaryGeometry2(OVRPlugin/BoundaryType,System.IntPtr,System.Int32&)
-extern void OVRP_1_9_0_ovrp_GetBoundaryGeometry2_mF099CBC1AF1E390E4E587319A27B1C62D34D7019 (void);
+extern void OVRP_1_9_0_ovrp_GetBoundaryGeometry2_mA4647D714622EC56A09C49D620576250F65BA691 (void);
 // 0x0000048B OVRPlugin/AppPerfStats OVRPlugin/OVRP_1_9_0::ovrp_GetAppPerfStats()
-extern void OVRP_1_9_0_ovrp_GetAppPerfStats_m396C94093D47E88F8FAF41ADFA4A4CD923BBE3CA (void);
+extern void OVRP_1_9_0_ovrp_GetAppPerfStats_m95CEE562ED0E9D2F2B10600C9FFA57979D021973 (void);
 // 0x0000048C OVRPlugin/Bool OVRPlugin/OVRP_1_9_0::ovrp_ResetAppPerfStats()
-extern void OVRP_1_9_0_ovrp_ResetAppPerfStats_m12793C2B179EB2383B46240CCAB3744E21F70493 (void);
+extern void OVRP_1_9_0_ovrp_ResetAppPerfStats_mB09945F33C36220D6580284F662AA0C11128B16E (void);
 // 0x0000048D System.Void OVRPlugin/OVRP_1_9_0::.cctor()
-extern void OVRP_1_9_0__cctor_mA8334AE6F24076C21BB0CA43D5307C5684F91A99 (void);
+extern void OVRP_1_9_0__cctor_m8534BB6870E6B727F47070B01D4668E7A2FDF47F (void);
 // 0x0000048E System.Void OVRPlugin/OVRP_1_10_0::.cctor()
-extern void OVRP_1_10_0__cctor_m2B7FBD8930417F0F4C06D6259147B4DD45F361D0 (void);
+extern void OVRP_1_10_0__cctor_m267128780012D8BD2FDB14F480DEF24E24F2C352 (void);
 // 0x0000048F OVRPlugin/Bool OVRPlugin/OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat)
-extern void OVRP_1_11_0_ovrp_SetDesiredEyeTextureFormat_m7380D1F9799DF14DB0729D25F6D68026AF6E049C (void);
+extern void OVRP_1_11_0_ovrp_SetDesiredEyeTextureFormat_m5A650E483E2793B274995D43D46FD3D2F9F6116E (void);
 // 0x00000490 OVRPlugin/EyeTextureFormat OVRPlugin/OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat()
-extern void OVRP_1_11_0_ovrp_GetDesiredEyeTextureFormat_m70EBADA8588B8BB70D6385E0CA8EDA498DFEE684 (void);
+extern void OVRP_1_11_0_ovrp_GetDesiredEyeTextureFormat_m697BCCCC3DCA0DA37877D7F481990BA4DB9BDEF4 (void);
 // 0x00000491 System.Void OVRPlugin/OVRP_1_11_0::.cctor()
-extern void OVRP_1_11_0__cctor_mE275177F9DFA962C628DCBBF4C1BFA71A9507AA3 (void);
+extern void OVRP_1_11_0__cctor_mFD3471B4C7653D68D050494C12E52E348C9D7D13 (void);
 // 0x00000492 System.Single OVRPlugin/OVRP_1_12_0::ovrp_GetAppFramerate()
-extern void OVRP_1_12_0_ovrp_GetAppFramerate_m2A8522F413A07F051955A919F1D1FB9491E99D81 (void);
+extern void OVRP_1_12_0_ovrp_GetAppFramerate_mE5FDAC1F9E0D414F0709076E033CFA1B8F83EDD7 (void);
 // 0x00000493 OVRPlugin/PoseStatef OVRPlugin/OVRP_1_12_0::ovrp_GetNodePoseState(OVRPlugin/Step,OVRPlugin/Node)
-extern void OVRP_1_12_0_ovrp_GetNodePoseState_m2E94D9A301902710787EBCA28E5AC8D600808E58 (void);
+extern void OVRP_1_12_0_ovrp_GetNodePoseState_mDB12D6F211B40C4EF77537520B0976E5F879F1BD (void);
 // 0x00000494 OVRPlugin/ControllerState2 OVRPlugin/OVRP_1_12_0::ovrp_GetControllerState2(System.UInt32)
-extern void OVRP_1_12_0_ovrp_GetControllerState2_m10F6D38E1857DB9C6CBE37834A076EBE48A4FA53 (void);
+extern void OVRP_1_12_0_ovrp_GetControllerState2_mAF8D13828721E612D22DE5EC2CDF5DA41CADA23C (void);
 // 0x00000495 System.Void OVRPlugin/OVRP_1_12_0::.cctor()
-extern void OVRP_1_12_0__cctor_m87FA714E2A217E0A60A7F1B480A67F003A6B4E4C (void);
+extern void OVRP_1_12_0__cctor_m3B15B0F52F95F609445F8BE79191E6FA4E6E660B (void);
 // 0x00000496 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_InitializeMixedReality()
-extern void OVRP_1_15_0_ovrp_InitializeMixedReality_mA9367236788D1B185B972670F038DA6C05E84BD6 (void);
+extern void OVRP_1_15_0_ovrp_InitializeMixedReality_mFF07B810116C93571BBE935815E4387FFC1354E6 (void);
 // 0x00000497 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_ShutdownMixedReality()
-extern void OVRP_1_15_0_ovrp_ShutdownMixedReality_m284269F4FE7FFC0E6A35C90F8C546F237C8FFF4C (void);
+extern void OVRP_1_15_0_ovrp_ShutdownMixedReality_m45D0CDBD2C7AA6F2253D76718D229671A937EFB8 (void);
 // 0x00000498 OVRPlugin/Bool OVRPlugin/OVRP_1_15_0::ovrp_GetMixedRealityInitialized()
-extern void OVRP_1_15_0_ovrp_GetMixedRealityInitialized_m16BCE7FBA72339CCB9C46DAD2DFC4BEAA94CEBF1 (void);
+extern void OVRP_1_15_0_ovrp_GetMixedRealityInitialized_m39519D2322102197BAC9CD03622BE3E67EF4410B (void);
 // 0x00000499 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_UpdateExternalCamera()
-extern void OVRP_1_15_0_ovrp_UpdateExternalCamera_m2358DEDF77393CC530E288E00E534BB5508493E5 (void);
+extern void OVRP_1_15_0_ovrp_UpdateExternalCamera_m606DA1DEB4CFEDD93DBA960F27FA5605AE141A7D (void);
 // 0x0000049A OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetExternalCameraCount(System.Int32&)
-extern void OVRP_1_15_0_ovrp_GetExternalCameraCount_m790CA0226CEAD9CEE9E9BD6D6F78FCD0B46E6DAB (void);
+extern void OVRP_1_15_0_ovrp_GetExternalCameraCount_m10483F3612622DF9EA7E441111D69917928EF881 (void);
 // 0x0000049B OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetExternalCameraName(System.Int32,System.Char[])
-extern void OVRP_1_15_0_ovrp_GetExternalCameraName_mC766668443ABD6D4E3B90B985C1C5BD54EABFB72 (void);
+extern void OVRP_1_15_0_ovrp_GetExternalCameraName_mA991198D6CFA19926B8B9B9C1DADD0CDE29FE050 (void);
 // 0x0000049C OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetExternalCameraIntrinsics(System.Int32,OVRPlugin/CameraIntrinsics&)
-extern void OVRP_1_15_0_ovrp_GetExternalCameraIntrinsics_m96CD4FC22761823843280DD9BACFE8A107E2C893 (void);
+extern void OVRP_1_15_0_ovrp_GetExternalCameraIntrinsics_mB291B3A5B2D704241198D8AFAF9E42B1E7413228 (void);
 // 0x0000049D OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetExternalCameraExtrinsics(System.Int32,OVRPlugin/CameraExtrinsics&)
-extern void OVRP_1_15_0_ovrp_GetExternalCameraExtrinsics_m62FBEB8E57A469E3216984BA2A57DE3ECFB9BFFB (void);
+extern void OVRP_1_15_0_ovrp_GetExternalCameraExtrinsics_mA800E8A78F390F4CC2E5D3BF5E2DA396D9518C55 (void);
 // 0x0000049E OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_CalculateLayerDesc(OVRPlugin/OverlayShape,OVRPlugin/LayerLayout,OVRPlugin/Sizei&,System.Int32,System.Int32,OVRPlugin/EyeTextureFormat,System.Int32,OVRPlugin/LayerDescInternal&)
-extern void OVRP_1_15_0_ovrp_CalculateLayerDesc_mB481FA65FA7845F24B384B8395F17497AABF088E (void);
+extern void OVRP_1_15_0_ovrp_CalculateLayerDesc_mE52BE3F754BAEE11A6FC085CC839A0D88CAEB22E (void);
 // 0x0000049F OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_EnqueueSetupLayer(OVRPlugin/LayerDescInternal&,System.IntPtr)
-extern void OVRP_1_15_0_ovrp_EnqueueSetupLayer_mFE7C2E93118AC387F14D3979609594FAFE087366 (void);
+extern void OVRP_1_15_0_ovrp_EnqueueSetupLayer_mA7C4D4DB7B2F9BE73830B30D94122E0164AE8794 (void);
 // 0x000004A0 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_EnqueueDestroyLayer(System.IntPtr)
-extern void OVRP_1_15_0_ovrp_EnqueueDestroyLayer_mC40A9E54879DBA25DC6F99A88D1C502C0824FC7D (void);
+extern void OVRP_1_15_0_ovrp_EnqueueDestroyLayer_m513B6216CF19E9188A2C06779A4637D2FD1135B7 (void);
 // 0x000004A1 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetLayerTextureStageCount(System.Int32,System.Int32&)
-extern void OVRP_1_15_0_ovrp_GetLayerTextureStageCount_m4C80C7E0545890A715AAA62A2FFFCFA19E5EAD76 (void);
+extern void OVRP_1_15_0_ovrp_GetLayerTextureStageCount_m5901B689D44D8E791FCE1D46A31504C6520DFA76 (void);
 // 0x000004A2 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetLayerTexturePtr(System.Int32,System.Int32,OVRPlugin/Eye,System.IntPtr&)
-extern void OVRP_1_15_0_ovrp_GetLayerTexturePtr_mC4208D7A21D5EF99ACC2BC5B202BC4C933D0D4E3 (void);
+extern void OVRP_1_15_0_ovrp_GetLayerTexturePtr_m23466B676295EF41A8D114618A8BE535322862FA (void);
 // 0x000004A3 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_EnqueueSubmitLayer(System.UInt32,System.IntPtr,System.IntPtr,System.Int32,System.Int32,OVRPlugin/Posef&,OVRPlugin/Vector3f&,System.Int32)
-extern void OVRP_1_15_0_ovrp_EnqueueSubmitLayer_mECC37ECFFB712A0390A589B66A38B9F601D79A0C (void);
+extern void OVRP_1_15_0_ovrp_EnqueueSubmitLayer_m4B90DCCD24308E3FB43213780AE5AD342009FB49 (void);
 // 0x000004A4 OVRPlugin/Result OVRPlugin/OVRP_1_15_0::ovrp_GetNodeFrustum2(OVRPlugin/Node,OVRPlugin/Frustumf2&)
-extern void OVRP_1_15_0_ovrp_GetNodeFrustum2_m06A78D6277C7FE5487F59B76E14B115DBD2AE193 (void);
+extern void OVRP_1_15_0_ovrp_GetNodeFrustum2_m3B176797E52C4235C784B8BC76E6653FAC7A9C9A (void);
 // 0x000004A5 OVRPlugin/Bool OVRPlugin/OVRP_1_15_0::ovrp_GetEyeTextureArrayEnabled()
-extern void OVRP_1_15_0_ovrp_GetEyeTextureArrayEnabled_m9BCF4239B9A37535A740676291663BA70F53EE7B (void);
+extern void OVRP_1_15_0_ovrp_GetEyeTextureArrayEnabled_m7FCD54F46F014586F5908E82C18C9E7B1FF11D04 (void);
 // 0x000004A6 System.Void OVRPlugin/OVRP_1_15_0::.cctor()
-extern void OVRP_1_15_0__cctor_mE1ABA6EB9DE14A6A04924995DBD64EE04202FEE2 (void);
+extern void OVRP_1_15_0__cctor_m5CB881830C7C30A2821144BA3CE97DBF86104264 (void);
 // 0x000004A7 OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_UpdateCameraDevices()
-extern void OVRP_1_16_0_ovrp_UpdateCameraDevices_m21A42D0B66A7EF8BF56DA1DECBC31DE27C082693 (void);
+extern void OVRP_1_16_0_ovrp_UpdateCameraDevices_mD519E2C7D8AF757E06DCA5A33CE77B92BC700132 (void);
 // 0x000004A8 OVRPlugin/Bool OVRPlugin/OVRP_1_16_0::ovrp_IsCameraDeviceAvailable(OVRPlugin/CameraDevice)
-extern void OVRP_1_16_0_ovrp_IsCameraDeviceAvailable_mE1854F4F64EC330D10179897BF8D20A3FC7A44E5 (void);
+extern void OVRP_1_16_0_ovrp_IsCameraDeviceAvailable_mC3E05CD6CB64C1BD5118CFC84549525318426FB3 (void);
 // 0x000004A9 OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_SetCameraDevicePreferredColorFrameSize(OVRPlugin/CameraDevice,OVRPlugin/Sizei)
-extern void OVRP_1_16_0_ovrp_SetCameraDevicePreferredColorFrameSize_m1D9A9F6EEBAB0E415C5DFB4448F47D2924285E51 (void);
+extern void OVRP_1_16_0_ovrp_SetCameraDevicePreferredColorFrameSize_m65BBAECB9C936135E79AC855413DB7A8D935F567 (void);
 // 0x000004AA OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_OpenCameraDevice(OVRPlugin/CameraDevice)
-extern void OVRP_1_16_0_ovrp_OpenCameraDevice_m2E9F4F288FEB431F0F203033B4FE6B72D957312E (void);
+extern void OVRP_1_16_0_ovrp_OpenCameraDevice_m18C45BF88C40BB09606A764271AAD86494E4D685 (void);
 // 0x000004AB OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_CloseCameraDevice(OVRPlugin/CameraDevice)
-extern void OVRP_1_16_0_ovrp_CloseCameraDevice_m3C53DD1AC806D307EB45974232D8746EBED146ED (void);
+extern void OVRP_1_16_0_ovrp_CloseCameraDevice_mFB9EA84CC864853651C9C97FD9B2A7E9CB5E14F9 (void);
 // 0x000004AC OVRPlugin/Bool OVRPlugin/OVRP_1_16_0::ovrp_HasCameraDeviceOpened(OVRPlugin/CameraDevice)
-extern void OVRP_1_16_0_ovrp_HasCameraDeviceOpened_mB17D629A89AE43009356C579AC52B116608A0DF7 (void);
+extern void OVRP_1_16_0_ovrp_HasCameraDeviceOpened_mA085F2F8D2884DB50BC1415788BECFAF3E550970 (void);
 // 0x000004AD OVRPlugin/Bool OVRPlugin/OVRP_1_16_0::ovrp_IsCameraDeviceColorFrameAvailable(OVRPlugin/CameraDevice)
-extern void OVRP_1_16_0_ovrp_IsCameraDeviceColorFrameAvailable_m2FC0A8B61C83BCAA748B4B089B29CCCCB93D4389 (void);
+extern void OVRP_1_16_0_ovrp_IsCameraDeviceColorFrameAvailable_mE2ED7BFAF716266B4257C701B05AD8249FFFCF10 (void);
 // 0x000004AE OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameSize(OVRPlugin/CameraDevice,OVRPlugin/Sizei&)
-extern void OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameSize_mDA2DF8EACD8A5BCADC13C5392D45C199D3AC075A (void);
+extern void OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameSize_m7365010EB59CFD5F8E786A9797A1C685C7BAD3D0 (void);
 // 0x000004AF OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameBgraPixels(OVRPlugin/CameraDevice,System.IntPtr&,System.Int32&)
-extern void OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameBgraPixels_m7CC1D1F9D0F9871CB1BC98F8CD5CBC6B43E3D5ED (void);
+extern void OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameBgraPixels_m4D28550F61529F616D121A6F67383611E7E5A5DC (void);
 // 0x000004B0 OVRPlugin/Result OVRPlugin/OVRP_1_16_0::ovrp_GetControllerState4(System.UInt32,OVRPlugin/ControllerState4&)
-extern void OVRP_1_16_0_ovrp_GetControllerState4_m2776CACFF62CB0DFB87F4E8C5C4A7987E73A4103 (void);
+extern void OVRP_1_16_0_ovrp_GetControllerState4_m8D64E03AFE6015331731685D139E9A81D82C68D3 (void);
 // 0x000004B1 System.Void OVRPlugin/OVRP_1_16_0::.cctor()
-extern void OVRP_1_16_0__cctor_mC617FD44DCB09DBD168B2FDE92D691E5905AB023 (void);
+extern void OVRP_1_16_0__cctor_m001C4192BA3E705B51997925C4E93E74EDF9CF55 (void);
 // 0x000004B2 System.Void OVRPlugin/OVRP_1_17_0::.cctor()
-extern void OVRP_1_17_0__cctor_m7352F84E56AEE5C08706BDC3208F0ADA87184B3F (void);
+extern void OVRP_1_17_0__cctor_mA2184BECD5084C852B00FD299EFD1276A9CCDD98 (void);
 // 0x000004B3 OVRPlugin/Result OVRPlugin/OVRP_1_18_0::ovrp_SetHandNodePoseStateLatency(System.Double)
-extern void OVRP_1_18_0_ovrp_SetHandNodePoseStateLatency_m41D014AA1EB62917A79024560D31388191CF8580 (void);
+extern void OVRP_1_18_0_ovrp_SetHandNodePoseStateLatency_mBAE9275FA5CE201C828DE8103A1D2D2D00150851 (void);
 // 0x000004B4 OVRPlugin/Result OVRPlugin/OVRP_1_18_0::ovrp_GetHandNodePoseStateLatency(System.Double&)
-extern void OVRP_1_18_0_ovrp_GetHandNodePoseStateLatency_mBCA013EDEB653929427A79BA3DFEC6956A4BE430 (void);
+extern void OVRP_1_18_0_ovrp_GetHandNodePoseStateLatency_m2C983B994C70931B4B2CB726483FCEA832243869 (void);
 // 0x000004B5 OVRPlugin/Result OVRPlugin/OVRP_1_18_0::ovrp_GetAppHasInputFocus(OVRPlugin/Bool&)
-extern void OVRP_1_18_0_ovrp_GetAppHasInputFocus_m40CC476945400784FC3DB387F647FE7B3FA5D998 (void);
+extern void OVRP_1_18_0_ovrp_GetAppHasInputFocus_m19BC8CF9672EA9BCF717DABBD008F4E315C30A12 (void);
 // 0x000004B6 System.Void OVRPlugin/OVRP_1_18_0::.cctor()
-extern void OVRP_1_18_0__cctor_mC105C8D1C8103B104F190421507E21CD50A00A4E (void);
+extern void OVRP_1_18_0__cctor_m501ED7C844EDC4DD137291ADDCFD1089CAEB57E7 (void);
 // 0x000004B7 System.Void OVRPlugin/OVRP_1_19_0::.cctor()
-extern void OVRP_1_19_0__cctor_m6E72A56DF8B76E126C24AD81B8998D06919115A0 (void);
+extern void OVRP_1_19_0__cctor_m484E1708F71BEC3249D78B488F4755DD89EFC076 (void);
 // 0x000004B8 OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetTiledMultiResSupported(OVRPlugin/Bool&)
-extern void OVRP_1_21_0_ovrp_GetTiledMultiResSupported_m8F2F896E36EEDDE13B69E3AB80109A70E7CE6CFA (void);
+extern void OVRP_1_21_0_ovrp_GetTiledMultiResSupported_m8B829FE426C388CD32FB732D145B0A1725B8DEAF (void);
 // 0x000004B9 OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetTiledMultiResLevel(OVRPlugin/FixedFoveatedRenderingLevel&)
-extern void OVRP_1_21_0_ovrp_GetTiledMultiResLevel_m6FEB51B83CB18682D6F3FF83AEA205C23488EEF2 (void);
+extern void OVRP_1_21_0_ovrp_GetTiledMultiResLevel_m44CA01319B6798C1A2E5815336DA8BC9EF0FEE34 (void);
 // 0x000004BA OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_SetTiledMultiResLevel(OVRPlugin/FixedFoveatedRenderingLevel)
-extern void OVRP_1_21_0_ovrp_SetTiledMultiResLevel_mB7AD4A26496A9FB3155DB8764B3F128393388320 (void);
+extern void OVRP_1_21_0_ovrp_SetTiledMultiResLevel_m6A392BD609F5633C833C0BEE8070048B01773E3F (void);
 // 0x000004BB OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetGPUUtilSupported(OVRPlugin/Bool&)
-extern void OVRP_1_21_0_ovrp_GetGPUUtilSupported_mA4C02AC709F4E6C1E4AFD4238CEAC9A7B3B5503C (void);
+extern void OVRP_1_21_0_ovrp_GetGPUUtilSupported_m7D4025A37AD6B80CFC5BA99E8BE8AF950B67BE7A (void);
 // 0x000004BC OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetGPUUtilLevel(System.Single&)
-extern void OVRP_1_21_0_ovrp_GetGPUUtilLevel_m75DA577B3331D4A08AFD0BFAD3A39D1ACA847AAF (void);
+extern void OVRP_1_21_0_ovrp_GetGPUUtilLevel_m9367D44D6FA5DE611C88F1AFF91B98416A2F1E2E (void);
 // 0x000004BD OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetSystemDisplayFrequency2(System.Single&)
-extern void OVRP_1_21_0_ovrp_GetSystemDisplayFrequency2_m536A242AFA69ED23E3C22C08FF73C5E6E267D80A (void);
+extern void OVRP_1_21_0_ovrp_GetSystemDisplayFrequency2_m559AA33BED026425684B1F5962D34EA783EE6770 (void);
 // 0x000004BE OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetSystemDisplayAvailableFrequencies(System.IntPtr,System.Int32&)
-extern void OVRP_1_21_0_ovrp_GetSystemDisplayAvailableFrequencies_m35981BA47CF5F86FDFBD230558D27C89C70D37E2 (void);
+extern void OVRP_1_21_0_ovrp_GetSystemDisplayAvailableFrequencies_m9A84A93A8B5F5A5EC6E9386018B0C5470637E0F3 (void);
 // 0x000004BF OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_SetSystemDisplayFrequency(System.Single)
-extern void OVRP_1_21_0_ovrp_SetSystemDisplayFrequency_m43603E02732056C608202E28608DA8A98C7AEBD5 (void);
+extern void OVRP_1_21_0_ovrp_SetSystemDisplayFrequency_m00A35E3FC8B125034062F7114960A295C946B20D (void);
 // 0x000004C0 OVRPlugin/Result OVRPlugin/OVRP_1_21_0::ovrp_GetAppAsymmetricFov(OVRPlugin/Bool&)
-extern void OVRP_1_21_0_ovrp_GetAppAsymmetricFov_m85808DB97D9F9BA4983C52DF6AC38ACA5CB7C48E (void);
+extern void OVRP_1_21_0_ovrp_GetAppAsymmetricFov_m61520284B048B5130B587086A318F221F35117CC (void);
 // 0x000004C1 System.Void OVRPlugin/OVRP_1_21_0::.cctor()
-extern void OVRP_1_21_0__cctor_m59C1B2D591A6FC4D9E0159173D7A254B7EC5EA76 (void);
+extern void OVRP_1_21_0__cctor_m1328281143A678C014180E500EE4374BD575A4A1 (void);
 // 0x000004C2 OVRPlugin/Result OVRPlugin/OVRP_1_28_0::ovrp_GetDominantHand(OVRPlugin/Handedness&)
-extern void OVRP_1_28_0_ovrp_GetDominantHand_m4BD31B9FF1871A0CF144E06B7DCDC729702989B7 (void);
+extern void OVRP_1_28_0_ovrp_GetDominantHand_mBF97D609C7A2CD623960640D2B2A4A9E470B8313 (void);
 // 0x000004C3 OVRPlugin/Result OVRPlugin/OVRP_1_28_0::ovrp_SendEvent(System.String,System.String)
-extern void OVRP_1_28_0_ovrp_SendEvent_mBAB8886F87A1F555FD18D26B5A1E189A1235FA93 (void);
+extern void OVRP_1_28_0_ovrp_SendEvent_mF2396F8E6FCA4F827E68D5C1CF937A5EAC939E14 (void);
 // 0x000004C4 OVRPlugin/Result OVRPlugin/OVRP_1_28_0::ovrp_EnqueueSetupLayer2(OVRPlugin/LayerDescInternal&,System.Int32,System.IntPtr)
-extern void OVRP_1_28_0_ovrp_EnqueueSetupLayer2_m3611FE5B353B13DEB52FDB7904FBCE2B464E7491 (void);
+extern void OVRP_1_28_0_ovrp_EnqueueSetupLayer2_mAA84776ACDC6CBD6A621205D9DC98DA5DA6F8132 (void);
 // 0x000004C5 System.Void OVRPlugin/OVRP_1_28_0::.cctor()
-extern void OVRP_1_28_0__cctor_mC086AACBB0BA48AFDA09F98BB0185DCD4EA7EA39 (void);
+extern void OVRP_1_28_0__cctor_m6486C1255CBA4215D3A4F2B844653D6481F151D5 (void);
 // 0x000004C6 OVRPlugin/Result OVRPlugin/OVRP_1_29_0::ovrp_GetLayerAndroidSurfaceObject(System.Int32,System.IntPtr&)
-extern void OVRP_1_29_0_ovrp_GetLayerAndroidSurfaceObject_mFF04E8F26B3106F7C9A848A4E7AF9A0E8268B393 (void);
+extern void OVRP_1_29_0_ovrp_GetLayerAndroidSurfaceObject_m3FF8D33D69BC59A3CAFDCACD51A9C1C6FE78F690 (void);
 // 0x000004C7 OVRPlugin/Result OVRPlugin/OVRP_1_29_0::ovrp_SetHeadPoseModifier(OVRPlugin/Quatf&,OVRPlugin/Vector3f&)
-extern void OVRP_1_29_0_ovrp_SetHeadPoseModifier_m3A784CC09425C63CBAA102B6CAC638B5AAB44D17 (void);
+extern void OVRP_1_29_0_ovrp_SetHeadPoseModifier_m0E170349DAC7CB1023494D9F43446AE84FB1A657 (void);
 // 0x000004C8 OVRPlugin/Result OVRPlugin/OVRP_1_29_0::ovrp_GetHeadPoseModifier(OVRPlugin/Quatf&,OVRPlugin/Vector3f&)
-extern void OVRP_1_29_0_ovrp_GetHeadPoseModifier_m0CAAD3A4A1C4A014747034D5FDF0986E2CF5C5AD (void);
+extern void OVRP_1_29_0_ovrp_GetHeadPoseModifier_m50A07D6DEDBD7C96018E7A4B45A2301867C10827 (void);
 // 0x000004C9 OVRPlugin/Result OVRPlugin/OVRP_1_29_0::ovrp_GetNodePoseStateRaw(OVRPlugin/Step,System.Int32,OVRPlugin/Node,OVRPlugin/PoseStatef&)
-extern void OVRP_1_29_0_ovrp_GetNodePoseStateRaw_m1227CAB1C0DE2BF989ECC5E0AD17A75E8A6B8D5D (void);
+extern void OVRP_1_29_0_ovrp_GetNodePoseStateRaw_m3A9E36C8E2D3D9EBACDCB42D5108927BDD9743E1 (void);
 // 0x000004CA System.Void OVRPlugin/OVRP_1_29_0::.cctor()
-extern void OVRP_1_29_0__cctor_m0C187E38D587D670AB0771B1F8F6D68EFC5F6509 (void);
+extern void OVRP_1_29_0__cctor_mB9F9377A77382355658E0432DC8BED5781F9F6B0 (void);
 // 0x000004CB OVRPlugin/Result OVRPlugin/OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose(OVRPlugin/Posef&)
-extern void OVRP_1_30_0_ovrp_GetCurrentTrackingTransformPose_m076423134F30C2118D6E8AAE4E0226280D91F7EA (void);
+extern void OVRP_1_30_0_ovrp_GetCurrentTrackingTransformPose_mB6D85FD00C93F54965C92C72BA3A30E333C333B0 (void);
 // 0x000004CC OVRPlugin/Result OVRPlugin/OVRP_1_30_0::ovrp_GetTrackingTransformRawPose(OVRPlugin/Posef&)
-extern void OVRP_1_30_0_ovrp_GetTrackingTransformRawPose_mC51B902EBA41B8005BECA26AA1C6C08A705E8687 (void);
+extern void OVRP_1_30_0_ovrp_GetTrackingTransformRawPose_mB04FBB26C652ECCE00BFFB937D29D88106FCDE35 (void);
 // 0x000004CD OVRPlugin/Result OVRPlugin/OVRP_1_30_0::ovrp_SendEvent2(System.String,System.String,System.String)
-extern void OVRP_1_30_0_ovrp_SendEvent2_m7EFADB254F349C06D080606862CA81C159FE8FF0 (void);
+extern void OVRP_1_30_0_ovrp_SendEvent2_m5C2DD1A0840B6C286A205EE17271B736EC7C6D28 (void);
 // 0x000004CE OVRPlugin/Result OVRPlugin/OVRP_1_30_0::ovrp_IsPerfMetricsSupported(OVRPlugin/PerfMetrics,OVRPlugin/Bool&)
-extern void OVRP_1_30_0_ovrp_IsPerfMetricsSupported_m0FBE430D203FBED851413706C1A8826A51BCF3AF (void);
+extern void OVRP_1_30_0_ovrp_IsPerfMetricsSupported_m525BD8F3F3C8623FDF17FBFCF0155675DDF875FC (void);
 // 0x000004CF OVRPlugin/Result OVRPlugin/OVRP_1_30_0::ovrp_GetPerfMetricsFloat(OVRPlugin/PerfMetrics,System.Single&)
-extern void OVRP_1_30_0_ovrp_GetPerfMetricsFloat_mB2D8A277C509E8449696263E7D0D7D407F92680B (void);
+extern void OVRP_1_30_0_ovrp_GetPerfMetricsFloat_m0B7E9D2C4A6215A8AB59F691FC6E3A9BE16F80B0 (void);
 // 0x000004D0 OVRPlugin/Result OVRPlugin/OVRP_1_30_0::ovrp_GetPerfMetricsInt(OVRPlugin/PerfMetrics,System.Int32&)
-extern void OVRP_1_30_0_ovrp_GetPerfMetricsInt_mA467658627605E601E0440EA82C53CE33729A7AE (void);
+extern void OVRP_1_30_0_ovrp_GetPerfMetricsInt_m5E5C9DC918FC4083E8397C5BDC1F5621E4BAE323 (void);
 // 0x000004D1 System.Void OVRPlugin/OVRP_1_30_0::.cctor()
-extern void OVRP_1_30_0__cctor_m7637140AD357963D767ECFFBDF0550FBD4CACF14 (void);
+extern void OVRP_1_30_0__cctor_m980D0ED0F11AD0553E860B7E4C1AB8AECB26366D (void);
 // 0x000004D2 OVRPlugin/Result OVRPlugin/OVRP_1_31_0::ovrp_GetTimeInSeconds(System.Double&)
-extern void OVRP_1_31_0_ovrp_GetTimeInSeconds_mADFBD14355CC3A03425B34E41452B7EEFFD4D175 (void);
+extern void OVRP_1_31_0_ovrp_GetTimeInSeconds_m5FA5C6BEC85E089A9C5E406936E13B1CDF6EDAC6 (void);
 // 0x000004D3 OVRPlugin/Result OVRPlugin/OVRP_1_31_0::ovrp_SetColorScaleAndOffset(UnityEngine.Vector4,UnityEngine.Vector4,OVRPlugin/Bool)
-extern void OVRP_1_31_0_ovrp_SetColorScaleAndOffset_mD9E511B9A2F330B4344E9BFB9CF444DE5BF97831 (void);
+extern void OVRP_1_31_0_ovrp_SetColorScaleAndOffset_m1A6187F4CB500529EB889E50FF5A08E6751AE3CE (void);
 // 0x000004D4 System.Void OVRPlugin/OVRP_1_31_0::.cctor()
-extern void OVRP_1_31_0__cctor_m3D9D4703A017C68E2D772412A3ED9E3AD13A638D (void);
+extern void OVRP_1_31_0__cctor_m01CF5B983B6A3D8D7E7D08CE55C4BC47B60E1408 (void);
 // 0x000004D5 OVRPlugin/Result OVRPlugin/OVRP_1_32_0::ovrp_AddCustomMetadata(System.String,System.String)
-extern void OVRP_1_32_0_ovrp_AddCustomMetadata_mD2D4D5EF876539006785FD399BF9EC6C06E5282E (void);
+extern void OVRP_1_32_0_ovrp_AddCustomMetadata_m1606BD59E195FFE35061E37059CE5E23CAB183DD (void);
 // 0x000004D6 System.Void OVRPlugin/OVRP_1_32_0::.cctor()
-extern void OVRP_1_32_0__cctor_m9517DF17AC6BF7E056D5E78951248926DD52A176 (void);
+extern void OVRP_1_32_0__cctor_mE5D3C21C2E02AA149C1AD614C629421926B7E808 (void);
 // 0x000004D7 OVRPlugin/Result OVRPlugin/OVRP_1_34_0::ovrp_EnqueueSubmitLayer2(System.UInt32,System.IntPtr,System.IntPtr,System.Int32,System.Int32,OVRPlugin/Posef&,OVRPlugin/Vector3f&,System.Int32,OVRPlugin/Bool,OVRPlugin/TextureRectMatrixf&,OVRPlugin/Bool,UnityEngine.Vector4&,UnityEngine.Vector4&)
-extern void OVRP_1_34_0_ovrp_EnqueueSubmitLayer2_m1DE3F270807004344C27D7CA00C78A03CFBFC744 (void);
+extern void OVRP_1_34_0_ovrp_EnqueueSubmitLayer2_m9103D51B5F7C07C5EC63A671CACF326350AE0FA9 (void);
 // 0x000004D8 System.Void OVRPlugin/OVRP_1_34_0::.cctor()
-extern void OVRP_1_34_0__cctor_mC433DE175F3B111BC0535861EA972A3F72C9EE09 (void);
+extern void OVRP_1_34_0__cctor_m0DCB936270DBB7F0E0458F0CF0787DCBE4012990 (void);
 // 0x000004D9 System.Void OVRPlugin/OVRP_1_35_0::.cctor()
-extern void OVRP_1_35_0__cctor_mC8F354E72B99E9D47F83CA2717408CBC50EBAE36 (void);
+extern void OVRP_1_35_0__cctor_m4FBB31B14570F3AA49DCEDFF39D41A8A472640C1 (void);
 // 0x000004DA System.Void OVRPlugin/OVRP_1_36_0::.cctor()
-extern void OVRP_1_36_0__cctor_mDAB5AD91748EF5331BF5E3B6B07A1C6400478E6A (void);
+extern void OVRP_1_36_0__cctor_m250D243BC0CAB2E8D0CDEE12F703579F2DAD1BB9 (void);
 // 0x000004DB System.Void OVRPlugin/OVRP_1_37_0::.cctor()
-extern void OVRP_1_37_0__cctor_m102EC63C4FDF2579C30E7FBF129B3A393C1F331B (void);
+extern void OVRP_1_37_0__cctor_m21B3D0BF0A6C0D44DA0FFFB5D253CE7BB19406EE (void);
 // 0x000004DC OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_GetTrackingTransformRelativePose(OVRPlugin/Posef&,OVRPlugin/TrackingOrigin)
-extern void OVRP_1_38_0_ovrp_GetTrackingTransformRelativePose_m53F3B1458C007337E366115D0B70147ACA790A5A (void);
+extern void OVRP_1_38_0_ovrp_GetTrackingTransformRelativePose_m33EB97B76A3574A3411EE3EC6A052B77035FB000 (void);
 // 0x000004DD OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_Initialize()
-extern void OVRP_1_38_0_ovrp_Media_Initialize_m017B90489AC85A89A56C0DBECDC2D18108C274F2 (void);
+extern void OVRP_1_38_0_ovrp_Media_Initialize_m978F2C8D5BEC25EE738B634A01C2B4EB29E7CC9F (void);
 // 0x000004DE OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_Shutdown()
-extern void OVRP_1_38_0_ovrp_Media_Shutdown_mE309A95B153D88CA3ED0B25529CB5A3C4EEC4B3F (void);
+extern void OVRP_1_38_0_ovrp_Media_Shutdown_m9FC393976B1CC4E379DB6E1E1F151D4143B7BE8D (void);
 // 0x000004DF OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_GetInitialized(OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_Media_GetInitialized_mFA91B27C97393F3ABE1AD89E22697AF96911E7C5 (void);
+extern void OVRP_1_38_0_ovrp_Media_GetInitialized_mD96CBDFAB1EF4B748047E75B02A4553248F38B5E (void);
 // 0x000004E0 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_Update()
-extern void OVRP_1_38_0_ovrp_Media_Update_mA77E6C0C3559775D138B47B8F2BDD93EF2EEAB7E (void);
+extern void OVRP_1_38_0_ovrp_Media_Update_mBE3B08A1D084706C0CF36AFD63B9938CBAE5BC44 (void);
 // 0x000004E1 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_GetMrcActivationMode(OVRPlugin/Media/MrcActivationMode&)
-extern void OVRP_1_38_0_ovrp_Media_GetMrcActivationMode_mDBCD28762C20B4EA373B6B6B990496C5A90DB766 (void);
+extern void OVRP_1_38_0_ovrp_Media_GetMrcActivationMode_mFABCCA186618AD3265E26C0919037D617CECCF91 (void);
 // 0x000004E2 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode)
-extern void OVRP_1_38_0_ovrp_Media_SetMrcActivationMode_mC5686FB408DB5EB9D318E526961C68661DAC1B9D (void);
+extern void OVRP_1_38_0_ovrp_Media_SetMrcActivationMode_m886494C7445363CED5CD2CDE74E772FD283CDF84 (void);
 // 0x000004E3 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_IsMrcEnabled(OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_Media_IsMrcEnabled_m65CFAA41C8F1F4F665AD8956E1510D03D11AF982 (void);
+extern void OVRP_1_38_0_ovrp_Media_IsMrcEnabled_m8A84B45C8D6FE514805A0A39DF99675DF4EB5D35 (void);
 // 0x000004E4 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_IsMrcActivated(OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_Media_IsMrcActivated_mF76D545A3CC1A1547FF1E392665F131DC14D3A6E (void);
+extern void OVRP_1_38_0_ovrp_Media_IsMrcActivated_mCFB2C68CD068CFEB464BEF0E1C53A5305A14929E (void);
 // 0x000004E5 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_UseMrcDebugCamera(OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_Media_UseMrcDebugCamera_m459143FD1E5F7C2BA7980FB52E8F739A0CA4B64E (void);
+extern void OVRP_1_38_0_ovrp_Media_UseMrcDebugCamera_mDC9987F8EA3E4DCF21588E21B1906964BD957EA4 (void);
 // 0x000004E6 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType)
-extern void OVRP_1_38_0_ovrp_Media_SetMrcInputVideoBufferType_m94CBE5FD3BE145C75B3DD7A6DA702D1638927D8A (void);
+extern void OVRP_1_38_0_ovrp_Media_SetMrcInputVideoBufferType_m482BA429CF90C75309CCDD5E6A55490C500358F9 (void);
 // 0x000004E7 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_GetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType&)
-extern void OVRP_1_38_0_ovrp_Media_GetMrcInputVideoBufferType_mA39CD7E6EC28BD2E10FD02F1EC5E0D6BF4E7109A (void);
+extern void OVRP_1_38_0_ovrp_Media_GetMrcInputVideoBufferType_m07E623CD166B1BC7ADC019EBE2642D07D03B3119 (void);
 // 0x000004E8 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_SetMrcFrameSize(System.Int32,System.Int32)
-extern void OVRP_1_38_0_ovrp_Media_SetMrcFrameSize_mF407A85FC6699F5D0E9E3B8A8A091B497C5D72BB (void);
+extern void OVRP_1_38_0_ovrp_Media_SetMrcFrameSize_mFEE9C3B8560FB3323C4DC65B45AF373536595EF1 (void);
 // 0x000004E9 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_GetMrcFrameSize(System.Int32&,System.Int32&)
-extern void OVRP_1_38_0_ovrp_Media_GetMrcFrameSize_mA029F1583EDA4CC864E5709F9DC6C910CD02D6D3 (void);
+extern void OVRP_1_38_0_ovrp_Media_GetMrcFrameSize_mAB3E720F9878AD092A318B6167E0685CA9B79D0B (void);
 // 0x000004EA OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_SetMrcAudioSampleRate(System.Int32)
-extern void OVRP_1_38_0_ovrp_Media_SetMrcAudioSampleRate_m746308832013C9E9A87303119535186EEA8E0752 (void);
+extern void OVRP_1_38_0_ovrp_Media_SetMrcAudioSampleRate_mDF5113E5028EA56312EE700EE301B37D2545D2BC (void);
 // 0x000004EB OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_GetMrcAudioSampleRate(System.Int32&)
-extern void OVRP_1_38_0_ovrp_Media_GetMrcAudioSampleRate_m9E9A2853E3116188E19426AB0324DDC14D897547 (void);
+extern void OVRP_1_38_0_ovrp_Media_GetMrcAudioSampleRate_mDC7B288C0A20A266278347A14B7800BA73969B14 (void);
 // 0x000004EC OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_SetMrcFrameImageFlipped(OVRPlugin/Bool)
-extern void OVRP_1_38_0_ovrp_Media_SetMrcFrameImageFlipped_mAFF6E7D23EF6327E3F1309C6CCDE9403ADCA3C88 (void);
+extern void OVRP_1_38_0_ovrp_Media_SetMrcFrameImageFlipped_m832019B36ADA766F3A93E9EFC46A5584D0CB376C (void);
 // 0x000004ED OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_GetMrcFrameImageFlipped(OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_Media_GetMrcFrameImageFlipped_m5BF416DC4DC8C8BB04B32052BE3BD95EA2F5AF4C (void);
+extern void OVRP_1_38_0_ovrp_Media_GetMrcFrameImageFlipped_m48F903B8934A8BFD4E9485B45C424824EA95DB30 (void);
 // 0x000004EE OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_EncodeMrcFrame(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Double,System.Int32&)
-extern void OVRP_1_38_0_ovrp_Media_EncodeMrcFrame_m53C6B3CA1BEF9F79A81925E34F95B03C485E9CB6 (void);
+extern void OVRP_1_38_0_ovrp_Media_EncodeMrcFrame_mAC391EC4739792A81FA113F5E89B7488C8E4BD04 (void);
 // 0x000004EF OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_EncodeMrcFrameWithDualTextures(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Double,System.Int32&)
-extern void OVRP_1_38_0_ovrp_Media_EncodeMrcFrameWithDualTextures_m2ACC18E0D0693EF1D3BFCB66B787AEC4147F3847 (void);
+extern void OVRP_1_38_0_ovrp_Media_EncodeMrcFrameWithDualTextures_m9667E4EEA7EEFEC2506FFF268C4101A40A0A37D7 (void);
 // 0x000004F0 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_Media_SyncMrcFrame(System.Int32)
-extern void OVRP_1_38_0_ovrp_Media_SyncMrcFrame_m9B8ED122F87202FEEB81A99E121BF3A857FEB7ED (void);
+extern void OVRP_1_38_0_ovrp_Media_SyncMrcFrame_m51565CD70BD6F2C8404C23946E65D619BD4F5384 (void);
 // 0x000004F1 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_SetDeveloperMode(OVRPlugin/Bool)
-extern void OVRP_1_38_0_ovrp_SetDeveloperMode_m3F284768C22A4C33BC932BA07D4E3B54939D44FB (void);
+extern void OVRP_1_38_0_ovrp_SetDeveloperMode_m7398CDA6830195593430EF7FFF489EDCEFEF0C58 (void);
 // 0x000004F2 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_GetNodeOrientationValid(OVRPlugin/Node,OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_GetNodeOrientationValid_m24985CBF70DC0CF14242A7A36240982741A9AC06 (void);
+extern void OVRP_1_38_0_ovrp_GetNodeOrientationValid_m560923D67FBB5C656D2A147CF243A22E03126CAB (void);
 // 0x000004F3 OVRPlugin/Result OVRPlugin/OVRP_1_38_0::ovrp_GetNodePositionValid(OVRPlugin/Node,OVRPlugin/Bool&)
-extern void OVRP_1_38_0_ovrp_GetNodePositionValid_mA711E017D9E7F751E4BA098FD260F4327136EFF2 (void);
+extern void OVRP_1_38_0_ovrp_GetNodePositionValid_m3B9B001F003C4BFF90A1892F2E0762031897DE46 (void);
 // 0x000004F4 System.Void OVRPlugin/OVRP_1_38_0::.cctor()
-extern void OVRP_1_38_0__cctor_m92E8CC70DC1D81E94678F247D5CEAE254D654BB6 (void);
+extern void OVRP_1_38_0__cctor_mF2FA3EA0FED5C78084A2EC7D6C595DFCF5CA2F33 (void);
 // 0x000004F5 System.Void OVRPlugin/OVRP_1_39_0::.cctor()
-extern void OVRP_1_39_0__cctor_mF7089AE4B8C8B9F444AC81BD798140787F3F29D5 (void);
+extern void OVRP_1_39_0__cctor_m51D923F0E5D99309E0925FE2DDAF96DBE1130F9B (void);
 // 0x000004F6 System.Void OVRPlugin/OVRP_1_40_0::.cctor()
-extern void OVRP_1_40_0__cctor_mC9791312696B394793B0A634D272B36D7E77394C (void);
+extern void OVRP_1_40_0__cctor_m3ED939F9310C6FABA03C4A57224DC4B50B677C7B (void);
 // 0x000004F7 System.Void OVRPlugin/OVRP_1_41_0::.cctor()
-extern void OVRP_1_41_0__cctor_mCDB6B28007E519DDCAF0D3AE0B88B8881902304D (void);
+extern void OVRP_1_41_0__cctor_mD3129ABAA8E46BE285F7173C0804B5737225ABC9 (void);
 // 0x000004F8 OVRPlugin/Result OVRPlugin/OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2(System.Single&)
-extern void OVRP_1_42_0_ovrp_GetAdaptiveGpuPerformanceScale2_m54468E67ABF76A4DA6F6E4C35683E404F3992412 (void);
+extern void OVRP_1_42_0_ovrp_GetAdaptiveGpuPerformanceScale2_m68CA6CD3DF3EAC42AE43A105D776793B95C6FE59 (void);
 // 0x000004F9 System.Void OVRPlugin/OVRP_1_42_0::.cctor()
-extern void OVRP_1_42_0__cctor_m0E4B1F4FA74B2812241E63F5C5A6726601D25893 (void);
+extern void OVRP_1_42_0__cctor_mC6C63FD080EB758A3258F01723E38E01FC0B3E3E (void);
 // 0x000004FA System.Void OVRPlugin/OVRP_1_43_0::.cctor()
-extern void OVRP_1_43_0__cctor_m5B0A0F8AB807FF20F56D62ECEB657C9263EE7390 (void);
+extern void OVRP_1_43_0__cctor_m82B03A02B6CDCFD637262E42287568300A2242C9 (void);
 // 0x000004FB OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetHandTrackingEnabled(OVRPlugin/Bool&)
-extern void OVRP_1_44_0_ovrp_GetHandTrackingEnabled_m4661A68E03161A461AC98035AB2784B77C36F2C1 (void);
+extern void OVRP_1_44_0_ovrp_GetHandTrackingEnabled_mBEEA1EEDBC3FA02914EF6204A1BB8992A25D6530 (void);
 // 0x000004FC OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetHandState(OVRPlugin/Step,OVRPlugin/Hand,OVRPlugin/HandStateInternal&)
-extern void OVRP_1_44_0_ovrp_GetHandState_m55AC8CACBC5F9D799364FE96BB2B63BD7AB96F76 (void);
+extern void OVRP_1_44_0_ovrp_GetHandState_m3CF995811315C6E1334DB59C7DC39C1A67A64682 (void);
 // 0x000004FD OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetSkeleton(OVRPlugin/SkeletonType,OVRPlugin/Skeleton&)
-extern void OVRP_1_44_0_ovrp_GetSkeleton_mD23ADE4B192126944D3F38DC430E828F1E6A9E8F (void);
+extern void OVRP_1_44_0_ovrp_GetSkeleton_mA697B70575F378E7BD4F63D61EAC6B31E61EF349 (void);
 // 0x000004FE OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetMesh(OVRPlugin/MeshType,System.IntPtr)
-extern void OVRP_1_44_0_ovrp_GetMesh_m9890AD2D8A42DA1A3C2EC614FFBCA74844C67899 (void);
+extern void OVRP_1_44_0_ovrp_GetMesh_m0AEE6F0358CFFD7B22FF2343C58363CEC0616BED (void);
 // 0x000004FF OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_OverrideExternalCameraFov(System.Int32,OVRPlugin/Bool,OVRPlugin/Fovf&)
-extern void OVRP_1_44_0_ovrp_OverrideExternalCameraFov_mD5585104550E7C5013BB38E05563616C8863CD7E (void);
+extern void OVRP_1_44_0_ovrp_OverrideExternalCameraFov_mCFB81A2447336301ECD4DFF2F0CC95620C8E8242 (void);
 // 0x00000500 OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov(System.Int32,OVRPlugin/Bool&)
-extern void OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraFov_m5792C7A6377045FA2FAC487E837F78D1C6A76C46 (void);
+extern void OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraFov_mEC462EA98B74F06CE36C5AE110E90765A57946DB (void);
 // 0x00000501 OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose(System.Int32,OVRPlugin/Bool,OVRPlugin/Posef&)
-extern void OVRP_1_44_0_ovrp_OverrideExternalCameraStaticPose_m835D3E2CE5E9DFF1477C57B9BA435E2013769493 (void);
+extern void OVRP_1_44_0_ovrp_OverrideExternalCameraStaticPose_m45EEEFF907712C0D3282B27B2F3941F961329BE2 (void);
 // 0x00000502 OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose(System.Int32,OVRPlugin/Bool&)
-extern void OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraStaticPose_m7B92622C5ACBAFF63CE6F589856C044D5AF09705 (void);
+extern void OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraStaticPose_mA746668CE06522934FE60DAD26F824394B67150D (void);
 // 0x00000503 OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_ResetDefaultExternalCamera()
-extern void OVRP_1_44_0_ovrp_ResetDefaultExternalCamera_mC33397B7AE86CCEF506026D25CB8D54B11DE1B88 (void);
+extern void OVRP_1_44_0_ovrp_ResetDefaultExternalCamera_mDBA95D95F3AFEB36FD5F82741140F62B81B00B51 (void);
 // 0x00000504 OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_SetDefaultExternalCamera(System.String,OVRPlugin/CameraIntrinsics&,OVRPlugin/CameraExtrinsics&)
-extern void OVRP_1_44_0_ovrp_SetDefaultExternalCamera_m381F5C235BDF8166CA4FAA5FE90FBDA332DDB4EC (void);
+extern void OVRP_1_44_0_ovrp_SetDefaultExternalCamera_m278B839B1BA0BCBEFA71008780C5D338B359D52E (void);
 // 0x00000505 OVRPlugin/Result OVRPlugin/OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount(System.Int32&)
-extern void OVRP_1_44_0_ovrp_GetLocalTrackingSpaceRecenterCount_m1CACC12448F150256083F22C1BEB8A60E8F5484F (void);
+extern void OVRP_1_44_0_ovrp_GetLocalTrackingSpaceRecenterCount_m1135C34B2108953DE5CE78920E91AF368FFF65BB (void);
 // 0x00000506 System.Void OVRPlugin/OVRP_1_44_0::.cctor()
-extern void OVRP_1_44_0__cctor_m8D6BB012FD0F2A3F983ABCA68499DB1C6C1A0CD8 (void);
+extern void OVRP_1_44_0__cctor_mE68110872E0563996E2DF8269FE8A84CE12D4705 (void);
 // 0x00000507 OVRPlugin/Result OVRPlugin/OVRP_1_45_0::ovrp_GetSystemHmd3DofModeEnabled(OVRPlugin/Bool&)
-extern void OVRP_1_45_0_ovrp_GetSystemHmd3DofModeEnabled_m2BE8B8182D82188C2CE86A6E2D2726375074C598 (void);
+extern void OVRP_1_45_0_ovrp_GetSystemHmd3DofModeEnabled_m32E4365F826F1D38005664DD4462152333F79DFD (void);
 // 0x00000508 OVRPlugin/Result OVRPlugin/OVRP_1_45_0::ovrp_Media_SetAvailableQueueIndexVulkan(System.UInt32)
-extern void OVRP_1_45_0_ovrp_Media_SetAvailableQueueIndexVulkan_m40E1C16822A7BA346C3B804FCA3288B5C0A75CD0 (void);
+extern void OVRP_1_45_0_ovrp_Media_SetAvailableQueueIndexVulkan_m5F2B9786D6E6F2D4D805D3AD3144175B38BC26D1 (void);
 // 0x00000509 System.Void OVRPlugin/OVRP_1_45_0::.cctor()
-extern void OVRP_1_45_0__cctor_mBC64A839A327AF0EE0467BA0945FBBF31B0FE98C (void);
+extern void OVRP_1_45_0__cctor_mB31F55661370717F7F3DFA323B427859914B6CE6 (void);
 // 0x0000050A OVRPlugin/Result OVRPlugin/OVRP_1_46_0::ovrp_GetTiledMultiResDynamic(OVRPlugin/Bool&)
-extern void OVRP_1_46_0_ovrp_GetTiledMultiResDynamic_m1E243DC1FCE22B1B1FAC51CBE046DAB0B546E95E (void);
+extern void OVRP_1_46_0_ovrp_GetTiledMultiResDynamic_m7D38817BF6B580BCD3EB0F704B0F303D04C36584 (void);
 // 0x0000050B OVRPlugin/Result OVRPlugin/OVRP_1_46_0::ovrp_SetTiledMultiResDynamic(OVRPlugin/Bool)
-extern void OVRP_1_46_0_ovrp_SetTiledMultiResDynamic_mFA6DFF4B099D4AA91843072DC4FFA18282532592 (void);
+extern void OVRP_1_46_0_ovrp_SetTiledMultiResDynamic_m3173A646660664BE5B2F562465E241C9368BD3C0 (void);
 // 0x0000050C System.Void OVRPlugin/OVRP_1_46_0::.cctor()
-extern void OVRP_1_46_0__cctor_mAFB89F7D25E671F0A017684ED741DC003278BDA6 (void);
+extern void OVRP_1_46_0__cctor_mD2642B3293AFBC5FEBB35F857ACBB83F24CBAA8B (void);
 // 0x0000050D System.Void OVRPlugin/OVRP_1_47_0::.cctor()
-extern void OVRP_1_47_0__cctor_m8981B7C0330D2FAED1D486A90BF7F6A5910E8F84 (void);
+extern void OVRP_1_47_0__cctor_mFD894B7FCD05C7FABF18837E082A9F0C37354EAF (void);
 // 0x0000050E OVRPlugin/Result OVRPlugin/OVRP_1_48_0::ovrp_SetExternalCameraProperties(System.String,OVRPlugin/CameraIntrinsics&,OVRPlugin/CameraExtrinsics&)
-extern void OVRP_1_48_0_ovrp_SetExternalCameraProperties_m23CBB4EE3EA4B08E561CD42502EC0280284EA01C (void);
+extern void OVRP_1_48_0_ovrp_SetExternalCameraProperties_m8E3699043D3DA23B2BBB1E642AD995A9E28044A7 (void);
 // 0x0000050F System.Void OVRPlugin/OVRP_1_48_0::.cctor()
-extern void OVRP_1_48_0__cctor_mC6159DA0F544216193D54A98A204522C3214245F (void);
+extern void OVRP_1_48_0__cctor_mDE4DF31B069CB0383651DA55069521D0CE28BD70 (void);
 // 0x00000510 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_SetClientColorDesc(OVRPlugin/ColorSpace)
-extern void OVRP_1_49_0_ovrp_SetClientColorDesc_m1F4144D271CCC0BBA4EB3757BF358783F624C447 (void);
+extern void OVRP_1_49_0_ovrp_SetClientColorDesc_m3D304D4315B89B9922BD5370518878191BA74011 (void);
 // 0x00000511 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_GetHmdColorDesc(OVRPlugin/ColorSpace&)
-extern void OVRP_1_49_0_ovrp_GetHmdColorDesc_m4F27D332BF5844F19BA981192845D16B096B47B3 (void);
+extern void OVRP_1_49_0_ovrp_GetHmdColorDesc_mD964EF9266AD87A7A8E20947028F88582D82F821 (void);
 // 0x00000512 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_EncodeMrcFrameWithPoseTime(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Double,System.Double,System.Int32&)
-extern void OVRP_1_49_0_ovrp_Media_EncodeMrcFrameWithPoseTime_mE5E0225D9E6AA0CEFA4C737021C8E32298824B08 (void);
+extern void OVRP_1_49_0_ovrp_Media_EncodeMrcFrameWithPoseTime_m66579ABD32CF065C6EEEBA2A86DBB4C4107BE64D (void);
 // 0x00000513 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Double,System.Double,System.Int32&)
-extern void OVRP_1_49_0_ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime_m3E6C1EC8FFC6CA25982C992ACB4A1D61E34374A8 (void);
+extern void OVRP_1_49_0_ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime_m0D2C239FC03EDA5211A971CE9012BD533F338AAE (void);
 // 0x00000514 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_SetHeadsetControllerPose(OVRPlugin/Posef,OVRPlugin/Posef,OVRPlugin/Posef)
-extern void OVRP_1_49_0_ovrp_Media_SetHeadsetControllerPose_m3265AD536D4FEC743BCB388376D1C6CD112AEA6A (void);
+extern void OVRP_1_49_0_ovrp_Media_SetHeadsetControllerPose_m9510F06F001A92D2DD4DFE57736A38D2FC4E38A9 (void);
 // 0x00000515 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_EnumerateCameraAnchorHandles(System.Int32&,System.IntPtr&)
-extern void OVRP_1_49_0_ovrp_Media_EnumerateCameraAnchorHandles_m513976E66AA8B5D8051DCF30C052BD77017041C3 (void);
+extern void OVRP_1_49_0_ovrp_Media_EnumerateCameraAnchorHandles_m754DE821148BD5382C8952F2A6CF5803E81AF4F3 (void);
 // 0x00000516 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_GetCurrentCameraAnchorHandle(System.IntPtr&)
-extern void OVRP_1_49_0_ovrp_Media_GetCurrentCameraAnchorHandle_m42A8134307F8495193B4E5F6DC62EC4D3C504400 (void);
+extern void OVRP_1_49_0_ovrp_Media_GetCurrentCameraAnchorHandle_m08DD6ED5EAFB0CED9E8B4B6D01321A42D0FF0DA7 (void);
 // 0x00000517 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_GetCameraAnchorName(System.IntPtr,System.Char[])
-extern void OVRP_1_49_0_ovrp_Media_GetCameraAnchorName_mC7A72C5AEB33BB137D430EC7BA61D37FCFC8A2D6 (void);
+extern void OVRP_1_49_0_ovrp_Media_GetCameraAnchorName_m6304CFF4460073F04B942A5DE71D61BED07C8B63 (void);
 // 0x00000518 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_GetCameraAnchorHandle(System.IntPtr,System.IntPtr&)
-extern void OVRP_1_49_0_ovrp_Media_GetCameraAnchorHandle_m654442652111A4EA1785D53301B2106CBDE4EFA1 (void);
+extern void OVRP_1_49_0_ovrp_Media_GetCameraAnchorHandle_m7E52E2FA8F183C297E7534561E769A5A061DC63B (void);
 // 0x00000519 OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_GetCameraAnchorType(System.IntPtr,OVRPlugin/CameraAnchorType&)
-extern void OVRP_1_49_0_ovrp_Media_GetCameraAnchorType_m3C8D55C6D70D237A2900C72F87CC7D0BD9D6AD78 (void);
+extern void OVRP_1_49_0_ovrp_Media_GetCameraAnchorType_m41F3863FD47713F5D35BAB5C4473AABC1D98AE00 (void);
 // 0x0000051A OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_CreateCustomCameraAnchor(System.IntPtr,System.IntPtr&)
-extern void OVRP_1_49_0_ovrp_Media_CreateCustomCameraAnchor_mCD1AAB2BCFAF8831E80631DF27F1E53876C01594 (void);
+extern void OVRP_1_49_0_ovrp_Media_CreateCustomCameraAnchor_mD116D3F6AEE32205F871CEB86A6FB74D619851D2 (void);
 // 0x0000051B OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_DestroyCustomCameraAnchor(System.IntPtr)
-extern void OVRP_1_49_0_ovrp_Media_DestroyCustomCameraAnchor_m36C370E7EFCCA2F4218FDDABCEFBE567C49F01C0 (void);
+extern void OVRP_1_49_0_ovrp_Media_DestroyCustomCameraAnchor_mCD487BF17171B8A9BE90042426AA9109584A9A6C (void);
 // 0x0000051C OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_GetCustomCameraAnchorPose(System.IntPtr,OVRPlugin/Posef&)
-extern void OVRP_1_49_0_ovrp_Media_GetCustomCameraAnchorPose_m40B0D15668944E583086A68718030EF7AD64EEA3 (void);
+extern void OVRP_1_49_0_ovrp_Media_GetCustomCameraAnchorPose_m6A07CAD5CB6E8CCBADD491201FD5403D125A0046 (void);
 // 0x0000051D OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_SetCustomCameraAnchorPose(System.IntPtr,OVRPlugin/Posef)
-extern void OVRP_1_49_0_ovrp_Media_SetCustomCameraAnchorPose_mEB7AA751CB6FED947F92597DAAA7366972C9769D (void);
+extern void OVRP_1_49_0_ovrp_Media_SetCustomCameraAnchorPose_mDF0A811BAD32D05A52E94B53D3CDD14096E5BD49 (void);
 // 0x0000051E OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_GetCameraMinMaxDistance(System.IntPtr,System.Double&,System.Double&)
-extern void OVRP_1_49_0_ovrp_Media_GetCameraMinMaxDistance_m2DA5EEBA10D5BD4889C3C99FA767627B36E6D15C (void);
+extern void OVRP_1_49_0_ovrp_Media_GetCameraMinMaxDistance_m142BE62392CB4D5DFE21C88EB2FA81370455C581 (void);
 // 0x0000051F OVRPlugin/Result OVRPlugin/OVRP_1_49_0::ovrp_Media_SetCameraMinMaxDistance(System.IntPtr,System.Double,System.Double)
-extern void OVRP_1_49_0_ovrp_Media_SetCameraMinMaxDistance_mD2896D4B2CE3ED29D194BDCCDA31E7FFFFEC4016 (void);
+extern void OVRP_1_49_0_ovrp_Media_SetCameraMinMaxDistance_mBFC5D2FDD057C4A89E9F3C6FFF95E88768699A26 (void);
 // 0x00000520 System.Void OVRPlugin/OVRP_1_49_0::.cctor()
-extern void OVRP_1_49_0__cctor_m2350258A7D6CA136AD1A01D914B97CD5EAB3C9DB (void);
+extern void OVRP_1_49_0__cctor_m4F7EE5909D303EA6261CCF9C58685AA95467B2BF (void);
 // 0x00000521 System.Void OVRPlugin/OVRP_1_50_0::.cctor()
-extern void OVRP_1_50_0__cctor_mA4FCC11285DAB3F492E091BA3B770DFE2C8F216D (void);
+extern void OVRP_1_50_0__cctor_m3826D37FAA90ABCDED1FA75B8D46D68F342AE067 (void);
 // 0x00000522 System.Void OVRPlugin/OVRP_1_51_0::.cctor()
-extern void OVRP_1_51_0__cctor_mF825997F1BCE06201524B79A3FB4DADBF4E4D4BC (void);
+extern void OVRP_1_51_0__cctor_mBDB0F13F8D8C69224E2420F7AC3B77EDA99E4037 (void);
 // 0x00000523 System.Void OVRPlugin/OVRP_1_52_0::.cctor()
-extern void OVRP_1_52_0__cctor_mFE44DC1B68A893D065D8E1EE2B0882959A1798D8 (void);
+extern void OVRP_1_52_0__cctor_m6361BDE1FBB7474E44C3B0F097F8141F48299C9D (void);
 // 0x00000524 System.Void OVRPlugin/OVRP_1_53_0::.cctor()
-extern void OVRP_1_53_0__cctor_mF8730D00747A275C75D4A7FE73CE4195A7A9BECA (void);
+extern void OVRP_1_53_0__cctor_mF956579B9D8E09054D921B184202079522488C53 (void);
 // 0x00000525 OVRPlugin/Result OVRPlugin/OVRP_1_54_0::ovrp_Media_SetPlatformInitialized()
-extern void OVRP_1_54_0_ovrp_Media_SetPlatformInitialized_m67842C9C9935A4AE8C073F3185DBD47BC9B2800C (void);
+extern void OVRP_1_54_0_ovrp_Media_SetPlatformInitialized_m8ACFD3AE1358130E9C399E7FF5C77ED38F962E12 (void);
 // 0x00000526 System.Void OVRPlugin/OVRP_1_54_0::.cctor()
-extern void OVRP_1_54_0__cctor_m4704FFC63C4A0E7A064FACE6A677C1CE78565008 (void);
+extern void OVRP_1_54_0__cctor_m7C88DFC47E9129B460426ED63340D8D611EBED6B (void);
 // 0x00000527 OVRPlugin/Result OVRPlugin/OVRP_1_55_0::ovrp_GetSkeleton2(OVRPlugin/SkeletonType,OVRPlugin/Skeleton2Internal&)
-extern void OVRP_1_55_0_ovrp_GetSkeleton2_m7EA3906F0D161B62CEAAE83E0F9CBC18D4184D4F (void);
+extern void OVRP_1_55_0_ovrp_GetSkeleton2_mA354C5BFDC3B0A12CC5636A924A44EB3D9F165D4 (void);
 // 0x00000528 OVRPlugin/Result OVRPlugin/OVRP_1_55_0::ovrp_PollEvent(OVRPlugin/EventDataBuffer&)
-extern void OVRP_1_55_0_ovrp_PollEvent_m37B0CBB019B5D32FDED715D4556835F65B4F3013 (void);
+extern void OVRP_1_55_0_ovrp_PollEvent_m735190A41358E7AC6C0F0211E85E9B71906A7C95 (void);
 // 0x00000529 OVRPlugin/Result OVRPlugin/OVRP_1_55_0::ovrp_GetNativeXrApiType(OVRPlugin/XrApi&)
-extern void OVRP_1_55_0_ovrp_GetNativeXrApiType_mC1530969045830F4DCA998BAA893F4EDE1C5083B (void);
+extern void OVRP_1_55_0_ovrp_GetNativeXrApiType_m09972C70AB960E65CE4EDF06D108164E800872A7 (void);
 // 0x0000052A OVRPlugin/Result OVRPlugin/OVRP_1_55_0::ovrp_GetNativeOpenXRHandles(System.UInt64&,System.UInt64&)
-extern void OVRP_1_55_0_ovrp_GetNativeOpenXRHandles_m1E4BC9C931B663CDA90FA6C54FA9178DBFB7544D (void);
+extern void OVRP_1_55_0_ovrp_GetNativeOpenXRHandles_mB3A15EB19386343313029577213D7E7CBB5C5215 (void);
 // 0x0000052B System.Void OVRPlugin/OVRP_1_55_0::.cctor()
-extern void OVRP_1_55_0__cctor_m7E087A2768E10B945F3E5C847E7C9A1EE6E8834C (void);
+extern void OVRP_1_55_0__cctor_m410723F1CDCE52BA99E71F80B6CB7F631D29B36E (void);
 // 0x0000052C OVRPlugin/Result OVRPlugin/OVRP_1_55_1::ovrp_PollEvent2(OVRPlugin/EventType&,System.IntPtr&)
-extern void OVRP_1_55_1_ovrp_PollEvent2_mCF3C8F3197A883034E03A569964F8E54871077F2 (void);
+extern void OVRP_1_55_1_ovrp_PollEvent2_m1657931090E9AE7C89467ADE6028EE83D0869003 (void);
 // 0x0000052D System.Void OVRPlugin/OVRP_1_55_1::.cctor()
-extern void OVRP_1_55_1__cctor_m9CA681CB6B60C0B955ECC79C398D2008FCB08EB4 (void);
+extern void OVRP_1_55_1__cctor_mEB393B74B431E3FB772BBB7F95E29EB34F668CB9 (void);
 // 0x0000052E System.Void OVRPlugin/OVRP_1_56_0::.cctor()
-extern void OVRP_1_56_0__cctor_mDAB2F506FE0F443E982ABB112612D7BD43C56293 (void);
+extern void OVRP_1_56_0__cctor_mDDEBF869A9170C03FCFFF03F42D30B3F3939C75A (void);
 // 0x0000052F OVRPlugin/Result OVRPlugin/OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode&)
-extern void OVRP_1_57_0_ovrp_Media_GetPlatformCameraMode_mC1DAF93E060EDDFBED7E25CBFE9127A59A86FAE4 (void);
+extern void OVRP_1_57_0_ovrp_Media_GetPlatformCameraMode_mB9395D53DE8C10A6F422A074EE5126D921225C64 (void);
 // 0x00000530 OVRPlugin/Result OVRPlugin/OVRP_1_57_0::ovrp_Media_SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode)
-extern void OVRP_1_57_0_ovrp_Media_SetPlatformCameraMode_m3357F360D9C18E17C1149AF0E4B91340DFA3B787 (void);
+extern void OVRP_1_57_0_ovrp_Media_SetPlatformCameraMode_m614B809F7C6F2B308FFC870F7DFA8C0D20D58DCC (void);
 // 0x00000531 OVRPlugin/Result OVRPlugin/OVRP_1_57_0::ovrp_SetEyeFovPremultipliedAlphaMode(OVRPlugin/Bool)
-extern void OVRP_1_57_0_ovrp_SetEyeFovPremultipliedAlphaMode_m599F101A5D7C707F2FF25D55CDBD08CBE367890E (void);
+extern void OVRP_1_57_0_ovrp_SetEyeFovPremultipliedAlphaMode_m98307733A443A30BD5C20AC4E749F63E57C2355E (void);
 // 0x00000532 OVRPlugin/Result OVRPlugin/OVRP_1_57_0::ovrp_GetEyeFovPremultipliedAlphaMode(OVRPlugin/Bool&)
-extern void OVRP_1_57_0_ovrp_GetEyeFovPremultipliedAlphaMode_m9E141D34DE9263DDB2AAFC92ABF2A4A3625566FA (void);
+extern void OVRP_1_57_0_ovrp_GetEyeFovPremultipliedAlphaMode_m46A435771BE5E4DFD07EE33F20C7F9F02B6CB42D (void);
 // 0x00000533 OVRPlugin/Result OVRPlugin/OVRP_1_57_0::ovrp_SetKeyboardOverlayUV(OVRPlugin/Vector2f)
-extern void OVRP_1_57_0_ovrp_SetKeyboardOverlayUV_m44ADA75F914BDC3C480303A2E24C763B92683412 (void);
+extern void OVRP_1_57_0_ovrp_SetKeyboardOverlayUV_mB7137A19B69986C0E58F74030B43AC01440DEB63 (void);
 // 0x00000534 System.Void OVRPlugin/OVRP_1_57_0::.cctor()
-extern void OVRP_1_57_0__cctor_m5F83470A6B2D5A87F8BB74A01E5735965E6EEAD9 (void);
+extern void OVRP_1_57_0__cctor_mB9D932E00F2702451B42F754696ACF6C8600A573 (void);
 // 0x00000535 System.Void OVRPlugin/OVRP_1_58_0::.cctor()
-extern void OVRP_1_58_0__cctor_m0CEDDD5E69EBD60D6F3E70D571611ABAC4EAF622 (void);
+extern void OVRP_1_58_0__cctor_mB6657182EDF6E80662C5EEC8156EC2C735C01898 (void);
 // 0x00000536 System.Void OVRPlugin/OVRP_1_59_0::.cctor()
-extern void OVRP_1_59_0__cctor_m1FCE8F4ED24C71E80260FDD16199071D660818B4 (void);
+extern void OVRP_1_59_0__cctor_mC3FE1232E56C651FD0CDD3E47272A442A2435DF6 (void);
 // 0x00000537 System.Void OVRPlugin/OVRP_1_60_0::.cctor()
-extern void OVRP_1_60_0__cctor_m1059FF76C686C7F38EED86ED0BD663BA6B9AD43D (void);
+extern void OVRP_1_60_0__cctor_m0B65877BFCF5A637B87AE65B86F52ABE2C5105C4 (void);
 // 0x00000538 System.Void OVRPlugin/OVRP_1_61_0::.cctor()
-extern void OVRP_1_61_0__cctor_m009ACC9CA7FE01D839296B18C5E638F90CF3C18E (void);
+extern void OVRP_1_61_0__cctor_m2CEEC1C78AF56AE401D63173AA171E893A513AE7 (void);
 // 0x00000539 System.Void OVRPlugin/OVRP_1_62_0::.cctor()
-extern void OVRP_1_62_0__cctor_mBB486E9C9776BBD39420BFE86B8E8A69C1931F30 (void);
+extern void OVRP_1_62_0__cctor_m0594022B51C9944B96EC7B1A3758F0570A019340 (void);
 // 0x0000053A OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_InitializeInsightPassthrough()
-extern void OVRP_1_63_0_ovrp_InitializeInsightPassthrough_m06D8ABDE952617A7F1F9146C108035BEFE4EFFEB (void);
+extern void OVRP_1_63_0_ovrp_InitializeInsightPassthrough_m489747FE38FA784BEE746B2AF1D24116660D5C27 (void);
 // 0x0000053B OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_ShutdownInsightPassthrough()
-extern void OVRP_1_63_0_ovrp_ShutdownInsightPassthrough_m51398C0C17E4CA31D5046893F32F92E23C9B7D23 (void);
+extern void OVRP_1_63_0_ovrp_ShutdownInsightPassthrough_mFC7D5D92571E76B4353ED0DADEC488104B239C27 (void);
 // 0x0000053C OVRPlugin/Bool OVRPlugin/OVRP_1_63_0::ovrp_GetInsightPassthroughInitialized()
-extern void OVRP_1_63_0_ovrp_GetInsightPassthroughInitialized_m99D4AC60765BEE51A9A02621C5BB3BABB79714E7 (void);
+extern void OVRP_1_63_0_ovrp_GetInsightPassthroughInitialized_mB4C140004E8566633B46843F1A16AB09752A3AB3 (void);
 // 0x0000053D OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_SetInsightPassthroughStyle(System.Int32,OVRPlugin/InsightPassthroughStyle)
-extern void OVRP_1_63_0_ovrp_SetInsightPassthroughStyle_m57317619261D61DF8B938AE5DF44E877311B161D (void);
+extern void OVRP_1_63_0_ovrp_SetInsightPassthroughStyle_m6FB7611B50B6759CEC8F2AD92B7A8D1EDA754AC6 (void);
 // 0x0000053E OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_CreateInsightTriangleMesh(System.Int32,System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.UInt64&)
-extern void OVRP_1_63_0_ovrp_CreateInsightTriangleMesh_m7E817FAE560CC74A79AC443448167A5F4404F235 (void);
+extern void OVRP_1_63_0_ovrp_CreateInsightTriangleMesh_m06F6D38A3C5F3AD5DEFF2116535BD4B41FF27404 (void);
 // 0x0000053F OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_DestroyInsightTriangleMesh(System.UInt64)
-extern void OVRP_1_63_0_ovrp_DestroyInsightTriangleMesh_mEAAF9FA2E005FF2F61F988EF4235DA923182A3F8 (void);
+extern void OVRP_1_63_0_ovrp_DestroyInsightTriangleMesh_m4D5849B6BD044A0C4132EB9A9FD823313809BC9E (void);
 // 0x00000540 OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_AddInsightPassthroughSurfaceGeometry(System.Int32,System.UInt64,UnityEngine.Matrix4x4,System.UInt64&)
-extern void OVRP_1_63_0_ovrp_AddInsightPassthroughSurfaceGeometry_m73CF3F27300F5B1E7789088DB21C03FEA799514E (void);
+extern void OVRP_1_63_0_ovrp_AddInsightPassthroughSurfaceGeometry_mB62B61BFAD7E1DB0403A5F9B5BEDBD0E58BF4A98 (void);
 // 0x00000541 OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_DestroyInsightPassthroughGeometryInstance(System.UInt64)
-extern void OVRP_1_63_0_ovrp_DestroyInsightPassthroughGeometryInstance_m6DC56FEA27C38045A002C78ED51A0AA8412F1F85 (void);
+extern void OVRP_1_63_0_ovrp_DestroyInsightPassthroughGeometryInstance_mBC25EFF6C12A047CB1FD99EEF53AF26381CE1B67 (void);
 // 0x00000542 OVRPlugin/Result OVRPlugin/OVRP_1_63_0::ovrp_UpdateInsightPassthroughGeometryTransform(System.UInt64,UnityEngine.Matrix4x4)
-extern void OVRP_1_63_0_ovrp_UpdateInsightPassthroughGeometryTransform_m19FE57A0BBAE61401EB2665ABAA23A4852EC3F9D (void);
+extern void OVRP_1_63_0_ovrp_UpdateInsightPassthroughGeometryTransform_mED84B75A3797790C375611ADD748958CA8FA698C (void);
 // 0x00000543 System.Void OVRPlugin/OVRP_1_63_0::.cctor()
-extern void OVRP_1_63_0__cctor_m948B32A83496AD6A049DA2E56F72C1CCCDE8EEC5 (void);
+extern void OVRP_1_63_0__cctor_m0855DCB2E409A53141CA160C24D65B15D4D6E7CC (void);
 // 0x00000544 OVRPlugin/Result OVRPlugin/OVRP_1_64_0::ovrp_LocateSpace(OVRPlugin/Posef&,System.UInt64&,OVRPlugin/TrackingOrigin)
-extern void OVRP_1_64_0_ovrp_LocateSpace_m367F3286A9BADF39489511ACE6602F5B98497EE8 (void);
+extern void OVRP_1_64_0_ovrp_LocateSpace_m531AB17B13FCBF6BBA1263E553324E3894E8E279 (void);
 // 0x00000545 System.Void OVRPlugin/OVRP_1_64_0::.cctor()
-extern void OVRP_1_64_0__cctor_m6B3214C7CBA79E81B3963770C169CC03EB7D300B (void);
+extern void OVRP_1_64_0__cctor_m68BA32CBE845F9313A54BB6C076E37EB8039B01C (void);
 // 0x00000546 OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxLoadFromMemory(System.IntPtr&,System.UInt32,System.IntPtr&)
-extern void OVRP_1_65_0_ovrp_KtxLoadFromMemory_mB3104D9AB1D8F926F74BD52A244E05C448861CD4 (void);
+extern void OVRP_1_65_0_ovrp_KtxLoadFromMemory_mED224F0ABD3C2A5CDD719569959C4DE82C824E66 (void);
 // 0x00000547 OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxTextureWidth(System.IntPtr,System.UInt32&)
-extern void OVRP_1_65_0_ovrp_KtxTextureWidth_m28956734C03854D6E09EDF3B00DF1CD05B543231 (void);
+extern void OVRP_1_65_0_ovrp_KtxTextureWidth_m04FF9310C7F201C8F751FE5922B287EDBC4A816C (void);
 // 0x00000548 OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxTextureHeight(System.IntPtr,System.UInt32&)
-extern void OVRP_1_65_0_ovrp_KtxTextureHeight_m0EC410A497DBDDFA7470DDCF8476DEBD755BE233 (void);
+extern void OVRP_1_65_0_ovrp_KtxTextureHeight_mA6F584F78F60D1D7D52C1EF0DCD37A5E8078353F (void);
 // 0x00000549 OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxTranscode(System.IntPtr,System.UInt32)
-extern void OVRP_1_65_0_ovrp_KtxTranscode_m1490208B9952F87E042E916253BE203CB685C569 (void);
+extern void OVRP_1_65_0_ovrp_KtxTranscode_mD839AA407C392F63B669DBD977374DB40EB3DCC4 (void);
 // 0x0000054A OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxGetTextureData(System.IntPtr,System.IntPtr,System.UInt32)
-extern void OVRP_1_65_0_ovrp_KtxGetTextureData_m932E7D9B8F917F4B3348E7021B3D91FFD8A16115 (void);
+extern void OVRP_1_65_0_ovrp_KtxGetTextureData_m24BAB8D0B8B024C6654F58E1F2D49DC5A110A972 (void);
 // 0x0000054B OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxTextureSize(System.IntPtr,System.UInt32&)
-extern void OVRP_1_65_0_ovrp_KtxTextureSize_mA9544D4A1B667BF2FF63BE3DA2A1696C6E7BFA9D (void);
+extern void OVRP_1_65_0_ovrp_KtxTextureSize_m5B61B1544BA29814812A434145DDAD1D5F1A403D (void);
 // 0x0000054C OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_KtxDestroy(System.IntPtr)
-extern void OVRP_1_65_0_ovrp_KtxDestroy_m403CFE54B02BEFF86FA97E8B2B885C703AF2CEFD (void);
+extern void OVRP_1_65_0_ovrp_KtxDestroy_mE703C907DAB2F1FF48A2E3BBA2F3C747BD62D220 (void);
 // 0x0000054D OVRPlugin/Result OVRPlugin/OVRP_1_65_0::ovrp_DestroySpace(System.UInt64&)
-extern void OVRP_1_65_0_ovrp_DestroySpace_m11BB8C272AF10B9556A58189EDD1C9BCA9DAECE5 (void);
+extern void OVRP_1_65_0_ovrp_DestroySpace_mEA6C0D712D3FCD50F959545DF73F5C9A65741D40 (void);
 // 0x0000054E System.Void OVRPlugin/OVRP_1_65_0::.cctor()
-extern void OVRP_1_65_0__cctor_mC329426A6650FC2310794A8ACEB17CA2D17BC3DC (void);
+extern void OVRP_1_65_0__cctor_mBB840F408AD0ADE77CE34665B8DF6D54DA03BF1D (void);
 // 0x0000054F OVRPlugin/Result OVRPlugin/OVRP_1_66_0::ovrp_GetInsightPassthroughInitializationState()
-extern void OVRP_1_66_0_ovrp_GetInsightPassthroughInitializationState_m9F62E3CB1F6E027906EF77A2421F55164D40DD72 (void);
+extern void OVRP_1_66_0_ovrp_GetInsightPassthroughInitializationState_mD07BE893A072BBCC8CB2E9F7826939DD26D4C943 (void);
 // 0x00000550 OVRPlugin/Result OVRPlugin/OVRP_1_66_0::ovrp_Media_IsCastingToRemoteClient(OVRPlugin/Bool&)
-extern void OVRP_1_66_0_ovrp_Media_IsCastingToRemoteClient_mD7E124A2163E8B44DC4FC1E6C96FDCDC9D39053A (void);
+extern void OVRP_1_66_0_ovrp_Media_IsCastingToRemoteClient_m190423DECB3558620D3E7F065E323838F17313D2 (void);
 // 0x00000551 System.Void OVRPlugin/OVRP_1_66_0::.cctor()
-extern void OVRP_1_66_0__cctor_m841C518C348F2D2479BA77B5E32F6F4C48B06716 (void);
+extern void OVRP_1_66_0__cctor_m2E35897AF381E03D8993644F55623EB7BF253299 (void);
 // 0x00000552 System.Void OVRPlugin/OVRP_1_67_0::.cctor()
-extern void OVRP_1_67_0__cctor_mF6180620D1E7BE6A7101215502128A9D95B0151D (void);
+extern void OVRP_1_67_0__cctor_m7EF4473F8F676A7EADAD9BA5A34F6B77870F2A65 (void);
 // 0x00000553 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_LoadRenderModel(System.UInt64,System.UInt32,System.UInt32&,System.IntPtr)
-extern void OVRP_1_68_0_ovrp_LoadRenderModel_mF4DD00A68B26D3227C70BDB81C7B889CD15D7D94 (void);
+extern void OVRP_1_68_0_ovrp_LoadRenderModel_m045EBD196891166594264F159024D90691FAB03D (void);
 // 0x00000554 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_GetRenderModelPaths(System.UInt32,System.IntPtr)
-extern void OVRP_1_68_0_ovrp_GetRenderModelPaths_mE458218B99C472AF045CFD741EAEAC4F98AA9C97 (void);
+extern void OVRP_1_68_0_ovrp_GetRenderModelPaths_mEE515FD6D50A4BD928694F0818D6B67EF6F437B8 (void);
 // 0x00000555 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_GetRenderModelProperties(System.String,OVRPlugin/RenderModelPropertiesInternal&)
-extern void OVRP_1_68_0_ovrp_GetRenderModelProperties_mF1AA6D4E35B8FBBB140D8C526220EF79F0EBAAB7 (void);
+extern void OVRP_1_68_0_ovrp_GetRenderModelProperties_m90C3DD1985667E4E48184E5602CA7232E1E5689E (void);
 // 0x00000556 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_SetInsightPassthroughKeyboardHandsIntensity(System.Int32,OVRPlugin/InsightPassthroughKeyboardHandsIntensity)
-extern void OVRP_1_68_0_ovrp_SetInsightPassthroughKeyboardHandsIntensity_m23A57C212BF10B83965ED6415219C618DE052450 (void);
+extern void OVRP_1_68_0_ovrp_SetInsightPassthroughKeyboardHandsIntensity_mB2C2DA3DCCF4BE268DB580D94FE7C3B24C9FBBC6 (void);
 // 0x00000557 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_StartKeyboardTracking(System.UInt64)
-extern void OVRP_1_68_0_ovrp_StartKeyboardTracking_mB7643C2EEE14B48B6A98BF004505BD9780F63A99 (void);
+extern void OVRP_1_68_0_ovrp_StartKeyboardTracking_m0B6EC3166E67511253DE98E5A15DC1A625C0411C (void);
 // 0x00000558 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_StopKeyboardTracking()
-extern void OVRP_1_68_0_ovrp_StopKeyboardTracking_mB2F1E41113AA3C346A2897211B4DAB7E509E5AD5 (void);
+extern void OVRP_1_68_0_ovrp_StopKeyboardTracking_m37854DB222CB31BEAD9EEEEE2B135C4731DB9E3F (void);
 // 0x00000559 OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_GetSystemKeyboardDescription(OVRPlugin/TrackedKeyboardQueryFlags,OVRPlugin/KeyboardDescription&)
-extern void OVRP_1_68_0_ovrp_GetSystemKeyboardDescription_mE699025A93ED2D13DC6E3ACE402964E172C43760 (void);
+extern void OVRP_1_68_0_ovrp_GetSystemKeyboardDescription_m00A342E21A1CFFB24B61CB3431751BE97FCBFD3D (void);
 // 0x0000055A OVRPlugin/Result OVRPlugin/OVRP_1_68_0::ovrp_GetKeyboardState(OVRPlugin/Step,System.Int32,OVRPlugin/KeyboardState&)
-extern void OVRP_1_68_0_ovrp_GetKeyboardState_mCCB97882F9ABFAEA336531420B287D567ABB2022 (void);
+extern void OVRP_1_68_0_ovrp_GetKeyboardState_mDAE19FF43B0575F0323734F0E84EB387605F2AD9 (void);
 // 0x0000055B System.Void OVRPlugin/OVRP_1_68_0::.cctor()
-extern void OVRP_1_68_0__cctor_m0DAED5CB5B4E3691CB8EB1F6386BD9219E50EC79 (void);
+extern void OVRP_1_68_0__cctor_m8EE6B61C87F295247E4D0DF1AE525D05A78A0E05 (void);
 // 0x0000055C OVRPlugin/Result OVRPlugin/OVRP_1_69_0::ovrp_GetNodePoseStateImmediate(OVRPlugin/Node,OVRPlugin/PoseStatef&)
-extern void OVRP_1_69_0_ovrp_GetNodePoseStateImmediate_mA0FA87EA8414F6DD339E83778896E297F4182E93 (void);
+extern void OVRP_1_69_0_ovrp_GetNodePoseStateImmediate_mF6690F72672F499B21A970AB6C4059CE40405EA8 (void);
 // 0x0000055D System.Void OVRPlugin/OVRP_1_69_0::.cctor()
-extern void OVRP_1_69_0__cctor_mEB52216E30F186C685F6F74EC23C55A415307150 (void);
+extern void OVRP_1_69_0__cctor_m4ADACBCB9391F484B0A7A303EF3C04BD7E8DAB6E (void);
 // 0x0000055E OVRPlugin/Result OVRPlugin/OVRP_1_70_0::ovrp_SetLogCallback2(OVRPlugin/LogCallback2DelegateType)
-extern void OVRP_1_70_0_ovrp_SetLogCallback2_mF50DDF057DF8595B40D77FF0DB91EAD4FDFC3838 (void);
+extern void OVRP_1_70_0_ovrp_SetLogCallback2_m80B5294270A28A4E8C45F00D79376FB761860732 (void);
 // 0x0000055F System.Void OVRPlugin/OVRP_1_70_0::.cctor()
-extern void OVRP_1_70_0__cctor_m896CBAF3D8E52BE829952B9E323E0848595E3D0B (void);
+extern void OVRP_1_70_0__cctor_mFBD5D9F0AF3E5590CE9CB9F2CF32EE7A987D4700 (void);
 // 0x00000560 OVRPlugin/Result OVRPlugin/OVRP_1_71_0::ovrp_IsInsightPassthroughSupported(OVRPlugin/Bool&)
-extern void OVRP_1_71_0_ovrp_IsInsightPassthroughSupported_mE7E630CF36859DE890A7983EB2DD6163E93DB8DE (void);
+extern void OVRP_1_71_0_ovrp_IsInsightPassthroughSupported_mD9EA3FDC1E3A0F704178A837B0A1B6F133158A0F (void);
 // 0x00000561 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_SetClientVersion(System.Int32,System.Int32,System.Int32)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_SetClientVersion_m6A6128620F255A41924297118EA6F401448E2795 (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_SetClientVersion_m7BFCD9FC3997CFD31171DC88E06AA3661BA3A1DA (void);
 // 0x00000562 System.IntPtr OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_HookGetInstanceProcAddr(System.IntPtr)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_HookGetInstanceProcAddr_m68CDBB2FDF27FF1819281293EC4CB2BDFE16D52B (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_HookGetInstanceProcAddr_mF74ABCC875393E417F253428C974FE25A304C16F (void);
 // 0x00000563 OVRPlugin/Result OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnInstanceCreate(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceCreate_m9DF63BB5139DD0BFDCB697860EE2D7A5E6F6A6FC (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceCreate_m72FEF7F32E605717C14794959921AEA91F04309C (void);
 // 0x00000564 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnInstanceDestroy(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceDestroy_m31790246499A6CEC34E92FCA50165462CFF165CE (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceDestroy_mAC816F1E95F1475FBC7F4683E1DD2E69F65F3C4E (void);
 // 0x00000565 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionCreate(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionCreate_m611E9F3B19693ADDFFD60701CFA6612BD46824EE (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionCreate_m6B154DEF66A57203DA9E6F822F0466A4D64D6B30 (void);
 // 0x00000566 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnAppSpaceChange(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnAppSpaceChange_m0BA99B11B7A9BF3571C41C410984B96FC65B8E28 (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnAppSpaceChange_mCD369BCFF1E2FFA204F1CB2F74A5BDA0A6BBE6DF (void);
 // 0x00000567 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionStateChange(System.Int32,System.Int32)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionStateChange_mEEE1B6D087AAFAF7DB9337AE5D87E9C611E2425C (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionStateChange_mA0C201F3B05DED4C07795463208E07787CEB9910 (void);
 // 0x00000568 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionBegin(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionBegin_mF513CCB5912E0674F7924D1A9F79D339E3AB0611 (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionBegin_m70B7F4CF075C3E471EC8FACDD50CB89EA6E3AFFD (void);
 // 0x00000569 System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionEnd(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionEnd_mB1FC401C890085B4F0077EB850D7380B984BE617 (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionEnd_mD9B58622E2ECE5B2FF6D3BFB0CD3F842826AB771 (void);
 // 0x0000056A System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionExiting(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionExiting_m8F61DD5BDB994249E031AC96EA82A5AFE1869FF3 (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionExiting_m96D792305E0AC78FCE1108E81761615DFC70DCF7 (void);
 // 0x0000056B System.Void OVRPlugin/OVRP_1_71_0::ovrp_UnityOpenXR_OnSessionDestroy(System.UInt64)
-extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionDestroy_m5E511C2B145B95656F8E052A6E084FE7648FFEFC (void);
+extern void OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionDestroy_m7B8EA1ACBC2D27EC351B2F0EFB843470A3A6D881 (void);
 // 0x0000056C OVRPlugin/Result OVRPlugin/OVRP_1_71_0::ovrp_SetSuggestedCpuPerformanceLevel(OVRPlugin/ProcessorPerformanceLevel)
-extern void OVRP_1_71_0_ovrp_SetSuggestedCpuPerformanceLevel_mDF21337514882BFD1B68791763FF185D4156A961 (void);
+extern void OVRP_1_71_0_ovrp_SetSuggestedCpuPerformanceLevel_mFD70E950A3B82CCB76D956623BB2038C513EAC42 (void);
 // 0x0000056D OVRPlugin/Result OVRPlugin/OVRP_1_71_0::ovrp_GetSuggestedCpuPerformanceLevel(OVRPlugin/ProcessorPerformanceLevel&)
-extern void OVRP_1_71_0_ovrp_GetSuggestedCpuPerformanceLevel_m1D439D9DAA52D866D8E9FF87292CE60F5196A071 (void);
+extern void OVRP_1_71_0_ovrp_GetSuggestedCpuPerformanceLevel_m0D4BC57B398B5EC5B3A80436F8C2B0509C39CEC1 (void);
 // 0x0000056E OVRPlugin/Result OVRPlugin/OVRP_1_71_0::ovrp_SetSuggestedGpuPerformanceLevel(OVRPlugin/ProcessorPerformanceLevel)
-extern void OVRP_1_71_0_ovrp_SetSuggestedGpuPerformanceLevel_m9E2BAC817F05A77C18E2DEA4F96A51F806AB7ED9 (void);
+extern void OVRP_1_71_0_ovrp_SetSuggestedGpuPerformanceLevel_m9143BE1759E0E20C6FBC65AF53F45B0EA60BE7DC (void);
 // 0x0000056F OVRPlugin/Result OVRPlugin/OVRP_1_71_0::ovrp_GetSuggestedGpuPerformanceLevel(OVRPlugin/ProcessorPerformanceLevel&)
-extern void OVRP_1_71_0_ovrp_GetSuggestedGpuPerformanceLevel_mB342EF8D494A29F7261161193A2BB6F721692EBB (void);
+extern void OVRP_1_71_0_ovrp_GetSuggestedGpuPerformanceLevel_mD82580411E66DE9CDF0178F3470E8CC715A30704 (void);
 // 0x00000570 System.Void OVRPlugin/OVRP_1_71_0::.cctor()
-extern void OVRP_1_71_0__cctor_mE94556807E04F1291FC076F2DD120873F11C8B96 (void);
+extern void OVRP_1_71_0__cctor_mFDAB568EC79D9271381F1CB67B2923B39D4BBD16 (void);
 // 0x00000571 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_CreateSpatialAnchor(OVRPlugin/SpatialAnchorCreateInfo&,System.UInt64&)
-extern void OVRP_1_72_0_ovrp_CreateSpatialAnchor_mC83652A0C466C70CDBF912969484EE905FD5390E (void);
+extern void OVRP_1_72_0_ovrp_CreateSpatialAnchor_m137362336D3D49A08CF367C8C847C578105A2A5A (void);
 // 0x00000572 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_SetSpaceComponentStatus(System.UInt64&,OVRPlugin/SpaceComponentType,OVRPlugin/Bool,System.Double,System.UInt64&)
-extern void OVRP_1_72_0_ovrp_SetSpaceComponentStatus_m55E3AC276BE94448F969560F3917891F9A44972F (void);
+extern void OVRP_1_72_0_ovrp_SetSpaceComponentStatus_m00B91F7237FBD8E130A74A1FE83C43393C0FE047 (void);
 // 0x00000573 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceComponentStatus(System.UInt64&,OVRPlugin/SpaceComponentType,OVRPlugin/Bool&,OVRPlugin/Bool&)
-extern void OVRP_1_72_0_ovrp_GetSpaceComponentStatus_mCC6E864E33E6C5FFB047BE8DD558C5D47791B2A6 (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceComponentStatus_m82CE3D33BADD2E653AA561176DC7A78A3FA21768 (void);
 // 0x00000574 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents(System.UInt64&,System.UInt32,System.UInt32&,OVRPlugin/SpaceComponentType[])
-extern void OVRP_1_72_0_ovrp_EnumerateSpaceSupportedComponents_m8012AC41F318887584F3B728D6DB8945EBD0A07B (void);
+extern void OVRP_1_72_0_ovrp_EnumerateSpaceSupportedComponents_mA41C69E0C9B7119A4CABF5ABC3C70C4D2716CFCB (void);
 // 0x00000575 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_SaveSpace(System.UInt64&,OVRPlugin/SpaceStorageLocation,OVRPlugin/SpaceStoragePersistenceMode,System.UInt64&)
-extern void OVRP_1_72_0_ovrp_SaveSpace_m40FD4643B29239880376C7E5816E7E5ED3B89931 (void);
+extern void OVRP_1_72_0_ovrp_SaveSpace_m330A4976D264D768DB668F0BC2301CFEA3AE4E7C (void);
 // 0x00000576 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_QuerySpaces(OVRPlugin/SpaceQueryInfo&,System.UInt64&)
-extern void OVRP_1_72_0_ovrp_QuerySpaces_m4D339E3E367475A7636B2E6D9218B3C3F97DCCC0 (void);
+extern void OVRP_1_72_0_ovrp_QuerySpaces_mA0DC1BBDA0DEFB4F78A97FE0B6069548ADD8CC99 (void);
 // 0x00000577 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_RetrieveSpaceQueryResults(System.UInt64&,System.UInt32,System.UInt32&,System.IntPtr)
-extern void OVRP_1_72_0_ovrp_RetrieveSpaceQueryResults_m7C8B1126AD99D4184F96421B1D926B64457A87E2 (void);
+extern void OVRP_1_72_0_ovrp_RetrieveSpaceQueryResults_m3DA7C85DF1E171AD9541B8D6EF42560655491865 (void);
 // 0x00000578 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_EraseSpace(System.UInt64&,OVRPlugin/SpaceStorageLocation,System.UInt64&)
-extern void OVRP_1_72_0_ovrp_EraseSpace_mEEE73F5A5D8FECB2235A4138841BEC68B340CF90 (void);
+extern void OVRP_1_72_0_ovrp_EraseSpace_m24172B469D69306840006DD3BF5113F09F6724F0 (void);
 // 0x00000579 OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceContainer(System.UInt64&,OVRPlugin/SpaceContainerInternal&)
-extern void OVRP_1_72_0_ovrp_GetSpaceContainer_m50AFFAD5EEE6A0CD04A5E02F29C6E65244EFFABA (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceContainer_mE8AE8756D6DACE54507C0C23F06C0CC93FEF3D03 (void);
 // 0x0000057A OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceBoundingBox2D(System.UInt64&,OVRPlugin/Rectf&)
-extern void OVRP_1_72_0_ovrp_GetSpaceBoundingBox2D_m8F0A14C9FF18B44A32334F24797E2C52680CC30E (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceBoundingBox2D_m738D0FAE85E6C7C587D45C7D46366B31C003BD54 (void);
 // 0x0000057B OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceBoundingBox3D(System.UInt64&,OVRPlugin/Boundsf&)
-extern void OVRP_1_72_0_ovrp_GetSpaceBoundingBox3D_mBF8821F7D850815B577B74733CA1BDFD3EF5E23B (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceBoundingBox3D_mC23FE6BF2A4A149E4B1F696C73A13B7BD691D5B9 (void);
 // 0x0000057C OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceSemanticLabels(System.UInt64&,OVRPlugin/SpaceSemanticLabelInternal&)
-extern void OVRP_1_72_0_ovrp_GetSpaceSemanticLabels_m8336CD5823BB572A5E8E55BBC03CA85D0072FF7A (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceSemanticLabels_mE29D05D839399565035B36B6682D79DCECA1EA5C (void);
 // 0x0000057D OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceRoomLayout(System.UInt64&,OVRPlugin/RoomLayoutInternal&)
-extern void OVRP_1_72_0_ovrp_GetSpaceRoomLayout_m5A71C4A91C06F62DE3049B703CB9EAA5F0A49D8D (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceRoomLayout_m74FFDB53E8E58A2292641A22FFF666F22C6D5F7B (void);
 // 0x0000057E OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_GetSpaceBoundary2D(System.UInt64&,OVRPlugin/PolygonalBoundary2DInternal&)
-extern void OVRP_1_72_0_ovrp_GetSpaceBoundary2D_m2A9472B2766101CE05FE00916CE7C0F83963F2B5 (void);
+extern void OVRP_1_72_0_ovrp_GetSpaceBoundary2D_m5463E72B4B3CCA5901C621EEB49C64C68D8190E0 (void);
 // 0x0000057F OVRPlugin/Result OVRPlugin/OVRP_1_72_0::ovrp_RequestSceneCapture(OVRPlugin/SceneCaptureRequestInternal&,System.UInt64&)
-extern void OVRP_1_72_0_ovrp_RequestSceneCapture_mE7B6B9967BE18042CF993CD01EA1C5743DC3ED02 (void);
+extern void OVRP_1_72_0_ovrp_RequestSceneCapture_m2ED0DC9C9919F8939632597DB5B751A70837ADF3 (void);
 // 0x00000580 System.Void OVRPlugin/OVRP_1_72_0::.cctor()
-extern void OVRP_1_72_0__cctor_m45A35A6A795B531592051EF606C9FBF276164AAE (void);
+extern void OVRP_1_72_0__cctor_mC7D5E86446B1067B4BB5B5D79997C81122FB726A (void);
 // 0x00000581 System.Void OVRPlugin/OVRP_1_73_0::.cctor()
-extern void OVRP_1_73_0__cctor_mA0F99BF7228C4789905D123659F320912CB3324C (void);
+extern void OVRP_1_73_0__cctor_m68D61618F0A4564993CBFED9BEBA33A0AF9C232F (void);
 // 0x00000582 OVRPlugin/Result OVRPlugin/OVRP_1_74_0::ovrp_GetSpaceUuid(System.UInt64&,System.Guid&)
-extern void OVRP_1_74_0_ovrp_GetSpaceUuid_m109D6327E666E03807493EE7CD2E7CD2366EF6A4 (void);
+extern void OVRP_1_74_0_ovrp_GetSpaceUuid_m54BFA71997CFB06995F9838EBDC955B13B4CB894 (void);
 // 0x00000583 OVRPlugin/Result OVRPlugin/OVRP_1_74_0::ovrp_GetRenderModelProperties2(System.String,OVRPlugin/RenderModelFlags,OVRPlugin/RenderModelPropertiesInternal&)
-extern void OVRP_1_74_0_ovrp_GetRenderModelProperties2_mE2B4BE2ED740540321BE766028C830D91E17967B (void);
+extern void OVRP_1_74_0_ovrp_GetRenderModelProperties2_m5130D55440A03F23FF5F6B38634EF551D39C3F1E (void);
 // 0x00000584 System.Void OVRPlugin/OVRP_1_74_0::.cctor()
-extern void OVRP_1_74_0__cctor_mAA325F169E851130B71820FCF5F519794B10D9FD (void);
+extern void OVRP_1_74_0__cctor_m93CE51144D84C460891F58191AE89109B8D08B52 (void);
 // 0x00000585 System.Void OVRPlugin/OVRP_1_75_0::.cctor()
-extern void OVRP_1_75_0__cctor_m8F5BD0E510CF8D0B04D222FF703ACEE07AC98C11 (void);
+extern void OVRP_1_75_0__cctor_mAE309FBA1D4C94C0DB6FC445222B9A11FE3746E4 (void);
 // 0x00000586 OVRPlugin/Result OVRPlugin/OVRP_1_76_0::ovrp_GetNodePoseStateAtTime(System.Double,OVRPlugin/Node,OVRPlugin/PoseStatef&)
-extern void OVRP_1_76_0_ovrp_GetNodePoseStateAtTime_mE66454864DC8FC8EE6C76C887240F98710E78162 (void);
+extern void OVRP_1_76_0_ovrp_GetNodePoseStateAtTime_m38FA250EA4D1891635F41BD0F2586045B82201BD (void);
 // 0x00000587 System.Void OVRPlugin/OVRP_1_76_0::.cctor()
-extern void OVRP_1_76_0__cctor_m93D4EF81A5CDA7E91CAE77869E7B14EE5D8F1545 (void);
+extern void OVRP_1_76_0__cctor_mC327EC11D1414588D740DE0F3D2EAE9EC8BB4942 (void);
 // 0x00000588 System.Void OVRPointerVisualizer::Update()
 extern void OVRPointerVisualizer_Update_m8B613D25932BF0EBBE6DE2FE9C89D1998084D77E (void);
 // 0x00000589 System.Void OVRPointerVisualizer::.ctor()
@@ -2851,10 +2851,10 @@ extern void OVRProfile_get_state_m6236F0DD0036A04F33C5DB578B9C88DBDD762499 (void
 // 0x00000592 System.Void OVRProfile::.ctor()
 extern void OVRProfile__ctor_mAEA89E1269ED1DA8E35555C3869A12098C5D820C (void);
 // 0x00000593 UnityEngine.Object OVRResources::Load(System.String)
-extern void OVRResources_Load_m037C705FDFABD579FE3E829114FD27994F864868 (void);
+extern void OVRResources_Load_m39E6C360CC7FE3E7F9CA896EAC69C8195672DF65 (void);
 // 0x00000594 T OVRResources::Load(System.String)
 // 0x00000595 System.Void OVRResources::SetResourceBundle(UnityEngine.AssetBundle)
-extern void OVRResources_SetResourceBundle_m6037FE9D528E5BC2153D7F2FFB1FBF19BAE5431D (void);
+extern void OVRResources_SetResourceBundle_m1627E06D3FFE04A6B83FBA6C386D72B52953FE7B (void);
 // 0x00000596 System.Void OVRResources::.ctor()
 extern void OVRResources__ctor_mE3599CBBAC20550F634C292C49645AF4FA43F504 (void);
 // 0x00000597 System.Void OVRResources/<>c__DisplayClass2_0::.ctor()
@@ -2864,7 +2864,7 @@ extern void U3CU3Ec__DisplayClass2_0_U3CLoadU3Eb__0_m5A0FE4A65378C2261AE2CA766FA
 // 0x00000599 System.Void OVRResources/<>c__DisplayClass3_0`1::.ctor()
 // 0x0000059A System.Boolean OVRResources/<>c__DisplayClass3_0`1::<Load>b__0(System.String)
 // 0x0000059B OVRRuntimeSettings OVRRuntimeSettings::GetRuntimeSettings()
-extern void OVRRuntimeSettings_GetRuntimeSettings_mA7E328BC972865F46F35671901034CA68241B1A3 (void);
+extern void OVRRuntimeSettings_GetRuntimeSettings_m357C35DCF6941F52EDB4FD95F9FEBC78DDFE62AB (void);
 // 0x0000059C System.Void OVRRuntimeSettings::.ctor()
 extern void OVRRuntimeSettings__ctor_mD891EEE311CB068CCEDD383EA7A500EA0675D17C (void);
 // 0x0000059D OVRSpace OVRSceneAnchor::get_Space()
@@ -2891,7 +2891,7 @@ extern void OVRSceneAnchor_OnDestroy_m2E545D50C3DE25E35618366DB6CE13AA6DB7003A (
 // 0x000005A8 System.Void OVRSceneAnchor::.ctor()
 extern void OVRSceneAnchor__ctor_mBB0BEAC93A4ED7A51292404F3F72FC0BDB381F03 (void);
 // 0x000005A9 System.Void OVRSceneAnchor::.cctor()
-extern void OVRSceneAnchor__cctor_mB0A2589AB753E0A4570319555E37F66BAB465A15 (void);
+extern void OVRSceneAnchor__cctor_mBC839C4527540D7D839C430F84BC1CAE7D5D6BDF (void);
 // 0x000005AA System.Void IOVRSceneComponent::Initialize()
 // 0x000005AB System.Void OVRSceneLoader::Awake()
 extern void OVRSceneLoader_Awake_m572663D014D95A09B3FDE5C9B074472A90C7CBF3 (void);
@@ -2960,7 +2960,7 @@ extern void OVRSceneManager_EnableComponentIfNecessary_m9FD336A52CDF36AAC4B943CB
 // 0x000005CB System.Void OVRSceneManager::OVRManager_SceneCaptureComplete(System.UInt64,System.Boolean)
 extern void OVRSceneManager_OVRManager_SceneCaptureComplete_m5DA341AE4D950DB9FE0496B9AEFC30090522D5F5 (void);
 // 0x000005CC System.Boolean OVRSceneManager::IsComponentEnabled(OVRSpace,OVRPlugin/SpaceComponentType)
-extern void OVRSceneManager_IsComponentEnabled_m7122515DA1CA7E3F3A06E6B88EBF30DAAB222A95 (void);
+extern void OVRSceneManager_IsComponentEnabled_m136B7A0C4F879424D1F5FB2B844A440C8BDCF493 (void);
 // 0x000005CD OVRSceneAnchor OVRSceneManager::InstantiateSceneAnchor(OVRSpace,System.Guid,OVRSceneAnchor)
 extern void OVRSceneManager_InstantiateSceneAnchor_m6379A8E8FBA5CE425F69B3A92049894050D4E5B1 (void);
 // 0x000005CE System.Void OVRSceneManager::OVRManager_SpaceQueryComplete(System.UInt64,System.Boolean)
@@ -2978,9 +2978,9 @@ extern void OVRSceneManager_U3CAwakeU3Eb__23_0_m06C316A296F1FC999B3CE29BD891C16F
 // 0x000005D4 System.Boolean OVRSceneManager::<Awake>g__TryGetUuid|23_1(OVRScenePlane,System.Int32&)
 extern void OVRSceneManager_U3CAwakeU3Eg__TryGetUuidU7C23_1_m7955656ADC3FE637942381CBB1175BF9FFEC6376 (void);
 // 0x000005D5 System.Collections.Generic.IReadOnlyList`1<System.String> OVRSceneManager/Classification::get_List()
-extern void Classification_get_List_m0311653A015D289B122C4106CCABB8A9EAED05E8 (void);
+extern void Classification_get_List_mFF1FDECC41BECE53601B0801215788619DF6B0BD (void);
 // 0x000005D6 System.Void OVRSceneManager/Classification::.cctor()
-extern void Classification__cctor_m8C04901656C635CDB87877A1F92E962D9B4F52A2 (void);
+extern void Classification__cctor_m18889A9E23DB3BE51FDA45DC0F6C6CA6AB5F2100 (void);
 // 0x000005D7 System.Void OVRSceneManager/RoomLayoutInformation::.ctor()
 extern void RoomLayoutInformation__ctor_mACF2D415EEA40D8D261FAED5F5A144485B3C04F4 (void);
 // 0x000005D8 System.Void OVRSceneManager/LogForwarder::Log(System.String,System.String)
@@ -2990,11 +2990,11 @@ extern void LogForwarder_LogWarning_m2D939921332876981C2E1F09CFBC215DEA63E3DB (v
 // 0x000005DA System.Void OVRSceneManager/LogForwarder::LogError(System.String,System.String)
 extern void LogForwarder_LogError_mCCFB3CC7A4B6474F3E1765C7F1A2450D541E1FFA (void);
 // 0x000005DB System.Void OVRSceneManager/Development::Log(System.String,System.String)
-extern void Development_Log_m85141EFDFBD269E7EA4D58DE88B18ED9698670CD (void);
+extern void Development_Log_mFEB4362FE7FF518C4A4634802937941D528FCB9C (void);
 // 0x000005DC System.Void OVRSceneManager/Development::LogWarning(System.String,System.String)
-extern void Development_LogWarning_mB04D6C613EEF97D133E2FEABAFABE261CF1F818B (void);
+extern void Development_LogWarning_m5115A261D3EC89B70683EB3F05C1FB36F94C956C (void);
 // 0x000005DD System.Void OVRSceneManager/Development::LogError(System.String,System.String)
-extern void Development_LogError_m20CEE9E6D5CE7A8717D46594819D145F641982D4 (void);
+extern void Development_LogError_m91F9F484C6516F87FFB4BE278E4582E34DD7637C (void);
 // 0x000005DE System.Void OVRSceneManager/<>c__DisplayClass36_0::.ctor()
 extern void U3CU3Ec__DisplayClass36_0__ctor_m3268C9E09FE5688B9270F206B842F3E4D8003EAB (void);
 // 0x000005DF System.Collections.Generic.IEnumerable`1<System.String> OVRSceneManager/<>c__DisplayClass36_0::<ProcessQueryResult>g__EnabledComponents|0()
@@ -3058,7 +3058,7 @@ extern void OVRScenePlane_set_Height_mF200CA3E4FBF34B7A94E7E3C2FF56F29FFBD9866 (
 // 0x000005FC UnityEngine.Vector2 OVRScenePlane::get_Dimensions()
 extern void OVRScenePlane_get_Dimensions_mEE731405CB6C0173538D54A9BADA3501767A1872 (void);
 // 0x000005FD System.Void OVRScenePlane::SetChildScale(UnityEngine.Transform,System.Single,System.Single)
-extern void OVRScenePlane_SetChildScale_m2B4A0750CA245B61C2103715BF3E83C4C5E9760D (void);
+extern void OVRScenePlane_SetChildScale_mDD225A30B385B11D4E24ACDB45852B8F0BDAAC3E (void);
 // 0x000005FE System.Void OVRScenePlane::Awake()
 extern void OVRScenePlane_Awake_m2F603A132CBFE8BC45CFF4FDDA5FD1604AAEDCEF (void);
 // 0x000005FF System.Void OVRScenePlane::IOVRSceneComponent.Initialize()
@@ -3078,7 +3078,7 @@ extern void OVRScenePrefabOverride_UnityEngine_ISerializationCallbackReceiver_On
 // 0x00000606 System.Void OVRScenePrefabOverride::.ctor()
 extern void OVRScenePrefabOverride__ctor_m2A07F3E4D301E8D8F14D9A49C6B78162C2802718 (void);
 // 0x00000607 System.Int32 OVRScenePrefabOverride::<UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
-extern void OVRScenePrefabOverride_U3CUnityEngine_ISerializationCallbackReceiver_OnAfterDeserializeU3Eg__IndexOfU7C4_0_m71CA34C928400672FC6026E686F44AA9BDA7A189 (void);
+extern void OVRScenePrefabOverride_U3CUnityEngine_ISerializationCallbackReceiver_OnAfterDeserializeU3Eg__IndexOfU7C4_0_m8107F1321FD510899BC2409619615B4E3CAAAA66 (void);
 // 0x00000608 System.Single OVRSceneVolume::get_Width()
 extern void OVRSceneVolume_get_Width_m68F842EEC1F84E966857DBCBD644858A454424DE (void);
 // 0x00000609 System.Void OVRSceneVolume::set_Width(System.Single)
@@ -3126,13 +3126,13 @@ extern void OVRSpace_Equals_mC2BD02F8187F62CC9BD585105F927A2BEC24E8BA (void);
 // 0x0000061E System.Int32 OVRSpace::GetHashCode()
 extern void OVRSpace_GetHashCode_m2F902FAD8730D7B28045445D9820F0EFDB3B855D (void);
 // 0x0000061F System.Boolean OVRSpace::op_Equality(OVRSpace,OVRSpace)
-extern void OVRSpace_op_Equality_mBF886CF41468E6E3C31B1A24A9D2B60F43A2E8C6 (void);
+extern void OVRSpace_op_Equality_m6CD61ABD62B1225F5CBD4C659A27B9627A95C696 (void);
 // 0x00000620 System.Boolean OVRSpace::op_Inequality(OVRSpace,OVRSpace)
-extern void OVRSpace_op_Inequality_m4C900EFF6FF84F5B36CBE53C44ACB04C2D8934DF (void);
+extern void OVRSpace_op_Inequality_m1F559585FE11E2A5A00D7FF56F115993BEE7BA19 (void);
 // 0x00000621 OVRSpace OVRSpace::op_Implicit(System.UInt64)
-extern void OVRSpace_op_Implicit_m93E119A8B30CF42777ECAE1A177C9D6FF55508D4 (void);
+extern void OVRSpace_op_Implicit_m5668C0D0B94EFD6CE95FC8C92A7E4418B8C0EFB6 (void);
 // 0x00000622 System.UInt64 OVRSpace::op_Implicit(OVRSpace)
-extern void OVRSpace_op_Implicit_m0560316594E99B4EA6AF46D793A5EFBC7EC36E7E (void);
+extern void OVRSpace_op_Implicit_m1F9D1045BC491FB6F551F3F2317DC526B2574AE0 (void);
 // 0x00000623 System.Int32 OVRSpaceQuery/Options::get_MaxResults()
 extern void Options_get_MaxResults_m7061D1C830735AFE8CE8913E2240EA99D0343E48 (void);
 // 0x00000624 System.Void OVRSpaceQuery/Options::set_MaxResults(System.Int32)
@@ -3166,7 +3166,7 @@ extern void Options__ctor_m397C04B8516087A17CA1F6729812243169161A74 (void);
 // 0x00000632 System.Boolean OVRSpaceQuery/Options::TryQuerySpaces(System.UInt64&)
 extern void Options_TryQuerySpaces_mC7BC25F63C67DCA8FD25772FCA7C232D637AA484 (void);
 // 0x00000633 System.Void OVRSpaceQuery/Options::.cctor()
-extern void Options__cctor_m40B507357A7796A536A3EF3FD4E6540D061B35B3 (void);
+extern void Options__cctor_m7C0BAA772C1335F491709B2849F27ACF71514ED1 (void);
 // 0x00000634 OVRSpace OVRSpatialAnchor::get_Space()
 extern void OVRSpatialAnchor_get_Space_mBBDFEC73986C0C5944BDCCF6908FB983C28629BC (void);
 // 0x00000635 System.Void OVRSpatialAnchor::set_Space(OVRSpace)
@@ -3186,7 +3186,7 @@ extern void OVRSpatialAnchor_Save_mE3794A00F6CEEDB4B32BFA95F0B8F1348F089DBB (voi
 // 0x0000063C System.Void OVRSpatialAnchor::Erase(System.Action`2<OVRSpatialAnchor,System.Boolean>)
 extern void OVRSpatialAnchor_Erase_mB2EBEBF566055EC95E73899C8C51FE82EA8704A7 (void);
 // 0x0000063D System.Void OVRSpatialAnchor::ThrowIfBound(System.Guid)
-extern void OVRSpatialAnchor_ThrowIfBound_m6920FD2D3256CF39B4DE2E9A1D969D2B671090F8 (void);
+extern void OVRSpatialAnchor_ThrowIfBound_m4992067AA04EACF8131FD41044C5D72DDE8CF717 (void);
 // 0x0000063E System.Void OVRSpatialAnchor::InitializeUnchecked(OVRSpace,System.Guid)
 extern void OVRSpatialAnchor_InitializeUnchecked_m7AA0BE0A8FCCF24E350D8E63BD7C8169C54CF270 (void);
 // 0x0000063F System.Void OVRSpatialAnchor::Start()
@@ -3200,28 +3200,28 @@ extern void OVRSpatialAnchor_GetTrackingSpacePose_m8F42DE4EA701222AF3AA93A7B563D
 // 0x00000643 System.Void OVRSpatialAnchor::CreateSpatialAnchor()
 extern void OVRSpatialAnchor_CreateSpatialAnchor_m76FF14B5216B67979FC61CCE9CA0C0146BD471B5 (void);
 // 0x00000644 System.Boolean OVRSpatialAnchor::TryGetPose(OVRSpace,OVRPose&)
-extern void OVRSpatialAnchor_TryGetPose_m08EBB5BF8924D1026FA38CF9EF9991559AE4A4BF (void);
+extern void OVRSpatialAnchor_TryGetPose_m80D743589E2F5F67F213B885ABAA8DE49FBAC920 (void);
 // 0x00000645 System.Void OVRSpatialAnchor::UpdateTransform()
 extern void OVRSpatialAnchor_UpdateTransform_m4A7976B25CA1A23F87B2B778273097129ADF5D13 (void);
 // 0x00000646 System.Boolean OVRSpatialAnchor::TryExtractValue(System.Collections.Generic.Dictionary`2<TKey,TValue>,TKey,TValue&)
 // 0x00000647 System.Void OVRSpatialAnchor::InitializeOnLoad()
-extern void OVRSpatialAnchor_InitializeOnLoad_m074594B8400A691C6E58F8A9A164025B71388F61 (void);
+extern void OVRSpatialAnchor_InitializeOnLoad_m36629B3D9C0CB7BE9ADA99DE62B64DDFEB7B1471 (void);
 // 0x00000648 System.Void OVRSpatialAnchor::.cctor()
-extern void OVRSpatialAnchor__cctor_mFA18308979F62D08C85A50EF9C5F4CDD611BB27F (void);
+extern void OVRSpatialAnchor__cctor_m3E4078D305642E3A741EC8C2F890A02A43D3DAD0 (void);
 // 0x00000649 System.Void OVRSpatialAnchor::InvokeSingleAnchorDelegate(System.UInt64,System.Boolean)
-extern void OVRSpatialAnchor_InvokeSingleAnchorDelegate_m45901DD1A17D044B20B3ADE2CA4947616D91B9DA (void);
+extern void OVRSpatialAnchor_InvokeSingleAnchorDelegate_m531D8BCA93A866E166139782EA335CE951FC6F34 (void);
 // 0x0000064A System.Void OVRSpatialAnchor::OnSpatialAnchorCreateComplete(System.UInt64,System.Boolean,OVRSpace,System.Guid)
-extern void OVRSpatialAnchor_OnSpatialAnchorCreateComplete_m0FB5069731F40DE95AF9BE92B68BA6E0815FB9C8 (void);
+extern void OVRSpatialAnchor_OnSpatialAnchorCreateComplete_m59AC20386CE790D02361FD767078BF5AE2811585 (void);
 // 0x0000064B System.Void OVRSpatialAnchor::OnSpaceSaveComplete(System.UInt64,OVRSpace,System.Boolean,System.Guid)
-extern void OVRSpatialAnchor_OnSpaceSaveComplete_mC1E02A72645E723C33499E944F5EC6127690E8B6 (void);
+extern void OVRSpatialAnchor_OnSpaceSaveComplete_mCD89D323C9787FE10B71ABD804CB0427907C510B (void);
 // 0x0000064C System.Void OVRSpatialAnchor::OnSpaceEraseComplete(System.UInt64,System.Boolean,System.Guid,OVRPlugin/SpaceStorageLocation)
-extern void OVRSpatialAnchor_OnSpaceEraseComplete_m7CF3D4B23527CB1EE82BAB3D0A7CF74568B2F841 (void);
+extern void OVRSpatialAnchor_OnSpaceEraseComplete_m258AC25BAFD07D73D6FDC34AE1C12DEC7612CCF3 (void);
 // 0x0000064D System.Boolean OVRSpatialAnchor::LoadUnboundAnchors(OVRSpatialAnchor/LoadOptions,System.Action`1<OVRSpatialAnchor/UnboundAnchor[]>)
-extern void OVRSpatialAnchor_LoadUnboundAnchors_m3C33280657443A41ACA24F90FB3A6650ED1812F7 (void);
+extern void OVRSpatialAnchor_LoadUnboundAnchors_m31C133DE527213E8E48F2FADB8C63BC28A054073 (void);
 // 0x0000064E System.Void OVRSpatialAnchor::OnSpaceQueryComplete(System.UInt64,System.Boolean)
-extern void OVRSpatialAnchor_OnSpaceQueryComplete_mB3FA804F1B69FDDD298E999B5B89142D9A7F374E (void);
+extern void OVRSpatialAnchor_OnSpaceQueryComplete_m128B7380CA667B9040623341E8B5E667C9E662DA (void);
 // 0x0000064F System.Void OVRSpatialAnchor::OnSpaceSetComponentStatusComplete(System.UInt64,System.Boolean,OVRSpace,System.Guid,OVRPlugin/SpaceComponentType,System.Boolean)
-extern void OVRSpatialAnchor_OnSpaceSetComponentStatusComplete_m6C5A3145455A028FD413D0216602355AEBE6F7EB (void);
+extern void OVRSpatialAnchor_OnSpaceSetComponentStatusComplete_m1F1EC079A408F47B6732E94FB3B3F895B7B10143 (void);
 // 0x00000650 System.Void OVRSpatialAnchor::.ctor()
 extern void OVRSpatialAnchor__ctor_mF4B0E205F666E9294B4A382197A5DD912B7F9818 (void);
 // 0x00000651 OVRSpace/StorageLocation OVRSpatialAnchor/LoadOptions::get_StorageLocation()
@@ -3257,21 +3257,21 @@ extern void UnboundAnchor_BindTo_m1ECD15FCB5A770616927C260D09BFA69D064ADC7 (void
 // 0x00000660 System.Void OVRSpatialAnchor/UnboundAnchor::.ctor(OVRSpace,System.Guid)
 extern void UnboundAnchor__ctor_m5D52B0EF0F4F17EC1BA0FCCE95B76DC637AA04EA (void);
 // 0x00000661 System.Void OVRSpatialAnchor/Development::Log(System.String)
-extern void Development_Log_m422CC00CC046E84769445402F6F020625446F9CB (void);
+extern void Development_Log_m857AEF82928C445F749C3B118299D3FEC4955132 (void);
 // 0x00000662 System.Void OVRSpatialAnchor/Development::LogWarning(System.String)
-extern void Development_LogWarning_m8357642B68E31A95B4011AF2AE45313A94E26784 (void);
+extern void Development_LogWarning_m814612A47B39A50F44BBC03491183ABA8522DC33 (void);
 // 0x00000663 System.Void OVRSpatialAnchor/Development::LogError(System.String)
-extern void Development_LogError_mF6C5316CD0C989B7B0943834B38D431EBCCA6928 (void);
+extern void Development_LogError_m57A41BE743EA2BC2F5E4D8DEE27993125D0EB9E3 (void);
 // 0x00000664 System.Void OVRSpatialAnchor/Development::LogRequest(System.UInt64,System.String)
-extern void Development_LogRequest_mC09C8C6024DCCA6FF51A6CDA94B55DAAF66C42BF (void);
+extern void Development_LogRequest_m4F27E67EE07B6412223E7921C2640FDF66F0BA64 (void);
 // 0x00000665 System.Void OVRSpatialAnchor/Development::LogRequestResult(System.UInt64,System.Boolean,System.String,System.String)
-extern void Development_LogRequestResult_mBCB221986F27570A7BB76F4E3C0B18469657569C (void);
+extern void Development_LogRequestResult_m6F2A85536A6B2BAABB250839685C2B5E8B831D9C (void);
 // 0x00000666 OVRKeyboard/TrackedKeyboardState OVRKeyboard::GetKeyboardState()
-extern void OVRKeyboard_GetKeyboardState_m1F8B77B15F5BA4D481CB56C3413C57A9956455FC (void);
+extern void OVRKeyboard_GetKeyboardState_m2EDCE0DEA298C8AE9734704C06438A4DDE26B428 (void);
 // 0x00000667 System.Boolean OVRKeyboard::GetSystemKeyboardInfo(OVRPlugin/TrackedKeyboardQueryFlags,OVRKeyboard/TrackedKeyboardInfo&)
-extern void OVRKeyboard_GetSystemKeyboardInfo_mD3BB87D87B903D68E3D19F8B2F8FB1EB36B63825 (void);
+extern void OVRKeyboard_GetSystemKeyboardInfo_mDCAF502573FA18822B70264B4EF59BE14D3EE4A1 (void);
 // 0x00000668 System.Boolean OVRKeyboard::StopKeyboardTracking(OVRKeyboard/TrackedKeyboardInfo)
-extern void OVRKeyboard_StopKeyboardTracking_mA135FF0DB4A7D0FCA54DA31924B01265DB5BC586 (void);
+extern void OVRKeyboard_StopKeyboardTracking_m0795B10855993AEAFE15D9A85F5AC2C95E8F4DA6 (void);
 // 0x00000669 System.Single OVRTrackedKeyboard::get_CurrentKeyboardAngleFromUp()
 extern void OVRTrackedKeyboard_get_CurrentKeyboardAngleFromUp_m4DDFDA699122D38E8E1A26A7D097D9A09A9AE295 (void);
 // 0x0000066A System.Void OVRTrackedKeyboard::set_CurrentKeyboardAngleFromUp(System.Single)
@@ -3365,7 +3365,7 @@ extern void OVRTrackedKeyboard_DispatchVisibilityEvent_m0B9F8A411072BE228EDDC6C9
 // 0x00000696 System.Void OVRTrackedKeyboard::.ctor()
 extern void OVRTrackedKeyboard__ctor_m91147CCE8E10C9C1714347782F41A1D0434C78D4 (void);
 // 0x00000697 System.Void OVRTrackedKeyboard::.cctor()
-extern void OVRTrackedKeyboard__cctor_mD8F938C8FCD6813FB8D2D1C0F34A057093FE3D77 (void);
+extern void OVRTrackedKeyboard__cctor_m65EB8E7106576FFBFFCAF80F532B2C44D551B347 (void);
 // 0x00000698 System.Void OVRTrackedKeyboard/TrackedKeyboardVisibilityChangedEvent::.ctor(System.String,OVRTrackedKeyboard/TrackedKeyboardState,System.Boolean)
 extern void TrackedKeyboardVisibilityChangedEvent__ctor_m8E75930EF57C67D7503C0048EBB15A7512E18BDB (void);
 // 0x00000699 System.Void OVRTrackedKeyboard/TrackedKeyboardSetActiveEvent::.ctor(System.Boolean)
@@ -3431,7 +3431,7 @@ extern void U3CUpdateKeyboardPoseU3Ed__98_System_Collections_IEnumerator_Reset_m
 // 0x000006B7 System.Object OVRTrackedKeyboard/<UpdateKeyboardPose>d__98::System.Collections.IEnumerator.get_Current()
 extern void U3CUpdateKeyboardPoseU3Ed__98_System_Collections_IEnumerator_get_Current_mF67208C72BDB2DEDF669CEDE3E4D1C4B831DD789 (void);
 // 0x000006B8 System.Void OVRTrackedKeyboard/<>c::.cctor()
-extern void U3CU3Ec__cctor_m4429B92AEC6EBE5C9404E9B121D171DCC51AF531 (void);
+extern void U3CU3Ec__cctor_m721A14131A7ABBC8FA09D704852F73A38745EA2D (void);
 // 0x000006B9 System.Void OVRTrackedKeyboard/<>c::.ctor()
 extern void U3CU3Ec__ctor_mE48EF925923CB919AE5284AEB6C767DA2BF9D895 (void);
 // 0x000006BA System.Void OVRTrackedKeyboard/<>c::<.ctor>b__113_0(OVRTrackedKeyboard/TrackedKeyboardSetActiveEvent)
@@ -3477,7 +3477,7 @@ extern void OVRTrackedKeyboardHands_TrackedKeyboardVisibilityChanged_mBE7D8E4E5E
 // 0x000006CE System.Void OVRTrackedKeyboardHands::.ctor()
 extern void OVRTrackedKeyboardHands__ctor_m9A8EA424D29618E3DC43AE92D80307BAEB2DF894 (void);
 // 0x000006CF System.Void OVRTrackedKeyboardHands::.cctor()
-extern void OVRTrackedKeyboardHands__cctor_m58FBC41D86A35BF49A72A0FB7AEAFE2AD983AA9C (void);
+extern void OVRTrackedKeyboardHands__cctor_mD5787D7AABBB449371A91C18DCB416BEF04C70C9 (void);
 // 0x000006D0 System.Void OVRTrackedKeyboardSampleControls::Start()
 extern void OVRTrackedKeyboardSampleControls_Start_mCC0905D0197F5DD2D14C43E6D1F6514F21EA7A0C (void);
 // 0x000006D1 System.Void OVRTrackedKeyboardSampleControls::Update()
@@ -3533,15 +3533,15 @@ extern void OVRTracker_GetPresent_m68DDB89533E72A54568FB5ACC533E788768D6DC1 (voi
 // 0x000006EA System.Void OVRTracker::.ctor()
 extern void OVRTracker__ctor_m283EF4D30717FA44ECFD8C6D31C15E31DBA3D2CD (void);
 // 0x000006EB System.Void OculusXRPlugin::SetColorScale(System.Single,System.Single,System.Single,System.Single)
-extern void OculusXRPlugin_SetColorScale_m0CCD8EAEF059D476BDE12F758CDB5CCE9E187E5F (void);
+extern void OculusXRPlugin_SetColorScale_m20DAD44814E22C9614ADE7C0C6F1C2F0A7DF601F (void);
 // 0x000006EC System.Void OculusXRPlugin::SetColorOffset(System.Single,System.Single,System.Single,System.Single)
-extern void OculusXRPlugin_SetColorOffset_mA7D8B10BEC3AA5004E08775C9F7FF3FDA2AF2215 (void);
+extern void OculusXRPlugin_SetColorOffset_m8219BBE3032A4978D7133616EFA86B64F2D8956A (void);
 // 0x000006ED System.Void OculusXRPlugin::SetSpaceWarp(OVRPlugin/Bool)
-extern void OculusXRPlugin_SetSpaceWarp_m51900B80D35123EB355A1E5BBF4162E901503801 (void);
+extern void OculusXRPlugin_SetSpaceWarp_m591EA7747C0C944877CE8350AEA763560E46E7F1 (void);
 // 0x000006EE System.Void OculusXRPlugin::SetAppSpacePosition(System.Single,System.Single,System.Single)
-extern void OculusXRPlugin_SetAppSpacePosition_m01F57C58691AB7D1C5E0454F9A2AD210F762D1BA (void);
+extern void OculusXRPlugin_SetAppSpacePosition_m4F081B1A6672C6CE541651F75EA9B955938808F2 (void);
 // 0x000006EF System.Void OculusXRPlugin::SetAppSpaceRotation(System.Single,System.Single,System.Single,System.Single)
-extern void OculusXRPlugin_SetAppSpaceRotation_m5E38CFF67F2BD6504F483AAF3C9B8154F2EB07F1 (void);
+extern void OculusXRPlugin_SetAppSpaceRotation_m24E78BBF3BA5775538BA8C0A1A0CE99A9521E2D6 (void);
 // 0x000006F0 System.Void OVRAudioSourceTest::Start()
 extern void OVRAudioSourceTest_Start_mBBDBC8746733F1C22FF455311DA05938E8739D01 (void);
 // 0x000006F1 System.Void OVRAudioSourceTest::Update()
@@ -3579,7 +3579,7 @@ extern void OVRControllerTest_Update_m099C9CDD921856BAC85FBC5F360C6FE1BAD55C22 (
 // 0x00000701 System.Void OVRControllerTest::.ctor()
 extern void OVRControllerTest__ctor_mDFEABCDF2304DAFDC7F31A4D4B77E71A61EEA549 (void);
 // 0x00000702 System.Void OVRControllerTest::.cctor()
-extern void OVRControllerTest__cctor_mB172FC46463DEA0045F3181D01C00FD89778F3BB (void);
+extern void OVRControllerTest__cctor_m65BAA43CE061BF8F11E1C56CD31B4523FA1E6222 (void);
 // 0x00000703 System.Void OVRControllerTest/BoolMonitor::.ctor(System.String,OVRControllerTest/BoolMonitor/BoolGenerator,System.Single)
 extern void BoolMonitor__ctor_m48CEE8AEBA8320DFD8F47048EF28CADF91859749 (void);
 // 0x00000704 System.Void OVRControllerTest/BoolMonitor::Update()
@@ -3595,7 +3595,7 @@ extern void BoolGenerator_BeginInvoke_m51B29BD299CBF42BE11A54E7433E596B97951499 
 // 0x00000709 System.Boolean OVRControllerTest/BoolMonitor/BoolGenerator::EndInvoke(System.IAsyncResult)
 extern void BoolGenerator_EndInvoke_m4D2CA904F3DBDAD2E9C995BE61C27C4C04E51F4B (void);
 // 0x0000070A System.Void OVRControllerTest/<>c::.cctor()
-extern void U3CU3Ec__cctor_mED7BEE6687E73CE51B5D4FE3063003200BE1ADD1 (void);
+extern void U3CU3Ec__cctor_mCA4CD925276A839BFF26F0E9598F42C7DC863E2D (void);
 // 0x0000070B System.Void OVRControllerTest/<>c::.ctor()
 extern void U3CU3Ec__ctor_mA2769B0EEAA367A85A47C04C14498D839E76C57E (void);
 // 0x0000070C System.Boolean OVRControllerTest/<>c::<Start>b__4_0()
@@ -3665,11 +3665,11 @@ extern void U3CU3Ec_U3C_cctorU3Eb__9_0_m32421D04C903DCFC097E6744E48222E9CE5AE807
 // 0x0000072C System.Void OVRCubemapCapture::Update()
 extern void OVRCubemapCapture_Update_m7B7D2356846F1E0452833C80976C432BDAE2D719 (void);
 // 0x0000072D System.Void OVRCubemapCapture::TriggerCubemapCapture(UnityEngine.Vector3,System.Int32,System.String)
-extern void OVRCubemapCapture_TriggerCubemapCapture_m5029A601C6327B35B885279E74C88863D2B56EC6 (void);
+extern void OVRCubemapCapture_TriggerCubemapCapture_mB3C07EAF1FB7E4D630CD74A36D89B9DD53EC061B (void);
 // 0x0000072E System.Void OVRCubemapCapture::RenderIntoCubemap(UnityEngine.Camera,UnityEngine.Cubemap)
-extern void OVRCubemapCapture_RenderIntoCubemap_m7C5BF498BF46BCCEE163ADAD94CA3F5AE363CAD1 (void);
+extern void OVRCubemapCapture_RenderIntoCubemap_m6611651EF30EE9CA4C6CCA6923FE95E3D3FCA99C (void);
 // 0x0000072F System.Boolean OVRCubemapCapture::SaveCubemapCapture(UnityEngine.Cubemap,System.String)
-extern void OVRCubemapCapture_SaveCubemapCapture_m7E691C91EF915326B233C6331D78BAF346772E99 (void);
+extern void OVRCubemapCapture_SaveCubemapCapture_m229BF203E3A96D74345B7DB7C92557F9A9F90AF1 (void);
 // 0x00000730 System.Void OVRCubemapCapture::.ctor()
 extern void OVRCubemapCapture__ctor_m485AC6C9F1249DAB0ED23BF321949C7DCDFE5C1D (void);
 // 0x00000731 System.Void OVRCursor::SetCursorRay(UnityEngine.Transform)
@@ -3732,7 +3732,7 @@ extern void OVRGazePointer_get_currentScale_m1C2136E72FBBFE0B728ECF647B5F1F6A719
 // 0x0000074F System.Void OVRGazePointer::set_currentScale(System.Single)
 extern void OVRGazePointer_set_currentScale_mAA82E923F758CEBDA81655366A348FA3BE4AC3B6 (void);
 // 0x00000750 OVRGazePointer OVRGazePointer::get_instance()
-extern void OVRGazePointer_get_instance_mFB17BE0052660A37580115B57992F2F079A6A21D (void);
+extern void OVRGazePointer_get_instance_m11E5AB09238B77A6D3A5B43CE3980AF53699165A (void);
 // 0x00000751 System.Single OVRGazePointer::get_visibilityStrength()
 extern void OVRGazePointer_get_visibilityStrength_mFAA7342A8439F3831CE6D69512CA37C6E08FA3D2 (void);
 // 0x00000752 System.Single OVRGazePointer::get_SelectionProgress()
@@ -3910,7 +3910,7 @@ extern void OVRHandTest_Update_mFBCA76276188137688FBCF72B0E9E37EEDC18F10 (void);
 // 0x000007A8 System.Void OVRHandTest::.ctor()
 extern void OVRHandTest__ctor_m3B4AE587A8F1CF9EC83383F421BA0448288EEA0D (void);
 // 0x000007A9 System.Void OVRHandTest::.cctor()
-extern void OVRHandTest__cctor_m2483B8ABD1655D1C2420EFA8FC918BBCFD3DC31A (void);
+extern void OVRHandTest__cctor_m999808D665B28325D9E1CE1B392995E4AD1F983F (void);
 // 0x000007AA System.Void OVRHandTest/BoolMonitor::.ctor(System.String,OVRHandTest/BoolMonitor/BoolGenerator,System.Single)
 extern void BoolMonitor__ctor_m88046DBDE5197393E2C4100B8D2242981356A0C7 (void);
 // 0x000007AB System.Void OVRHandTest/BoolMonitor::Update()
@@ -3926,7 +3926,7 @@ extern void BoolGenerator_BeginInvoke_m797F8064C029D90513057AEAD3C8A93A97133E51 
 // 0x000007B0 System.Boolean OVRHandTest/BoolMonitor/BoolGenerator::EndInvoke(System.IAsyncResult)
 extern void BoolGenerator_EndInvoke_m310A5181F95C4EF6633F33088E63B24EDCA75632 (void);
 // 0x000007B1 System.Void OVRHandTest/<>c::.cctor()
-extern void U3CU3Ec__cctor_m1B85AD4665E305D1C9A6F87C58A8F5874B01EF0D (void);
+extern void U3CU3Ec__cctor_m797A9CC0111B7F7600452487D81C58F49B5C5866 (void);
 // 0x000007B2 System.Void OVRHandTest/<>c::.ctor()
 extern void U3CU3Ec__ctor_m80CE0528AF1F1DC06A2405BF7524C34AC43EDF29 (void);
 // 0x000007B3 System.Boolean OVRHandTest/<>c::<Start>b__14_0()
@@ -3951,19 +3951,19 @@ extern void OVRMesh_TransformOvrpMesh_m02D3D80128325E58D0523E3F2669A8C5A0CD1B9F 
 extern void OVRMesh__ctor_m3E60FC38206461D4A2B29CECE18B87227488651C (void);
 // 0x000007BD OVRMesh/MeshType OVRMesh/IOVRMeshDataProvider::GetMeshType()
 // 0x000007BE System.Void OVRMeshGenerator::GenerateMesh(UnityEngine.Vector2[],UnityEngine.Mesh)
-extern void OVRMeshGenerator_GenerateMesh_mAEAAA12E05CC600F42B99BC499BCE92AFC73A1AA (void);
+extern void OVRMeshGenerator_GenerateMesh_m3561F045FEFB04F34893F9742971256BB9AD6D11 (void);
 // 0x000007BF System.Void OVRMeshGenerator::TransformVertices(UnityEngine.Vector2[],UnityEngine.Vector3[]&,UnityEngine.Vector2[]&,UnityEngine.Vector3[]&)
-extern void OVRMeshGenerator_TransformVertices_mA25156E1D448561A1182C78B4C1D4B1D7F38FC49 (void);
+extern void OVRMeshGenerator_TransformVertices_m9D1AC7693F99C1B8795C1254F3B3C7180703D138 (void);
 // 0x000007C0 System.Int32[] OVRMeshGenerator::GenerateTrianglesFromBoundaryVertices(UnityEngine.Vector2[])
-extern void OVRMeshGenerator_GenerateTrianglesFromBoundaryVertices_m7629B841E26137CDD6C0E4F4A23100BC81672947 (void);
+extern void OVRMeshGenerator_GenerateTrianglesFromBoundaryVertices_mBAD5E056B56984C420F0ED58E34691D1A5271BC6 (void);
 // 0x000007C1 OVRMeshGenerator/WindingOrderMode OVRMeshGenerator::GetWindingOrder(UnityEngine.Vector2[])
-extern void OVRMeshGenerator_GetWindingOrder_m54A8C1DB36B9D65FDCF26FA6C7F34F72F938D6F6 (void);
+extern void OVRMeshGenerator_GetWindingOrder_mFF554198868358CAB6818920C867BCBAAFBFD83B (void);
 // 0x000007C2 System.Boolean OVRMeshGenerator::PointInTriangle(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void OVRMeshGenerator_PointInTriangle_mAD91896B54F2B6CB9144D7A3252C3D26390EC20E (void);
+extern void OVRMeshGenerator_PointInTriangle_m881CBCFF95D571E351F85C675FA3F03F27F733FA (void);
 // 0x000007C3 System.Single OVRMeshGenerator::Cross(UnityEngine.Vector2,UnityEngine.Vector2)
-extern void OVRMeshGenerator_Cross_mA76E3B76062670B7AE861DDB1821FAACC9345421 (void);
+extern void OVRMeshGenerator_Cross_m5E2DD9B99796C242857EFE0011890C163F37286C (void);
 // 0x000007C4 System.Int32 OVRMeshGenerator::Get(System.Int32,System.Collections.Generic.List`1<System.Int32>)
-extern void OVRMeshGenerator_Get_mE2802DC706DA611A91EA6C1047F3E3A2D921E548 (void);
+extern void OVRMeshGenerator_Get_m0CD1A8B43C035B690107143A8F265624B169018B (void);
 // 0x000007C5 System.Void OVRMeshGenerator::.ctor()
 extern void OVRMeshGenerator__ctor_m502CDFBDF6966C42FAEEA11036674C69CD708A63 (void);
 // 0x000007C6 System.Void OVRMeshJobs::.ctor()
@@ -4072,9 +4072,9 @@ extern void MeshRendererData_set_ShouldUseSystemGestureMaterial_m69393AA88AC0E31
 // 0x00000816 OVRManager/InstantiateMrcCameraDelegate OVRMixedRealityCaptureConfiguration::get_instantiateMixedRealityCameraGameObject()
 // 0x00000817 System.Void OVRMixedRealityCaptureConfiguration::set_instantiateMixedRealityCameraGameObject(OVRManager/InstantiateMrcCameraDelegate)
 // 0x00000818 System.Void OVRMixedRealityCaptureConfigurationExtensions::ApplyTo(OVRMixedRealityCaptureConfiguration,OVRMixedRealityCaptureConfiguration)
-extern void OVRMixedRealityCaptureConfigurationExtensions_ApplyTo_mF47D5E6E6F440F28D1EF9F4EAF66F3745DDF2789 (void);
+extern void OVRMixedRealityCaptureConfigurationExtensions_ApplyTo_m14994C97386BAF4C069891F001590BDD520955AF (void);
 // 0x00000819 System.Void OVRMixedRealityCaptureConfigurationExtensions::ReadFrom(OVRMixedRealityCaptureConfiguration,OVRMixedRealityCaptureConfiguration)
-extern void OVRMixedRealityCaptureConfigurationExtensions_ReadFrom_m049A82AE7E2DB196F5C1B3A74C309EDFF86FFB77 (void);
+extern void OVRMixedRealityCaptureConfigurationExtensions_ReadFrom_m585C78AFC92A80FE7A42CFC872B19375759C1E6D (void);
 // 0x0000081A System.Boolean OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration.get_enableMixedReality()
 extern void OVRMixedRealityCaptureSettings_OVRMixedRealityCaptureConfiguration_get_enableMixedReality_m33562AB9D87D64EDA88ADC0A87FF55B5E262FA84 (void);
 // 0x0000081B System.Void OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration.set_enableMixedReality(System.Boolean)
@@ -4216,7 +4216,7 @@ extern void OVRNetwork__ctor_m02115A0F3F90017B5130B2F1871DECA5AC1EEA09 (void);
 // 0x0000085F System.Byte[] OVRNetwork/FrameHeader::ToBytes()
 extern void FrameHeader_ToBytes_m2F0C8302CDF5272214CBE81F1B52723FA1175E5A (void);
 // 0x00000860 OVRNetwork/FrameHeader OVRNetwork/FrameHeader::FromBytes(System.Byte[])
-extern void FrameHeader_FromBytes_mC7F77392688C11485A942D4A525D5BB7FFD2AA42 (void);
+extern void FrameHeader_FromBytes_mFFB6BEB349DA71C5FAC1AF34228DB818F334124A (void);
 // 0x00000861 System.Void OVRNetwork/OVRNetworkTcpServer::StartListening(System.Int32)
 extern void OVRNetworkTcpServer_StartListening_mA040CD954D9815714E40716BB1D40FEBF3238A8D (void);
 // 0x00000862 System.Void OVRNetwork/OVRNetworkTcpServer::StopListening()
@@ -4330,15 +4330,15 @@ extern void OVRRaycaster_GraphicRaycast_m456CB07DDE4B23EF2F6746E25592F32F66C3C8D
 // 0x00000898 UnityEngine.Vector2 OVRRaycaster::GetScreenPosition(UnityEngine.EventSystems.RaycastResult)
 extern void OVRRaycaster_GetScreenPosition_mE54FD696C615E1CFF7E7AE19F0F9B95AB084617A (void);
 // 0x00000899 System.Boolean OVRRaycaster::RayIntersectsRectTransform(UnityEngine.RectTransform,UnityEngine.Ray,UnityEngine.Vector3&)
-extern void OVRRaycaster_RayIntersectsRectTransform_m762FBA6A295D34B57364653E5F0139165F9C5135 (void);
+extern void OVRRaycaster_RayIntersectsRectTransform_m3E13434FEF270DBDBBCD3FD8BA4688712F96E8AC (void);
 // 0x0000089A System.Boolean OVRRaycaster::IsFocussed()
 extern void OVRRaycaster_IsFocussed_mB1A42E38FBEDF9F266E2A89F954C78259AE75990 (void);
 // 0x0000089B System.Void OVRRaycaster::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
 extern void OVRRaycaster_OnPointerEnter_m4CDCA760A363AE45F1582C74FC8ECBB19170188F (void);
 // 0x0000089C System.Void OVRRaycaster::.cctor()
-extern void OVRRaycaster__cctor_m202535892F0CC58ACB65755DFE473700D6A32B66 (void);
+extern void OVRRaycaster__cctor_m539FAA30E8EEDC255A7E42CFCFFB6AC0DB5CF7F7 (void);
 // 0x0000089D System.Void OVRRaycaster/<>c::.cctor()
-extern void U3CU3Ec__cctor_mC3647BBB7034B324855D5C4A5F5079F7F20F8989 (void);
+extern void U3CU3Ec__cctor_m82097A51AAC23DAA68686609923C4B09F5EB3AA4 (void);
 // 0x0000089E System.Void OVRRaycaster/<>c::.ctor()
 extern void U3CU3Ec__ctor_m9F8846495EEC24E5A8504A8EF8FC92645F249E23 (void);
 // 0x0000089F System.Int32 OVRRaycaster/<>c::<GraphicRaycast>b__16_0(OVRRaycaster/RaycastHit,OVRRaycaster/RaycastHit)
@@ -4366,7 +4366,7 @@ extern void OVRRuntimeController_InputFocusLost_m2DF3ABBF3D96DFA5E2B22003758CF34
 // 0x000008AA System.Void OVRRuntimeController::.ctor()
 extern void OVRRuntimeController__ctor_mF4FEEE8B67030B6845BDC9BFE3F678C26593095D (void);
 // 0x000008AB System.Void OVRRuntimeController::.cctor()
-extern void OVRRuntimeController__cctor_mFBF8476E4EA45401672610506FD76B8C61B023C1 (void);
+extern void OVRRuntimeController__cctor_m5EC60A1550DE17F446CB058969D8B24514242E8A (void);
 // 0x000008AC System.Void OVRRuntimeController/<UpdateControllerModel>d__16::.ctor(System.Int32)
 extern void U3CUpdateControllerModelU3Ed__16__ctor_m6D5DC5BC750D48A746C3AE15B23BF8BF85A42713 (void);
 // 0x000008AD System.Void OVRRuntimeController/<UpdateControllerModel>d__16::System.IDisposable.Dispose()
@@ -4394,9 +4394,9 @@ extern void OVRSceneSampleController_UpdateRecenterPose_mCE417FE793AC294A67314E1
 // 0x000008B8 System.Void OVRSceneSampleController::.ctor()
 extern void OVRSceneSampleController__ctor_m9A730424FDA0C12E589CB9600437625037AF765A (void);
 // 0x000008B9 OVRScreenFade OVRScreenFade::get_instance()
-extern void OVRScreenFade_get_instance_m83FD3FAB7EEDCD585552E5D86C4C7828C4C6932F (void);
+extern void OVRScreenFade_get_instance_m56F42EB3F98DB59C49194E1359AC9CDCF373E5F1 (void);
 // 0x000008BA System.Void OVRScreenFade::set_instance(OVRScreenFade)
-extern void OVRScreenFade_set_instance_mE5959443144FE8EA04EE7C16ECC7643BBF2C393B (void);
+extern void OVRScreenFade_set_instance_m022D7CA759D44EF84823F44F5839A6DD4CFC9DE5 (void);
 // 0x000008BB System.Single OVRScreenFade::get_currentAlpha()
 extern void OVRScreenFade_get_currentAlpha_mDADE3DD93ACF686EF8D4501D23F90F8FAEC7F380 (void);
 // 0x000008BC System.Void OVRScreenFade::Start()
@@ -4494,7 +4494,7 @@ extern void OVRSkeleton_GetCurrentNumBones_mF352776E9CB154205170BCFF3D1098EEC022
 // 0x000008EA System.Int32 OVRSkeleton::GetCurrentNumSkinnableBones()
 extern void OVRSkeleton_GetCurrentNumSkinnableBones_m09933B25D8F182E1B04005BC457A06F9B014402D (void);
 // 0x000008EB System.String OVRSkeleton::BoneLabelFromBoneId(OVRSkeleton/SkeletonType,OVRSkeleton/BoneId)
-extern void OVRSkeleton_BoneLabelFromBoneId_m90FBD45AB113CAB1EAB0325F7512F103D650D453 (void);
+extern void OVRSkeleton_BoneLabelFromBoneId_m95ECECAF04584E40307053E9637695FDAD4284C0 (void);
 // 0x000008EC System.Void OVRSkeleton::.ctor()
 extern void OVRSkeleton__ctor_mA04378F10574DE4518FE0FDF4C004F159AD30EE2 (void);
 // 0x000008ED OVRSkeleton/SkeletonType OVRSkeleton/IOVRSkeletonDataProvider::GetSkeletonType()
@@ -4586,7 +4586,7 @@ extern void OVRSkeletonRenderer_OnDestroy_m41E35E67ABE44ABE9E6B3EF6C247ED2EBD26B
 // 0x00000919 System.Void OVRSkeletonRenderer::.ctor()
 extern void OVRSkeletonRenderer__ctor_mD0DA471DA57091D50940F813FC09F81FD5EC84CC (void);
 // 0x0000091A System.Void OVRSkeletonRenderer::.cctor()
-extern void OVRSkeletonRenderer__cctor_mE0AE6AE4DFCF54CF89F81678BD051DF434B32241 (void);
+extern void OVRSkeletonRenderer__cctor_mD731CB6E87BEC93E02F7930E4CF3441C1EB26648 (void);
 // 0x0000091B OVRSkeletonRenderer/SkeletonRendererData OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider::GetSkeletonRendererData()
 // 0x0000091C System.Single OVRSkeletonRenderer/SkeletonRendererData::get_RootScale()
 extern void SkeletonRendererData_get_RootScale_mB15BEA2C46E5EDBB62F506ED3C744442FBE92C75 (void);
@@ -4697,7 +4697,7 @@ extern void OVRVignette_OnBeginCameraRendering_mF4A9863BA963402920B8EC77B8F2642C
 // 0x00000951 System.Void OVRVignette::.ctor()
 extern void OVRVignette__ctor_m1F4442AB6FA2AD342D95494EC8E2BDA26E9CFB16 (void);
 // 0x00000952 System.Void OVRVignette::.cctor()
-extern void OVRVignette__cctor_m8C78AD9B2EBD6EDBECBCC891B2754CE68787E8EB (void);
+extern void OVRVignette__cctor_m5EB0B638C9A3C5E4BA57692397AA82717C0E553F (void);
 // 0x00000953 System.Void OVRWaitCursor::Update()
 extern void OVRWaitCursor_Update_mCC5ABF34D603582F9169381B15FC06FA7B961878 (void);
 // 0x00000954 System.Void OVRWaitCursor::.ctor()
@@ -4784,73 +4784,73 @@ extern void JSONNode_get_AsArray_mCE13B3346A15D9F59CE41810502FA4E828CC7D97 (void
 // 0x0000097E OVRSimpleJSON.JSONObject OVRSimpleJSON.JSONNode::get_AsObject()
 extern void JSONNode_get_AsObject_m9604538CE645775F86070C3CC31CFCCC4C945A9C (void);
 // 0x0000097F OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.String)
-extern void JSONNode_op_Implicit_mCF442D59B41D4EC95502D7B456E4E2C7C0631BD4 (void);
+extern void JSONNode_op_Implicit_m06AD34FCD4106FA53D67CBC4C74AC2104EB5E3D1 (void);
 // 0x00000980 System.String OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mC3BFE1BC33A1EB603E49F0FCACCF8AEC1C0BA8D4 (void);
+extern void JSONNode_op_Implicit_mD59C878E61128BBC0236886E0C4759199DF99240 (void);
 // 0x00000981 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.Double)
-extern void JSONNode_op_Implicit_m6F05DFD6765F3FE8145276E561C790A0EB55260D (void);
+extern void JSONNode_op_Implicit_mA54715C2EFAFCA903B7DE85FD00F06C6FB199B97 (void);
 // 0x00000982 System.Double OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mE7AB34D9F7EA21A5AB9DEF8D8589414A0CCC1214 (void);
+extern void JSONNode_op_Implicit_mE1BC2CA96D2A1DC3844F1A7B545421EB5F153AF0 (void);
 // 0x00000983 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.Single)
-extern void JSONNode_op_Implicit_mCF904401BBB13659548F107FB00EA0E68EFA40E2 (void);
+extern void JSONNode_op_Implicit_mB743724C768080641A928FC6DD8D8AD940317289 (void);
 // 0x00000984 System.Single OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mFCD00112E5E0587A201E339D524D1A21BCC22ECC (void);
+extern void JSONNode_op_Implicit_mFB11AAC18E643644D56CD7A9FF8EF25BEC10ADD2 (void);
 // 0x00000985 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.Int32)
-extern void JSONNode_op_Implicit_m4F8C943562F8A379E689634217E3F4C300800FC1 (void);
+extern void JSONNode_op_Implicit_m42AA4B01E7F8AB751DD6DDA8A3743D95DF1053A6 (void);
 // 0x00000986 System.Int32 OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_m348268ECB34D46E16CD08043AAC6B6FDD88E4D4C (void);
+extern void JSONNode_op_Implicit_m442422A33AB5A2604825B88351D61431CCE64901 (void);
 // 0x00000987 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.Int64)
-extern void JSONNode_op_Implicit_m252487149165C59DC18DAB2F2577C720FD9CE442 (void);
+extern void JSONNode_op_Implicit_m321BB6A572D826D00D2098FD0C0226226B75C476 (void);
 // 0x00000988 System.Int64 OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_m50D6030AB1CBABF86689339956F5487B38EED8D7 (void);
+extern void JSONNode_op_Implicit_m3D56EF1F35B6ED3B4A0AEB2BF757D0F738C47163 (void);
 // 0x00000989 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.Boolean)
-extern void JSONNode_op_Implicit_m2A456CF046499D32439A931DDFA4A8A0AE5887F6 (void);
+extern void JSONNode_op_Implicit_m1CC5F8AFF48490BE6B707003BD87191FD0A97377 (void);
 // 0x0000098A System.Boolean OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_m2B9817F50740EB5481AFD4862AF957E3F185CA0F (void);
+extern void JSONNode_op_Implicit_m910ECDB35130E073BB034A3EB869ABD39C522FB9 (void);
 // 0x0000098B OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode>)
-extern void JSONNode_op_Implicit_mEA2CAC8C9EDCBCC13131A08DA99409B831EA3D94 (void);
+extern void JSONNode_op_Implicit_m751E6ECD633A913F6EC695EFBE1A78DB939294D4 (void);
 // 0x0000098C System.Boolean OVRSimpleJSON.JSONNode::op_Equality(OVRSimpleJSON.JSONNode,System.Object)
-extern void JSONNode_op_Equality_m1ADEA51EC49A379938AEBBC1919AC3CE5F834301 (void);
+extern void JSONNode_op_Equality_m0A4D3AD35FDA458826859C2085CDC5927E19422A (void);
 // 0x0000098D System.Boolean OVRSimpleJSON.JSONNode::op_Inequality(OVRSimpleJSON.JSONNode,System.Object)
-extern void JSONNode_op_Inequality_m518E3B856BAE3571213839BA82E6B4AD51905E11 (void);
+extern void JSONNode_op_Inequality_m69D6C3ED4847555366838FF578A56DD28B1A167A (void);
 // 0x0000098E System.Boolean OVRSimpleJSON.JSONNode::Equals(System.Object)
 extern void JSONNode_Equals_m73DB667CBE776B8AA3B7E6C015084FE509D69D8D (void);
 // 0x0000098F System.Int32 OVRSimpleJSON.JSONNode::GetHashCode()
 extern void JSONNode_GetHashCode_m424E2C79A394E683A6A1BAC2CAAE797FE9862993 (void);
 // 0x00000990 System.Text.StringBuilder OVRSimpleJSON.JSONNode::get_EscapeBuilder()
-extern void JSONNode_get_EscapeBuilder_mB62A6830CDD9F956488943DEFB3008EBD3C97C1E (void);
+extern void JSONNode_get_EscapeBuilder_mE2AC2C35E8E0817C05992F7105E57A77F9DCA177 (void);
 // 0x00000991 System.String OVRSimpleJSON.JSONNode::Escape(System.String)
-extern void JSONNode_Escape_m38FBBFD187CC7CE055DDF0B6BBD4E1450597C4DB (void);
+extern void JSONNode_Escape_mC6A159C85C9B89C657BEF8E8752411AFE59DF324 (void);
 // 0x00000992 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::ParseElement(System.String,System.Boolean)
-extern void JSONNode_ParseElement_m850277D845A03435745A7139204D1E5B802D3AC0 (void);
+extern void JSONNode_ParseElement_m9720BEEFAD9EB19FB3E6E2528F87381A639169A3 (void);
 // 0x00000993 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::Parse(System.String)
-extern void JSONNode_Parse_m2B3EFCE1DC20FAB3209BC6EBEDBEF7B691E9E621 (void);
+extern void JSONNode_Parse_m1B80D9CC59A2C2418CBAC250D026B36E146B9A2C (void);
 // 0x00000994 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::GetContainer(OVRSimpleJSON.JSONContainerType)
-extern void JSONNode_GetContainer_m5C21CCC8A7768CCC1299636153F2878E118A0017 (void);
+extern void JSONNode_GetContainer_m956BA06C8301B8161E3C8437C43D549BD633D2B7 (void);
 // 0x00000995 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(UnityEngine.Vector2)
-extern void JSONNode_op_Implicit_m859E6823880020221E0E8C081A0E203949010396 (void);
+extern void JSONNode_op_Implicit_mDDFEB0BCCB0625DFCD47E6FC74CAD36BD37F0CF9 (void);
 // 0x00000996 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(UnityEngine.Vector3)
-extern void JSONNode_op_Implicit_m25E038FC90C0C3DEF12BC11023BB6C8A342BCCD7 (void);
+extern void JSONNode_op_Implicit_m447A86FB023F9CCB3CB9D86D6EE6E3708404EF03 (void);
 // 0x00000997 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(UnityEngine.Vector4)
-extern void JSONNode_op_Implicit_m8A6960B574C2F2CFE36182C9DD236E1B7369D418 (void);
+extern void JSONNode_op_Implicit_mC7C33AC196B16D3BA60F6DFF4367991A42F43539 (void);
 // 0x00000998 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(UnityEngine.Quaternion)
-extern void JSONNode_op_Implicit_m3718AD40D245677F4C11B7EA9D3C9D8CE78997A9 (void);
+extern void JSONNode_op_Implicit_mA1B45C30D55997E176F36546D60B6B8D7252B3DE (void);
 // 0x00000999 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(UnityEngine.Rect)
-extern void JSONNode_op_Implicit_m7EEF962DCDC678A14CFB7D90A7CFE54874B3B59C (void);
+extern void JSONNode_op_Implicit_m558BDBCD321C50310B0421FA74FFA96AD6A001EF (void);
 // 0x0000099A OVRSimpleJSON.JSONNode OVRSimpleJSON.JSONNode::op_Implicit(UnityEngine.RectOffset)
-extern void JSONNode_op_Implicit_m37A0D0CC19036C606A2FD185B3A13C8999349342 (void);
+extern void JSONNode_op_Implicit_m03CECF98394B5BC2C9C1CDAFD25D28A5C8FD341D (void);
 // 0x0000099B UnityEngine.Vector2 OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mD9A78BBE398F581F01FE61A9E91A1E8488975999 (void);
+extern void JSONNode_op_Implicit_m5E4C33C1F893CF43B63785B51FE31F1D611D6EEC (void);
 // 0x0000099C UnityEngine.Vector3 OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mA957A0C58CE90BE86A20CAA138F3ED3DAB51B424 (void);
+extern void JSONNode_op_Implicit_m605208B57ACBC42DF0C23E06132F641309E5C5BE (void);
 // 0x0000099D UnityEngine.Vector4 OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_m53C95337E360C6C7AF9902A393330277C77AE062 (void);
+extern void JSONNode_op_Implicit_m8C4FA775A316771268C0568EBB7F07BF0E05AD47 (void);
 // 0x0000099E UnityEngine.Quaternion OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mE706033FCDD1DE6A4E84D698B6E70F5A732DECB7 (void);
+extern void JSONNode_op_Implicit_mE716C9B67C21931689BCD4842125B7567108A227 (void);
 // 0x0000099F UnityEngine.Rect OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_m92B580D83E2AD2A12A92371EF0D563BB417E44B8 (void);
+extern void JSONNode_op_Implicit_mC8BF873FD3CE14CDF4150413BA4085EAAA7DF3F9 (void);
 // 0x000009A0 UnityEngine.RectOffset OVRSimpleJSON.JSONNode::op_Implicit(OVRSimpleJSON.JSONNode)
-extern void JSONNode_op_Implicit_mB0CA45DAC3263DC4D3B39126C599AF7502CC375C (void);
+extern void JSONNode_op_Implicit_mA74D784EECE29F195CFE0672AF8B219BE26DFACD (void);
 // 0x000009A1 UnityEngine.Vector2 OVRSimpleJSON.JSONNode::ReadVector2(UnityEngine.Vector2)
 extern void JSONNode_ReadVector2_m2E465E3885062F0AFC873F699F82A2AC8E06DA28 (void);
 // 0x000009A2 UnityEngine.Vector2 OVRSimpleJSON.JSONNode::ReadVector2(System.String,System.String)
@@ -5132,7 +5132,7 @@ extern void JSONNumber__ctor_mFECBFDEEAB2024BF43E720DBA845CB31B00E9077 (void);
 // 0x00000A2C System.Void OVRSimpleJSON.JSONNumber::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,OVRSimpleJSON.JSONTextMode)
 extern void JSONNumber_WriteToStringBuilder_mF81892B6163DACAE8328D433CABAC093BC981C96 (void);
 // 0x00000A2D System.Boolean OVRSimpleJSON.JSONNumber::IsNumeric(System.Object)
-extern void JSONNumber_IsNumeric_m4C49E04818ED964E11E572E5088F21B4E806E1FD (void);
+extern void JSONNumber_IsNumeric_m9788D25C146F246FC82E051C7B2BE975E70B6327 (void);
 // 0x00000A2E System.Boolean OVRSimpleJSON.JSONNumber::Equals(System.Object)
 extern void JSONNumber_Equals_mD47B48F876BD8A7632FE325B7A21C836402CF179 (void);
 // 0x00000A2F System.Int32 OVRSimpleJSON.JSONNumber::GetHashCode()
@@ -5162,7 +5162,7 @@ extern void JSONBool_Equals_mB0484D4B16D15BDE770AEE59BEDC2AAD311CB799 (void);
 // 0x00000A3B System.Int32 OVRSimpleJSON.JSONBool::GetHashCode()
 extern void JSONBool_GetHashCode_mA52751E2D1158CA83D7C09826DF9328D90579E3F (void);
 // 0x00000A3C OVRSimpleJSON.JSONNull OVRSimpleJSON.JSONNull::CreateOrGet()
-extern void JSONNull_CreateOrGet_mC5FB120BA0AB39A54386CD820F018F73A965CC93 (void);
+extern void JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381 (void);
 // 0x00000A3D System.Void OVRSimpleJSON.JSONNull::.ctor()
 extern void JSONNull__ctor_m0D2EBC018B306B414F8C5E082846088954B1E8A5 (void);
 // 0x00000A3E OVRSimpleJSON.JSONNodeType OVRSimpleJSON.JSONNull::get_Tag()
@@ -5186,7 +5186,7 @@ extern void JSONNull_GetHashCode_mDAE3F1800F1BEB39879A4FCC0C484E977088973F (void
 // 0x00000A47 System.Void OVRSimpleJSON.JSONNull::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,OVRSimpleJSON.JSONTextMode)
 extern void JSONNull_WriteToStringBuilder_mEAA5BA6B25E992205FC3161B743497541DAB127C (void);
 // 0x00000A48 System.Void OVRSimpleJSON.JSONNull::.cctor()
-extern void JSONNull__cctor_m2A702EDB36307B4D417277F91E0ACB320EF506C8 (void);
+extern void JSONNull__cctor_mF62030AB2A27801802CEF6DB4178DCB6B12E5754 (void);
 // 0x00000A49 OVRSimpleJSON.JSONNodeType OVRSimpleJSON.JSONLazyCreator::get_Tag()
 extern void JSONLazyCreator_get_Tag_m7D853E8C5F4243069CEB8D8762FECE70BEBAF647 (void);
 // 0x00000A4A OVRSimpleJSON.JSONNode/Enumerator OVRSimpleJSON.JSONLazyCreator::GetEnumerator()
@@ -5209,9 +5209,9 @@ extern void JSONLazyCreator_Add_mA6BC9DEB3490C5981297F3C3091AFCC63B364FC3 (void)
 // 0x00000A53 System.Void OVRSimpleJSON.JSONLazyCreator::Add(System.String,OVRSimpleJSON.JSONNode)
 extern void JSONLazyCreator_Add_m2AD0766DE1507F592CC9403AFFB9FB325F84A177 (void);
 // 0x00000A54 System.Boolean OVRSimpleJSON.JSONLazyCreator::op_Equality(OVRSimpleJSON.JSONLazyCreator,System.Object)
-extern void JSONLazyCreator_op_Equality_mDC76A9267F0EBD817C3FA586C8730DE828EF583F (void);
+extern void JSONLazyCreator_op_Equality_m56B7B7B7C3F96CC78BB7EA36C0BD101762E1E01C (void);
 // 0x00000A55 System.Boolean OVRSimpleJSON.JSONLazyCreator::op_Inequality(OVRSimpleJSON.JSONLazyCreator,System.Object)
-extern void JSONLazyCreator_op_Inequality_m2F8856328D5B72724A0D22C23DC8260B46578B55 (void);
+extern void JSONLazyCreator_op_Inequality_m62E2E99791231D5D2DD84CE936D5B281106728F6 (void);
 // 0x00000A56 System.Boolean OVRSimpleJSON.JSONLazyCreator::Equals(System.Object)
 extern void JSONLazyCreator_Equals_m7FCC23BCC388C50C696E18361FFBDFA82DC03C17 (void);
 // 0x00000A57 System.Int32 OVRSimpleJSON.JSONLazyCreator::GetHashCode()
@@ -5243,7 +5243,7 @@ extern void JSONLazyCreator_get_AsObject_m418630798EEC9DABE2EDA2A48BF9E82512547C
 // 0x00000A64 System.Void OVRSimpleJSON.JSONLazyCreator::WriteToStringBuilder(System.Text.StringBuilder,System.Int32,System.Int32,OVRSimpleJSON.JSONTextMode)
 extern void JSONLazyCreator_WriteToStringBuilder_mB8FFDBBB255C96B120FCAF4E93975D1319774618 (void);
 // 0x00000A65 OVRSimpleJSON.JSONNode OVRSimpleJSON.JSON::Parse(System.String)
-extern void JSON_Parse_mBE2B5B20CE718BF647FE7CC0F5E892C2AB137ED3 (void);
+extern void JSON_Parse_m9A3810DF8CDD89CADCF7A4522144BD0FF133992C (void);
 // 0x00000A66 System.Void OVR.OpenVR.IVRSystem/_GetRecommendedRenderTargetSize::.ctor(System.Object,System.IntPtr)
 extern void _GetRecommendedRenderTargetSize__ctor_m9FC1402CB7C6718DECA019A2F5F9AA17918CEF61 (void);
 // 0x00000A67 System.Void OVR.OpenVR.IVRSystem/_GetRecommendedRenderTargetSize::Invoke(System.UInt32&,System.UInt32&)
@@ -8499,23 +8499,23 @@ extern void CVRSpatialAnchors_GetSpatialAnchorPose_m2614EA539729620429BDDAE901B9
 // 0x000010C0 OVR.OpenVR.EVRSpatialAnchorError OVR.OpenVR.CVRSpatialAnchors::GetSpatialAnchorDescriptor(System.UInt32,System.Text.StringBuilder,System.UInt32&)
 extern void CVRSpatialAnchors_GetSpatialAnchorDescriptor_m8CE0B11F8C1632F61C4A4C4E45F51A724349AE43 (void);
 // 0x000010C1 System.UInt32 OVR.OpenVR.OpenVRInterop::InitInternal(OVR.OpenVR.EVRInitError&,OVR.OpenVR.EVRApplicationType)
-extern void OpenVRInterop_InitInternal_mAE36060D473E41ACA34447708C313FE56EFBA31B (void);
+extern void OpenVRInterop_InitInternal_m2665536BA84D167E89155D65993EAC00951054FD (void);
 // 0x000010C2 System.UInt32 OVR.OpenVR.OpenVRInterop::InitInternal2(OVR.OpenVR.EVRInitError&,OVR.OpenVR.EVRApplicationType,System.String)
-extern void OpenVRInterop_InitInternal2_mE6C83F8BE33710A6605AAD3A613CA11A13797DD6 (void);
+extern void OpenVRInterop_InitInternal2_mE04F2583494FF480713CDEEC9D8FF826F3BEB1A2 (void);
 // 0x000010C3 System.Void OVR.OpenVR.OpenVRInterop::ShutdownInternal()
-extern void OpenVRInterop_ShutdownInternal_mE883AD864F77E11D03EBA2A31354246AE8D4C78D (void);
+extern void OpenVRInterop_ShutdownInternal_m450D042F95B365E91AAB3F718EB1858234F218D9 (void);
 // 0x000010C4 System.Boolean OVR.OpenVR.OpenVRInterop::IsHmdPresent()
-extern void OpenVRInterop_IsHmdPresent_m181AC01148835CE012E7C3DE8C3D903488BF67F1 (void);
+extern void OpenVRInterop_IsHmdPresent_mABA5F20535ECCFFF121C0DC7C538D1A1AC3B9490 (void);
 // 0x000010C5 System.Boolean OVR.OpenVR.OpenVRInterop::IsRuntimeInstalled()
-extern void OpenVRInterop_IsRuntimeInstalled_m5EFE65AAA443CAB7FF0FB4CEA800DA631AFA6CA4 (void);
+extern void OpenVRInterop_IsRuntimeInstalled_mF545A675398A5C9BB1D6ACDBCD65004B59552EB0 (void);
 // 0x000010C6 System.IntPtr OVR.OpenVR.OpenVRInterop::GetStringForHmdError(OVR.OpenVR.EVRInitError)
-extern void OpenVRInterop_GetStringForHmdError_mF0791A48D22A31754E1227F40016FB5D987B941D (void);
+extern void OpenVRInterop_GetStringForHmdError_m8FF399213281B5199E32C93EA597FBCDAEB39C35 (void);
 // 0x000010C7 System.IntPtr OVR.OpenVR.OpenVRInterop::GetGenericInterface(System.String,OVR.OpenVR.EVRInitError&)
-extern void OpenVRInterop_GetGenericInterface_m529D24059C936D33D9590FC5520B9B9AF116157B (void);
+extern void OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5 (void);
 // 0x000010C8 System.Boolean OVR.OpenVR.OpenVRInterop::IsInterfaceVersionValid(System.String)
-extern void OpenVRInterop_IsInterfaceVersionValid_mBD1788C140122F3A21B97C1322344CC9B8D49C64 (void);
+extern void OpenVRInterop_IsInterfaceVersionValid_m785F253730F9886BBF3D7DA26C806B69F4A2149D (void);
 // 0x000010C9 System.UInt32 OVR.OpenVR.OpenVRInterop::GetInitToken()
-extern void OpenVRInterop_GetInitToken_mE8EDEDB0C07F139FDA23F1C2F46C3E6355CD68E7 (void);
+extern void OpenVRInterop_GetInitToken_m9CB8AF9977E98367AAD96EBD97A9488C8AFB3F97 (void);
 // 0x000010CA System.Void OVR.OpenVR.OpenVRInterop::.ctor()
 extern void OpenVRInterop__ctor_m42801608390F49F750D3EBDA66743AE149BE526C (void);
 // 0x000010CB System.String OVR.OpenVR.VREvent_Keyboard_t::get_cNewInput()
@@ -8539,59 +8539,59 @@ extern void RenderModel_t_Packed_Unpack_m69045AE3D8368C294A5D168FB40E9391FAF5AF5
 // 0x000010D4 System.String OVR.OpenVR.InputOriginInfo_t::get_rchRenderModelComponentName()
 extern void InputOriginInfo_t_get_rchRenderModelComponentName_m20092A08F9973ED121DE27CF464358355E3DBF3A (void);
 // 0x000010D5 System.UInt32 OVR.OpenVR.OpenVR::InitInternal(OVR.OpenVR.EVRInitError&,OVR.OpenVR.EVRApplicationType)
-extern void OpenVR_InitInternal_mB84DE4258EEE79DB08EB9AD36D54F4C8F183683E (void);
+extern void OpenVR_InitInternal_mE3F867F429E23B03889D2E28C99A9411DDB6EE38 (void);
 // 0x000010D6 System.UInt32 OVR.OpenVR.OpenVR::InitInternal2(OVR.OpenVR.EVRInitError&,OVR.OpenVR.EVRApplicationType,System.String)
-extern void OpenVR_InitInternal2_m352394668D5B5F128E7DC44E0B18D3E70F8CAAEA (void);
+extern void OpenVR_InitInternal2_m15578451924C0230AE669E766B30312AE86AF464 (void);
 // 0x000010D7 System.Void OVR.OpenVR.OpenVR::ShutdownInternal()
-extern void OpenVR_ShutdownInternal_m3FE1F7B479DD2EF6410CA54EB47C4D0C10B04F62 (void);
+extern void OpenVR_ShutdownInternal_m469DC26C55EBCCF5BE670A3E95449501BDB0F3AE (void);
 // 0x000010D8 System.Boolean OVR.OpenVR.OpenVR::IsHmdPresent()
-extern void OpenVR_IsHmdPresent_m31B5435E58863FA4B9D1006A850996FE5935A12E (void);
+extern void OpenVR_IsHmdPresent_m178A98315AC2097BF71963E1D03223DA302CE8BF (void);
 // 0x000010D9 System.Boolean OVR.OpenVR.OpenVR::IsRuntimeInstalled()
-extern void OpenVR_IsRuntimeInstalled_mDDF8CF9F29766B20ACACA5FA606440576AFC1BC3 (void);
+extern void OpenVR_IsRuntimeInstalled_m0C444E7D9A36A3C2B7812D59DC2F66D1B332B8A4 (void);
 // 0x000010DA System.String OVR.OpenVR.OpenVR::GetStringForHmdError(OVR.OpenVR.EVRInitError)
-extern void OpenVR_GetStringForHmdError_m98F46D3190BD9AB8620570A9FAC80A3F0817A3FC (void);
+extern void OpenVR_GetStringForHmdError_mA0883891AEDC288BAA5670B33359D10C502A5F75 (void);
 // 0x000010DB System.IntPtr OVR.OpenVR.OpenVR::GetGenericInterface(System.String,OVR.OpenVR.EVRInitError&)
-extern void OpenVR_GetGenericInterface_m162274857E5599ACEAD6FCC23E349961F3EB1E2F (void);
+extern void OpenVR_GetGenericInterface_m7D8E98D035EF8B81F68A97B78832147123E28483 (void);
 // 0x000010DC System.Boolean OVR.OpenVR.OpenVR::IsInterfaceVersionValid(System.String)
-extern void OpenVR_IsInterfaceVersionValid_m5E4C10B2492AC3E241640F7C16961EA38AB9061E (void);
+extern void OpenVR_IsInterfaceVersionValid_mA6D387D4DD48B7EAB28F45A66DE73041775D9838 (void);
 // 0x000010DD System.UInt32 OVR.OpenVR.OpenVR::GetInitToken()
-extern void OpenVR_GetInitToken_m7A23399D7248080EE939AD2698D0286216CB4F2A (void);
+extern void OpenVR_GetInitToken_mC0921D780224352282C1DFC4A3958E9158FACEC3 (void);
 // 0x000010DE System.UInt32 OVR.OpenVR.OpenVR::get_VRToken()
-extern void OpenVR_get_VRToken_mF24F3FBA0A460B0947D2E228BFA11FA7CD2937AB (void);
+extern void OpenVR_get_VRToken_mCD564FB45B8B2975059C0829310A9EE0653931A4 (void);
 // 0x000010DF System.Void OVR.OpenVR.OpenVR::set_VRToken(System.UInt32)
-extern void OpenVR_set_VRToken_mF3018BC7BB9D0E56DF8279105B097973C8E74039 (void);
+extern void OpenVR_set_VRToken_mC7E9BB9F5F6A01C78347241B0BE75343741BF768 (void);
 // 0x000010E0 OVR.OpenVR.OpenVR/COpenVRContext OVR.OpenVR.OpenVR::get_OpenVRInternal_ModuleContext()
-extern void OpenVR_get_OpenVRInternal_ModuleContext_m761EB612EA96288481F70F717E0F454694FFE918 (void);
+extern void OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6 (void);
 // 0x000010E1 OVR.OpenVR.CVRSystem OVR.OpenVR.OpenVR::get_System()
-extern void OpenVR_get_System_m1B39DF83C7EAF1FF1D04FDBB3DE323BB849CF7EA (void);
+extern void OpenVR_get_System_m3E623FF7D408DACC163D9CB6CD2F9193CB5E51EA (void);
 // 0x000010E2 OVR.OpenVR.CVRChaperone OVR.OpenVR.OpenVR::get_Chaperone()
-extern void OpenVR_get_Chaperone_m31477AB97848D4649F2E0D584FF25919377B4FCB (void);
+extern void OpenVR_get_Chaperone_mF7F84491320C4C7F16851A3AECE99E954D4664E7 (void);
 // 0x000010E3 OVR.OpenVR.CVRChaperoneSetup OVR.OpenVR.OpenVR::get_ChaperoneSetup()
-extern void OpenVR_get_ChaperoneSetup_mCC4416EC46BED5BCC07EB953FE2E92C3C10D00B4 (void);
+extern void OpenVR_get_ChaperoneSetup_mB86A19D56D2B2DD6E7B817A11C11C7462F6AAFD8 (void);
 // 0x000010E4 OVR.OpenVR.CVRCompositor OVR.OpenVR.OpenVR::get_Compositor()
-extern void OpenVR_get_Compositor_m4CE5F66BF1E7DAE9495EE44D940F8288CEF630BD (void);
+extern void OpenVR_get_Compositor_m029FB3CBC26F2F6CE377EBF065DDF54F47BDFE3E (void);
 // 0x000010E5 OVR.OpenVR.CVROverlay OVR.OpenVR.OpenVR::get_Overlay()
-extern void OpenVR_get_Overlay_m7D3F7B946A82525C58719F860C7D44533F83BA94 (void);
+extern void OpenVR_get_Overlay_m5EC60FDA4DA7BEC8A260FF9BA611F437E0953672 (void);
 // 0x000010E6 OVR.OpenVR.CVRRenderModels OVR.OpenVR.OpenVR::get_RenderModels()
-extern void OpenVR_get_RenderModels_mACD44EB70C81916722750AC44A9D25EB1DAFE134 (void);
+extern void OpenVR_get_RenderModels_m345A8E505CAD870D2145554A450093C21198B6EF (void);
 // 0x000010E7 OVR.OpenVR.CVRExtendedDisplay OVR.OpenVR.OpenVR::get_ExtendedDisplay()
-extern void OpenVR_get_ExtendedDisplay_m7BE66559CEDA31E84A485CC10D76394B87FF58C1 (void);
+extern void OpenVR_get_ExtendedDisplay_m3180E8D78ADE72077EB28C3D6EC69F832EBA4658 (void);
 // 0x000010E8 OVR.OpenVR.CVRSettings OVR.OpenVR.OpenVR::get_Settings()
-extern void OpenVR_get_Settings_m0296AE64C045424F7C1C9EF93BA6EADB7B60A3F2 (void);
+extern void OpenVR_get_Settings_mEA3226083DD26C27BD431CD183FA9744CAFC6FBD (void);
 // 0x000010E9 OVR.OpenVR.CVRApplications OVR.OpenVR.OpenVR::get_Applications()
-extern void OpenVR_get_Applications_m08E089CA6F481F0115FA396E6141742B78B490BD (void);
+extern void OpenVR_get_Applications_m9B86C8B9F93167C4102269896C5073F0CDCD5BFE (void);
 // 0x000010EA OVR.OpenVR.CVRScreenshots OVR.OpenVR.OpenVR::get_Screenshots()
-extern void OpenVR_get_Screenshots_mDE67ED3435EAA2B74B15E117B141301D22C0F30C (void);
+extern void OpenVR_get_Screenshots_mE551B4050FA10EA6DA2EE8D542A3A97F27A14423 (void);
 // 0x000010EB OVR.OpenVR.CVRTrackedCamera OVR.OpenVR.OpenVR::get_TrackedCamera()
-extern void OpenVR_get_TrackedCamera_m4589969D28E30B6A4A22A9F7D8232E627BA5CD0D (void);
+extern void OpenVR_get_TrackedCamera_m1592A1B6EDBD89A110F71ADA4247BFCB54293D8A (void);
 // 0x000010EC OVR.OpenVR.CVRInput OVR.OpenVR.OpenVR::get_Input()
-extern void OpenVR_get_Input_m25D6F2CB3057F60D783A9DE12B2737949C6028F8 (void);
+extern void OpenVR_get_Input_mCEA62714C394CA4663123B6BF51E77A4461CF6CF (void);
 // 0x000010ED OVR.OpenVR.CVRSpatialAnchors OVR.OpenVR.OpenVR::get_SpatialAnchors()
-extern void OpenVR_get_SpatialAnchors_m0BB48E379F1DCFC16DD8148DBF64799A47D9588F (void);
+extern void OpenVR_get_SpatialAnchors_m8066719876EFC2E7576810ED31AAC95CAD96FA5D (void);
 // 0x000010EE OVR.OpenVR.CVRSystem OVR.OpenVR.OpenVR::Init(OVR.OpenVR.EVRInitError&,OVR.OpenVR.EVRApplicationType,System.String)
-extern void OpenVR_Init_mD792013A53984720023F85E1FF07C7274D408C10 (void);
+extern void OpenVR_Init_mA6CD6FC88561FF4B56E8DC1E340D3579C240D7E5 (void);
 // 0x000010EF System.Void OVR.OpenVR.OpenVR::Shutdown()
-extern void OpenVR_Shutdown_m539E6EEB2087F63EE6D698274962DB6EF56E1312 (void);
+extern void OpenVR_Shutdown_mAE690261A33B64510E4C08F9CF416AC993DD6F22 (void);
 // 0x000010F0 System.Void OVR.OpenVR.OpenVR::.ctor()
 extern void OpenVR__ctor_mC15B753CDE11FCA2A80D94EF6429FF03E3628FAA (void);
 // 0x000010F1 System.Void OVR.OpenVR.OpenVR/COpenVRContext::.ctor()
@@ -8695,7 +8695,7 @@ extern void OVRInputModule_ProcessMouseEvent_mEF8F3DCD9DEBD00901217A431B8ADD2D15
 // 0x00001122 System.Void UnityEngine.EventSystems.OVRInputModule::Process()
 extern void OVRInputModule_Process_mAD086AA91AE7346006E455F117A91170045BB53A (void);
 // 0x00001123 System.Boolean UnityEngine.EventSystems.OVRInputModule::UseMouse(System.Boolean,System.Boolean,UnityEngine.EventSystems.PointerEventData)
-extern void OVRInputModule_UseMouse_m4529E8045A217708A93A3A238337C239F96151D0 (void);
+extern void OVRInputModule_UseMouse_mF84F562B4F48BD85BC13A20D9C231DDEF0C9B710 (void);
 // 0x00001124 System.Void UnityEngine.EventSystems.OVRInputModule::CopyFromTo(UnityEngine.EventSystems.OVRPointerEventData,UnityEngine.EventSystems.OVRPointerEventData)
 extern void OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691 (void);
 // 0x00001125 System.Void UnityEngine.EventSystems.OVRInputModule::CopyFromTo(UnityEngine.EventSystems.PointerEventData,UnityEngine.EventSystems.PointerEventData)
@@ -8705,7 +8705,7 @@ extern void OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C1
 // 0x00001127 System.Void UnityEngine.EventSystems.OVRInputModule::ClearSelection()
 extern void OVRInputModule_ClearSelection_m8BB4DB17CCE3F2897281E77858D85C9A8E218906 (void);
 // 0x00001128 UnityEngine.Vector3 UnityEngine.EventSystems.OVRInputModule::GetRectTransformNormal(UnityEngine.RectTransform)
-extern void OVRInputModule_GetRectTransformNormal_m48A101EFE6440FFA3C42739FFF4F3472BCEF4760 (void);
+extern void OVRInputModule_GetRectTransformNormal_mF03B37932F37A309381C3EBF51CAA0FE7C1BF348 (void);
 // 0x00001129 UnityEngine.EventSystems.PointerInputModule/MouseState UnityEngine.EventSystems.OVRInputModule::GetGazePointerData()
 extern void OVRInputModule_GetGazePointerData_m2F1B5254C796E2677281553493A295B0AD89857F (void);
 // 0x0000112A UnityEngine.EventSystems.PointerInputModule/MouseState UnityEngine.EventSystems.OVRInputModule::GetCanvasPointerData()
@@ -8713,7 +8713,7 @@ extern void OVRInputModule_GetCanvasPointerData_mA781BE0613EB11DCE69F0ECC0079443
 // 0x0000112B System.Boolean UnityEngine.EventSystems.OVRInputModule::ShouldStartDrag(UnityEngine.EventSystems.PointerEventData)
 extern void OVRInputModule_ShouldStartDrag_mCF231D4DB00DDD77F5A5DCA8D35FBC1F47844AF6 (void);
 // 0x0000112C System.Boolean UnityEngine.EventSystems.OVRInputModule::IsPointerMoving(UnityEngine.EventSystems.PointerEventData)
-extern void OVRInputModule_IsPointerMoving_mDFCC7C0BD243F9DC5BF3D31BEDDB69328960BBBF (void);
+extern void OVRInputModule_IsPointerMoving_m5D57E25B238B95FDD5BE45DA3A377529345FD186 (void);
 // 0x0000112D UnityEngine.Vector2 UnityEngine.EventSystems.OVRInputModule::SwipeAdjustedPosition(UnityEngine.Vector2,UnityEngine.EventSystems.PointerEventData)
 extern void OVRInputModule_SwipeAdjustedPosition_mA47A3CED9DE48B6338F6DF0D0D43245705962EEC (void);
 // 0x0000112E System.Void UnityEngine.EventSystems.OVRInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData)
@@ -8743,7 +8743,7 @@ extern void OVRPhysicsRaycaster_Spherecast_m5C0B2A941C9D1F9C92A2AD1026510DC5D64E
 // 0x0000113A UnityEngine.Vector2 UnityEngine.EventSystems.OVRPhysicsRaycaster::GetScreenPos(UnityEngine.Vector3)
 extern void OVRPhysicsRaycaster_GetScreenPos_mAD6CC9D4FC2F01C2CBFA281660E8BC7B3C3C0A84 (void);
 // 0x0000113B System.Void UnityEngine.EventSystems.OVRPhysicsRaycaster/<>c::.cctor()
-extern void U3CU3Ec__cctor_m8F78FCD6395BDC9ABCDF18BDBCC10C4AEC9A1F34 (void);
+extern void U3CU3Ec__cctor_mA489E90CFBC65EE9F35B42C72ECA8037362EF497 (void);
 // 0x0000113C System.Void UnityEngine.EventSystems.OVRPhysicsRaycaster/<>c::.ctor()
 extern void U3CU3Ec__ctor_mFC1568EC2B965777FBA11D46651A32FB41491E2A (void);
 // 0x0000113D System.Int32 UnityEngine.EventSystems.OVRPhysicsRaycaster/<>c::<Raycast>b__15_0(UnityEngine.RaycastHit,UnityEngine.RaycastHit)
@@ -8755,13 +8755,13 @@ extern void OVRPointerEventData__ctor_mF3624D599F08C10D0D2E14CB8E8016AEC1FFA1B9 
 // 0x00001140 System.String UnityEngine.EventSystems.OVRPointerEventData::ToString()
 extern void OVRPointerEventData_ToString_m37BD8F9E0912E8BD6F215B28D5C662BD60AA5261 (void);
 // 0x00001141 System.Boolean UnityEngine.EventSystems.PointerEventDataExtension::IsVRPointer(UnityEngine.EventSystems.PointerEventData)
-extern void PointerEventDataExtension_IsVRPointer_mC87C4ACBCC669AF3321A90BB9966EB58BD7EB351 (void);
+extern void PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5 (void);
 // 0x00001142 UnityEngine.Ray UnityEngine.EventSystems.PointerEventDataExtension::GetRay(UnityEngine.EventSystems.PointerEventData)
-extern void PointerEventDataExtension_GetRay_mD821B82E9483B8495B8669EB2FC5F2BE274B2554 (void);
+extern void PointerEventDataExtension_GetRay_m8C036451341B0C37A138E9D3BB509B9DFDCADD99 (void);
 // 0x00001143 UnityEngine.Vector2 UnityEngine.EventSystems.PointerEventDataExtension::GetSwipeStart(UnityEngine.EventSystems.PointerEventData)
-extern void PointerEventDataExtension_GetSwipeStart_m455CE5AAFDF775639669B4845DA5B5626A82B1EB (void);
+extern void PointerEventDataExtension_GetSwipeStart_m09ED39DC9E87EDFB80926815E29A3B130E3CA586 (void);
 // 0x00001144 System.Void UnityEngine.EventSystems.PointerEventDataExtension::SetSwipeStart(UnityEngine.EventSystems.PointerEventData,UnityEngine.Vector2)
-extern void PointerEventDataExtension_SetSwipeStart_mDA3BDD1DD27BEBE9816D4DEF2D209134DCF79062 (void);
+extern void PointerEventDataExtension_SetSwipeStart_m3FD15231D3C0B9BC95B84E7048FF8289CF4359C5 (void);
 // 0x00001145 System.IntPtr Oculus.XR.OculusXRFeature::HookGetInstanceProcAddr(System.IntPtr)
 extern void OculusXRFeature_HookGetInstanceProcAddr_m84F55CE702836D2D53149B39329E7A474C0DE1A8 (void);
 // 0x00001146 System.Boolean Oculus.XR.OculusXRFeature::OnInstanceCreate(System.UInt64)
@@ -8796,14 +8796,14 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRComposition_RefreshCameraRig_m0D0711A58604F6BD4A665DDB13C253D73039932C,
 	OVRComposition_ComputeCameraWorldSpacePose_mE9631B0A264E85ECE66191E21B41F02FA54FCE73,
 	OVRComposition_ComputeCameraTrackingSpacePose_mC4A030F3A9682988B3BFB6125687349474E598A7,
-	OVRCompositionUtil_SafeDestroy_m4082E77813CE34EB02D8196CBBEE1C6D64A6F853,
-	OVRCompositionUtil_SafeDestroy_m24F1A6ACCC752943C6706BE97F1079C2113AA793,
-	OVRCompositionUtil_ConvertCameraDevice_mD80092349F6CAFF86078F9F036FB74A50B8BB627,
-	OVRCompositionUtil_ToBoundaryType_mE861E8810B49176B7B9DAD6E8B0E721D8068465E,
-	OVRCompositionUtil_GetWorldPosition_mB58DDE9068BB854DC3B1026DD1A630B643D5BA9B,
-	OVRCompositionUtil_GetWorldPosition_m657E9FB310D9542A6633B230913CBEF291660A5F,
-	OVRCompositionUtil_GetMaximumBoundaryDistance_mCBF7EEE8E011CAB03C2E3496A3700FE61708864B,
-	OVRCompositionUtil_BuildBoundaryMesh_mCCFA03AC1BFCC383E867ACE0646EE51ED535C74B,
+	OVRCompositionUtil_SafeDestroy_m3BE0355B9C49BC36FC8B2350158B712E95FB213F,
+	OVRCompositionUtil_SafeDestroy_m7A340325537FB13185AE399E80B4953CA5AE8693,
+	OVRCompositionUtil_ConvertCameraDevice_mB034354B863BF0B7EDDE257657C584FB84E4AE79,
+	OVRCompositionUtil_ToBoundaryType_mDFB017A0B99DB2B5CC2103B48DED5A0FE968F8F3,
+	OVRCompositionUtil_GetWorldPosition_m5904635E71490CDE1E4344956D706DD43D557C1A,
+	OVRCompositionUtil_GetWorldPosition_mBD639A182646B171CE40EBB5996A5F016D2F4DCE,
+	OVRCompositionUtil_GetMaximumBoundaryDistance_m647BEE7A5D2558C7C40F4E093699C5FD68EB6B29,
+	OVRCompositionUtil_BuildBoundaryMesh_m00B88D8AD877B639AFCEA5DD7E0BB78C0C154094,
 	OVRCompositionUtil__ctor_mFDD14BC86EB6C12B36C8D5D01476EC272E3AD4DB,
 	OVRExternalComposition_CompositionMethod_m3B3BBA7A6558D8E4B9C3795C07D686D952FFDB94,
 	OVRExternalComposition__ctor_mDB4C8F8BDDDDA2DEC0940959B9D179CABE3ACA30,
@@ -8829,7 +8829,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRBoundary_GetVisible_m68C2C5ADD85C5A2C6C1CEB1D393BED6B947AF458,
 	OVRBoundary_SetVisible_mF2689CF6BF7037ED9E75A17D2FECA446E5717BC1,
 	OVRBoundary__ctor_m31595FDCF7D3AC48703766DB883781D480F6092D,
-	OVRBoundary__cctor_m24C4718A5E5BDFFFBE37C5BFA01528CE9A217A68,
+	OVRBoundary__cctor_mA4BD5576D1981B383C2E86D758ABD36B65AD8094,
 	OVRCameraRig_get_leftEyeCamera_m1C1CA12F69226BE8B0AC3142DAF77BDED7DF27CD,
 	OVRCameraRig_get_rightEyeCamera_m524546622D401107BEC990295F8DE4E08A025488,
 	OVRCameraRig_get_trackingSpace_m76339871C7804C1BD14283FBF3D91268D4D87550,
@@ -8864,49 +8864,49 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRCameraRig_ConfigureAnchor_mDA27FCF98C9E96DFB0FA5234FEB22B656851DE3C,
 	OVRCameraRig_ComputeTrackReferenceMatrix_mC9992770E28658186CA27D6FA8B95AB73DB7F6B5,
 	OVRCameraRig__ctor_m4ACFDD4B846326F356022FCCA1ED3A740DF89CC3,
-	OVRExtensions_ToTrackingSpacePose_mC664102B90CAB4B52A82EC7D956527E3C9B26231,
-	OVRExtensions_ToWorldSpacePose_m164C2CFC64175342EBDC26BEA105913AD541C968,
-	OVRExtensions_ToWorldSpacePose_m75DF239EDEFF3DE9C0BA27D638376B6DB04017B7,
-	OVRExtensions_ToHeadSpacePose_m83148C8D41C8393A80F9DD6911F7A82F88823798,
-	OVRExtensions_ToHeadSpacePose_m1DFAA9425ADD276D689316470A8195C56815DCB0,
-	OVRExtensions_ToOVRPose_m602545F1775227F218ABCDC7627C341569E43C3B,
-	OVRExtensions_FromOVRPose_mB038A67D101524CA418F900612661DBE0D307F2B,
-	OVRExtensions_ToOVRPose_m4214167164096F3CFB13ED4585C3754E09AEBB7A,
-	OVRExtensions_ToFrustum_m7C551E1698819934FD0A051C321275D7A62EB579,
-	OVRExtensions_FromColorf_mE351E42F7B631F889E28FDEEE6AAB83DA6E6E531,
-	OVRExtensions_ToColorf_mEEF9DF99BC49142554C254971355217C99AB05E8,
-	OVRExtensions_FromVector3f_m79EBAA210C1FC66D5A41814FD467EC1D1AAA02A7,
-	OVRExtensions_FromFlippedXVector3f_mCF64073D3FC08B769D9069DA074A652DC3F71175,
-	OVRExtensions_FromFlippedZVector3f_mBAB3D7B7B97387C15727F15A77BD2B6DE1B5C9A1,
-	OVRExtensions_ToVector3f_mE3D204AD86D1DE4C32D86A2DC1388B597579CC2A,
-	OVRExtensions_ToFlippedXVector3f_m276FA31E0614EC4DB8A7946ED611A88DE601FE01,
-	OVRExtensions_ToFlippedZVector3f_m118B1A616B81F528A9E7028179A5F67CF0A93F51,
-	OVRExtensions_FromVector4f_m14DC5847C070228AB4516217378D65E0BF05BCC6,
-	OVRExtensions_ToVector4f_m49F07A90E4EDAAB683ECC85F7A59A4921A97DB2C,
-	OVRExtensions_FromQuatf_mEDD158A3769DAB2B109473AC9FC7E6D74F0FD82C,
-	OVRExtensions_FromFlippedXQuatf_m22AB997CA79C83AB049758C60BD36D7118C9BB05,
-	OVRExtensions_FromFlippedZQuatf_mFCBE64BC455CB946CC4FDBF91959F0E51468E111,
-	OVRExtensions_ToQuatf_m0DD0173F128E3DB0FA03F6B33DBD61EC2668DEC9,
-	OVRExtensions_ToFlippedXQuatf_mDCCD98929CC48EDFE294A85353CC3C0458D45F97,
-	OVRExtensions_ToFlippedZQuatf_m07BEB1388439114B0F238DE8D9DFD14A0C448F52,
-	OVRExtensions_ConvertToHMDMatrix34_mC2E6FA94CA87293D3011AE40C9EBB7CB0952A915,
-	OVRExtensions_FindChildRecursive_m40B8D64AD820A50DF2E6301753A157CDBF14D1CA,
-	OVRExtensions_Equals_m702DB816FABA05778B6428A9F46F64B6E03D5B11,
-	OVRExtensions_CopyFrom_m0C2030405540BF430B16C236FCD3CC6FFFD0DD75,
-	OVRExtensions_ToSpaceStorageLocation_m8A7A7AEF3198A36C7D689F5DB2F86719D10052BD,
-	OVRNodeStateProperties_IsHmdPresent_m7ACB316D37EDFFCEF6AB24503AD8F4C7FA5E1A5B,
-	OVRNodeStateProperties_GetNodeStatePropertyVector3_m40CA506AC8F2D5F402FBA3AAE2059110B8656940,
-	OVRNodeStateProperties_GetNodeStatePropertyQuaternion_m1FFBED819E7AA22BDB65F27FE466C2807DE2768A,
-	OVRNodeStateProperties_ValidateProperty_m1A325A61B0AFDCBBF90F288570ADB9DC4E2FDB20,
-	OVRNodeStateProperties_GetUnityXRNodeStateVector3_mB43250412518FC7D88C677D7F2857751664E5062,
-	OVRNodeStateProperties_GetUnityXRNodeStateQuaternion_mE4A617556859DD5527BF18EEB5595B3E620D0F19,
-	OVRNodeStateProperties__cctor_m43688D41DE00920935DBCC0D7380B3DD8C726491,
-	OVRPose_get_identity_m4409F3CA3E819FE07D71D4E5A76099F592E471DB,
+	OVRExtensions_ToTrackingSpacePose_m17C9DAB4F69BB5D40513F37B70CE267950036ADA,
+	OVRExtensions_ToWorldSpacePose_mDDC7F6BEA2CA9D327FEB4B87EB04624B555E3698,
+	OVRExtensions_ToWorldSpacePose_mB00CD2AC97FB573C5FA5E4093A1F7441244CA097,
+	OVRExtensions_ToHeadSpacePose_m7F667DBDB06C8F4220FD99DFA518919D373D75DA,
+	OVRExtensions_ToHeadSpacePose_m76E544EB993FA33F3045ECD44176D6E5859EC866,
+	OVRExtensions_ToOVRPose_m52593B4249478412DFA025AD6DE338B96CFBC265,
+	OVRExtensions_FromOVRPose_m983A33FEB6E214D8C598A2DC90A7481D32962C27,
+	OVRExtensions_ToOVRPose_m2D557CFD8B775C88FDED26B3D31A67E8AB53B14F,
+	OVRExtensions_ToFrustum_m45E52DA30C3E3732A9EB8017F26A20B22E0AA791,
+	OVRExtensions_FromColorf_m184ABD0368BF462046337F75DC915FC48FE63F9E,
+	OVRExtensions_ToColorf_m20FCBAD27C65FC66A589BD8F20399151B7704AE7,
+	OVRExtensions_FromVector3f_m4B3B578358199C40F4345A055E0DDE60EDF508DC,
+	OVRExtensions_FromFlippedXVector3f_m5A85238667CEAEF47A9B9C07B3746D1CE07EE663,
+	OVRExtensions_FromFlippedZVector3f_m32D17BCDA62BC3F8C9A6442F06A42BBE79140F62,
+	OVRExtensions_ToVector3f_m21A8631A98D29AED03A5ED3FF46475646703F4DC,
+	OVRExtensions_ToFlippedXVector3f_mA2A020BA9EA176639A686434A1AD523D2F2774CE,
+	OVRExtensions_ToFlippedZVector3f_m62CC475050FFCDA6E53230DCE20070AB0228D6FA,
+	OVRExtensions_FromVector4f_m4DD74CD049DA884F5267686D442362289050F330,
+	OVRExtensions_ToVector4f_mD9E82AE2DD8B0AC86AEF77AA5783B6B3BA77B43F,
+	OVRExtensions_FromQuatf_m9D9957171C088A2715767B6FE9449E97CC764E23,
+	OVRExtensions_FromFlippedXQuatf_m691F815BB73E2D9030CF56997FC3B62C0BFF4DBA,
+	OVRExtensions_FromFlippedZQuatf_mF626F183B84EA8C08153550313227736286F2657,
+	OVRExtensions_ToQuatf_mF7543BB09A1D01A842FB07FE7F7997E988BAC06E,
+	OVRExtensions_ToFlippedXQuatf_m1C2B31B727EB07DDDA0A1EC72252D173A6AAEE46,
+	OVRExtensions_ToFlippedZQuatf_m3C842AE77FAD382FD91D0F8E81CCA1EF9393BCEF,
+	OVRExtensions_ConvertToHMDMatrix34_m9AC5EB6C0C501D7CD2A75641ECA5CD0CCE0D3EBA,
+	OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1,
+	OVRExtensions_Equals_m95EBD3F8BF44E0C6A15D05F3E80511818E85EC0D,
+	OVRExtensions_CopyFrom_m3F2884B6167DB393417CE26D1BB8A81F733AC036,
+	OVRExtensions_ToSpaceStorageLocation_mFF7C8770305D5CFCCB62FB78319A81CEFFF6926C,
+	OVRNodeStateProperties_IsHmdPresent_m007E7C0AA8B7D85019F2238007C8F5F28DB3547D,
+	OVRNodeStateProperties_GetNodeStatePropertyVector3_mFA9CA29D9B8B68721EBFF755AE379F019ADB3EA1,
+	OVRNodeStateProperties_GetNodeStatePropertyQuaternion_m749DB6361263E70DEC52E819715BC9AF5B67F5AD,
+	OVRNodeStateProperties_ValidateProperty_m66BE4D56E1A6DB20F1A3F9E467C9383808D7CFBB,
+	OVRNodeStateProperties_GetUnityXRNodeStateVector3_m52E9B0208D19154F7805D52A3DCF08CCEB98DCBD,
+	OVRNodeStateProperties_GetUnityXRNodeStateQuaternion_m40E36460805902B63D5D9708D09A06480AF8B852,
+	OVRNodeStateProperties__cctor_m0827CC7FD82274244CDCC653C6B0B7AA6D9199DC,
+	OVRPose_get_identity_m80A35AA376851112A6104A67226582D63EB0739B,
 	OVRPose_Equals_m42E2F7D3D7889EF3D74CF4DC4D9A87A04AC86634,
 	OVRPose_GetHashCode_mD700EAA03E636053D0C77615148E3665C8B9C517,
-	OVRPose_op_Equality_m4E8E6D60FD0CCDE3AF494034D5230CC1291835DF,
-	OVRPose_op_Inequality_m87B9186236218A6547846E6E1B0C2A4ACBD8155E,
-	OVRPose_op_Multiply_m1A9E96B2CEC65E2E9984369083A4E9F8D7547C82,
+	OVRPose_op_Equality_m4675E5CB0312BB39F6E1491CB24F3BA314E8426B,
+	OVRPose_op_Inequality_mA2693C878A3FC4BFBA0BCB1431EB9C9BA11713B7,
+	OVRPose_op_Multiply_mCAC208D92589C2CA928CB093B3C504DFA9866AFE,
 	OVRPose_Inverse_m13457B6B61C9A6D088EBB4F9BCDB1D8137CB21C7,
 	OVRPose_flipZ_m733EAC7D6E899B471B373706C787534E4D46E78C,
 	OVRPose_ToPosef_Legacy_mD9CEB204C7B417176FD6A32CD9E6F9CEA9E565C3,
@@ -8945,7 +8945,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRDisplay_ConfigureEyeDesc_mF7E1485877F8A30F23C46141A2AC98AC6C60BC71,
 	OVRGLTFAccessor__ctor_m68B3A3F1DA44DF09936A580CEBE1966D9479952E,
 	OVRGLTFAccessor_GetDataCount_mB551B1EF751456B689476BAD27D039B228D650DF,
-	OVRGLTFAccessor_ToOVRType_m940116EC77EA3FF6B8A97A5E2D56DE20AA9EC857,
+	OVRGLTFAccessor_ToOVRType_m018007DD1E7EC4838A878EFC53A41AE96AA69774,
 	OVRGLTFAccessor_ReadAsInt_m023DA914214C1B583F5B7F8A5A4593673FCBC663,
 	OVRGLTFAccessor_ReadAsFloat_mE2A31A9E53D08C2AA561728D48D14FEFDB3AA76B,
 	OVRGLTFAccessor_ReadAsVector2_mEE214B08C4D1673BFD0D4CF7E6DC442BAB3CA5D6,
@@ -8972,7 +8972,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	NULL,
 	OVRGLTFAnimatinonNode_CloneVector3_m63BE4B4C588326092C5FEA43C65472B923E9133C,
 	OVRGLTFAnimatinonNode_CloneQuaternion_mA35EFC7C8CEA64C91D7B46ADF41B5FCF8B78EE8E,
-	OVRGLTFAnimatinonNode__cctor_m86092A11D3444B5920E5B5CBF74160EA77CE1920,
+	OVRGLTFAnimatinonNode__cctor_m0EF5455B2EB217E8283AFA92AEC639EE537CF809,
 	OVRGLTFLoader__ctor_mB10D004509F431544BA1807E8116C4C8B1FAE1A0,
 	OVRGLTFLoader__ctor_m40C1D7C90EB99E1269D1BE8AD1A8027E9CCD0425,
 	OVRGLTFLoader_LoadGLB_m6EC1E2449BB8A5F3C5DDE7F40DCB9160325F3B33,
@@ -8980,15 +8980,15 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRGLTFLoader_SetModelAlphaBlendShader_m7360339B43FE1DAC0954F1B001C3C8AEC77C5E2C,
 	OVRGLTFLoader_SetTextureQualityFiltering_mAE48E84446DCC3C6DE48E351FBD11269072AF4E0,
 	OVRGLTFLoader_SetMipMapBias_m33E0FF942DE3583602A9621D8667349C0AD680C5,
-	OVRGLTFLoader_DetectTextureQuality_m2258282E75216EEBA7FD429B1252FAA5C5DD65AA,
-	OVRGLTFLoader_ApplyTextureQuality_m781831CF52305784FD0173F66A0F09D5C7F47E17,
+	OVRGLTFLoader_DetectTextureQuality_m76780087A4F1810E790BCA75CA556FB2C4384B67,
+	OVRGLTFLoader_ApplyTextureQuality_m92EA40B76B4192DE4C62EEA2357A7351B831D69E,
 	OVRGLTFLoader_ValidateGLB_m995D23F3010DD4056F87927A626D04952DC61F44,
 	OVRGLTFLoader_ReadChunk_mAC8AA71B91112D4D8029C2F10155EC93F70C3E97,
 	OVRGLTFLoader_ValidateChunk_mAC5A0C523055799F4E8C07F63734F70C05961A44,
 	OVRGLTFLoader_LoadGLTF_m03D2DF7F72E832ABD63C850F94D7186A54BF7F6A,
 	OVRGLTFLoader_ProcessNode_m8A5C11B849763D8962F63E02AB712EC5EBD255AB,
 	OVRGLTFLoader_ProcessMesh_mF91568D83B8A66F17203D034A0CBBED4B2C49640,
-	OVRGLTFLoader_FlipTraingleIndices_m42C973790B6BF863D24315BFAA801CE3FAC8C807,
+	OVRGLTFLoader_FlipTraingleIndices_m1617743E9399BDCF78252D08AAC971765922074C,
 	OVRGLTFLoader_ProcessSkin_m8FF56F055503C65D6757CADF6D58F26CF0224430,
 	OVRGLTFLoader_ProcessMaterial_m72DA41D42E9A22D2C0299A782BA6757A834440AB,
 	OVRGLTFLoader_ProcessTexture_m7ADD2738EF0535C0BF20D223C091E97EE19ACF3C,
@@ -8996,25 +8996,25 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRGLTFLoader_CreateUnityMaterial_mAB22C23DD95B4DB75119CFB339AA9B5011BF13BC,
 	OVRGLTFLoader_GetInputNodeType_m6855E527F9D42B495EE2B7C6F0E57E5EC2967F77,
 	OVRGLTFLoader_ProcessAnimations_m18520166D04EFA7EAB282ADED9CA7AD0DE30043B,
-	OVRGLTFLoader__cctor_mF943E4669165250FE58BD269335BB2CFF0A2FFEE,
+	OVRGLTFLoader__cctor_mB936219A4E9F944ED89730A586CD08836A624FAB,
 	U3CU3Ec__DisplayClass27_0__ctor_mAA33415A6334C948D5FB6FF0676C5FAB37792F1B,
 	U3CU3Ec__DisplayClass27_0_U3CProcessMeshU3Eb__0_m998C738F6C4AB24E0AE93FC5AAD2910A88E229D5,
-	OVRHaptics__cctor_mE8B0B9597F222B09CC22F994E9ED3717E2AE57C3,
-	OVRHaptics_Process_mB12981E1FC697F7943B95071776EA371893570D9,
-	Config_get_SampleRateHz_m677F6A7D5D7B2B177894138C4B247C29B4713E8A,
-	Config_set_SampleRateHz_m6EFE2BB2B3287B4660F4E1F336B8741839AB96F3,
-	Config_get_SampleSizeInBytes_mB27163A406D160F54D008B5614160B8B91AD3609,
-	Config_set_SampleSizeInBytes_m0ECD79E4F64CB28E2D2524F790CEB7D8E428A426,
-	Config_get_MinimumSafeSamplesQueued_m59C94056A410D30A00AA93551A2E63F502CDC24E,
-	Config_set_MinimumSafeSamplesQueued_m26A3EC47FA65CCC9894B98BC93DCBDB543D8253B,
-	Config_get_MinimumBufferSamplesCount_mC7DD9A3D05C4D93B8501E76F06700A1BDDAF363C,
-	Config_set_MinimumBufferSamplesCount_m73977E0C31FC1EA199292E49BBCD2E21826889C4,
-	Config_get_OptimalBufferSamplesCount_mB91EBF0905CF6C760F1D5B0C2AC637C173FB2947,
-	Config_set_OptimalBufferSamplesCount_m5C84E34A87EA994209369D1553F1D376DBDA8C42,
-	Config_get_MaximumBufferSamplesCount_m26CFBFBF7983DB69424E806DFE895B67D6C7E5B1,
-	Config_set_MaximumBufferSamplesCount_m198B2636E713BB15F5D860A9597857001A4184B7,
-	Config__cctor_mC43C9D8086427677837242D68C8A7BA1635A2807,
-	Config_Load_m694E7091FC13E791A8026AF1D914F6FAF26BE8F8,
+	OVRHaptics__cctor_mA37F799C36EEE23EBA0E65CD8D730008A01BDE57,
+	OVRHaptics_Process_m4C06440CFE490FDE9213449D6DF094E68E55C4CB,
+	Config_get_SampleRateHz_m2D1B79A8EC0A19BA0EA97E6B3039D15788BB9F47,
+	Config_set_SampleRateHz_mDCD3C6D84B82FAEE86652D00EB57F6D1C52692B5,
+	Config_get_SampleSizeInBytes_m8A59438CA870B1DEDA2DDE836BBF513D4DA6C209,
+	Config_set_SampleSizeInBytes_mFD9B00CDEDFDB3C01D5958A9ECEEF22C80651A22,
+	Config_get_MinimumSafeSamplesQueued_m479D3DEBCD5251637DC7FDE141FBECAC70DE5A1C,
+	Config_set_MinimumSafeSamplesQueued_m08F042C5BB8DCCBEE448EAD12412D3336ABAEFC5,
+	Config_get_MinimumBufferSamplesCount_m27DBFB9FEA1CB7EF08AC8C62B2F7B99CF1B9457C,
+	Config_set_MinimumBufferSamplesCount_m866A99335F02A0402AEE83DA6BDD06BEB7FEA7A3,
+	Config_get_OptimalBufferSamplesCount_mBC971D5C4CF6F34A8A3925DC8103A09E3E8BF4F7,
+	Config_set_OptimalBufferSamplesCount_m5B583871BC4784C547969664A7DCC45343792E7F,
+	Config_get_MaximumBufferSamplesCount_mFA9670050A7B57A5778B588CB400DBEB413DE4C0,
+	Config_set_MaximumBufferSamplesCount_m9D324EE5E616DCD4DA7F6563973A3B430B6D1C0A,
+	Config__cctor_m1E562E3C40232AC081DE7CCC55A917623D792DF0,
+	Config_Load_m37407D28EF74FBA74FEDBFD78695E65CD859A330,
 	OVRHapticsChannel__ctor_m79C872D3637A1862B08A58D00A21F413D3B1CA96,
 	OVRHapticsChannel_Preempt_m631918450856E9AF177CE3893792CB93663A89E6,
 	OVRHapticsChannel_Queue_mE80EB13C876985FE530F96E93E3D3F839BA3040C,
@@ -9050,73 +9050,73 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRHeadsetEmulator_IsEmulationActivated_m24021986D6736C750D9EFB6FA756F4526FA757B2,
 	OVRHeadsetEmulator_IsTweakingPitch_m996A63E4DE8EEE3BC82947D7AE8F56667A72947F,
 	OVRHeadsetEmulator__ctor_m468B5EF0EA89C3133B2F07D99E4E61DC8CEE77E1,
-	OVRInput_get_pluginSupportsActiveController_m24B3A71FDEFAB7D9063604BF2CD97106533A4FC4,
-	OVRInput__cctor_m26AAF392678E97A3158021F185CEC2475492684A,
-	OVRInput_Update_m519C7854794F56EA59C901E8022C361F35C6A0E2,
-	OVRInput_FixedUpdate_m356D624CF6552C2A0345EBF56C065C6AF4F64917,
-	OVRInput_GetControllerOrientationTracked_mB7635DB0E06D1ADEC34913E447516AC6C1537C38,
-	OVRInput_GetControllerOrientationValid_m224B2F9F87C5E1B27967594C0FE850B6DB0C1C3A,
-	OVRInput_GetControllerPositionTracked_m6AA772C1B15D737CD5BA828FAFF5DF70B869F6CB,
-	OVRInput_GetControllerPositionValid_m875602C0217417208E690EFEE0B53D272CDC55DE,
-	OVRInput_GetLocalControllerPosition_m5630E056EBDF6BD0A317D19DE90AFC0C80233B69,
-	OVRInput_GetLocalControllerVelocity_m1A5B297A1EA73829B9DF840E5FAC02C147376AEC,
-	OVRInput_GetLocalControllerAcceleration_m0A471C0C14EFBE5A08E1D9835D7DC0B782D1FD42,
-	OVRInput_GetLocalControllerRotation_mD0D287501357996403558E697CC65161E0B5D51A,
-	OVRInput_GetLocalControllerAngularVelocity_m6FC346488296969200B490FA401D175B7E2B936B,
-	OVRInput_GetLocalControllerAngularAcceleration_m20BA7564AFE8142E990F3EB8D0BCE022CCB29141,
-	OVRInput_GetLocalControllerStatesWithoutPrediction_m87360EC011EE8181919D0797066E165425C0BC3B,
-	OVRInput_GetDominantHand_m49F7B8237D73BA6040C3AE9BE7728E7164F4FD49,
-	OVRInput_Get_m32EEE63D73D2D4B6F5E98495B8E1F2FA8583CB41,
-	OVRInput_Get_mE1592108DD22A90FA3B639CE2C0C8252456978BA,
-	OVRInput_GetResolvedButton_m36CD24B8A49E4602179FD4910881AE0E77D8F796,
-	OVRInput_GetDown_mB545BE1CFB07364E7DE792A9CD7C4B614736525A,
-	OVRInput_GetDown_mC2E24999ECC6EA949C438059BA9D32B0E0311BE5,
-	OVRInput_GetResolvedButtonDown_m07042E9082916B411E1F654E62C4D2360A01F10D,
-	OVRInput_GetUp_m11DA43291070262B20D13A3E599EBE0C6A2D02D5,
-	OVRInput_GetUp_m744B92CAFECBDE18143C162274A3AD02BC210559,
-	OVRInput_GetResolvedButtonUp_mF00C55E7F16718758E9E475101399E3CE326C6BD,
-	OVRInput_Get_mB693E89754D1B7E5B10630B1ED4886716EC813ED,
-	OVRInput_Get_m6DA8EC194C108E9E9AE5428E5B7B03EAD5AEF96F,
-	OVRInput_GetResolvedTouch_mEE58EF5A4E89F46E9B9CECD642D587F15F2D06EB,
-	OVRInput_GetDown_mD09ACA67CA75A39A86C5C7C73590D72A536CFF75,
-	OVRInput_GetDown_m701C295CAA2805D53A78CCE7FEF172C906CD741C,
-	OVRInput_GetResolvedTouchDown_m748C410FC0234AE61981FC3DFD2D0D8A970EA0F4,
-	OVRInput_GetUp_mD29400DF2E80D8AFB4648F3211D0D53863CB004D,
-	OVRInput_GetUp_m9B79F44E6A7B04A57672C35691E88477C54A1F49,
-	OVRInput_GetResolvedTouchUp_mD845A30EE7415F7711247F26BA2330B604ADCEAF,
-	OVRInput_Get_m6B7E9C82EFD00F5004635BB56A987523901340FD,
-	OVRInput_Get_mC95B42D9B6377232DD46BC8A43A7940BFD913CE9,
-	OVRInput_GetResolvedNearTouch_m2CC25FDA2452E963359FD8CFA8A71A99037CE473,
-	OVRInput_GetDown_m2E0AEC224D721698ACBE44E609EED4692C12AA47,
-	OVRInput_GetDown_m59DEA85D8BC8821F7D5811EA415DC1C5A4E14EE0,
-	OVRInput_GetResolvedNearTouchDown_m6B12E13339131EE746096568C6DD98EB4C174E73,
-	OVRInput_GetUp_mBA340433C47BD95D561A2803E1ADA00560F219BF,
-	OVRInput_GetUp_m884F951D60BCA739C8DB3ACA19E256FEE2D78272,
-	OVRInput_GetResolvedNearTouchUp_mF07585843B3364CFBDD6855AD234E2CAE5C807C6,
-	OVRInput_Get_mA7B4373DD73AC43517A18BC88CA2CA812E5D2EAA,
-	OVRInput_Get_m3C5F38DA522FF7CC4FB7CA34615A93FB3A98BA51,
-	OVRInput_GetResolvedAxis1D_mBA905ED49848F2490F9A70EA1BD4A7CD93011EBB,
-	OVRInput_Get_m5DC55CC9D553D98F95937AB80D77C1120BB56CC6,
-	OVRInput_Get_mEA4FADD377F893A4C93B3CE3ED332F6D33DD5D98,
-	OVRInput_GetResolvedAxis2D_m0FEDEF166240C006B8918B3CA69A935434F0A2D3,
-	OVRInput_GetConnectedControllers_m4EF5F5C48A11AA32286CB818986AC1BA36F0DE65,
-	OVRInput_IsControllerConnected_m0B791C75044ACB8D9903C153BFAA703C4BA0596F,
-	OVRInput_GetActiveController_mFBDF474AA755532D526CC199FC821AD849FA049B,
-	OVRInput_StartVibration_m9E8EA9E3BBBA5C1D8C763D051560283665F441CC,
-	OVRInput_SetOpenVRLocalPose_mC0BBBB5D8FE8DC42B3E9ED55B68CE78000651998,
-	OVRInput_GetOpenVRStringProperty_m6E123398DEAD31B4EA82FCB8F449955C5D279C47,
-	OVRInput_UpdateXRControllerNodeIds_mE6A7CC188A3A29E5A43E081041C9C17EC773FD8B,
-	OVRInput_UpdateXRControllerHaptics_m7CD95F861744BA76F0F4FAD4F4C0447644531FEE,
-	OVRInput_InitHapticInfo_mD524CDE3903194E3EFBBE72C7016A4F338BB959B,
-	OVRInput_PlayHapticImpulse_mB3B8D6863627A15327415367335636FD20836BA6,
-	OVRInput_IsValidOpenVRDevice_mCAA690A028743775F4BDC7690DE47E55F2E3D945,
-	OVRInput_SetControllerVibration_m9E3D44A89F9D1C3086837F2FEDFDCC869C9F81EA,
-	OVRInput_GetControllerBatteryPercentRemaining_m3E48AFC16828C2D54FC2C5C63E9EE0F7FD545F60,
-	OVRInput_CalculateAbsMax_mAB115C270EAFE3D24E1101550A429F67FBEEA3A3,
-	OVRInput_CalculateAbsMax_m72AB78CB545B8BE4EDAF8EC43AA521A08F3B2F8B,
-	OVRInput_CalculateDeadzone_mCECB0055103E7B8A6CB19DBA9A7B373B9C16C83B,
-	OVRInput_CalculateDeadzone_mE1C9D07AEBE7F227F906ADB61B08A77D6BDDB1A2,
-	OVRInput_ShouldResolveController_mEAEE3D3DC8B010FD7DF390E39AD557D5B7B11BCA,
+	OVRInput_get_pluginSupportsActiveController_m273F22B55C9B8197B8B372827D45933173F51C05,
+	OVRInput__cctor_m8795EFB9DA9E021E059009CB980EB0608FBCD540,
+	OVRInput_Update_m46BEA0A1B8C6592A25FBA12F61D471770EC72076,
+	OVRInput_FixedUpdate_m0B2BA5C8485902E1A0EE19A1F7066E671D8ECCB5,
+	OVRInput_GetControllerOrientationTracked_m29C61E840A641F6639492E4AD2A852A786E6EC7F,
+	OVRInput_GetControllerOrientationValid_m9EE0634367BCEAF60C6DDBA9CF527F2CEC8327C1,
+	OVRInput_GetControllerPositionTracked_mA3D8C4DFC17FB1808C78A865556E394BF565CF0A,
+	OVRInput_GetControllerPositionValid_m3ACDABE2BD5335A8DE615A2F9A5C9D63CE329E94,
+	OVRInput_GetLocalControllerPosition_mD8A4504C441B477AB11C92CB7FBD561ECF15E253,
+	OVRInput_GetLocalControllerVelocity_m2E8ED9F38FCB0E781C796E72917D27F65A3EFF14,
+	OVRInput_GetLocalControllerAcceleration_m89D4A94FC2E1282CED140A6BC5D54527B1E98ECD,
+	OVRInput_GetLocalControllerRotation_mF2ECF5F8BBB3EF1CF9D4B5E0A1BEC6CA9036515F,
+	OVRInput_GetLocalControllerAngularVelocity_m4A05C6F3F878F119AEB2E5222154B773C3FE8F24,
+	OVRInput_GetLocalControllerAngularAcceleration_mEF0691E48437D9A49899E17BA2F5501DDDF9E762,
+	OVRInput_GetLocalControllerStatesWithoutPrediction_m103D67215F6473717F5FA7747FD6B835070248C2,
+	OVRInput_GetDominantHand_m19E38B4B4C4B246B2ABE605F1ED7F0041B88E6F0,
+	OVRInput_Get_m8CF227684F49E1C26239D78F826E11A956E909C1,
+	OVRInput_Get_m537C5F53DCBD027936460E4183648F5EEBA6A654,
+	OVRInput_GetResolvedButton_mBB31573503E0C243CFCF461E9D8ABACA3B9C1DEE,
+	OVRInput_GetDown_mEC4F71AEC93D3AF1A041934CA4C61680C6DB9AC7,
+	OVRInput_GetDown_mEF663E99B6E5FABB41B86716C6D04C788C979139,
+	OVRInput_GetResolvedButtonDown_m7AAC44E0388502D43F5A6887AE2ACEEE69642C9F,
+	OVRInput_GetUp_m66B13613FF16CBAB8B0A77A5ADCFD1A3A68F3898,
+	OVRInput_GetUp_mFBB66C8829A20CBA56AB5A01B27B9B656AB8E385,
+	OVRInput_GetResolvedButtonUp_m270DD35F9328AA02FD57704B03BD9C48439290FE,
+	OVRInput_Get_m6C2E703E080DE2688C40ACA3F68F83F906E625A2,
+	OVRInput_Get_mBEB70324F4BE01D02BE80C0A871A096F1D28D598,
+	OVRInput_GetResolvedTouch_m73FE92C1ADB5D80A899E286D292ED84071FE8CFE,
+	OVRInput_GetDown_m5491C09889270B683C537503A0C6BF872504AAA8,
+	OVRInput_GetDown_m486EC70E23DEE19E6AB8364AC09CE97AD4EA4AA7,
+	OVRInput_GetResolvedTouchDown_m66E8EEDD8A035AB53C72094860E4B470B383B6BA,
+	OVRInput_GetUp_m3E4D89CF77514121520D52DBA85E0376826875D8,
+	OVRInput_GetUp_mA6D9A9EF681EE249F1128D2EDB8A64492D6088E9,
+	OVRInput_GetResolvedTouchUp_m209C2025FE3912C6A88EBEEC418D28E49CB48C35,
+	OVRInput_Get_m3231F0E900AB4B2AF1BCBCB2045C6D2AF125C0C7,
+	OVRInput_Get_mFE6AE2B8D10329B84EDD4D3A6BA08617F5323A87,
+	OVRInput_GetResolvedNearTouch_mED99EAB619BBCBC6C3A1D39EFFE67D1D2882C1A7,
+	OVRInput_GetDown_m154A3DF72CA4730638205848FA0818BBC8E7C341,
+	OVRInput_GetDown_m4ACA316A238725299B4330463494315FDF2A9133,
+	OVRInput_GetResolvedNearTouchDown_m6FD16DD559D5DF8B54918EE7C11D43CCF6345FC1,
+	OVRInput_GetUp_m31EB27909F84F5A072599C2198E542436692A8F6,
+	OVRInput_GetUp_mC566682F46106E82E01F6FF3F58B55F4293CF9D3,
+	OVRInput_GetResolvedNearTouchUp_mF91233ABD8E1D6CC43D2D6929B5EC95D584D3941,
+	OVRInput_Get_m1FD85568F358C43019E09E48A7BEBD6CD7F7E5D8,
+	OVRInput_Get_m012EDBD26DA72A28E233C6067036C4DB52ECB515,
+	OVRInput_GetResolvedAxis1D_mF5209B0321AE338095757D7353B262549E274EA1,
+	OVRInput_Get_mF4EA350D5898449529C641C72B7D440DF81180C8,
+	OVRInput_Get_mB457003E7F3A6A8901B7A1D6CB6A167A5829E304,
+	OVRInput_GetResolvedAxis2D_m906A84A42FEF829D334263869BE8B73F67DBE2BC,
+	OVRInput_GetConnectedControllers_m70645A9B001F6880D104D779341958174139332D,
+	OVRInput_IsControllerConnected_mC3BA5BE3D3A5642D36965D4CD82525C989F85E9A,
+	OVRInput_GetActiveController_m1F0234F8333A98DC3F2BF49A9ECA6530139B6A65,
+	OVRInput_StartVibration_mC60F6AD7169146CCCC1EE049A1BA447F06E67EBD,
+	OVRInput_SetOpenVRLocalPose_m27E4294B7780884FF0BC1A8605403289A12C8894,
+	OVRInput_GetOpenVRStringProperty_m98D9EFA2CF5CB4A3D5B1FBF211792C9BF3694211,
+	OVRInput_UpdateXRControllerNodeIds_mBADEA537A0EE550060596054C9FE13B8B041E8CA,
+	OVRInput_UpdateXRControllerHaptics_m9E0932C8F3F7602C10857A4B6AA0CEFF52F1CC78,
+	OVRInput_InitHapticInfo_mAF5586A61678F7D8D7BA986F970A21226E4FC06F,
+	OVRInput_PlayHapticImpulse_m1361B3A6FDE69152D291A4AAC0C0D3537926F77B,
+	OVRInput_IsValidOpenVRDevice_m7ADD9AC581CBA6737A77731FEB481BD1E9D75B64,
+	OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E,
+	OVRInput_GetControllerBatteryPercentRemaining_m71749CA732247A262C0274C88BCE39BE6F48FF08,
+	OVRInput_CalculateAbsMax_m01D62F439662772B8DFACA54195A979A2E151F19,
+	OVRInput_CalculateAbsMax_mC5712340231F606B82E84C5E7BC769E5A4EBA008,
+	OVRInput_CalculateDeadzone_m62E502D296247D79A188319599508836C0B88D9C,
+	OVRInput_CalculateDeadzone_m6BA8FADBF3D06FE95AD5264B167531F78C4AB3C4,
+	OVRInput_ShouldResolveController_m28BB36AA2D586B8F1C75071D26654B77285AA952,
 	HapticInfo__ctor_m386E367D1A8EB72F22817794BDD0E4EAD8210F0F,
 	OVRControllerBase__ctor_m19E323A6D3242829EDFA1879B8B8C0525806A124,
 	OVRControllerBase_Update_m83F4E43964468AD8FA7FCD721B62297D8A8E18B9,
@@ -9206,81 +9206,81 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRControllerGamepadMac_ConfigureAxis1DMap_m475761D333D045F505A4E10CED74DCDA37EA440C,
 	OVRControllerGamepadMac_ConfigureAxis2DMap_mD5B20EBDB898E22A1B5402AAC74E7D489FEF5CD0,
 	OVRControllerGamepadMac_SetControllerVibration_m5A7E59C4A54B0F4EB4A50DEEF383757504D5D535,
-	OVRControllerGamepadMac_OVR_GamepadController_Initialize_m112B7FA06AE9AF160462637D4560D9C4F4EA1C1D,
-	OVRControllerGamepadMac_OVR_GamepadController_Destroy_m106B7CE22FE6B9D37797A06A01C6291619E28D37,
-	OVRControllerGamepadMac_OVR_GamepadController_Update_mD4BFB85DBFBA1B585231C23E90FE1764A0742E06,
-	OVRControllerGamepadMac_OVR_GamepadController_GetAxis_mD78033B6333D1A4D291DAAD56D35A6D385D1CA8F,
-	OVRControllerGamepadMac_OVR_GamepadController_GetButton_m4DCEDD50CC16777EADB3A224E5E16DFEB68D82C4,
-	OVRControllerGamepadMac_OVR_GamepadController_SetVibration_m8E5F2B5410B8C36E198D6739EAD447A6B839C61E,
+	OVRControllerGamepadMac_OVR_GamepadController_Initialize_m72F97AC807C2BAA9976D756E7A40DD76B71F5AC4,
+	OVRControllerGamepadMac_OVR_GamepadController_Destroy_m07D88D01676804674B5D925D44901065E4F60606,
+	OVRControllerGamepadMac_OVR_GamepadController_Update_m21C43716E9120CE70369FDC6494DACC5A801B380,
+	OVRControllerGamepadMac_OVR_GamepadController_GetAxis_m41CD3A55785A96F3D23135887F6B533AE876FA6D,
+	OVRControllerGamepadMac_OVR_GamepadController_GetButton_mDF6B711CFDB8DAF5B89EF037982F46ECB5BD9171,
+	OVRControllerGamepadMac_OVR_GamepadController_SetVibration_m2AA01AAFCCBFC268F3F94B35F500CDA714444864,
 	OVRControllerGamepadAndroid__ctor_m2B20446135A5F6216BBF57ADB65A8E55264F991B,
 	OVRControllerGamepadAndroid_ConfigureButtonMap_mAE93B89F65CA326E2709857955EDBFB4D0126D5A,
 	OVRControllerGamepadAndroid_ConfigureTouchMap_mE2E4C8DF6B8086F8B508F1F327A88106E44717DE,
 	OVRControllerGamepadAndroid_ConfigureNearTouchMap_m03FFAB848F83D4CAE8F166F58B2514F7989C9FBD,
 	OVRControllerGamepadAndroid_ConfigureAxis1DMap_mA102C673C1A726B08549A017CC38B69761C33161,
 	OVRControllerGamepadAndroid_ConfigureAxis2DMap_m82F40C8233710052ED92FE8BCC1BCAD2FACD5B9F,
-	OVRKtxTexture_Load_m86E57F794BC13FD4053BAD96F9A1905A9F64A971,
+	OVRKtxTexture_Load_m6544AE7B274113799991C2C0231C5F68185DB9FD,
 	OVRKtxTexture__ctor_m94563268E7228EDB9B48E3CCF53DC27D0D9A3AE2,
 	OVRLayerAttribute__ctor_mD6EC6EF2AC708B6CA90913C30A09093C1199BD74,
-	OVRManager_get_instance_mD4D2BEB818DA7BFC5DA79F80E6768804A896EE10,
-	OVRManager_set_instance_m5B58C38EF3706A960047C1627F91D232C73905A2,
-	OVRManager_get_display_m47142D90CA5D019B1925D74C5BB2ED67DEFA6430,
-	OVRManager_set_display_m1E474E9AB724728C722025473C2CFC6956B8CBC1,
-	OVRManager_get_tracker_m92FF34E61792669ACF77ABF0B43F6FD64BFE72F5,
-	OVRManager_set_tracker_m1163B6C8AE60AE7FBA3914378A720E3DBCC4B0E0,
-	OVRManager_get_boundary_mA989844E4C1493A4CC97164D72FF186916878B97,
-	OVRManager_set_boundary_m8953E1D2F5DBCB753AD0657B8729DCA2767CA3B4,
-	OVRManager_get_runtimeSettings_m2C515DB54EE186C788DAA70A0443DA76935B3DAE,
-	OVRManager_set_runtimeSettings_m3BD04F0E805B7172AFDCBD23494C746A20FBB7D6,
-	OVRManager_get_profile_m1E3D821B200306960F434F31AA621292CF374BC8,
-	OVRManager_add_HMDAcquired_m19A18AFD27AD38AB5FF255BCE012A24892C8CE5B,
-	OVRManager_remove_HMDAcquired_m68E5C912645BCC5810EA63A549F03B15F519A43B,
-	OVRManager_add_HMDLost_m28EE3DC5B601DCA9E7BC2624F88E981AB0E7B8BF,
-	OVRManager_remove_HMDLost_m90CC4DFAFC60BA24FC7F69E24311E7214001F378,
-	OVRManager_add_HMDMounted_m26EED3A0EC894116011EED2E22E3FF80CDA16F71,
-	OVRManager_remove_HMDMounted_mFDE777845B388404C2CE61F56A1AF805599836AD,
-	OVRManager_add_HMDUnmounted_mDADFB863CA94A9901BE3FA8F9F630C84BFFA3784,
-	OVRManager_remove_HMDUnmounted_mD13575A35AD960C1798808A42409129F9853CC22,
-	OVRManager_add_VrFocusAcquired_m3C85F553E98A4D0FD8C66951BCBA673C022272F1,
-	OVRManager_remove_VrFocusAcquired_m8721D26ACF91BE5C1197C89B3EB986A2C4DA5899,
-	OVRManager_add_VrFocusLost_m674DB8ACCE95A8F08DF5791BF02CC3B04AC841FD,
-	OVRManager_remove_VrFocusLost_mE52F62BAFDE44E913691F080F03A431B936891F2,
-	OVRManager_add_InputFocusAcquired_m9F32B1C78ED186499113DB5A2E3DB0F5FA468818,
-	OVRManager_remove_InputFocusAcquired_m34222D8C80FAA61CF971C109AC1028A809FF1D09,
-	OVRManager_add_InputFocusLost_m284412D6ACDED9957738EFB8571B803803A2C621,
-	OVRManager_remove_InputFocusLost_mF906DC28576482D31EB16591BAE11CD97BBF7D93,
-	OVRManager_add_AudioOutChanged_mAF8476BA743B5EB97725B06A50C6E7569FC9E9FC,
-	OVRManager_remove_AudioOutChanged_m620ABE0E38CB2962F2241CA88467B9F50E02824F,
-	OVRManager_add_AudioInChanged_m870FBD7958A7E8477F3F0B09BED9E3E0CAD0808F,
-	OVRManager_remove_AudioInChanged_mBB4BD07D4EAE7A78B34D58CCAD89FDA1FDCD6FDA,
-	OVRManager_add_TrackingAcquired_m6366ACD8E57F2EAC69B11FD3E7AA573E408FB8F3,
-	OVRManager_remove_TrackingAcquired_mC3424E905697C24FC859BE6A8E4C71DEC6F8D366,
-	OVRManager_add_TrackingLost_m77A09C04A1A1440A8FA2D6C71BCE246A3619B147,
-	OVRManager_remove_TrackingLost_m6BC2271B2479CD9DAEB8F30A68BBE8BA08626910,
-	OVRManager_add_DisplayRefreshRateChanged_m8102DC84E357CB03A54D9BEE39BCA8F1CB4E7739,
-	OVRManager_remove_DisplayRefreshRateChanged_m3DFEAC113CBF61A3A40028F305684A4234DF0333,
-	OVRManager_add_SpatialAnchorCreateComplete_m6C0C1732CD9930871B375F2C8C425E92A93C040E,
-	OVRManager_remove_SpatialAnchorCreateComplete_mB7BD7A1A8C9D007BC9CB2A80B595D6804A815422,
-	OVRManager_add_SpaceSetComponentStatusComplete_m4D5B0E82550143CB30F39D524FBCE5DD56A91956,
-	OVRManager_remove_SpaceSetComponentStatusComplete_mD60953B0B0278C81ADC1EB3E98A1B2D86D7A6E0C,
-	OVRManager_add_SpaceQueryResults_mCB94FC77319260F93CCEFE921C59DD4538A521B5,
-	OVRManager_remove_SpaceQueryResults_m7B531D311862F45C70D0327B1C2E8C0A9F78087A,
-	OVRManager_add_SpaceQueryComplete_mF3272830FBD4A659AC05EB6554F33F6BB700253E,
-	OVRManager_remove_SpaceQueryComplete_mA7E94CD0F9C9E728C4E17354ED4B40493AF09571,
-	OVRManager_add_SpaceSaveComplete_m10479BA3284CA6AAC15A9B25AF4CE87805881589,
-	OVRManager_remove_SpaceSaveComplete_m3FD81A6B8AEF2496D363AE716BCC0753FDA0DBBB,
-	OVRManager_add_SpaceEraseComplete_m8E2A5FBD238CFC5BDFA3134168943978862486E2,
-	OVRManager_remove_SpaceEraseComplete_m32C84E2C439AC0BA99DA12EA11FFDFB1AD2E3007,
-	OVRManager_add_SceneCaptureComplete_m99BA1ED2135D7B5B9499C3E251C1DB8C6739601E,
-	OVRManager_remove_SceneCaptureComplete_m0D5AB48DA6BC72FF34BE5E45FBBEC086F7DA5687,
-	OVRManager_add_HSWDismissed_mDDA7D886AE76FE673C219C748DF3E2EB9AEB98F9,
-	OVRManager_remove_HSWDismissed_m1EB921F45237288E61947A8EB12E7E7E150FDEE8,
-	OVRManager_get_isHmdPresent_mB67263111520276B78C4B34BBA12EE406B27608D,
-	OVRManager_set_isHmdPresent_m183A821D6AE041624E653686D2EFCEEC807A28DA,
-	OVRManager_get_audioOutId_m12CC60966DCE9D4026F62E0EE80C8C3464B4FE4B,
-	OVRManager_get_audioInId_m0C355703D817066A0B568612FA90990A70DC36DB,
-	OVRManager_get_hasVrFocus_m9BC81336369618E3328B23996BCFE499ADD7F58D,
-	OVRManager_set_hasVrFocus_m937E92E197BA9B673769633B3D40A9CB19510862,
-	OVRManager_get_hasInputFocus_mEB4394C8A8171916B2ACC9958C6362802EAF3128,
+	OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C,
+	OVRManager_set_instance_m268BE0B7206FEB81BA8B8EB5221AB2BA10E91E0E,
+	OVRManager_get_display_m1D17D6867547AC786E00A4CF60B863275AC1AF3D,
+	OVRManager_set_display_mAD68A004132C01084A443254AC164FD31BCDFE6B,
+	OVRManager_get_tracker_mA945BED7BDB670E0F82A7EAD0A401651C8605259,
+	OVRManager_set_tracker_m50D4C4C76BA97D4775D75620D4CC033398E72433,
+	OVRManager_get_boundary_m7495B93002198ABB5346F3F696712133AF7EA943,
+	OVRManager_set_boundary_mCEFC4DA00ED1094A5758AC15FF744BDC4B6091E4,
+	OVRManager_get_runtimeSettings_m6DFAF39BFB4B75B251235D43B02696D70BFA897A,
+	OVRManager_set_runtimeSettings_m66D09D518E906F1A50738B3BFA760EE8B117C469,
+	OVRManager_get_profile_m7BD564E8E26977B10A35BBB1E639FEDDB1357D6D,
+	OVRManager_add_HMDAcquired_mFE57FD76987A5EEB1B03660911CA3B67BCE3F345,
+	OVRManager_remove_HMDAcquired_m7F955D650B4E8D7BAA276F87F9EE42E344874049,
+	OVRManager_add_HMDLost_m987CB5028BB5E42DCB77716A0DD24F83A46D9B28,
+	OVRManager_remove_HMDLost_m8EA17A97037A9624D6466C44C781C7E7CBFCEE12,
+	OVRManager_add_HMDMounted_m8F0D43C1A18DEF38FF1F22F49CB90D652F58C3AE,
+	OVRManager_remove_HMDMounted_mE3ACD3FCCFAC0AF372978085E2950B5B872685A8,
+	OVRManager_add_HMDUnmounted_mAF5F0B3B0F77CA5888B1ADE89E1006590C656691,
+	OVRManager_remove_HMDUnmounted_mF0EC72A064E8A4598DC5720CEAB9793F80ABBD36,
+	OVRManager_add_VrFocusAcquired_m5463761A27A4D48A803583B059557E53DBBAB88F,
+	OVRManager_remove_VrFocusAcquired_mD5CBD147F95529A4538FC2FD21D70456D9D9949C,
+	OVRManager_add_VrFocusLost_m5143F087674161119B4D970BF8497AA8D60CAAB1,
+	OVRManager_remove_VrFocusLost_m4F0A4DDB3D5C5C18019BA47661C69CE935B1AC5B,
+	OVRManager_add_InputFocusAcquired_m303EF833FD42193E22AFA2851C1E80861B53F41B,
+	OVRManager_remove_InputFocusAcquired_m739A9413A8A163181FB382725F8B9B1975368283,
+	OVRManager_add_InputFocusLost_mB75E6525CCFD54E827174479582C861448199E44,
+	OVRManager_remove_InputFocusLost_m331F5CDD3BACD07943A5A3380702145A744E7172,
+	OVRManager_add_AudioOutChanged_m03C919B466E4D30B688D95972D7999E6FE69E284,
+	OVRManager_remove_AudioOutChanged_m0FEF1697BE6E7FCAB62EC858A1C185EF4ED8B84A,
+	OVRManager_add_AudioInChanged_m0DD4932B838687CCD3B813CAE3A6EAFDA177208B,
+	OVRManager_remove_AudioInChanged_m1DF19AEB75AAF33FC631CC885168AA1F3D64C146,
+	OVRManager_add_TrackingAcquired_m46AFE598ACA4041D6D092254D5112A871C8CC134,
+	OVRManager_remove_TrackingAcquired_mC90F8B7B98CA62B8AD346042D00AB6285D85FC5A,
+	OVRManager_add_TrackingLost_m07C8584949DA169F9D9206E49E6DE61D82254E8D,
+	OVRManager_remove_TrackingLost_mC974B10AB7A7BB55E79FE3C258A7E7565E564620,
+	OVRManager_add_DisplayRefreshRateChanged_m2E17B5AD96C76D2DDF81B8113DAE278D0B530D94,
+	OVRManager_remove_DisplayRefreshRateChanged_m86971E2283734F2364AACA47B15CC8695DC2CF7E,
+	OVRManager_add_SpatialAnchorCreateComplete_mA0D4C04B6FE291E992ECDE7577253EEE5B1EF9D0,
+	OVRManager_remove_SpatialAnchorCreateComplete_m62EC453F5F0A2BB2AFF0BD577E68F5281EEAF7A7,
+	OVRManager_add_SpaceSetComponentStatusComplete_mE0147432E451B15768EB752A9091967A4129F7A0,
+	OVRManager_remove_SpaceSetComponentStatusComplete_mF641750E9DD27E2FDD787FA7D67739D21040150C,
+	OVRManager_add_SpaceQueryResults_m49193AA310D5B5F802B0442167C4DD7B5F278093,
+	OVRManager_remove_SpaceQueryResults_m19C1446D9F244FA3A8A596D309466C085F513910,
+	OVRManager_add_SpaceQueryComplete_m551A184F8F9E0CE981B6802960442163B2E14E37,
+	OVRManager_remove_SpaceQueryComplete_m885B3CD1B32BE4F4FCD58AC94D5D6B831D7144EF,
+	OVRManager_add_SpaceSaveComplete_m127A86DF05C5544D94F99125A783BBC825095C3F,
+	OVRManager_remove_SpaceSaveComplete_mA3D0E92A5518AD713A7B5262AE4EC6ECE529F703,
+	OVRManager_add_SpaceEraseComplete_m41A630D65B0835AB54F59C4B2D62EA3CD26085C5,
+	OVRManager_remove_SpaceEraseComplete_m4B92FBCCC4DAC94F9C6CCB058C17BBB66DEDBF91,
+	OVRManager_add_SceneCaptureComplete_m26AE5F4B81DDEA72B3466AC811BE62C3E70ECEF4,
+	OVRManager_remove_SceneCaptureComplete_mB1C40810BBC411BE7B21C74704F120E7661BD58F,
+	OVRManager_add_HSWDismissed_m5DABEA5F11521738B24AA16736D15AFBF678D325,
+	OVRManager_remove_HSWDismissed_m596F0A139EA7AA7ABDEED3C29DE4E69C4E4CC94B,
+	OVRManager_get_isHmdPresent_m098F56E4E9C2ECAC87EAB61C7680F0FBD2A2C445,
+	OVRManager_set_isHmdPresent_m4879663A8AA591EE662CEF9F18686D6B89789B7E,
+	OVRManager_get_audioOutId_m651EBD87C90304B389EE161C3CF7C34B871A8C14,
+	OVRManager_get_audioInId_m7D6CF9485C5019C86715CAED3AD18F9DD6BFE093,
+	OVRManager_get_hasVrFocus_mF029C34D16F6733BC210CAA447C39629FB107D90,
+	OVRManager_set_hasVrFocus_m85C981DA02ECC6A7829D348FCBC2149040CD5321,
+	OVRManager_get_hasInputFocus_m253B15D1BC6272BF1ECA54344D7EF3AEF3B9A0A0,
 	OVRManager_get_chromatic_m66422D4D596EAEC0F2FFD0952FBDD900E667964A,
 	OVRManager_set_chromatic_mC1109A775529EF48476D51176DEC780678AAE0EF,
 	OVRManager_get_monoscopic_m0DE754F28B483E52474ECA234A1E3DD1D2BA7218,
@@ -9288,13 +9288,13 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRManager_get_colorGamut_m5C61F2AB170363F2D8FB6D4771EC7AEB55E7258C,
 	OVRManager_set_colorGamut_m12885C55A4AF562CF4DA969CE3DFE90B2905509F,
 	OVRManager_get_nativeColorGamut_mF692E6191E57771EBA2012882E723366718F910F,
-	OVRManager_IsAdaptiveResSupportedByEngine_m20EF5C87B91D2D340AFE61C110066367D3B315AE,
+	OVRManager_IsAdaptiveResSupportedByEngine_m0DDF3D6F04942A7B1A3B08F930D3847B90D6577D,
 	OVRManager_get_headPoseRelativeOffsetRotation_m24093D9748A541A44618C282B5858BD49C83F3C9,
 	OVRManager_set_headPoseRelativeOffsetRotation_m607DFB21F99CE3107ECA6BD9E1C0A2B6AC4242FC,
 	OVRManager_get_headPoseRelativeOffsetTranslation_m699900022730F69357C46494506381ED7647BC0C,
 	OVRManager_set_headPoseRelativeOffsetTranslation_m8B70891033EA3A0A28D9C1986E7B5D58016CCBA6,
-	OVRManager_get_eyeFovPremultipliedAlphaModeEnabled_m0F7AF209DA449656198B7FCD886F2D25A446BD6E,
-	OVRManager_set_eyeFovPremultipliedAlphaModeEnabled_m3FB6C95CB509E5EFF8254267725DEB816584A073,
+	OVRManager_get_eyeFovPremultipliedAlphaModeEnabled_mEC89DD999B94EE52F17D6E7AF5352C9EA74C8145,
+	OVRManager_set_eyeFovPremultipliedAlphaModeEnabled_m14DD45453E82E21D899542D37BA0BB52B03A2FBB,
 	OVRManager_OVRMixedRealityCaptureConfiguration_get_enableMixedReality_mD185DB1E7D51D6620623A2B7AFD6E61DD8C81D80,
 	OVRManager_OVRMixedRealityCaptureConfiguration_set_enableMixedReality_mCC673620A7C083E0561BA8E33AC21CD0F3E6E0B6,
 	OVRManager_OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers_m8853E35EBE1C52727786EBCFAEC60005AEE6FB84,
@@ -9356,62 +9356,62 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRManager_get_xrSession_mF16F24B7F737FC50D705676638DD85179ABB9679,
 	OVRManager_get_vsyncCount_m1BBE8D04E02C2431A29E2F1A98AB685293B4A8E5,
 	OVRManager_set_vsyncCount_m60B468D8FC499D98DADE378D3860E3EFDCC2A6AD,
-	OVRManager_get_batteryLevel_mD6EAC105A3B4A126C0292D224D48C1AC949F351C,
-	OVRManager_get_batteryTemperature_m1337B1D846A0C5F36B494C7F3051DF4A29BD3453,
-	OVRManager_get_batteryStatus_m39C502AE80D72F8DABCA80586D256F90AEA223CA,
-	OVRManager_get_volumeLevel_m5071E793EC9855B44C2C4CFDFAE1A0C1C86142D3,
-	OVRManager_get_suggestedCpuPerfLevel_m3DDF67CDE3EC55C2C000CCD290A945903CE80B56,
-	OVRManager_set_suggestedCpuPerfLevel_m9A2BAB66953B16B8DCD1FAFD7B5D35DE638280CC,
-	OVRManager_get_suggestedGpuPerfLevel_m352593CBFF9FCF208D81FA2E999655F07D9271C7,
-	OVRManager_set_suggestedGpuPerfLevel_mA07589D8A5FBA11C59BEE8E6E1BF89F90811733E,
-	OVRManager_get_cpuLevel_m3808707092D5529F35A6903349B6572EFE157A68,
-	OVRManager_set_cpuLevel_m9D3FFADAA039D6DA3D4AA42A68775E2C3E0E8043,
-	OVRManager_get_gpuLevel_mDE6CEB5A283993463C9B2AC2655D82F85BE6C6F2,
-	OVRManager_set_gpuLevel_mDD55D1A40A33EB64B272F1FEC65B672911D5822F,
-	OVRManager_get_isPowerSavingActive_mC72AC440B7D15ABFC8D9EA29E9C5426265DF6830,
-	OVRManager_get_eyeTextureFormat_m9B0DA8C530A148129A8533674947D59E8594E433,
-	OVRManager_set_eyeTextureFormat_mB267612E1D2835142371DBCE6148EFE21D9ADB2A,
-	OVRManager_get_fixedFoveatedRenderingSupported_m08FD555755116F254D131C15B47133F6BB8E6823,
-	OVRManager_get_fixedFoveatedRenderingLevel_m8B248EB67F1FE5A11D32FD87755B2A7764D0DCBD,
-	OVRManager_set_fixedFoveatedRenderingLevel_m9D96BB8D216D8258466377209B20C261A9190F88,
-	OVRManager_get_useDynamicFixedFoveatedRendering_mF4663BA53CB17EF8F9210076D64F65CD36FFE996,
-	OVRManager_set_useDynamicFixedFoveatedRendering_mCA6980802189AF669B57CBC4B5301D25638F8663,
-	OVRManager_get_tiledMultiResSupported_m373F27B1D367C4D151D8448357B22F84AD727A0A,
-	OVRManager_get_tiledMultiResLevel_m304E545D86F08E9A7664E473E64E3AB9218A453A,
-	OVRManager_set_tiledMultiResLevel_m66290DA17C42731DA0BC2E56A5D3C8E103F36511,
-	OVRManager_get_gpuUtilSupported_m3F37685C3D30165E36FBC76AE195F2D3CBC7D7A0,
-	OVRManager_get_gpuUtilLevel_m040E12966C03E64AB5EC63D88E6EA5901DADCFED,
-	OVRManager_get_systemHeadsetType_mFEFCD63808176CE3CB7D76CD155B83CBE0E20F1E,
-	OVRManager_SetColorScaleAndOffset_m7A4594D0F77677F9B2CCC8906CE884D4742583FD,
-	OVRManager_SetOpenVRLocalPose_mE70D88E8D892A1E281143172FF7D67F4F72F053C,
-	OVRManager_GetOpenVRControllerOffset_mDE53202DBFF77956B83CFF210223D4892B9A6DCD,
-	OVRManager_SetSpaceWarp_m5B5DD874D37AEE729668E42C1B304B2CAD0171B9,
-	OVRManager_GetSpaceWarp_m79F75466B059ADBA53EE284ADFBB56679BEB7204,
+	OVRManager_get_batteryLevel_mFC31D7E00026FF53AE50F88CB34B920FE94BC7A1,
+	OVRManager_get_batteryTemperature_m9CBB0FCF7221B75BA7C32C2E070672274F374E05,
+	OVRManager_get_batteryStatus_m2635DB26851BCF82E01EAF7CE1380148B576731E,
+	OVRManager_get_volumeLevel_mBB5AC2A247DA26358425288C17CFF8E1998575B1,
+	OVRManager_get_suggestedCpuPerfLevel_m243AB9A106880E1768C273A81EE0B4AEA453A307,
+	OVRManager_set_suggestedCpuPerfLevel_m8ADF8B1F94FB15461A329C77483D57C31E28E765,
+	OVRManager_get_suggestedGpuPerfLevel_mA6653F19E71E42A263E69FD2C4F4CB4B0DB5DF47,
+	OVRManager_set_suggestedGpuPerfLevel_mF73FCC236503028B36D67F2553228E0ED7432662,
+	OVRManager_get_cpuLevel_m989D92F71D3A4ACC406B8B85D9DD315661D7E542,
+	OVRManager_set_cpuLevel_mA5EC637A6AE162348E0592894D798911F2DF8420,
+	OVRManager_get_gpuLevel_mF6DD3FBD45FC1A6D4C5E38CFF2454B71F2D36E06,
+	OVRManager_set_gpuLevel_mB46AE04D1CC806405EEA2EBDC69D0A2301F5D89D,
+	OVRManager_get_isPowerSavingActive_mA12EADC12279FA3B9AA781D8490A5E6BE742FCA2,
+	OVRManager_get_eyeTextureFormat_mB0841EE941F0A85BC73E3C54B7958A6240946F3B,
+	OVRManager_set_eyeTextureFormat_m0B690B20957C9EB17E648899080E4EBBBA87CCED,
+	OVRManager_get_fixedFoveatedRenderingSupported_m39647A33AEFE5A6129DE3290038E3F4D9F9BC6C1,
+	OVRManager_get_fixedFoveatedRenderingLevel_m50C462362955957310B24040F150D573CD565EAB,
+	OVRManager_set_fixedFoveatedRenderingLevel_m8903AC90BC000FD46ED4E26673BAB531BA615929,
+	OVRManager_get_useDynamicFixedFoveatedRendering_m57B77674E15DB93717951E23515E8C28D13871D5,
+	OVRManager_set_useDynamicFixedFoveatedRendering_m2BBB38EA8596D5006096F25E2EDE0465713D9CEA,
+	OVRManager_get_tiledMultiResSupported_mD4174BEC4D5F947320A84A7E19453D3CBFF7B507,
+	OVRManager_get_tiledMultiResLevel_m50854DFB8ECD18C7E7C3D387F319F36CB1E7161A,
+	OVRManager_set_tiledMultiResLevel_mA2B8AA96F86CE73B3976A4D56D22740E5AB39EFA,
+	OVRManager_get_gpuUtilSupported_m8DD9BD0B0A2FB610F7A9B7394B5FA06106A87845,
+	OVRManager_get_gpuUtilLevel_m0ACF6D4407F663F5BC99C8496118665EDEC29FFF,
+	OVRManager_get_systemHeadsetType_mCF5CFA237F93EC8DE90C8F9241846C505C7388B1,
+	OVRManager_SetColorScaleAndOffset_m3756CA99B3CF9E00D72A00EC70DBEA8CCF4CA03E,
+	OVRManager_SetOpenVRLocalPose_m249ED4C08F44B43E368E9F1B235430493041CBF5,
+	OVRManager_GetOpenVRControllerOffset_mCA3A47777AA4F15B22B35DF6732091990E8CC9B4,
+	OVRManager_SetSpaceWarp_m389627B35A017F0C4F16A1225EA730EA54E0BB99,
+	OVRManager_GetSpaceWarp_m2A01D15434181512E30B0CD641115D51B3E080C6,
 	OVRManager_get_trackingOriginType_m352B753617F98DC58AD3F8E4324E23C7CF3A47E0,
 	OVRManager_set_trackingOriginType_mDDB79B878E8BF7FD66AD925A4EB0DAE77980F0F3,
 	OVRManager_get_isSupportedPlatform_m6AE0B37666BB1660CCFC7F9EAD30E550C5D7FBFA,
 	OVRManager_set_isSupportedPlatform_mE8A33FC72544A424CC63ACAF84F71CEC1EC9CE6F,
 	OVRManager_get_isUserPresent_m1E7754523C4912B5EFADE6950DC9D7AA5072699D,
 	OVRManager_set_isUserPresent_mAC629CEC482B5627A507D4FB93DE81ADA0366703,
-	OVRManager_get_utilitiesVersion_m3E56BDE870EE1F53C2EDE947D196DA007DE8AD18,
-	OVRManager_get_pluginVersion_mEFA4EC6431DA652FF1AA58820FB62C341E8E3C93,
-	OVRManager_get_sdkVersion_mF56E8A1B63AAAB6B31749784EFFC78A750C231A8,
-	OVRManager_MixedRealityEnabledFromCmd_mF2B757FB83F1EDAA0753E66DB4687E8F02A4F694,
-	OVRManager_UseDirectCompositionFromCmd_mFBB26A197F1B36E0B5F98A5ABE3E52CB9156DD34,
-	OVRManager_UseExternalCompositionFromCmd_mC1E7A01E2BEEC6C709DF4A80D85B046FE1AE7047,
-	OVRManager_CreateMixedRealityCaptureConfigurationFileFromCmd_m244878FFB96B4DC746740A825DA845745D9C635B,
-	OVRManager_LoadMixedRealityCaptureConfigurationFileFromCmd_m5D7EF550E5CEB27074566802AA884B3EFC7F665D,
-	OVRManager_IsUnityAlphaOrBetaVersion_m96A92DCF46F89C7656F6315F3B11615025D5A8AD,
+	OVRManager_get_utilitiesVersion_mA14867182039A0B84E83EC82DFDD6DC4D7E79582,
+	OVRManager_get_pluginVersion_m533197D0A28BF0A6E16E911DC1124C9C65D4D980,
+	OVRManager_get_sdkVersion_m18413A4E8DECFD0862E7F5A496491B07566CB786,
+	OVRManager_MixedRealityEnabledFromCmd_m787D2EDFB851604BAB34C6BF6DB63E939C5EAF19,
+	OVRManager_UseDirectCompositionFromCmd_m9E607F41C058A2B0EA0B100A41AAE1BC340ABAB6,
+	OVRManager_UseExternalCompositionFromCmd_mF210F9E9E6B124AC97E68BB0883D6B7DEBC83FFC,
+	OVRManager_CreateMixedRealityCaptureConfigurationFileFromCmd_m41504DC04CEF4A9D01DD0A02BC5958AB36AE6D28,
+	OVRManager_LoadMixedRealityCaptureConfigurationFileFromCmd_m855C9154778F7C85531A28C62437FC541F4A767B,
+	OVRManager_IsUnityAlphaOrBetaVersion_m3281FEF5765FFD207B8BDBB627CC6EDDF18688E0,
 	OVRManager_InitOVRManager_m70F462CB3521560EDE92D4C54EF0FAD199386053,
 	OVRManager_Awake_mA05D8839D3601DAB90A8782566C092B01B462F9C,
 	OVRManager_SetCurrentXRDevice_m28B26EC00E7F673A3AF5DEE7D732EDFA987E427F,
-	OVRManager_GetCurrentDisplaySubsystem_mDD993AF3DD6941432D9F5FCB34B10DF681729E14,
-	OVRManager_GetCurrentDisplaySubsystemDescriptor_mE1B354B167ED2494D0305696DD8EEB5B48FC3ECF,
-	OVRManager_GetCurrentInputSubsystem_mD4B0FD55842E0F814B9B7D4D40D63FA9939A8284,
+	OVRManager_GetCurrentDisplaySubsystem_m9DF732778B060759D2E11E04E49A39A43451CAA8,
+	OVRManager_GetCurrentDisplaySubsystemDescriptor_m774D6D4F85D85E72BCF228C576EAAF55E3CD978E,
+	OVRManager_GetCurrentInputSubsystem_m6343BBB6BBB22C59B70C2502CCFF5D0073B7272D,
 	OVRManager_Initialize_m339CEB2C05C31DCDA1C4390EE2635DC90D538821,
 	OVRManager_Update_mD885028FB6C03BA477FAE5757EB706ACB632CAB7,
 	OVRManager_UpdateHMDEvents_m2B05C0DAB70C5325A95E4B7AC01F9CE17CD647B4,
-	OVRManager_FindMainCamera_m890F5341E95135B20182BB88C65EEE3786AD140E,
+	OVRManager_FindMainCamera_mCCD7BE229B2DA34FFCB009A527BBE8F40F57EB49,
 	OVRManager_OnDisable_m0A146074A2646C9AB36FD309C987545F26593BC2,
 	OVRManager_LateUpdate_m7566A09FB00BB74D47B200FC0C755AB05AA5D554,
 	OVRManager_FixedUpdate_m066F982228F4B8A03EC67AADFE2DACCAB028D06D,
@@ -9420,32 +9420,32 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRManager_OnApplicationFocus_m8D482CEEA83B62B44FFBBF0DBFFF98E1F4E9F33D,
 	OVRManager_OnApplicationQuit_mFE6276AD538E13AF339753F5CD7C9D4E6623BB0F,
 	OVRManager_ReturnToLauncher_m64B09A054CC401504D8BE35DADBD86E272959D2B,
-	OVRManager_PlatformUIConfirmQuit_mCEB4740933FBE617E3A228F10106CAF6E834E1BB,
-	OVRManager_StaticInitializeMixedRealityCapture_mE1A9FBB871DDDD49BBB78A97BF0D67E2A6D9957C,
-	OVRManager_StaticUpdateMixedRealityCapture_m19D2E134EB6378478CA48D817391B0A6D22ECF6B,
-	OVRManager_StaticShutdownMixedRealityCapture_m257CE48E43B688AC923B2DB1124263CA71B0DF90,
-	OVRManager_IsInsightPassthroughSupported_m2EF4B6646232A5B9406E4EECC9C00C4F5A42B0F3,
-	OVRManager_PassthroughInitializedOrPending_m5B18DB2F3FD4F63A193E8B6589ED4518FD7AE1B9,
-	OVRManager_InitializeInsightPassthrough_m46E9108C4AEEA1A59D71FC2B67C77DF5C7FC92E9,
-	OVRManager_ShutdownInsightPassthrough_m3F6C3F7D1CE6E54715E59C7FDA312B0AAEA4E42F,
-	OVRManager_UpdateInsightPassthrough_m7C02E0B066014B7A1875FC89A669FA7E99F16D2C,
-	OVRManager_IsInsightPassthroughInitialized_m7D2BD00AEED2591D17EEF25E762436B4272F50A4,
-	OVRManager_HasInsightPassthroughInitFailed_m093A172FF35DB05160FA698E47B8841F79C1CAB3,
-	OVRManager_IsInsightPassthroughInitPending_mB659AD07D73D6966BBAD6C76ED07BE5733FEF712,
+	OVRManager_PlatformUIConfirmQuit_m535F93DC2CAE215773CB4B8A10F47E921086FBC3,
+	OVRManager_StaticInitializeMixedRealityCapture_mECD5892929515DFF005276CD46C2B270F0F7A533,
+	OVRManager_StaticUpdateMixedRealityCapture_m68D3A9F860CCE3910D11D4C80FE04E984D863810,
+	OVRManager_StaticShutdownMixedRealityCapture_mA2C3B9797235B17834EA372AB99D1024EB81F0F7,
+	OVRManager_IsInsightPassthroughSupported_m7DF8A3280003DDF6DDEC9D69A23E89332751C72A,
+	OVRManager_PassthroughInitializedOrPending_m7B360381FEDC2014AFB1ABB74E907B62B0D14348,
+	OVRManager_InitializeInsightPassthrough_m016E6C16576A1E4F6B7871E7FDE7D2671119F67E,
+	OVRManager_ShutdownInsightPassthrough_mBBB77D5EB2CE95920737C34F1A0A5E6C14A6E576,
+	OVRManager_UpdateInsightPassthrough_mB261855F40DB798505F3B863C29E7ED598546A4F,
+	OVRManager_IsInsightPassthroughInitialized_m7752AC4A37C80B772E4E66527F3401A6D31D1A1B,
+	OVRManager_HasInsightPassthroughInitFailed_m1C8BCFB02BFFE5C02B93C37682092AFBB2EE9A11,
+	OVRManager_IsInsightPassthroughInitPending_m395E00ABC60591E79946909FD5674AF052EA6132,
 	OVRManager__ctor_mDC0740CE9C6AE096D5776DE2563D037A9674CEEE,
-	OVRManager__cctor_mDFAADBDA3A21DA2655ECDE0163E98AE0EE9E401E,
+	OVRManager__cctor_mF1E19AAD77D4814E8B25D6BC99781E284D145226,
 	InstantiateMrcCameraDelegate__ctor_m3613036BFF2909C20F242A350AFEFBB611B49CDE,
 	InstantiateMrcCameraDelegate_Invoke_mB6693C4AF7C65BE930BF160D96A8630F7D21E488,
 	InstantiateMrcCameraDelegate_BeginInvoke_m25962DC38630D8BF5D03BC03D31300077F5EC7BF,
 	InstantiateMrcCameraDelegate_EndInvoke_m7EE0B3F5C84177BCD3F6AF624D350C89F4E78703,
-	U3CU3Ec__cctor_mE017AF50C956CC095682D4F045E9E323CA2A04B5,
+	U3CU3Ec__cctor_mB2A9B3F5C48AC38D2AD22E77439B5CE299F3C0B3,
 	U3CU3Ec__ctor_mA51B0B94D30D6F7881646C10D2B3D7B2D054A7F7,
 	U3CU3Ec_U3CInitOVRManagerU3Eb__375_0_mA216AD9EC975891BC398CD83DC1E7A0F09AD1027,
 	U3CU3Ec_U3CFindMainCameraU3Eb__390_0_mB04EEC9BF6BA3DB58F65506CB1B797B9856B8008,
-	OVRMixedReality_Update_mD4CA17D8AB657205000BB214CAC42C59E2DB999E,
-	OVRMixedReality_Cleanup_mAD2B92BDD32CAFD26ED8F70454985E9CF191F0E1,
-	OVRMixedReality_RecenterPose_m3C04FC487B583E328C6BF87547F14DDE442E4472,
-	OVRMixedReality__cctor_mA588829B3E03A2573B79C738F8F56E84BAF61022,
+	OVRMixedReality_Update_m3D99309363838A6B8BC1BDA6F45ED303760EBD10,
+	OVRMixedReality_Cleanup_m312DAB9A4C89085DB090214409B45DEF56B82B62,
+	OVRMixedReality_RecenterPose_mB64B820721561C52228A4F6B6E3F1370E821F193,
+	OVRMixedReality__cctor_mD44D53CC9B26C7B86208271F65AED0DA9F0A6831,
 	OVROnCompleteListener__ctor_m9FE34015830AE3B9BB7150A892709D49560AFECA,
 	NULL,
 	NULL,
@@ -9456,7 +9456,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVROverlay_set_layerId_m28284412D866364354AF5355DD29ED5643F4BA46,
 	OVROverlay_get_layout_m4893928952320613F6AAD4E58DCEBDD373B621C8,
 	OVROverlay_get_texturesPerStage_m673F2EE33C14D1A244CBF00394A423B3E81C0D42,
-	OVROverlay_NeedsTexturesForShape_mD59BDF5768EF7E99A7D234BE47E97599A55DC209,
+	OVROverlay_NeedsTexturesForShape_m7F193B7A4CDE200B3DBF3AF44CD30ADB43AD947D,
 	OVROverlay_CreateLayer_mC0E0B6F846A16A366032C5C66227138D3688693D,
 	OVROverlay_CreateLayerTextures_m06511B1901D6E9246E21B5AB859A66C7D44D9842,
 	OVROverlay_DestroyLayerTextures_mC2EB8CF6BEE55E844E411F82DBDD07B844170672,
@@ -9471,9 +9471,9 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVROverlay_PopulateLayer_m7384F18049DABA190D5538233BA69B380554C918,
 	OVROverlay_SubmitLayer_mA4FDF12219922CA745CBBB7BDA95369AE20D9D3C,
 	OVROverlay_SetupEditorPreview_mF9A7D1B2C3EF702AAB085F89B011F0B4F921BDD8,
-	OVROverlay_IsPassthroughShape_m729F5C457914AD7679FF611F971367E4D83E0D93,
+	OVROverlay_IsPassthroughShape_m55C84A60A68C66F3DECEFCA715790802F15D9E4D,
 	OVROverlay_Awake_mB54AC71CEA29CAB6BBE878BD33D20175EFB4EF42,
-	OVROverlay_get_OpenVROverlayKey_mCE1276F39C04FD83E04115169A03A5B2172712EB,
+	OVROverlay_get_OpenVROverlayKey_mA6EFD0D14077D0B125F7EAC089FB07DA6B461C27,
 	OVROverlay_OnEnable_mB81E961EA0098FEB20672A65263420E14E30B788,
 	OVROverlay_InitOVROverlay_m8B089AEF56625D94A9F896DA7570F130F5EF64BF,
 	OVROverlay_OnDisable_m88AC724F634B664B9A41E0641E84FF84BEA460B3,
@@ -9482,7 +9482,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVROverlay_OpenVROverlayUpdate_m3B2152A89A025BF04C32D2623C772AD17544BE0B,
 	OVROverlay_LateUpdate_m6743D430CC40E5B751CD6BD03D3716B855DA2332,
 	OVROverlay__ctor_m80847924F2D9ADF9C73C1C0A74CF08CAA8481AFC,
-	OVROverlay__cctor_m21CC95226773603E805A184A1D6F29F05EC9B6AB,
+	OVROverlay__cctor_m89F324918424E1DC72B00A6A45DD1BA732691D39,
 	ExternalSurfaceObjectCreated__ctor_mFA4D4D3BDF696714C027E672F1325F0EE1294500,
 	ExternalSurfaceObjectCreated_Invoke_m926D26868671FE881914F508F6A3B29907C0812C,
 	ExternalSurfaceObjectCreated_BeginInvoke_m94EEDA2D9B4AE9F89744F130E96D2C2073031793,
@@ -9494,17 +9494,17 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVROverlayMeshGenerator_OnDisable_m7EB42B62801D2387B808993532D0E576F55A6616,
 	OVROverlayMeshGenerator_Update_m249566824FED07AD489EE436F9429F8A32AF3566,
 	OVROverlayMeshGenerator_UpdateMesh_m2603AA497C6D130965D7CF739E7CF47805123808,
-	OVROverlayMeshGenerator_GenerateMesh_m5634852F00C34A84A383762CB5EA03C36C794A28,
-	OVROverlayMeshGenerator_GetSphereUV_mB8FEAEF9D815DA4314256DD25194F3E844AACC94,
-	OVROverlayMeshGenerator_GetSphereVert_m6713AF310D0F521C2DB997A4F3CA669A8BDEAF2A,
-	OVROverlayMeshGenerator_BuildSphere_m9503773BF9A611EFC0F5A5928C30666F60D6F9B5,
-	OVROverlayMeshGenerator_GetCubeUV_mDEDD893FFCC5B8E870B2201FF7F5A876086BC856,
-	OVROverlayMeshGenerator_GetCubeVert_m927357C4E8247DA4414D200F231009D087617A22,
-	OVROverlayMeshGenerator_BuildCube_m8AE84630105D46F97487595C4EBD3BCD9C89FD1C,
-	OVROverlayMeshGenerator_BuildQuad_m691A8DD44FEE87EF90705B04E7658E89E5359D42,
-	OVROverlayMeshGenerator_BuildHemicylinder_mD2FC7B394522205B1359DE01361079184CDA0CF0,
+	OVROverlayMeshGenerator_GenerateMesh_mB75C8F84AF03E9BE9640DF0273A564393E80FE15,
+	OVROverlayMeshGenerator_GetSphereUV_mE4193C8ACD7E979C663D9B4578DF7535DA5A1CFD,
+	OVROverlayMeshGenerator_GetSphereVert_m401F6E2B393F46D8464C0790C56DF09A690A68B2,
+	OVROverlayMeshGenerator_BuildSphere_m51233AE309329018A3D8638C6947C608F7B93AAB,
+	OVROverlayMeshGenerator_GetCubeUV_mCB91294D38FE68DA4FAAE987E40B10EE10FFA7EE,
+	OVROverlayMeshGenerator_GetCubeVert_m44EB95FADD4FE41AA7BEE65E13B8ADCD66611691,
+	OVROverlayMeshGenerator_BuildCube_m46E6CA40B0D0EFD5E8444ACE5B5392310BF249A0,
+	OVROverlayMeshGenerator_BuildQuad_mB1FCC71A2CD56B6C297534AFFCF35966C8E4A715,
+	OVROverlayMeshGenerator_BuildHemicylinder_mE212847CA876709D043AD10B7BECA25D09BA3267,
 	OVROverlayMeshGenerator__ctor_m536EB8951098E813484DE6EFE9C3CBFF48AB6CC6,
-	OVROverlayMeshGenerator__cctor_m529BFD1B511C13DFB1A39960D2C3BC5C4C38C107,
+	OVROverlayMeshGenerator__cctor_m139EE6E81A791C25CD212CB72195473AAA256C0A,
 	OVRPassthroughLayer_AddSurfaceGeometry_mF2776AE6648CC7D9965F7B034DFCC43754B5C1DC,
 	OVRPassthroughLayer_RemoveSurfaceGeometry_mC4E7F005E96534F8039A5E474A396FD897F7A705,
 	OVRPassthroughLayer_IsSurfaceGeometry_m3323B25F5A1CF558E2F0BD5F50084B7113A32B20,
@@ -9528,9 +9528,9 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRPassthroughLayer_UpdateSurfaceGeometryTransforms_m09886EE22E34D5D1407697F5CE4E81C84E5C74F5,
 	OVRPassthroughLayer_AllocateColorMapData_m61F047B657587FF656E594DA0CEA8822F2D76117,
 	OVRPassthroughLayer_DeallocateColorMapData_m27DD701AC996AF26FA5743BCEC1E65CD32D072D1,
-	OVRPassthroughLayer_CreateNeutralColorMapGradient_m579151252F97A885324084E56B2F5B473C8955C4,
+	OVRPassthroughLayer_CreateNeutralColorMapGradient_mA2FDB12D596B31068265B14ABD4DA0EABA1E5900,
 	OVRPassthroughLayer_UpdateColorMapFromControls_m225CA79F217B89D23261324CEBD84B2BD26441E3,
-	OVRPassthroughLayer_computeBrightnessContrastPosterizeMap_mEF972EE582B6A948BAD6F0655C8F9B2F85116DF3,
+	OVRPassthroughLayer_computeBrightnessContrastPosterizeMap_mE78F2E256326E2AE89FAFF4ACC7740AB98A53BEB,
 	OVRPassthroughLayer_WriteColorToColorMap_m62C01F16EAF846C8A443390F55861290656F191C,
 	OVRPassthroughLayer_WriteFloatToColorMap_mA81FE3A5B8AE1770CDC5E2D73EEE51679E9D5C35,
 	OVRPassthroughLayer_WriteBrightnessContrastSaturationColorMap_mB85FBDF5CB536B428178A9401F6B7A1A986F5738,
@@ -9542,7 +9542,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRPassthroughLayer_OnDisable_m42721A85DD1E3D1D8EDA06C7F90D29E434F945F3,
 	OVRPassthroughLayer_OnDestroy_m1846455F9129C5171CF4C27A31C5011D21E45D4B,
 	OVRPassthroughLayer__ctor_m6262C7EA75BEA033DBFEFEA9965352BC97900EB7,
-	OVRPassthroughLayer__cctor_mC52A4661AE72899047347817C6E3173A64CFBC57,
+	OVRPassthroughLayer__cctor_mAFFCE87A08B45AB6507FE8EA5C35F60883055C54,
 	U3CU3Ec__DisplayClass9_0__ctor_m760BBF5F185B28366495014CBC77D004EFD99BD2,
 	U3CU3Ec__DisplayClass9_0_U3CRemoveSurfaceGeometryU3Eb__0_m7AD976A6C80AD1562DFB656A971411083491D6D6,
 	U3CU3Ec__DisplayClass10_0__ctor_mD6BEFB1A2067EA71C2DA327D21B54D36BAEB8CB9,
@@ -9550,657 +9550,657 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRPlatformMenu_HandleBackButtonState_m4D1C941691C0389ED4B62DD266B0A88DC3C28E74,
 	OVRPlatformMenu_Awake_mD884337F9692E6C70E13F84FC3582A4E185D0830,
 	OVRPlatformMenu_ShowConfirmQuitMenu_mAEBFA4DAB4A137863BCBEE4FC62959C767F29CA0,
-	OVRPlatformMenu_RetreatOneLevel_mDD124D09AF9BEB5EB7AC7B61DE999A631BA212D8,
+	OVRPlatformMenu_RetreatOneLevel_mC1C0494C96D2FA0CD4ABE762CCC4D030568C2BF9,
 	OVRPlatformMenu_Update_m3F636630FCE3EB75ED5F0763838B2BFCDECEAD99,
 	OVRPlatformMenu__ctor_m14B02B57DD88BFD789CD8DD8ABF3AEC364D0E2EF,
-	OVRPlatformMenu__cctor_m76479B114BC7D358D2146C38044B989CF6B1E184,
-	OVRPlugin_get_version_mD38BDA8BD9504D9F144E712F6E5D652CC93346AE,
-	OVRPlugin_get_nativeSDKVersion_m409B19CA59267907EA61772EECC073B9D107B2AD,
-	OVRPlugin_SetLogCallback2_mFB7DA4760D31CB08EF9182AF41A7A324C1354398,
-	OVRPlugin_get_initialized_mDFB1CF1B3823439B0F27EDF9CFB69B794CB7FF7B,
-	OVRPlugin_get_nativeXrApi_m450DA10431E055B87CD929688E613148FEB3670A,
-	OVRPlugin_get_chromatic_m4F1C529F9810AE9E192A62C0594EE7FE398E7AA7,
-	OVRPlugin_set_chromatic_mC90909BB17605D44183C553B327CB34ED90D2D07,
-	OVRPlugin_get_monoscopic_m09B5137503030AEAC8463780FA235A76125A4B1C,
-	OVRPlugin_set_monoscopic_mCAF46FC83AFABC2DDB5707A5552E74677B7B71B4,
-	OVRPlugin_get_rotation_m51297F33A1993CF2C31DE0A54530CCF4F2C69190,
-	OVRPlugin_set_rotation_m89977CC9A88A99A29A6641C8339A3A6FB3C4F52A,
-	OVRPlugin_get_position_mE65B028884CDA3420B901E6D41289D4E78C85E73,
-	OVRPlugin_set_position_m1AC1ECEB949914C14194E9224B26211D274E0ADD,
-	OVRPlugin_get_useIPDInPositionTracking_m8E70C4835C9B2A6A79719C1A020055D59307DA8E,
-	OVRPlugin_set_useIPDInPositionTracking_m9DF184A1997C656928194CABB9F44AA7D9D57487,
-	OVRPlugin_get_positionSupported_m2791DD7845B95397C910C9B4868831FD379AE3F0,
-	OVRPlugin_get_positionTracked_mE936B8EB3870C7D211295AC9A202BF0B77FA58F8,
-	OVRPlugin_get_powerSaving_m6DC8F8725F069B95F08CF46881639BA0DB253859,
-	OVRPlugin_get_hmdPresent_m2705D905A552C48637E71354BAC221B069B95D9E,
-	OVRPlugin_get_userPresent_m817658CFEBBA22237689DCF1A7F83A2D5C363E86,
-	OVRPlugin_get_headphonesPresent_mB6C898D26FA273C51BA2D4E8F140D26458C72E16,
-	OVRPlugin_get_recommendedMSAALevel_mDDED8274F81EB8D6E00061729D8BC06EF5C05569,
-	OVRPlugin_get_systemRegion_m683C517E8513CA03C90E5FC598E569AE153974DA,
-	OVRPlugin_get_audioOutId_m91163ED440CDA7F0F396ACB5ACDAD5AF468DFA67,
-	OVRPlugin_get_audioInId_m03ED10D01EE81A624B128462B66398F6B0C3B609,
-	OVRPlugin_get_hasVrFocus_mED702E6732D8DB50B818FEB1FD1AC49104B69FBB,
-	OVRPlugin_get_hasInputFocus_m7D3A9901EC134A3E729B7193142E971E0B290366,
-	OVRPlugin_get_shouldQuit_m2C083B5E48E4F811AB80401B718754A8746D0061,
-	OVRPlugin_get_shouldRecenter_m29FB143DF9ED2DB437B12E744DA2EE565506B259,
-	OVRPlugin_get_productName_m83EC59C1BE86D45CB521C22F99214ECD3B66AE07,
-	OVRPlugin_get_latency_m6F1BB362148AC85805D1244BD9D6185B8D9D7BAD,
-	OVRPlugin_get_eyeDepth_mEAD35F3B9D9AF13BD0FB072A579FD470C9E5803C,
-	OVRPlugin_set_eyeDepth_m5171C0875C1E5F0288608475D4EC0ADC5EEA4C9C,
-	OVRPlugin_get_eyeHeight_m400E9589516D9FA749C6C177B7630EAE5758F43C,
-	OVRPlugin_set_eyeHeight_mCAF812BE4BCE85301294889264A2335F2BF3BBF7,
-	OVRPlugin_get_batteryLevel_mB5E0A70920BE300190914A86B0603AFAA9BAC47A,
-	OVRPlugin_get_batteryTemperature_m2FC1627776755B978E8612C1758EE8ED9668113D,
-	OVRPlugin_get_suggestedCpuPerfLevel_m656CEFECDF4ABBE01DC0CEEB356E22174E41C52D,
-	OVRPlugin_set_suggestedCpuPerfLevel_mFCA8A0E1A9B4F40C4B2736291D7CF706C6806D83,
-	OVRPlugin_get_suggestedGpuPerfLevel_mD941B6237DF003155887FF6ED58A868095656DEA,
-	OVRPlugin_set_suggestedGpuPerfLevel_m3FCC54F6B8E23EFD6B4E9782F726B2934DFB7A7F,
-	OVRPlugin_get_cpuLevel_mCC616B53E1983573553123A52BBBCD7B3EC2983B,
-	OVRPlugin_set_cpuLevel_m3FC42524DB524E301AC60FC0D411E0F7E8822250,
-	OVRPlugin_get_gpuLevel_m78CABA91DED29BADE10AE36EF72A2EE7DD056AC2,
-	OVRPlugin_set_gpuLevel_m5B187EC6A38EA8A097B7895A4D267D344FDD0074,
-	OVRPlugin_get_vsyncCount_m2F908B57CF9F0797489F38C37E72A47FD65FDAB9,
-	OVRPlugin_set_vsyncCount_m5B23F4E1960D6451F4837BEF6C4EBE0FBA85D69A,
-	OVRPlugin_get_systemVolume_m1FB1A743ED1F1D572AD89157B89B7E65A72F2E35,
-	OVRPlugin_get_ipd_m4162DA5414013EE3322952F82A1A7FD5B3DA1EE4,
-	OVRPlugin_set_ipd_m665F5B202C43AE179E46EB516D33BDA1CBFD741E,
-	OVRPlugin_get_occlusionMesh_mB2FFFFE309E97A3C88544780E1C6005BE196B2AE,
-	OVRPlugin_set_occlusionMesh_m5E3731477D3BE0CD6B4F2B3EB56DC246284A3778,
-	OVRPlugin_get_batteryStatus_mFC690CCC2BB21BB8E5F9C11272A33E5465AFDFF5,
-	OVRPlugin_GetEyeFrustum_m98488B2F749B6FEC7759C0421E7A69752A3D035B,
-	OVRPlugin_GetEyeTextureSize_m541E560E45532BF0597E2872F9D1972730591FF2,
-	OVRPlugin_GetTrackerPose_m8BF368BB7281B53C06A16EBE43C82CC1105234EF,
-	OVRPlugin_GetTrackerFrustum_mBE272A7F28FD7AB399ED74560C70078EC2264E7C,
-	OVRPlugin_ShowUI_m66BCFAF068B2280D8D6B8A9B996C26DC13694C40,
-	OVRPlugin_EnqueueSubmitLayer_m8D1FCFA22BB3DB3B21F0EB629080FA75656D7F14,
-	OVRPlugin_CalculateLayerDesc_mDF54FF4A4DB16269E53D988A1D53D4D2D15B3959,
-	OVRPlugin_EnqueueSetupLayer_m76FE8AEA81F96044DA7EA5566EBAC398AB207089,
-	OVRPlugin_EnqueueDestroyLayer_mCAC9587C72AB2DBA8087E0217F13F3D521E17C8E,
-	OVRPlugin_GetLayerTexture_m9E277AF579E757461763F689CABFA572176AFD3D,
-	OVRPlugin_GetLayerTextureStageCount_m2CA347FDCC8ED8D91F8950955205F16463447067,
-	OVRPlugin_GetLayerAndroidSurfaceObject_m333BD30580AA23516501E17517F3B5D07D3915F5,
-	OVRPlugin_UpdateNodePhysicsPoses_m56F719C30849918041EE23D7E5C100FDE22A6B4B,
-	OVRPlugin_GetNodePose_mC574769E829FF6B5C3093342A8563E4A940159E0,
-	OVRPlugin_GetNodeVelocity_mE872ADD53DABCF1737F56981E772B1F7CEB58FCB,
-	OVRPlugin_GetNodeAngularVelocity_m8E6FFB026AEC6757FBB755D23C59257E54FBC855,
-	OVRPlugin_GetNodeAcceleration_mDCBF3DB0B4F4FDE44F90F67C77CC6C7D610ED6CA,
-	OVRPlugin_GetNodeAngularAcceleration_m5BABADDA3E28B6BABE3A7A1B8BD97757C25C160E,
-	OVRPlugin_GetNodePresent_mA4CF851470FDD9BD2A22455766CA3096E21CA0AF,
-	OVRPlugin_GetNodeOrientationTracked_m6D579C16CD6FC7F85F50DA5F55A61DD482D8EAEC,
-	OVRPlugin_GetNodeOrientationValid_m608D8340A89D64B8BCB85CE21AD4E9DD9A284C5C,
-	OVRPlugin_GetNodePositionTracked_mD3FCB582732E4DC9AE63FC0B2A33BB7DAA4B0D90,
-	OVRPlugin_GetNodePositionValid_m01FFE182822279CCDBC61C417F66CB2207679397,
-	OVRPlugin_GetNodePoseStateRaw_mF0E833685FE05F1395B36E1FB5CA817BCCF367AB,
-	OVRPlugin_GetNodePoseStateAtTime_mB83B8FE35DE6368997417BFBBCB18748DC4DD747,
-	OVRPlugin_GetNodePoseStateImmediate_mA776387E5CC070720DD36466A1C9F4D749AFAA79,
-	OVRPlugin_GetCurrentTrackingTransformPose_mD320A3897D5557E1AC61AA77D7450B3BCC1C7008,
-	OVRPlugin_GetTrackingTransformRawPose_m992E31FD50734E57278F32ABC0E05B1BD0428373,
-	OVRPlugin_GetTrackingTransformRelativePose_mF20873D49F8601A9714D711C573F812CC7EED485,
-	OVRPlugin_GetControllerState_m0266B6C9385A2D55AEF8109CD7094657CC6A87DE,
-	OVRPlugin_GetControllerState2_mCE012A31E2B7FF0ACFFB66C76C8C40A30EB1A8D0,
-	OVRPlugin_GetControllerState4_mFD2B8E9ECDA99CCBC53931F14D7DF341F2F16914,
-	OVRPlugin_SetControllerVibration_m306AFDBAF1CF986CBD86412413EDB77EF1BC81AE,
-	OVRPlugin_GetControllerHapticsDesc_mEBBC8F2C0F110EF91B3A8DC01E45717F039BBB1F,
-	OVRPlugin_GetControllerHapticsState_m5EEFBE83C7B0FD5A29AA0737FDBAC04A165F590D,
-	OVRPlugin_SetControllerHaptics_mA652A1D128A07D1EFE9B572D51219A99F3C1B79C,
-	OVRPlugin_GetEyeRecommendedResolutionScale_mF65DE827FB82276BFAB49E008816CCA2E775D55F,
-	OVRPlugin_GetAppCpuStartToGpuEndTime_m15281D842C9EDEA7F31CBC29219D2A234371C1CA,
-	OVRPlugin_GetBoundaryConfigured_m586FDA1BBD731317B79A77CC4FC536B29F81E055,
-	OVRPlugin_TestBoundaryNode_mEE4BB9A13DB9005AD26386E8312EF9661E00819F,
-	OVRPlugin_TestBoundaryPoint_mD13DDCAA252711BDBBBD07AC8706D47E8FF67F63,
-	OVRPlugin_GetBoundaryGeometry_m8565A68A34A3B5995DACA0E076CCF03FC01C7426,
-	OVRPlugin_GetBoundaryGeometry2_m40622F9531101A8D95BEB248BEB606CE7D4BE5A3,
-	OVRPlugin_GetAppPerfStats_m34A33EFF2EB9FF6067BAA523766C4199449B321D,
-	OVRPlugin_ResetAppPerfStats_mB6215BAE35BBB49F2F41FA5FE53200AC2214581D,
-	OVRPlugin_GetAppFramerate_m6E695354C2D1E4EE2BED50D4CCF779C88063320F,
-	OVRPlugin_SetHandNodePoseStateLatency_mE19FF44EB8FBB6AA3A9E55804BAF40D9A0BAA642,
-	OVRPlugin_GetHandNodePoseStateLatency_m11D464943BC1941E12E60912EAAA7FDC30C439F1,
-	OVRPlugin_GetDesiredEyeTextureFormat_m4093DDC7E2A8ED3B3517F5577C6ADCA8EAC456D8,
-	OVRPlugin_SetDesiredEyeTextureFormat_m862BB8053F686802F401863601B3EB2B25B6B4CE,
-	OVRPlugin_InitializeMixedReality_m25AAD567E9A401BFDBA3BFB39D96C7FDC1B91928,
-	OVRPlugin_ShutdownMixedReality_mD2F70D1FFD9E42A578AD761E8D27D9084C39648D,
-	OVRPlugin_IsMixedRealityInitialized_mE1CAF88DC2B6500CB8C3476F5D839D52E5975A0E,
-	OVRPlugin_GetExternalCameraCount_m8372877043CC5A6C5163F6426698E5FBF25B467E,
-	OVRPlugin_UpdateExternalCamera_m42E2F9F0970B3043AF4A298197567C5A6CD30DCC,
-	OVRPlugin_GetMixedRealityCameraInfo_m9787D50DE1D079A4AA39A2295DDD5DE5F26E9AD3,
-	OVRPlugin_OverrideExternalCameraFov_mDC5157834EC80A6EE0C39FC66ABB22E99B166E0C,
-	OVRPlugin_GetUseOverriddenExternalCameraFov_mC4D72A65DCA9E449D802CCF01C033B5886606B85,
-	OVRPlugin_OverrideExternalCameraStaticPose_m8085585E364DC308431BA12075C69473510DD448,
-	OVRPlugin_GetUseOverriddenExternalCameraStaticPose_m3D9770C291BF1635CD10EEB4B3745F14ABCE3759,
-	OVRPlugin_ResetDefaultExternalCamera_m9D8F8981DF2C672A896A0BEC390A8473EBCF8FE2,
-	OVRPlugin_SetDefaultExternalCamera_mD99ECC5531D16FC114ACE424E89F24B7BE681934,
-	OVRPlugin_SetExternalCameraProperties_mB7E4D164A2E7C1A16C7DC46FC21B56D3BA52BAE9,
-	OVRPlugin_IsInsightPassthroughSupported_mAAE0BA18E9A11F3F0BCC3E3FE2D24155DEB318E0,
-	OVRPlugin_InitializeInsightPassthrough_m525927443C44222752116848935F75FEBF17979B,
-	OVRPlugin_ShutdownInsightPassthrough_m61429F4C39016C9FF85573CC610CA6DF4429B4AA,
-	OVRPlugin_IsInsightPassthroughInitialized_m317DDFD4141BB43AAF9E8539ACD02F10C66DCE3B,
-	OVRPlugin_GetInsightPassthroughInitializationState_m523490FA5FBCE15CF2D8F4CB4332F4C4663B7910,
-	OVRPlugin_CreateInsightTriangleMesh_mBAE6566D2152877AF589C11A9366DAF95889F194,
-	OVRPlugin_DestroyInsightTriangleMesh_m7D9877DDC5A6411040C411A513D73567332365FD,
-	OVRPlugin_AddInsightPassthroughSurfaceGeometry_m4A407400341C5B12F4200FD32FF462126060882C,
-	OVRPlugin_DestroyInsightPassthroughGeometryInstance_m77E9AF44BABACE006C35407202A18C1AA4E22F3E,
-	OVRPlugin_UpdateInsightPassthroughGeometryTransform_m06C21F291E8C4E74CAC78E4D6C59DE85B0D270C4,
-	OVRPlugin_SetInsightPassthroughStyle_m45FCB843803657B2D04E8D15A20A353C1D9DF4C9,
-	OVRPlugin_SetInsightPassthroughKeyboardHandsIntensity_mF84BAB12E1ADCBDB776BD4442B300B1164BC4268,
-	OVRPlugin_GetBoundaryDimensions_mC4FAB7B8260D20A7486EEB7D43E9189D0CC723EF,
-	OVRPlugin_GetBoundaryVisible_mB3C13703C2896FCB729E21D8ACD1028C4FE6741C,
-	OVRPlugin_SetBoundaryVisible_m9ACDB647585261A7F61E598FB55B20AE570E2018,
-	OVRPlugin_GetSystemHeadsetType_mB67CC4842F39C514F6DFEE62B6FD88EA3014E3B0,
-	OVRPlugin_GetActiveController_m13DB323F94147FF1E8C0C9775E8CC544067AFEA4,
-	OVRPlugin_GetConnectedControllers_mEB5107663B1CA24FDAEBAF33B99CF1387396A2DD,
-	OVRPlugin_ToBool_mEBA926D022EA3721603D2B1E777A21F4688BB06C,
-	OVRPlugin_GetTrackingOriginType_m0C164240FE1F3ED0BA589D8A80D440DD424EB825,
-	OVRPlugin_SetTrackingOriginType_m9A14C7B9DA422CB5851CA2F8E454592CCB6EEB9D,
-	OVRPlugin_GetTrackingCalibratedOrigin_m503F610FE8D2E24D309A3E3DB0AEE16FA9A3D7B9,
-	OVRPlugin_SetTrackingCalibratedOrigin_m8D55A88EDE2E588F2A1A173C11955D0B13545DA7,
-	OVRPlugin_RecenterTrackingOrigin_m19F8588D6252EF9C9C1D0AA9AEDFD286394FB669,
-	OVRPlugin_get_fixedFoveatedRenderingSupported_m26897DFC3AD1954654107234E41CF868CA55A46B,
-	OVRPlugin_get_fixedFoveatedRenderingLevel_m413F5D00B78220A2ED6714D95876031F997EA7E3,
-	OVRPlugin_set_fixedFoveatedRenderingLevel_mC2A32951044E73BF6C10E8FC1ED21207FFE24555,
-	OVRPlugin_get_useDynamicFixedFoveatedRendering_mE820BB4066BCA37BF15A13630CCA63CE6EB6068A,
-	OVRPlugin_set_useDynamicFixedFoveatedRendering_m818A95CDAEE65202271078EF6B0B5981E5532E5E,
-	OVRPlugin_get_tiledMultiResSupported_mD558CDF86014E3321D9EACB286E342338C33C146,
-	OVRPlugin_get_tiledMultiResLevel_mD85F65600FEC6D1B7AB96902E150693BCB06E957,
-	OVRPlugin_set_tiledMultiResLevel_m7774DC2F2CFF36C8C65E9F83E0957413A9B8BEE3,
-	OVRPlugin_get_gpuUtilSupported_m5A5711ECFC7EFDB3619128355D92DB07C0ADF8E8,
-	OVRPlugin_get_gpuUtilLevel_mC4D335984D0C2A809FEFB380E036EFC9E0F22653,
-	OVRPlugin_get_systemDisplayFrequenciesAvailable_m11215058F2FA1DCB9DC3AF176BAC424D567BEF9B,
-	OVRPlugin_get_systemDisplayFrequency_m61C309CECEF5E67DF369F591E3A4D27C2BAC699F,
-	OVRPlugin_set_systemDisplayFrequency_m228B8C0548F88E6EB7EBD7A66E42B273F3D155EB,
-	OVRPlugin_get_eyeFovPremultipliedAlphaModeEnabled_m7FD0040423B9803B24DE69AD0F12BFDF4D38854E,
-	OVRPlugin_set_eyeFovPremultipliedAlphaModeEnabled_m782F2A15FB57F941978BC47584526E52A61E73A7,
-	OVRPlugin_GetNodeFrustum2_m77B6361E661E01F90C23ABB57F51C72BDBA8F10C,
-	OVRPlugin_get_AsymmetricFovEnabled_mD7217B714F8EAE945A060214EB70E8E096683B62,
-	OVRPlugin_get_EyeTextureArrayEnabled_m4534A75F01C0ED039215ADE3786FC91F64774D25,
-	OVRPlugin_GetDominantHand_mE941A1A94C1D536D4BD25A0BC281DCDF1A5084A4,
-	OVRPlugin_SendEvent_mF5A7D57407048DEBC15A3D2301B35AACA6B12166,
-	OVRPlugin_SetHeadPoseModifier_m5EE5870AAF3EABB655728203FF464C31EC33F3C9,
-	OVRPlugin_GetHeadPoseModifier_m1030D45BFD1FC1360DB512CFD1011FB66F492630,
-	OVRPlugin_IsPerfMetricsSupported_m675B2B2E394C1082D299739403E874BF9022F2C4,
-	OVRPlugin_GetPerfMetricsFloat_mEE525BCD635EA8A48B52B6909E80451F08C43B2F,
-	OVRPlugin_GetPerfMetricsInt_mB02F0AF0EAC127FE340D469CCC073AF22709F800,
-	OVRPlugin_GetTimeInSeconds_m2A01F9423B790AABD5D361FCAD85A34DACA3B1A0,
-	OVRPlugin_SetColorScaleAndOffset_mFFFB4A260CA1772B2D87E10E4CE826FA8C7B07F7,
-	OVRPlugin_AddCustomMetadata_m09F005EC8F7C2BD68DD22BFD52577A86D76B9F08,
-	OVRPlugin_SetDeveloperMode_m4E00716986A1557AECA330DF103AF856F374BA2D,
-	OVRPlugin_GetAdaptiveGPUPerformanceScale_m71BA6F7BA4C5EC5EB1E6556D151BD6F69E9D6BDF,
-	OVRPlugin_GetHandTrackingEnabled_mBA4A09A9DE9E8732762A13B84749565562DCCC69,
-	OVRPlugin_GetHandState_mC5F7ADF817DE4C2608C43564CF9709D94CEAE3A8,
-	OVRPlugin_GetSkeleton_m48E5BA197751B2FD13D707397E1C91340712C199,
-	OVRPlugin_GetSkeleton2_m2F524044C8DA1831FACD8C9D374A4ABCA76F3A25,
-	OVRPlugin_GetMesh_m7E80799ED952AED69A416DE5A18A8B81006FD695,
-	OVRPlugin_StartKeyboardTracking_m3D976FEF6405F3102CEC47325A31002AB6FD763E,
-	OVRPlugin_StopKeyboardTracking_mCE56ECC1ED477B51C7D753B5867BA72E4FD3E447,
-	OVRPlugin_GetKeyboardState_m773E857B63F7E4C0A89004764F84E78869F0D6AC,
-	OVRPlugin_GetSystemKeyboardDescription_m49BBAA12C10821F7CE91ABC6D676AE0C037FC2F2,
-	OVRPlugin_GetLocalTrackingSpaceRecenterCount_m6606963F72425BA978FF2BF01AA169DB86B6BBF8,
-	OVRPlugin_GetSystemHmd3DofModeEnabled_m0E8A61BB4C61590121B821BBDF6060DC8F4A6237,
-	OVRPlugin_SetClientColorDesc_mBA96DC274607D46E1B286A0C8A717393DF39E462,
-	OVRPlugin_GetHmdColorDesc_mF432FDD21E9F5BCE7A36D3CDEFFC00B4FE347DDF,
-	OVRPlugin_PollEvent_mF78BB181FB8DA73876DE555088297DC2F6988652,
-	OVRPlugin_GetNativeOpenXRInstance_mD0F647F89F7864EFFF56787F70D6E5484EDDDFAC,
-	OVRPlugin_GetNativeOpenXRSession_mD69C28546912232D54E6B9C0DF6895FF8BCBF8DA,
-	OVRPlugin_SetKeyboardOverlayUV_m78842D05184B5ECF0032EB934E430C6382FD9372,
-	OVRPlugin_CreateSpatialAnchor_mE5D8C13588BC6A8E9E894E6404A18FDB2DC5DC01,
-	OVRPlugin_SetSpaceComponentStatus_m9B7FF3E7EE5F0625B88584074D351F12A6D3EFB9,
-	OVRPlugin_GetSpaceComponentStatus_mCD8309E94B595C517B2AB80FA93F83A37D9A1BED,
-	OVRPlugin_EnumerateSpaceSupportedComponents_mB476E78B4AC849174B8D01402D11FA4132912177,
-	OVRPlugin_SaveSpace_mD93B4E8D18C55E16BC412DA09390A6EE1C897AD1,
-	OVRPlugin_EraseSpace_m31E5148A46B6066427B30947351AA7C910864F95,
-	OVRPlugin_GetSpaceUuid_mC248E4A785FDF77C29604A86F58BECD771661AC7,
-	OVRPlugin_QuerySpaces_mC323247509DD8D7AECEFFB0DABF89D37D9280140,
-	OVRPlugin_RetrieveSpaceQueryResults_mC614B282ED8616F404CB6759BBF40DFA8640139E,
-	OVRPlugin_TryLocateSpace_m0C4E8F2E30ED0F2B183EF3B201A7BDD6C8A7DA25,
-	OVRPlugin_LocateSpace_mA4632A6172C6FB7544343E3E7F997A88DEEE8092,
-	OVRPlugin_DestroySpace_m953A028260DDDDAF164BE628772D71BE37CD8145,
-	OVRPlugin_GetSpaceContainer_m8D47617252B69C775443AA92948D5BAAFAF8332D,
-	OVRPlugin_GetSpaceBoundingBox2D_m22D763492DAE1660648150A93102947264B0E08D,
-	OVRPlugin_GetSpaceBoundingBox3D_m0DDDB9C6CEBB9A69A30DCC3AEB9D59CCBAB1DBF4,
-	OVRPlugin_GetSpaceSemanticLabels_m63624654CCFBFE7686F907D15097F2633D681D89,
-	OVRPlugin_GetSpaceRoomLayout_m528D913FB19EBB2BA961D30879714E1788814048,
-	OVRPlugin_GetSpaceBoundary2D_mA68CBE683FA07C1013A483A3DED74677A3456C4A,
-	OVRPlugin_RequestSceneCapture_m486B75E9E5134DA2EB4F3BB5117BA713148157DF,
-	OVRPlugin_GetRenderModelPaths_m4BD1A315247E70FDA18C8466310FD702E2045A74,
-	OVRPlugin_GetRenderModelProperties_mDDE339D931FFADC7B7E431AA15D1191985109D2F,
-	OVRPlugin_LoadRenderModel_m5716C22337A101851362772045D53C5E2EFEF697,
-	OVRPlugin__cctor_m24DAE4937A52187FFE7F845DF4B0B6B4887D9664,
+	OVRPlatformMenu__cctor_m6152254212CC003591104D85CB4B0568515538CD,
+	OVRPlugin_get_version_mF6424FE1E91DF97DE08CD5C7AE1FBC60873A354E,
+	OVRPlugin_get_nativeSDKVersion_mBE25B31B01647B580765EA355C508A235EB07E63,
+	OVRPlugin_SetLogCallback2_m3ADF158B1ACCA39216810940690A253F5F53A437,
+	OVRPlugin_get_initialized_m7D7AAEEED41ED4B5798882B6038CF169E2BF0443,
+	OVRPlugin_get_nativeXrApi_m32634338020C30D956A1579A7745C94BD77279F3,
+	OVRPlugin_get_chromatic_m70D923C4EC1A9BDBCB8CAB71133F960808FBC60C,
+	OVRPlugin_set_chromatic_mAE129890213C1F44B1FCB1F74EAA00E12A95ABA1,
+	OVRPlugin_get_monoscopic_m1FB2A64C1DF99193B13E940E9DEDE96C3A9ABF64,
+	OVRPlugin_set_monoscopic_m10D8914343874239BBCCA4F68B3FB2DE1A9F2F2D,
+	OVRPlugin_get_rotation_m2E4F3FEF1C901B0A651768802CC50E2E41455612,
+	OVRPlugin_set_rotation_m920187095C1DC0E97287249A8AA27D0CB5E80A7C,
+	OVRPlugin_get_position_m91B04E783511D2AF6B6BDA7D4A418AD66CBB13C3,
+	OVRPlugin_set_position_m19264BEAFB4C2C952B11652E212E84F3411FB26F,
+	OVRPlugin_get_useIPDInPositionTracking_mE681D01015DEC2C4041BDE7623A97EE7B5C0A638,
+	OVRPlugin_set_useIPDInPositionTracking_m8C4F941E9A7273575ACC10F250E07665DFB5D6FF,
+	OVRPlugin_get_positionSupported_m0AD37A0C6351F659E5079BF3F99214A25425A10F,
+	OVRPlugin_get_positionTracked_m2CDA85E3B5D4C1672B87AA635F1A659E9B2BDB71,
+	OVRPlugin_get_powerSaving_mDBF4706807A5A4108C653C75BD9F46AE029D349B,
+	OVRPlugin_get_hmdPresent_mF451D2F9EE38733FF956ADD714F161EA803F8F6A,
+	OVRPlugin_get_userPresent_mDC6C3FFE8897342A888E529C7BEAF368413C8151,
+	OVRPlugin_get_headphonesPresent_m5D5EE5B33694318A84A6B40DE9EF610695627597,
+	OVRPlugin_get_recommendedMSAALevel_m0E78179F7FB2477BB5977DD3F660E9FF595AE7B1,
+	OVRPlugin_get_systemRegion_m664F38F33BF9D3BACE25644BF4D48D1ED3D1A8A6,
+	OVRPlugin_get_audioOutId_m5D5085CAAC63B5F1C4FB8E2160278EBC7BC7CCDA,
+	OVRPlugin_get_audioInId_m69899C3CA94D7DFD3E580D40DE456876775000DE,
+	OVRPlugin_get_hasVrFocus_m3BE22CA34415F44FD722A0D2547388F0C943900E,
+	OVRPlugin_get_hasInputFocus_m26E031618D6BF901538C11D3A4FF8F82208BEEDD,
+	OVRPlugin_get_shouldQuit_mBA5C91B74C034F11AB43669726D8DC8D775668E5,
+	OVRPlugin_get_shouldRecenter_m82A62121BEF853ED4A8BF5AFB87DCFB1F7B1F5AB,
+	OVRPlugin_get_productName_mF2E3AB2A95F1FE2DDC35AAEADD9887782C4916C0,
+	OVRPlugin_get_latency_mBE733B8BEBAEC5CBFA114AB9BB0D03657CFCA511,
+	OVRPlugin_get_eyeDepth_mEE80884305950C7646BA2FA99BD6C937B4C5448A,
+	OVRPlugin_set_eyeDepth_m5B503B1343888A143D75166A8387F683F04DE06D,
+	OVRPlugin_get_eyeHeight_m40B9791C4078E06FE3CAB2D7CD102CCB4DBE7C0E,
+	OVRPlugin_set_eyeHeight_m9DEEB3566BD3F5DF53AEE1172ACB4E9910936F61,
+	OVRPlugin_get_batteryLevel_mAD1E25BC5576FC800E9F9E1FCF54C00921D123FF,
+	OVRPlugin_get_batteryTemperature_m4316A3EEA5599A957148DF73FEC745244D251F6F,
+	OVRPlugin_get_suggestedCpuPerfLevel_m9499E63FC5C08EF4D1F38C494088FD3ADFAAFF9D,
+	OVRPlugin_set_suggestedCpuPerfLevel_m0CA3B9722D6D34AD41A978A5A0B5D1C966D237A8,
+	OVRPlugin_get_suggestedGpuPerfLevel_mE702E2D9C76882032DED8E00516B587180288EE0,
+	OVRPlugin_set_suggestedGpuPerfLevel_mF464D8BB311C080501ED0608C34295F8A4796BD3,
+	OVRPlugin_get_cpuLevel_m3FCC053F18121BBAC4C60F22BE26FC4493528DDA,
+	OVRPlugin_set_cpuLevel_m6F7A4BAF88E9ABD0749E01645A8360A153195314,
+	OVRPlugin_get_gpuLevel_m84965A56CFF04CF1487A64D2D3943A4A3C7D0DFE,
+	OVRPlugin_set_gpuLevel_m90EF3A1F0124C0ABE559550DCEDD13DBEE34599D,
+	OVRPlugin_get_vsyncCount_m43E11EECD32DC9547222AF21B9FE0BA27974984C,
+	OVRPlugin_set_vsyncCount_mFDB0AD3E722E6889A3081C4DE015A0CF2ADC9A88,
+	OVRPlugin_get_systemVolume_mE1D94CF0D3609D2F1A4FAE3D31CF170FF464F864,
+	OVRPlugin_get_ipd_mE330E8430700E7E9BD35C51DF649921BE6F0D41D,
+	OVRPlugin_set_ipd_m51487F239AF4DA324C9C0F9FC8471477930CC3C0,
+	OVRPlugin_get_occlusionMesh_m9DE08B59CA33AE2D60BA00BE9E167C14EE617904,
+	OVRPlugin_set_occlusionMesh_m9885D0C924ED047C8F97821CFEBF1589026EF28A,
+	OVRPlugin_get_batteryStatus_m59B52C68609A52F12E97B5412509C78C47A64426,
+	OVRPlugin_GetEyeFrustum_m12BCC5C8828CF638B1BC1CF2A08102D27F81D702,
+	OVRPlugin_GetEyeTextureSize_mD3C6CA584BD823620FE2A43668A9488050FECE46,
+	OVRPlugin_GetTrackerPose_mB193F95ACEFE43EE149B747BF97E288121C9827E,
+	OVRPlugin_GetTrackerFrustum_m35BD5EE1EA9E92A4A4AEC7F7C1FF8ADCD521C2FE,
+	OVRPlugin_ShowUI_m92CACED0C9DAE308F644CEB83AE396FC1444AB0A,
+	OVRPlugin_EnqueueSubmitLayer_mD0A5E2CDB5157DAC27426A1C49939A0194BD4333,
+	OVRPlugin_CalculateLayerDesc_m1C5C994D88D2EB1BC56103558F7DB7AFDFDF04C9,
+	OVRPlugin_EnqueueSetupLayer_mA1D5C761EE406503F0AA37B6C55C0AC87D61023F,
+	OVRPlugin_EnqueueDestroyLayer_mC4A991C01B4734190C2F8291670BE84B30AB252B,
+	OVRPlugin_GetLayerTexture_mE4789C583C8282A195DCBBCCBBBEB5A44073A5C8,
+	OVRPlugin_GetLayerTextureStageCount_m7ACFF1E9AA4708B227460BB30021AA34347ED874,
+	OVRPlugin_GetLayerAndroidSurfaceObject_m8DE03D3352A89AEC9F67BDEB8C3026140A264B97,
+	OVRPlugin_UpdateNodePhysicsPoses_m30A4EB300401EF39239AE6418ED8CF994C51707C,
+	OVRPlugin_GetNodePose_m973B3CA31C019465A53494EB440C13C2AE229CB3,
+	OVRPlugin_GetNodeVelocity_mC6007F1CDD87AD15237BD493E94BBB7607C40C75,
+	OVRPlugin_GetNodeAngularVelocity_mF69AC351336CBD146A0D7F5543ABDB54C299F742,
+	OVRPlugin_GetNodeAcceleration_mC5F4163A51573C63CCC196CC775E7AD774A79575,
+	OVRPlugin_GetNodeAngularAcceleration_mDE952D5093E24464A59BC6393ADE49AAE9624374,
+	OVRPlugin_GetNodePresent_m5650738AE833C3C1DD04EBF700433AF236A2B20B,
+	OVRPlugin_GetNodeOrientationTracked_m2F4F1AF81CEA7FB1BC6B8025E99A1D0E93CBDC9F,
+	OVRPlugin_GetNodeOrientationValid_m84C2B516B7C2D28967C271C8F5068028E6816717,
+	OVRPlugin_GetNodePositionTracked_m7921BCEF65C51982D626A264426AE6A31BCB110B,
+	OVRPlugin_GetNodePositionValid_m855200815DB6B89892A8057D87434E62177ADFDC,
+	OVRPlugin_GetNodePoseStateRaw_m61CEEA16C9293DECBE65A0D3807AD0D3A009B1DD,
+	OVRPlugin_GetNodePoseStateAtTime_mED0C74C8CFDDD726EC01F9B1E142553A527306B3,
+	OVRPlugin_GetNodePoseStateImmediate_m82DA3F8A7A7287C93F32AE7FE510509392F2F288,
+	OVRPlugin_GetCurrentTrackingTransformPose_m26FE0E5A2A3988A5A51300CF4395D2FB6CDB6C67,
+	OVRPlugin_GetTrackingTransformRawPose_m2C557055AE8931607BEA55B0AD94C64DCD8B3135,
+	OVRPlugin_GetTrackingTransformRelativePose_m594736E2B1E616394C8BEBE60A2ACB5FEE4F3005,
+	OVRPlugin_GetControllerState_m73D1A6D01CEE7C591B8469FE1478F8CB9DEC5CD6,
+	OVRPlugin_GetControllerState2_mF786249CBA5D0B982D07F2166DCF1DA9573B5E90,
+	OVRPlugin_GetControllerState4_m728848DEFBC02ED0E9A2064A9D230F96D1C36760,
+	OVRPlugin_SetControllerVibration_mAE3456564B4AEF71F875080A33A62AD05C3A71E6,
+	OVRPlugin_GetControllerHapticsDesc_m4F5B99D7454F62CAAB43656B5BEBAE3181405737,
+	OVRPlugin_GetControllerHapticsState_mEEA959FE0B91F35368C4229D5423C70C448E03DE,
+	OVRPlugin_SetControllerHaptics_mF261D7841611D1A96353C34F471145D69A15A0DE,
+	OVRPlugin_GetEyeRecommendedResolutionScale_m34971898A2CC5FF31CF75643E325F2B1E884E3F2,
+	OVRPlugin_GetAppCpuStartToGpuEndTime_m7B73C7070638AF61077F7EB8798087FF491B0CD1,
+	OVRPlugin_GetBoundaryConfigured_m4D821F906F0809B123EAB8C967A552F55129ACAB,
+	OVRPlugin_TestBoundaryNode_mA69B94641CE0ED776B3C41B3AC2B5F31ACF53CE6,
+	OVRPlugin_TestBoundaryPoint_m1BF9E66593D64870FA5EA2112C511DD7B7B0683C,
+	OVRPlugin_GetBoundaryGeometry_mC63FA471B107D38D532DEB22EAD559551EE565B6,
+	OVRPlugin_GetBoundaryGeometry2_m17D8F2B206A7FEE004630496DF3C185E35342EAD,
+	OVRPlugin_GetAppPerfStats_m6EFAAA8BDE8A02239502B151F481D813C73380E9,
+	OVRPlugin_ResetAppPerfStats_mDDEEB7329441AFBADC0C47159E76A3E203CC4D03,
+	OVRPlugin_GetAppFramerate_mCA873E5D8A4530857583F99C9DD9AD301A415742,
+	OVRPlugin_SetHandNodePoseStateLatency_m6C83FFA012290D85DD9DE0657BE18A99C5B580EF,
+	OVRPlugin_GetHandNodePoseStateLatency_m28B5B2E04415BD93C9475BFC6BD3356A312B813D,
+	OVRPlugin_GetDesiredEyeTextureFormat_m7C94FE67F60CB7B0A4AAAF2D8E3B0A0F1CCC4FEF,
+	OVRPlugin_SetDesiredEyeTextureFormat_m397C4AB18923A2C1B6A3425B42A7064EB6EAB2D9,
+	OVRPlugin_InitializeMixedReality_mF600771E1D581C7DEAEE9EA75A9741E7B95888C5,
+	OVRPlugin_ShutdownMixedReality_mB656E8CCEFB6FCEC25B8597307566A0C1883D1FE,
+	OVRPlugin_IsMixedRealityInitialized_mFAF884E1917CA77347F31FA3312FF0C50E52D7FE,
+	OVRPlugin_GetExternalCameraCount_mCF884D51AD3C5666FB5C4B9CDC8E7A6C0CF719F7,
+	OVRPlugin_UpdateExternalCamera_m094289B0059CB8C32F17C7E6A5C4418FF0812FB6,
+	OVRPlugin_GetMixedRealityCameraInfo_m22A50602684F756CAF5CF17E526DFF0B8CB7E4C6,
+	OVRPlugin_OverrideExternalCameraFov_m8849D6E87FCBDFECBEC1E25E5099A631AE9824E4,
+	OVRPlugin_GetUseOverriddenExternalCameraFov_m8338AC617E952C1CFB6DCC1403CDBB38032747D9,
+	OVRPlugin_OverrideExternalCameraStaticPose_mEA816D3079803A2375D520C5AFF748780CF6AC58,
+	OVRPlugin_GetUseOverriddenExternalCameraStaticPose_m6F48A2E135F43889623814D7F1150DC71DCD8EB5,
+	OVRPlugin_ResetDefaultExternalCamera_mABA1DDF03790F2D8CABBDFF98204604AE9D674B6,
+	OVRPlugin_SetDefaultExternalCamera_m72A8D2E0A81939CFF330DF7BB4CDBEF9D2C61AD7,
+	OVRPlugin_SetExternalCameraProperties_m41ABA588AFDD74A9A5BCC3B5E5D38C8EE0C16591,
+	OVRPlugin_IsInsightPassthroughSupported_m7AE9F209201C3853A8DBF56F8AD3DAAA13ED8529,
+	OVRPlugin_InitializeInsightPassthrough_m533CFC66EFCBCF4C9B69AC938D2E2653724D2304,
+	OVRPlugin_ShutdownInsightPassthrough_m8BD5F14E5C47D98E1E78889BEDC2D32DE96C9F96,
+	OVRPlugin_IsInsightPassthroughInitialized_m1637AFD376CCC2D63B5C34475FD012FD7DF3EB36,
+	OVRPlugin_GetInsightPassthroughInitializationState_m3E668E023B953E8204B732EBCD358FAC7B7660C4,
+	OVRPlugin_CreateInsightTriangleMesh_m180C5CE9209FC4295F5F8895FA6281F3F3AF8375,
+	OVRPlugin_DestroyInsightTriangleMesh_m47FE862A94B72A6A0123B456373C6E96F424CA5A,
+	OVRPlugin_AddInsightPassthroughSurfaceGeometry_m30C6149BFD3DE003AE132D31362DB09050F0AE03,
+	OVRPlugin_DestroyInsightPassthroughGeometryInstance_m29F91859DD5501CF2F07CDF05D03A843A017BB3B,
+	OVRPlugin_UpdateInsightPassthroughGeometryTransform_m064F843F9ADC49FB8BB515C08C2D8ADFE411D23E,
+	OVRPlugin_SetInsightPassthroughStyle_m2A1432B9083EA50F7A7F1ADD0640E21F5379C43D,
+	OVRPlugin_SetInsightPassthroughKeyboardHandsIntensity_mBCD38A3B8B0B71126F1EEE96EAF5A90EA3FA3938,
+	OVRPlugin_GetBoundaryDimensions_m1BCF492A6E66D04D2DE9B70FDB0BF006A2874291,
+	OVRPlugin_GetBoundaryVisible_m33803E6B9ABD4C41F49709544AC0B5A61AB103BB,
+	OVRPlugin_SetBoundaryVisible_m99998E882FCF896C6D5B513B20DFB9386C003008,
+	OVRPlugin_GetSystemHeadsetType_m78DFDBECE24A926CF89B9A8D93931C78A3824B01,
+	OVRPlugin_GetActiveController_mB51206F4C3221D56F5D78602D98A765A57E6A14C,
+	OVRPlugin_GetConnectedControllers_m32CC5DB7DC0C5AD45529BD1A6A9CE6BA80E0E3B5,
+	OVRPlugin_ToBool_mA03A0E6DE11F1A1726BE77C6A026C7D86B74BCD0,
+	OVRPlugin_GetTrackingOriginType_m2EDAA913509E615DD626803932B8CE16955F961A,
+	OVRPlugin_SetTrackingOriginType_mC03CEE60AF8A00DE01E5071C8CCBE8C366ED2105,
+	OVRPlugin_GetTrackingCalibratedOrigin_mC6723351933DF6147F564A229DDA9996BAA6C501,
+	OVRPlugin_SetTrackingCalibratedOrigin_m6FCE1F2BA611F17F51AD9AB2291D03942B8F55D3,
+	OVRPlugin_RecenterTrackingOrigin_m3B3530979125EC2E416FE9F3CA8B6ECBCFF64A4B,
+	OVRPlugin_get_fixedFoveatedRenderingSupported_mAA2ED8AD8AEF2EDAE1234213993594EEBDBD491D,
+	OVRPlugin_get_fixedFoveatedRenderingLevel_mB47E89ECEE55C187A2A6BAD2ED96C6C562E7F3F8,
+	OVRPlugin_set_fixedFoveatedRenderingLevel_m7621A311282BD1D71AB6EB9BE3F2C65D96DFFC5F,
+	OVRPlugin_get_useDynamicFixedFoveatedRendering_m5BC239BD83D054F496B9FD8ED4AF3BA234BCBE06,
+	OVRPlugin_set_useDynamicFixedFoveatedRendering_m0AA5406E21978CDD460C239831981EF6A21DCC09,
+	OVRPlugin_get_tiledMultiResSupported_m96D9AD06A6D11CA28400DA480D72487566598F21,
+	OVRPlugin_get_tiledMultiResLevel_m2B30DD960F78E38A3AE9E4D71EE0B8ABEBC49E3D,
+	OVRPlugin_set_tiledMultiResLevel_mF23599F1A1CE3E784EDB4D2224805E991FBEA65E,
+	OVRPlugin_get_gpuUtilSupported_m1D267F4837B77A2294C4697796433D213E316863,
+	OVRPlugin_get_gpuUtilLevel_m12DED52CD5A80E85355D1847ADDFFDD9A2F333F9,
+	OVRPlugin_get_systemDisplayFrequenciesAvailable_m0C8838572B37964AD96032AA4F4C021F077AE68D,
+	OVRPlugin_get_systemDisplayFrequency_mE361150773912E90EB67F7A13520B90C1612D70E,
+	OVRPlugin_set_systemDisplayFrequency_m1C71496AF03BFA13D61113389F4C8CC065043034,
+	OVRPlugin_get_eyeFovPremultipliedAlphaModeEnabled_m284A864237949572788B57BFF7B47392A9AFC93E,
+	OVRPlugin_set_eyeFovPremultipliedAlphaModeEnabled_mB0D53565317E5A7A5922B447F2B71D2A3DDA331C,
+	OVRPlugin_GetNodeFrustum2_mACA9E4870E1360284D30B033B6E5488778C6487D,
+	OVRPlugin_get_AsymmetricFovEnabled_mB5652400E43010E2F075F27AF21835154F9916BB,
+	OVRPlugin_get_EyeTextureArrayEnabled_m16DFC619BF9FAD94EAAA87EDE6F06D22BBED02A9,
+	OVRPlugin_GetDominantHand_m28AFC594B67C692D753781414C50839D323EAEBC,
+	OVRPlugin_SendEvent_m2724870AAEAEC48E83D56DB0019FEB45B917A70D,
+	OVRPlugin_SetHeadPoseModifier_mBB073CB97E2AC7C4952A36E1AE1F7A825AE9D815,
+	OVRPlugin_GetHeadPoseModifier_mF5EB4C2BAE8E41E5282E28B72A3163B0411EC46A,
+	OVRPlugin_IsPerfMetricsSupported_m7DCE58992D7B5C198BC293FFEEFF1137F8BE728E,
+	OVRPlugin_GetPerfMetricsFloat_m81670F46771F8955B03943A98EE3D97A54A84B93,
+	OVRPlugin_GetPerfMetricsInt_m2041024026E708EEEAC78795E45C2D747F26DC7C,
+	OVRPlugin_GetTimeInSeconds_m14194E403D2D2F9AC59CFADD5289DC58169575BF,
+	OVRPlugin_SetColorScaleAndOffset_m23BE07937AE6D262C0264959EDA7050DC48B22F7,
+	OVRPlugin_AddCustomMetadata_mFAD0F24082A936B071E48C1DE647CE0C1BA1ACD5,
+	OVRPlugin_SetDeveloperMode_m666BA62AB965FE5E7E2857C29F619EE186CC8155,
+	OVRPlugin_GetAdaptiveGPUPerformanceScale_m63885FBAE63F786AE483D29DDB512C77DCE208B2,
+	OVRPlugin_GetHandTrackingEnabled_mA027BFA6D39F5D90DA4776E71A778513C13CDB05,
+	OVRPlugin_GetHandState_mE2C770D20C35F76C32CF9EB09E1D7EA43A5BEAFA,
+	OVRPlugin_GetSkeleton_m21D6A984F3C35DF7EF079BC722984F504A856E34,
+	OVRPlugin_GetSkeleton2_m0EC957E2CF1FCC3B28C8E64B55B448FC3A34901E,
+	OVRPlugin_GetMesh_m41AADDFBD27DBF2B4CFB103CB8C93F00F6BA6E44,
+	OVRPlugin_StartKeyboardTracking_mAA0B649E8AFD8CF13885AA51C7013BBD29BCD05A,
+	OVRPlugin_StopKeyboardTracking_m638639C4445BF0333869E59973CA3ABAA2E6888D,
+	OVRPlugin_GetKeyboardState_m35AA30844C3FDDE0C797BD8C5B39E38F3604D362,
+	OVRPlugin_GetSystemKeyboardDescription_m2DC4A085F3C9D8407D83C7886BF42D1E4526BE69,
+	OVRPlugin_GetLocalTrackingSpaceRecenterCount_m985226B8EF52AEBC99563EAE477B0C2FB6E12EAA,
+	OVRPlugin_GetSystemHmd3DofModeEnabled_m3B6B1BCAA765379D8480F778822627CE8728763B,
+	OVRPlugin_SetClientColorDesc_m7E7BD58DCDF8C2320A4741E1D45F0CECB72CD346,
+	OVRPlugin_GetHmdColorDesc_mAE1EC23074A7E9D9E6805686A00F1E82E11AD00B,
+	OVRPlugin_PollEvent_mB91F8F706861047BD2CCD1BDC0AB6374642503E0,
+	OVRPlugin_GetNativeOpenXRInstance_mCDB3798FFB361CD670AB9A8E937C2056E9978AD0,
+	OVRPlugin_GetNativeOpenXRSession_m9310783676B3E115D4B3509CBE45D89BD61FC1BD,
+	OVRPlugin_SetKeyboardOverlayUV_mFB47E828234D37C52F40E0E2BC9A936A869E8909,
+	OVRPlugin_CreateSpatialAnchor_mF6FFB445CDAAC948FCCD37A0714B2E90CF5B238A,
+	OVRPlugin_SetSpaceComponentStatus_mE711659BA25197948D2C6B71962FA6CE54FD08CF,
+	OVRPlugin_GetSpaceComponentStatus_m696F271B0C19564580C6DAC3AEE92EFC6B24FD56,
+	OVRPlugin_EnumerateSpaceSupportedComponents_m149FE99EF9805CEA676799CAFAFD6966C756BE55,
+	OVRPlugin_SaveSpace_m66BFD129173D88142458672A4593ED1C9B89C861,
+	OVRPlugin_EraseSpace_m6EA51C5FD8165982A9A8C4404EEEF61C0FCF1D52,
+	OVRPlugin_GetSpaceUuid_mBF9496BFE7D3D6EC364AA83E0114487936E6C7FF,
+	OVRPlugin_QuerySpaces_m3DF782A5086FFA9842F03A455BB969848CBF2560,
+	OVRPlugin_RetrieveSpaceQueryResults_mEAA25D672A9EAA5E275CC0EE5B23F52EE8239C78,
+	OVRPlugin_TryLocateSpace_m845BF1CAA48C0AFCAA25673E1FAFD5A0D1CA8A41,
+	OVRPlugin_LocateSpace_mE03EDE3AD734A66342EF22E31147216E2D27F416,
+	OVRPlugin_DestroySpace_mC53A688B7DE2EAC7186F087C8E3395D581928D90,
+	OVRPlugin_GetSpaceContainer_mA00171DEC1E52CC15AB98A20665472FF5EF01235,
+	OVRPlugin_GetSpaceBoundingBox2D_mF6CFC14B8B9B4A1921C7EE3CA59C08A279D34543,
+	OVRPlugin_GetSpaceBoundingBox3D_m7E0DE79DC9ACA978950D18D90A54502AE6293224,
+	OVRPlugin_GetSpaceSemanticLabels_m95748D37CAEFD3C3CE74EA0A47864C9215B3E394,
+	OVRPlugin_GetSpaceRoomLayout_m4FB8F9BB7CCE94674ED3B909C54CA2A629A19052,
+	OVRPlugin_GetSpaceBoundary2D_m50018E87B3D0D57D1F5DF9364FDAC91D8FD6C52C,
+	OVRPlugin_RequestSceneCapture_mE8656FE903728534DD79F44A84EA3423AB330535,
+	OVRPlugin_GetRenderModelPaths_m38E661CF50ADD0B3C4D31C64B36ACD8F04D0A6B7,
+	OVRPlugin_GetRenderModelProperties_m2127B2E834AAB019EAA607A12F06B7F51875D7C1,
+	OVRPlugin_LoadRenderModel_m93104E60058F91148AF4E797E59B72CBA5ECA0ED,
+	OVRPlugin__cctor_m077322BF80F9EC92EF39237D5279ED27FFB57075,
 	GUID__ctor_mE86A653F57E2611E4C38C623AAE82CF5507CA592,
 	LogCallback2DelegateType__ctor_m8360A5BD4DDA8C31817AAA0F941AA096D1D70EC0,
 	LogCallback2DelegateType_Invoke_m6394A16B597D28003C00F28625C0DD89D13264B7,
 	LogCallback2DelegateType_BeginInvoke_m6F7AEBC2AA73489A099CD4EDF4B7EB7D3F8DC0B9,
 	LogCallback2DelegateType_EndInvoke_mC7B48D5B4FC38B3458BAAAEC61C845C9684E6EDE,
 	Vector3f_ToString_mFC0B69F218C99D76D365CC7F17BC71F2846AD488,
-	Vector3f__cctor_m2C84D143D01482D67175BDE298641EFAC13AF0A2,
+	Vector3f__cctor_m4DFFCF86739F044BB63BC32DCBC87DD9CFA1501A,
 	Vector4f_ToString_mDDD15308CE22943F6B53977C5F241C814904A962,
-	Vector4f__cctor_m7119EEB70905B79BD00A22B7CFB136A0B9D4EDCF,
+	Vector4f__cctor_mA79A44FEB71B5B38EE5073D4E376B83019B457E8,
 	Vector4s_ToString_mBC64A905C5FA27C52FFED666519F28F4BA1DBD3D,
-	Vector4s__cctor_m8E1820632CBB7DD9DBD3C0CA6663990AAB256A3B,
+	Vector4s__cctor_mA5A9A72497399B3B3324543EB26A9200B98E4E90,
 	Quatf_ToString_m7D21BA328034872FA4320AE85900AC88CB416638,
-	Quatf__cctor_m62ED126FD161503A6543E5675AB4A8803FD76A1E,
+	Quatf__cctor_m1CA2189B544CC953433DAE63AACC88E45FBAB03B,
 	Posef_ToString_m61C690AF99338707AAA5B2EE13C1D26A559F7CB1,
-	Posef__cctor_mDAE2D96C973D46F88AD4B68D300AF843A57BF639,
+	Posef__cctor_m88721D5D0BA7DC18744696BC697037A4E1184925,
 	TextureRectMatrixf_ToString_m3C6721D4B05BF1C6E105355CEA9137F8B73D6005,
-	TextureRectMatrixf__cctor_m2D3640D59FC0A5A03BCE29F91C5D53D0174A4010,
-	PoseStatef__cctor_mF4B0877AAB8F920CDB334D770C8DB1EE9735A2ED,
+	TextureRectMatrixf__cctor_mDD5A9E8E69038A5345A184576AAFD38B06A61088,
+	PoseStatef__cctor_m24EC355618059C552B667D464EF347903A3C10E4,
 	ControllerState4__ctor_mA5FE4C52D5ED20979D9BF951EEF3BC8D469FF0BA,
 	ControllerState2__ctor_mF402C28BA512FA2F2CCDA2F382DE0EF49B4698DA,
 	Sizei_Equals_mCD498318CBD1F49F2CA7C33ACF59A2A5B70FCD17,
 	Sizei_Equals_m6241643139D00163890C05BEF76C41F6F655A9C2,
 	Sizei_GetHashCode_m1364F281E4DC0D220EDE950F66CE9CDE19C52F5E,
-	Sizei__cctor_m1AE04D5FA317270A5D5970E6701FC938A4A9722F,
-	Sizef__cctor_mCAA6207AA55880ED45DC313117CDEA413E680F41,
-	Size3f__cctor_m9840C840C3E0106FD351DB08E3AACC9A0F5BA67B,
+	Sizei__cctor_m41C01D0D0FB2A1FD6B7A6BB14F3475398ACE6302,
+	Sizef__cctor_m045E27506C92AB7F5BE6A59465B2B2690F866B51,
+	Size3f__cctor_m49071A4A799CD6A8C0C678C2DBF8D53A9C68CF3D,
 	Colorf_ToString_m904A670184A81A824256F46D8DD2BEA8910896E0,
 	LayerDesc_ToString_mF654B69E5F84C9A9C404B510D7DDF2C8618890DA,
 	LayerDescInternal__ctor_m6E9EB8FED72CF35697571DAB9051344E38BC23CB,
 	LayerDescInternal_ToLayerDesc_m2ABE4794C769070C0105053F0ACC46412370AF7F,
 	Mesh__ctor_m5903E10D78432C705B54608D792B5763AFEB30AA,
-	Media_Initialize_m5FC8BA4A9C7AEB220568D6BCA14DCE0BA942A0E0,
-	Media_Shutdown_m9313BCAD7B4B175DDE2515BE6B861CAE71D069A7,
-	Media_GetInitialized_mB52E3CB7DA201B000C525A4CA9DFA184985F7A47,
-	Media_Update_m1A36A8A3C288EA699E233940F59BA42CAFEB5876,
-	Media_GetMrcActivationMode_mE6B7F1A967B25D1ED463C059882F4C22D1EF5CB4,
-	Media_SetMrcActivationMode_m334632E3B8D35E5560CB9F63C88C7358AF8D914C,
-	Media_SetPlatformInitialized_m74520E65863EC75EBF78B1B18FE5D89E775F8488,
-	Media_GetPlatformCameraMode_m6115C3308C72DCADE26012587F53F4727763EC04,
-	Media_SetPlatformCameraMode_m9080408C7BF91D7E1EC5B7DDA4150AA306264BDE,
-	Media_IsMrcEnabled_mECDA7FC0FA2B28FEBC6455117C44D92841280B4F,
-	Media_IsMrcActivated_m096390CD11CCECBF2BA79300152FD341E3D8DE98,
-	Media_UseMrcDebugCamera_m2D8E182AB0D199024B1909177D091489B00C14F5,
-	Media_SetMrcInputVideoBufferType_mD767916807E93B4F3BE5F65DD53205752094E34C,
-	Media_GetMrcInputVideoBufferType_mFDE57C010EBDEC4929A4DEEA99DF06FDE3D7A265,
-	Media_SetMrcFrameSize_m9B0A377992A23311FBC10568BC1A89D6D8267999,
-	Media_GetMrcFrameSize_mAC606316224CFEFED058F820D15639DEEC95E6E0,
-	Media_SetMrcAudioSampleRate_m983555D0AC9B30991450E3392AC8F6AD29705432,
-	Media_GetMrcAudioSampleRate_mF60BD70CC8C8F09DAB115DC2883DA6523AB9422B,
-	Media_SetMrcFrameImageFlipped_m4F6618A377D38DA67E36453231758EB81F184962,
-	Media_GetMrcFrameImageFlipped_mE73E73785DBB1735472E06BF9FEC65E4036779C4,
-	Media_EncodeMrcFrame_m484516B6ABF31C9406DAB77B63601C9E887B3177,
-	Media_EncodeMrcFrame_m07020CB6FE62FA7E41910E5C47FEBE4DD0274904,
-	Media_SyncMrcFrame_m840170729D8B329828B1BF63154F7D8B3EBE17F8,
-	Media_SetAvailableQueueIndexVulkan_m67E0B23D53310772734A5346FC1FCBC6BB3C46CE,
-	Media_SetMrcHeadsetControllerPose_m92271CDDE1EBE6D6E5D4F58E19FD493F2A89FE28,
-	Media_IsCastingToRemoteClient_mFD59C7E93EB9E396DDBF9F9FE6E644D4B41D1A25,
+	Media_Initialize_m940C4B3CAFAC0A7B12B461AE9C0F57F65A534772,
+	Media_Shutdown_m8ABD858739EAE7E2D18F4CC94898D86DCB222DB9,
+	Media_GetInitialized_m0786F11D130FC9598B90C01A542F76A002F4D048,
+	Media_Update_m2059A835F3BE32366432FED120C16EAB71614D8B,
+	Media_GetMrcActivationMode_mBEC7A08B2A65E76BEEE473C62D4EF408B0C1F4DA,
+	Media_SetMrcActivationMode_mE35E5A9E3D238093D464B58DD3CC40BCE5E021B7,
+	Media_SetPlatformInitialized_m9B65CDA79FC0BBC680529D915036DE634F1B11FA,
+	Media_GetPlatformCameraMode_m96BBB2F30D32E2CC093A2734C928EC9FE988336C,
+	Media_SetPlatformCameraMode_m9EB2DA075AF8C58E468D6B0A80F54649E248BBED,
+	Media_IsMrcEnabled_m80792FE50576181B7D52751D2A92B7CFC5DE05E6,
+	Media_IsMrcActivated_m789D03726393864E19EE0516C7EA3773CA122844,
+	Media_UseMrcDebugCamera_m9EC535D2E51E13AA632663A62F3BC98FA2DE7AE4,
+	Media_SetMrcInputVideoBufferType_mDE256F23EB488EFC24FB4E87EB5FA2220848F4E6,
+	Media_GetMrcInputVideoBufferType_m84171F6829839074E24610A3F0BC5AD9002DA353,
+	Media_SetMrcFrameSize_mA845695F6965493C52B4874D7AEC27F0139E909B,
+	Media_GetMrcFrameSize_m7762AC9F68059EE27CD7DB17E430347F008EEC2F,
+	Media_SetMrcAudioSampleRate_m9534D4DC9CDE248D5D7A5D9A8DAB2580B4D88E44,
+	Media_GetMrcAudioSampleRate_m1CF647A72BE65C5FC6D87F03008723E4BB7EEE8D,
+	Media_SetMrcFrameImageFlipped_m7017BA5F4AE6A40CFF4D29076F4638E4CEFDA0CE,
+	Media_GetMrcFrameImageFlipped_m871D3CE89CA5D8D6AF588F0871A793FFA1423D7B,
+	Media_EncodeMrcFrame_mF9A39DCFCF88A807172CE8E1019ED4C50AF51D4F,
+	Media_EncodeMrcFrame_m494B203C4816A6DC6CB1C991F5ECB304F697332E,
+	Media_SyncMrcFrame_m7FB69917156264534E8BA246F62022A7E0DB86CE,
+	Media_SetAvailableQueueIndexVulkan_m7B8F350B4D3DD38BC5CA47D1E49690EB53509A22,
+	Media_SetMrcHeadsetControllerPose_m3588F22C3C883F5BD0E20FF54F32008E057C5F72,
+	Media_IsCastingToRemoteClient_m088AAC67D35A01ABB6FA56C4BA814584CFDDBEBC,
 	Media__ctor_m446A6464BF97ADCA836A1BC676588F13C311DF21,
 	NULL,
 	NULL,
 	NULL,
-	Ktx_LoadKtxFromMemory_m110288433DACDD3D48006DD0FE05756B2931C36D,
-	Ktx_GetKtxTextureWidth_m7BF89EA2EF9B46F9EE422DA982FF7D427AA2FEE7,
-	Ktx_GetKtxTextureHeight_m5475EEE8DE4FA27CE323DC7AE7C05DF7D635804E,
-	Ktx_TranscodeKtxTexture_m64E68AED06590352E1D475923176445C58245A68,
-	Ktx_GetKtxTextureSize_m9EF8BA3CD94E4FE432515F5BF1BE4E1270F9B708,
-	Ktx_GetKtxTextureData_m99E3382C7423AF7979BFA3EB2EB70D2B0B956E72,
-	Ktx_DestroyKtxTexture_mCFA8B533B55A536481C8C6A7D7BFBC2FFB7D2A33,
+	Ktx_LoadKtxFromMemory_mD2759F02E4770B460F61326A173531D0CA95AEE5,
+	Ktx_GetKtxTextureWidth_m67DD7AE87930DB3BDF234E66BB7769BAF7F601F3,
+	Ktx_GetKtxTextureHeight_mBC788B33843F0C9BEFA7028D5AEEE274A23BDA89,
+	Ktx_TranscodeKtxTexture_mFAAB5B6D9BE3FA318722FBA974E8398AD6AF95B1,
+	Ktx_GetKtxTextureSize_mA4515CCDDE6EB440616387342085739CF80C7AF9,
+	Ktx_GetKtxTextureData_m3057F7B0487BD7B5A1C38915EF342BA6FC17E75D,
+	Ktx_DestroyKtxTexture_mD7EC5644F5EF3C12498F62EE3B150B34A7FC3A3A,
 	Ktx__ctor_mECB242F43229DCD818FD52FFDDD18520B51CFB90,
-	UnityOpenXR_SetClientVersion_mAC4CA5215DAA6E3CB5FBF5E0EB2206188C342105,
-	UnityOpenXR_HookGetInstanceProcAddr_m6B4344343B4462DF23D0C0791E6E3F3FEF5979C7,
-	UnityOpenXR_OnInstanceCreate_mEED637D12C602398B59281B43D7C31A1B0132600,
-	UnityOpenXR_OnInstanceDestroy_m942ACA5B34C69F715A62E2F3027C03F372FCC39D,
-	UnityOpenXR_OnSessionCreate_m4C0510ADCF325E4159E8D937098BAF26CA3BB60F,
-	UnityOpenXR_OnAppSpaceChange_m14566DF3E7E50C78965328A439A324DFC4EEF827,
-	UnityOpenXR_OnSessionStateChange_mDC71289839D1CEE0FFA5C5269195CD26781B43DA,
-	UnityOpenXR_OnSessionBegin_m84DCA4CB9CF8301AB052D9BE819D91E5B9791BA6,
-	UnityOpenXR_OnSessionEnd_m7C5450C855EAFED41A649D10ADEEE8D7F21CF293,
-	UnityOpenXR_OnSessionExiting_mDAC32ACFEF5EEC6DA13305C30499946D17C58C7A,
-	UnityOpenXR_OnSessionDestroy_m80E7324D4580FD144A9E78F655064741D45D6755,
+	UnityOpenXR_SetClientVersion_m4090E8C9C4B6DCE29E0B4947BCEB6F943C1E14A5,
+	UnityOpenXR_HookGetInstanceProcAddr_m47D995F8D369E3C5128B927468F0ABD95352EFD4,
+	UnityOpenXR_OnInstanceCreate_mD8C51F81DF5B66595890F4D53FD5C11B066E3AF5,
+	UnityOpenXR_OnInstanceDestroy_m434D377978F23755AEA67D5A447614023E0802CF,
+	UnityOpenXR_OnSessionCreate_m1AC2B5B77ACF1FD2BDB44AD92902B86724284D1F,
+	UnityOpenXR_OnAppSpaceChange_m75150D53FE36E1F1063AB0C95AB5418BF155AD06,
+	UnityOpenXR_OnSessionStateChange_m0C99770FA4B4B984958C15BB609D093A8C9B0F46,
+	UnityOpenXR_OnSessionBegin_m0422580F20229CC217DB02155FC2DC0D867F74CE,
+	UnityOpenXR_OnSessionEnd_mEC2BB76CD260EC200996264B816F8715C04EA755,
+	UnityOpenXR_OnSessionExiting_m5A219E00988AF17792094B9D1E4B31F8FBC50DB1,
+	UnityOpenXR_OnSessionDestroy_mE22528F3A18F2409377CD0862CC005D7F07442BD,
 	UnityOpenXR__ctor_mE8295713E334C615D85C302675A888CA9FD124E0,
-	OVRP_0_1_0_ovrp_GetEyeTextureSize_m836E67E227FEE748B633D2FA1E58FE0CB57A4991,
-	OVRP_0_1_0__cctor_m04717F504465919ACB397D9D119E6ACAAFD133B9,
-	OVRP_0_1_1_ovrp_SetOverlayQuad2_m15432362ED5B1D839C1CD288626431A36778B0A8,
-	OVRP_0_1_1__cctor_m9F9B351856AB349EE1E0D27D94A5339880D26DF0,
-	OVRP_0_1_2_ovrp_GetNodePose_mBBD0DAD76E2E4D24D74A99FC86F50FBF1FD76AAF,
-	OVRP_0_1_2_ovrp_SetControllerVibration_m04CDF1EB14F384D6EA87759D257E526F64127910,
-	OVRP_0_1_2__cctor_mD40429A6703FAABB319D5D4A97861DC94FFC7E45,
-	OVRP_0_1_3_ovrp_GetNodeVelocity_m7CAD7D105B478EC6C8F31E0337DEE427F7C1C845,
-	OVRP_0_1_3_ovrp_GetNodeAcceleration_mDC3786E9D10870CE8BBE30E8BAF91558BC2E0D51,
-	OVRP_0_1_3__cctor_m447FB695C9AB924B187805A556140F8E7D051451,
-	OVRP_0_5_0__cctor_m0F2E32A4F02B87EAE0DC303686A4071252DB0662,
-	OVRP_1_0_0_ovrp_GetTrackingOriginType_mF9DADBFBB33A278E2F7254D5317415101AE3B313,
-	OVRP_1_0_0_ovrp_SetTrackingOriginType_m234718AC148CDAB639DCDB66F8100CFB20BFA868,
-	OVRP_1_0_0_ovrp_GetTrackingCalibratedOrigin_m8BA1D5B9DE2C845B5C3335FBB50F3F3E23520035,
-	OVRP_1_0_0_ovrp_RecenterTrackingOrigin_m3878469DDBF5381F678E015089FB97AAB9CAE798,
-	OVRP_1_0_0__cctor_mAFC72953B19B09BC0951D7134C4B8EC56B8EBA08,
-	OVRP_1_1_0_ovrp_GetInitialized_mC1DE6CBB809DAAF3B0EC5908C74B71EBC40A9C03,
-	OVRP_1_1_0__ovrp_GetVersion_m0CC747D6FFCF408733758114E4424C5034373805,
-	OVRP_1_1_0_ovrp_GetVersion_mB6D7E142F01B380A5BA51D52EC883D1BA298EEB5,
-	OVRP_1_1_0__ovrp_GetNativeSDKVersion_mA37DD044D34BB37A3D1BA924786AA96B055BC0E4,
-	OVRP_1_1_0_ovrp_GetNativeSDKVersion_m4F1CFFAD8D7F4F101322E7007B522B888B6E6F85,
-	OVRP_1_1_0_ovrp_GetAudioOutId_m2995EFC77BE80874F8C61BDCC25AB38301D85496,
-	OVRP_1_1_0_ovrp_GetAudioInId_m832502A55BFFE60692C3E725F52826E9578F36EC,
-	OVRP_1_1_0_ovrp_GetEyeTextureScale_mDA45C4812B218919C851124E9F77C378C5A028CD,
-	OVRP_1_1_0_ovrp_SetEyeTextureScale_m399A0806EC992DBD0A90B1638304122C415AFAE0,
-	OVRP_1_1_0_ovrp_GetTrackingOrientationSupported_mA06CDAD4920B422477B0A331AEB82602BABDB75F,
-	OVRP_1_1_0_ovrp_GetTrackingOrientationEnabled_m070766DF95A6A095186FD65E815F17798B8EE026,
-	OVRP_1_1_0_ovrp_SetTrackingOrientationEnabled_m4F5D7695451D6C8221F1BC028F8EB2B6622BCC96,
-	OVRP_1_1_0_ovrp_GetTrackingPositionSupported_m90D934F21996F74FD2D1F478020DC24619AAC8C1,
-	OVRP_1_1_0_ovrp_GetTrackingPositionEnabled_mDA8E184A805BE686B1FFB0725771354B2A2153BD,
-	OVRP_1_1_0_ovrp_SetTrackingPositionEnabled_m19F1E69517B14F434CD18143A4442D7E746C55A2,
-	OVRP_1_1_0_ovrp_GetNodePresent_m98E359CC5071984AB2C419A70F55298A2E9C2DF9,
-	OVRP_1_1_0_ovrp_GetNodeOrientationTracked_m175C6C9E236D18A88514E7DCB751F2B6901CE4DF,
-	OVRP_1_1_0_ovrp_GetNodePositionTracked_m19299A235AD4F6AE15FD784D0829E535FE15FBB0,
-	OVRP_1_1_0_ovrp_GetNodeFrustum_m824A8F4DFE5687969DD193634AF61ED26EA6F46F,
-	OVRP_1_1_0_ovrp_GetControllerState_mEB5D1B4E299E4C4F6E26B3DEE75E318E3FB491F9,
-	OVRP_1_1_0_ovrp_GetSystemCpuLevel_mFCC88E723DF350501312E040D0E0D3D319FDD208,
-	OVRP_1_1_0_ovrp_SetSystemCpuLevel_m00007115428256A599E0729DCED84589E9ADF742,
-	OVRP_1_1_0_ovrp_GetSystemGpuLevel_m0A5DFB466E2FC458C067DD8422AD01E6801621EE,
-	OVRP_1_1_0_ovrp_SetSystemGpuLevel_m1097E1822D202030CAFD573B70855224ABEF3570,
-	OVRP_1_1_0_ovrp_GetSystemPowerSavingMode_mCF42C46C5A5CEC58868B336FE0D04E53D8E31389,
-	OVRP_1_1_0_ovrp_GetSystemDisplayFrequency_mB092A6BD082A6BC3BD917B9E8F49C1CA571D2FEF,
-	OVRP_1_1_0_ovrp_GetSystemVSyncCount_mE2131E1E73D08C7AD9D381EDEE9910119E540DAF,
-	OVRP_1_1_0_ovrp_GetSystemVolume_m9A7BBA161CFAC04B6EF3F01167F20692E502CC9A,
-	OVRP_1_1_0_ovrp_GetSystemBatteryStatus_m8E192749C52A0091C270D9A33B06E6E1611B5781,
-	OVRP_1_1_0_ovrp_GetSystemBatteryLevel_mC5D6A4C8B3D1F96646C460524AF958879BCD2065,
-	OVRP_1_1_0_ovrp_GetSystemBatteryTemperature_mEE9A0EB7FC8159D7D1E0249E5BE6FEE1C0E3EC9D,
-	OVRP_1_1_0__ovrp_GetSystemProductName_m2E7747DF0B902FEA8C095B949B2E944F69FF6AFB,
-	OVRP_1_1_0_ovrp_GetSystemProductName_m67221C6405A379E5F43F7E08CBAAA760E137BBF6,
-	OVRP_1_1_0_ovrp_ShowSystemUI_m4ECE88130D11D5B9F0DE5C1C4A24D247FD64D256,
-	OVRP_1_1_0_ovrp_GetAppMonoscopic_m7985F99D54F0EBCD1605495AF9E4FEA9A030B3EF,
-	OVRP_1_1_0_ovrp_SetAppMonoscopic_mED3FDB0B5334DC4950FCFFA27AA652CAD36C5748,
-	OVRP_1_1_0_ovrp_GetAppHasVrFocus_mCCEFBF787550716AA9370D032F71554C8598EAA2,
-	OVRP_1_1_0_ovrp_GetAppShouldQuit_m208D7DDECFB8468C962F042F9E2820CBEF06A72E,
-	OVRP_1_1_0_ovrp_GetAppShouldRecenter_mBB5D437D6335DB82CDDEA051265E88A4979E7FB9,
-	OVRP_1_1_0__ovrp_GetAppLatencyTimings_mB3BBB8368188985D975FDC208A592E8D698D9E5F,
-	OVRP_1_1_0_ovrp_GetAppLatencyTimings_m995AE74D86F1440CC779BEB9C1EBD27A2420C3D1,
-	OVRP_1_1_0_ovrp_GetUserPresent_m90454EAD9F19C9008467086F127A6FB916B60019,
-	OVRP_1_1_0_ovrp_GetUserIPD_mD40A112504F21A05080B553D72321CB6514747DE,
-	OVRP_1_1_0_ovrp_SetUserIPD_mA902ED3F1223974FCC1B3DE538B152EA3D1E1F60,
-	OVRP_1_1_0_ovrp_GetUserEyeDepth_mA67FFDE16D457D30E13C70AAEFC22F55D5E0E70B,
-	OVRP_1_1_0_ovrp_SetUserEyeDepth_m043647E1B23F2AD2E1B6FE25B37083D1DB0C2F20,
-	OVRP_1_1_0_ovrp_GetUserEyeHeight_m103239B87564E234006ED0DAB7846DD46DC146EA,
-	OVRP_1_1_0_ovrp_SetUserEyeHeight_m494FB77FB49F2D0FCD24EC0FE6B57D97ED8EEE1C,
-	OVRP_1_1_0__cctor_m8752D7E3973D432A0FA05B5AD7C1EF314680F0FC,
-	OVRP_1_2_0_ovrp_SetSystemVSyncCount_m61FAAF788C427D40926696DEB148B245AFDAE89B,
-	OVRP_1_2_0_ovrpi_SetTrackingCalibratedOrigin_m54BA3E296CD349132525CC04FCFF4B398CDF3DD1,
-	OVRP_1_2_0__cctor_mFCAAFE839C2A3DC054ABB249ABA6E0903C365765,
-	OVRP_1_3_0_ovrp_GetEyeOcclusionMeshEnabled_m183062B0F2ECED49D0A8DB01904075C516D664AF,
-	OVRP_1_3_0_ovrp_SetEyeOcclusionMeshEnabled_mE68968EEA8E192A39E0E20062BA4A8CCAECD0102,
-	OVRP_1_3_0_ovrp_GetSystemHeadphonesPresent_m5E25AA3A5635D8699B5E8D686C0C08030A344540,
-	OVRP_1_3_0__cctor_m2DEC36CC8BEC7B7E9CDE4DC209B5BE8183954AA8,
-	OVRP_1_5_0_ovrp_GetSystemRegion_m5ACED71030CAF03E45D250403B19F9EC65894D91,
-	OVRP_1_5_0__cctor_mF047ABA62029C8F7F29FB49BE8D08E5C572EA854,
-	OVRP_1_6_0_ovrp_GetTrackingIPDEnabled_m08EC55D4A42884A58A8AFE8454C2A5E6E915BA17,
-	OVRP_1_6_0_ovrp_SetTrackingIPDEnabled_m2E9CB0FC2B734A71C1E90CBBF57774D787F578F3,
-	OVRP_1_6_0_ovrp_GetControllerHapticsDesc_m69528A982229CE9E74233987BF09BED8EFEB6F97,
-	OVRP_1_6_0_ovrp_GetControllerHapticsState_m9581E09252D70AF060147E2FC09AF4C7EEF7FE7E,
-	OVRP_1_6_0_ovrp_SetControllerHaptics_m1EC4A9097D189E0A92DEE34ADC647D80B04880DA,
-	OVRP_1_6_0_ovrp_SetOverlayQuad3_mDAB5DFA994004E7D1E8AD5D643C97BE6AA8C4932,
-	OVRP_1_6_0_ovrp_GetEyeRecommendedResolutionScale_mC2D831491FD589DD429C40F5E218CD016CF09947,
-	OVRP_1_6_0_ovrp_GetAppCpuStartToGpuEndTime_m46463606ACD1921590B817E77670CF03616F2248,
-	OVRP_1_6_0_ovrp_GetSystemRecommendedMSAALevel_m6F8BF79376CE8958F309136ED71D742638F17FE8,
-	OVRP_1_6_0__cctor_mADA1178AA6FF543DA4A93D31EE9C56D590F5D880,
-	OVRP_1_7_0_ovrp_GetAppChromaticCorrection_mC98919AA4428524EF7E807853E0EEFC87B8A3A17,
-	OVRP_1_7_0_ovrp_SetAppChromaticCorrection_mFEAA5F44EED959F0A3701975272A7534494341B2,
-	OVRP_1_7_0__cctor_m7C1D72D19FB1688C2D47C434F00BFFEDD142E22B,
-	OVRP_1_8_0_ovrp_GetBoundaryConfigured_mC565508906BAD4EC462D1B261A19AD3B55727837,
-	OVRP_1_8_0_ovrp_TestBoundaryNode_mFFAF5011AA1CC85E31BF41C5364B3A9046FEAC56,
-	OVRP_1_8_0_ovrp_TestBoundaryPoint_m9E0EB0BECA575C1C2DB348E4B2404F2A033BDCC2,
-	OVRP_1_8_0_ovrp_GetBoundaryGeometry_m1CE154CD720B06F794C4A13C3156682CBE2052B9,
-	OVRP_1_8_0_ovrp_GetBoundaryDimensions_m79E4F98BD41CC7580BC91F8B0547E84598124E1C,
-	OVRP_1_8_0_ovrp_GetBoundaryVisible_m55B83F6E62B167E4719C9A0992B4781CD0CB3688,
-	OVRP_1_8_0_ovrp_SetBoundaryVisible_m71F62223F178988446500617ECD1EC11CAF6892C,
-	OVRP_1_8_0_ovrp_Update2_m7DB0CCCA3F068177FCADFD77F2530D7625DCA2C4,
-	OVRP_1_8_0_ovrp_GetNodePose2_m2FD2F27AE057881B61387532CFF30966E37BD0AB,
-	OVRP_1_8_0_ovrp_GetNodeVelocity2_mF45E475D667B1F3163371C877454D2E673DEE932,
-	OVRP_1_8_0_ovrp_GetNodeAcceleration2_m1434EE489C5870E5812093D8E5EAD77C597F6331,
-	OVRP_1_8_0__cctor_mB0F1EAB4971F67EEF485559D95ABFE851FC7C603,
-	OVRP_1_9_0_ovrp_GetSystemHeadsetType_m724239B7BCE866A37FF52AF6EF6E22447BCD3842,
-	OVRP_1_9_0_ovrp_GetActiveController_m7657509945B01A3429CD0E0EC78C055E98963261,
-	OVRP_1_9_0_ovrp_GetConnectedControllers_m2BD24F2A0C7279935E4EE279D8D38F2845367FE5,
-	OVRP_1_9_0_ovrp_GetBoundaryGeometry2_mF099CBC1AF1E390E4E587319A27B1C62D34D7019,
-	OVRP_1_9_0_ovrp_GetAppPerfStats_m396C94093D47E88F8FAF41ADFA4A4CD923BBE3CA,
-	OVRP_1_9_0_ovrp_ResetAppPerfStats_m12793C2B179EB2383B46240CCAB3744E21F70493,
-	OVRP_1_9_0__cctor_mA8334AE6F24076C21BB0CA43D5307C5684F91A99,
-	OVRP_1_10_0__cctor_m2B7FBD8930417F0F4C06D6259147B4DD45F361D0,
-	OVRP_1_11_0_ovrp_SetDesiredEyeTextureFormat_m7380D1F9799DF14DB0729D25F6D68026AF6E049C,
-	OVRP_1_11_0_ovrp_GetDesiredEyeTextureFormat_m70EBADA8588B8BB70D6385E0CA8EDA498DFEE684,
-	OVRP_1_11_0__cctor_mE275177F9DFA962C628DCBBF4C1BFA71A9507AA3,
-	OVRP_1_12_0_ovrp_GetAppFramerate_m2A8522F413A07F051955A919F1D1FB9491E99D81,
-	OVRP_1_12_0_ovrp_GetNodePoseState_m2E94D9A301902710787EBCA28E5AC8D600808E58,
-	OVRP_1_12_0_ovrp_GetControllerState2_m10F6D38E1857DB9C6CBE37834A076EBE48A4FA53,
-	OVRP_1_12_0__cctor_m87FA714E2A217E0A60A7F1B480A67F003A6B4E4C,
-	OVRP_1_15_0_ovrp_InitializeMixedReality_mA9367236788D1B185B972670F038DA6C05E84BD6,
-	OVRP_1_15_0_ovrp_ShutdownMixedReality_m284269F4FE7FFC0E6A35C90F8C546F237C8FFF4C,
-	OVRP_1_15_0_ovrp_GetMixedRealityInitialized_m16BCE7FBA72339CCB9C46DAD2DFC4BEAA94CEBF1,
-	OVRP_1_15_0_ovrp_UpdateExternalCamera_m2358DEDF77393CC530E288E00E534BB5508493E5,
-	OVRP_1_15_0_ovrp_GetExternalCameraCount_m790CA0226CEAD9CEE9E9BD6D6F78FCD0B46E6DAB,
-	OVRP_1_15_0_ovrp_GetExternalCameraName_mC766668443ABD6D4E3B90B985C1C5BD54EABFB72,
-	OVRP_1_15_0_ovrp_GetExternalCameraIntrinsics_m96CD4FC22761823843280DD9BACFE8A107E2C893,
-	OVRP_1_15_0_ovrp_GetExternalCameraExtrinsics_m62FBEB8E57A469E3216984BA2A57DE3ECFB9BFFB,
-	OVRP_1_15_0_ovrp_CalculateLayerDesc_mB481FA65FA7845F24B384B8395F17497AABF088E,
-	OVRP_1_15_0_ovrp_EnqueueSetupLayer_mFE7C2E93118AC387F14D3979609594FAFE087366,
-	OVRP_1_15_0_ovrp_EnqueueDestroyLayer_mC40A9E54879DBA25DC6F99A88D1C502C0824FC7D,
-	OVRP_1_15_0_ovrp_GetLayerTextureStageCount_m4C80C7E0545890A715AAA62A2FFFCFA19E5EAD76,
-	OVRP_1_15_0_ovrp_GetLayerTexturePtr_mC4208D7A21D5EF99ACC2BC5B202BC4C933D0D4E3,
-	OVRP_1_15_0_ovrp_EnqueueSubmitLayer_mECC37ECFFB712A0390A589B66A38B9F601D79A0C,
-	OVRP_1_15_0_ovrp_GetNodeFrustum2_m06A78D6277C7FE5487F59B76E14B115DBD2AE193,
-	OVRP_1_15_0_ovrp_GetEyeTextureArrayEnabled_m9BCF4239B9A37535A740676291663BA70F53EE7B,
-	OVRP_1_15_0__cctor_mE1ABA6EB9DE14A6A04924995DBD64EE04202FEE2,
-	OVRP_1_16_0_ovrp_UpdateCameraDevices_m21A42D0B66A7EF8BF56DA1DECBC31DE27C082693,
-	OVRP_1_16_0_ovrp_IsCameraDeviceAvailable_mE1854F4F64EC330D10179897BF8D20A3FC7A44E5,
-	OVRP_1_16_0_ovrp_SetCameraDevicePreferredColorFrameSize_m1D9A9F6EEBAB0E415C5DFB4448F47D2924285E51,
-	OVRP_1_16_0_ovrp_OpenCameraDevice_m2E9F4F288FEB431F0F203033B4FE6B72D957312E,
-	OVRP_1_16_0_ovrp_CloseCameraDevice_m3C53DD1AC806D307EB45974232D8746EBED146ED,
-	OVRP_1_16_0_ovrp_HasCameraDeviceOpened_mB17D629A89AE43009356C579AC52B116608A0DF7,
-	OVRP_1_16_0_ovrp_IsCameraDeviceColorFrameAvailable_m2FC0A8B61C83BCAA748B4B089B29CCCCB93D4389,
-	OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameSize_mDA2DF8EACD8A5BCADC13C5392D45C199D3AC075A,
-	OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameBgraPixels_m7CC1D1F9D0F9871CB1BC98F8CD5CBC6B43E3D5ED,
-	OVRP_1_16_0_ovrp_GetControllerState4_m2776CACFF62CB0DFB87F4E8C5C4A7987E73A4103,
-	OVRP_1_16_0__cctor_mC617FD44DCB09DBD168B2FDE92D691E5905AB023,
-	OVRP_1_17_0__cctor_m7352F84E56AEE5C08706BDC3208F0ADA87184B3F,
-	OVRP_1_18_0_ovrp_SetHandNodePoseStateLatency_m41D014AA1EB62917A79024560D31388191CF8580,
-	OVRP_1_18_0_ovrp_GetHandNodePoseStateLatency_mBCA013EDEB653929427A79BA3DFEC6956A4BE430,
-	OVRP_1_18_0_ovrp_GetAppHasInputFocus_m40CC476945400784FC3DB387F647FE7B3FA5D998,
-	OVRP_1_18_0__cctor_mC105C8D1C8103B104F190421507E21CD50A00A4E,
-	OVRP_1_19_0__cctor_m6E72A56DF8B76E126C24AD81B8998D06919115A0,
-	OVRP_1_21_0_ovrp_GetTiledMultiResSupported_m8F2F896E36EEDDE13B69E3AB80109A70E7CE6CFA,
-	OVRP_1_21_0_ovrp_GetTiledMultiResLevel_m6FEB51B83CB18682D6F3FF83AEA205C23488EEF2,
-	OVRP_1_21_0_ovrp_SetTiledMultiResLevel_mB7AD4A26496A9FB3155DB8764B3F128393388320,
-	OVRP_1_21_0_ovrp_GetGPUUtilSupported_mA4C02AC709F4E6C1E4AFD4238CEAC9A7B3B5503C,
-	OVRP_1_21_0_ovrp_GetGPUUtilLevel_m75DA577B3331D4A08AFD0BFAD3A39D1ACA847AAF,
-	OVRP_1_21_0_ovrp_GetSystemDisplayFrequency2_m536A242AFA69ED23E3C22C08FF73C5E6E267D80A,
-	OVRP_1_21_0_ovrp_GetSystemDisplayAvailableFrequencies_m35981BA47CF5F86FDFBD230558D27C89C70D37E2,
-	OVRP_1_21_0_ovrp_SetSystemDisplayFrequency_m43603E02732056C608202E28608DA8A98C7AEBD5,
-	OVRP_1_21_0_ovrp_GetAppAsymmetricFov_m85808DB97D9F9BA4983C52DF6AC38ACA5CB7C48E,
-	OVRP_1_21_0__cctor_m59C1B2D591A6FC4D9E0159173D7A254B7EC5EA76,
-	OVRP_1_28_0_ovrp_GetDominantHand_m4BD31B9FF1871A0CF144E06B7DCDC729702989B7,
-	OVRP_1_28_0_ovrp_SendEvent_mBAB8886F87A1F555FD18D26B5A1E189A1235FA93,
-	OVRP_1_28_0_ovrp_EnqueueSetupLayer2_m3611FE5B353B13DEB52FDB7904FBCE2B464E7491,
-	OVRP_1_28_0__cctor_mC086AACBB0BA48AFDA09F98BB0185DCD4EA7EA39,
-	OVRP_1_29_0_ovrp_GetLayerAndroidSurfaceObject_mFF04E8F26B3106F7C9A848A4E7AF9A0E8268B393,
-	OVRP_1_29_0_ovrp_SetHeadPoseModifier_m3A784CC09425C63CBAA102B6CAC638B5AAB44D17,
-	OVRP_1_29_0_ovrp_GetHeadPoseModifier_m0CAAD3A4A1C4A014747034D5FDF0986E2CF5C5AD,
-	OVRP_1_29_0_ovrp_GetNodePoseStateRaw_m1227CAB1C0DE2BF989ECC5E0AD17A75E8A6B8D5D,
-	OVRP_1_29_0__cctor_m0C187E38D587D670AB0771B1F8F6D68EFC5F6509,
-	OVRP_1_30_0_ovrp_GetCurrentTrackingTransformPose_m076423134F30C2118D6E8AAE4E0226280D91F7EA,
-	OVRP_1_30_0_ovrp_GetTrackingTransformRawPose_mC51B902EBA41B8005BECA26AA1C6C08A705E8687,
-	OVRP_1_30_0_ovrp_SendEvent2_m7EFADB254F349C06D080606862CA81C159FE8FF0,
-	OVRP_1_30_0_ovrp_IsPerfMetricsSupported_m0FBE430D203FBED851413706C1A8826A51BCF3AF,
-	OVRP_1_30_0_ovrp_GetPerfMetricsFloat_mB2D8A277C509E8449696263E7D0D7D407F92680B,
-	OVRP_1_30_0_ovrp_GetPerfMetricsInt_mA467658627605E601E0440EA82C53CE33729A7AE,
-	OVRP_1_30_0__cctor_m7637140AD357963D767ECFFBDF0550FBD4CACF14,
-	OVRP_1_31_0_ovrp_GetTimeInSeconds_mADFBD14355CC3A03425B34E41452B7EEFFD4D175,
-	OVRP_1_31_0_ovrp_SetColorScaleAndOffset_mD9E511B9A2F330B4344E9BFB9CF444DE5BF97831,
-	OVRP_1_31_0__cctor_m3D9D4703A017C68E2D772412A3ED9E3AD13A638D,
-	OVRP_1_32_0_ovrp_AddCustomMetadata_mD2D4D5EF876539006785FD399BF9EC6C06E5282E,
-	OVRP_1_32_0__cctor_m9517DF17AC6BF7E056D5E78951248926DD52A176,
-	OVRP_1_34_0_ovrp_EnqueueSubmitLayer2_m1DE3F270807004344C27D7CA00C78A03CFBFC744,
-	OVRP_1_34_0__cctor_mC433DE175F3B111BC0535861EA972A3F72C9EE09,
-	OVRP_1_35_0__cctor_mC8F354E72B99E9D47F83CA2717408CBC50EBAE36,
-	OVRP_1_36_0__cctor_mDAB5AD91748EF5331BF5E3B6B07A1C6400478E6A,
-	OVRP_1_37_0__cctor_m102EC63C4FDF2579C30E7FBF129B3A393C1F331B,
-	OVRP_1_38_0_ovrp_GetTrackingTransformRelativePose_m53F3B1458C007337E366115D0B70147ACA790A5A,
-	OVRP_1_38_0_ovrp_Media_Initialize_m017B90489AC85A89A56C0DBECDC2D18108C274F2,
-	OVRP_1_38_0_ovrp_Media_Shutdown_mE309A95B153D88CA3ED0B25529CB5A3C4EEC4B3F,
-	OVRP_1_38_0_ovrp_Media_GetInitialized_mFA91B27C97393F3ABE1AD89E22697AF96911E7C5,
-	OVRP_1_38_0_ovrp_Media_Update_mA77E6C0C3559775D138B47B8F2BDD93EF2EEAB7E,
-	OVRP_1_38_0_ovrp_Media_GetMrcActivationMode_mDBCD28762C20B4EA373B6B6B990496C5A90DB766,
-	OVRP_1_38_0_ovrp_Media_SetMrcActivationMode_mC5686FB408DB5EB9D318E526961C68661DAC1B9D,
-	OVRP_1_38_0_ovrp_Media_IsMrcEnabled_m65CFAA41C8F1F4F665AD8956E1510D03D11AF982,
-	OVRP_1_38_0_ovrp_Media_IsMrcActivated_mF76D545A3CC1A1547FF1E392665F131DC14D3A6E,
-	OVRP_1_38_0_ovrp_Media_UseMrcDebugCamera_m459143FD1E5F7C2BA7980FB52E8F739A0CA4B64E,
-	OVRP_1_38_0_ovrp_Media_SetMrcInputVideoBufferType_m94CBE5FD3BE145C75B3DD7A6DA702D1638927D8A,
-	OVRP_1_38_0_ovrp_Media_GetMrcInputVideoBufferType_mA39CD7E6EC28BD2E10FD02F1EC5E0D6BF4E7109A,
-	OVRP_1_38_0_ovrp_Media_SetMrcFrameSize_mF407A85FC6699F5D0E9E3B8A8A091B497C5D72BB,
-	OVRP_1_38_0_ovrp_Media_GetMrcFrameSize_mA029F1583EDA4CC864E5709F9DC6C910CD02D6D3,
-	OVRP_1_38_0_ovrp_Media_SetMrcAudioSampleRate_m746308832013C9E9A87303119535186EEA8E0752,
-	OVRP_1_38_0_ovrp_Media_GetMrcAudioSampleRate_m9E9A2853E3116188E19426AB0324DDC14D897547,
-	OVRP_1_38_0_ovrp_Media_SetMrcFrameImageFlipped_mAFF6E7D23EF6327E3F1309C6CCDE9403ADCA3C88,
-	OVRP_1_38_0_ovrp_Media_GetMrcFrameImageFlipped_m5BF416DC4DC8C8BB04B32052BE3BD95EA2F5AF4C,
-	OVRP_1_38_0_ovrp_Media_EncodeMrcFrame_m53C6B3CA1BEF9F79A81925E34F95B03C485E9CB6,
-	OVRP_1_38_0_ovrp_Media_EncodeMrcFrameWithDualTextures_m2ACC18E0D0693EF1D3BFCB66B787AEC4147F3847,
-	OVRP_1_38_0_ovrp_Media_SyncMrcFrame_m9B8ED122F87202FEEB81A99E121BF3A857FEB7ED,
-	OVRP_1_38_0_ovrp_SetDeveloperMode_m3F284768C22A4C33BC932BA07D4E3B54939D44FB,
-	OVRP_1_38_0_ovrp_GetNodeOrientationValid_m24985CBF70DC0CF14242A7A36240982741A9AC06,
-	OVRP_1_38_0_ovrp_GetNodePositionValid_mA711E017D9E7F751E4BA098FD260F4327136EFF2,
-	OVRP_1_38_0__cctor_m92E8CC70DC1D81E94678F247D5CEAE254D654BB6,
-	OVRP_1_39_0__cctor_mF7089AE4B8C8B9F444AC81BD798140787F3F29D5,
-	OVRP_1_40_0__cctor_mC9791312696B394793B0A634D272B36D7E77394C,
-	OVRP_1_41_0__cctor_mCDB6B28007E519DDCAF0D3AE0B88B8881902304D,
-	OVRP_1_42_0_ovrp_GetAdaptiveGpuPerformanceScale2_m54468E67ABF76A4DA6F6E4C35683E404F3992412,
-	OVRP_1_42_0__cctor_m0E4B1F4FA74B2812241E63F5C5A6726601D25893,
-	OVRP_1_43_0__cctor_m5B0A0F8AB807FF20F56D62ECEB657C9263EE7390,
-	OVRP_1_44_0_ovrp_GetHandTrackingEnabled_m4661A68E03161A461AC98035AB2784B77C36F2C1,
-	OVRP_1_44_0_ovrp_GetHandState_m55AC8CACBC5F9D799364FE96BB2B63BD7AB96F76,
-	OVRP_1_44_0_ovrp_GetSkeleton_mD23ADE4B192126944D3F38DC430E828F1E6A9E8F,
-	OVRP_1_44_0_ovrp_GetMesh_m9890AD2D8A42DA1A3C2EC614FFBCA74844C67899,
-	OVRP_1_44_0_ovrp_OverrideExternalCameraFov_mD5585104550E7C5013BB38E05563616C8863CD7E,
-	OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraFov_m5792C7A6377045FA2FAC487E837F78D1C6A76C46,
-	OVRP_1_44_0_ovrp_OverrideExternalCameraStaticPose_m835D3E2CE5E9DFF1477C57B9BA435E2013769493,
-	OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraStaticPose_m7B92622C5ACBAFF63CE6F589856C044D5AF09705,
-	OVRP_1_44_0_ovrp_ResetDefaultExternalCamera_mC33397B7AE86CCEF506026D25CB8D54B11DE1B88,
-	OVRP_1_44_0_ovrp_SetDefaultExternalCamera_m381F5C235BDF8166CA4FAA5FE90FBDA332DDB4EC,
-	OVRP_1_44_0_ovrp_GetLocalTrackingSpaceRecenterCount_m1CACC12448F150256083F22C1BEB8A60E8F5484F,
-	OVRP_1_44_0__cctor_m8D6BB012FD0F2A3F983ABCA68499DB1C6C1A0CD8,
-	OVRP_1_45_0_ovrp_GetSystemHmd3DofModeEnabled_m2BE8B8182D82188C2CE86A6E2D2726375074C598,
-	OVRP_1_45_0_ovrp_Media_SetAvailableQueueIndexVulkan_m40E1C16822A7BA346C3B804FCA3288B5C0A75CD0,
-	OVRP_1_45_0__cctor_mBC64A839A327AF0EE0467BA0945FBBF31B0FE98C,
-	OVRP_1_46_0_ovrp_GetTiledMultiResDynamic_m1E243DC1FCE22B1B1FAC51CBE046DAB0B546E95E,
-	OVRP_1_46_0_ovrp_SetTiledMultiResDynamic_mFA6DFF4B099D4AA91843072DC4FFA18282532592,
-	OVRP_1_46_0__cctor_mAFB89F7D25E671F0A017684ED741DC003278BDA6,
-	OVRP_1_47_0__cctor_m8981B7C0330D2FAED1D486A90BF7F6A5910E8F84,
-	OVRP_1_48_0_ovrp_SetExternalCameraProperties_m23CBB4EE3EA4B08E561CD42502EC0280284EA01C,
-	OVRP_1_48_0__cctor_mC6159DA0F544216193D54A98A204522C3214245F,
-	OVRP_1_49_0_ovrp_SetClientColorDesc_m1F4144D271CCC0BBA4EB3757BF358783F624C447,
-	OVRP_1_49_0_ovrp_GetHmdColorDesc_m4F27D332BF5844F19BA981192845D16B096B47B3,
-	OVRP_1_49_0_ovrp_Media_EncodeMrcFrameWithPoseTime_mE5E0225D9E6AA0CEFA4C737021C8E32298824B08,
-	OVRP_1_49_0_ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime_m3E6C1EC8FFC6CA25982C992ACB4A1D61E34374A8,
-	OVRP_1_49_0_ovrp_Media_SetHeadsetControllerPose_m3265AD536D4FEC743BCB388376D1C6CD112AEA6A,
-	OVRP_1_49_0_ovrp_Media_EnumerateCameraAnchorHandles_m513976E66AA8B5D8051DCF30C052BD77017041C3,
-	OVRP_1_49_0_ovrp_Media_GetCurrentCameraAnchorHandle_m42A8134307F8495193B4E5F6DC62EC4D3C504400,
-	OVRP_1_49_0_ovrp_Media_GetCameraAnchorName_mC7A72C5AEB33BB137D430EC7BA61D37FCFC8A2D6,
-	OVRP_1_49_0_ovrp_Media_GetCameraAnchorHandle_m654442652111A4EA1785D53301B2106CBDE4EFA1,
-	OVRP_1_49_0_ovrp_Media_GetCameraAnchorType_m3C8D55C6D70D237A2900C72F87CC7D0BD9D6AD78,
-	OVRP_1_49_0_ovrp_Media_CreateCustomCameraAnchor_mCD1AAB2BCFAF8831E80631DF27F1E53876C01594,
-	OVRP_1_49_0_ovrp_Media_DestroyCustomCameraAnchor_m36C370E7EFCCA2F4218FDDABCEFBE567C49F01C0,
-	OVRP_1_49_0_ovrp_Media_GetCustomCameraAnchorPose_m40B0D15668944E583086A68718030EF7AD64EEA3,
-	OVRP_1_49_0_ovrp_Media_SetCustomCameraAnchorPose_mEB7AA751CB6FED947F92597DAAA7366972C9769D,
-	OVRP_1_49_0_ovrp_Media_GetCameraMinMaxDistance_m2DA5EEBA10D5BD4889C3C99FA767627B36E6D15C,
-	OVRP_1_49_0_ovrp_Media_SetCameraMinMaxDistance_mD2896D4B2CE3ED29D194BDCCDA31E7FFFFEC4016,
-	OVRP_1_49_0__cctor_m2350258A7D6CA136AD1A01D914B97CD5EAB3C9DB,
-	OVRP_1_50_0__cctor_mA4FCC11285DAB3F492E091BA3B770DFE2C8F216D,
-	OVRP_1_51_0__cctor_mF825997F1BCE06201524B79A3FB4DADBF4E4D4BC,
-	OVRP_1_52_0__cctor_mFE44DC1B68A893D065D8E1EE2B0882959A1798D8,
-	OVRP_1_53_0__cctor_mF8730D00747A275C75D4A7FE73CE4195A7A9BECA,
-	OVRP_1_54_0_ovrp_Media_SetPlatformInitialized_m67842C9C9935A4AE8C073F3185DBD47BC9B2800C,
-	OVRP_1_54_0__cctor_m4704FFC63C4A0E7A064FACE6A677C1CE78565008,
-	OVRP_1_55_0_ovrp_GetSkeleton2_m7EA3906F0D161B62CEAAE83E0F9CBC18D4184D4F,
-	OVRP_1_55_0_ovrp_PollEvent_m37B0CBB019B5D32FDED715D4556835F65B4F3013,
-	OVRP_1_55_0_ovrp_GetNativeXrApiType_mC1530969045830F4DCA998BAA893F4EDE1C5083B,
-	OVRP_1_55_0_ovrp_GetNativeOpenXRHandles_m1E4BC9C931B663CDA90FA6C54FA9178DBFB7544D,
-	OVRP_1_55_0__cctor_m7E087A2768E10B945F3E5C847E7C9A1EE6E8834C,
-	OVRP_1_55_1_ovrp_PollEvent2_mCF3C8F3197A883034E03A569964F8E54871077F2,
-	OVRP_1_55_1__cctor_m9CA681CB6B60C0B955ECC79C398D2008FCB08EB4,
-	OVRP_1_56_0__cctor_mDAB2F506FE0F443E982ABB112612D7BD43C56293,
-	OVRP_1_57_0_ovrp_Media_GetPlatformCameraMode_mC1DAF93E060EDDFBED7E25CBFE9127A59A86FAE4,
-	OVRP_1_57_0_ovrp_Media_SetPlatformCameraMode_m3357F360D9C18E17C1149AF0E4B91340DFA3B787,
-	OVRP_1_57_0_ovrp_SetEyeFovPremultipliedAlphaMode_m599F101A5D7C707F2FF25D55CDBD08CBE367890E,
-	OVRP_1_57_0_ovrp_GetEyeFovPremultipliedAlphaMode_m9E141D34DE9263DDB2AAFC92ABF2A4A3625566FA,
-	OVRP_1_57_0_ovrp_SetKeyboardOverlayUV_m44ADA75F914BDC3C480303A2E24C763B92683412,
-	OVRP_1_57_0__cctor_m5F83470A6B2D5A87F8BB74A01E5735965E6EEAD9,
-	OVRP_1_58_0__cctor_m0CEDDD5E69EBD60D6F3E70D571611ABAC4EAF622,
-	OVRP_1_59_0__cctor_m1FCE8F4ED24C71E80260FDD16199071D660818B4,
-	OVRP_1_60_0__cctor_m1059FF76C686C7F38EED86ED0BD663BA6B9AD43D,
-	OVRP_1_61_0__cctor_m009ACC9CA7FE01D839296B18C5E638F90CF3C18E,
-	OVRP_1_62_0__cctor_mBB486E9C9776BBD39420BFE86B8E8A69C1931F30,
-	OVRP_1_63_0_ovrp_InitializeInsightPassthrough_m06D8ABDE952617A7F1F9146C108035BEFE4EFFEB,
-	OVRP_1_63_0_ovrp_ShutdownInsightPassthrough_m51398C0C17E4CA31D5046893F32F92E23C9B7D23,
-	OVRP_1_63_0_ovrp_GetInsightPassthroughInitialized_m99D4AC60765BEE51A9A02621C5BB3BABB79714E7,
-	OVRP_1_63_0_ovrp_SetInsightPassthroughStyle_m57317619261D61DF8B938AE5DF44E877311B161D,
-	OVRP_1_63_0_ovrp_CreateInsightTriangleMesh_m7E817FAE560CC74A79AC443448167A5F4404F235,
-	OVRP_1_63_0_ovrp_DestroyInsightTriangleMesh_mEAAF9FA2E005FF2F61F988EF4235DA923182A3F8,
-	OVRP_1_63_0_ovrp_AddInsightPassthroughSurfaceGeometry_m73CF3F27300F5B1E7789088DB21C03FEA799514E,
-	OVRP_1_63_0_ovrp_DestroyInsightPassthroughGeometryInstance_m6DC56FEA27C38045A002C78ED51A0AA8412F1F85,
-	OVRP_1_63_0_ovrp_UpdateInsightPassthroughGeometryTransform_m19FE57A0BBAE61401EB2665ABAA23A4852EC3F9D,
-	OVRP_1_63_0__cctor_m948B32A83496AD6A049DA2E56F72C1CCCDE8EEC5,
-	OVRP_1_64_0_ovrp_LocateSpace_m367F3286A9BADF39489511ACE6602F5B98497EE8,
-	OVRP_1_64_0__cctor_m6B3214C7CBA79E81B3963770C169CC03EB7D300B,
-	OVRP_1_65_0_ovrp_KtxLoadFromMemory_mB3104D9AB1D8F926F74BD52A244E05C448861CD4,
-	OVRP_1_65_0_ovrp_KtxTextureWidth_m28956734C03854D6E09EDF3B00DF1CD05B543231,
-	OVRP_1_65_0_ovrp_KtxTextureHeight_m0EC410A497DBDDFA7470DDCF8476DEBD755BE233,
-	OVRP_1_65_0_ovrp_KtxTranscode_m1490208B9952F87E042E916253BE203CB685C569,
-	OVRP_1_65_0_ovrp_KtxGetTextureData_m932E7D9B8F917F4B3348E7021B3D91FFD8A16115,
-	OVRP_1_65_0_ovrp_KtxTextureSize_mA9544D4A1B667BF2FF63BE3DA2A1696C6E7BFA9D,
-	OVRP_1_65_0_ovrp_KtxDestroy_m403CFE54B02BEFF86FA97E8B2B885C703AF2CEFD,
-	OVRP_1_65_0_ovrp_DestroySpace_m11BB8C272AF10B9556A58189EDD1C9BCA9DAECE5,
-	OVRP_1_65_0__cctor_mC329426A6650FC2310794A8ACEB17CA2D17BC3DC,
-	OVRP_1_66_0_ovrp_GetInsightPassthroughInitializationState_m9F62E3CB1F6E027906EF77A2421F55164D40DD72,
-	OVRP_1_66_0_ovrp_Media_IsCastingToRemoteClient_mD7E124A2163E8B44DC4FC1E6C96FDCDC9D39053A,
-	OVRP_1_66_0__cctor_m841C518C348F2D2479BA77B5E32F6F4C48B06716,
-	OVRP_1_67_0__cctor_mF6180620D1E7BE6A7101215502128A9D95B0151D,
-	OVRP_1_68_0_ovrp_LoadRenderModel_mF4DD00A68B26D3227C70BDB81C7B889CD15D7D94,
-	OVRP_1_68_0_ovrp_GetRenderModelPaths_mE458218B99C472AF045CFD741EAEAC4F98AA9C97,
-	OVRP_1_68_0_ovrp_GetRenderModelProperties_mF1AA6D4E35B8FBBB140D8C526220EF79F0EBAAB7,
-	OVRP_1_68_0_ovrp_SetInsightPassthroughKeyboardHandsIntensity_m23A57C212BF10B83965ED6415219C618DE052450,
-	OVRP_1_68_0_ovrp_StartKeyboardTracking_mB7643C2EEE14B48B6A98BF004505BD9780F63A99,
-	OVRP_1_68_0_ovrp_StopKeyboardTracking_mB2F1E41113AA3C346A2897211B4DAB7E509E5AD5,
-	OVRP_1_68_0_ovrp_GetSystemKeyboardDescription_mE699025A93ED2D13DC6E3ACE402964E172C43760,
-	OVRP_1_68_0_ovrp_GetKeyboardState_mCCB97882F9ABFAEA336531420B287D567ABB2022,
-	OVRP_1_68_0__cctor_m0DAED5CB5B4E3691CB8EB1F6386BD9219E50EC79,
-	OVRP_1_69_0_ovrp_GetNodePoseStateImmediate_mA0FA87EA8414F6DD339E83778896E297F4182E93,
-	OVRP_1_69_0__cctor_mEB52216E30F186C685F6F74EC23C55A415307150,
-	OVRP_1_70_0_ovrp_SetLogCallback2_mF50DDF057DF8595B40D77FF0DB91EAD4FDFC3838,
-	OVRP_1_70_0__cctor_m896CBAF3D8E52BE829952B9E323E0848595E3D0B,
-	OVRP_1_71_0_ovrp_IsInsightPassthroughSupported_mE7E630CF36859DE890A7983EB2DD6163E93DB8DE,
-	OVRP_1_71_0_ovrp_UnityOpenXR_SetClientVersion_m6A6128620F255A41924297118EA6F401448E2795,
-	OVRP_1_71_0_ovrp_UnityOpenXR_HookGetInstanceProcAddr_m68CDBB2FDF27FF1819281293EC4CB2BDFE16D52B,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceCreate_m9DF63BB5139DD0BFDCB697860EE2D7A5E6F6A6FC,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceDestroy_m31790246499A6CEC34E92FCA50165462CFF165CE,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionCreate_m611E9F3B19693ADDFFD60701CFA6612BD46824EE,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnAppSpaceChange_m0BA99B11B7A9BF3571C41C410984B96FC65B8E28,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionStateChange_mEEE1B6D087AAFAF7DB9337AE5D87E9C611E2425C,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionBegin_mF513CCB5912E0674F7924D1A9F79D339E3AB0611,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionEnd_mB1FC401C890085B4F0077EB850D7380B984BE617,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionExiting_m8F61DD5BDB994249E031AC96EA82A5AFE1869FF3,
-	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionDestroy_m5E511C2B145B95656F8E052A6E084FE7648FFEFC,
-	OVRP_1_71_0_ovrp_SetSuggestedCpuPerformanceLevel_mDF21337514882BFD1B68791763FF185D4156A961,
-	OVRP_1_71_0_ovrp_GetSuggestedCpuPerformanceLevel_m1D439D9DAA52D866D8E9FF87292CE60F5196A071,
-	OVRP_1_71_0_ovrp_SetSuggestedGpuPerformanceLevel_m9E2BAC817F05A77C18E2DEA4F96A51F806AB7ED9,
-	OVRP_1_71_0_ovrp_GetSuggestedGpuPerformanceLevel_mB342EF8D494A29F7261161193A2BB6F721692EBB,
-	OVRP_1_71_0__cctor_mE94556807E04F1291FC076F2DD120873F11C8B96,
-	OVRP_1_72_0_ovrp_CreateSpatialAnchor_mC83652A0C466C70CDBF912969484EE905FD5390E,
-	OVRP_1_72_0_ovrp_SetSpaceComponentStatus_m55E3AC276BE94448F969560F3917891F9A44972F,
-	OVRP_1_72_0_ovrp_GetSpaceComponentStatus_mCC6E864E33E6C5FFB047BE8DD558C5D47791B2A6,
-	OVRP_1_72_0_ovrp_EnumerateSpaceSupportedComponents_m8012AC41F318887584F3B728D6DB8945EBD0A07B,
-	OVRP_1_72_0_ovrp_SaveSpace_m40FD4643B29239880376C7E5816E7E5ED3B89931,
-	OVRP_1_72_0_ovrp_QuerySpaces_m4D339E3E367475A7636B2E6D9218B3C3F97DCCC0,
-	OVRP_1_72_0_ovrp_RetrieveSpaceQueryResults_m7C8B1126AD99D4184F96421B1D926B64457A87E2,
-	OVRP_1_72_0_ovrp_EraseSpace_mEEE73F5A5D8FECB2235A4138841BEC68B340CF90,
-	OVRP_1_72_0_ovrp_GetSpaceContainer_m50AFFAD5EEE6A0CD04A5E02F29C6E65244EFFABA,
-	OVRP_1_72_0_ovrp_GetSpaceBoundingBox2D_m8F0A14C9FF18B44A32334F24797E2C52680CC30E,
-	OVRP_1_72_0_ovrp_GetSpaceBoundingBox3D_mBF8821F7D850815B577B74733CA1BDFD3EF5E23B,
-	OVRP_1_72_0_ovrp_GetSpaceSemanticLabels_m8336CD5823BB572A5E8E55BBC03CA85D0072FF7A,
-	OVRP_1_72_0_ovrp_GetSpaceRoomLayout_m5A71C4A91C06F62DE3049B703CB9EAA5F0A49D8D,
-	OVRP_1_72_0_ovrp_GetSpaceBoundary2D_m2A9472B2766101CE05FE00916CE7C0F83963F2B5,
-	OVRP_1_72_0_ovrp_RequestSceneCapture_mE7B6B9967BE18042CF993CD01EA1C5743DC3ED02,
-	OVRP_1_72_0__cctor_m45A35A6A795B531592051EF606C9FBF276164AAE,
-	OVRP_1_73_0__cctor_mA0F99BF7228C4789905D123659F320912CB3324C,
-	OVRP_1_74_0_ovrp_GetSpaceUuid_m109D6327E666E03807493EE7CD2E7CD2366EF6A4,
-	OVRP_1_74_0_ovrp_GetRenderModelProperties2_mE2B4BE2ED740540321BE766028C830D91E17967B,
-	OVRP_1_74_0__cctor_mAA325F169E851130B71820FCF5F519794B10D9FD,
-	OVRP_1_75_0__cctor_m8F5BD0E510CF8D0B04D222FF703ACEE07AC98C11,
-	OVRP_1_76_0_ovrp_GetNodePoseStateAtTime_mE66454864DC8FC8EE6C76C887240F98710E78162,
-	OVRP_1_76_0__cctor_m93D4EF81A5CDA7E91CAE77869E7B14EE5D8F1545,
+	OVRP_0_1_0_ovrp_GetEyeTextureSize_m9E588DCFE015DCC9F5833DCFE786D74FD792670E,
+	OVRP_0_1_0__cctor_m1207FC2480A461794E7A38000393885BDCA83CEA,
+	OVRP_0_1_1_ovrp_SetOverlayQuad2_m4C4B963D5FE9EC8A0D39144ED9B2A9F2A1EEBC7E,
+	OVRP_0_1_1__cctor_m0649217F7952A90A28C5C4D5645665F3608BC8E9,
+	OVRP_0_1_2_ovrp_GetNodePose_m9EF6663B74E7B01F28E13ACB255BB9594E9D5E25,
+	OVRP_0_1_2_ovrp_SetControllerVibration_m898DCAADB12D5467AF20DDAC710CD29EE893C578,
+	OVRP_0_1_2__cctor_mF07D5611C6950D6469B659017180AA9FB992420C,
+	OVRP_0_1_3_ovrp_GetNodeVelocity_m34ACA4CF2DC37FCF3DA7A1D21E46EAD60D7B7A02,
+	OVRP_0_1_3_ovrp_GetNodeAcceleration_mF114E0838EBB93312EECEC234DA111F8A450B615,
+	OVRP_0_1_3__cctor_m91F2DA0F6CDEB37F0743039EB1FA0804C15C46FC,
+	OVRP_0_5_0__cctor_m924613E9314878C56833189241812BDC836304D5,
+	OVRP_1_0_0_ovrp_GetTrackingOriginType_mB46F4FF93094A8FB11A72DC96959FC56A0DA1C65,
+	OVRP_1_0_0_ovrp_SetTrackingOriginType_m52A18E87D06983536D0F95C488908743E7FC493A,
+	OVRP_1_0_0_ovrp_GetTrackingCalibratedOrigin_m5F6C2FC17F115CAD4A25994407F638A5DBA03A4D,
+	OVRP_1_0_0_ovrp_RecenterTrackingOrigin_m28535B0DB9D76CC5D321CE1C961C6B519279886B,
+	OVRP_1_0_0__cctor_m5B4F4C52C125FC55636FE6108C779E0B8A95CC7F,
+	OVRP_1_1_0_ovrp_GetInitialized_mEA98F3D27637DBA74F3A38D43DDFCF2F94496A63,
+	OVRP_1_1_0__ovrp_GetVersion_m451BED4B06927E92DBE33A6653AA74EFBF563952,
+	OVRP_1_1_0_ovrp_GetVersion_mBAACF9E7F7D87C503690D8D83BD5AA86DFD1D3DF,
+	OVRP_1_1_0__ovrp_GetNativeSDKVersion_mE3D670BE8931F886E5F80F3E913DE87BFDB08CF4,
+	OVRP_1_1_0_ovrp_GetNativeSDKVersion_mAC76B2E3EF5065FB7C0BFCCB0272DDF84925F7D7,
+	OVRP_1_1_0_ovrp_GetAudioOutId_m959348833B92B360079E67E0F58591DBE194E07F,
+	OVRP_1_1_0_ovrp_GetAudioInId_m20EB06D09F33A428990307FDA97CF1A6396BD6FA,
+	OVRP_1_1_0_ovrp_GetEyeTextureScale_m95DF679D8446CADAD54D8E23CC8BFBD891CF220A,
+	OVRP_1_1_0_ovrp_SetEyeTextureScale_m75CA2B7886113E268E70B432BEC125D60A4F7DAB,
+	OVRP_1_1_0_ovrp_GetTrackingOrientationSupported_mE099BE7B53DC4D9D716401D58AC67991E0FDC35C,
+	OVRP_1_1_0_ovrp_GetTrackingOrientationEnabled_m4FD76E20189B013037A09A9EDB70A890E7E69975,
+	OVRP_1_1_0_ovrp_SetTrackingOrientationEnabled_m339C12EDB7FB3E285054396398D800E4D22933CE,
+	OVRP_1_1_0_ovrp_GetTrackingPositionSupported_m901C59C45F5B4D96F142FDAEF28FA63B324AF971,
+	OVRP_1_1_0_ovrp_GetTrackingPositionEnabled_m4BA824BC01E6495E4AC588124155372CAFAFAAF4,
+	OVRP_1_1_0_ovrp_SetTrackingPositionEnabled_mECD025121EA993B0C8814CCF21F750F4E70C9A7B,
+	OVRP_1_1_0_ovrp_GetNodePresent_mB989DB6880F4799042109DDAAAEC6666A4A66C56,
+	OVRP_1_1_0_ovrp_GetNodeOrientationTracked_m7452D433E4454E9C67D2E0F0839B2E455F980F69,
+	OVRP_1_1_0_ovrp_GetNodePositionTracked_m9FA9814BFF1D0FBB3A21C88222CDD0029F408381,
+	OVRP_1_1_0_ovrp_GetNodeFrustum_mFDE9D6D124A962A9504A9F234F97021E209ECCED,
+	OVRP_1_1_0_ovrp_GetControllerState_m87FCF33583901F1E46033F0E8E03F947DD615D57,
+	OVRP_1_1_0_ovrp_GetSystemCpuLevel_mA893E2FF434FFDC291D269C4423D5A4E105AD6E1,
+	OVRP_1_1_0_ovrp_SetSystemCpuLevel_m433D88531CD06C9872BF45A0D08D5D366BF65D90,
+	OVRP_1_1_0_ovrp_GetSystemGpuLevel_mC9E1FAF7B9B0DEBE66E03384AF102E61A6FFA750,
+	OVRP_1_1_0_ovrp_SetSystemGpuLevel_m67E503332C1E1084E6AF79CAFE5DAB07DBE2C3B0,
+	OVRP_1_1_0_ovrp_GetSystemPowerSavingMode_m9552146DBEA86A8AD6FF3AE1487F7CA04306F4C9,
+	OVRP_1_1_0_ovrp_GetSystemDisplayFrequency_m683D288B3E9A54A6C660310218DB16366CB3B2B3,
+	OVRP_1_1_0_ovrp_GetSystemVSyncCount_mEEED2FB2DA8F947BC71306DC10089B9A5B30725B,
+	OVRP_1_1_0_ovrp_GetSystemVolume_mC2383C729C91389B8CAA75638087ECC737B7415A,
+	OVRP_1_1_0_ovrp_GetSystemBatteryStatus_m01A74E86BF4EB799B6EA2647A0A32C86FAD8F585,
+	OVRP_1_1_0_ovrp_GetSystemBatteryLevel_mB19C839E51EF393ADF5D616AC813D5D8697A4E6E,
+	OVRP_1_1_0_ovrp_GetSystemBatteryTemperature_m05C7D23EB7E963C6468560F6022588D24A3A12D2,
+	OVRP_1_1_0__ovrp_GetSystemProductName_mD48630409C31D250076F9FE2F398E1FC98CB3BC9,
+	OVRP_1_1_0_ovrp_GetSystemProductName_m7CD1F0F9522BD79B9649FC52DBA8D8570FC696DD,
+	OVRP_1_1_0_ovrp_ShowSystemUI_m385BBEFEADBC3DBD6B836EC5DCCD368F4BF18EAE,
+	OVRP_1_1_0_ovrp_GetAppMonoscopic_m0CD858529A993D1857B733F0D496B3AE0641B0D5,
+	OVRP_1_1_0_ovrp_SetAppMonoscopic_mDBF764FFD0B02002934FDA42D047061DB3678A0B,
+	OVRP_1_1_0_ovrp_GetAppHasVrFocus_m55F1CE2E97746A3D68D08FA7077646D7F4A0A3CF,
+	OVRP_1_1_0_ovrp_GetAppShouldQuit_m4A0B3BFDD778E0FD616A33DFB913D4E695C9157D,
+	OVRP_1_1_0_ovrp_GetAppShouldRecenter_mD6E6877AFFD62E2EE6A7FC5A46FDA4D8B50957BB,
+	OVRP_1_1_0__ovrp_GetAppLatencyTimings_mA856BAACA286A069DEBB2BF3AF35D136D7AE49EC,
+	OVRP_1_1_0_ovrp_GetAppLatencyTimings_m5B806702D87698B591783431AE21E3E731218224,
+	OVRP_1_1_0_ovrp_GetUserPresent_m864D7B3482EB0307794D200134307CCEDE989FDB,
+	OVRP_1_1_0_ovrp_GetUserIPD_m6DBD30FAF797A625AFD67402E1B6B241D4FED555,
+	OVRP_1_1_0_ovrp_SetUserIPD_m2823B3D7DBC77681243DA6D1078FBF9BD4609D7A,
+	OVRP_1_1_0_ovrp_GetUserEyeDepth_mABBBEB7BE0F2E94DD3CEBCED326972547A6F12C7,
+	OVRP_1_1_0_ovrp_SetUserEyeDepth_mC77356E4CE9754F15B882FF77CB7D4651CE59032,
+	OVRP_1_1_0_ovrp_GetUserEyeHeight_mFE4A6EE387CE6F6166E9705918E7F68E02934923,
+	OVRP_1_1_0_ovrp_SetUserEyeHeight_mED32A995767BC1A503CA889F83E1C3CCAE030B48,
+	OVRP_1_1_0__cctor_mEEEEE459FA1737E663C27DB0E64ADF68590087EC,
+	OVRP_1_2_0_ovrp_SetSystemVSyncCount_m98B92A70A04C292DE93A168D4737167FC269A37B,
+	OVRP_1_2_0_ovrpi_SetTrackingCalibratedOrigin_m0F94A78E5C7E256213EDEA9853059A1D4D2CD842,
+	OVRP_1_2_0__cctor_m77CB7226DEE34D088AA8FE09591FA0AEA6777B11,
+	OVRP_1_3_0_ovrp_GetEyeOcclusionMeshEnabled_m72B7CD6083DF055E1818859D7804943948F73504,
+	OVRP_1_3_0_ovrp_SetEyeOcclusionMeshEnabled_m3FEAB7020FEB45BF07CB72C79F0C7BD23783B960,
+	OVRP_1_3_0_ovrp_GetSystemHeadphonesPresent_mE0F4990B3AC7E54717F584688AADE90F66BEB937,
+	OVRP_1_3_0__cctor_m28BD044CCAAD0074D8F8E3D27DFE6E7C8721512B,
+	OVRP_1_5_0_ovrp_GetSystemRegion_m4A8AD5B1D69F5F1172B3330A42D844391FD38C53,
+	OVRP_1_5_0__cctor_m1F76AFF023639945FA00840BB5ADC65D6A74C87E,
+	OVRP_1_6_0_ovrp_GetTrackingIPDEnabled_m01AADE8049AEAB6729692F986A1FC12545F26A74,
+	OVRP_1_6_0_ovrp_SetTrackingIPDEnabled_mC39DB7A4C961A96DC93FE19002EB05FDFED7F2E7,
+	OVRP_1_6_0_ovrp_GetControllerHapticsDesc_mDA4482922AA29B5048853D66B3D01166475BF51E,
+	OVRP_1_6_0_ovrp_GetControllerHapticsState_m47DA9AAD6E91C6400550258A7191D75F4FC1E319,
+	OVRP_1_6_0_ovrp_SetControllerHaptics_mF78D19A478DEF4E3E9D19625CD38D9D00FE0378C,
+	OVRP_1_6_0_ovrp_SetOverlayQuad3_m7DEEB1609FB20B0EBF404129B1B45D71FC9A40FC,
+	OVRP_1_6_0_ovrp_GetEyeRecommendedResolutionScale_mCFAFA7554B3776EEDCE740B6F1A5F9A168E2C95D,
+	OVRP_1_6_0_ovrp_GetAppCpuStartToGpuEndTime_mF79D451117E6E4C4D20B36EFE3D35F8098C91CCC,
+	OVRP_1_6_0_ovrp_GetSystemRecommendedMSAALevel_mAA869EA0F0CAA39E32BE18E342F377854CB36D2F,
+	OVRP_1_6_0__cctor_mAB533DBB7661D96A784B32F2305E040495B8B63E,
+	OVRP_1_7_0_ovrp_GetAppChromaticCorrection_m600DFD3314C3D9F3D4ACC76C813CB3513393161B,
+	OVRP_1_7_0_ovrp_SetAppChromaticCorrection_m50CC07A859285AB29EB5BDC69F22D0CF7DC10BE0,
+	OVRP_1_7_0__cctor_m03C0FBFFF6DFC6714A8202C93C123EE051DA95D3,
+	OVRP_1_8_0_ovrp_GetBoundaryConfigured_m1C475C155B4250979F5D7109CF7921F2225FB42E,
+	OVRP_1_8_0_ovrp_TestBoundaryNode_m15EA26FA5674AEF917A3F2380CF8EDC37A5EB0B1,
+	OVRP_1_8_0_ovrp_TestBoundaryPoint_m8358A7595BA12BB9E8BE2BC438ED0E1CD572C0B5,
+	OVRP_1_8_0_ovrp_GetBoundaryGeometry_m5F7B55C67FE61B4ECCA8C209E6086FC1051D9A11,
+	OVRP_1_8_0_ovrp_GetBoundaryDimensions_m876B11F06AB04D70CAF3DD00AC023EF2B00988EA,
+	OVRP_1_8_0_ovrp_GetBoundaryVisible_mDC6DA7219233F1E8D93C85C3AFC103661EDA6C7D,
+	OVRP_1_8_0_ovrp_SetBoundaryVisible_m128075E56BC9B89E209AE1AFB9830707028B5B2A,
+	OVRP_1_8_0_ovrp_Update2_m6756CC495662B84A6D60AA8642F74AE33E960C34,
+	OVRP_1_8_0_ovrp_GetNodePose2_m66FC50D7808388A3727ED7DE8F36C0AB20FC9CF3,
+	OVRP_1_8_0_ovrp_GetNodeVelocity2_mF0B82E77F8D5A0C18727AD7D2DA777E374A3B309,
+	OVRP_1_8_0_ovrp_GetNodeAcceleration2_mECC5F0E6C1A7F5046A79B1220645E3F9DEBFB782,
+	OVRP_1_8_0__cctor_mD61DE2467C8FF611F7383381B3D8A77E2E2240FF,
+	OVRP_1_9_0_ovrp_GetSystemHeadsetType_m796B817B52B09D72FECC607FD69406BE0421EF35,
+	OVRP_1_9_0_ovrp_GetActiveController_m1C8DCBDA7ED0BD43A90975A1D1B08F490AB7F828,
+	OVRP_1_9_0_ovrp_GetConnectedControllers_m2EB7767C552A9259CFA948174DFEAA4F2C512041,
+	OVRP_1_9_0_ovrp_GetBoundaryGeometry2_mA4647D714622EC56A09C49D620576250F65BA691,
+	OVRP_1_9_0_ovrp_GetAppPerfStats_m95CEE562ED0E9D2F2B10600C9FFA57979D021973,
+	OVRP_1_9_0_ovrp_ResetAppPerfStats_mB09945F33C36220D6580284F662AA0C11128B16E,
+	OVRP_1_9_0__cctor_m8534BB6870E6B727F47070B01D4668E7A2FDF47F,
+	OVRP_1_10_0__cctor_m267128780012D8BD2FDB14F480DEF24E24F2C352,
+	OVRP_1_11_0_ovrp_SetDesiredEyeTextureFormat_m5A650E483E2793B274995D43D46FD3D2F9F6116E,
+	OVRP_1_11_0_ovrp_GetDesiredEyeTextureFormat_m697BCCCC3DCA0DA37877D7F481990BA4DB9BDEF4,
+	OVRP_1_11_0__cctor_mFD3471B4C7653D68D050494C12E52E348C9D7D13,
+	OVRP_1_12_0_ovrp_GetAppFramerate_mE5FDAC1F9E0D414F0709076E033CFA1B8F83EDD7,
+	OVRP_1_12_0_ovrp_GetNodePoseState_mDB12D6F211B40C4EF77537520B0976E5F879F1BD,
+	OVRP_1_12_0_ovrp_GetControllerState2_mAF8D13828721E612D22DE5EC2CDF5DA41CADA23C,
+	OVRP_1_12_0__cctor_m3B15B0F52F95F609445F8BE79191E6FA4E6E660B,
+	OVRP_1_15_0_ovrp_InitializeMixedReality_mFF07B810116C93571BBE935815E4387FFC1354E6,
+	OVRP_1_15_0_ovrp_ShutdownMixedReality_m45D0CDBD2C7AA6F2253D76718D229671A937EFB8,
+	OVRP_1_15_0_ovrp_GetMixedRealityInitialized_m39519D2322102197BAC9CD03622BE3E67EF4410B,
+	OVRP_1_15_0_ovrp_UpdateExternalCamera_m606DA1DEB4CFEDD93DBA960F27FA5605AE141A7D,
+	OVRP_1_15_0_ovrp_GetExternalCameraCount_m10483F3612622DF9EA7E441111D69917928EF881,
+	OVRP_1_15_0_ovrp_GetExternalCameraName_mA991198D6CFA19926B8B9B9C1DADD0CDE29FE050,
+	OVRP_1_15_0_ovrp_GetExternalCameraIntrinsics_mB291B3A5B2D704241198D8AFAF9E42B1E7413228,
+	OVRP_1_15_0_ovrp_GetExternalCameraExtrinsics_mA800E8A78F390F4CC2E5D3BF5E2DA396D9518C55,
+	OVRP_1_15_0_ovrp_CalculateLayerDesc_mE52BE3F754BAEE11A6FC085CC839A0D88CAEB22E,
+	OVRP_1_15_0_ovrp_EnqueueSetupLayer_mA7C4D4DB7B2F9BE73830B30D94122E0164AE8794,
+	OVRP_1_15_0_ovrp_EnqueueDestroyLayer_m513B6216CF19E9188A2C06779A4637D2FD1135B7,
+	OVRP_1_15_0_ovrp_GetLayerTextureStageCount_m5901B689D44D8E791FCE1D46A31504C6520DFA76,
+	OVRP_1_15_0_ovrp_GetLayerTexturePtr_m23466B676295EF41A8D114618A8BE535322862FA,
+	OVRP_1_15_0_ovrp_EnqueueSubmitLayer_m4B90DCCD24308E3FB43213780AE5AD342009FB49,
+	OVRP_1_15_0_ovrp_GetNodeFrustum2_m3B176797E52C4235C784B8BC76E6653FAC7A9C9A,
+	OVRP_1_15_0_ovrp_GetEyeTextureArrayEnabled_m7FCD54F46F014586F5908E82C18C9E7B1FF11D04,
+	OVRP_1_15_0__cctor_m5CB881830C7C30A2821144BA3CE97DBF86104264,
+	OVRP_1_16_0_ovrp_UpdateCameraDevices_mD519E2C7D8AF757E06DCA5A33CE77B92BC700132,
+	OVRP_1_16_0_ovrp_IsCameraDeviceAvailable_mC3E05CD6CB64C1BD5118CFC84549525318426FB3,
+	OVRP_1_16_0_ovrp_SetCameraDevicePreferredColorFrameSize_m65BBAECB9C936135E79AC855413DB7A8D935F567,
+	OVRP_1_16_0_ovrp_OpenCameraDevice_m18C45BF88C40BB09606A764271AAD86494E4D685,
+	OVRP_1_16_0_ovrp_CloseCameraDevice_mFB9EA84CC864853651C9C97FD9B2A7E9CB5E14F9,
+	OVRP_1_16_0_ovrp_HasCameraDeviceOpened_mA085F2F8D2884DB50BC1415788BECFAF3E550970,
+	OVRP_1_16_0_ovrp_IsCameraDeviceColorFrameAvailable_mE2ED7BFAF716266B4257C701B05AD8249FFFCF10,
+	OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameSize_m7365010EB59CFD5F8E786A9797A1C685C7BAD3D0,
+	OVRP_1_16_0_ovrp_GetCameraDeviceColorFrameBgraPixels_m4D28550F61529F616D121A6F67383611E7E5A5DC,
+	OVRP_1_16_0_ovrp_GetControllerState4_m8D64E03AFE6015331731685D139E9A81D82C68D3,
+	OVRP_1_16_0__cctor_m001C4192BA3E705B51997925C4E93E74EDF9CF55,
+	OVRP_1_17_0__cctor_mA2184BECD5084C852B00FD299EFD1276A9CCDD98,
+	OVRP_1_18_0_ovrp_SetHandNodePoseStateLatency_mBAE9275FA5CE201C828DE8103A1D2D2D00150851,
+	OVRP_1_18_0_ovrp_GetHandNodePoseStateLatency_m2C983B994C70931B4B2CB726483FCEA832243869,
+	OVRP_1_18_0_ovrp_GetAppHasInputFocus_m19BC8CF9672EA9BCF717DABBD008F4E315C30A12,
+	OVRP_1_18_0__cctor_m501ED7C844EDC4DD137291ADDCFD1089CAEB57E7,
+	OVRP_1_19_0__cctor_m484E1708F71BEC3249D78B488F4755DD89EFC076,
+	OVRP_1_21_0_ovrp_GetTiledMultiResSupported_m8B829FE426C388CD32FB732D145B0A1725B8DEAF,
+	OVRP_1_21_0_ovrp_GetTiledMultiResLevel_m44CA01319B6798C1A2E5815336DA8BC9EF0FEE34,
+	OVRP_1_21_0_ovrp_SetTiledMultiResLevel_m6A392BD609F5633C833C0BEE8070048B01773E3F,
+	OVRP_1_21_0_ovrp_GetGPUUtilSupported_m7D4025A37AD6B80CFC5BA99E8BE8AF950B67BE7A,
+	OVRP_1_21_0_ovrp_GetGPUUtilLevel_m9367D44D6FA5DE611C88F1AFF91B98416A2F1E2E,
+	OVRP_1_21_0_ovrp_GetSystemDisplayFrequency2_m559AA33BED026425684B1F5962D34EA783EE6770,
+	OVRP_1_21_0_ovrp_GetSystemDisplayAvailableFrequencies_m9A84A93A8B5F5A5EC6E9386018B0C5470637E0F3,
+	OVRP_1_21_0_ovrp_SetSystemDisplayFrequency_m00A35E3FC8B125034062F7114960A295C946B20D,
+	OVRP_1_21_0_ovrp_GetAppAsymmetricFov_m61520284B048B5130B587086A318F221F35117CC,
+	OVRP_1_21_0__cctor_m1328281143A678C014180E500EE4374BD575A4A1,
+	OVRP_1_28_0_ovrp_GetDominantHand_mBF97D609C7A2CD623960640D2B2A4A9E470B8313,
+	OVRP_1_28_0_ovrp_SendEvent_mF2396F8E6FCA4F827E68D5C1CF937A5EAC939E14,
+	OVRP_1_28_0_ovrp_EnqueueSetupLayer2_mAA84776ACDC6CBD6A621205D9DC98DA5DA6F8132,
+	OVRP_1_28_0__cctor_m6486C1255CBA4215D3A4F2B844653D6481F151D5,
+	OVRP_1_29_0_ovrp_GetLayerAndroidSurfaceObject_m3FF8D33D69BC59A3CAFDCACD51A9C1C6FE78F690,
+	OVRP_1_29_0_ovrp_SetHeadPoseModifier_m0E170349DAC7CB1023494D9F43446AE84FB1A657,
+	OVRP_1_29_0_ovrp_GetHeadPoseModifier_m50A07D6DEDBD7C96018E7A4B45A2301867C10827,
+	OVRP_1_29_0_ovrp_GetNodePoseStateRaw_m3A9E36C8E2D3D9EBACDCB42D5108927BDD9743E1,
+	OVRP_1_29_0__cctor_mB9F9377A77382355658E0432DC8BED5781F9F6B0,
+	OVRP_1_30_0_ovrp_GetCurrentTrackingTransformPose_mB6D85FD00C93F54965C92C72BA3A30E333C333B0,
+	OVRP_1_30_0_ovrp_GetTrackingTransformRawPose_mB04FBB26C652ECCE00BFFB937D29D88106FCDE35,
+	OVRP_1_30_0_ovrp_SendEvent2_m5C2DD1A0840B6C286A205EE17271B736EC7C6D28,
+	OVRP_1_30_0_ovrp_IsPerfMetricsSupported_m525BD8F3F3C8623FDF17FBFCF0155675DDF875FC,
+	OVRP_1_30_0_ovrp_GetPerfMetricsFloat_m0B7E9D2C4A6215A8AB59F691FC6E3A9BE16F80B0,
+	OVRP_1_30_0_ovrp_GetPerfMetricsInt_m5E5C9DC918FC4083E8397C5BDC1F5621E4BAE323,
+	OVRP_1_30_0__cctor_m980D0ED0F11AD0553E860B7E4C1AB8AECB26366D,
+	OVRP_1_31_0_ovrp_GetTimeInSeconds_m5FA5C6BEC85E089A9C5E406936E13B1CDF6EDAC6,
+	OVRP_1_31_0_ovrp_SetColorScaleAndOffset_m1A6187F4CB500529EB889E50FF5A08E6751AE3CE,
+	OVRP_1_31_0__cctor_m01CF5B983B6A3D8D7E7D08CE55C4BC47B60E1408,
+	OVRP_1_32_0_ovrp_AddCustomMetadata_m1606BD59E195FFE35061E37059CE5E23CAB183DD,
+	OVRP_1_32_0__cctor_mE5D3C21C2E02AA149C1AD614C629421926B7E808,
+	OVRP_1_34_0_ovrp_EnqueueSubmitLayer2_m9103D51B5F7C07C5EC63A671CACF326350AE0FA9,
+	OVRP_1_34_0__cctor_m0DCB936270DBB7F0E0458F0CF0787DCBE4012990,
+	OVRP_1_35_0__cctor_m4FBB31B14570F3AA49DCEDFF39D41A8A472640C1,
+	OVRP_1_36_0__cctor_m250D243BC0CAB2E8D0CDEE12F703579F2DAD1BB9,
+	OVRP_1_37_0__cctor_m21B3D0BF0A6C0D44DA0FFFB5D253CE7BB19406EE,
+	OVRP_1_38_0_ovrp_GetTrackingTransformRelativePose_m33EB97B76A3574A3411EE3EC6A052B77035FB000,
+	OVRP_1_38_0_ovrp_Media_Initialize_m978F2C8D5BEC25EE738B634A01C2B4EB29E7CC9F,
+	OVRP_1_38_0_ovrp_Media_Shutdown_m9FC393976B1CC4E379DB6E1E1F151D4143B7BE8D,
+	OVRP_1_38_0_ovrp_Media_GetInitialized_mD96CBDFAB1EF4B748047E75B02A4553248F38B5E,
+	OVRP_1_38_0_ovrp_Media_Update_mBE3B08A1D084706C0CF36AFD63B9938CBAE5BC44,
+	OVRP_1_38_0_ovrp_Media_GetMrcActivationMode_mFABCCA186618AD3265E26C0919037D617CECCF91,
+	OVRP_1_38_0_ovrp_Media_SetMrcActivationMode_m886494C7445363CED5CD2CDE74E772FD283CDF84,
+	OVRP_1_38_0_ovrp_Media_IsMrcEnabled_m8A84B45C8D6FE514805A0A39DF99675DF4EB5D35,
+	OVRP_1_38_0_ovrp_Media_IsMrcActivated_mCFB2C68CD068CFEB464BEF0E1C53A5305A14929E,
+	OVRP_1_38_0_ovrp_Media_UseMrcDebugCamera_mDC9987F8EA3E4DCF21588E21B1906964BD957EA4,
+	OVRP_1_38_0_ovrp_Media_SetMrcInputVideoBufferType_m482BA429CF90C75309CCDD5E6A55490C500358F9,
+	OVRP_1_38_0_ovrp_Media_GetMrcInputVideoBufferType_m07E623CD166B1BC7ADC019EBE2642D07D03B3119,
+	OVRP_1_38_0_ovrp_Media_SetMrcFrameSize_mFEE9C3B8560FB3323C4DC65B45AF373536595EF1,
+	OVRP_1_38_0_ovrp_Media_GetMrcFrameSize_mAB3E720F9878AD092A318B6167E0685CA9B79D0B,
+	OVRP_1_38_0_ovrp_Media_SetMrcAudioSampleRate_mDF5113E5028EA56312EE700EE301B37D2545D2BC,
+	OVRP_1_38_0_ovrp_Media_GetMrcAudioSampleRate_mDC7B288C0A20A266278347A14B7800BA73969B14,
+	OVRP_1_38_0_ovrp_Media_SetMrcFrameImageFlipped_m832019B36ADA766F3A93E9EFC46A5584D0CB376C,
+	OVRP_1_38_0_ovrp_Media_GetMrcFrameImageFlipped_m48F903B8934A8BFD4E9485B45C424824EA95DB30,
+	OVRP_1_38_0_ovrp_Media_EncodeMrcFrame_mAC391EC4739792A81FA113F5E89B7488C8E4BD04,
+	OVRP_1_38_0_ovrp_Media_EncodeMrcFrameWithDualTextures_m9667E4EEA7EEFEC2506FFF268C4101A40A0A37D7,
+	OVRP_1_38_0_ovrp_Media_SyncMrcFrame_m51565CD70BD6F2C8404C23946E65D619BD4F5384,
+	OVRP_1_38_0_ovrp_SetDeveloperMode_m7398CDA6830195593430EF7FFF489EDCEFEF0C58,
+	OVRP_1_38_0_ovrp_GetNodeOrientationValid_m560923D67FBB5C656D2A147CF243A22E03126CAB,
+	OVRP_1_38_0_ovrp_GetNodePositionValid_m3B9B001F003C4BFF90A1892F2E0762031897DE46,
+	OVRP_1_38_0__cctor_mF2FA3EA0FED5C78084A2EC7D6C595DFCF5CA2F33,
+	OVRP_1_39_0__cctor_m51D923F0E5D99309E0925FE2DDAF96DBE1130F9B,
+	OVRP_1_40_0__cctor_m3ED939F9310C6FABA03C4A57224DC4B50B677C7B,
+	OVRP_1_41_0__cctor_mD3129ABAA8E46BE285F7173C0804B5737225ABC9,
+	OVRP_1_42_0_ovrp_GetAdaptiveGpuPerformanceScale2_m68CA6CD3DF3EAC42AE43A105D776793B95C6FE59,
+	OVRP_1_42_0__cctor_mC6C63FD080EB758A3258F01723E38E01FC0B3E3E,
+	OVRP_1_43_0__cctor_m82B03A02B6CDCFD637262E42287568300A2242C9,
+	OVRP_1_44_0_ovrp_GetHandTrackingEnabled_mBEEA1EEDBC3FA02914EF6204A1BB8992A25D6530,
+	OVRP_1_44_0_ovrp_GetHandState_m3CF995811315C6E1334DB59C7DC39C1A67A64682,
+	OVRP_1_44_0_ovrp_GetSkeleton_mA697B70575F378E7BD4F63D61EAC6B31E61EF349,
+	OVRP_1_44_0_ovrp_GetMesh_m0AEE6F0358CFFD7B22FF2343C58363CEC0616BED,
+	OVRP_1_44_0_ovrp_OverrideExternalCameraFov_mCFB81A2447336301ECD4DFF2F0CC95620C8E8242,
+	OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraFov_mEC462EA98B74F06CE36C5AE110E90765A57946DB,
+	OVRP_1_44_0_ovrp_OverrideExternalCameraStaticPose_m45EEEFF907712C0D3282B27B2F3941F961329BE2,
+	OVRP_1_44_0_ovrp_GetUseOverriddenExternalCameraStaticPose_mA746668CE06522934FE60DAD26F824394B67150D,
+	OVRP_1_44_0_ovrp_ResetDefaultExternalCamera_mDBA95D95F3AFEB36FD5F82741140F62B81B00B51,
+	OVRP_1_44_0_ovrp_SetDefaultExternalCamera_m278B839B1BA0BCBEFA71008780C5D338B359D52E,
+	OVRP_1_44_0_ovrp_GetLocalTrackingSpaceRecenterCount_m1135C34B2108953DE5CE78920E91AF368FFF65BB,
+	OVRP_1_44_0__cctor_mE68110872E0563996E2DF8269FE8A84CE12D4705,
+	OVRP_1_45_0_ovrp_GetSystemHmd3DofModeEnabled_m32E4365F826F1D38005664DD4462152333F79DFD,
+	OVRP_1_45_0_ovrp_Media_SetAvailableQueueIndexVulkan_m5F2B9786D6E6F2D4D805D3AD3144175B38BC26D1,
+	OVRP_1_45_0__cctor_mB31F55661370717F7F3DFA323B427859914B6CE6,
+	OVRP_1_46_0_ovrp_GetTiledMultiResDynamic_m7D38817BF6B580BCD3EB0F704B0F303D04C36584,
+	OVRP_1_46_0_ovrp_SetTiledMultiResDynamic_m3173A646660664BE5B2F562465E241C9368BD3C0,
+	OVRP_1_46_0__cctor_mD2642B3293AFBC5FEBB35F857ACBB83F24CBAA8B,
+	OVRP_1_47_0__cctor_mFD894B7FCD05C7FABF18837E082A9F0C37354EAF,
+	OVRP_1_48_0_ovrp_SetExternalCameraProperties_m8E3699043D3DA23B2BBB1E642AD995A9E28044A7,
+	OVRP_1_48_0__cctor_mDE4DF31B069CB0383651DA55069521D0CE28BD70,
+	OVRP_1_49_0_ovrp_SetClientColorDesc_m3D304D4315B89B9922BD5370518878191BA74011,
+	OVRP_1_49_0_ovrp_GetHmdColorDesc_mD964EF9266AD87A7A8E20947028F88582D82F821,
+	OVRP_1_49_0_ovrp_Media_EncodeMrcFrameWithPoseTime_m66579ABD32CF065C6EEEBA2A86DBB4C4107BE64D,
+	OVRP_1_49_0_ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime_m0D2C239FC03EDA5211A971CE9012BD533F338AAE,
+	OVRP_1_49_0_ovrp_Media_SetHeadsetControllerPose_m9510F06F001A92D2DD4DFE57736A38D2FC4E38A9,
+	OVRP_1_49_0_ovrp_Media_EnumerateCameraAnchorHandles_m754DE821148BD5382C8952F2A6CF5803E81AF4F3,
+	OVRP_1_49_0_ovrp_Media_GetCurrentCameraAnchorHandle_m08DD6ED5EAFB0CED9E8B4B6D01321A42D0FF0DA7,
+	OVRP_1_49_0_ovrp_Media_GetCameraAnchorName_m6304CFF4460073F04B942A5DE71D61BED07C8B63,
+	OVRP_1_49_0_ovrp_Media_GetCameraAnchorHandle_m7E52E2FA8F183C297E7534561E769A5A061DC63B,
+	OVRP_1_49_0_ovrp_Media_GetCameraAnchorType_m41F3863FD47713F5D35BAB5C4473AABC1D98AE00,
+	OVRP_1_49_0_ovrp_Media_CreateCustomCameraAnchor_mD116D3F6AEE32205F871CEB86A6FB74D619851D2,
+	OVRP_1_49_0_ovrp_Media_DestroyCustomCameraAnchor_mCD487BF17171B8A9BE90042426AA9109584A9A6C,
+	OVRP_1_49_0_ovrp_Media_GetCustomCameraAnchorPose_m6A07CAD5CB6E8CCBADD491201FD5403D125A0046,
+	OVRP_1_49_0_ovrp_Media_SetCustomCameraAnchorPose_mDF0A811BAD32D05A52E94B53D3CDD14096E5BD49,
+	OVRP_1_49_0_ovrp_Media_GetCameraMinMaxDistance_m142BE62392CB4D5DFE21C88EB2FA81370455C581,
+	OVRP_1_49_0_ovrp_Media_SetCameraMinMaxDistance_mBFC5D2FDD057C4A89E9F3C6FFF95E88768699A26,
+	OVRP_1_49_0__cctor_m4F7EE5909D303EA6261CCF9C58685AA95467B2BF,
+	OVRP_1_50_0__cctor_m3826D37FAA90ABCDED1FA75B8D46D68F342AE067,
+	OVRP_1_51_0__cctor_mBDB0F13F8D8C69224E2420F7AC3B77EDA99E4037,
+	OVRP_1_52_0__cctor_m6361BDE1FBB7474E44C3B0F097F8141F48299C9D,
+	OVRP_1_53_0__cctor_mF956579B9D8E09054D921B184202079522488C53,
+	OVRP_1_54_0_ovrp_Media_SetPlatformInitialized_m8ACFD3AE1358130E9C399E7FF5C77ED38F962E12,
+	OVRP_1_54_0__cctor_m7C88DFC47E9129B460426ED63340D8D611EBED6B,
+	OVRP_1_55_0_ovrp_GetSkeleton2_mA354C5BFDC3B0A12CC5636A924A44EB3D9F165D4,
+	OVRP_1_55_0_ovrp_PollEvent_m735190A41358E7AC6C0F0211E85E9B71906A7C95,
+	OVRP_1_55_0_ovrp_GetNativeXrApiType_m09972C70AB960E65CE4EDF06D108164E800872A7,
+	OVRP_1_55_0_ovrp_GetNativeOpenXRHandles_mB3A15EB19386343313029577213D7E7CBB5C5215,
+	OVRP_1_55_0__cctor_m410723F1CDCE52BA99E71F80B6CB7F631D29B36E,
+	OVRP_1_55_1_ovrp_PollEvent2_m1657931090E9AE7C89467ADE6028EE83D0869003,
+	OVRP_1_55_1__cctor_mEB393B74B431E3FB772BBB7F95E29EB34F668CB9,
+	OVRP_1_56_0__cctor_mDDEBF869A9170C03FCFFF03F42D30B3F3939C75A,
+	OVRP_1_57_0_ovrp_Media_GetPlatformCameraMode_mB9395D53DE8C10A6F422A074EE5126D921225C64,
+	OVRP_1_57_0_ovrp_Media_SetPlatformCameraMode_m614B809F7C6F2B308FFC870F7DFA8C0D20D58DCC,
+	OVRP_1_57_0_ovrp_SetEyeFovPremultipliedAlphaMode_m98307733A443A30BD5C20AC4E749F63E57C2355E,
+	OVRP_1_57_0_ovrp_GetEyeFovPremultipliedAlphaMode_m46A435771BE5E4DFD07EE33F20C7F9F02B6CB42D,
+	OVRP_1_57_0_ovrp_SetKeyboardOverlayUV_mB7137A19B69986C0E58F74030B43AC01440DEB63,
+	OVRP_1_57_0__cctor_mB9D932E00F2702451B42F754696ACF6C8600A573,
+	OVRP_1_58_0__cctor_mB6657182EDF6E80662C5EEC8156EC2C735C01898,
+	OVRP_1_59_0__cctor_mC3FE1232E56C651FD0CDD3E47272A442A2435DF6,
+	OVRP_1_60_0__cctor_m0B65877BFCF5A637B87AE65B86F52ABE2C5105C4,
+	OVRP_1_61_0__cctor_m2CEEC1C78AF56AE401D63173AA171E893A513AE7,
+	OVRP_1_62_0__cctor_m0594022B51C9944B96EC7B1A3758F0570A019340,
+	OVRP_1_63_0_ovrp_InitializeInsightPassthrough_m489747FE38FA784BEE746B2AF1D24116660D5C27,
+	OVRP_1_63_0_ovrp_ShutdownInsightPassthrough_mFC7D5D92571E76B4353ED0DADEC488104B239C27,
+	OVRP_1_63_0_ovrp_GetInsightPassthroughInitialized_mB4C140004E8566633B46843F1A16AB09752A3AB3,
+	OVRP_1_63_0_ovrp_SetInsightPassthroughStyle_m6FB7611B50B6759CEC8F2AD92B7A8D1EDA754AC6,
+	OVRP_1_63_0_ovrp_CreateInsightTriangleMesh_m06F6D38A3C5F3AD5DEFF2116535BD4B41FF27404,
+	OVRP_1_63_0_ovrp_DestroyInsightTriangleMesh_m4D5849B6BD044A0C4132EB9A9FD823313809BC9E,
+	OVRP_1_63_0_ovrp_AddInsightPassthroughSurfaceGeometry_mB62B61BFAD7E1DB0403A5F9B5BEDBD0E58BF4A98,
+	OVRP_1_63_0_ovrp_DestroyInsightPassthroughGeometryInstance_mBC25EFF6C12A047CB1FD99EEF53AF26381CE1B67,
+	OVRP_1_63_0_ovrp_UpdateInsightPassthroughGeometryTransform_mED84B75A3797790C375611ADD748958CA8FA698C,
+	OVRP_1_63_0__cctor_m0855DCB2E409A53141CA160C24D65B15D4D6E7CC,
+	OVRP_1_64_0_ovrp_LocateSpace_m531AB17B13FCBF6BBA1263E553324E3894E8E279,
+	OVRP_1_64_0__cctor_m68BA32CBE845F9313A54BB6C076E37EB8039B01C,
+	OVRP_1_65_0_ovrp_KtxLoadFromMemory_mED224F0ABD3C2A5CDD719569959C4DE82C824E66,
+	OVRP_1_65_0_ovrp_KtxTextureWidth_m04FF9310C7F201C8F751FE5922B287EDBC4A816C,
+	OVRP_1_65_0_ovrp_KtxTextureHeight_mA6F584F78F60D1D7D52C1EF0DCD37A5E8078353F,
+	OVRP_1_65_0_ovrp_KtxTranscode_mD839AA407C392F63B669DBD977374DB40EB3DCC4,
+	OVRP_1_65_0_ovrp_KtxGetTextureData_m24BAB8D0B8B024C6654F58E1F2D49DC5A110A972,
+	OVRP_1_65_0_ovrp_KtxTextureSize_m5B61B1544BA29814812A434145DDAD1D5F1A403D,
+	OVRP_1_65_0_ovrp_KtxDestroy_mE703C907DAB2F1FF48A2E3BBA2F3C747BD62D220,
+	OVRP_1_65_0_ovrp_DestroySpace_mEA6C0D712D3FCD50F959545DF73F5C9A65741D40,
+	OVRP_1_65_0__cctor_mBB840F408AD0ADE77CE34665B8DF6D54DA03BF1D,
+	OVRP_1_66_0_ovrp_GetInsightPassthroughInitializationState_mD07BE893A072BBCC8CB2E9F7826939DD26D4C943,
+	OVRP_1_66_0_ovrp_Media_IsCastingToRemoteClient_m190423DECB3558620D3E7F065E323838F17313D2,
+	OVRP_1_66_0__cctor_m2E35897AF381E03D8993644F55623EB7BF253299,
+	OVRP_1_67_0__cctor_m7EF4473F8F676A7EADAD9BA5A34F6B77870F2A65,
+	OVRP_1_68_0_ovrp_LoadRenderModel_m045EBD196891166594264F159024D90691FAB03D,
+	OVRP_1_68_0_ovrp_GetRenderModelPaths_mEE515FD6D50A4BD928694F0818D6B67EF6F437B8,
+	OVRP_1_68_0_ovrp_GetRenderModelProperties_m90C3DD1985667E4E48184E5602CA7232E1E5689E,
+	OVRP_1_68_0_ovrp_SetInsightPassthroughKeyboardHandsIntensity_mB2C2DA3DCCF4BE268DB580D94FE7C3B24C9FBBC6,
+	OVRP_1_68_0_ovrp_StartKeyboardTracking_m0B6EC3166E67511253DE98E5A15DC1A625C0411C,
+	OVRP_1_68_0_ovrp_StopKeyboardTracking_m37854DB222CB31BEAD9EEEEE2B135C4731DB9E3F,
+	OVRP_1_68_0_ovrp_GetSystemKeyboardDescription_m00A342E21A1CFFB24B61CB3431751BE97FCBFD3D,
+	OVRP_1_68_0_ovrp_GetKeyboardState_mDAE19FF43B0575F0323734F0E84EB387605F2AD9,
+	OVRP_1_68_0__cctor_m8EE6B61C87F295247E4D0DF1AE525D05A78A0E05,
+	OVRP_1_69_0_ovrp_GetNodePoseStateImmediate_mF6690F72672F499B21A970AB6C4059CE40405EA8,
+	OVRP_1_69_0__cctor_m4ADACBCB9391F484B0A7A303EF3C04BD7E8DAB6E,
+	OVRP_1_70_0_ovrp_SetLogCallback2_m80B5294270A28A4E8C45F00D79376FB761860732,
+	OVRP_1_70_0__cctor_mFBD5D9F0AF3E5590CE9CB9F2CF32EE7A987D4700,
+	OVRP_1_71_0_ovrp_IsInsightPassthroughSupported_mD9EA3FDC1E3A0F704178A837B0A1B6F133158A0F,
+	OVRP_1_71_0_ovrp_UnityOpenXR_SetClientVersion_m7BFCD9FC3997CFD31171DC88E06AA3661BA3A1DA,
+	OVRP_1_71_0_ovrp_UnityOpenXR_HookGetInstanceProcAddr_mF74ABCC875393E417F253428C974FE25A304C16F,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceCreate_m72FEF7F32E605717C14794959921AEA91F04309C,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnInstanceDestroy_mAC816F1E95F1475FBC7F4683E1DD2E69F65F3C4E,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionCreate_m6B154DEF66A57203DA9E6F822F0466A4D64D6B30,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnAppSpaceChange_mCD369BCFF1E2FFA204F1CB2F74A5BDA0A6BBE6DF,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionStateChange_mA0C201F3B05DED4C07795463208E07787CEB9910,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionBegin_m70B7F4CF075C3E471EC8FACDD50CB89EA6E3AFFD,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionEnd_mD9B58622E2ECE5B2FF6D3BFB0CD3F842826AB771,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionExiting_m96D792305E0AC78FCE1108E81761615DFC70DCF7,
+	OVRP_1_71_0_ovrp_UnityOpenXR_OnSessionDestroy_m7B8EA1ACBC2D27EC351B2F0EFB843470A3A6D881,
+	OVRP_1_71_0_ovrp_SetSuggestedCpuPerformanceLevel_mFD70E950A3B82CCB76D956623BB2038C513EAC42,
+	OVRP_1_71_0_ovrp_GetSuggestedCpuPerformanceLevel_m0D4BC57B398B5EC5B3A80436F8C2B0509C39CEC1,
+	OVRP_1_71_0_ovrp_SetSuggestedGpuPerformanceLevel_m9143BE1759E0E20C6FBC65AF53F45B0EA60BE7DC,
+	OVRP_1_71_0_ovrp_GetSuggestedGpuPerformanceLevel_mD82580411E66DE9CDF0178F3470E8CC715A30704,
+	OVRP_1_71_0__cctor_mFDAB568EC79D9271381F1CB67B2923B39D4BBD16,
+	OVRP_1_72_0_ovrp_CreateSpatialAnchor_m137362336D3D49A08CF367C8C847C578105A2A5A,
+	OVRP_1_72_0_ovrp_SetSpaceComponentStatus_m00B91F7237FBD8E130A74A1FE83C43393C0FE047,
+	OVRP_1_72_0_ovrp_GetSpaceComponentStatus_m82CE3D33BADD2E653AA561176DC7A78A3FA21768,
+	OVRP_1_72_0_ovrp_EnumerateSpaceSupportedComponents_mA41C69E0C9B7119A4CABF5ABC3C70C4D2716CFCB,
+	OVRP_1_72_0_ovrp_SaveSpace_m330A4976D264D768DB668F0BC2301CFEA3AE4E7C,
+	OVRP_1_72_0_ovrp_QuerySpaces_mA0DC1BBDA0DEFB4F78A97FE0B6069548ADD8CC99,
+	OVRP_1_72_0_ovrp_RetrieveSpaceQueryResults_m3DA7C85DF1E171AD9541B8D6EF42560655491865,
+	OVRP_1_72_0_ovrp_EraseSpace_m24172B469D69306840006DD3BF5113F09F6724F0,
+	OVRP_1_72_0_ovrp_GetSpaceContainer_mE8AE8756D6DACE54507C0C23F06C0CC93FEF3D03,
+	OVRP_1_72_0_ovrp_GetSpaceBoundingBox2D_m738D0FAE85E6C7C587D45C7D46366B31C003BD54,
+	OVRP_1_72_0_ovrp_GetSpaceBoundingBox3D_mC23FE6BF2A4A149E4B1F696C73A13B7BD691D5B9,
+	OVRP_1_72_0_ovrp_GetSpaceSemanticLabels_mE29D05D839399565035B36B6682D79DCECA1EA5C,
+	OVRP_1_72_0_ovrp_GetSpaceRoomLayout_m74FFDB53E8E58A2292641A22FFF666F22C6D5F7B,
+	OVRP_1_72_0_ovrp_GetSpaceBoundary2D_m5463E72B4B3CCA5901C621EEB49C64C68D8190E0,
+	OVRP_1_72_0_ovrp_RequestSceneCapture_m2ED0DC9C9919F8939632597DB5B751A70837ADF3,
+	OVRP_1_72_0__cctor_mC7D5E86446B1067B4BB5B5D79997C81122FB726A,
+	OVRP_1_73_0__cctor_m68D61618F0A4564993CBFED9BEBA33A0AF9C232F,
+	OVRP_1_74_0_ovrp_GetSpaceUuid_m54BFA71997CFB06995F9838EBDC955B13B4CB894,
+	OVRP_1_74_0_ovrp_GetRenderModelProperties2_m5130D55440A03F23FF5F6B38634EF551D39C3F1E,
+	OVRP_1_74_0__cctor_m93CE51144D84C460891F58191AE89109B8D08B52,
+	OVRP_1_75_0__cctor_mAE309FBA1D4C94C0DB6FC445222B9A11FE3746E4,
+	OVRP_1_76_0_ovrp_GetNodePoseStateAtTime_m38FA250EA4D1891635F41BD0F2586045B82201BD,
+	OVRP_1_76_0__cctor_mC327EC11D1414588D740DE0F3D2EAE9EC8BB4942,
 	OVRPointerVisualizer_Update_m8B613D25932BF0EBBE6DE2FE9C89D1998084D77E,
 	OVRPointerVisualizer__ctor_mC00CE1253DD7F7C9E592CD328345FDF9205C573B,
 	OVRProfile_get_id_mE37A347DD3A60872AC523B7C7432D541CF8558CB,
@@ -10212,15 +10212,15 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRProfile_get_neckHeight_m44935483C500E034567403039E6185FC5B00F313,
 	OVRProfile_get_state_m6236F0DD0036A04F33C5DB578B9C88DBDD762499,
 	OVRProfile__ctor_mAEA89E1269ED1DA8E35555C3869A12098C5D820C,
-	OVRResources_Load_m037C705FDFABD579FE3E829114FD27994F864868,
+	OVRResources_Load_m39E6C360CC7FE3E7F9CA896EAC69C8195672DF65,
 	NULL,
-	OVRResources_SetResourceBundle_m6037FE9D528E5BC2153D7F2FFB1FBF19BAE5431D,
+	OVRResources_SetResourceBundle_m1627E06D3FFE04A6B83FBA6C386D72B52953FE7B,
 	OVRResources__ctor_mE3599CBBAC20550F634C292C49645AF4FA43F504,
 	U3CU3Ec__DisplayClass2_0__ctor_mE1E14432598484CDF74777A729125CC62C29174E,
 	U3CU3Ec__DisplayClass2_0_U3CLoadU3Eb__0_m5A0FE4A65378C2261AE2CA766FA674CC91631107,
 	NULL,
 	NULL,
-	OVRRuntimeSettings_GetRuntimeSettings_mA7E328BC972865F46F35671901034CA68241B1A3,
+	OVRRuntimeSettings_GetRuntimeSettings_m357C35DCF6941F52EDB4FD95F9FEBC78DDFE62AB,
 	OVRRuntimeSettings__ctor_mD891EEE311CB068CCEDD383EA7A500EA0675D17C,
 	OVRSceneAnchor_get_Space_m000A21D5D3A05728D5EB20D1D771CF261D0CC294,
 	OVRSceneAnchor_set_Space_mE9C438173B5D97ACA58C3C6697C99D11B4D4EB08,
@@ -10234,7 +10234,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSceneAnchor_Update_mE5C630904921C0EB95326DFA2213A34CFC5AB3F2,
 	OVRSceneAnchor_OnDestroy_m2E545D50C3DE25E35618366DB6CE13AA6DB7003A,
 	OVRSceneAnchor__ctor_mBB0BEAC93A4ED7A51292404F3F72FC0BDB381F03,
-	OVRSceneAnchor__cctor_mB0A2589AB753E0A4570319555E37F66BAB465A15,
+	OVRSceneAnchor__cctor_mBC839C4527540D7D839C430F84BC1CAE7D5D6BDF,
 	NULL,
 	OVRSceneLoader_Awake_m572663D014D95A09B3FDE5C9B074472A90C7CBF3,
 	OVRSceneLoader_Start_m3622A7B8F18279C22F49937E71EF6B8E1803974F,
@@ -10269,7 +10269,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSceneManager_LoadSpatialEntities_m21206CF2AED628736B2F22FE64BA46A7D28F6DE7,
 	OVRSceneManager_EnableComponentIfNecessary_m9FD336A52CDF36AAC4B943CB1D640A3AAFB4761C,
 	OVRSceneManager_OVRManager_SceneCaptureComplete_m5DA341AE4D950DB9FE0496B9AEFC30090522D5F5,
-	OVRSceneManager_IsComponentEnabled_m7122515DA1CA7E3F3A06E6B88EBF30DAAB222A95,
+	OVRSceneManager_IsComponentEnabled_m136B7A0C4F879424D1F5FB2B844A440C8BDCF493,
 	OVRSceneManager_InstantiateSceneAnchor_m6379A8E8FBA5CE425F69B3A92049894050D4E5B1,
 	OVRSceneManager_OVRManager_SpaceQueryComplete_mD52A0E0D89677652CC39537FC1A63B439591C1BE,
 	OVRSceneManager_CheckForCompletion_mF46D2319759DF3C873ABD277D61F32CC2883E235,
@@ -10278,15 +10278,15 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSceneManager__ctor_mA0FE8FCA399D992BBA8C3624E4C376CD29904251,
 	OVRSceneManager_U3CAwakeU3Eb__23_0_m06C316A296F1FC999B3CE29BD891C16F32F6F708,
 	OVRSceneManager_U3CAwakeU3Eg__TryGetUuidU7C23_1_m7955656ADC3FE637942381CBB1175BF9FFEC6376,
-	Classification_get_List_m0311653A015D289B122C4106CCABB8A9EAED05E8,
-	Classification__cctor_m8C04901656C635CDB87877A1F92E962D9B4F52A2,
+	Classification_get_List_mFF1FDECC41BECE53601B0801215788619DF6B0BD,
+	Classification__cctor_m18889A9E23DB3BE51FDA45DC0F6C6CA6AB5F2100,
 	RoomLayoutInformation__ctor_mACF2D415EEA40D8D261FAED5F5A144485B3C04F4,
 	LogForwarder_Log_m63CE5FF51F7BC643EA370313A8C14EC7AD850532,
 	LogForwarder_LogWarning_m2D939921332876981C2E1F09CFBC215DEA63E3DB,
 	LogForwarder_LogError_mCCFB3CC7A4B6474F3E1765C7F1A2450D541E1FFA,
-	Development_Log_m85141EFDFBD269E7EA4D58DE88B18ED9698670CD,
-	Development_LogWarning_mB04D6C613EEF97D133E2FEABAFABE261CF1F818B,
-	Development_LogError_m20CEE9E6D5CE7A8717D46594819D145F641982D4,
+	Development_Log_mFEB4362FE7FF518C4A4634802937941D528FCB9C,
+	Development_LogWarning_m5115A261D3EC89B70683EB3F05C1FB36F94C956C,
+	Development_LogError_m91F9F484C6516F87FFB4BE278E4582E34DD7637C,
 	U3CU3Ec__DisplayClass36_0__ctor_m3268C9E09FE5688B9270F206B842F3E4D8003EAB,
 	U3CU3Ec__DisplayClass36_0_U3CProcessQueryResultU3Eg__EnabledComponentsU7C0_m46E98C5A19CE07B0F2E91B6819FAE36AB794BBC3,
 	U3CU3CProcessQueryResultU3Eg__EnabledComponentsU7C0U3Ed__ctor_mA4308B3D7B57750AD9CB7E35A155DD5A85C0B5D9,
@@ -10318,7 +10318,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRScenePlane_get_Height_mB9FF83616C431ED2189EF8303004DB63A94B6FBB,
 	OVRScenePlane_set_Height_mF200CA3E4FBF34B7A94E7E3C2FF56F29FFBD9866,
 	OVRScenePlane_get_Dimensions_mEE731405CB6C0173538D54A9BADA3501767A1872,
-	OVRScenePlane_SetChildScale_m2B4A0750CA245B61C2103715BF3E83C4C5E9760D,
+	OVRScenePlane_SetChildScale_mDD225A30B385B11D4E24ACDB45852B8F0BDAAC3E,
 	OVRScenePlane_Awake_m2F603A132CBFE8BC45CFF4FDDA5FD1604AAEDCEF,
 	OVRScenePlane_IOVRSceneComponent_Initialize_m68B3DCFBF2F976F1322FB2B5C75319D2FB2A0B2F,
 	OVRScenePlane__ctor_mB6EAE94BB9987FC569B70A684678C6FD1644950A,
@@ -10328,7 +10328,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRScenePrefabOverride_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m531D34BED04E5E8F66B8DE6966F54D28A0649487,
 	OVRScenePrefabOverride_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m95B98794E3AC4F16251144338B7484EF3534A163,
 	OVRScenePrefabOverride__ctor_m2A07F3E4D301E8D8F14D9A49C6B78162C2802718,
-	OVRScenePrefabOverride_U3CUnityEngine_ISerializationCallbackReceiver_OnAfterDeserializeU3Eg__IndexOfU7C4_0_m71CA34C928400672FC6026E686F44AA9BDA7A189,
+	OVRScenePrefabOverride_U3CUnityEngine_ISerializationCallbackReceiver_OnAfterDeserializeU3Eg__IndexOfU7C4_0_m8107F1321FD510899BC2409619615B4E3CAAAA66,
 	OVRSceneVolume_get_Width_m68F842EEC1F84E966857DBCBD644858A454424DE,
 	OVRSceneVolume_set_Width_m89ED0DD99E758C89C5F77C06288DC85BC795EA40,
 	OVRSceneVolume_get_Height_m657799CA4BC514817B854E5F38507AF0492D76CB,
@@ -10352,10 +10352,10 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSpace_Equals_m8DB0E292BB3A26A99F8165CE6FA9C5D2E4078B48,
 	OVRSpace_Equals_mC2BD02F8187F62CC9BD585105F927A2BEC24E8BA,
 	OVRSpace_GetHashCode_m2F902FAD8730D7B28045445D9820F0EFDB3B855D,
-	OVRSpace_op_Equality_mBF886CF41468E6E3C31B1A24A9D2B60F43A2E8C6,
-	OVRSpace_op_Inequality_m4C900EFF6FF84F5B36CBE53C44ACB04C2D8934DF,
-	OVRSpace_op_Implicit_m93E119A8B30CF42777ECAE1A177C9D6FF55508D4,
-	OVRSpace_op_Implicit_m0560316594E99B4EA6AF46D793A5EFBC7EC36E7E,
+	OVRSpace_op_Equality_m6CD61ABD62B1225F5CBD4C659A27B9627A95C696,
+	OVRSpace_op_Inequality_m1F559585FE11E2A5A00D7FF56F115993BEE7BA19,
+	OVRSpace_op_Implicit_m5668C0D0B94EFD6CE95FC8C92A7E4418B8C0EFB6,
+	OVRSpace_op_Implicit_m1F9D1045BC491FB6F551F3F2317DC526B2574AE0,
 	Options_get_MaxResults_m7061D1C830735AFE8CE8913E2240EA99D0343E48,
 	Options_set_MaxResults_mF9D9A9FC61ED073E9C4E2F8BD9753975A62BFA9D,
 	Options_get_Timeout_m62D47DF1A0EACF4DB97227A0ADB4E9B37EB54253,
@@ -10372,7 +10372,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	Options_set_UuidFilter_m4EF3BAC72D4DC1D6B6168B70478860355A9267A5,
 	Options__ctor_m397C04B8516087A17CA1F6729812243169161A74,
 	Options_TryQuerySpaces_mC7BC25F63C67DCA8FD25772FCA7C232D637AA484,
-	Options__cctor_m40B507357A7796A536A3EF3FD4E6540D061B35B3,
+	Options__cctor_m7C0BAA772C1335F491709B2849F27ACF71514ED1,
 	OVRSpatialAnchor_get_Space_mBBDFEC73986C0C5944BDCCF6908FB983C28629BC,
 	OVRSpatialAnchor_set_Space_m3C30E22DA355338E17DEE4339E2C5C3C5A7E08C0,
 	OVRSpatialAnchor_get_Uuid_mC27BD659C453FC7D65BEF221E1F7C72F52617392,
@@ -10382,25 +10382,25 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSpatialAnchor_InitializeFromExisting_m59CBD1A09A5AE68C53436EB07DDBBF96691CF5F4,
 	OVRSpatialAnchor_Save_mE3794A00F6CEEDB4B32BFA95F0B8F1348F089DBB,
 	OVRSpatialAnchor_Erase_mB2EBEBF566055EC95E73899C8C51FE82EA8704A7,
-	OVRSpatialAnchor_ThrowIfBound_m6920FD2D3256CF39B4DE2E9A1D969D2B671090F8,
+	OVRSpatialAnchor_ThrowIfBound_m4992067AA04EACF8131FD41044C5D72DDE8CF717,
 	OVRSpatialAnchor_InitializeUnchecked_m7AA0BE0A8FCCF24E350D8E63BD7C8169C54CF270,
 	OVRSpatialAnchor_Start_mF4F1F8665C11563C8231849487DE2D826CCC2A12,
 	OVRSpatialAnchor_Update_mD3015E79840259E120A3D0184827F134F53EEF0B,
 	OVRSpatialAnchor_OnDestroy_m7B58A7153FBAC489B2F4E16FAEB957C55677D1E2,
 	OVRSpatialAnchor_GetTrackingSpacePose_m8F42DE4EA701222AF3AA93A7B563D138BC7F879F,
 	OVRSpatialAnchor_CreateSpatialAnchor_m76FF14B5216B67979FC61CCE9CA0C0146BD471B5,
-	OVRSpatialAnchor_TryGetPose_m08EBB5BF8924D1026FA38CF9EF9991559AE4A4BF,
+	OVRSpatialAnchor_TryGetPose_m80D743589E2F5F67F213B885ABAA8DE49FBAC920,
 	OVRSpatialAnchor_UpdateTransform_m4A7976B25CA1A23F87B2B778273097129ADF5D13,
 	NULL,
-	OVRSpatialAnchor_InitializeOnLoad_m074594B8400A691C6E58F8A9A164025B71388F61,
-	OVRSpatialAnchor__cctor_mFA18308979F62D08C85A50EF9C5F4CDD611BB27F,
-	OVRSpatialAnchor_InvokeSingleAnchorDelegate_m45901DD1A17D044B20B3ADE2CA4947616D91B9DA,
-	OVRSpatialAnchor_OnSpatialAnchorCreateComplete_m0FB5069731F40DE95AF9BE92B68BA6E0815FB9C8,
-	OVRSpatialAnchor_OnSpaceSaveComplete_mC1E02A72645E723C33499E944F5EC6127690E8B6,
-	OVRSpatialAnchor_OnSpaceEraseComplete_m7CF3D4B23527CB1EE82BAB3D0A7CF74568B2F841,
-	OVRSpatialAnchor_LoadUnboundAnchors_m3C33280657443A41ACA24F90FB3A6650ED1812F7,
-	OVRSpatialAnchor_OnSpaceQueryComplete_mB3FA804F1B69FDDD298E999B5B89142D9A7F374E,
-	OVRSpatialAnchor_OnSpaceSetComponentStatusComplete_m6C5A3145455A028FD413D0216602355AEBE6F7EB,
+	OVRSpatialAnchor_InitializeOnLoad_m36629B3D9C0CB7BE9ADA99DE62B64DDFEB7B1471,
+	OVRSpatialAnchor__cctor_m3E4078D305642E3A741EC8C2F890A02A43D3DAD0,
+	OVRSpatialAnchor_InvokeSingleAnchorDelegate_m531D8BCA93A866E166139782EA335CE951FC6F34,
+	OVRSpatialAnchor_OnSpatialAnchorCreateComplete_m59AC20386CE790D02361FD767078BF5AE2811585,
+	OVRSpatialAnchor_OnSpaceSaveComplete_mCD89D323C9787FE10B71ABD804CB0427907C510B,
+	OVRSpatialAnchor_OnSpaceEraseComplete_m258AC25BAFD07D73D6FDC34AE1C12DEC7612CCF3,
+	OVRSpatialAnchor_LoadUnboundAnchors_m31C133DE527213E8E48F2FADB8C63BC28A054073,
+	OVRSpatialAnchor_OnSpaceQueryComplete_m128B7380CA667B9040623341E8B5E667C9E662DA,
+	OVRSpatialAnchor_OnSpaceSetComponentStatusComplete_m1F1EC079A408F47B6732E94FB3B3F895B7B10143,
 	OVRSpatialAnchor__ctor_mF4B0E205F666E9294B4A382197A5DD912B7F9818,
 	LoadOptions_get_StorageLocation_mB91290268C7FFB7716945BA11D5CA38D90CC9D1B,
 	LoadOptions_set_StorageLocation_m2EFCE6BEF4A7923519F4CD25F15EB535E59A4F84,
@@ -10418,14 +10418,14 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	UnboundAnchor_Localize_mECF2E8498F10C3A821930CB48A13FE950023B446,
 	UnboundAnchor_BindTo_m1ECD15FCB5A770616927C260D09BFA69D064ADC7,
 	UnboundAnchor__ctor_m5D52B0EF0F4F17EC1BA0FCCE95B76DC637AA04EA,
-	Development_Log_m422CC00CC046E84769445402F6F020625446F9CB,
-	Development_LogWarning_m8357642B68E31A95B4011AF2AE45313A94E26784,
-	Development_LogError_mF6C5316CD0C989B7B0943834B38D431EBCCA6928,
-	Development_LogRequest_mC09C8C6024DCCA6FF51A6CDA94B55DAAF66C42BF,
-	Development_LogRequestResult_mBCB221986F27570A7BB76F4E3C0B18469657569C,
-	OVRKeyboard_GetKeyboardState_m1F8B77B15F5BA4D481CB56C3413C57A9956455FC,
-	OVRKeyboard_GetSystemKeyboardInfo_mD3BB87D87B903D68E3D19F8B2F8FB1EB36B63825,
-	OVRKeyboard_StopKeyboardTracking_mA135FF0DB4A7D0FCA54DA31924B01265DB5BC586,
+	Development_Log_m857AEF82928C445F749C3B118299D3FEC4955132,
+	Development_LogWarning_m814612A47B39A50F44BBC03491183ABA8522DC33,
+	Development_LogError_m57A41BE743EA2BC2F5E4D8DEE27993125D0EB9E3,
+	Development_LogRequest_m4F27E67EE07B6412223E7921C2640FDF66F0BA64,
+	Development_LogRequestResult_m6F2A85536A6B2BAABB250839685C2B5E8B831D9C,
+	OVRKeyboard_GetKeyboardState_m2EDCE0DEA298C8AE9734704C06438A4DDE26B428,
+	OVRKeyboard_GetSystemKeyboardInfo_mDCAF502573FA18822B70264B4EF59BE14D3EE4A1,
+	OVRKeyboard_StopKeyboardTracking_m0795B10855993AEAFE15D9A85F5AC2C95E8F4DA6,
 	OVRTrackedKeyboard_get_CurrentKeyboardAngleFromUp_m4DDFDA699122D38E8E1A26A7D097D9A09A9AE295,
 	OVRTrackedKeyboard_set_CurrentKeyboardAngleFromUp_m1DC05A003F92F62736FD11C57318F8D7B5A91934,
 	OVRTrackedKeyboard_get_TrackingState_mBD767A3E00DF5BC4A96B6E69E6085570AEEA43BC,
@@ -10472,7 +10472,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRTrackedKeyboard_Dispose_m7B773CEDF58800838F489760A476A66D70931311,
 	OVRTrackedKeyboard_DispatchVisibilityEvent_m0B9F8A411072BE228EDDC6C9696783B9996A1742,
 	OVRTrackedKeyboard__ctor_m91147CCE8E10C9C1714347782F41A1D0434C78D4,
-	OVRTrackedKeyboard__cctor_mD8F938C8FCD6813FB8D2D1C0F34A057093FE3D77,
+	OVRTrackedKeyboard__cctor_m65EB8E7106576FFBFFCAF80F532B2C44D551B347,
 	TrackedKeyboardVisibilityChangedEvent__ctor_m8E75930EF57C67D7503C0048EBB15A7512E18BDB,
 	TrackedKeyboardSetActiveEvent__ctor_m8802E85290C3CFAACE052E0382F12B1146F44A09,
 	U3CStartU3Ed__88__ctor_mC8EC7F15F41CACC92E58931BCCE08F3569B31DCF,
@@ -10505,7 +10505,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	U3CUpdateKeyboardPoseU3Ed__98_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF23A27CD2F40A093C25AEB6A49C709AD716C4620,
 	U3CUpdateKeyboardPoseU3Ed__98_System_Collections_IEnumerator_Reset_m5C92B31AC7FEBFDCC743A6336AD7C55B2F6C2F6C,
 	U3CUpdateKeyboardPoseU3Ed__98_System_Collections_IEnumerator_get_Current_mF67208C72BDB2DEDF669CEDE3E4D1C4B831DD789,
-	U3CU3Ec__cctor_m4429B92AEC6EBE5C9404E9B121D171DCC51AF531,
+	U3CU3Ec__cctor_m721A14131A7ABBC8FA09D704852F73A38745EA2D,
 	U3CU3Ec__ctor_mE48EF925923CB919AE5284AEB6C767DA2BF9D895,
 	U3CU3Ec_U3C_ctorU3Eb__113_0_mC151D0F93910F933083729D5DFC6D47B40E2856B,
 	U3CU3Ec_U3C_ctorU3Eb__113_1_mA1E7F81D0BC7C1FDF2B3D47C14CDAE229766A39E,
@@ -10528,7 +10528,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRTrackedKeyboardHands_TrackedKeyboardActiveUpdated_mB4705071DB9A57BD73381FA9B2AF2C521B2B6E56,
 	OVRTrackedKeyboardHands_TrackedKeyboardVisibilityChanged_mBE7D8E4E5EB1AAB2787B5F8B24D99AC9F04612F0,
 	OVRTrackedKeyboardHands__ctor_m9A8EA424D29618E3DC43AE92D80307BAEB2DF894,
-	OVRTrackedKeyboardHands__cctor_m58FBC41D86A35BF49A72A0FB7AEAFE2AD983AA9C,
+	OVRTrackedKeyboardHands__cctor_mD5787D7AABBB449371A91C18DCB416BEF04C70C9,
 	OVRTrackedKeyboardSampleControls_Start_mCC0905D0197F5DD2D14C43E6D1F6514F21EA7A0C,
 	OVRTrackedKeyboardSampleControls_Update_m6CC1DE9A22C4262430CEA5FCDB11FF9FFDE1B38F,
 	OVRTrackedKeyboardSampleControls_SetPresentationOpaque_mE3681BE740DFE4302299AD2ACD77E1E75E832ED7,
@@ -10556,11 +10556,11 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRTracker_GetPoseValid_mA900120BC2B219EEF4CCEA7424DB0F3A5613FEEB,
 	OVRTracker_GetPresent_m68DDB89533E72A54568FB5ACC533E788768D6DC1,
 	OVRTracker__ctor_m283EF4D30717FA44ECFD8C6D31C15E31DBA3D2CD,
-	OculusXRPlugin_SetColorScale_m0CCD8EAEF059D476BDE12F758CDB5CCE9E187E5F,
-	OculusXRPlugin_SetColorOffset_mA7D8B10BEC3AA5004E08775C9F7FF3FDA2AF2215,
-	OculusXRPlugin_SetSpaceWarp_m51900B80D35123EB355A1E5BBF4162E901503801,
-	OculusXRPlugin_SetAppSpacePosition_m01F57C58691AB7D1C5E0454F9A2AD210F762D1BA,
-	OculusXRPlugin_SetAppSpaceRotation_m5E38CFF67F2BD6504F483AAF3C9B8154F2EB07F1,
+	OculusXRPlugin_SetColorScale_m20DAD44814E22C9614ADE7C0C6F1C2F0A7DF601F,
+	OculusXRPlugin_SetColorOffset_m8219BBE3032A4978D7133616EFA86B64F2D8956A,
+	OculusXRPlugin_SetSpaceWarp_m591EA7747C0C944877CE8350AEA763560E46E7F1,
+	OculusXRPlugin_SetAppSpacePosition_m4F081B1A6672C6CE541651F75EA9B955938808F2,
+	OculusXRPlugin_SetAppSpaceRotation_m24E78BBF3BA5775538BA8C0A1A0CE99A9521E2D6,
 	OVRAudioSourceTest_Start_mBBDBC8746733F1C22FF455311DA05938E8739D01,
 	OVRAudioSourceTest_Update_m085FCA30E16AB1801602D959811FEEE65B03A210,
 	OVRAudioSourceTest__ctor_mD3E2761779996E7956C94CDA740D537E045A2511,
@@ -10579,7 +10579,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRControllerTest_Start_m6FF82BBFBB30453547BCA4AA701CB6E8180381F9,
 	OVRControllerTest_Update_m099C9CDD921856BAC85FBC5F360C6FE1BAD55C22,
 	OVRControllerTest__ctor_mDFEABCDF2304DAFDC7F31A4D4B77E71A61EEA549,
-	OVRControllerTest__cctor_mB172FC46463DEA0045F3181D01C00FD89778F3BB,
+	OVRControllerTest__cctor_m65BAA43CE061BF8F11E1C56CD31B4523FA1E6222,
 	BoolMonitor__ctor_m48CEE8AEBA8320DFD8F47048EF28CADF91859749,
 	BoolMonitor_Update_m8FDD0C6A9AAAD8BF1AE8F46C2FDF85222D804DBE,
 	BoolMonitor_AppendToStringBuilder_mAC4CE128E241C2C710CFB148225B098A73FC9254,
@@ -10587,7 +10587,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	BoolGenerator_Invoke_mF0DC567503579F191E36739429EE23F6BE576748,
 	BoolGenerator_BeginInvoke_m51B29BD299CBF42BE11A54E7433E596B97951499,
 	BoolGenerator_EndInvoke_m4D2CA904F3DBDAD2E9C995BE61C27C4C04E51F4B,
-	U3CU3Ec__cctor_mED7BEE6687E73CE51B5D4FE3063003200BE1ADD1,
+	U3CU3Ec__cctor_mCA4CD925276A839BFF26F0E9598F42C7DC863E2D,
 	U3CU3Ec__ctor_mA2769B0EEAA367A85A47C04C14498D839E76C57E,
 	U3CU3Ec_U3CStartU3Eb__4_0_m792C0C0F2583924C531C311F285430EEB85DAEAB,
 	U3CU3Ec_U3CStartU3Eb__4_1_m9669CAD9A3078C264D44EB0FA4C841E4C50A64E7,
@@ -10622,9 +10622,9 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	U3CU3Ec_U3CStartU3Eb__4_30_mB77AE63D6EF58E1DC3E34D88C149AC9026B649A0,
 	U3CU3Ec_U3C_cctorU3Eb__9_0_m32421D04C903DCFC097E6744E48222E9CE5AE807,
 	OVRCubemapCapture_Update_m7B7D2356846F1E0452833C80976C432BDAE2D719,
-	OVRCubemapCapture_TriggerCubemapCapture_m5029A601C6327B35B885279E74C88863D2B56EC6,
-	OVRCubemapCapture_RenderIntoCubemap_m7C5BF498BF46BCCEE163ADAD94CA3F5AE363CAD1,
-	OVRCubemapCapture_SaveCubemapCapture_m7E691C91EF915326B233C6331D78BAF346772E99,
+	OVRCubemapCapture_TriggerCubemapCapture_mB3C07EAF1FB7E4D630CD74A36D89B9DD53EC061B,
+	OVRCubemapCapture_RenderIntoCubemap_m6611651EF30EE9CA4C6CCA6923FE95E3D3FCA99C,
+	OVRCubemapCapture_SaveCubemapCapture_m229BF203E3A96D74345B7DB7C92557F9A9F90AF1,
 	OVRCubemapCapture__ctor_m485AC6C9F1249DAB0ED23BF321949C7DCDFE5C1D,
 	NULL,
 	NULL,
@@ -10657,7 +10657,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRGazePointer_set_hidden_mA5EBA8AA5A6313CEE14D61C3E6CFFDBB21161DF3,
 	OVRGazePointer_get_currentScale_m1C2136E72FBBFE0B728ECF647B5F1F6A719C1A0F,
 	OVRGazePointer_set_currentScale_mAA82E923F758CEBDA81655366A348FA3BE4AC3B6,
-	OVRGazePointer_get_instance_mFB17BE0052660A37580115B57992F2F079A6A21D,
+	OVRGazePointer_get_instance_m11E5AB09238B77A6D3A5B43CE3980AF53699165A,
 	OVRGazePointer_get_visibilityStrength_mFAA7342A8439F3831CE6D69512CA37C6E08FA3D2,
 	OVRGazePointer_get_SelectionProgress_mBCEB2CC1CE512BC7020C1F89FC396CA47C598985,
 	OVRGazePointer_set_SelectionProgress_m94913AF5FAA60E7DEA93BBE13677CE9A19293D08,
@@ -10746,7 +10746,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRHandTest_Start_m66D071E04E14EF84948D2B88B18314FECF3891C1,
 	OVRHandTest_Update_mFBCA76276188137688FBCF72B0E9E37EEDC18F10,
 	OVRHandTest__ctor_m3B4AE587A8F1CF9EC83383F421BA0448288EEA0D,
-	OVRHandTest__cctor_m2483B8ABD1655D1C2420EFA8FC918BBCFD3DC31A,
+	OVRHandTest__cctor_m999808D665B28325D9E1CE1B392995E4AD1F983F,
 	BoolMonitor__ctor_m88046DBDE5197393E2C4100B8D2242981356A0C7,
 	BoolMonitor_Update_mACF2F700B8BEF95CC6567C0E0C30B84A4145E6A7,
 	BoolMonitor_AppendToStringBuilder_mA256FEFB73B00D5A26A8E730817EA6DB7379C611,
@@ -10754,7 +10754,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	BoolGenerator_Invoke_m77238DD32B47A9F2E0FE3F9A1A1EBE70785CD00C,
 	BoolGenerator_BeginInvoke_m797F8064C029D90513057AEAD3C8A93A97133E51,
 	BoolGenerator_EndInvoke_m310A5181F95C4EF6633F33088E63B24EDCA75632,
-	U3CU3Ec__cctor_m1B85AD4665E305D1C9A6F87C58A8F5874B01EF0D,
+	U3CU3Ec__cctor_m797A9CC0111B7F7600452487D81C58F49B5C5866,
 	U3CU3Ec__ctor_m80CE0528AF1F1DC06A2405BF7524C34AC43EDF29,
 	U3CU3Ec_U3CStartU3Eb__14_0_m449A37FCC020B63CAB4C6846332903CB9EC5CA5E,
 	U3CU3Ec_U3C_cctorU3Eb__19_0_m67A2D3537B71D466C35FDAB2F9F248842AAC10EF,
@@ -10767,13 +10767,13 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRMesh_TransformOvrpMesh_m02D3D80128325E58D0523E3F2669A8C5A0CD1B9F,
 	OVRMesh__ctor_m3E60FC38206461D4A2B29CECE18B87227488651C,
 	NULL,
-	OVRMeshGenerator_GenerateMesh_mAEAAA12E05CC600F42B99BC499BCE92AFC73A1AA,
-	OVRMeshGenerator_TransformVertices_mA25156E1D448561A1182C78B4C1D4B1D7F38FC49,
-	OVRMeshGenerator_GenerateTrianglesFromBoundaryVertices_m7629B841E26137CDD6C0E4F4A23100BC81672947,
-	OVRMeshGenerator_GetWindingOrder_m54A8C1DB36B9D65FDCF26FA6C7F34F72F938D6F6,
-	OVRMeshGenerator_PointInTriangle_mAD91896B54F2B6CB9144D7A3252C3D26390EC20E,
-	OVRMeshGenerator_Cross_mA76E3B76062670B7AE861DDB1821FAACC9345421,
-	OVRMeshGenerator_Get_mE2802DC706DA611A91EA6C1047F3E3A2D921E548,
+	OVRMeshGenerator_GenerateMesh_m3561F045FEFB04F34893F9742971256BB9AD6D11,
+	OVRMeshGenerator_TransformVertices_m9D1AC7693F99C1B8795C1254F3B3C7180703D138,
+	OVRMeshGenerator_GenerateTrianglesFromBoundaryVertices_mBAD5E056B56984C420F0ED58E34691D1A5271BC6,
+	OVRMeshGenerator_GetWindingOrder_mFF554198868358CAB6818920C867BCBAAFBFD83B,
+	OVRMeshGenerator_PointInTriangle_m881CBCFF95D571E351F85C675FA3F03F27F733FA,
+	OVRMeshGenerator_Cross_m5E2DD9B99796C242857EFE0011890C163F37286C,
+	OVRMeshGenerator_Get_m0CD1A8B43C035B690107143A8F265624B169018B,
 	OVRMeshGenerator__ctor_m502CDFBDF6966C42FAEEA11036674C69CD708A63,
 	OVRMeshJobs__ctor_mB17E4AD0017E23CC6BC017159AEC86FA43D0A8D6,
 	TransformToUnitySpaceJob_Execute_m1825A71489D52304F8D8A621EC2480630FFE7B7D,
@@ -10857,8 +10857,8 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	NULL,
 	NULL,
 	NULL,
-	OVRMixedRealityCaptureConfigurationExtensions_ApplyTo_mF47D5E6E6F440F28D1EF9F4EAF66F3745DDF2789,
-	OVRMixedRealityCaptureConfigurationExtensions_ReadFrom_m049A82AE7E2DB196F5C1B3A74C309EDFF86FFB77,
+	OVRMixedRealityCaptureConfigurationExtensions_ApplyTo_m14994C97386BAF4C069891F001590BDD520955AF,
+	OVRMixedRealityCaptureConfigurationExtensions_ReadFrom_m585C78AFC92A80FE7A42CFC872B19375759C1E6D,
 	OVRMixedRealityCaptureSettings_OVRMixedRealityCaptureConfiguration_get_enableMixedReality_m33562AB9D87D64EDA88ADC0A87FF55B5E262FA84,
 	OVRMixedRealityCaptureSettings_OVRMixedRealityCaptureConfiguration_set_enableMixedReality_mCEB81DF0F2A0B24BBE671A653464CDCA4D901778,
 	OVRMixedRealityCaptureSettings_OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers_m7BCF678527C5A08FA2C47FCE0DD4D89491FDC0EF,
@@ -10929,7 +10929,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRMonoscopic__ctor_m80B07FAFA6DBA65E5380F48DDC7F3A46FCDF7E6A,
 	OVRNetwork__ctor_m02115A0F3F90017B5130B2F1871DECA5AC1EEA09,
 	FrameHeader_ToBytes_m2F0C8302CDF5272214CBE81F1B52723FA1175E5A,
-	FrameHeader_FromBytes_mC7F77392688C11485A942D4A525D5BB7FFD2AA42,
+	FrameHeader_FromBytes_mFFB6BEB349DA71C5FAC1AF34228DB818F334124A,
 	OVRNetworkTcpServer_StartListening_mA040CD954D9815714E40716BB1D40FEBF3238A8D,
 	OVRNetworkTcpServer_StopListening_mD80A7E05221D269D754BC0B574591D7263C4C659,
 	OVRNetworkTcpServer_DoAcceptTcpClientCallback_m204515BEA0E11C000255FCFE7F27AE23CD1D0F2B,
@@ -10986,11 +10986,11 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRRaycaster_RaycastPointer_m5ECFC6B6EF2F57D5DE2C07AD91CEB698CE29E4BB,
 	OVRRaycaster_GraphicRaycast_m456CB07DDE4B23EF2F6746E25592F32F66C3C8D8,
 	OVRRaycaster_GetScreenPosition_mE54FD696C615E1CFF7E7AE19F0F9B95AB084617A,
-	OVRRaycaster_RayIntersectsRectTransform_m762FBA6A295D34B57364653E5F0139165F9C5135,
+	OVRRaycaster_RayIntersectsRectTransform_m3E13434FEF270DBDBBCD3FD8BA4688712F96E8AC,
 	OVRRaycaster_IsFocussed_mB1A42E38FBEDF9F266E2A89F954C78259AE75990,
 	OVRRaycaster_OnPointerEnter_m4CDCA760A363AE45F1582C74FC8ECBB19170188F,
-	OVRRaycaster__cctor_m202535892F0CC58ACB65755DFE473700D6A32B66,
-	U3CU3Ec__cctor_mC3647BBB7034B324855D5C4A5F5079F7F20F8989,
+	OVRRaycaster__cctor_m539FAA30E8EEDC255A7E42CFCFFB6AC0DB5CF7F7,
+	U3CU3Ec__cctor_m82097A51AAC23DAA68686609923C4B09F5EB3AA4,
 	U3CU3Ec__ctor_m9F8846495EEC24E5A8504A8EF8FC92645F249E23,
 	U3CU3Ec_U3CGraphicRaycastU3Eb__16_0_mD6EB22B21F61D15E709EE090F0D37877673D00EF,
 	OVRResetOrientation_Update_m252E6B10886A53A66232559F65D6BE22E0E22072,
@@ -11004,7 +11004,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRRuntimeController_InputFocusAquired_m1418876FD0582150827EDAC941BDCDF837F73295,
 	OVRRuntimeController_InputFocusLost_m2DF3ABBF3D96DFA5E2B22003758CF342337D9AC1,
 	OVRRuntimeController__ctor_mF4FEEE8B67030B6845BDC9BFE3F678C26593095D,
-	OVRRuntimeController__cctor_mFBF8476E4EA45401672610506FD76B8C61B023C1,
+	OVRRuntimeController__cctor_m5EC60A1550DE17F446CB058969D8B24514242E8A,
 	U3CUpdateControllerModelU3Ed__16__ctor_m6D5DC5BC750D48A746C3AE15B23BF8BF85A42713,
 	U3CUpdateControllerModelU3Ed__16_System_IDisposable_Dispose_mDDFBF8717EF55A23D1579DEA2960D13336F9DD9B,
 	U3CUpdateControllerModelU3Ed__16_MoveNext_m0BB6282EBF4809D18AA5C315443611F4461C4B95,
@@ -11018,8 +11018,8 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSceneSampleController_UpdateSpeedAndRotationScaleMultiplier_m7A57A6D2CC14BBE029023B333CA21514894F6832,
 	OVRSceneSampleController_UpdateRecenterPose_mCE417FE793AC294A67314E1D4EF3F7F910EF3730,
 	OVRSceneSampleController__ctor_m9A730424FDA0C12E589CB9600437625037AF765A,
-	OVRScreenFade_get_instance_m83FD3FAB7EEDCD585552E5D86C4C7828C4C6932F,
-	OVRScreenFade_set_instance_mE5959443144FE8EA04EE7C16ECC7643BBF2C393B,
+	OVRScreenFade_get_instance_m56F42EB3F98DB59C49194E1359AC9CDCF373E5F1,
+	OVRScreenFade_set_instance_m022D7CA759D44EF84823F44F5839A6DD4CFC9DE5,
 	OVRScreenFade_get_currentAlpha_mDADE3DD93ACF686EF8D4501D23F90F8FAEC7F380,
 	OVRScreenFade_Start_mC54BBF3B0EDFFCE5D64C6DC83B6D93615F9A4AC8,
 	OVRScreenFade_FadeIn_m2E166B72C58603023F88E4071B4EB9A9DB44CF09,
@@ -11068,7 +11068,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSkeleton_GetCurrentMaxSkinnableBoneId_mA7CEC0F15F7EF03428CA01088D8C5AA2665F499B,
 	OVRSkeleton_GetCurrentNumBones_mF352776E9CB154205170BCFF3D1098EEC022F5DD,
 	OVRSkeleton_GetCurrentNumSkinnableBones_m09933B25D8F182E1B04005BC457A06F9B014402D,
-	OVRSkeleton_BoneLabelFromBoneId_m90FBD45AB113CAB1EAB0325F7512F103D650D453,
+	OVRSkeleton_BoneLabelFromBoneId_m95ECECAF04584E40307053E9637695FDAD4284C0,
 	OVRSkeleton__ctor_mA04378F10574DE4518FE0FDF4C004F159AD30EE2,
 	NULL,
 	NULL,
@@ -11115,7 +11115,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRSkeletonRenderer_Update_m5785F65165193E250766BB9EFC4E4BE79DCDF4C4,
 	OVRSkeletonRenderer_OnDestroy_m41E35E67ABE44ABE9E6B3EF6C247ED2EBD26BEFD,
 	OVRSkeletonRenderer__ctor_mD0DA471DA57091D50940F813FC09F81FD5EC84CC,
-	OVRSkeletonRenderer__cctor_mE0AE6AE4DFCF54CF89F81678BD051DF434B32241,
+	OVRSkeletonRenderer__cctor_mD731CB6E87BEC93E02F7930E4CF3441C1EB26648,
 	NULL,
 	SkeletonRendererData_get_RootScale_mB15BEA2C46E5EDBB62F506ED3C744442FBE92C75,
 	SkeletonRendererData_set_RootScale_m75EF17D0487E70261F0285513E7B3FF91B90DEA4,
@@ -11171,7 +11171,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRVignette_OnPostRender_m57305F14CC3AFA0D174156AC53FDB320465BCC6A,
 	OVRVignette_OnBeginCameraRendering_mF4A9863BA963402920B8EC77B8F2642C358672E3,
 	OVRVignette__ctor_m1F4442AB6FA2AD342D95494EC8E2BDA26E9CFB16,
-	OVRVignette__cctor_m8C78AD9B2EBD6EDBECBCC891B2754CE68787E8EB,
+	OVRVignette__cctor_m5EB0B638C9A3C5E4BA57692397AA82717C0E553F,
 	OVRWaitCursor_Update_mCC5ABF34D603582F9169381B15FC06FA7B961878,
 	OVRWaitCursor__ctor_mCCBC6469829D1BD9575C4C948A33D32D5C8A2431,
 	NULL,
@@ -11216,40 +11216,40 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	JSONNode_set_AsLong_m5AE72ABA190045D571BD71F4311D9ED183664081,
 	JSONNode_get_AsArray_mCE13B3346A15D9F59CE41810502FA4E828CC7D97,
 	JSONNode_get_AsObject_m9604538CE645775F86070C3CC31CFCCC4C945A9C,
-	JSONNode_op_Implicit_mCF442D59B41D4EC95502D7B456E4E2C7C0631BD4,
-	JSONNode_op_Implicit_mC3BFE1BC33A1EB603E49F0FCACCF8AEC1C0BA8D4,
-	JSONNode_op_Implicit_m6F05DFD6765F3FE8145276E561C790A0EB55260D,
-	JSONNode_op_Implicit_mE7AB34D9F7EA21A5AB9DEF8D8589414A0CCC1214,
-	JSONNode_op_Implicit_mCF904401BBB13659548F107FB00EA0E68EFA40E2,
-	JSONNode_op_Implicit_mFCD00112E5E0587A201E339D524D1A21BCC22ECC,
-	JSONNode_op_Implicit_m4F8C943562F8A379E689634217E3F4C300800FC1,
-	JSONNode_op_Implicit_m348268ECB34D46E16CD08043AAC6B6FDD88E4D4C,
-	JSONNode_op_Implicit_m252487149165C59DC18DAB2F2577C720FD9CE442,
-	JSONNode_op_Implicit_m50D6030AB1CBABF86689339956F5487B38EED8D7,
-	JSONNode_op_Implicit_m2A456CF046499D32439A931DDFA4A8A0AE5887F6,
-	JSONNode_op_Implicit_m2B9817F50740EB5481AFD4862AF957E3F185CA0F,
-	JSONNode_op_Implicit_mEA2CAC8C9EDCBCC13131A08DA99409B831EA3D94,
-	JSONNode_op_Equality_m1ADEA51EC49A379938AEBBC1919AC3CE5F834301,
-	JSONNode_op_Inequality_m518E3B856BAE3571213839BA82E6B4AD51905E11,
+	JSONNode_op_Implicit_m06AD34FCD4106FA53D67CBC4C74AC2104EB5E3D1,
+	JSONNode_op_Implicit_mD59C878E61128BBC0236886E0C4759199DF99240,
+	JSONNode_op_Implicit_mA54715C2EFAFCA903B7DE85FD00F06C6FB199B97,
+	JSONNode_op_Implicit_mE1BC2CA96D2A1DC3844F1A7B545421EB5F153AF0,
+	JSONNode_op_Implicit_mB743724C768080641A928FC6DD8D8AD940317289,
+	JSONNode_op_Implicit_mFB11AAC18E643644D56CD7A9FF8EF25BEC10ADD2,
+	JSONNode_op_Implicit_m42AA4B01E7F8AB751DD6DDA8A3743D95DF1053A6,
+	JSONNode_op_Implicit_m442422A33AB5A2604825B88351D61431CCE64901,
+	JSONNode_op_Implicit_m321BB6A572D826D00D2098FD0C0226226B75C476,
+	JSONNode_op_Implicit_m3D56EF1F35B6ED3B4A0AEB2BF757D0F738C47163,
+	JSONNode_op_Implicit_m1CC5F8AFF48490BE6B707003BD87191FD0A97377,
+	JSONNode_op_Implicit_m910ECDB35130E073BB034A3EB869ABD39C522FB9,
+	JSONNode_op_Implicit_m751E6ECD633A913F6EC695EFBE1A78DB939294D4,
+	JSONNode_op_Equality_m0A4D3AD35FDA458826859C2085CDC5927E19422A,
+	JSONNode_op_Inequality_m69D6C3ED4847555366838FF578A56DD28B1A167A,
 	JSONNode_Equals_m73DB667CBE776B8AA3B7E6C015084FE509D69D8D,
 	JSONNode_GetHashCode_m424E2C79A394E683A6A1BAC2CAAE797FE9862993,
-	JSONNode_get_EscapeBuilder_mB62A6830CDD9F956488943DEFB3008EBD3C97C1E,
-	JSONNode_Escape_m38FBBFD187CC7CE055DDF0B6BBD4E1450597C4DB,
-	JSONNode_ParseElement_m850277D845A03435745A7139204D1E5B802D3AC0,
-	JSONNode_Parse_m2B3EFCE1DC20FAB3209BC6EBEDBEF7B691E9E621,
-	JSONNode_GetContainer_m5C21CCC8A7768CCC1299636153F2878E118A0017,
-	JSONNode_op_Implicit_m859E6823880020221E0E8C081A0E203949010396,
-	JSONNode_op_Implicit_m25E038FC90C0C3DEF12BC11023BB6C8A342BCCD7,
-	JSONNode_op_Implicit_m8A6960B574C2F2CFE36182C9DD236E1B7369D418,
-	JSONNode_op_Implicit_m3718AD40D245677F4C11B7EA9D3C9D8CE78997A9,
-	JSONNode_op_Implicit_m7EEF962DCDC678A14CFB7D90A7CFE54874B3B59C,
-	JSONNode_op_Implicit_m37A0D0CC19036C606A2FD185B3A13C8999349342,
-	JSONNode_op_Implicit_mD9A78BBE398F581F01FE61A9E91A1E8488975999,
-	JSONNode_op_Implicit_mA957A0C58CE90BE86A20CAA138F3ED3DAB51B424,
-	JSONNode_op_Implicit_m53C95337E360C6C7AF9902A393330277C77AE062,
-	JSONNode_op_Implicit_mE706033FCDD1DE6A4E84D698B6E70F5A732DECB7,
-	JSONNode_op_Implicit_m92B580D83E2AD2A12A92371EF0D563BB417E44B8,
-	JSONNode_op_Implicit_mB0CA45DAC3263DC4D3B39126C599AF7502CC375C,
+	JSONNode_get_EscapeBuilder_mE2AC2C35E8E0817C05992F7105E57A77F9DCA177,
+	JSONNode_Escape_mC6A159C85C9B89C657BEF8E8752411AFE59DF324,
+	JSONNode_ParseElement_m9720BEEFAD9EB19FB3E6E2528F87381A639169A3,
+	JSONNode_Parse_m1B80D9CC59A2C2418CBAC250D026B36E146B9A2C,
+	JSONNode_GetContainer_m956BA06C8301B8161E3C8437C43D549BD633D2B7,
+	JSONNode_op_Implicit_mDDFEB0BCCB0625DFCD47E6FC74CAD36BD37F0CF9,
+	JSONNode_op_Implicit_m447A86FB023F9CCB3CB9D86D6EE6E3708404EF03,
+	JSONNode_op_Implicit_mC7C33AC196B16D3BA60F6DFF4367991A42F43539,
+	JSONNode_op_Implicit_mA1B45C30D55997E176F36546D60B6B8D7252B3DE,
+	JSONNode_op_Implicit_m558BDBCD321C50310B0421FA74FFA96AD6A001EF,
+	JSONNode_op_Implicit_m03CECF98394B5BC2C9C1CDAFD25D28A5C8FD341D,
+	JSONNode_op_Implicit_m5E4C33C1F893CF43B63785B51FE31F1D611D6EEC,
+	JSONNode_op_Implicit_m605208B57ACBC42DF0C23E06132F641309E5C5BE,
+	JSONNode_op_Implicit_m8C4FA775A316771268C0568EBB7F07BF0E05AD47,
+	JSONNode_op_Implicit_mE716C9B67C21931689BCD4842125B7567108A227,
+	JSONNode_op_Implicit_mC8BF873FD3CE14CDF4150413BA4085EAAA7DF3F9,
+	JSONNode_op_Implicit_mA74D784EECE29F195CFE0672AF8B219BE26DFACD,
 	JSONNode_ReadVector2_m2E465E3885062F0AFC873F699F82A2AC8E06DA28,
 	JSONNode_ReadVector2_mCBD1CCD8C89E0A9010AA75313232E3BDAC690CAE,
 	JSONNode_ReadVector2_m62901F81BD9B2E1CF09A0C00FD5487911D939C4D,
@@ -11390,7 +11390,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	JSONNumber__ctor_m6C78D2661535623F0D763FDBA0A16E1726686CEC,
 	JSONNumber__ctor_mFECBFDEEAB2024BF43E720DBA845CB31B00E9077,
 	JSONNumber_WriteToStringBuilder_mF81892B6163DACAE8328D433CABAC093BC981C96,
-	JSONNumber_IsNumeric_m4C49E04818ED964E11E572E5088F21B4E806E1FD,
+	JSONNumber_IsNumeric_m9788D25C146F246FC82E051C7B2BE975E70B6327,
 	JSONNumber_Equals_mD47B48F876BD8A7632FE325B7A21C836402CF179,
 	JSONNumber_GetHashCode_m6E8B80749AF6952FABCC6E884BEF9A0B744DE1F7,
 	JSONBool_get_Tag_mC6F3FACEB29841387FC5D0E37950965D399CE2F8,
@@ -11405,7 +11405,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	JSONBool_WriteToStringBuilder_mAEC264C9E719A22849F14CCB7EF6CD25816FA0E5,
 	JSONBool_Equals_mB0484D4B16D15BDE770AEE59BEDC2AAD311CB799,
 	JSONBool_GetHashCode_mA52751E2D1158CA83D7C09826DF9328D90579E3F,
-	JSONNull_CreateOrGet_mC5FB120BA0AB39A54386CD820F018F73A965CC93,
+	JSONNull_CreateOrGet_m63BB6A8AD53643B800540BF8B2C3F1061ACD0381,
 	JSONNull__ctor_m0D2EBC018B306B414F8C5E082846088954B1E8A5,
 	JSONNull_get_Tag_m6883C4D5932A84C6BB2D424063C129DD3317A884,
 	JSONNull_get_IsNull_m5F762020E3B15C98424D1083A54234C32DCCF9A1,
@@ -11417,7 +11417,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	JSONNull_Equals_mDE3BB64891B07E1940A11D3BA1BC3F26CDDEF4CE,
 	JSONNull_GetHashCode_mDAE3F1800F1BEB39879A4FCC0C484E977088973F,
 	JSONNull_WriteToStringBuilder_mEAA5BA6B25E992205FC3161B743497541DAB127C,
-	JSONNull__cctor_m2A702EDB36307B4D417277F91E0ACB320EF506C8,
+	JSONNull__cctor_mF62030AB2A27801802CEF6DB4178DCB6B12E5754,
 	JSONLazyCreator_get_Tag_m7D853E8C5F4243069CEB8D8762FECE70BEBAF647,
 	JSONLazyCreator_GetEnumerator_mCB51B5B2BC6F442645FD1466FAEE1BAC84814B06,
 	JSONLazyCreator__ctor_m18AB070D8863A65BDDF76538241046C56B678337,
@@ -11429,8 +11429,8 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	JSONLazyCreator_set_Item_m933137175CA28CD12E7C48256B15ABBE4E6F8FAB,
 	JSONLazyCreator_Add_mA6BC9DEB3490C5981297F3C3091AFCC63B364FC3,
 	JSONLazyCreator_Add_m2AD0766DE1507F592CC9403AFFB9FB325F84A177,
-	JSONLazyCreator_op_Equality_mDC76A9267F0EBD817C3FA586C8730DE828EF583F,
-	JSONLazyCreator_op_Inequality_m2F8856328D5B72724A0D22C23DC8260B46578B55,
+	JSONLazyCreator_op_Equality_m56B7B7B7C3F96CC78BB7EA36C0BD101762E1E01C,
+	JSONLazyCreator_op_Inequality_m62E2E99791231D5D2DD84CE936D5B281106728F6,
 	JSONLazyCreator_Equals_m7FCC23BCC388C50C696E18361FFBDFA82DC03C17,
 	JSONLazyCreator_GetHashCode_m1C051B3C4933B8B77A52FC88A813CD633D0E5B60,
 	JSONLazyCreator_get_AsInt_m7E8E5E52860606F117FE5931935F6931542CD90D,
@@ -11446,7 +11446,7 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	JSONLazyCreator_get_AsArray_m55909A19FC1870BD5DA212069912593E67DBB39D,
 	JSONLazyCreator_get_AsObject_m418630798EEC9DABE2EDA2A48BF9E82512547CA3,
 	JSONLazyCreator_WriteToStringBuilder_mB8FFDBBB255C96B120FCAF4E93975D1319774618,
-	JSON_Parse_mBE2B5B20CE718BF647FE7CC0F5E892C2AB137ED3,
+	JSON_Parse_m9A3810DF8CDD89CADCF7A4522144BD0FF133992C,
 	_GetRecommendedRenderTargetSize__ctor_m9FC1402CB7C6718DECA019A2F5F9AA17918CEF61,
 	_GetRecommendedRenderTargetSize_Invoke_mD874AE4607153DBDA8A2A21BD32007EB19FC527D,
 	_GetRecommendedRenderTargetSize_BeginInvoke_m2FA615D652A8D20310D52E68692397897690A85D,
@@ -13074,15 +13074,15 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	CVRSpatialAnchors_CreateSpatialAnchorFromPose_m3DF84C27F5379EC393C5C18435310ADC03B80B5F,
 	CVRSpatialAnchors_GetSpatialAnchorPose_m2614EA539729620429BDDAE901B9AB006433AA1E,
 	CVRSpatialAnchors_GetSpatialAnchorDescriptor_m8CE0B11F8C1632F61C4A4C4E45F51A724349AE43,
-	OpenVRInterop_InitInternal_mAE36060D473E41ACA34447708C313FE56EFBA31B,
-	OpenVRInterop_InitInternal2_mE6C83F8BE33710A6605AAD3A613CA11A13797DD6,
-	OpenVRInterop_ShutdownInternal_mE883AD864F77E11D03EBA2A31354246AE8D4C78D,
-	OpenVRInterop_IsHmdPresent_m181AC01148835CE012E7C3DE8C3D903488BF67F1,
-	OpenVRInterop_IsRuntimeInstalled_m5EFE65AAA443CAB7FF0FB4CEA800DA631AFA6CA4,
-	OpenVRInterop_GetStringForHmdError_mF0791A48D22A31754E1227F40016FB5D987B941D,
-	OpenVRInterop_GetGenericInterface_m529D24059C936D33D9590FC5520B9B9AF116157B,
-	OpenVRInterop_IsInterfaceVersionValid_mBD1788C140122F3A21B97C1322344CC9B8D49C64,
-	OpenVRInterop_GetInitToken_mE8EDEDB0C07F139FDA23F1C2F46C3E6355CD68E7,
+	OpenVRInterop_InitInternal_m2665536BA84D167E89155D65993EAC00951054FD,
+	OpenVRInterop_InitInternal2_mE04F2583494FF480713CDEEC9D8FF826F3BEB1A2,
+	OpenVRInterop_ShutdownInternal_m450D042F95B365E91AAB3F718EB1858234F218D9,
+	OpenVRInterop_IsHmdPresent_mABA5F20535ECCFFF121C0DC7C538D1A1AC3B9490,
+	OpenVRInterop_IsRuntimeInstalled_mF545A675398A5C9BB1D6ACDBCD65004B59552EB0,
+	OpenVRInterop_GetStringForHmdError_m8FF399213281B5199E32C93EA597FBCDAEB39C35,
+	OpenVRInterop_GetGenericInterface_m4F5734C2DDE0F35772D76F41E2F30651F44F42F5,
+	OpenVRInterop_IsInterfaceVersionValid_m785F253730F9886BBF3D7DA26C806B69F4A2149D,
+	OpenVRInterop_GetInitToken_m9CB8AF9977E98367AAD96EBD97A9488C8AFB3F97,
 	OpenVRInterop__ctor_m42801608390F49F750D3EBDA66743AE149BE526C,
 	VREvent_Keyboard_t_get_cNewInput_m174E294CBF7A8F2D0E8D4C1711FA744D3680096C,
 	VREvent_t_Packed__ctor_m484B567FC19A246082286514E27178820FE099D3,
@@ -13094,33 +13094,33 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	RenderModel_t_Packed__ctor_m0982FF9906A7D4D848A76577E3155B4F31DC0E42,
 	RenderModel_t_Packed_Unpack_m69045AE3D8368C294A5D168FB40E9391FAF5AF51,
 	InputOriginInfo_t_get_rchRenderModelComponentName_m20092A08F9973ED121DE27CF464358355E3DBF3A,
-	OpenVR_InitInternal_mB84DE4258EEE79DB08EB9AD36D54F4C8F183683E,
-	OpenVR_InitInternal2_m352394668D5B5F128E7DC44E0B18D3E70F8CAAEA,
-	OpenVR_ShutdownInternal_m3FE1F7B479DD2EF6410CA54EB47C4D0C10B04F62,
-	OpenVR_IsHmdPresent_m31B5435E58863FA4B9D1006A850996FE5935A12E,
-	OpenVR_IsRuntimeInstalled_mDDF8CF9F29766B20ACACA5FA606440576AFC1BC3,
-	OpenVR_GetStringForHmdError_m98F46D3190BD9AB8620570A9FAC80A3F0817A3FC,
-	OpenVR_GetGenericInterface_m162274857E5599ACEAD6FCC23E349961F3EB1E2F,
-	OpenVR_IsInterfaceVersionValid_m5E4C10B2492AC3E241640F7C16961EA38AB9061E,
-	OpenVR_GetInitToken_m7A23399D7248080EE939AD2698D0286216CB4F2A,
-	OpenVR_get_VRToken_mF24F3FBA0A460B0947D2E228BFA11FA7CD2937AB,
-	OpenVR_set_VRToken_mF3018BC7BB9D0E56DF8279105B097973C8E74039,
-	OpenVR_get_OpenVRInternal_ModuleContext_m761EB612EA96288481F70F717E0F454694FFE918,
-	OpenVR_get_System_m1B39DF83C7EAF1FF1D04FDBB3DE323BB849CF7EA,
-	OpenVR_get_Chaperone_m31477AB97848D4649F2E0D584FF25919377B4FCB,
-	OpenVR_get_ChaperoneSetup_mCC4416EC46BED5BCC07EB953FE2E92C3C10D00B4,
-	OpenVR_get_Compositor_m4CE5F66BF1E7DAE9495EE44D940F8288CEF630BD,
-	OpenVR_get_Overlay_m7D3F7B946A82525C58719F860C7D44533F83BA94,
-	OpenVR_get_RenderModels_mACD44EB70C81916722750AC44A9D25EB1DAFE134,
-	OpenVR_get_ExtendedDisplay_m7BE66559CEDA31E84A485CC10D76394B87FF58C1,
-	OpenVR_get_Settings_m0296AE64C045424F7C1C9EF93BA6EADB7B60A3F2,
-	OpenVR_get_Applications_m08E089CA6F481F0115FA396E6141742B78B490BD,
-	OpenVR_get_Screenshots_mDE67ED3435EAA2B74B15E117B141301D22C0F30C,
-	OpenVR_get_TrackedCamera_m4589969D28E30B6A4A22A9F7D8232E627BA5CD0D,
-	OpenVR_get_Input_m25D6F2CB3057F60D783A9DE12B2737949C6028F8,
-	OpenVR_get_SpatialAnchors_m0BB48E379F1DCFC16DD8148DBF64799A47D9588F,
-	OpenVR_Init_mD792013A53984720023F85E1FF07C7274D408C10,
-	OpenVR_Shutdown_m539E6EEB2087F63EE6D698274962DB6EF56E1312,
+	OpenVR_InitInternal_mE3F867F429E23B03889D2E28C99A9411DDB6EE38,
+	OpenVR_InitInternal2_m15578451924C0230AE669E766B30312AE86AF464,
+	OpenVR_ShutdownInternal_m469DC26C55EBCCF5BE670A3E95449501BDB0F3AE,
+	OpenVR_IsHmdPresent_m178A98315AC2097BF71963E1D03223DA302CE8BF,
+	OpenVR_IsRuntimeInstalled_m0C444E7D9A36A3C2B7812D59DC2F66D1B332B8A4,
+	OpenVR_GetStringForHmdError_mA0883891AEDC288BAA5670B33359D10C502A5F75,
+	OpenVR_GetGenericInterface_m7D8E98D035EF8B81F68A97B78832147123E28483,
+	OpenVR_IsInterfaceVersionValid_mA6D387D4DD48B7EAB28F45A66DE73041775D9838,
+	OpenVR_GetInitToken_mC0921D780224352282C1DFC4A3958E9158FACEC3,
+	OpenVR_get_VRToken_mCD564FB45B8B2975059C0829310A9EE0653931A4,
+	OpenVR_set_VRToken_mC7E9BB9F5F6A01C78347241B0BE75343741BF768,
+	OpenVR_get_OpenVRInternal_ModuleContext_m709E03F3C4F61E9FDDADA10540E5F2E997D55AD6,
+	OpenVR_get_System_m3E623FF7D408DACC163D9CB6CD2F9193CB5E51EA,
+	OpenVR_get_Chaperone_mF7F84491320C4C7F16851A3AECE99E954D4664E7,
+	OpenVR_get_ChaperoneSetup_mB86A19D56D2B2DD6E7B817A11C11C7462F6AAFD8,
+	OpenVR_get_Compositor_m029FB3CBC26F2F6CE377EBF065DDF54F47BDFE3E,
+	OpenVR_get_Overlay_m5EC60FDA4DA7BEC8A260FF9BA611F437E0953672,
+	OpenVR_get_RenderModels_m345A8E505CAD870D2145554A450093C21198B6EF,
+	OpenVR_get_ExtendedDisplay_m3180E8D78ADE72077EB28C3D6EC69F832EBA4658,
+	OpenVR_get_Settings_mEA3226083DD26C27BD431CD183FA9744CAFC6FBD,
+	OpenVR_get_Applications_m9B86C8B9F93167C4102269896C5073F0CDCD5BFE,
+	OpenVR_get_Screenshots_mE551B4050FA10EA6DA2EE8D542A3A97F27A14423,
+	OpenVR_get_TrackedCamera_m1592A1B6EDBD89A110F71ADA4247BFCB54293D8A,
+	OpenVR_get_Input_mCEA62714C394CA4663123B6BF51E77A4461CF6CF,
+	OpenVR_get_SpatialAnchors_m8066719876EFC2E7576810ED31AAC95CAD96FA5D,
+	OpenVR_Init_mA6CD6FC88561FF4B56E8DC1E340D3579C240D7E5,
+	OpenVR_Shutdown_mAE690261A33B64510E4C08F9CF416AC993DD6F22,
 	OpenVR__ctor_mC15B753CDE11FCA2A80D94EF6429FF03E3628FAA,
 	COpenVRContext__ctor_mE9D5B40D5D13661C47719EF7E915A29DBF38F274,
 	COpenVRContext_Clear_m51E0244AAD6E1EFADB69A34AAF713D8E9EB6FA73,
@@ -13172,16 +13172,16 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRInputModule_ProcessMousePress_m8FB12642E4586D7C5F71ECFA5E56ABE3FFE834E9,
 	OVRInputModule_ProcessMouseEvent_mEF8F3DCD9DEBD00901217A431B8ADD2D15C007BF,
 	OVRInputModule_Process_mAD086AA91AE7346006E455F117A91170045BB53A,
-	OVRInputModule_UseMouse_m4529E8045A217708A93A3A238337C239F96151D0,
+	OVRInputModule_UseMouse_mF84F562B4F48BD85BC13A20D9C231DDEF0C9B710,
 	OVRInputModule_CopyFromTo_m7469C2E36FBE72A7109BC094DC3B19651698A691,
 	OVRInputModule_CopyFromTo_m37C59AD69F91D8C3A407B94FC6D182F9B2F035C8,
 	OVRInputModule_GetPointerData_m1D35FE2BEC6DF0322E533EE623C57D5D476C19D0,
 	OVRInputModule_ClearSelection_m8BB4DB17CCE3F2897281E77858D85C9A8E218906,
-	OVRInputModule_GetRectTransformNormal_m48A101EFE6440FFA3C42739FFF4F3472BCEF4760,
+	OVRInputModule_GetRectTransformNormal_mF03B37932F37A309381C3EBF51CAA0FE7C1BF348,
 	OVRInputModule_GetGazePointerData_m2F1B5254C796E2677281553493A295B0AD89857F,
 	OVRInputModule_GetCanvasPointerData_mA781BE0613EB11DCE69F0ECC0079443A7DCB15E4,
 	OVRInputModule_ShouldStartDrag_mCF231D4DB00DDD77F5A5DCA8D35FBC1F47844AF6,
-	OVRInputModule_IsPointerMoving_mDFCC7C0BD243F9DC5BF3D31BEDDB69328960BBBF,
+	OVRInputModule_IsPointerMoving_m5D57E25B238B95FDD5BE45DA3A377529345FD186,
 	OVRInputModule_SwipeAdjustedPosition_mA47A3CED9DE48B6338F6DF0D0D43245705962EEC,
 	OVRInputModule_ProcessDrag_m2782747DF3402E604A05276895FA5BA518D34F40,
 	OVRInputModule_GetGazeButtonState_mAF33F9D7355D973D517D6C77B9142280A76B97E2,
@@ -13196,16 +13196,16 @@ static Il2CppMethodPointer s_methodPointers[4431] =
 	OVRPhysicsRaycaster_Raycast_m843259975D6BF5E0BF69D226F6229BAE21488DE5,
 	OVRPhysicsRaycaster_Spherecast_m5C0B2A941C9D1F9C92A2AD1026510DC5D64E9945,
 	OVRPhysicsRaycaster_GetScreenPos_mAD6CC9D4FC2F01C2CBFA281660E8BC7B3C3C0A84,
-	U3CU3Ec__cctor_m8F78FCD6395BDC9ABCDF18BDBCC10C4AEC9A1F34,
+	U3CU3Ec__cctor_mA489E90CFBC65EE9F35B42C72ECA8037362EF497,
 	U3CU3Ec__ctor_mFC1568EC2B965777FBA11D46651A32FB41491E2A,
 	U3CU3Ec_U3CRaycastU3Eb__15_0_mEFC66B60EE677A040D1C002373D4CF3C5DFF97FF,
 	U3CU3Ec_U3CSpherecastU3Eb__16_0_m01ADCEABB9904FA2BE7802AEA7CD76AEADC96D7B,
 	OVRPointerEventData__ctor_mF3624D599F08C10D0D2E14CB8E8016AEC1FFA1B9,
 	OVRPointerEventData_ToString_m37BD8F9E0912E8BD6F215B28D5C662BD60AA5261,
-	PointerEventDataExtension_IsVRPointer_mC87C4ACBCC669AF3321A90BB9966EB58BD7EB351,
-	PointerEventDataExtension_GetRay_mD821B82E9483B8495B8669EB2FC5F2BE274B2554,
-	PointerEventDataExtension_GetSwipeStart_m455CE5AAFDF775639669B4845DA5B5626A82B1EB,
-	PointerEventDataExtension_SetSwipeStart_mDA3BDD1DD27BEBE9816D4DEF2D209134DCF79062,
+	PointerEventDataExtension_IsVRPointer_m630294B1887266CFC4779146B4D066B6EBF4DCD5,
+	PointerEventDataExtension_GetRay_m8C036451341B0C37A138E9D3BB509B9DFDCADD99,
+	PointerEventDataExtension_GetSwipeStart_m09ED39DC9E87EDFB80926815E29A3B130E3CA586,
+	PointerEventDataExtension_SetSwipeStart_m3FD15231D3C0B9BC95B84E7048FF8289CF4359C5,
 	OculusXRFeature_HookGetInstanceProcAddr_m84F55CE702836D2D53149B39329E7A474C0DE1A8,
 	OculusXRFeature_OnInstanceCreate_m6BD23B480A63340023A5ECB2DD214FA35A9B79AD,
 	OculusXRFeature_OnInstanceDestroy_m5A1ABDC8002FC822E88244EFA5A2F96959109B55,
@@ -13471,4437 +13471,4437 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[124] =
 };
 static const int32_t s_InvokerIndices[4431] = 
 {
-	8784,
-	8784,
-	2164,
+	8794,
+	8794,
+	2160,
 	0,
 	0,
 	0,
+	8794,
+	3992,
+	3117,
+	6203,
+	14189,
+	14176,
+	13727,
+	13727,
+	14159,
+	12476,
+	12351,
+	11094,
+	8794,
+	8598,
+	2160,
+	2160,
+	6982,
+	5831,
+	6939,
+	1541,
+	8794,
+	8794,
+	3984,
+	1982,
+	4057,
+	8794,
+	3984,
+	8794,
+	8794,
+	8514,
+	4195,
+	4196,
+	6230,
+	6479,
+	8514,
+	6852,
+	8794,
+	15114,
+	8643,
+	8643,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	6982,
+	6982,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	3305,
+	8794,
+	8794,
+	8794,
+	3151,
+	8627,
+	8794,
+	12214,
+	13808,
+	12212,
+	13808,
+	12214,
+	12213,
+	11538,
+	13809,
+	14943,
+	13634,
+	14929,
+	14163,
+	14163,
+	14163,
+	14941,
+	14941,
+	14941,
+	14172,
+	14942,
+	13924,
+	13924,
+	13924,
+	14938,
+	14938,
+	14938,
+	13690,
+	12257,
+	11912,
+	12714,
+	13727,
+	15024,
+	9499,
+	9499,
+	11876,
+	10836,
+	10836,
+	15114,
+	15060,
+	5003,
+	8598,
+	11899,
+	11899,
+	12211,
+	8641,
+	8641,
+	8931,
+	8931,
+	8641,
+	6939,
+	8794,
+	6939,
+	8598,
+	6144,
+	8794,
+	6852,
+	6939,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6982,
+	6982,
+	8794,
 	8784,
-	3994,
-	3123,
-	6198,
-	14174,
-	14161,
-	13713,
-	13713,
-	14144,
-	12464,
-	12339,
-	11082,
-	8784,
-	8588,
-	2164,
-	2164,
-	6978,
-	5830,
-	6935,
-	1545,
-	8784,
-	8784,
-	3986,
-	1985,
-	4059,
-	8784,
-	3986,
-	8784,
-	8784,
-	8503,
-	4197,
-	4198,
-	6225,
-	6474,
-	8503,
-	6847,
-	8784,
-	15099,
-	8633,
-	8633,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	6978,
-	6978,
 	8784,
 	8784,
 	8784,
-	8784,
-	8784,
-	3310,
-	8784,
-	8784,
-	8784,
-	3157,
-	8617,
-	8784,
-	12202,
-	13793,
-	12200,
-	13793,
-	12202,
-	12201,
-	11526,
-	13794,
-	14928,
-	13620,
-	14914,
-	14148,
-	14148,
-	14148,
-	14926,
-	14926,
-	14926,
-	14157,
-	14927,
-	13909,
-	13909,
-	13909,
-	14923,
-	14923,
-	14923,
-	13676,
-	12245,
-	11900,
-	12701,
-	13713,
-	15009,
-	9485,
-	9485,
-	11864,
-	10823,
-	10823,
-	15099,
-	15045,
-	5004,
-	8588,
-	11887,
-	11887,
-	12199,
-	8631,
-	8631,
-	8917,
-	8917,
-	8631,
-	6935,
-	8784,
-	6935,
-	8588,
-	6139,
-	8784,
-	6847,
-	6935,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6978,
-	6978,
-	8784,
-	8774,
-	8774,
-	8774,
-	8774,
-	7536,
-	8905,
-	8701,
-	8588,
-	8633,
-	8701,
-	7043,
-	8784,
-	6935,
-	2157,
-	8588,
-	13718,
-	2112,
-	2112,
-	2112,
-	1465,
-	1466,
-	2112,
-	1465,
-	6233,
-	2112,
-	5830,
-	6358,
-	1940,
-	3204,
-	1526,
-	3994,
-	6847,
-	7043,
-	7110,
-	6251,
-	3249,
-	2136,
-	5864,
-	5864,
-	0,
-	6484,
-	6295,
-	15099,
-	6978,
-	6978,
-	3121,
-	6978,
-	6978,
-	6935,
-	7043,
-	13702,
-	12606,
-	5004,
-	3154,
-	1708,
-	2790,
+	7548,
+	8919,
+	8711,
+	8598,
+	8643,
+	8711,
+	7047,
+	8794,
+	6939,
+	2153,
+	8598,
+	13732,
+	2108,
+	2108,
+	2108,
+	1461,
+	1462,
+	2108,
+	1461,
+	6238,
+	2108,
+	5831,
+	6363,
+	1937,
+	3198,
+	1522,
+	3992,
+	6852,
+	7047,
+	7114,
+	6256,
+	3243,
 	2132,
-	3122,
-	14161,
-	3994,
-	6195,
+	5865,
+	5865,
+	0,
+	6489,
+	6300,
+	15114,
+	6982,
+	6982,
+	3115,
+	6982,
+	6982,
+	6939,
+	7047,
+	13716,
+	12619,
+	5003,
+	3148,
+	1704,
+	2786,
+	2128,
+	3116,
+	14176,
+	3992,
 	6200,
-	6832,
-	3147,
-	5864,
-	8784,
-	15099,
-	8784,
-	8784,
-	15099,
-	15099,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15099,
-	15099,
-	7100,
-	6978,
-	6978,
-	6978,
-	8784,
-	7100,
-	8784,
-	6978,
-	6978,
-	6978,
-	8784,
-	8588,
-	6935,
-	8633,
-	6978,
-	6978,
-	8588,
-	6935,
-	8588,
-	6935,
-	8633,
-	6978,
-	8784,
-	6935,
-	3986,
-	3994,
-	3986,
-	6847,
-	8784,
-	1482,
-	8784,
-	8784,
-	8503,
-	8503,
-	8784,
-	15009,
-	15099,
-	15099,
-	15099,
-	13575,
-	13575,
-	13575,
-	13575,
-	14140,
-	14140,
-	14140,
-	13904,
-	14140,
-	14140,
-	9484,
-	15036,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	11867,
-	11867,
-	10824,
-	12334,
-	12334,
-	11161,
-	12446,
-	12446,
-	11248,
-	15036,
-	13575,
-	15036,
-	11558,
-	10637,
-	12222,
-	15099,
-	15099,
-	15099,
-	12725,
+	6205,
+	6837,
+	3141,
+	5865,
+	8794,
+	15114,
+	8794,
+	8794,
+	15114,
+	15114,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15114,
+	15114,
+	7104,
+	6982,
+	6982,
+	6982,
+	8794,
+	7104,
+	8794,
+	6982,
+	6982,
+	6982,
+	8794,
+	8598,
+	6939,
+	8643,
+	6982,
+	6982,
+	8598,
+	6939,
+	8598,
+	6939,
+	8643,
+	6982,
+	8794,
+	6939,
+	3984,
+	3992,
+	3984,
+	6852,
+	8794,
+	1478,
+	8794,
+	8794,
+	8514,
+	8514,
+	8794,
+	15024,
+	15114,
+	15114,
+	15114,
 	13589,
-	11558,
-	13575,
-	12457,
-	12345,
-	12456,
-	12345,
-	11867,
-	8784,
-	8784,
-	8588,
-	7546,
-	4059,
-	8503,
+	13589,
+	13589,
+	13589,
+	14155,
+	14155,
+	14155,
+	13919,
+	14155,
+	14155,
+	9498,
+	15051,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	11879,
+	11879,
+	10837,
+	12346,
+	12346,
+	11173,
+	12458,
+	12458,
+	11260,
+	15051,
+	13589,
+	15051,
+	11570,
+	10649,
+	12234,
+	15114,
+	15114,
+	15114,
+	12738,
+	13603,
+	11570,
+	13589,
+	12469,
+	12357,
+	12468,
+	12357,
+	11879,
+	8794,
+	8794,
+	8598,
+	7558,
+	4057,
+	8514,
 	0,
 	0,
 	0,
 	0,
 	0,
-	5830,
-	5830,
-	5830,
-	5830,
-	5830,
-	5830,
-	8784,
-	5830,
-	8784,
-	5830,
-	8784,
-	5830,
-	8784,
-	5830,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8588,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	4059,
-	15009,
-	15009,
-	15009,
-	13958,
-	13575,
-	10828,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	11891,
-	8784,
-	8784,
-	15046,
-	14174,
-	15046,
-	14174,
-	15046,
-	14174,
-	15046,
-	14174,
-	15046,
-	14174,
-	15046,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	14174,
-	15009,
-	14162,
-	15046,
-	15046,
-	15009,
-	14162,
-	15009,
-	8503,
-	6847,
-	8503,
-	6847,
-	8588,
-	6935,
-	8588,
-	15009,
-	8774,
-	7112,
-	8774,
-	7112,
-	15009,
-	14162,
-	8503,
-	6847,
-	8602,
-	6951,
-	8602,
-	6951,
-	8503,
-	6847,
-	8588,
-	6935,
-	8505,
-	6850,
-	8505,
-	6850,
-	8588,
-	6935,
-	8503,
-	6847,
-	8503,
-	6847,
-	8701,
-	7043,
-	8701,
-	7043,
-	8588,
-	6935,
-	8505,
-	6850,
-	8701,
-	7043,
-	8701,
-	7043,
-	8701,
-	7043,
-	8503,
-	6847,
-	8588,
-	6935,
-	8701,
-	7043,
-	8701,
-	7043,
-	8588,
-	6935,
-	8701,
-	7043,
-	8701,
-	7043,
-	8503,
-	6847,
-	8701,
-	7043,
-	8588,
-	6935,
-	8633,
-	6978,
-	8588,
-	8765,
-	8765,
-	8588,
-	6935,
-	15078,
-	15078,
-	15036,
-	15078,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15009,
-	15036,
-	14170,
-	15009,
-	15036,
-	14170,
-	15009,
-	14162,
-	15009,
-	15036,
-	14170,
-	15009,
-	15078,
-	15036,
-	11571,
-	10637,
-	13792,
-	14162,
-	15009,
-	8588,
-	6935,
-	8503,
-	6847,
-	8503,
-	6847,
-	15046,
-	15046,
-	15046,
-	15009,
-	15009,
-	15009,
-	15009,
-	15009,
-	15009,
-	8784,
-	8784,
-	8784,
-	15046,
-	15046,
-	15046,
-	8784,
-	8784,
-	8784,
-	15046,
-	8784,
-	8784,
-	8784,
-	8784,
-	6847,
-	6847,
-	8784,
-	8784,
-	15099,
-	14174,
-	11530,
-	14174,
-	15009,
-	13575,
-	15009,
-	15099,
-	14162,
-	15009,
-	15009,
-	15009,
-	8784,
-	15099,
-	3989,
-	3154,
-	1302,
-	6234,
-	15099,
-	8784,
-	6241,
-	2875,
-	10595,
-	15099,
-	15099,
-	15099,
-	8784,
+	5831,
+	5831,
+	5831,
+	5831,
+	5831,
+	5831,
+	8794,
+	5831,
+	8794,
+	5831,
+	8794,
+	5831,
+	8794,
+	5831,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8598,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	4057,
+	15024,
+	15024,
+	15024,
+	13973,
+	13589,
+	10841,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	11903,
+	8794,
+	8794,
+	15061,
+	14189,
+	15061,
+	14189,
+	15061,
+	14189,
+	15061,
+	14189,
+	15061,
+	14189,
+	15061,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	14189,
+	15024,
+	14177,
+	15061,
+	15061,
+	15024,
+	14177,
+	15024,
+	8514,
+	6852,
+	8514,
+	6852,
+	8598,
+	6939,
+	8598,
+	15024,
+	8784,
+	7116,
+	8784,
+	7116,
+	15024,
+	14177,
+	8514,
+	6852,
+	8612,
+	6955,
+	8612,
+	6955,
+	8514,
+	6852,
+	8598,
+	6939,
+	8516,
+	6855,
+	8516,
+	6855,
+	8598,
+	6939,
+	8514,
+	6852,
+	8514,
+	6852,
+	8711,
+	7047,
+	8711,
+	7047,
+	8598,
+	6939,
+	8516,
+	6855,
+	8711,
+	7047,
+	8711,
+	7047,
+	8711,
+	7047,
+	8514,
+	6852,
+	8598,
+	6939,
+	8711,
+	7047,
+	8711,
+	7047,
+	8598,
+	6939,
+	8711,
+	7047,
+	8711,
+	7047,
+	8514,
+	6852,
+	8711,
+	7047,
+	8598,
+	6939,
+	8643,
+	6982,
+	8598,
+	8775,
+	8775,
+	8598,
+	6939,
+	15093,
+	15093,
+	15051,
+	15093,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15024,
+	15051,
+	14185,
+	15024,
+	15051,
+	14185,
+	15024,
+	14177,
+	15024,
+	15051,
+	14185,
+	15024,
+	15093,
+	15051,
+	11583,
+	10649,
+	13807,
+	14177,
+	15024,
+	8598,
+	6939,
+	8514,
+	6852,
+	8514,
+	6852,
+	15061,
+	15061,
+	15061,
+	15024,
+	15024,
+	15024,
+	15024,
+	15024,
+	15024,
+	8794,
+	8794,
+	8794,
+	15061,
+	15061,
+	15061,
+	8794,
+	8794,
+	8794,
+	15061,
+	8794,
+	8794,
+	8794,
+	8794,
+	6852,
+	6852,
+	8794,
+	8794,
+	15114,
+	14189,
+	11542,
+	14189,
+	15024,
+	13589,
+	15024,
+	15114,
+	14177,
+	15024,
+	15024,
+	15024,
+	8794,
+	15114,
+	3987,
+	3148,
+	1298,
+	6239,
+	15114,
+	8794,
+	6246,
+	2869,
+	10607,
+	15114,
+	15114,
+	15114,
+	8794,
 	0,
 	0,
-	8503,
-	6847,
-	2150,
-	8588,
-	6935,
-	8588,
-	8588,
-	13575,
+	8514,
+	6852,
+	2146,
+	8598,
+	6939,
+	8598,
+	8598,
+	13589,
 	253,
-	1653,
-	8784,
-	8784,
-	1577,
-	8784,
-	4115,
-	8503,
-	8916,
-	6307,
-	1548,
+	1649,
+	8794,
+	8794,
+	1573,
+	8794,
+	4113,
+	8514,
+	8930,
+	6312,
+	1544,
 	432,
 	248,
-	8784,
-	13575,
-	8784,
-	15046,
-	8784,
-	8784,
-	8784,
-	8784,
-	829,
-	4106,
-	8784,
-	8784,
-	15099,
-	3989,
-	8784,
-	3157,
-	6978,
-	8784,
-	6978,
-	3191,
-	8784,
-	8784,
-	8784,
-	743,
-	9167,
-	11250,
-	12468,
-	9078,
-	11249,
-	11260,
-	9114,
-	10597,
-	9411,
-	8784,
-	15099,
-	3974,
-	6978,
-	5004,
-	8701,
-	7043,
-	8503,
-	6847,
-	8505,
-	6850,
-	6978,
-	814,
-	6978,
-	2217,
-	8784,
-	8588,
-	6935,
-	8784,
-	6181,
-	1695,
-	6847,
-	8784,
-	8784,
-	8784,
-	15046,
-	6847,
-	10613,
-	3570,
-	3710,
-	2217,
-	8784,
-	8588,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	15099,
-	8784,
-	5293,
-	8784,
-	5293,
-	8588,
-	8784,
-	8784,
-	15009,
-	8784,
-	8784,
-	15099,
-	15046,
-	15046,
-	14174,
-	15009,
-	15036,
-	15009,
-	14162,
-	15009,
-	14162,
-	15009,
-	14162,
-	15009,
-	14162,
-	15009,
-	14162,
-	15009,
-	15009,
-	15009,
-	15009,
-	15009,
-	15009,
-	15036,
-	15036,
-	15046,
-	15046,
-	15009,
-	15009,
-	15009,
-	15009,
-	15046,
-	15046,
-	15078,
-	14181,
-	15078,
-	14181,
-	15078,
-	15078,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15036,
-	14170,
-	15078,
-	15078,
-	14181,
-	15009,
-	14162,
-	15036,
-	14918,
-	14924,
-	14922,
-	14918,
-	13575,
-	9027,
-	9281,
-	10894,
-	13577,
-	11038,
-	13713,
-	13765,
-	11866,
-	13394,
-	13398,
-	13398,
-	13398,
-	13398,
-	13575,
-	13575,
-	13575,
-	13575,
-	13575,
-	13393,
-	13392,
-	14921,
-	15114,
-	15114,
-	14922,
-	14915,
-	14916,
-	14917,
-	10877,
-	14919,
-	14920,
-	11967,
-	15078,
-	15078,
-	15009,
-	13390,
-	13391,
-	14913,
-	10825,
-	15113,
-	15009,
-	15078,
-	13571,
-	15020,
-	15036,
-	13575,
-	15009,
-	15009,
-	15009,
-	15036,
-	15009,
-	10819,
-	10821,
-	13575,
-	10822,
-	13575,
-	15009,
-	10837,
-	10837,
-	15009,
-	15009,
-	15009,
-	15009,
-	15036,
-	10068,
-	13590,
-	10069,
-	13590,
-	11969,
-	11871,
-	11870,
-	14925,
-	15009,
-	13569,
-	15036,
-	15036,
-	15036,
-	13705,
-	15036,
-	13575,
-	15114,
-	15009,
-	13575,
-	15009,
-	15036,
-	14170,
-	15009,
-	14162,
-	15009,
-	15036,
-	14170,
-	15009,
-	15078,
-	15046,
-	15078,
-	14181,
-	15009,
-	14162,
-	11864,
-	15009,
-	15009,
-	15036,
-	10853,
-	11808,
-	11808,
-	13575,
-	13448,
-	13435,
-	15020,
-	10890,
-	11900,
-	13575,
-	15078,
-	15009,
-	10823,
-	11864,
-	11864,
-	11864,
-	13590,
-	15009,
-	11864,
-	11864,
-	15036,
-	15009,
-	13575,
-	15036,
-	13567,
-	15092,
-	15092,
-	13612,
-	11987,
-	9515,
-	10108,
-	10879,
-	10109,
-	10880,
-	11968,
-	11986,
-	11968,
-	10880,
-	13395,
-	13590,
-	11968,
-	11968,
-	11968,
-	11968,
-	11968,
-	11968,
-	11891,
-	15046,
-	11891,
-	13870,
-	15099,
-	8784,
-	3989,
-	2080,
-	636,
-	6978,
-	8633,
-	15099,
-	8633,
-	15099,
-	8633,
-	15099,
-	8633,
-	15099,
-	8633,
-	15099,
-	8633,
-	15099,
-	15099,
-	7288,
-	7287,
-	5302,
-	5004,
-	8588,
-	15099,
-	15099,
-	15099,
-	8633,
-	8633,
-	7290,
-	8916,
-	8784,
-	15009,
-	15009,
-	15009,
-	15009,
-	15036,
-	13575,
-	15009,
-	15036,
-	13575,
-	15009,
-	15009,
-	15009,
-	13575,
-	15036,
-	11867,
-	12586,
-	13575,
-	15036,
-	13569,
-	15009,
-	9127,
-	9207,
-	13575,
+	8794,
 	13589,
-	10895,
-	15009,
-	8784,
-	0,
-	0,
-	0,
-	12170,
-	14030,
-	14030,
-	11877,
-	14030,
-	10833,
-	13577,
-	8784,
-	15099,
-	13767,
-	13590,
-	14184,
-	14184,
-	14184,
-	12609,
-	14184,
-	14184,
-	14184,
-	14184,
-	8784,
-	14924,
-	15099,
-	9319,
-	15099,
-	14922,
-	11010,
-	15099,
-	14922,
-	14922,
-	15099,
-	15099,
-	15036,
-	13713,
+	8794,
+	15061,
+	8794,
+	8794,
+	8794,
+	8794,
+	827,
+	4104,
+	8794,
+	8794,
 	15114,
-	13726,
-	15099,
-	15036,
-	15038,
-	15046,
-	15038,
-	15046,
-	15038,
-	15038,
-	15078,
-	13723,
-	15036,
-	15036,
-	13713,
-	15036,
-	15036,
-	13713,
-	13713,
-	13713,
-	13713,
-	14918,
-	14915,
-	15036,
-	13713,
-	15036,
-	13713,
-	15036,
-	15078,
-	15036,
-	15078,
-	15036,
-	15078,
-	15078,
-	15038,
-	15046,
-	13713,
-	15036,
-	13713,
-	15036,
-	15036,
-	15036,
-	15038,
-	15046,
-	15036,
-	15078,
-	13723,
-	15078,
-	13723,
-	15078,
-	13723,
-	15099,
-	13713,
-	15036,
-	15099,
-	15036,
-	13713,
-	15036,
-	15099,
-	15036,
-	15099,
-	15036,
-	13713,
-	14919,
-	14920,
-	12135,
-	9225,
-	15078,
-	15078,
-	15036,
-	15099,
-	15036,
-	13713,
-	15099,
-	15036,
-	13390,
-	13391,
-	14913,
-	14925,
-	15036,
-	13713,
-	10965,
-	13394,
-	13394,
-	13394,
-	15099,
-	15036,
-	15036,
-	15036,
-	10969,
-	15113,
-	15036,
-	15099,
-	15099,
-	13713,
-	15036,
-	15099,
-	15078,
-	13393,
-	14916,
-	15099,
-	15036,
-	15036,
-	15036,
-	15036,
-	13702,
-	12096,
-	12092,
-	12092,
-	9141,
-	12080,
-	13715,
-	12092,
-	10177,
-	9147,
-	12092,
-	15036,
-	15099,
-	15036,
-	13713,
-	12101,
-	13713,
-	13713,
-	13713,
-	13713,
-	12092,
-	10959,
-	12132,
-	15099,
-	15099,
-	13708,
-	13702,
-	13702,
-	15099,
-	15099,
-	13702,
-	13702,
-	13713,
-	13702,
-	13702,
-	13702,
-	12104,
-	13723,
-	13702,
-	15099,
-	13702,
-	12118,
-	10945,
-	15099,
-	12092,
-	12076,
-	12076,
-	10177,
-	15099,
-	13702,
-	13702,
-	10995,
-	12092,
-	12092,
-	12092,
-	15099,
-	13702,
-	11015,
-	15099,
-	12118,
-	15099,
-	9041,
-	15099,
-	15099,
-	15099,
-	15099,
-	12079,
-	15036,
-	15036,
-	13702,
-	15036,
-	13702,
-	13713,
-	13702,
-	13702,
-	13702,
-	13713,
-	13702,
-	12094,
-	12076,
-	13713,
-	13702,
-	13713,
-	13702,
-	9322,
-	9219,
-	13713,
-	13713,
-	12092,
-	12092,
-	15099,
-	15099,
-	15099,
-	15099,
-	13702,
-	15099,
-	15099,
-	13702,
-	10963,
-	12092,
-	12095,
-	10963,
-	12092,
-	10963,
-	12092,
-	15036,
-	10981,
-	13702,
-	15099,
-	13702,
-	13726,
-	15099,
-	13702,
-	13713,
-	15099,
-	15099,
-	10981,
-	15099,
-	13713,
-	13702,
-	9218,
-	9143,
-	11020,
-	12076,
-	13702,
-	12107,
-	12104,
-	12104,
-	12104,
-	13715,
-	12104,
-	12111,
-	10975,
-	10976,
-	15099,
-	15099,
-	15099,
-	15099,
-	15099,
-	15036,
-	15099,
-	12092,
-	13702,
-	13702,
-	12076,
-	15099,
-	12076,
-	15099,
-	15099,
-	13702,
-	13713,
-	13713,
-	13702,
-	13742,
-	15099,
-	15099,
-	15099,
-	15099,
-	15099,
-	15099,
-	15036,
-	15036,
-	15036,
-	12100,
-	9320,
-	13727,
-	10183,
-	13727,
-	12136,
-	15099,
-	10940,
-	15099,
-	10951,
-	12104,
-	12104,
-	12109,
-	10979,
-	12104,
-	13715,
-	13702,
-	15099,
-	15036,
-	13702,
-	15099,
-	15099,
-	10361,
-	12134,
-	12113,
-	12099,
-	13727,
-	15036,
-	12092,
-	10963,
-	15099,
-	12092,
-	15099,
-	13718,
-	15099,
-	13702,
-	11460,
-	13767,
-	13727,
-	14184,
-	14184,
-	14184,
-	12609,
-	14184,
-	14184,
-	14184,
-	14184,
-	13713,
-	13702,
-	13713,
-	13702,
-	15099,
-	12076,
-	9527,
-	10159,
-	10170,
-	10162,
-	12076,
-	10169,
-	10943,
-	12076,
-	12076,
-	12076,
-	12076,
-	12076,
-	12076,
-	12076,
-	15099,
-	15099,
-	12076,
-	10984,
-	15099,
-	15099,
-	10956,
-	15099,
-	8784,
-	8784,
-	8633,
-	8633,
-	8633,
-	8701,
-	8701,
-	8701,
-	8701,
-	8588,
-	8784,
-	13853,
-	0,
-	14174,
-	8784,
-	8784,
-	5004,
-	0,
-	0,
-	15046,
-	8784,
-	8632,
-	6977,
-	8560,
-	6909,
-	4964,
-	0,
-	3962,
-	6978,
-	8503,
-	8784,
-	8784,
-	8784,
-	15099,
-	0,
-	8784,
-	8784,
-	7301,
-	6978,
-	8784,
-	8784,
-	8927,
-	8633,
-	8633,
-	8784,
-	8784,
 	3987,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8382,
-	8784,
-	8503,
-	8503,
-	8784,
-	8784,
-	8503,
-	1692,
-	4089,
-	11889,
-	1869,
-	4089,
-	8784,
-	418,
-	7295,
-	8784,
-	2875,
-	2503,
-	15046,
-	15099,
-	8784,
-	3994,
-	3994,
-	3994,
-	12701,
-	12701,
-	12701,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8633,
-	8633,
-	8633,
-	6978,
-	8784,
-	8633,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8701,
-	7043,
-	8701,
-	7043,
-	8772,
-	11541,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	12118,
-	8701,
-	7043,
-	8701,
-	7043,
-	8701,
-	7043,
-	8774,
-	8784,
-	8784,
-	8784,
-	8633,
-	5004,
-	8784,
-	8784,
-	8784,
-	8765,
-	4858,
-	8503,
-	7101,
-	8633,
+	8794,
+	3151,
+	6982,
+	8794,
+	6982,
+	3185,
+	8794,
+	8794,
+	8794,
+	741,
+	9181,
+	11262,
+	12480,
+	9092,
+	11261,
+	11272,
+	9128,
+	10609,
+	9425,
+	8794,
+	15114,
+	3972,
+	6982,
 	5003,
-	5004,
-	8588,
-	11890,
-	11890,
-	13795,
-	14116,
-	8588,
-	6935,
-	8528,
-	6878,
-	8588,
-	6935,
-	8588,
-	6935,
-	8588,
-	6935,
-	8764,
-	7100,
-	8633,
-	6978,
-	7304,
-	4858,
-	15099,
-	8632,
-	6977,
-	8560,
-	6909,
-	8503,
-	8503,
-	3962,
-	6978,
-	6978,
-	14165,
-	3962,
-	8784,
-	8784,
-	8784,
-	8631,
-	8784,
-	11888,
-	8784,
-	0,
-	15099,
-	15099,
-	12736,
-	10631,
-	10633,
-	10630,
-	11988,
-	12736,
-	9428,
-	8784,
-	8588,
-	6935,
-	8588,
-	6935,
-	8528,
-	6878,
-	8633,
-	6978,
-	8931,
-	8560,
-	8503,
-	8503,
-	8646,
-	3981,
-	6978,
-	3962,
-	14174,
-	14174,
-	14174,
-	12737,
-	10632,
-	15112,
-	11864,
-	13611,
-	8701,
-	7043,
-	8588,
-	6935,
-	8907,
-	7280,
-	8907,
-	7280,
-	8588,
-	6935,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8588,
-	6935,
-	8633,
-	6978,
-	8633,
-	8633,
-	8784,
-	6364,
-	8784,
-	8784,
-	8503,
-	8633,
-	8633,
-	8784,
-	8633,
-	8784,
-	8784,
-	8784,
-	6847,
-	8633,
-	8784,
-	6935,
-	8503,
-	8784,
-	6978,
-	8784,
-	6847,
-	8784,
-	15099,
-	2132,
-	6847,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	15099,
-	8784,
-	7308,
-	7309,
-	8503,
-	6847,
-	8503,
-	6847,
-	8784,
-	8784,
-	8503,
-	8784,
-	5063,
-	5063,
-	6359,
-	1928,
-	3310,
-	8784,
-	8784,
-	8784,
-	7308,
-	7309,
-	8784,
-	15099,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6234,
-	8784,
-	6847,
-	8784,
-	8503,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8503,
-	8503,
-	8503,
-	6847,
-	8588,
-	7566,
-	6196,
-	4964,
-	4964,
-	8784,
+	8711,
+	7047,
+	8514,
+	6852,
+	8516,
+	6855,
+	6982,
+	812,
+	6982,
+	2213,
+	8794,
+	8598,
+	6939,
+	8794,
+	6186,
+	1691,
+	6852,
+	8794,
+	8794,
+	8794,
+	15061,
+	6852,
 	10625,
-	10625,
-	14170,
-	11559,
-	10625,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	15099,
-	2165,
-	8784,
-	6832,
-	3989,
-	8503,
-	3157,
-	5004,
-	15099,
-	8784,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8784,
-	11565,
-	12701,
-	11900,
-	8784,
-	0,
-	0,
-	8784,
-	8633,
-	6225,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6978,
-	8784,
-	663,
-	6234,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	0,
-	8503,
-	6847,
-	8701,
-	7043,
-	15046,
-	8701,
-	8701,
-	7043,
-	8784,
-	8784,
-	2253,
-	6978,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8503,
-	8503,
-	8503,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	3994,
-	4109,
-	8784,
-	8784,
-	8784,
-	8784,
-	8633,
-	6978,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6978,
-	6978,
-	7043,
-	8784,
-	2244,
-	8784,
-	4109,
-	6847,
-	6978,
-	3974,
-	8784,
-	6978,
-	8784,
-	6832,
-	8784,
-	8784,
-	6847,
-	8784,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8633,
-	6978,
-	8701,
-	7043,
-	8588,
-	6935,
-	8503,
-	6847,
-	8784,
-	8784,
-	8784,
-	6935,
-	4964,
-	6358,
-	5830,
-	8588,
-	8929,
+	3565,
+	3704,
+	2213,
+	8794,
+	8598,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	15114,
+	8794,
+	5296,
+	8794,
+	5296,
+	8598,
+	8794,
+	8794,
+	15024,
+	8794,
+	8794,
+	15114,
+	15061,
+	15061,
+	14189,
+	15024,
+	15051,
+	15024,
+	14177,
+	15024,
+	14177,
+	15024,
+	14177,
+	15024,
+	14177,
+	15024,
+	14177,
+	15024,
+	15024,
+	15024,
+	15024,
+	15024,
+	15024,
+	15051,
+	15051,
+	15061,
+	15061,
+	15024,
+	15024,
+	15024,
+	15024,
+	15061,
+	15061,
+	15093,
+	14196,
+	15093,
+	14196,
+	15093,
+	15093,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15051,
+	14185,
+	15093,
+	15093,
+	14196,
+	15024,
+	14177,
+	15051,
+	14933,
+	14939,
+	14937,
+	14933,
+	13589,
+	9041,
+	9295,
+	10906,
+	13591,
+	11050,
+	13727,
+	13779,
+	11878,
+	13407,
+	13411,
+	13411,
+	13411,
+	13411,
+	13589,
+	13589,
+	13589,
+	13589,
+	13589,
+	13406,
+	13405,
+	14936,
+	15129,
+	15129,
+	14937,
+	14930,
+	14931,
+	14932,
+	10889,
+	14934,
+	14935,
+	11979,
+	15093,
+	15093,
+	15024,
+	13403,
+	13404,
+	14928,
+	10838,
+	15128,
+	15024,
+	15093,
+	13585,
+	15035,
+	15051,
+	13589,
+	15024,
+	15024,
+	15024,
+	15051,
+	15024,
+	10832,
+	10834,
+	13589,
+	10835,
+	13589,
+	15024,
+	10850,
+	10850,
+	15024,
+	15024,
+	15024,
+	15024,
+	15051,
+	10080,
+	13604,
+	10081,
+	13604,
+	11981,
+	11883,
+	11882,
+	14940,
+	15024,
+	13583,
+	15051,
+	15051,
+	15051,
+	13719,
+	15051,
+	13589,
+	15129,
+	15024,
+	13589,
+	15024,
+	15051,
+	14185,
+	15024,
+	14177,
+	15024,
+	15051,
+	14185,
+	15024,
+	15093,
+	15061,
+	15093,
+	14196,
+	15024,
+	14177,
+	11876,
+	15024,
+	15024,
+	15051,
+	10865,
+	11820,
+	11820,
+	13589,
+	13461,
+	13448,
+	15035,
+	10902,
+	11912,
+	13589,
+	15093,
+	15024,
+	10836,
+	11876,
+	11876,
+	11876,
+	13604,
+	15024,
+	11876,
+	11876,
+	15051,
+	15024,
+	13589,
+	15051,
+	13581,
+	15107,
+	15107,
+	13626,
+	11999,
+	9529,
+	10120,
+	10891,
+	10121,
+	10892,
+	11980,
+	11998,
+	11980,
+	10892,
+	13408,
+	13604,
+	11980,
+	11980,
+	11980,
+	11980,
+	11980,
+	11980,
+	11903,
+	15061,
+	11903,
+	13885,
+	15114,
+	8794,
+	3987,
+	2076,
+	634,
+	6982,
+	8643,
+	15114,
+	8643,
+	15114,
+	8643,
+	15114,
+	8643,
+	15114,
+	8643,
+	15114,
+	8643,
+	15114,
+	15114,
+	7296,
+	7295,
+	5305,
+	5003,
+	8598,
+	15114,
+	15114,
+	15114,
+	8643,
+	8643,
+	7298,
 	8930,
-	8588,
-	8908,
-	8784,
-	8784,
-	8784,
-	8784,
-	15099,
-	2165,
-	8784,
-	6832,
-	3989,
-	8503,
-	3157,
-	5004,
-	15099,
-	8784,
-	8503,
-	8503,
-	8503,
-	6847,
-	8633,
-	8784,
-	8503,
-	6935,
-	3994,
-	8784,
-	0,
-	12701,
-	10566,
-	13853,
-	13718,
-	10117,
-	12347,
-	12096,
-	8784,
-	8784,
-	6935,
-	6935,
-	0,
-	0,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	0,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	12701,
-	12701,
-	8503,
-	6847,
-	8602,
-	6951,
-	8602,
-	6951,
-	8503,
-	6847,
-	8588,
-	6935,
-	8505,
-	6850,
-	8505,
-	6850,
-	8588,
-	6935,
-	8503,
-	6847,
-	8503,
-	6847,
-	8701,
-	7043,
-	8701,
-	7043,
-	8588,
-	6935,
-	8505,
-	6850,
-	8701,
-	7043,
-	8701,
-	7043,
-	8701,
-	7043,
-	8503,
-	6847,
-	8588,
-	6935,
-	8701,
-	7043,
-	8701,
-	7043,
-	8588,
-	6935,
-	8701,
-	7043,
-	8701,
-	7043,
-	8503,
-	6847,
-	8701,
-	7043,
-	8588,
-	6935,
-	8633,
-	6978,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8633,
-	14912,
-	6935,
-	8784,
-	6978,
-	8503,
-	3667,
-	6978,
-	8784,
-	8588,
-	8503,
-	6935,
-	6978,
-	8784,
-	8784,
-	6978,
-	8784,
-	6978,
-	6978,
-	6978,
-	6978,
-	6978,
-	6978,
-	8701,
-	7043,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6978,
-	8503,
-	8784,
-	6832,
-	7043,
-	6832,
-	7043,
-	6832,
-	6847,
-	6832,
-	6847,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8633,
-	8633,
-	8588,
-	8784,
-	1551,
-	3994,
-	3994,
-	2172,
-	6464,
-	10858,
-	8503,
-	6978,
-	15099,
-	15099,
-	8784,
-	3018,
-	8784,
-	8784,
-	8784,
-	8784,
-	5004,
-	5004,
-	8633,
-	8784,
-	8784,
-	8784,
-	8784,
-	15099,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	15046,
-	14174,
-	8701,
-	8784,
-	8784,
-	8784,
-	6935,
-	8784,
-	8784,
-	7043,
-	7043,
-	3163,
-	8784,
-	8784,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8588,
-	8588,
-	6935,
-	8784,
-	8784,
-	8503,
-	8784,
-	6225,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	8588,
-	8588,
-	8588,
-	8588,
-	8588,
-	12220,
-	8784,
-	0,
-	0,
-	8917,
-	7291,
-	8701,
-	7043,
-	8633,
-	6978,
-	8503,
-	6847,
-	8503,
-	6847,
-	8588,
-	6935,
-	8588,
-	6935,
-	8587,
-	6934,
-	8633,
-	6978,
-	8784,
-	2062,
-	8587,
-	6934,
-	8633,
-	6978,
-	8633,
-	6978,
-	8784,
-	2031,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	8784,
-	8784,
-	8503,
-	8784,
-	8784,
-	8784,
-	8784,
-	15099,
-	0,
-	8701,
-	7043,
-	8503,
-	6847,
-	8503,
-	6847,
-	8503,
-	6847,
-	401,
-	812,
-	789,
-	812,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	1359,
-	8633,
-	8784,
-	8784,
-	8784,
-	8784,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8784,
-	8633,
-	5004,
-	8784,
-	8784,
-	8784,
-	8784,
-	8633,
-	8784,
-	8588,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	715,
-	1368,
-	870,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	4052,
-	8784,
-	15099,
-	8784,
-	8784,
-	0,
-	6225,
-	3667,
-	6234,
-	3994,
-	8633,
-	6978,
-	8588,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	8503,
-	6847,
-	3994,
-	6978,
-	6234,
-	6225,
-	6234,
-	8633,
-	8633,
-	8633,
-	6225,
-	0,
-	0,
-	8633,
-	8890,
-	8891,
-	8528,
-	6878,
-	8588,
-	6935,
-	8701,
-	7043,
-	8503,
-	6847,
-	8589,
-	6936,
-	8633,
-	8633,
-	13853,
-	13853,
-	13844,
-	13651,
-	13865,
-	13961,
-	13849,
-	13718,
-	13850,
-	13751,
-	13839,
-	13578,
-	13796,
-	11900,
-	11900,
-	5004,
-	8588,
-	15046,
-	13853,
-	12232,
-	13853,
-	13849,
-	13871,
-	13872,
-	13873,
-	13854,
-	13857,
-	13853,
-	14133,
-	14141,
-	14151,
-	13905,
-	13915,
-	13853,
-	6466,
-	3245,
-	8772,
-	1899,
-	6484,
-	1956,
+	8794,
+	15024,
+	15024,
+	15024,
+	15024,
+	15051,
+	13589,
+	15024,
+	15051,
+	13589,
+	15024,
+	15024,
+	15024,
+	13589,
+	15051,
+	11879,
+	12598,
+	13589,
+	15051,
+	13583,
+	15024,
+	9141,
+	9221,
+	13589,
+	13603,
+	10907,
+	15024,
+	8794,
+	0,
+	0,
+	0,
+	12182,
+	14045,
+	14045,
+	11889,
+	14045,
+	10846,
+	13591,
+	8794,
+	15114,
+	13781,
+	13604,
+	14199,
+	14199,
+	14199,
+	12622,
+	14199,
+	14199,
+	14199,
+	14199,
+	8794,
+	14939,
+	15114,
+	9333,
+	15114,
+	14937,
+	11022,
+	15114,
+	14937,
+	14937,
+	15114,
+	15114,
+	15051,
+	13727,
+	15129,
+	13740,
+	15114,
+	15051,
+	15053,
+	15061,
+	15053,
+	15061,
+	15053,
+	15053,
+	15093,
+	13737,
+	15051,
+	15051,
+	13727,
+	15051,
+	15051,
+	13727,
+	13727,
+	13727,
+	13727,
+	14933,
+	14930,
+	15051,
+	13727,
+	15051,
+	13727,
+	15051,
+	15093,
+	15051,
+	15093,
+	15051,
+	15093,
+	15093,
+	15053,
+	15061,
+	13727,
+	15051,
+	13727,
+	15051,
+	15051,
+	15051,
+	15053,
+	15061,
+	15051,
+	15093,
+	13737,
+	15093,
+	13737,
+	15093,
+	13737,
+	15114,
+	13727,
+	15051,
+	15114,
+	15051,
+	13727,
+	15051,
+	15114,
+	15051,
+	15114,
+	15051,
+	13727,
+	14934,
+	14935,
+	12147,
+	9239,
+	15093,
+	15093,
+	15051,
+	15114,
+	15051,
+	13727,
+	15114,
+	15051,
+	13403,
+	13404,
+	14928,
+	14940,
+	15051,
+	13727,
+	10977,
+	13407,
+	13407,
+	13407,
+	15114,
+	15051,
+	15051,
+	15051,
+	10981,
+	15128,
+	15051,
+	15114,
+	15114,
+	13727,
+	15051,
+	15114,
+	15093,
+	13406,
+	14931,
+	15114,
+	15051,
+	15051,
+	15051,
+	15051,
+	13716,
+	12108,
+	12104,
+	12104,
+	9155,
+	12092,
+	13729,
+	12104,
+	10189,
+	9161,
+	12104,
+	15051,
+	15114,
+	15051,
+	13727,
+	12113,
+	13727,
+	13727,
+	13727,
+	13727,
+	12104,
+	10971,
+	12144,
+	15114,
+	15114,
+	13722,
+	13716,
+	13716,
+	15114,
+	15114,
+	13716,
+	13716,
+	13727,
+	13716,
+	13716,
+	13716,
+	12116,
+	13737,
+	13716,
+	15114,
+	13716,
+	12130,
+	10957,
+	15114,
+	12104,
+	12088,
+	12088,
+	10189,
+	15114,
+	13716,
+	13716,
+	11007,
+	12104,
+	12104,
+	12104,
+	15114,
+	13716,
+	11027,
+	15114,
+	12130,
+	15114,
+	9055,
+	15114,
+	15114,
+	15114,
+	15114,
+	12091,
+	15051,
+	15051,
+	13716,
+	15051,
+	13716,
+	13727,
+	13716,
+	13716,
+	13716,
+	13727,
+	13716,
+	12106,
+	12088,
+	13727,
+	13716,
+	13727,
+	13716,
+	9336,
+	9233,
+	13727,
+	13727,
+	12104,
+	12104,
+	15114,
+	15114,
+	15114,
+	15114,
+	13716,
+	15114,
+	15114,
+	13716,
+	10975,
+	12104,
+	12107,
+	10975,
+	12104,
+	10975,
+	12104,
+	15051,
+	10993,
+	13716,
+	15114,
+	13716,
+	13740,
+	15114,
+	13716,
+	13727,
+	15114,
+	15114,
+	10993,
+	15114,
+	13727,
+	13716,
+	9232,
+	9157,
+	11032,
+	12088,
+	13716,
+	12119,
+	12116,
+	12116,
+	12116,
+	13729,
+	12116,
+	12123,
+	10987,
+	10988,
+	15114,
+	15114,
+	15114,
+	15114,
+	15114,
+	15051,
+	15114,
+	12104,
+	13716,
+	13716,
+	12088,
+	15114,
+	12088,
+	15114,
+	15114,
+	13716,
+	13727,
+	13727,
+	13716,
+	13756,
+	15114,
+	15114,
+	15114,
+	15114,
+	15114,
+	15114,
+	15051,
+	15051,
+	15051,
+	12112,
+	9334,
+	13741,
+	10195,
+	13741,
+	12148,
+	15114,
+	10952,
+	15114,
+	10963,
+	12116,
+	12116,
+	12121,
+	10991,
+	12116,
+	13729,
+	13716,
+	15114,
+	15051,
+	13716,
+	15114,
+	15114,
+	10372,
+	12146,
+	12125,
+	12111,
+	13741,
+	15051,
+	12104,
+	10975,
+	15114,
+	12104,
+	15114,
+	13732,
+	15114,
+	13716,
+	11472,
+	13781,
+	13741,
+	14199,
+	14199,
+	14199,
+	12622,
+	14199,
+	14199,
+	14199,
+	14199,
+	13727,
+	13716,
+	13727,
+	13716,
+	15114,
+	12088,
+	9541,
+	10171,
+	10182,
+	10174,
+	12088,
+	10181,
+	10955,
+	12088,
+	12088,
+	12088,
+	12088,
+	12088,
+	12088,
+	12088,
+	15114,
+	15114,
+	12088,
+	10996,
+	15114,
+	15114,
+	10968,
+	15114,
+	8794,
+	8794,
+	8643,
+	8643,
+	8643,
+	8711,
+	8711,
+	8711,
+	8711,
+	8598,
+	8794,
+	13868,
+	0,
+	14189,
+	8794,
+	8794,
+	5003,
+	0,
+	0,
+	15061,
+	8794,
+	8642,
+	6981,
+	8570,
+	6913,
+	4963,
+	0,
+	3960,
+	6982,
+	8514,
+	8794,
+	8794,
+	8794,
+	15114,
+	0,
+	8794,
+	8794,
+	7309,
+	6982,
+	8794,
+	8794,
+	8941,
+	8643,
+	8643,
+	8794,
+	8794,
+	3985,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8393,
+	8794,
+	8514,
+	8514,
+	8794,
+	8794,
+	8514,
+	1688,
+	4087,
+	11901,
+	1866,
+	4087,
+	8794,
+	418,
+	7303,
+	8794,
+	2869,
+	2499,
+	15061,
+	15114,
+	8794,
+	3992,
+	3992,
+	3992,
+	12714,
+	12714,
+	12714,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8643,
+	8643,
+	8643,
+	6982,
+	8794,
+	8643,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8711,
+	7047,
+	8711,
+	7047,
+	8782,
+	11553,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	12130,
+	8711,
+	7047,
+	8711,
+	7047,
+	8711,
+	7047,
+	8784,
+	8794,
+	8794,
+	8794,
+	8643,
+	5003,
+	8794,
+	8794,
+	8794,
+	8775,
+	4858,
+	8514,
+	7105,
+	8643,
+	5002,
+	5003,
+	8598,
+	11902,
+	11902,
+	13810,
+	14131,
+	8598,
+	6939,
+	8539,
+	6883,
+	8598,
+	6939,
+	8598,
+	6939,
+	8598,
+	6939,
 	8774,
-	1339,
-	6494,
-	8776,
-	6254,
-	6295,
-	8657,
-	6236,
-	6308,
-	8665,
-	6237,
-	6234,
-	8633,
-	6234,
-	8617,
-	6230,
-	8784,
-	8503,
-	6587,
-	6589,
-	8339,
-	8503,
-	6587,
-	6589,
-	7264,
-	8633,
-	8503,
-	8891,
-	6587,
-	6589,
-	7264,
-	8633,
-	8503,
-	8890,
-	6978,
-	8339,
-	8633,
-	8503,
-	8784,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8633,
-	8633,
-	6935,
-	8784,
-	8503,
-	8784,
-	8784,
-	8633,
-	8784,
-	8633,
-	8633,
-	8633,
-	8503,
-	6847,
-	8588,
-	8503,
-	8889,
-	6225,
-	3667,
-	6234,
-	3994,
-	8588,
-	3994,
-	6225,
-	6234,
-	8633,
-	1513,
-	8784,
-	6935,
-	8784,
-	8503,
-	8784,
-	8633,
-	8784,
-	8633,
-	8633,
-	8633,
-	8503,
-	6847,
-	8588,
-	8503,
-	8889,
-	6234,
-	3994,
-	6225,
-	3667,
-	8588,
-	3994,
-	6234,
-	6225,
-	6234,
-	8633,
-	1513,
-	8784,
-	8784,
-	4683,
-	6935,
-	8784,
-	8503,
-	8784,
-	8633,
-	8784,
-	8633,
-	8633,
-	8633,
-	8588,
-	8503,
-	8889,
-	8633,
-	6978,
-	6978,
-	1513,
-	5004,
-	8588,
-	8588,
-	8503,
-	8889,
-	8633,
-	6978,
-	8528,
-	6878,
-	8589,
-	6936,
-	6878,
-	6978,
-	1513,
-	13578,
-	5004,
-	8588,
-	8588,
-	8503,
-	8889,
-	8633,
-	6978,
-	8503,
-	6847,
-	6847,
-	6978,
-	1513,
-	5004,
-	8588,
-	15046,
-	8784,
-	8588,
-	8503,
-	8889,
-	8633,
-	6978,
-	8503,
-	6847,
-	5004,
-	8588,
-	1513,
-	15099,
-	8588,
-	8889,
-	6978,
-	3994,
+	7104,
+	8643,
+	6982,
+	7312,
+	4858,
+	15114,
+	8642,
+	6981,
+	8570,
+	6913,
+	8514,
+	8514,
+	3960,
+	6982,
+	6982,
+	14180,
+	3960,
+	8794,
+	8794,
+	8794,
+	8641,
+	8794,
+	11900,
+	8794,
 	0,
-	6225,
-	3667,
-	6234,
-	3994,
-	6978,
-	3994,
-	11900,
-	11900,
-	5004,
-	8588,
-	8588,
-	6935,
-	8701,
-	7043,
-	8528,
-	6878,
-	8589,
-	6936,
-	8503,
-	6847,
-	8633,
-	8633,
-	1513,
-	13853,
-	3989,
-	3290,
-	1271,
-	1988,
-	3989,
-	1775,
-	640,
-	5502,
-	3989,
-	715,
-	174,
-	700,
-	3989,
-	845,
-	296,
-	2412,
-	3989,
-	5500,
-	1863,
-	5501,
-	3989,
-	2409,
-	1271,
-	1647,
-	3989,
-	8588,
+	15114,
+	15114,
+	12749,
+	10643,
+	10645,
+	10642,
+	12000,
+	12749,
+	9442,
+	8794,
+	8598,
+	6939,
+	8598,
+	6939,
+	8539,
+	6883,
+	8643,
+	6982,
+	8945,
+	8570,
+	8514,
+	8514,
+	8656,
+	3979,
+	6982,
+	3960,
+	14189,
+	14189,
+	14189,
+	12750,
+	10644,
+	15127,
+	11876,
+	13625,
+	8711,
+	7047,
+	8598,
+	6939,
+	8921,
+	7288,
+	8921,
+	7288,
+	8598,
+	6939,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8598,
+	6939,
+	8643,
+	6982,
+	8643,
+	8643,
+	8794,
+	6369,
+	8794,
+	8794,
+	8514,
+	8643,
+	8643,
+	8794,
+	8643,
+	8794,
+	8794,
+	8794,
+	6852,
+	8643,
+	8794,
+	6939,
+	8514,
+	8794,
+	6982,
+	8794,
+	6852,
+	8794,
+	15114,
+	2128,
+	6852,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	15114,
+	8794,
+	7316,
+	7317,
+	8514,
+	6852,
+	8514,
+	6852,
+	8794,
+	8794,
+	8514,
+	8794,
+	5062,
+	5062,
+	6364,
+	1925,
+	3305,
+	8794,
+	8794,
+	8794,
+	7316,
+	7317,
+	8794,
+	15114,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6239,
+	8794,
+	6852,
+	8794,
+	8514,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8514,
+	8514,
+	8514,
+	6852,
+	8598,
+	7578,
+	6201,
+	4963,
+	4963,
+	8794,
+	10637,
+	10637,
+	14185,
+	11571,
+	10637,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	15114,
+	2161,
+	8794,
+	6837,
+	3987,
+	8514,
+	3151,
+	5003,
+	15114,
+	8794,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8794,
+	11577,
+	12714,
+	11912,
+	8794,
+	0,
+	0,
+	8794,
+	8643,
+	6230,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6982,
+	8794,
+	661,
+	6239,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	0,
+	8514,
+	6852,
+	8711,
+	7047,
+	15061,
+	8711,
+	8711,
+	7047,
+	8794,
+	8794,
+	2249,
+	6982,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8514,
+	8514,
+	8514,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	3992,
+	4107,
+	8794,
+	8794,
+	8794,
+	8794,
+	8643,
+	6982,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6982,
+	6982,
+	7047,
+	8794,
+	2240,
+	8794,
+	4107,
+	6852,
+	6982,
+	3972,
+	8794,
+	6982,
+	8794,
+	6837,
+	8794,
+	8794,
+	6852,
+	8794,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8643,
+	6982,
+	8711,
+	7047,
+	8598,
+	6939,
+	8514,
+	6852,
+	8794,
+	8794,
+	8794,
+	6939,
+	4963,
+	6363,
+	5831,
+	8598,
+	8943,
+	8944,
+	8598,
+	8922,
+	8794,
+	8794,
+	8794,
+	8794,
+	15114,
+	2161,
+	8794,
+	6837,
+	3987,
+	8514,
+	3151,
+	5003,
+	15114,
+	8794,
+	8514,
+	8514,
+	8514,
+	6852,
+	8643,
+	8794,
+	8514,
+	6939,
+	3992,
+	8794,
+	0,
+	12714,
+	10578,
+	13868,
+	13732,
+	10129,
+	12359,
+	12108,
+	8794,
+	8794,
+	6939,
+	6939,
+	0,
+	0,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	0,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	12714,
+	12714,
+	8514,
+	6852,
+	8612,
+	6955,
+	8612,
+	6955,
+	8514,
+	6852,
+	8598,
+	6939,
+	8516,
+	6855,
+	8516,
+	6855,
+	8598,
+	6939,
+	8514,
+	6852,
+	8514,
+	6852,
+	8711,
+	7047,
+	8711,
+	7047,
+	8598,
+	6939,
+	8516,
+	6855,
+	8711,
+	7047,
+	8711,
+	7047,
+	8711,
+	7047,
+	8514,
+	6852,
+	8598,
+	6939,
+	8711,
+	7047,
+	8711,
+	7047,
+	8598,
+	6939,
+	8711,
+	7047,
+	8711,
+	7047,
+	8514,
+	6852,
+	8711,
+	7047,
+	8598,
+	6939,
+	8643,
+	6982,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8643,
+	14927,
+	6939,
+	8794,
+	6982,
+	8514,
+	3661,
+	6982,
+	8794,
+	8598,
+	8514,
+	6939,
+	6982,
+	8794,
+	8794,
+	6982,
+	8794,
+	6982,
+	6982,
+	6982,
+	6982,
+	6982,
+	6982,
+	8711,
+	7047,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6982,
+	8514,
+	8794,
+	6837,
+	7047,
+	6837,
+	7047,
+	6837,
+	6852,
+	6837,
+	6852,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8643,
+	8643,
+	8598,
+	8794,
+	1547,
+	3992,
+	3992,
+	2168,
+	6469,
+	10870,
+	8514,
+	6982,
+	15114,
+	15114,
+	8794,
+	3012,
+	8794,
+	8794,
+	8794,
+	8794,
+	5003,
+	5003,
+	8643,
+	8794,
+	8794,
+	8794,
+	8794,
+	15114,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	15061,
+	14189,
+	8711,
+	8794,
+	8794,
+	8794,
+	6939,
+	8794,
+	8794,
+	7047,
+	7047,
 	3157,
-	5864,
-	3989,
-	6832,
-	1848,
-	3297,
-	3989,
-	1994,
-	625,
-	3297,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	4885,
-	1852,
-	5004,
-	3989,
-	1456,
-	295,
-	6978,
-	3989,
+	8794,
+	8794,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8598,
+	8598,
+	6939,
+	8794,
+	8794,
+	8514,
+	8794,
+	6230,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	8598,
+	8598,
+	8598,
+	8598,
+	8598,
+	12232,
+	8794,
+	0,
+	0,
+	8931,
+	7299,
+	8711,
+	7047,
+	8643,
+	6982,
+	8514,
+	6852,
+	8514,
+	6852,
+	8598,
+	6939,
+	8598,
+	6939,
+	8597,
+	6938,
+	8643,
+	6982,
+	8794,
+	2058,
+	8597,
+	6938,
+	8643,
+	6982,
+	8643,
+	6982,
+	8794,
+	2027,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	8794,
+	8794,
+	8514,
+	8794,
+	8794,
+	8794,
+	8794,
+	15114,
+	0,
+	8711,
+	7047,
+	8514,
+	6852,
+	8514,
+	6852,
+	8514,
+	6852,
+	401,
+	810,
+	787,
+	810,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	1355,
+	8643,
+	8794,
+	8794,
+	8794,
+	8794,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8794,
+	8643,
+	5003,
+	8794,
+	8794,
+	8794,
+	8794,
+	8643,
+	8794,
+	8598,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	713,
+	1364,
+	869,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	4050,
+	8794,
+	15114,
+	8794,
+	8794,
+	0,
+	6230,
+	3661,
+	6239,
+	3992,
+	8643,
+	6982,
+	8598,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	8514,
+	6852,
+	3992,
+	6982,
+	6239,
+	6230,
+	6239,
+	8643,
+	8643,
+	8643,
+	6230,
+	0,
+	0,
+	8643,
+	8904,
+	8905,
+	8539,
+	6883,
+	8598,
+	6939,
+	8711,
+	7047,
+	8514,
+	6852,
+	8599,
+	6940,
+	8643,
+	8643,
+	13868,
+	13868,
+	13859,
+	13665,
+	13880,
+	13976,
+	13864,
+	13732,
+	13865,
+	13765,
+	13854,
+	13592,
+	13811,
+	11912,
+	11912,
+	5003,
+	8598,
+	15061,
+	13868,
+	12244,
+	13868,
+	13864,
+	13886,
+	13887,
+	13888,
+	13869,
+	13872,
+	13868,
+	14148,
+	14156,
+	14166,
+	13920,
+	13930,
+	13868,
+	6471,
+	3239,
+	8782,
+	1896,
+	6489,
+	1953,
 	8784,
-	3157,
-	6978,
-	3989,
-	8572,
-	3157,
-	5501,
-	3989,
-	8572,
-	3157,
-	5501,
-	3989,
-	1350,
-	294,
-	6447,
-	3989,
-	5944,
-	1895,
-	5864,
-	3989,
+	1335,
+	6499,
+	8786,
+	6259,
+	6300,
+	8667,
+	6241,
+	6313,
+	8675,
+	6242,
+	6239,
+	8643,
+	6239,
+	8627,
+	6235,
+	8794,
+	8514,
+	6592,
+	6594,
+	8350,
+	8514,
+	6592,
+	6594,
+	7272,
+	8643,
+	8514,
+	8905,
+	6592,
+	6594,
+	7272,
+	8643,
+	8514,
+	8904,
+	6982,
+	8350,
+	8643,
+	8514,
+	8794,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8643,
+	8643,
+	6939,
+	8794,
+	8514,
+	8794,
+	8794,
+	8643,
+	8794,
+	8643,
+	8643,
+	8643,
+	8514,
+	6852,
+	8598,
+	8514,
+	8903,
+	6230,
+	3661,
+	6239,
+	3992,
+	8598,
+	3992,
+	6230,
+	6239,
+	8643,
+	1509,
+	8794,
+	6939,
+	8794,
+	8514,
+	8794,
+	8643,
+	8794,
+	8643,
+	8643,
+	8643,
+	8514,
+	6852,
+	8598,
+	8514,
+	8903,
+	6239,
+	3992,
+	6230,
+	3661,
+	8598,
+	3992,
+	6239,
+	6230,
+	6239,
+	8643,
+	1509,
+	8794,
+	8794,
+	4683,
+	6939,
+	8794,
+	8514,
+	8794,
+	8643,
+	8794,
+	8643,
+	8643,
+	8643,
+	8598,
+	8514,
+	8903,
+	8643,
+	6982,
+	6982,
+	1509,
+	5003,
+	8598,
+	8598,
+	8514,
+	8903,
+	8643,
+	6982,
+	8539,
+	6883,
+	8599,
+	6940,
+	6883,
+	6982,
+	1509,
+	13592,
+	5003,
+	8598,
+	8598,
+	8514,
+	8903,
+	8643,
+	6982,
+	8514,
+	6852,
+	6852,
+	6982,
+	1509,
+	5003,
+	8598,
+	15061,
+	8794,
+	8598,
+	8514,
+	8903,
+	8643,
+	6982,
+	8514,
+	6852,
+	5003,
+	8598,
+	1509,
+	15114,
+	8598,
+	8903,
+	6982,
+	3992,
+	0,
+	6230,
+	3661,
+	6239,
+	3992,
+	6982,
+	3992,
+	11912,
+	11912,
+	5003,
+	8598,
+	8598,
+	6939,
+	8711,
+	7047,
+	8539,
+	6883,
+	8599,
+	6940,
+	8514,
+	6852,
+	8643,
+	8643,
+	1509,
+	13868,
+	3987,
+	3285,
+	1268,
 	1985,
-	624,
-	1371,
-	3989,
-	6446,
-	1863,
-	6447,
-	3989,
-	5944,
-	1895,
-	5864,
-	3989,
-	5944,
-	1895,
-	5864,
-	3989,
-	5123,
-	1895,
-	5004,
-	3989,
-	1748,
-	670,
-	2412,
-	3989,
-	1929,
-	670,
-	3195,
-	3989,
-	1821,
-	670,
-	2787,
-	3989,
-	1945,
-	670,
-	3240,
-	3989,
-	1774,
-	670,
-	2745,
-	3989,
+	3987,
+	1771,
+	638,
+	5503,
+	3987,
+	713,
+	172,
+	698,
+	3987,
+	843,
+	296,
+	2409,
+	3987,
+	5501,
+	1860,
+	5502,
+	3987,
+	2406,
+	1268,
+	1643,
+	3987,
+	8598,
+	3151,
+	5865,
+	3987,
+	6837,
+	1844,
+	3292,
+	3987,
+	1990,
+	623,
+	3292,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	4885,
+	1849,
+	5003,
+	3987,
+	1452,
+	295,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8582,
+	3151,
+	5502,
+	3987,
+	8582,
+	3151,
+	5502,
+	3987,
+	1346,
+	294,
+	6452,
+	3987,
+	5945,
+	1892,
+	5865,
+	3987,
+	1982,
+	622,
+	1367,
+	3987,
+	6451,
+	1860,
+	6452,
+	3987,
+	5945,
+	1892,
+	5865,
+	3987,
+	5945,
+	1892,
+	5865,
+	3987,
+	5122,
+	1892,
+	5003,
+	3987,
+	1744,
+	668,
+	2409,
+	3987,
+	1926,
+	668,
+	3189,
+	3987,
+	1817,
+	668,
+	2783,
+	3987,
+	1942,
+	668,
+	3234,
+	3987,
+	1770,
+	668,
+	2741,
+	3987,
 	339,
 	104,
-	3231,
-	3989,
-	691,
-	189,
-	3231,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	2413,
-	1275,
-	2412,
-	3989,
-	838,
+	3225,
+	3987,
+	689,
+	187,
+	3225,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	2410,
+	1272,
+	2409,
+	3987,
+	836,
 	292,
-	1647,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	2744,
-	1281,
-	5496,
-	3989,
-	1745,
-	669,
-	2412,
-	3989,
+	1643,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	2740,
+	1277,
+	5497,
+	3987,
+	1741,
+	667,
+	2409,
+	3987,
 	435,
-	176,
-	1647,
-	3989,
-	2227,
-	675,
-	6978,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	1355,
-	326,
-	6447,
-	3989,
-	5944,
-	1895,
-	5864,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	1368,
-	287,
-	700,
-	3989,
-	715,
 	174,
-	700,
-	3989,
-	3290,
-	1271,
-	1988,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	2944,
-	1327,
-	2787,
-	3989,
-	616,
-	188,
-	878,
-	3989,
-	1251,
-	324,
-	1783,
-	3989,
-	617,
-	190,
-	2787,
-	3989,
-	2944,
-	1327,
-	2787,
-	3989,
+	1643,
+	3987,
+	2223,
+	673,
+	6982,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	1351,
+	326,
+	6452,
+	3987,
 	5945,
-	1897,
-	5864,
-	3989,
+	1892,
+	5865,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	1364,
+	287,
+	698,
+	3987,
+	713,
+	172,
+	698,
+	3987,
+	3285,
+	1268,
+	1985,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	2938,
+	1323,
+	2783,
+	3987,
+	614,
+	186,
+	877,
+	3987,
+	1248,
+	324,
+	1779,
+	3987,
+	615,
+	188,
+	2783,
+	3987,
+	2938,
+	1323,
+	2783,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
 	281,
 	107,
-	2787,
-	3989,
-	616,
-	188,
-	878,
-	3989,
+	2783,
+	3987,
+	614,
+	186,
+	877,
+	3987,
 	280,
 	106,
-	1783,
-	3989,
-	618,
-	191,
-	1783,
-	3989,
-	2953,
-	1337,
-	5864,
-	3989,
-	2872,
-	1293,
-	5864,
-	3989,
-	5864,
-	1884,
-	5864,
-	3989,
-	5004,
-	1884,
-	5004,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	1823,
-	673,
-	5864,
-	3989,
-	1823,
-	673,
-	5864,
-	3989,
-	5864,
-	1884,
-	5864,
-	3989,
-	1107,
+	1779,
+	3987,
+	616,
+	189,
+	1779,
+	3987,
+	2947,
+	1333,
+	5865,
+	3987,
+	2866,
+	1289,
+	5865,
+	3987,
+	5865,
+	1881,
+	5865,
+	3987,
+	5003,
+	1881,
+	5003,
+	3987,
+	8774,
+	3151,
+	6452,
+	3987,
+	1819,
+	671,
+	5865,
+	3987,
+	1819,
+	671,
+	5865,
+	3987,
+	5865,
+	1881,
+	5865,
+	3987,
+	1104,
 	313,
-	5864,
-	3989,
-	2875,
-	1314,
-	5864,
-	3989,
-	5864,
-	1884,
-	5864,
-	3989,
-	5004,
-	1884,
-	5004,
-	3989,
-	2945,
-	1329,
-	5864,
-	3989,
-	6447,
-	1884,
-	6447,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	690,
-	181,
-	3231,
-	3989,
-	1708,
-	644,
-	2412,
-	3989,
-	1944,
-	644,
-	3240,
-	3989,
-	2872,
-	1293,
-	5864,
-	3989,
-	5004,
-	1884,
-	5004,
-	3989,
-	2875,
-	1314,
-	5864,
-	3989,
-	1715,
-	664,
-	5004,
-	3989,
-	1715,
-	664,
-	5004,
-	3989,
+	5865,
+	3987,
+	2869,
+	1310,
+	5865,
+	3987,
+	5865,
+	1881,
+	5865,
+	3987,
+	5003,
+	1881,
+	5003,
+	3987,
+	2939,
+	1325,
+	5865,
+	3987,
+	6452,
+	1881,
+	6452,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	688,
+	179,
+	3225,
+	3987,
+	1704,
+	642,
+	2409,
+	3987,
 	1941,
-	664,
-	6447,
-	3989,
-	1942,
-	673,
-	6447,
-	3989,
-	2879,
-	1319,
-	5864,
-	3989,
-	8588,
-	3157,
-	5864,
-	3989,
-	5864,
-	1884,
-	5864,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	1814,
+	642,
+	3234,
+	3987,
+	2866,
+	1289,
+	5865,
+	3987,
+	5003,
+	1881,
+	5003,
+	3987,
+	2869,
+	1310,
+	5865,
+	3987,
+	1711,
 	662,
-	5864,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	8588,
-	3157,
-	5864,
-	3989,
-	2409,
-	1271,
-	1647,
-	3989,
+	5003,
+	3987,
+	1711,
+	662,
+	5003,
+	3987,
+	1938,
+	662,
+	6452,
+	3987,
+	1939,
+	671,
+	6452,
+	3987,
+	2873,
+	1315,
+	5865,
+	3987,
+	8598,
+	3151,
+	5865,
+	3987,
+	5865,
+	1881,
+	5865,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	1810,
+	660,
+	5865,
+	3987,
+	8774,
+	3151,
+	6452,
+	3987,
+	8598,
+	3151,
+	5865,
+	3987,
+	2406,
+	1268,
+	1643,
+	3987,
 	4858,
-	1848,
-	2412,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	6919,
-	1856,
-	6978,
-	3989,
-	1382,
+	1844,
+	2409,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	6923,
+	1853,
+	6982,
+	3987,
+	1378,
 	289,
-	1988,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	6847,
-	1852,
-	6978,
-	3989,
-	4964,
-	1863,
-	5004,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
+	1985,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	6852,
+	1849,
+	6982,
+	3987,
+	4963,
+	1860,
+	5003,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	2406,
+	1268,
+	1643,
+	3987,
+	4858,
+	1844,
 	2409,
-	1271,
-	1647,
-	3989,
+	3987,
+	2499,
+	1285,
+	2409,
+	3987,
+	2499,
+	1285,
+	2409,
+	3987,
 	4858,
-	1848,
-	2412,
-	3989,
-	2503,
-	1289,
-	2412,
-	3989,
-	2503,
-	1289,
-	2412,
-	3989,
+	1844,
+	2409,
+	3987,
 	4858,
-	1848,
-	2412,
-	3989,
+	1844,
+	2409,
+	3987,
+	4057,
+	1322,
+	6982,
+	3987,
+	4009,
+	1315,
+	6982,
+	3987,
+	6837,
+	1844,
+	3292,
+	3987,
+	6837,
+	1844,
+	3292,
+	3987,
+	6939,
+	1860,
+	6982,
+	3987,
 	4858,
-	1848,
-	2412,
-	3989,
-	4059,
-	1326,
-	6978,
-	3989,
-	4011,
-	1319,
-	6978,
-	3989,
-	6832,
-	1848,
-	3297,
-	3989,
-	6832,
-	1848,
-	3297,
-	3989,
-	6935,
-	1863,
-	6978,
-	3989,
-	4858,
-	1848,
-	2412,
-	3989,
-	4011,
-	1319,
-	6978,
-	3989,
-	2503,
-	1289,
-	2412,
-	3989,
-	2524,
-	1319,
-	5004,
-	3989,
-	2503,
-	1289,
-	2412,
-	3989,
-	2503,
-	1289,
-	2412,
-	3989,
-	2524,
-	1319,
-	5004,
-	3989,
-	6935,
-	1863,
-	6978,
-	3989,
-	8588,
-	3157,
-	5864,
-	3989,
-	1148,
+	1844,
+	2409,
+	3987,
+	4009,
+	1315,
+	6982,
+	3987,
+	2499,
+	1285,
+	2409,
+	3987,
+	2520,
+	1315,
+	5003,
+	3987,
+	2499,
+	1285,
+	2409,
+	3987,
+	2499,
+	1285,
+	2409,
+	3987,
+	2520,
+	1315,
+	5003,
+	3987,
+	6939,
+	1860,
+	6982,
+	3987,
+	8598,
+	3151,
+	5865,
+	3987,
+	1145,
 	318,
-	5864,
-	3989,
-	1148,
+	5865,
+	3987,
+	1145,
 	318,
-	5864,
-	3989,
-	1820,
-	668,
-	1783,
-	3989,
-	883,
+	5865,
+	3987,
+	1816,
+	666,
+	1779,
+	3987,
+	882,
 	291,
-	1783,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	2413,
-	1275,
-	2412,
-	3989,
-	3232,
-	1275,
-	3231,
-	3989,
-	8701,
-	3157,
-	6359,
-	3989,
-	3300,
-	1275,
-	3297,
-	3989,
+	1779,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	2410,
+	1272,
+	2409,
+	3987,
+	3226,
+	1272,
+	3225,
+	3987,
+	8711,
+	3151,
+	6364,
+	3987,
+	3295,
+	1272,
+	3292,
+	3987,
 	414,
 	103,
-	6978,
-	3989,
-	5498,
-	1852,
+	6982,
+	3987,
 	5499,
-	3989,
-	4055,
+	1849,
+	5500,
+	3987,
+	4053,
+	1320,
+	6982,
+	3987,
+	8711,
+	3151,
+	6364,
+	3987,
+	2873,
+	1315,
+	5865,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	8774,
+	3151,
+	6452,
+	3987,
+	8774,
+	3151,
+	6452,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	6852,
+	1849,
+	6982,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	6852,
+	1849,
+	6982,
+	3987,
+	1793,
+	633,
+	2783,
+	3987,
+	6942,
+	1865,
+	6982,
+	3987,
+	1787,
+	629,
+	2783,
+	3987,
+	2594,
 	1324,
-	6978,
-	3989,
-	8701,
-	3157,
-	6359,
-	3989,
-	2879,
-	1319,
-	5864,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	6847,
-	1852,
-	6978,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	6847,
-	1852,
-	6978,
-	3989,
-	1797,
-	635,
-	2787,
-	3989,
-	6938,
-	1868,
-	6978,
-	3989,
-	1791,
-	631,
-	2787,
-	3989,
-	2598,
-	1328,
-	5004,
-	3989,
-	6938,
-	1868,
-	6978,
-	3989,
-	6938,
-	1868,
-	6978,
-	3989,
-	3234,
-	1319,
-	6447,
-	3989,
-	1939,
-	642,
-	6447,
-	3989,
-	6935,
-	1863,
-	6978,
-	3989,
-	8588,
-	3157,
-	5864,
-	3989,
-	2871,
-	1289,
-	2787,
-	3989,
-	1811,
-	653,
-	2787,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	8765,
-	3157,
+	5003,
+	3987,
+	6942,
+	1865,
+	6982,
+	3987,
+	6942,
+	1865,
+	6982,
+	3987,
+	3228,
+	1315,
 	6452,
-	3989,
-	1356,
-	335,
-	3231,
-	3989,
-	1356,
-	335,
-	3231,
-	3989,
-	2951,
-	1335,
-	5864,
-	3989,
-	620,
-	192,
-	1783,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	2953,
-	1337,
-	5864,
-	3989,
-	6449,
-	1897,
-	6447,
-	3989,
-	1828,
-	679,
-	5864,
-	3989,
-	1827,
-	678,
-	2787,
-	3989,
-	1261,
-	336,
-	5864,
-	3989,
-	1253,
-	327,
-	878,
-	3989,
-	2952,
-	1336,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2952,
-	1336,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2953,
-	1337,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2952,
-	1336,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	1832,
-	683,
-	5864,
-	3989,
-	1825,
-	676,
-	1783,
-	3989,
-	2949,
-	1333,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	692,
-	194,
+	3987,
 	1936,
-	3989,
-	1830,
-	681,
-	2787,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	1827,
-	678,
-	2787,
-	3989,
-	1825,
-	676,
-	1783,
-	3989,
-	1833,
-	684,
-	2787,
-	3989,
-	1825,
-	676,
-	1783,
-	3989,
-	1834,
-	685,
-	5864,
-	3989,
-	1254,
-	328,
-	2787,
-	3989,
-	1825,
-	676,
-	1783,
-	3989,
-	1835,
-	686,
-	2787,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	5124,
-	1897,
-	5004,
-	3989,
-	1258,
-	332,
-	2787,
-	3989,
-	1753,
-	677,
-	2412,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2949,
-	1333,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	1752,
-	676,
-	1647,
-	3989,
-	5124,
-	1897,
-	5004,
-	3989,
-	8765,
-	3157,
+	640,
 	6452,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	1799,
-	641,
-	5864,
-	3989,
-	2839,
+	3987,
+	6939,
+	1860,
+	6982,
+	3987,
+	8598,
+	3151,
+	5865,
+	3987,
+	2865,
 	1285,
-	5864,
-	3989,
-	1259,
-	333,
-	5864,
-	3989,
-	1257,
-	331,
-	1783,
-	3989,
-	2948,
+	2783,
+	3987,
+	1807,
+	651,
+	2783,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
+	8775,
+	3151,
+	6457,
+	3987,
+	1352,
+	335,
+	3225,
+	3987,
+	1352,
+	335,
+	3225,
+	3987,
+	2945,
 	1331,
-	2787,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	621,
-	193,
-	5864,
-	3989,
-	2951,
-	1335,
-	5864,
-	3989,
+	5865,
+	3987,
+	618,
+	190,
+	1779,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	2947,
+	1333,
+	5865,
+	3987,
+	6454,
+	1894,
+	6452,
+	3987,
+	1824,
+	677,
+	5865,
+	3987,
+	1823,
+	676,
+	2783,
+	3987,
+	1258,
+	336,
+	5865,
+	3987,
+	1250,
+	327,
+	877,
+	3987,
+	2946,
+	1332,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2946,
+	1332,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2947,
+	1333,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2946,
+	1332,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	1828,
+	681,
+	5865,
+	3987,
+	1821,
+	674,
+	1779,
+	3987,
+	2943,
+	1329,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	690,
+	192,
+	1933,
+	3987,
+	1826,
+	679,
+	2783,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	1823,
+	676,
+	2783,
+	3987,
+	1821,
+	674,
+	1779,
+	3987,
+	1829,
+	682,
+	2783,
+	3987,
+	1821,
+	674,
+	1779,
+	3987,
+	1830,
+	683,
+	5865,
+	3987,
+	1251,
+	328,
+	2783,
+	3987,
+	1821,
+	674,
+	1779,
+	3987,
+	1831,
+	684,
+	2783,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
+	5123,
+	1894,
+	5003,
+	3987,
+	1255,
+	332,
+	2783,
+	3987,
+	1749,
+	675,
+	2409,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2943,
+	1329,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	1748,
+	674,
+	1643,
+	3987,
+	5123,
+	1894,
+	5003,
+	3987,
+	8775,
+	3151,
+	6457,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
+	1795,
+	639,
+	5865,
+	3987,
+	2833,
+	1281,
+	5865,
+	3987,
+	1256,
+	333,
+	5865,
+	3987,
+	1254,
+	331,
+	1779,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
+	619,
+	191,
+	5865,
+	3987,
+	2945,
+	1331,
+	5865,
+	3987,
 	44,
 	25,
 	95,
-	3989,
-	2950,
-	1334,
-	5864,
-	3989,
-	1825,
-	676,
-	1783,
-	3989,
-	1104,
+	3987,
+	2944,
+	1330,
+	5865,
+	3987,
+	1821,
+	674,
+	1779,
+	3987,
+	1101,
 	304,
-	1783,
-	3989,
-	8503,
-	3157,
-	5004,
-	3989,
-	5124,
-	1897,
-	5004,
-	3989,
-	2953,
-	1337,
-	5864,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
-	6978,
-	1884,
-	6978,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	167,
+	1779,
+	3987,
+	8514,
+	3151,
+	5003,
+	3987,
+	5123,
+	1894,
+	5003,
+	3987,
+	2947,
+	1333,
+	5865,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
+	6982,
+	1881,
+	6982,
+	3987,
+	8774,
+	3151,
+	6452,
+	3987,
+	165,
 	45,
-	5864,
-	3989,
+	5865,
+	3987,
 	98,
 	33,
-	5864,
-	3989,
-	3234,
-	1319,
-	6447,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	3570,
-	1279,
-	3297,
-	3989,
-	4090,
-	1332,
-	6978,
-	3989,
-	1255,
+	5865,
+	3987,
+	3228,
+	1315,
+	6452,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	3565,
+	1275,
+	3292,
+	3987,
+	4088,
+	1328,
+	6982,
+	3987,
+	1252,
 	329,
-	2787,
-	3989,
-	2948,
-	1331,
-	2787,
-	3989,
+	2783,
+	3987,
+	2942,
+	1327,
+	2783,
+	3987,
 	277,
 	101,
-	5864,
-	3989,
-	8784,
-	3157,
-	6978,
-	3989,
-	2871,
-	1289,
-	2787,
-	3989,
-	6938,
-	1868,
-	6978,
-	3989,
-	2832,
-	1279,
-	2787,
-	3989,
-	6938,
-	1868,
-	6978,
-	3989,
-	1797,
-	635,
-	2787,
-	3989,
-	2835,
-	1282,
-	5864,
-	3989,
-	6938,
-	1868,
-	6978,
-	3989,
-	1942,
-	673,
-	6447,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	6447,
-	1884,
-	6447,
-	3989,
-	1354,
+	5865,
+	3987,
+	8794,
+	3151,
+	6982,
+	3987,
+	2865,
+	1285,
+	2783,
+	3987,
+	6942,
+	1865,
+	6982,
+	3987,
+	2826,
+	1275,
+	2783,
+	3987,
+	6942,
+	1865,
+	6982,
+	3987,
+	1793,
+	633,
+	2783,
+	3987,
+	2829,
+	1278,
+	5865,
+	3987,
+	6942,
+	1865,
+	6982,
+	3987,
+	1939,
+	671,
+	6452,
+	3987,
+	8774,
+	3151,
+	6452,
+	3987,
+	6452,
+	1881,
+	6452,
+	3987,
+	1350,
 	318,
-	6447,
-	3989,
-	3241,
-	1314,
 	6452,
-	3989,
-	1352,
+	3987,
+	3235,
+	1310,
+	6457,
+	3987,
+	1348,
 	313,
-	6447,
-	3989,
-	447,
-	186,
-	1647,
-	3989,
-	442,
+	6452,
+	3987,
+	446,
 	184,
-	830,
-	3989,
-	2513,
-	1314,
-	5004,
-	3989,
-	1353,
+	1643,
+	3987,
+	441,
+	182,
+	828,
+	3987,
+	2509,
+	1310,
+	5003,
+	3987,
+	1349,
 	315,
-	3231,
-	3989,
-	1353,
+	3225,
+	3987,
+	1349,
 	315,
-	3231,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	172,
+	3225,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	170,
 	47,
-	1783,
-	3989,
-	5944,
-	1895,
-	5864,
-	3989,
-	6139,
-	1863,
-	6141,
-	3989,
-	2418,
-	1276,
-	2412,
-	3989,
-	1528,
+	1779,
+	3987,
+	5945,
+	1892,
+	5865,
+	3987,
+	6144,
+	1860,
+	6146,
+	3987,
+	2415,
+	1273,
+	2409,
+	3987,
+	1524,
 	305,
-	3297,
-	3989,
-	1536,
+	3292,
+	3987,
+	1532,
 	306,
-	3297,
-	3989,
-	1554,
+	3292,
+	3987,
+	1550,
 	314,
-	3297,
-	3989,
-	1543,
+	3292,
+	3987,
+	1539,
 	308,
-	3297,
-	3989,
-	1711,
-	653,
-	2412,
-	3989,
-	1811,
-	653,
-	2787,
-	3989,
-	1922,
-	653,
-	3195,
-	3989,
-	791,
-	185,
-	3297,
-	3989,
-	3971,
-	1289,
-	3297,
-	3989,
-	2156,
-	653,
-	3297,
-	3989,
-	882,
+	3292,
+	3987,
+	1707,
+	651,
+	2409,
+	3987,
+	1807,
+	651,
+	2783,
+	3987,
+	1919,
+	651,
+	3189,
+	3987,
+	789,
+	183,
+	3292,
+	3987,
+	3969,
+	1285,
+	3292,
+	3987,
+	2152,
+	651,
+	3292,
+	3987,
+	881,
 	288,
-	2787,
-	3989,
-	2874,
-	1302,
-	5864,
-	3989,
-	2944,
-	1327,
-	2787,
-	3989,
-	691,
-	189,
-	3231,
-	3989,
-	2946,
-	1330,
-	5864,
-	3989,
-	1789,
-	626,
-	2787,
-	3989,
-	1252,
+	2783,
+	3987,
+	2868,
+	1298,
+	5865,
+	3987,
+	2938,
+	1323,
+	2783,
+	3987,
+	689,
+	187,
+	3225,
+	3987,
+	2940,
+	1326,
+	5865,
+	3987,
+	1785,
+	624,
+	2783,
+	3987,
+	1249,
 	325,
-	5864,
-	3989,
-	1941,
-	664,
-	6447,
-	3989,
-	1352,
+	5865,
+	3987,
+	1938,
+	662,
+	6452,
+	3987,
+	1348,
 	313,
-	6447,
-	3989,
-	8764,
-	3157,
-	6447,
-	3989,
-	1942,
-	673,
-	6447,
-	3989,
 	6452,
-	1884,
+	3987,
+	8774,
+	3151,
 	6452,
-	3989,
-	5864,
-	1884,
-	5864,
-	3989,
-	2871,
-	1289,
-	2787,
-	3989,
-	2871,
-	1289,
-	2787,
-	3989,
-	2871,
-	1289,
-	2787,
-	3989,
-	1815,
-	665,
-	5864,
-	3989,
-	1256,
+	3987,
+	1939,
+	671,
+	6452,
+	3987,
+	6457,
+	1881,
+	6457,
+	3987,
+	5865,
+	1881,
+	5865,
+	3987,
+	2865,
+	1285,
+	2783,
+	3987,
+	2865,
+	1285,
+	2783,
+	3987,
+	2865,
+	1285,
+	2783,
+	3987,
+	1811,
+	663,
+	5865,
+	3987,
+	1253,
 	330,
-	2787,
-	3989,
-	1256,
+	2783,
+	3987,
+	1253,
 	330,
-	2787,
-	3989,
+	2783,
+	3987,
 	282,
 	108,
-	2787,
-	3989,
-	1256,
+	2783,
+	3987,
+	1253,
 	330,
-	2787,
-	3989,
+	2783,
+	3987,
 	279,
 	105,
-	5864,
-	3989,
-	171,
+	5865,
+	3987,
+	169,
 	46,
-	2787,
-	3989,
-	459,
-	177,
-	2787,
-	3989,
+	2783,
+	3987,
+	458,
+	175,
+	2783,
+	3987,
 	283,
 	109,
-	5864,
-	3989,
-	1262,
-	337,
-	5864,
-	3989,
-	1831,
-	682,
-	5864,
-	3989,
-	1826,
-	677,
-	2787,
-	3989,
-	2954,
-	1338,
-	5864,
-	3989,
-	1149,
-	319,
-	5864,
-	3989,
-	609,
-	182,
-	2787,
-	3989,
-	5945,
-	1897,
-	5864,
-	3989,
-	1260,
-	334,
-	2787,
-	3989,
-	1829,
-	680,
-	5864,
-	3989,
-	6453,
-	1897,
-	6452,
-	3989,
-	2871,
-	1289,
-	2787,
-	3989,
-	1251,
-	324,
-	1783,
-	3989,
-	1821,
-	670,
-	2787,
-	3989,
-	1822,
-	671,
-	2787,
-	6938,
-	3290,
-	1775,
-	715,
-	845,
-	5500,
-	2409,
-	8588,
-	6832,
-	1994,
-	8503,
-	4885,
-	2093,
-	8784,
-	8572,
-	8572,
-	1938,
-	5944,
-	1985,
-	6446,
-	5944,
-	5944,
-	5123,
-	1748,
-	1929,
-	1821,
-	1945,
-	1774,
-	339,
-	691,
-	6225,
-	2413,
-	838,
-	6225,
-	2744,
-	1745,
-	435,
-	2227,
-	6225,
-	6225,
-	8503,
-	8503,
-	8503,
-	8503,
-	1355,
-	5944,
-	8784,
-	8784,
-	3989,
-	2413,
-	1275,
-	2412,
-	3989,
-	1745,
-	669,
-	2412,
-	3989,
-	435,
-	176,
-	1647,
-	6938,
-	1368,
-	715,
-	3290,
-	6938,
-	6225,
-	2944,
-	616,
-	1251,
-	617,
-	2944,
-	5945,
-	281,
-	616,
-	280,
-	618,
-	2953,
-	6938,
-	2872,
-	5864,
-	5004,
-	8764,
-	1823,
-	1823,
-	5864,
-	1814,
-	2875,
-	5864,
-	5004,
-	2945,
-	6447,
-	6225,
-	690,
-	1708,
-	1944,
-	2872,
-	5004,
-	2875,
-	1715,
-	1715,
-	1941,
-	1942,
-	2879,
-	8588,
-	5864,
-	6225,
-	8503,
-	1814,
-	8764,
-	6938,
-	8588,
-	2409,
-	4858,
-	8784,
-	6919,
-	1382,
-	8503,
-	6847,
-	6938,
-	4964,
-	8784,
-	2409,
-	4858,
-	4858,
-	4858,
-	4858,
-	4858,
-	4059,
-	6978,
-	6832,
-	6832,
-	6935,
-	4858,
-	6978,
-	4858,
-	5004,
-	4858,
-	2503,
-	2524,
-	6938,
-	6935,
-	8588,
-	2875,
-	2875,
-	1820,
-	883,
-	8784,
-	8784,
-	2413,
-	3232,
-	8701,
-	3300,
-	414,
-	5498,
-	4055,
-	8701,
-	5864,
-	8784,
-	8784,
-	8784,
-	8784,
-	8503,
-	8764,
-	8764,
-	8503,
-	8784,
-	8784,
-	8503,
-	8784,
-	8503,
-	6847,
-	8784,
-	6847,
-	1797,
-	6938,
-	1791,
-	2598,
-	6938,
-	6938,
-	3234,
-	1939,
-	6935,
-	8588,
-	6938,
-	2871,
-	1811,
-	5945,
-	5945,
-	8765,
-	1356,
-	1356,
-	2951,
-	620,
-	6225,
-	2953,
-	6449,
-	1828,
-	1827,
-	1261,
-	1253,
-	2952,
-	2948,
-	2952,
-	2948,
-	2953,
-	2948,
-	2952,
-	2948,
-	1832,
-	1825,
-	2949,
-	2948,
-	2948,
-	2948,
-	692,
-	1830,
-	2948,
-	1827,
-	1825,
-	1833,
-	1825,
-	1834,
-	1254,
-	1825,
-	1835,
-	5945,
-	5945,
-	5124,
-	1258,
-	1753,
-	2948,
-	2949,
-	2948,
-	2948,
-	1752,
-	5124,
-	8765,
-	5945,
-	1799,
-	2839,
+	5865,
+	3987,
 	1259,
+	337,
+	5865,
+	3987,
+	1827,
+	680,
+	5865,
+	3987,
+	1822,
+	675,
+	2783,
+	3987,
+	2948,
+	1334,
+	5865,
+	3987,
+	1146,
+	319,
+	5865,
+	3987,
+	607,
+	180,
+	2783,
+	3987,
+	5946,
+	1894,
+	5865,
+	3987,
 	1257,
-	2948,
-	5945,
-	621,
-	2951,
-	44,
-	2950,
+	334,
+	2783,
+	3987,
 	1825,
-	1104,
-	8503,
-	5124,
-	2953,
-	2948,
-	6978,
-	8764,
-	167,
-	98,
-	3234,
-	8784,
-	3570,
-	4090,
-	1255,
-	2948,
-	277,
-	8784,
-	3989,
-	1753,
-	677,
-	2412,
-	6938,
-	2871,
-	6938,
-	2832,
-	6938,
-	1797,
-	2835,
-	6938,
-	1942,
-	8764,
-	6447,
-	1354,
-	3241,
-	1352,
-	447,
-	442,
-	2513,
-	1353,
-	1353,
-	6225,
-	3989,
-	442,
-	184,
-	830,
-	6938,
-	172,
-	5944,
-	6938,
-	6225,
-	2418,
-	1528,
-	1536,
-	1554,
-	1543,
-	1711,
-	1811,
-	1922,
-	791,
-	3971,
-	2156,
-	6938,
-	882,
-	5864,
-	2944,
-	691,
-	2946,
-	1789,
-	1252,
-	6938,
-	1941,
-	1352,
-	6938,
-	8764,
-	1942,
-	6452,
-	6938,
-	5864,
-	2871,
-	2871,
-	2871,
-	2879,
-	1256,
-	1256,
-	282,
-	1256,
-	619,
-	171,
-	1030,
-	283,
-	1836,
-	1831,
-	1826,
-	2954,
-	1816,
-	6938,
-	609,
+	678,
+	5865,
+	3987,
+	6458,
+	1894,
+	6457,
+	3987,
+	2865,
+	1285,
+	2783,
+	3987,
+	1248,
+	324,
+	1779,
+	3987,
+	1817,
+	668,
+	2783,
+	3987,
+	1818,
+	669,
+	2783,
+	6942,
+	3285,
+	1771,
+	713,
+	843,
+	5501,
+	2406,
+	8598,
+	6837,
+	1990,
+	8514,
+	4885,
+	2089,
+	8794,
+	8582,
+	8582,
+	1935,
 	5945,
-	1260,
+	1982,
+	6451,
+	5945,
+	5945,
+	5122,
+	1744,
+	1926,
+	1817,
+	1942,
+	1770,
+	339,
+	689,
+	6230,
+	2410,
+	836,
+	6230,
+	2740,
+	1741,
+	435,
+	2223,
+	6230,
+	6230,
+	8514,
+	8514,
+	8514,
+	8514,
+	1351,
+	5945,
+	8794,
+	8794,
+	3987,
+	2410,
+	1272,
+	2409,
+	3987,
+	1741,
+	667,
+	2409,
+	3987,
+	435,
+	174,
+	1643,
+	6942,
+	1364,
+	713,
+	3285,
+	6942,
+	6230,
+	2938,
+	614,
+	1248,
+	615,
+	2938,
+	5946,
+	281,
+	614,
+	280,
+	616,
+	2947,
+	6942,
+	2866,
+	5865,
+	5003,
+	8774,
+	1819,
+	1819,
+	5865,
+	1810,
+	2869,
+	5865,
+	5003,
+	2939,
+	6452,
+	6230,
+	688,
+	1704,
+	1941,
+	2866,
+	5003,
+	2869,
+	1711,
+	1711,
+	1938,
+	1939,
+	2873,
+	8598,
+	5865,
+	6230,
+	8514,
+	1810,
+	8774,
+	6942,
+	8598,
+	2406,
+	4858,
+	8794,
+	6923,
+	1378,
+	8514,
+	6852,
+	6942,
+	4963,
+	8794,
+	2406,
+	4858,
+	4858,
+	4858,
+	4858,
+	4858,
+	4057,
+	6982,
+	6837,
+	6837,
+	6939,
+	4858,
+	6982,
+	4858,
+	5003,
+	4858,
+	2499,
+	2520,
+	6942,
+	6939,
+	8598,
+	2869,
+	2869,
+	1816,
+	882,
+	8794,
+	8794,
+	2410,
+	3226,
+	8711,
+	3295,
+	414,
+	5499,
+	4053,
+	8711,
+	5865,
+	8794,
+	8794,
+	8794,
+	8794,
+	8514,
+	8774,
+	8774,
+	8514,
+	8794,
+	8794,
+	8514,
+	8794,
+	8514,
+	6852,
+	8794,
+	6852,
+	1793,
+	6942,
+	1787,
+	2594,
+	6942,
+	6942,
+	3228,
+	1936,
+	6939,
+	8598,
+	6942,
+	2865,
+	1807,
+	5946,
+	5946,
+	8775,
+	1352,
+	1352,
+	2945,
+	618,
+	6230,
+	2947,
+	6454,
+	1824,
+	1823,
+	1258,
+	1250,
+	2946,
+	2942,
+	2946,
+	2942,
+	2947,
+	2942,
+	2946,
+	2942,
+	1828,
+	1821,
+	2943,
+	2942,
+	2942,
+	2942,
+	690,
+	1826,
+	2942,
+	1823,
+	1821,
 	1829,
-	6453,
-	6938,
-	2871,
+	1821,
+	1830,
 	1251,
 	1821,
+	1831,
+	5946,
+	5946,
+	5123,
+	1255,
+	1749,
+	2942,
+	2943,
+	2942,
+	2942,
+	1748,
+	5123,
+	8775,
+	5946,
+	1795,
+	2833,
+	1256,
+	1254,
+	2942,
+	5946,
+	619,
+	2945,
+	44,
+	2944,
+	1821,
+	1101,
+	8514,
+	5123,
+	2947,
+	2942,
+	6982,
+	8774,
+	165,
+	98,
+	3228,
+	8794,
+	3565,
+	4088,
+	1252,
+	2942,
+	277,
+	8794,
+	3987,
+	1749,
+	675,
+	2409,
+	6942,
+	2865,
+	6942,
+	2826,
+	6942,
+	1793,
+	2829,
+	6942,
+	1939,
+	8774,
+	6452,
+	1350,
+	3235,
+	1348,
+	446,
+	441,
+	2509,
+	1349,
+	1349,
+	6230,
+	3987,
+	441,
+	182,
+	828,
+	6942,
+	170,
+	5945,
+	6942,
+	6230,
+	2415,
+	1524,
+	1532,
+	1550,
+	1539,
+	1707,
+	1807,
+	1919,
+	789,
+	3969,
+	2152,
+	6942,
+	881,
+	5865,
+	2938,
+	689,
+	2940,
+	1785,
+	1249,
+	6942,
+	1938,
+	1348,
+	6942,
+	8774,
+	1939,
+	6457,
+	6942,
+	5865,
+	2865,
+	2865,
+	2865,
+	2873,
+	1253,
+	1253,
+	282,
+	1253,
+	617,
+	169,
+	1028,
+	283,
+	1832,
+	1827,
 	1822,
-	12392,
-	11201,
-	15099,
-	15009,
-	15009,
-	13765,
-	12172,
-	13578,
-	15091,
-	8784,
-	8633,
-	7107,
-	6832,
-	7106,
-	6832,
-	7014,
-	6832,
-	7015,
-	6832,
-	8633,
-	12392,
-	11201,
-	15099,
-	15009,
-	15009,
-	13849,
-	12172,
-	13578,
-	15091,
-	15091,
-	14183,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	15046,
-	11067,
-	15099,
-	8784,
-	8784,
-	8784,
-	8784,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	8633,
-	2084,
+	2948,
+	1812,
+	6942,
+	607,
+	5946,
+	1257,
+	1825,
+	6458,
+	6942,
+	2865,
+	1248,
+	1817,
+	1818,
+	12404,
+	11213,
+	15114,
+	15024,
+	15024,
+	13779,
+	12184,
+	13592,
+	15106,
+	8794,
+	8643,
+	7111,
+	6837,
+	7110,
+	6837,
+	7018,
+	6837,
+	7019,
+	6837,
+	8643,
+	12404,
+	11213,
+	15114,
+	15024,
+	15024,
+	13864,
+	12184,
+	13592,
+	15106,
+	15106,
+	14198,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	15061,
+	11079,
+	15114,
+	8794,
+	8794,
+	8794,
+	8794,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	8643,
+	2080,
 	367,
-	3989,
-	2123,
-	643,
-	6978,
+	3987,
+	2119,
+	641,
+	6982,
 	215,
-	8784,
-	8588,
-	8503,
-	6847,
-	8701,
-	7043,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8633,
-	6978,
-	8784,
-	8503,
-	8503,
-	8784,
-	8784,
-	8503,
-	5063,
-	8772,
-	8503,
-	8503,
-	6978,
-	6978,
-	8784,
-	10814,
-	3994,
-	3994,
-	1661,
-	8784,
-	14141,
-	8633,
-	8633,
-	5004,
-	13578,
-	3249,
-	6978,
-	8588,
-	8772,
-	8784,
-	8633,
-	8588,
-	8588,
-	8588,
-	8602,
-	6951,
-	3994,
-	2165,
-	6467,
-	15099,
-	8784,
-	2888,
-	2888,
-	6978,
-	8633,
-	13578,
-	13912,
-	14133,
-	12710,
-	6140,
-	5124,
-	7101,
-	7101,
-	7101,
-	3633,
-	7101,
-	7101,
-	7101,
-	7101,
-	8784,
+	8794,
+	8598,
+	8514,
+	6852,
+	8711,
+	7047,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8643,
+	6982,
+	8794,
+	8514,
+	8514,
+	8794,
+	8794,
+	8514,
+	5062,
+	8782,
+	8514,
+	8514,
+	6982,
+	6982,
+	8794,
+	10827,
+	3992,
+	3992,
+	1657,
+	8794,
+	14156,
+	8643,
+	8643,
+	5003,
+	13592,
+	3243,
+	6982,
+	8598,
+	8782,
+	8794,
+	8643,
+	8598,
+	8598,
+	8598,
+	8612,
+	6955,
+	3992,
+	2161,
+	6472,
+	15114,
+	8794,
+	2882,
+	2882,
+	6982,
+	8643,
+	13592,
+	13927,
+	14148,
+	12723,
+	6145,
+	5123,
+	7105,
+	7105,
+	7105,
+	3627,
+	7105,
+	7105,
+	7105,
+	7105,
+	8794,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[7] = 
 {
@@ -17915,39 +17915,39 @@ static const Il2CppTokenRangePair s_rgctxIndices[7] =
 };
 extern const uint32_t g_rgctx_List_1_tF3DE3E9ACEB88D21187CCED17B1F3599C8644C93;
 extern const uint32_t g_rgctx_List_1_Add_m102936098A3B17B69D2E3E5E8BC9F6B9C64A9AC6;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1_t84C70745DFC3CD43D5CB928181E740A130ED385B;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1__ctor_m75CAFB0E02F8CC5EFA5B8C7BCDCF528A9D3D3125;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1_U3CLoadU3Eb__0_m9CBC05D5094FD8363F738232124AFC7A10A2FC35;
-extern const uint32_t g_rgctx_AssetBundle_LoadAsset_TisT_t133C4E55038EF944A6CFB687315A8CEFAF1A22EC_m240A7FE088313CE3009BC071B528D6413AFF28B7;
-extern const uint32_t g_rgctx_Resources_Load_TisT_t133C4E55038EF944A6CFB687315A8CEFAF1A22EC_m82C8324E29CCD3E6F5A075BA8864067A9810D18F;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1_t1B8F4960F646B8006E455D95CCBC2BD58CECF189;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1__ctor_m303C67071F9B3139BCF80523DE645E688EB735E4;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass3_0_1_U3CLoadU3Eb__0_m8BBF945501E051EF92774F8BC0756E01A9C80971;
+extern const uint32_t g_rgctx_AssetBundle_LoadAsset_TisT_tE5C12756CD58386C8B428EF10CFBAB279CF2802B_m727C2FD6A4E192EA2E376893073E20A3A6E06CE4;
+extern const uint32_t g_rgctx_Resources_Load_TisT_tE5C12756CD58386C8B428EF10CFBAB279CF2802B_mDF1F681C220CCDEE44344FB66C33826AE71239C4;
 extern const uint32_t g_rgctx_Component_GetComponent_TisT_t8AA0C4020550F10FD19CD969796DDD3843A93114_m1AB4ED2D38B4095FBA0BD501D79F9F921219DC29;
 extern const uint32_t g_rgctx_T_t8AA0C4020550F10FD19CD969796DDD3843A93114;
 extern const uint32_t g_rgctx_GameObject_AddComponent_TisT_t8AA0C4020550F10FD19CD969796DDD3843A93114_m23CB841AFB1B06D15CADC2457470F9BDBC43BF35;
-extern const uint32_t g_rgctx_Dictionary_2_tF2763417B134DCF7F9C090475E8405A1448CA55F;
-extern const uint32_t g_rgctx_Dictionary_2_TryGetValue_m5D69405A71EA06A7EED95AF51FC68ED61C5FCAA8;
-extern const uint32_t g_rgctx_Dictionary_2_Remove_m65D05877F73A2DD89880486658D84CFA1874724F;
-extern const uint32_t g_rgctx_T_t196CCE8EA0D3934EA6613EF67255ACD0700EA0B0;
-extern const uint32_t g_rgctx_T_t196CCE8EA0D3934EA6613EF67255ACD0700EA0B0;
-extern const uint32_t g_rgctx_NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisT_t119A6B0C9AA58BE0F13CCEC19E3BA3A49B73A280_m982CAA4BFDB0A2AB28FF1DFC669EB383144A5B28;
+extern const uint32_t g_rgctx_Dictionary_2_t1EEF9FD21FEBA0C8F003D429B05CDFE3A116C997;
+extern const uint32_t g_rgctx_Dictionary_2_TryGetValue_m574A22A1B4E50694961EB5C11DD97D57B03D605E;
+extern const uint32_t g_rgctx_Dictionary_2_Remove_m069ECDF0D936B2D0C2B7710EB5E9A2FDB5B7A040;
+extern const uint32_t g_rgctx_T_t8A6729EC07F1FA0CAF20A2403E7435E297414573;
+extern const uint32_t g_rgctx_T_t8A6729EC07F1FA0CAF20A2403E7435E297414573;
+extern const uint32_t g_rgctx_NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisT_t119A6B0C9AA58BE0F13CCEC19E3BA3A49B73A280_m4C0779E3BE0235262258FA7D5E31AEB2E2B6AFBB;
 extern const uint32_t g_rgctx_T_tE2FA201143C4927E4CF4E11E82D0354557A321FD;
 static const Il2CppRGCTXDefinition s_rgctxValues[17] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tF3DE3E9ACEB88D21187CCED17B1F3599C8644C93 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_m102936098A3B17B69D2E3E5E8BC9F6B9C64A9AC6 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass3_0_1_t84C70745DFC3CD43D5CB928181E740A130ED385B },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass3_0_1__ctor_m75CAFB0E02F8CC5EFA5B8C7BCDCF528A9D3D3125 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass3_0_1_U3CLoadU3Eb__0_m9CBC05D5094FD8363F738232124AFC7A10A2FC35 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AssetBundle_LoadAsset_TisT_t133C4E55038EF944A6CFB687315A8CEFAF1A22EC_m240A7FE088313CE3009BC071B528D6413AFF28B7 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Resources_Load_TisT_t133C4E55038EF944A6CFB687315A8CEFAF1A22EC_m82C8324E29CCD3E6F5A075BA8864067A9810D18F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass3_0_1_t1B8F4960F646B8006E455D95CCBC2BD58CECF189 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass3_0_1__ctor_m303C67071F9B3139BCF80523DE645E688EB735E4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass3_0_1_U3CLoadU3Eb__0_m8BBF945501E051EF92774F8BC0756E01A9C80971 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AssetBundle_LoadAsset_TisT_tE5C12756CD58386C8B428EF10CFBAB279CF2802B_m727C2FD6A4E192EA2E376893073E20A3A6E06CE4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Resources_Load_TisT_tE5C12756CD58386C8B428EF10CFBAB279CF2802B_mDF1F681C220CCDEE44344FB66C33826AE71239C4 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Component_GetComponent_TisT_t8AA0C4020550F10FD19CD969796DDD3843A93114_m1AB4ED2D38B4095FBA0BD501D79F9F921219DC29 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t8AA0C4020550F10FD19CD969796DDD3843A93114 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GameObject_AddComponent_TisT_t8AA0C4020550F10FD19CD969796DDD3843A93114_m23CB841AFB1B06D15CADC2457470F9BDBC43BF35 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Dictionary_2_tF2763417B134DCF7F9C090475E8405A1448CA55F },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_TryGetValue_m5D69405A71EA06A7EED95AF51FC68ED61C5FCAA8 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_Remove_m65D05877F73A2DD89880486658D84CFA1874724F },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t196CCE8EA0D3934EA6613EF67255ACD0700EA0B0 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t196CCE8EA0D3934EA6613EF67255ACD0700EA0B0 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisT_t119A6B0C9AA58BE0F13CCEC19E3BA3A49B73A280_m982CAA4BFDB0A2AB28FF1DFC669EB383144A5B28 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Dictionary_2_t1EEF9FD21FEBA0C8F003D429B05CDFE3A116C997 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_TryGetValue_m574A22A1B4E50694961EB5C11DD97D57B03D605E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Dictionary_2_Remove_m069ECDF0D936B2D0C2B7710EB5E9A2FDB5B7A040 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t8A6729EC07F1FA0CAF20A2403E7435E297414573 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t8A6729EC07F1FA0CAF20A2403E7435E297414573 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisT_t119A6B0C9AA58BE0F13CCEC19E3BA3A49B73A280_m4C0779E3BE0235262258FA7D5E31AEB2E2B6AFBB },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE2FA201143C4927E4CF4E11E82D0354557A321FD },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Oculus_VR_CodeGenModule;

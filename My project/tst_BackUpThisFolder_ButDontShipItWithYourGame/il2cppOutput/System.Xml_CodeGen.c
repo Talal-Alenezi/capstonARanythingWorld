@@ -13,14 +13,14 @@
 
 
 // 0x00000001 System.Void System.Xml.XmlReader::.cctor()
-extern void XmlReader__cctor_m128907AB1DC1AD053C3CDF366B6A9C5F9AE84D83 (void);
+extern void XmlReader__cctor_m9FF3BD38D3644E099B8305E251679A77A0DF493E (void);
 static Il2CppMethodPointer s_methodPointers[1] = 
 {
-	XmlReader__cctor_m128907AB1DC1AD053C3CDF366B6A9C5F9AE84D83,
+	XmlReader__cctor_m9FF3BD38D3644E099B8305E251679A77A0DF493E,
 };
 static const int32_t s_InvokerIndices[1] = 
 {
-	15099,
+	15114,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Xml_CodeGenModule;
 const Il2CppCodeGenModule g_System_Xml_CodeGenModule = 

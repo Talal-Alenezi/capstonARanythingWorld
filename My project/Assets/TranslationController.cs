@@ -8,8 +8,8 @@ using AnythingWorld.Speech;
 public class TranslationController : MonoBehaviour
 {
     private Animator anim;
-    //public OVRInput.Controller controllerR;
-    //public OVRInput.Button buttonB, buttonScndry;
+    public OVRInput.Controller controllerR;
+    public OVRInput.Button buttonB, buttonScndry;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +19,11 @@ public class TranslationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (OVRInput.GetDown(buttonB, controllerR))
-        if(Input.GetKeyUp(KeyCode.Space))
+        if (OVRInput.GetDown(buttonScndry, controllerR))
+        {
+            anim.SetTrigger("hello");
+        }
+        if(Input.GetKeyUp(KeyCode.Space) || (OVRInput.GetDown(buttonB, controllerR)))
         {
             Debug.Log("Start Listening");
             AnythingSpeech.Instance.StartListening(InProcessListeningHandler, FinishListeningHandler);
@@ -46,7 +49,7 @@ public class TranslationController : MonoBehaviour
     // ANIMATION PLAYER
     void playAnim(string testresponse) // This Test Response is after spliting
     {
-        if (testresponse == "in" || testresponse == "on" || testresponse == "and" || testresponse == "the") 
+        if (testresponse == "in" || testresponse == "on" || testresponse == "and" || testresponse == "the" || testresponse == "an") 
         return;
         else if (testresponse == "hello" || testresponse == "salaam" || testresponse == "assalam alaikum" || testresponse == "hi" || testresponse == "greetings")
         {
@@ -110,7 +113,7 @@ public class TranslationController : MonoBehaviour
         } else if (testresponse == "one" || testresponse == "1")
         {
             anim.SetTrigger("one");
-        } else if (testresponse == "two" || testresponse == "2")
+        } else if (testresponse == "two" || testresponse == "2" || testresponse == "to")
         {
             anim.SetTrigger("two");
         } else if (testresponse == "three" || testresponse == "3")
@@ -128,6 +131,37 @@ public class TranslationController : MonoBehaviour
         } else if (testresponse == "equal")
         {
             anim.SetTrigger("equal");
+        }else if (testresponse == "exam")
+        {
+            anim.SetTrigger("exam");
+        }else if (testresponse == "open")
+        {
+            anim.SetTrigger("open");
+        }else if (testresponse == "i" || testresponse == "im" || testresponse == "i'm" || testresponse == "I" || testresponse == "Im" || testresponse == "I'm")
+        {
+            anim.SetTrigger("i");
+        }
+        else if (testresponse == "thursday")
+        {
+            anim.SetTrigger("thursday");
+        }else if (testresponse == "tuesday")
+        {
+            anim.SetTrigger("tuesday");
+        }else if (testresponse == "unknown")
+        {
+            anim.SetTrigger("unknown");
+        }else if (testresponse == "x" || testresponse == "X")
+        {
+            anim.SetTrigger("x");
+        }else if (testresponse == "find")
+        {
+            anim.SetTrigger("find");
+        }else if (testresponse == "next")
+        {
+            anim.SetTrigger("next");
+        }else if (testresponse == "name")
+        {
+            anim.SetTrigger("name");
         }
 
 
@@ -156,9 +190,7 @@ public class TranslationController : MonoBehaviour
             yield return new WaitForSeconds(2.57f);
             print("coroutine is here");
         }
-        
-        
-        
+       
     }
 
 }

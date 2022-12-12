@@ -81,19 +81,19 @@ extern void SoundGroup_DecrementPlayCount_m60DDC124CC487A7A101B4EE6049F4B7CC3E9D
 // 0x00000034 System.Boolean OVR.SoundGroup::CanPlaySound()
 extern void SoundGroup_CanPlaySound_mE1DDCF774408FC6871171C2AF359A709E0BB1B55 (void);
 // 0x00000035 System.Boolean OVR.AudioManager::get_enableSpatialization()
-extern void AudioManager_get_enableSpatialization_mB9821CAB3B9AFA29E34BC705F08F8F94EC305488 (void);
+extern void AudioManager_get_enableSpatialization_m3BFA6E086998E4056D195567DE62A186EB3E8824 (void);
 // 0x00000036 OVR.AudioManager OVR.AudioManager::get_Instance()
-extern void AudioManager_get_Instance_m66627019638D1306CA0777D7F452329F63687C09 (void);
+extern void AudioManager_get_Instance_mB4807E1AD98DB2414BE0BF2C99DDDB2FDB26E3DA (void);
 // 0x00000037 System.Single OVR.AudioManager::get_NearFallOff()
-extern void AudioManager_get_NearFallOff_mB8301A4906AA8C0B9354F1B1F144BC5A76476B8F (void);
+extern void AudioManager_get_NearFallOff_mCDDEE700B7025EFA01A0D81CD9F7A994582966A4 (void);
 // 0x00000038 System.Single OVR.AudioManager::get_FarFallOff()
-extern void AudioManager_get_FarFallOff_mFA557AA4572D1D5655D37D4CEBEB409C3EF6178D (void);
+extern void AudioManager_get_FarFallOff_m3186F739F8F02A16F4FC56EE79C4170CC68A3037 (void);
 // 0x00000039 UnityEngine.Audio.AudioMixerGroup OVR.AudioManager::get_EmitterGroup()
-extern void AudioManager_get_EmitterGroup_m97F811E6AFB8F767C887E0DF5B1D81434B1AD89A (void);
+extern void AudioManager_get_EmitterGroup_m7B83EE25192ABD23ECB3CF084949436DCBE734FD (void);
 // 0x0000003A UnityEngine.Audio.AudioMixerGroup OVR.AudioManager::get_ReservedGroup()
-extern void AudioManager_get_ReservedGroup_m2DE9C72C8E1B4BFD688E3DE5B02DAD096EC46E14 (void);
+extern void AudioManager_get_ReservedGroup_mB52988C3A418052D8540BD5A2BF9D91918C3824F (void);
 // 0x0000003B UnityEngine.Audio.AudioMixerGroup OVR.AudioManager::get_VoipGroup()
-extern void AudioManager_get_VoipGroup_mBEF4865FE262DEB3AC4F655955874575F1D23BAA (void);
+extern void AudioManager_get_VoipGroup_m0EB9E725619D2251E17F1B9183DBEE852C910862 (void);
 // 0x0000003C System.Void OVR.AudioManager::Awake()
 extern void AudioManager_Awake_mBB5268822B8BB34726907B846C21EECC617C5481 (void);
 // 0x0000003D System.Void OVR.AudioManager::OnDestroy()
@@ -105,21 +105,21 @@ extern void AudioManager_Update_m29253C659583C3205A1A934400C16CB6C0F1F162 (void)
 // 0x00000040 System.Void OVR.AudioManager::RebuildSoundFXCache()
 extern void AudioManager_RebuildSoundFXCache_mDF73BDD211E3CA7F3AEA7C4F44326B37B73C76A1 (void);
 // 0x00000041 OVR.SoundFX OVR.AudioManager::FindSoundFX(System.String,System.Boolean)
-extern void AudioManager_FindSoundFX_m6DC0B8480D720B2391F16EBD59D6F9C0A726F643 (void);
+extern void AudioManager_FindSoundFX_mA396E3DBD7914B6191367848C6457B54AC2D5AEB (void);
 // 0x00000042 System.Boolean OVR.AudioManager::FindAudioManager()
-extern void AudioManager_FindAudioManager_m269EE4D46B0E0C0542CFB1136A6A1D88FEE4F98D (void);
+extern void AudioManager_FindAudioManager_m8ECEEC545509A74F6B0E8213BF857433289383C8 (void);
 // 0x00000043 UnityEngine.GameObject OVR.AudioManager::GetGameObject()
-extern void AudioManager_GetGameObject_m1BB9BFAABDE203AE3065C1B39091D3CC9B8CC896 (void);
+extern void AudioManager_GetGameObject_mB92CB1EA741CB800334452E8DC7C0695987987DE (void);
 // 0x00000044 System.String OVR.AudioManager::NameMinusGroup(System.String)
-extern void AudioManager_NameMinusGroup_m7971AD47B8CCB2D2AB6CC1BE65B2B8D112A9FBC8 (void);
+extern void AudioManager_NameMinusGroup_m611A939D366D4B8ED6AD87277951852DFA7CE71F (void);
 // 0x00000045 System.String[] OVR.AudioManager::GetSoundFXNames(System.String,System.Int32&)
-extern void AudioManager_GetSoundFXNames_mBE4CBDC1EB3112EE59B16EF27750E63480FA21CD (void);
+extern void AudioManager_GetSoundFXNames_m50627AAD411EA94641B0A1AD74CD6DEBF634388B (void);
 // 0x00000046 System.Boolean OVR.AudioManager::get_SoundEnabled()
-extern void AudioManager_get_SoundEnabled_m4DDC5AA2D49A26737CA0B6F00600FB161310D3E0 (void);
+extern void AudioManager_get_SoundEnabled_m62B1846EBC36CA81B930FC7F59834E6C590651F9 (void);
 // 0x00000047 System.Int32 OVR.AudioManager::CalculateMaxEmittersSize()
-extern void AudioManager_CalculateMaxEmittersSize_mA9D8E72127353A3E1C5B2790C2CAD28504134699 (void);
+extern void AudioManager_CalculateMaxEmittersSize_m919B1A6FFAD6C20E10987B53DBCD3B14610F3EE9 (void);
 // 0x00000048 System.Boolean OVR.AudioManager::ValidateEmitterIndex(System.Int32)
-extern void AudioManager_ValidateEmitterIndex_m98DB560EF11057C9D28CC11729561EB328818238 (void);
+extern void AudioManager_ValidateEmitterIndex_mC794E8B7C25BD89D69F2734453D20FAC071E57D4 (void);
 // 0x00000049 System.Void OVR.AudioManager::InitializeSoundSystem()
 extern void AudioManager_InitializeSoundSystem_m6CC75B331FAF16818CAF5E3795ADEA1785586D85 (void);
 // 0x0000004A System.Void OVR.AudioManager::UpdateFreeEmitters()
@@ -133,65 +133,65 @@ extern void AudioManager_OnPreSceneLoad_m80E717132EA1361341D7343ABF2304DAE58CA71
 // 0x0000004E System.Void OVR.AudioManager::ResetFreeEmitters()
 extern void AudioManager_ResetFreeEmitters_m08A247E69989CDED7DEE8D97A9EFD3D2C85DF980 (void);
 // 0x0000004F System.Void OVR.AudioManager::FadeOutSoundChannel(System.Int32,System.Single,System.Single)
-extern void AudioManager_FadeOutSoundChannel_m717066E8840DDB723F8C9FB8340E212C8E0E40F3 (void);
+extern void AudioManager_FadeOutSoundChannel_mCEB1F6FF4A44C0087A633127775F97C463C51D16 (void);
 // 0x00000050 System.Boolean OVR.AudioManager::StopSound(System.Int32,System.Boolean,System.Boolean)
-extern void AudioManager_StopSound_m28B0CD25A3DCDA912E66A3365B1FF6A80F072709 (void);
+extern void AudioManager_StopSound_mE557ABCEA88A8C9A6AEBFEF67832760909FB1F8E (void);
 // 0x00000051 System.Void OVR.AudioManager::FadeInSound(System.Int32,System.Single,System.Single)
-extern void AudioManager_FadeInSound_m733713B8CB5427DBB4CCCA42EF60E009EB16A7E6 (void);
+extern void AudioManager_FadeInSound_mD9826308427FAD2CECFA8074B77E30690D668B28 (void);
 // 0x00000052 System.Void OVR.AudioManager::FadeInSound(System.Int32,System.Single)
-extern void AudioManager_FadeInSound_m9B02F315C7464929F0AA17D842E647D33199007B (void);
+extern void AudioManager_FadeInSound_mA0025CF3BA9FAB66E60F7EA16A9F1ACD485F3A68 (void);
 // 0x00000053 System.Void OVR.AudioManager::FadeOutSound(System.Int32,System.Single)
-extern void AudioManager_FadeOutSound_m2B15BA4C4398FE355814BD8DFE484EC2A79B0532 (void);
+extern void AudioManager_FadeOutSound_m6E158F122E6FAA15590757A5948DD1E9671ED7CD (void);
 // 0x00000054 System.Void OVR.AudioManager::StopAllSounds(System.Boolean,System.Boolean)
-extern void AudioManager_StopAllSounds_m61E797DFDB7BD63721771D535F4C58965B4C8EBF (void);
+extern void AudioManager_StopAllSounds_m96CD8B66F9702E1E58A62B3FEE1B9ADE81EC2ABC (void);
 // 0x00000055 System.Void OVR.AudioManager::MuteAllSounds(System.Boolean,System.Boolean)
 extern void AudioManager_MuteAllSounds_m2AC1AF47C8DBA2D224B4F8C5A302F220A432EF7D (void);
 // 0x00000056 System.Void OVR.AudioManager::UnMuteAllSounds(System.Boolean,System.Boolean)
 extern void AudioManager_UnMuteAllSounds_m6DA1429FC45CD70FEC08D58BC915BF313A30248B (void);
 // 0x00000057 System.Single OVR.AudioManager::GetEmitterEndTime(System.Int32)
-extern void AudioManager_GetEmitterEndTime_m40F1E36071B4B7E8FFCEECB5650F02D0D1753CDD (void);
+extern void AudioManager_GetEmitterEndTime_m7C03F3AE84E7B99F3F3FB57B74C4E5DDFD105A59 (void);
 // 0x00000058 System.Single OVR.AudioManager::SetEmitterTime(System.Int32,System.Single)
-extern void AudioManager_SetEmitterTime_mE558425BE18540C129DC34B7BDC345F36BA7EA19 (void);
+extern void AudioManager_SetEmitterTime_m63F7418E08FCF827BFF6C890E4F053DEC56FCEF9 (void);
 // 0x00000059 System.Int32 OVR.AudioManager::PlaySound(UnityEngine.AudioClip,System.Single,OVR.EmitterChannel,System.Single,System.Single,System.Boolean)
-extern void AudioManager_PlaySound_m3418300C9586E66E2EE83DB4C9FCAFD996EB6C01 (void);
+extern void AudioManager_PlaySound_mF82930AC466827FD8BBF37DA3CBDD38C8FEE6D4B (void);
 // 0x0000005A System.Int32 OVR.AudioManager::FindFreeEmitter(OVR.EmitterChannel,OVR.SoundPriority)
-extern void AudioManager_FindFreeEmitter_m5EBEF77A72964D0F56C6761EDA2FE61DDE2260F7 (void);
+extern void AudioManager_FindFreeEmitter_mDAC957AB10257B8CC1B90F9D25A0D4118952EC8A (void);
 // 0x0000005B System.Int32 OVR.AudioManager::PlaySound(OVR.SoundFX,OVR.EmitterChannel,System.Single)
-extern void AudioManager_PlaySound_mE1FA65A1FE304E5FFC008CF7C2EAEC0D39A41C1B (void);
+extern void AudioManager_PlaySound_m99FDD1978B93763FD82B16B139586CF9A5BF0FE8 (void);
 // 0x0000005C System.Int32 OVR.AudioManager::PlaySoundAt(UnityEngine.Vector3,OVR.SoundFX,OVR.EmitterChannel,System.Single,System.Single,System.Single)
-extern void AudioManager_PlaySoundAt_m322F4EF8EDF796F830A19C8A70B5DC5E06934505 (void);
+extern void AudioManager_PlaySoundAt_m0D0E24DDB118613ECF67CEB98B405700F7556C37 (void);
 // 0x0000005D System.Int32 OVR.AudioManager::PlayRandomSoundAt(UnityEngine.Vector3,UnityEngine.AudioClip[],System.Single,OVR.EmitterChannel,System.Single,System.Single,System.Boolean)
-extern void AudioManager_PlayRandomSoundAt_m56022F762DD099AC3C57A3B6959BF1B907A656E0 (void);
+extern void AudioManager_PlayRandomSoundAt_m23F5E85AC167760FB87F5DEFB481BFCAE88B4190 (void);
 // 0x0000005E System.Int32 OVR.AudioManager::PlaySoundAt(UnityEngine.Vector3,UnityEngine.AudioClip,System.Single,OVR.EmitterChannel,System.Single,System.Single,System.Boolean)
-extern void AudioManager_PlaySoundAt_m11E82887246686DDFD566CA416ADCAA389CE18C6 (void);
+extern void AudioManager_PlaySoundAt_m2E48B45B2691F696BA6D8D4F2C9DE83B9D2750A5 (void);
 // 0x0000005F System.Void OVR.AudioManager::SetOnFinished(System.Int32,System.Action)
-extern void AudioManager_SetOnFinished_mE996FDFAA244E5330EAB1D2C8801BB63D61607D8 (void);
+extern void AudioManager_SetOnFinished_m3A9D9F2994FE9F2A3C699F75BB0C6C3DF7588D97 (void);
 // 0x00000060 System.Void OVR.AudioManager::SetOnFinished(System.Int32,System.Action`1<System.Object>,System.Object)
-extern void AudioManager_SetOnFinished_m76A26CD03A50E986B8E01D21638256792AE67816 (void);
+extern void AudioManager_SetOnFinished_m3800873B5872DF436550F60EC2419A06F5427206 (void);
 // 0x00000061 System.Void OVR.AudioManager::AttachSoundToParent(System.Int32,UnityEngine.Transform)
-extern void AudioManager_AttachSoundToParent_mA99D7166C48619D50B02B3813194EED784335236 (void);
+extern void AudioManager_AttachSoundToParent_m82E1BF9820D6382035C1E11FC6B1C67E10EFF044 (void);
 // 0x00000062 System.Void OVR.AudioManager::DetachSoundFromParent(System.Int32)
-extern void AudioManager_DetachSoundFromParent_mEF5773E3A0A2C3DC72F31E494E6B514BEEA38909 (void);
+extern void AudioManager_DetachSoundFromParent_m09CCB2A8CA526D5BB7419AFE0B7B89DBDD8CC28D (void);
 // 0x00000063 System.Void OVR.AudioManager::DetachSoundsFromParent(OVR.SoundEmitter[],System.Boolean)
-extern void AudioManager_DetachSoundsFromParent_m03BEB3EB6AA6290361BD99710CB384C0A60998BD (void);
+extern void AudioManager_DetachSoundsFromParent_m51184682813704563A695FB90377AE205A9DBD85 (void);
 // 0x00000064 System.Void OVR.AudioManager::SetEmitterMixerGroup(System.Int32,UnityEngine.Audio.AudioMixerGroup)
-extern void AudioManager_SetEmitterMixerGroup_mBF1CFF90505EE5A8072531C80B06E77D9DD80D01 (void);
+extern void AudioManager_SetEmitterMixerGroup_m80D6A4DB9516D05347D21FD5ACE354FA2C018AD8 (void);
 // 0x00000065 OVR.MixerSnapshot OVR.AudioManager::GetActiveSnapshot()
-extern void AudioManager_GetActiveSnapshot_mD06A87E9F7D6D32B23BAB43B1A1239ABEE6450CB (void);
+extern void AudioManager_GetActiveSnapshot_m1BF4917C8C5B9ADE466EB614DB4B552E4E34D123 (void);
 // 0x00000066 System.Void OVR.AudioManager::SetCurrentSnapshot(OVR.MixerSnapshot)
-extern void AudioManager_SetCurrentSnapshot_mE20B02C68B5F2429A9A9800E6EDC0E6DFE67CAF3 (void);
+extern void AudioManager_SetCurrentSnapshot_m71733D952D8B6CD57037A0C80B81C219A1C368D9 (void);
 // 0x00000067 System.Void OVR.AudioManager::BlendWithCurrentSnapshot(OVR.MixerSnapshot,System.Single,System.Single)
-extern void AudioManager_BlendWithCurrentSnapshot_mF6795CF7E331DCA0BEC9A0109DF67FA555C8AAB3 (void);
+extern void AudioManager_BlendWithCurrentSnapshot_mAFABFD1E6C8893A368D2A9548EB9A4813499A442 (void);
 // 0x00000068 System.Void OVR.AudioManager::.ctor()
 extern void AudioManager__ctor_m9699A87BCFA5665915CA246C7F577C528D4C1922 (void);
 // 0x00000069 System.Void OVR.AudioManager::.cctor()
-extern void AudioManager__cctor_m5E8BFFA7F3FEBA867F66E0FFAF75D67DE8A6283C (void);
+extern void AudioManager__cctor_mDE7587450E4F4A3E3469B7619A783D88C4F351BA (void);
 // 0x0000006A System.Void OVR.AudioManager/<>c__DisplayClass77_0::.ctor()
 extern void U3CU3Ec__DisplayClass77_0__ctor_m43A7E087DF7E2345A199CF8ACDE96AB8ACBA23DC (void);
 // 0x0000006B System.Boolean OVR.AudioManager/<>c__DisplayClass77_0::<FindFreeEmitter>b__0(OVR.SoundEmitter)
 extern void U3CU3Ec__DisplayClass77_0_U3CFindFreeEmitterU3Eb__0_m660CF111FEB0AB4C4F1B3DD6AF77F38F329E679D (void);
 // 0x0000006C System.Void OVR.AudioManager/<>c::.cctor()
-extern void U3CU3Ec__cctor_mB5D37799FEF0C2DCBA295E4E438D138F4B5B3280 (void);
+extern void U3CU3Ec__cctor_m766DFB4A2099CEE3495499811AC77E9E2FD7DFC6 (void);
 // 0x0000006D System.Void OVR.AudioManager/<>c::.ctor()
 extern void U3CU3Ec__ctor_mA38CF0AC7BDA75885F1DC677AB4A7D1A30BAEF8D (void);
 // 0x0000006E System.Boolean OVR.AudioManager/<>c::<FindFreeEmitter>b__77_1(OVR.SoundEmitter)
@@ -444,62 +444,62 @@ static Il2CppMethodPointer s_methodPointers[207] =
 	SoundGroup_IncrementPlayCount_m94394C9584F71AFAA82DE5F82C7BF1ECAB4B09CF,
 	SoundGroup_DecrementPlayCount_m60DDC124CC487A7A101B4EE6049F4B7CC3E9D171,
 	SoundGroup_CanPlaySound_mE1DDCF774408FC6871171C2AF359A709E0BB1B55,
-	AudioManager_get_enableSpatialization_mB9821CAB3B9AFA29E34BC705F08F8F94EC305488,
-	AudioManager_get_Instance_m66627019638D1306CA0777D7F452329F63687C09,
-	AudioManager_get_NearFallOff_mB8301A4906AA8C0B9354F1B1F144BC5A76476B8F,
-	AudioManager_get_FarFallOff_mFA557AA4572D1D5655D37D4CEBEB409C3EF6178D,
-	AudioManager_get_EmitterGroup_m97F811E6AFB8F767C887E0DF5B1D81434B1AD89A,
-	AudioManager_get_ReservedGroup_m2DE9C72C8E1B4BFD688E3DE5B02DAD096EC46E14,
-	AudioManager_get_VoipGroup_mBEF4865FE262DEB3AC4F655955874575F1D23BAA,
+	AudioManager_get_enableSpatialization_m3BFA6E086998E4056D195567DE62A186EB3E8824,
+	AudioManager_get_Instance_mB4807E1AD98DB2414BE0BF2C99DDDB2FDB26E3DA,
+	AudioManager_get_NearFallOff_mCDDEE700B7025EFA01A0D81CD9F7A994582966A4,
+	AudioManager_get_FarFallOff_m3186F739F8F02A16F4FC56EE79C4170CC68A3037,
+	AudioManager_get_EmitterGroup_m7B83EE25192ABD23ECB3CF084949436DCBE734FD,
+	AudioManager_get_ReservedGroup_mB52988C3A418052D8540BD5A2BF9D91918C3824F,
+	AudioManager_get_VoipGroup_m0EB9E725619D2251E17F1B9183DBEE852C910862,
 	AudioManager_Awake_mBB5268822B8BB34726907B846C21EECC617C5481,
 	AudioManager_OnDestroy_mF31D207317018CDF62CB28FB9BDD61C873462594,
 	AudioManager_Init_m082C72F0AEBBF34C85D56E19D26BD73EEDA9E346,
 	AudioManager_Update_m29253C659583C3205A1A934400C16CB6C0F1F162,
 	AudioManager_RebuildSoundFXCache_mDF73BDD211E3CA7F3AEA7C4F44326B37B73C76A1,
-	AudioManager_FindSoundFX_m6DC0B8480D720B2391F16EBD59D6F9C0A726F643,
-	AudioManager_FindAudioManager_m269EE4D46B0E0C0542CFB1136A6A1D88FEE4F98D,
-	AudioManager_GetGameObject_m1BB9BFAABDE203AE3065C1B39091D3CC9B8CC896,
-	AudioManager_NameMinusGroup_m7971AD47B8CCB2D2AB6CC1BE65B2B8D112A9FBC8,
-	AudioManager_GetSoundFXNames_mBE4CBDC1EB3112EE59B16EF27750E63480FA21CD,
-	AudioManager_get_SoundEnabled_m4DDC5AA2D49A26737CA0B6F00600FB161310D3E0,
-	AudioManager_CalculateMaxEmittersSize_mA9D8E72127353A3E1C5B2790C2CAD28504134699,
-	AudioManager_ValidateEmitterIndex_m98DB560EF11057C9D28CC11729561EB328818238,
+	AudioManager_FindSoundFX_mA396E3DBD7914B6191367848C6457B54AC2D5AEB,
+	AudioManager_FindAudioManager_m8ECEEC545509A74F6B0E8213BF857433289383C8,
+	AudioManager_GetGameObject_mB92CB1EA741CB800334452E8DC7C0695987987DE,
+	AudioManager_NameMinusGroup_m611A939D366D4B8ED6AD87277951852DFA7CE71F,
+	AudioManager_GetSoundFXNames_m50627AAD411EA94641B0A1AD74CD6DEBF634388B,
+	AudioManager_get_SoundEnabled_m62B1846EBC36CA81B930FC7F59834E6C590651F9,
+	AudioManager_CalculateMaxEmittersSize_m919B1A6FFAD6C20E10987B53DBCD3B14610F3EE9,
+	AudioManager_ValidateEmitterIndex_mC794E8B7C25BD89D69F2734453D20FAC071E57D4,
 	AudioManager_InitializeSoundSystem_m6CC75B331FAF16818CAF5E3795ADEA1785586D85,
 	AudioManager_UpdateFreeEmitters_mEEA1E96587895DE02A0973E5A5DC5EA72367BA00,
 	AudioManager_Fmt_m401FCD75CEFB0E7912CCD02286E013605AFF39AF,
 	AudioManager_FmtFree_m2534474AD79DD4707090282EA251C1CEEB4E9C85,
 	AudioManager_OnPreSceneLoad_m80E717132EA1361341D7343ABF2304DAE58CA716,
 	AudioManager_ResetFreeEmitters_m08A247E69989CDED7DEE8D97A9EFD3D2C85DF980,
-	AudioManager_FadeOutSoundChannel_m717066E8840DDB723F8C9FB8340E212C8E0E40F3,
-	AudioManager_StopSound_m28B0CD25A3DCDA912E66A3365B1FF6A80F072709,
-	AudioManager_FadeInSound_m733713B8CB5427DBB4CCCA42EF60E009EB16A7E6,
-	AudioManager_FadeInSound_m9B02F315C7464929F0AA17D842E647D33199007B,
-	AudioManager_FadeOutSound_m2B15BA4C4398FE355814BD8DFE484EC2A79B0532,
-	AudioManager_StopAllSounds_m61E797DFDB7BD63721771D535F4C58965B4C8EBF,
+	AudioManager_FadeOutSoundChannel_mCEB1F6FF4A44C0087A633127775F97C463C51D16,
+	AudioManager_StopSound_mE557ABCEA88A8C9A6AEBFEF67832760909FB1F8E,
+	AudioManager_FadeInSound_mD9826308427FAD2CECFA8074B77E30690D668B28,
+	AudioManager_FadeInSound_mA0025CF3BA9FAB66E60F7EA16A9F1ACD485F3A68,
+	AudioManager_FadeOutSound_m6E158F122E6FAA15590757A5948DD1E9671ED7CD,
+	AudioManager_StopAllSounds_m96CD8B66F9702E1E58A62B3FEE1B9ADE81EC2ABC,
 	AudioManager_MuteAllSounds_m2AC1AF47C8DBA2D224B4F8C5A302F220A432EF7D,
 	AudioManager_UnMuteAllSounds_m6DA1429FC45CD70FEC08D58BC915BF313A30248B,
-	AudioManager_GetEmitterEndTime_m40F1E36071B4B7E8FFCEECB5650F02D0D1753CDD,
-	AudioManager_SetEmitterTime_mE558425BE18540C129DC34B7BDC345F36BA7EA19,
-	AudioManager_PlaySound_m3418300C9586E66E2EE83DB4C9FCAFD996EB6C01,
-	AudioManager_FindFreeEmitter_m5EBEF77A72964D0F56C6761EDA2FE61DDE2260F7,
-	AudioManager_PlaySound_mE1FA65A1FE304E5FFC008CF7C2EAEC0D39A41C1B,
-	AudioManager_PlaySoundAt_m322F4EF8EDF796F830A19C8A70B5DC5E06934505,
-	AudioManager_PlayRandomSoundAt_m56022F762DD099AC3C57A3B6959BF1B907A656E0,
-	AudioManager_PlaySoundAt_m11E82887246686DDFD566CA416ADCAA389CE18C6,
-	AudioManager_SetOnFinished_mE996FDFAA244E5330EAB1D2C8801BB63D61607D8,
-	AudioManager_SetOnFinished_m76A26CD03A50E986B8E01D21638256792AE67816,
-	AudioManager_AttachSoundToParent_mA99D7166C48619D50B02B3813194EED784335236,
-	AudioManager_DetachSoundFromParent_mEF5773E3A0A2C3DC72F31E494E6B514BEEA38909,
-	AudioManager_DetachSoundsFromParent_m03BEB3EB6AA6290361BD99710CB384C0A60998BD,
-	AudioManager_SetEmitterMixerGroup_mBF1CFF90505EE5A8072531C80B06E77D9DD80D01,
-	AudioManager_GetActiveSnapshot_mD06A87E9F7D6D32B23BAB43B1A1239ABEE6450CB,
-	AudioManager_SetCurrentSnapshot_mE20B02C68B5F2429A9A9800E6EDC0E6DFE67CAF3,
-	AudioManager_BlendWithCurrentSnapshot_mF6795CF7E331DCA0BEC9A0109DF67FA555C8AAB3,
+	AudioManager_GetEmitterEndTime_m7C03F3AE84E7B99F3F3FB57B74C4E5DDFD105A59,
+	AudioManager_SetEmitterTime_m63F7418E08FCF827BFF6C890E4F053DEC56FCEF9,
+	AudioManager_PlaySound_mF82930AC466827FD8BBF37DA3CBDD38C8FEE6D4B,
+	AudioManager_FindFreeEmitter_mDAC957AB10257B8CC1B90F9D25A0D4118952EC8A,
+	AudioManager_PlaySound_m99FDD1978B93763FD82B16B139586CF9A5BF0FE8,
+	AudioManager_PlaySoundAt_m0D0E24DDB118613ECF67CEB98B405700F7556C37,
+	AudioManager_PlayRandomSoundAt_m23F5E85AC167760FB87F5DEFB481BFCAE88B4190,
+	AudioManager_PlaySoundAt_m2E48B45B2691F696BA6D8D4F2C9DE83B9D2750A5,
+	AudioManager_SetOnFinished_m3A9D9F2994FE9F2A3C699F75BB0C6C3DF7588D97,
+	AudioManager_SetOnFinished_m3800873B5872DF436550F60EC2419A06F5427206,
+	AudioManager_AttachSoundToParent_m82E1BF9820D6382035C1E11FC6B1C67E10EFF044,
+	AudioManager_DetachSoundFromParent_m09CCB2A8CA526D5BB7419AFE0B7B89DBDD8CC28D,
+	AudioManager_DetachSoundsFromParent_m51184682813704563A695FB90377AE205A9DBD85,
+	AudioManager_SetEmitterMixerGroup_m80D6A4DB9516D05347D21FD5ACE354FA2C018AD8,
+	AudioManager_GetActiveSnapshot_m1BF4917C8C5B9ADE466EB614DB4B552E4E34D123,
+	AudioManager_SetCurrentSnapshot_m71733D952D8B6CD57037A0C80B81C219A1C368D9,
+	AudioManager_BlendWithCurrentSnapshot_mAFABFD1E6C8893A368D2A9548EB9A4813499A442,
 	AudioManager__ctor_m9699A87BCFA5665915CA246C7F577C528D4C1922,
-	AudioManager__cctor_m5E8BFFA7F3FEBA867F66E0FFAF75D67DE8A6283C,
+	AudioManager__cctor_mDE7587450E4F4A3E3469B7619A783D88C4F351BA,
 	U3CU3Ec__DisplayClass77_0__ctor_m43A7E087DF7E2345A199CF8ACDE96AB8ACBA23DC,
 	U3CU3Ec__DisplayClass77_0_U3CFindFreeEmitterU3Eb__0_m660CF111FEB0AB4C4F1B3DD6AF77F38F329E679D,
-	U3CU3Ec__cctor_mB5D37799FEF0C2DCBA295E4E438D138F4B5B3280,
+	U3CU3Ec__cctor_m766DFB4A2099CEE3495499811AC77E9E2FD7DFC6,
 	U3CU3Ec__ctor_mA38CF0AC7BDA75885F1DC677AB4A7D1A30BAEF8D,
 	U3CU3Ec_U3CFindFreeEmitterU3Eb__77_1_m3C285F5547707083D954D1216F6E010AC73AA153,
 	MixerSnapshot__ctor_m910708868845F5D17CA7506E445086ADBF0E2C0A,
@@ -638,177 +638,177 @@ static const int32_t s_InvokerIndices[207] =
 	0,
 	0,
 	0,
-	3994,
-	6978,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	6978,
-	8784,
-	6847,
-	8784,
-	6978,
-	8784,
-	8784,
-	8784,
-	8503,
-	15009,
-	15046,
-	15078,
-	15078,
-	15046,
-	15046,
-	15046,
-	8784,
-	8784,
-	8784,
-	8784,
-	8784,
-	12232,
-	15009,
-	15046,
-	13853,
-	12231,
-	15009,
-	15036,
-	13575,
-	8784,
-	8784,
-	6225,
-	6225,
-	8784,
-	8784,
-	11466,
-	10820,
-	11466,
-	12614,
-	12614,
-	12599,
-	3310,
-	3310,
-	13958,
-	12335,
-	9328,
-	12094,
-	10988,
-	9333,
-	9226,
-	9226,
+	3992,
+	6982,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	6982,
+	8794,
+	6852,
+	8794,
+	6982,
+	8794,
+	8794,
+	8794,
+	8514,
+	15024,
+	15061,
+	15093,
+	15093,
+	15061,
+	15061,
+	15061,
+	8794,
+	8794,
+	8794,
+	8794,
+	8794,
+	12244,
+	15024,
+	15061,
+	13868,
+	12243,
+	15024,
+	15051,
+	13589,
+	8794,
+	8794,
+	6230,
+	6230,
+	8794,
+	8794,
+	11478,
+	10833,
+	11478,
+	12627,
+	12627,
 	12612,
-	11465,
-	12612,
-	14170,
-	12686,
-	12612,
-	15046,
-	14174,
-	11541,
-	8784,
-	15099,
-	8784,
-	5004,
-	15099,
-	8784,
-	5004,
-	8784,
-	1591,
-	8701,
-	7043,
-	8701,
-	7043,
-	8633,
-	6978,
-	8701,
-	7043,
-	8701,
-	8503,
-	6847,
-	8503,
-	6847,
-	8588,
-	6935,
-	8503,
-	8784,
-	6978,
-	6978,
-	3994,
-	6935,
-	6978,
-	6978,
-	8503,
-	8784,
-	8784,
-	8784,
-	8588,
-	6978,
-	8784,
-	6978,
-	2182,
-	1888,
-	4059,
-	4059,
-	7043,
-	7043,
-	4059,
-	3163,
-	1325,
-	8784,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	6935,
-	8784,
-	8503,
-	8633,
-	8784,
-	8633,
-	8784,
-	8784,
-	8588,
-	8503,
-	8633,
-	6978,
-	8701,
-	8701,
-	8633,
-	6234,
-	8503,
-	6358,
-	8701,
-	5905,
-	1263,
-	6978,
-	3994,
-	8503,
-	6978,
-	8784,
-	8633,
-	8633,
-	6978,
-	8784,
-	8588,
-	8503,
-	8633,
-	6358,
-	5905,
-	1263,
-	6978,
-	3994,
-	8503,
-	6978,
-	8784,
-	8784,
+	3305,
+	3305,
+	13973,
+	12347,
+	9342,
+	12106,
+	11000,
+	9347,
+	9240,
+	9240,
+	12625,
+	11477,
+	12625,
+	14185,
+	12699,
+	12625,
+	15061,
+	14189,
+	11553,
+	8794,
+	15114,
+	8794,
+	5003,
+	15114,
+	8794,
+	5003,
+	8794,
+	1587,
+	8711,
+	7047,
+	8711,
+	7047,
+	8643,
+	6982,
+	8711,
+	7047,
+	8711,
+	8514,
+	6852,
+	8514,
+	6852,
+	8598,
+	6939,
+	8514,
+	8794,
+	6982,
+	6982,
+	3992,
+	6939,
+	6982,
+	6982,
+	8514,
+	8794,
+	8794,
+	8794,
+	8598,
+	6982,
+	8794,
+	6982,
+	2178,
+	1885,
+	4057,
+	4057,
+	7047,
+	7047,
+	4057,
+	3157,
+	1321,
+	8794,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	6939,
+	8794,
+	8514,
+	8643,
+	8794,
+	8643,
+	8794,
+	8794,
+	8598,
+	8514,
+	8643,
+	6982,
+	8711,
+	8711,
+	8643,
+	6239,
+	8514,
+	6363,
+	8711,
+	5906,
+	1260,
+	6982,
+	3992,
+	8514,
+	6982,
+	8794,
+	8643,
+	8643,
+	6982,
+	8794,
+	8598,
+	8514,
+	8643,
+	6363,
+	5906,
+	1260,
+	6982,
+	3992,
+	8514,
+	6982,
+	8794,
+	8794,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {

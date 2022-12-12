@@ -25,7 +25,7 @@ extern void BigInteger__ctor_mB5E6337A77FC9888762DD29AAF54D2BBDD828D03 (void);
 // 0x00000006 System.Void System.Numerics.BigInteger::.ctor(System.UInt32[],System.Boolean)
 extern void BigInteger__ctor_m14A0AC47ABF1AF6DE7B653CED685D7AD11B54BE6 (void);
 // 0x00000007 System.Numerics.BigInteger System.Numerics.BigInteger::get_MinusOne()
-extern void BigInteger_get_MinusOne_m9929E7AEC67F4E57C76A0B8AE7D23C20DF7BD265 (void);
+extern void BigInteger_get_MinusOne_m3FF0F44F8C3D6DFB66C00B61017E42E555585465 (void);
 // 0x00000008 System.Int32 System.Numerics.BigInteger::GetHashCode()
 extern void BigInteger_GetHashCode_m2CB01C462C09EB23616010EB24E0A87A4D35D783 (void);
 // 0x00000009 System.Boolean System.Numerics.BigInteger::Equals(System.Object)
@@ -47,95 +47,95 @@ extern void BigInteger_ToString_m6AFB0DE9CD953DA8B015C31B3CC1FEF86D98A306 (void)
 // 0x00000011 System.String System.Numerics.BigInteger::ToString(System.String,System.IFormatProvider)
 extern void BigInteger_ToString_mF67077A813661D27640565FC41346D65A155B3F6 (void);
 // 0x00000012 System.Numerics.BigInteger System.Numerics.BigInteger::Add(System.UInt32[],System.Int32,System.UInt32[],System.Int32)
-extern void BigInteger_Add_m66F893D93D5E81DE3273EE0C43517C2862F60301 (void);
+extern void BigInteger_Add_m7544497BCCB4A4612A2CFC9F272FFA6E22F740D8 (void);
 // 0x00000013 System.Numerics.BigInteger System.Numerics.BigInteger::Subtract(System.UInt32[],System.Int32,System.UInt32[],System.Int32)
-extern void BigInteger_Subtract_m93BBFFEFA7C22BEC70B6B99B95A0CB21506FC65E (void);
+extern void BigInteger_Subtract_mA96B4B988F08F5DCADABE0B27BA23D970EBFF88D (void);
 // 0x00000014 System.Numerics.BigInteger System.Numerics.BigInteger::op_Implicit(System.Byte)
-extern void BigInteger_op_Implicit_mA8880EAACAE2FCA70874F585E14F7DA0231D8D97 (void);
+extern void BigInteger_op_Implicit_m9B2DA118DD0522DFA6983787CC9C09DACDB5469B (void);
 // 0x00000015 System.Numerics.BigInteger System.Numerics.BigInteger::op_Implicit(System.Int32)
-extern void BigInteger_op_Implicit_m727B3C507042A16CD36B63DA4D1B66D66EA1ED73 (void);
+extern void BigInteger_op_Implicit_m0E4A1C7B1F24EB10AE57608F2EBA5B127006D850 (void);
 // 0x00000016 System.Numerics.BigInteger System.Numerics.BigInteger::op_Implicit(System.Int64)
-extern void BigInteger_op_Implicit_mB99A75482A4AFBDC07F29EF6B9C8B56522088C1F (void);
+extern void BigInteger_op_Implicit_mB409693E4A4DD397B321CE56E748831FD0B67A06 (void);
 // 0x00000017 System.Int32 System.Numerics.BigInteger::op_Explicit(System.Numerics.BigInteger)
-extern void BigInteger_op_Explicit_m046F008251D35766B0BE64B7C436F4880DB853F7 (void);
+extern void BigInteger_op_Explicit_m381F80B7F65BFEC7F2597DCDB24622F7F32E6848 (void);
 // 0x00000018 System.Numerics.BigInteger System.Numerics.BigInteger::op_LeftShift(System.Numerics.BigInteger,System.Int32)
-extern void BigInteger_op_LeftShift_mB540326B560370DA0F03A93039FCA8D240CBD2BC (void);
+extern void BigInteger_op_LeftShift_m9C9DD1A22775C31A01650FEB59A91D4A58B719B3 (void);
 // 0x00000019 System.Numerics.BigInteger System.Numerics.BigInteger::op_RightShift(System.Numerics.BigInteger,System.Int32)
-extern void BigInteger_op_RightShift_m6A0B97CE25BB20494371385564A248CF58914161 (void);
+extern void BigInteger_op_RightShift_mE0645B6555F95B4838A8F471584DCA026848F7AB (void);
 // 0x0000001A System.Numerics.BigInteger System.Numerics.BigInteger::op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger)
-extern void BigInteger_op_Addition_m0045F80E2EAFF3CC36ABAA89859190C3E177930B (void);
+extern void BigInteger_op_Addition_m895A3ED96D07E1A6E4AD97483EDC256107A31B12 (void);
 // 0x0000001B System.Boolean System.Numerics.BigInteger::GetPartsForBitManipulation(System.Numerics.BigInteger&,System.UInt32[]&,System.Int32&)
-extern void BigInteger_GetPartsForBitManipulation_m7D5BA06B014F65A7B023E8FB2B93BBCBBB46C268 (void);
+extern void BigInteger_GetPartsForBitManipulation_m679473F863B7A311A59B4B58F26F1D30ADFEEADF (void);
 // 0x0000001C System.Int32 System.Numerics.BigInteger::GetDiffLength(System.UInt32[],System.UInt32[],System.Int32)
-extern void BigInteger_GetDiffLength_mFF03BA36F23B3072F7DB3628547DF7B0CC34F650 (void);
+extern void BigInteger_GetDiffLength_m86F9E98613660CB092EA24BC931C98B60E802902 (void);
 // 0x0000001D System.Void System.Numerics.BigInteger::.cctor()
-extern void BigInteger__cctor_mF084FD0C34BF15164291C3A0495AFDE528F94001 (void);
+extern void BigInteger__cctor_mEE4D16FA07B1AD31F26502B9C54DB72DB4D1C626 (void);
 // 0x0000001E System.UInt32[] System.Numerics.BigIntegerCalculator::Add(System.UInt32[],System.UInt32)
-extern void BigIntegerCalculator_Add_m5006C175629497B132A0B125FC1205AC81506965 (void);
+extern void BigIntegerCalculator_Add_m6B363515A5150645D0CAD0DDF4B04348B95C29C3 (void);
 // 0x0000001F System.UInt32[] System.Numerics.BigIntegerCalculator::Add(System.UInt32[],System.UInt32[])
-extern void BigIntegerCalculator_Add_mBFE104C275F28C2460ED512D63BFF917DABC0FBB (void);
+extern void BigIntegerCalculator_Add_mE49BAD7CDF073CF2D2A2DEABCF11AEE5CC239298 (void);
 // 0x00000020 System.Void System.Numerics.BigIntegerCalculator::Add(System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32)
-extern void BigIntegerCalculator_Add_mF3E1DF0BCC439558D9178188ED0A7CAFA8630313 (void);
+extern void BigIntegerCalculator_Add_m3CB52FDB28E32D96E1400C839ED8E7F51726A814 (void);
 // 0x00000021 System.UInt32[] System.Numerics.BigIntegerCalculator::Subtract(System.UInt32[],System.UInt32)
-extern void BigIntegerCalculator_Subtract_m3A108462F38E1640A32631B3535346D8D947C46A (void);
+extern void BigIntegerCalculator_Subtract_mB336D562EA742D2092AFD220202FC15D9A2791A7 (void);
 // 0x00000022 System.UInt32[] System.Numerics.BigIntegerCalculator::Subtract(System.UInt32[],System.UInt32[])
-extern void BigIntegerCalculator_Subtract_m4E6F347481393DF34549B913FE0A6DF76584A5B4 (void);
+extern void BigIntegerCalculator_Subtract_m8BFB5D1D8B089DA2BA5AC0EB0A45D98A6F6AC681 (void);
 // 0x00000023 System.Void System.Numerics.BigIntegerCalculator::Subtract(System.UInt32*,System.Int32,System.UInt32*,System.Int32,System.UInt32*,System.Int32)
-extern void BigIntegerCalculator_Subtract_mAB5C5870894C5028CEB1232DC7EE8CAA3B0EDEC0 (void);
+extern void BigIntegerCalculator_Subtract_mAD5DABE3E13103E8ADCBDA013BC874F17839AC45 (void);
 // 0x00000024 System.Int32 System.Numerics.BigIntegerCalculator::Compare(System.UInt32[],System.UInt32[])
-extern void BigIntegerCalculator_Compare_m8BA0E1FC0852E7CA42859CF687E9142F6E553D10 (void);
+extern void BigIntegerCalculator_Compare_mD61B527BE1032F19B97519458C7AEAD60CBB8774 (void);
 // 0x00000025 System.Void System.Numerics.BigIntegerCalculator::.cctor()
-extern void BigIntegerCalculator__cctor_mEAB3F07E8A72F0DC3366039DB54124EF2145C301 (void);
+extern void BigIntegerCalculator__cctor_mB0C09E685F08931052AF8D95CEDCCFD3D914D03B (void);
 // 0x00000026 System.Char System.Numerics.BigNumber::ParseFormatSpecifier(System.ReadOnlySpan`1<System.Char>,System.Int32&)
-extern void BigNumber_ParseFormatSpecifier_mAB6FE711BB2B4D0CAAB55481A1B2ED91334DC4F8 (void);
+extern void BigNumber_ParseFormatSpecifier_m642DCFB18345FAC78777645E487EE8279BA17073 (void);
 // 0x00000027 System.String System.Numerics.BigNumber::FormatBigIntegerToHex(System.Boolean,System.Numerics.BigInteger,System.Char,System.Int32,System.Globalization.NumberFormatInfo,System.Span`1<System.Char>,System.Int32&,System.Boolean&)
-extern void BigNumber_FormatBigIntegerToHex_m897A14AC205984F13DE7B46D6B9FF3CF06E3AE8B (void);
+extern void BigNumber_FormatBigIntegerToHex_m5BD805D186861A2FDE1CB6D7C8BF730B78B251BE (void);
 // 0x00000028 System.String System.Numerics.BigNumber::FormatBigInteger(System.Numerics.BigInteger,System.String,System.Globalization.NumberFormatInfo)
-extern void BigNumber_FormatBigInteger_m134A2415A89251D3618C9E8A6C7A2D0C5C6E263F (void);
+extern void BigNumber_FormatBigInteger_m1C6793BBD747BBC3E729A18FDAF8A5C814C80DC4 (void);
 // 0x00000029 System.String System.Numerics.BigNumber::FormatBigInteger(System.Boolean,System.Numerics.BigInteger,System.String,System.ReadOnlySpan`1<System.Char>,System.Globalization.NumberFormatInfo,System.Span`1<System.Char>,System.Int32&,System.Boolean&)
-extern void BigNumber_FormatBigInteger_m4F02C294AEE8681C245CCDA75C82ADB1301D47D1 (void);
+extern void BigNumber_FormatBigInteger_m626A9168DC2BBB348E31E47313E83D88263747AA (void);
 // 0x0000002A System.Void System.Numerics.NumericsHelpers::DangerousMakeTwosComplement(System.UInt32[])
-extern void NumericsHelpers_DangerousMakeTwosComplement_m425BF7C1ACDE99B623A68D13886F5CEE5B738291 (void);
+extern void NumericsHelpers_DangerousMakeTwosComplement_m4B6EED2DF0E8C7B5171CDC7BBE5A7A3D68C79D4B (void);
 // 0x0000002B System.UInt64 System.Numerics.NumericsHelpers::MakeUlong(System.UInt32,System.UInt32)
-extern void NumericsHelpers_MakeUlong_m4E1C54EE349875D06DB995ADBA4636E014BFC766 (void);
+extern void NumericsHelpers_MakeUlong_mAB879C53817E4E9BE9C649F09EEE0CB11DE53514 (void);
 // 0x0000002C System.UInt32 System.Numerics.NumericsHelpers::Abs(System.Int32)
-extern void NumericsHelpers_Abs_mA02EE0AF0C1AF6BC2361FB04AA9D555D6E67429C (void);
+extern void NumericsHelpers_Abs_m82DD45E6FEBF5DAB9533B31E5BC62DC5EF37568A (void);
 // 0x0000002D System.UInt32 System.Numerics.NumericsHelpers::CombineHash(System.UInt32,System.UInt32)
-extern void NumericsHelpers_CombineHash_m13082337E07F059962B7637FD142C568B64C222D (void);
+extern void NumericsHelpers_CombineHash_m16177FC379833624A7C14834FA38ADE527A53CCE (void);
 // 0x0000002E System.Int32 System.Numerics.NumericsHelpers::CombineHash(System.Int32,System.Int32)
-extern void NumericsHelpers_CombineHash_m4907C454F01686B09642262567D1C9C90F98CB65 (void);
+extern void NumericsHelpers_CombineHash_m676E72BC5EC287D4C9602A8D876D24E2CBFDC776 (void);
 // 0x0000002F System.Void System.Globalization.FormatProvider::FormatBigInteger(System.Text.ValueStringBuilder&,System.Int32,System.Int32,System.Boolean,System.ReadOnlySpan`1<System.Char>,System.Globalization.NumberFormatInfo,System.Char[],System.Int32)
-extern void FormatProvider_FormatBigInteger_mB2D036168C0440616C04688622F496CDFD9F2F81 (void);
+extern void FormatProvider_FormatBigInteger_m1FBB2719E6A285F3F9EE6A4EE4B95AB6C50C0BAB (void);
 // 0x00000030 System.Void System.Globalization.FormatProvider/Number::Int32ToDecChars(System.Char*,System.Int32&,System.UInt32,System.Int32)
-extern void Number_Int32ToDecChars_m51669F278609128FCC3BE0A25E76D8BE5E16E80C (void);
+extern void Number_Int32ToDecChars_mA94E1FFBC0C831A23C6A974FC11018B9E6F9ED4E (void);
 // 0x00000031 System.Char System.Globalization.FormatProvider/Number::ParseFormatSpecifier(System.ReadOnlySpan`1<System.Char>,System.Int32&)
-extern void Number_ParseFormatSpecifier_m26B8FB43D284BF2875983F9B1BF29956FE4CBB4D (void);
+extern void Number_ParseFormatSpecifier_mC2A7C10F8899ED9BA94E9D9EFE6FDDCADE68618A (void);
 // 0x00000032 System.Void System.Globalization.FormatProvider/Number::NumberToString(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Char,System.Int32,System.Globalization.NumberFormatInfo,System.Boolean)
-extern void Number_NumberToString_mA6AA3672C7030A9751EDB7C8CE04F22851F88910 (void);
+extern void Number_NumberToString_mB02B6AFBEEF66C19BB094F00189CC8E15A16AD18 (void);
 // 0x00000033 System.Void System.Globalization.FormatProvider/Number::FormatCurrency(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo)
-extern void Number_FormatCurrency_m162245D0A21136A0A061DEFE42690A7FC3B7E6D7 (void);
+extern void Number_FormatCurrency_m097DB55A0D1FC114CC86AF8F08F56A8AFEDC93DD (void);
 // 0x00000034 System.Int32 System.Globalization.FormatProvider/Number::wcslen(System.Char*)
-extern void Number_wcslen_mD7025B8AF2D1532CC37711002621C387A2D97C3D (void);
+extern void Number_wcslen_mCD526D9E32ECC29B992889CBDBC18EFF2F3F7CC4 (void);
 // 0x00000035 System.Void System.Globalization.FormatProvider/Number::FormatFixed(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Int32[],System.String,System.String)
-extern void Number_FormatFixed_m37C574B532ED831E9CDC6D0BF414121BA8CF7AD7 (void);
+extern void Number_FormatFixed_m0AE79A769FD61DE736216A34F723B8D7D793C1BB (void);
 // 0x00000036 System.Void System.Globalization.FormatProvider/Number::FormatNumber(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo)
-extern void Number_FormatNumber_m1C19C6D74AE1A8B3C36471CDEC0CB9D45128737A (void);
+extern void Number_FormatNumber_m24CDBE74E5644DDE85C931202384C04F91951EA6 (void);
 // 0x00000037 System.Void System.Globalization.FormatProvider/Number::FormatScientific(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Char)
-extern void Number_FormatScientific_m54D1A64B7574596E75C5E50D61003F20469406D3 (void);
+extern void Number_FormatScientific_m2F27814915B4A407DE4F3692B2EECE8AD267C358 (void);
 // 0x00000038 System.Void System.Globalization.FormatProvider/Number::FormatExponent(System.Text.ValueStringBuilder&,System.Globalization.NumberFormatInfo,System.Int32,System.Char,System.Int32,System.Boolean)
-extern void Number_FormatExponent_m19745DA5488401ACE7412D176E728264D8900B23 (void);
+extern void Number_FormatExponent_m2194D98B7488C2DE4AB59E0AFECDCF4D258412F1 (void);
 // 0x00000039 System.Void System.Globalization.FormatProvider/Number::FormatGeneral(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Char,System.Boolean)
-extern void Number_FormatGeneral_mB1C05A97EC61B7C090B385A545C85B25BEEEDA65 (void);
+extern void Number_FormatGeneral_m68D4F0A31B064E3FDF311EFF410D774C0D3BAF0A (void);
 // 0x0000003A System.Void System.Globalization.FormatProvider/Number::FormatPercent(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32,System.Int32,System.Globalization.NumberFormatInfo)
-extern void Number_FormatPercent_m8BC3CDB58827D7125E778B3A42C04FC9A2C6E32F (void);
+extern void Number_FormatPercent_m765FF9BE8896DA80FDBC469B9EB40732C521B85D (void);
 // 0x0000003B System.Void System.Globalization.FormatProvider/Number::RoundNumber(System.Globalization.FormatProvider/Number/NumberBuffer&,System.Int32)
-extern void Number_RoundNumber_mCE2847455FA0EB1276AEE1C4971CFEF3D56C6364 (void);
+extern void Number_RoundNumber_m4CF4E60F6BB2595CAF7D220275299620A954CAA0 (void);
 // 0x0000003C System.Int32 System.Globalization.FormatProvider/Number::FindSection(System.ReadOnlySpan`1<System.Char>,System.Int32)
-extern void Number_FindSection_mD32A1D0B8F7DEFB73200D111B04FD7300ADF4BE0 (void);
+extern void Number_FindSection_mC2D1C69F848ACAB296ADB63DD0D87CF39C446849 (void);
 // 0x0000003D System.Void System.Globalization.FormatProvider/Number::NumberToStringFormat(System.Text.ValueStringBuilder&,System.Globalization.FormatProvider/Number/NumberBuffer&,System.ReadOnlySpan`1<System.Char>,System.Globalization.NumberFormatInfo)
-extern void Number_NumberToStringFormat_m5CC6DE129E0F05E20327C57F452E672E00A6ED9A (void);
+extern void Number_NumberToStringFormat_mA407C99BE332392E17203E2A9BDC5544DDF89090 (void);
 // 0x0000003E System.Void System.Globalization.FormatProvider/Number::.cctor()
-extern void Number__cctor_m3493E0D85858C3649AE47CCD396C073CF1AECFDA (void);
+extern void Number__cctor_m2D3E19E23CA70D2ABBB814BA5694680EE8AFE430 (void);
 // 0x0000003F System.Char* System.Globalization.FormatProvider/Number/NumberBuffer::get_digits()
 extern void NumberBuffer_get_digits_mB2D6183F180088A57C57ED5FBA7BDD4CDF4A369A (void);
 // 0x00000040 System.Void System.Text.ValueStringBuilder::.ctor(System.Span`1<System.Char>)
@@ -174,7 +174,7 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	BigInteger__ctor_mF6B2AC2AD4056AB6903913C56A92F565EB08BAFD,
 	BigInteger__ctor_mB5E6337A77FC9888762DD29AAF54D2BBDD828D03,
 	BigInteger__ctor_m14A0AC47ABF1AF6DE7B653CED685D7AD11B54BE6,
-	BigInteger_get_MinusOne_m9929E7AEC67F4E57C76A0B8AE7D23C20DF7BD265,
+	BigInteger_get_MinusOne_m3FF0F44F8C3D6DFB66C00B61017E42E555585465,
 	BigInteger_GetHashCode_m2CB01C462C09EB23616010EB24E0A87A4D35D783,
 	BigInteger_Equals_mC711A33C4466DC2C053785E0A8A34B49A197EA1C,
 	BigInteger_Equals_m36D3C46B170C61FBA8D78C5D4D52B6627DCB2314,
@@ -185,51 +185,51 @@ static Il2CppMethodPointer s_methodPointers[77] =
 	BigInteger_TryGetBytes_m015641ED36F51F9CA2D92665048EB5E0ED3C6DCD,
 	BigInteger_ToString_m6AFB0DE9CD953DA8B015C31B3CC1FEF86D98A306,
 	BigInteger_ToString_mF67077A813661D27640565FC41346D65A155B3F6,
-	BigInteger_Add_m66F893D93D5E81DE3273EE0C43517C2862F60301,
-	BigInteger_Subtract_m93BBFFEFA7C22BEC70B6B99B95A0CB21506FC65E,
-	BigInteger_op_Implicit_mA8880EAACAE2FCA70874F585E14F7DA0231D8D97,
-	BigInteger_op_Implicit_m727B3C507042A16CD36B63DA4D1B66D66EA1ED73,
-	BigInteger_op_Implicit_mB99A75482A4AFBDC07F29EF6B9C8B56522088C1F,
-	BigInteger_op_Explicit_m046F008251D35766B0BE64B7C436F4880DB853F7,
-	BigInteger_op_LeftShift_mB540326B560370DA0F03A93039FCA8D240CBD2BC,
-	BigInteger_op_RightShift_m6A0B97CE25BB20494371385564A248CF58914161,
-	BigInteger_op_Addition_m0045F80E2EAFF3CC36ABAA89859190C3E177930B,
-	BigInteger_GetPartsForBitManipulation_m7D5BA06B014F65A7B023E8FB2B93BBCBBB46C268,
-	BigInteger_GetDiffLength_mFF03BA36F23B3072F7DB3628547DF7B0CC34F650,
-	BigInteger__cctor_mF084FD0C34BF15164291C3A0495AFDE528F94001,
-	BigIntegerCalculator_Add_m5006C175629497B132A0B125FC1205AC81506965,
-	BigIntegerCalculator_Add_mBFE104C275F28C2460ED512D63BFF917DABC0FBB,
-	BigIntegerCalculator_Add_mF3E1DF0BCC439558D9178188ED0A7CAFA8630313,
-	BigIntegerCalculator_Subtract_m3A108462F38E1640A32631B3535346D8D947C46A,
-	BigIntegerCalculator_Subtract_m4E6F347481393DF34549B913FE0A6DF76584A5B4,
-	BigIntegerCalculator_Subtract_mAB5C5870894C5028CEB1232DC7EE8CAA3B0EDEC0,
-	BigIntegerCalculator_Compare_m8BA0E1FC0852E7CA42859CF687E9142F6E553D10,
-	BigIntegerCalculator__cctor_mEAB3F07E8A72F0DC3366039DB54124EF2145C301,
-	BigNumber_ParseFormatSpecifier_mAB6FE711BB2B4D0CAAB55481A1B2ED91334DC4F8,
-	BigNumber_FormatBigIntegerToHex_m897A14AC205984F13DE7B46D6B9FF3CF06E3AE8B,
-	BigNumber_FormatBigInteger_m134A2415A89251D3618C9E8A6C7A2D0C5C6E263F,
-	BigNumber_FormatBigInteger_m4F02C294AEE8681C245CCDA75C82ADB1301D47D1,
-	NumericsHelpers_DangerousMakeTwosComplement_m425BF7C1ACDE99B623A68D13886F5CEE5B738291,
-	NumericsHelpers_MakeUlong_m4E1C54EE349875D06DB995ADBA4636E014BFC766,
-	NumericsHelpers_Abs_mA02EE0AF0C1AF6BC2361FB04AA9D555D6E67429C,
-	NumericsHelpers_CombineHash_m13082337E07F059962B7637FD142C568B64C222D,
-	NumericsHelpers_CombineHash_m4907C454F01686B09642262567D1C9C90F98CB65,
-	FormatProvider_FormatBigInteger_mB2D036168C0440616C04688622F496CDFD9F2F81,
-	Number_Int32ToDecChars_m51669F278609128FCC3BE0A25E76D8BE5E16E80C,
-	Number_ParseFormatSpecifier_m26B8FB43D284BF2875983F9B1BF29956FE4CBB4D,
-	Number_NumberToString_mA6AA3672C7030A9751EDB7C8CE04F22851F88910,
-	Number_FormatCurrency_m162245D0A21136A0A061DEFE42690A7FC3B7E6D7,
-	Number_wcslen_mD7025B8AF2D1532CC37711002621C387A2D97C3D,
-	Number_FormatFixed_m37C574B532ED831E9CDC6D0BF414121BA8CF7AD7,
-	Number_FormatNumber_m1C19C6D74AE1A8B3C36471CDEC0CB9D45128737A,
-	Number_FormatScientific_m54D1A64B7574596E75C5E50D61003F20469406D3,
-	Number_FormatExponent_m19745DA5488401ACE7412D176E728264D8900B23,
-	Number_FormatGeneral_mB1C05A97EC61B7C090B385A545C85B25BEEEDA65,
-	Number_FormatPercent_m8BC3CDB58827D7125E778B3A42C04FC9A2C6E32F,
-	Number_RoundNumber_mCE2847455FA0EB1276AEE1C4971CFEF3D56C6364,
-	Number_FindSection_mD32A1D0B8F7DEFB73200D111B04FD7300ADF4BE0,
-	Number_NumberToStringFormat_m5CC6DE129E0F05E20327C57F452E672E00A6ED9A,
-	Number__cctor_m3493E0D85858C3649AE47CCD396C073CF1AECFDA,
+	BigInteger_Add_m7544497BCCB4A4612A2CFC9F272FFA6E22F740D8,
+	BigInteger_Subtract_mA96B4B988F08F5DCADABE0B27BA23D970EBFF88D,
+	BigInteger_op_Implicit_m9B2DA118DD0522DFA6983787CC9C09DACDB5469B,
+	BigInteger_op_Implicit_m0E4A1C7B1F24EB10AE57608F2EBA5B127006D850,
+	BigInteger_op_Implicit_mB409693E4A4DD397B321CE56E748831FD0B67A06,
+	BigInteger_op_Explicit_m381F80B7F65BFEC7F2597DCDB24622F7F32E6848,
+	BigInteger_op_LeftShift_m9C9DD1A22775C31A01650FEB59A91D4A58B719B3,
+	BigInteger_op_RightShift_mE0645B6555F95B4838A8F471584DCA026848F7AB,
+	BigInteger_op_Addition_m895A3ED96D07E1A6E4AD97483EDC256107A31B12,
+	BigInteger_GetPartsForBitManipulation_m679473F863B7A311A59B4B58F26F1D30ADFEEADF,
+	BigInteger_GetDiffLength_m86F9E98613660CB092EA24BC931C98B60E802902,
+	BigInteger__cctor_mEE4D16FA07B1AD31F26502B9C54DB72DB4D1C626,
+	BigIntegerCalculator_Add_m6B363515A5150645D0CAD0DDF4B04348B95C29C3,
+	BigIntegerCalculator_Add_mE49BAD7CDF073CF2D2A2DEABCF11AEE5CC239298,
+	BigIntegerCalculator_Add_m3CB52FDB28E32D96E1400C839ED8E7F51726A814,
+	BigIntegerCalculator_Subtract_mB336D562EA742D2092AFD220202FC15D9A2791A7,
+	BigIntegerCalculator_Subtract_m8BFB5D1D8B089DA2BA5AC0EB0A45D98A6F6AC681,
+	BigIntegerCalculator_Subtract_mAD5DABE3E13103E8ADCBDA013BC874F17839AC45,
+	BigIntegerCalculator_Compare_mD61B527BE1032F19B97519458C7AEAD60CBB8774,
+	BigIntegerCalculator__cctor_mB0C09E685F08931052AF8D95CEDCCFD3D914D03B,
+	BigNumber_ParseFormatSpecifier_m642DCFB18345FAC78777645E487EE8279BA17073,
+	BigNumber_FormatBigIntegerToHex_m5BD805D186861A2FDE1CB6D7C8BF730B78B251BE,
+	BigNumber_FormatBigInteger_m1C6793BBD747BBC3E729A18FDAF8A5C814C80DC4,
+	BigNumber_FormatBigInteger_m626A9168DC2BBB348E31E47313E83D88263747AA,
+	NumericsHelpers_DangerousMakeTwosComplement_m4B6EED2DF0E8C7B5171CDC7BBE5A7A3D68C79D4B,
+	NumericsHelpers_MakeUlong_mAB879C53817E4E9BE9C649F09EEE0CB11DE53514,
+	NumericsHelpers_Abs_m82DD45E6FEBF5DAB9533B31E5BC62DC5EF37568A,
+	NumericsHelpers_CombineHash_m16177FC379833624A7C14834FA38ADE527A53CCE,
+	NumericsHelpers_CombineHash_m676E72BC5EC287D4C9602A8D876D24E2CBFDC776,
+	FormatProvider_FormatBigInteger_m1FBB2719E6A285F3F9EE6A4EE4B95AB6C50C0BAB,
+	Number_Int32ToDecChars_mA94E1FFBC0C831A23C6A974FC11018B9E6F9ED4E,
+	Number_ParseFormatSpecifier_mC2A7C10F8899ED9BA94E9D9EFE6FDDCADE68618A,
+	Number_NumberToString_mB02B6AFBEEF66C19BB094F00189CC8E15A16AD18,
+	Number_FormatCurrency_m097DB55A0D1FC114CC86AF8F08F56A8AFEDC93DD,
+	Number_wcslen_mCD526D9E32ECC29B992889CBDBC18EFF2F3F7CC4,
+	Number_FormatFixed_m0AE79A769FD61DE736216A34F723B8D7D793C1BB,
+	Number_FormatNumber_m24CDBE74E5644DDE85C931202384C04F91951EA6,
+	Number_FormatScientific_m2F27814915B4A407DE4F3692B2EECE8AD267C358,
+	Number_FormatExponent_m2194D98B7488C2DE4AB59E0AFECDCF4D258412F1,
+	Number_FormatGeneral_m68D4F0A31B064E3FDF311EFF410D774C0D3BAF0A,
+	Number_FormatPercent_m765FF9BE8896DA80FDBC469B9EB40732C521B85D,
+	Number_RoundNumber_m4CF4E60F6BB2595CAF7D220275299620A954CAA0,
+	Number_FindSection_mC2D1C69F848ACAB296ADB63DD0D87CF39C446849,
+	Number_NumberToStringFormat_mA407C99BE332392E17203E2A9BDC5544DDF89090,
+	Number__cctor_m2D3E19E23CA70D2ABBB814BA5694680EE8AFE430,
 	NumberBuffer_get_digits_mB2D6183F180088A57C57ED5FBA7BDD4CDF4A369A,
 	ValueStringBuilder__ctor_m0660F060D846CA37202B1BEEE35D26DAC2B6AFF6,
 	ValueStringBuilder_get_Length_m5D0F5925DA1601B18CF1ADC62D8750F955DC3F6B,
@@ -285,83 +285,83 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[17] =
 };
 static const int32_t s_InvokerIndices[77] = 
 {
-	6935,
-	6936,
-	6978,
-	1982,
-	3667,
-	3974,
-	15007,
-	8588,
-	5004,
+	6939,
+	6940,
+	6982,
+	1979,
+	3661,
+	3972,
+	15022,
+	8598,
+	5003,
 	4879,
-	5772,
-	5864,
-	827,
-	827,
-	630,
-	8633,
-	3157,
-	10038,
-	10038,
-	13555,
-	13556,
-	13557,
-	13704,
-	11767,
-	11767,
-	11766,
-	10799,
-	10994,
-	15099,
-	12251,
-	12245,
-	9385,
-	12251,
-	12245,
-	9385,
-	12118,
-	15099,
-	12376,
-	9149,
-	11069,
-	9148,
-	14174,
-	12435,
-	14028,
-	12409,
-	12094,
-	9160,
-	10509,
-	12376,
-	9384,
-	9866,
-	13702,
-	9159,
-	9866,
-	9381,
-	9389,
-	9251,
-	9866,
-	12589,
-	12071,
-	10501,
-	15099,
-	8490,
-	6768,
-	8588,
-	8633,
-	2392,
-	2096,
-	7099,
-	6978,
-	6978,
-	4077,
-	3296,
+	5774,
+	5865,
+	825,
+	825,
+	628,
+	8643,
+	3151,
+	10050,
+	10050,
+	13569,
+	13570,
+	13571,
+	13718,
+	11779,
+	11779,
+	11778,
+	10812,
+	11006,
+	15114,
+	12263,
+	12257,
+	9399,
+	12263,
+	12257,
+	9399,
+	12130,
+	15114,
+	12388,
+	9163,
+	11081,
+	9162,
+	14189,
+	12447,
+	14043,
+	12421,
+	12106,
+	9174,
+	10521,
+	12388,
+	9398,
+	9879,
+	13716,
+	9173,
+	9879,
+	9395,
+	9403,
+	9265,
+	9879,
+	12601,
+	12083,
+	10512,
+	15114,
+	8501,
+	6773,
+	8598,
+	8643,
+	2389,
+	2092,
+	7103,
+	6982,
+	6982,
+	4075,
+	3291,
 	4428,
-	7099,
-	6935,
-	8784,
+	7103,
+	6939,
+	8794,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Numerics_CodeGenModule;
 const Il2CppCodeGenModule g_System_Numerics_CodeGenModule = 
