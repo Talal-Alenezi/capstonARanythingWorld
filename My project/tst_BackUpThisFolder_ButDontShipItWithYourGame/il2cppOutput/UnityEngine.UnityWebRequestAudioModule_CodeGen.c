@@ -13,9 +13,9 @@
 
 
 // 0x00000001 UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestMultimedia::GetAudioClip(System.String,UnityEngine.AudioType)
-extern void UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B (void);
+extern void UnityWebRequestMultimedia_GetAudioClip_m15C8E07AD1A9AB041ACB9A76225B10422ECA6697 (void);
 // 0x00000002 System.IntPtr UnityEngine.Networking.DownloadHandlerAudioClip::Create(UnityEngine.Networking.DownloadHandlerAudioClip,System.String,UnityEngine.AudioType)
-extern void DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71 (void);
+extern void DownloadHandlerAudioClip_Create_mF4CEDF78A2AA3497244F199497D2F8923A5D43F7 (void);
 // 0x00000003 System.Void UnityEngine.Networking.DownloadHandlerAudioClip::InternalCreateAudioClip(System.String,UnityEngine.AudioType)
 extern void DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098 (void);
 // 0x00000004 System.Void UnityEngine.Networking.DownloadHandlerAudioClip::.ctor(System.String,UnityEngine.AudioType)
@@ -35,11 +35,11 @@ extern void DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3
 // 0x0000000B System.Void UnityEngine.Networking.DownloadHandlerAudioClip::set_compressed(System.Boolean)
 extern void DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5 (void);
 // 0x0000000C UnityEngine.AudioClip UnityEngine.Networking.DownloadHandlerAudioClip::GetContent(UnityEngine.Networking.UnityWebRequest)
-extern void DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9 (void);
+extern void DownloadHandlerAudioClip_GetContent_m31675D53AAC8820812A3CE0207E93E1333979F0B (void);
 static Il2CppMethodPointer s_methodPointers[12] = 
 {
-	UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B,
-	DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71,
+	UnityWebRequestMultimedia_GetAudioClip_m15C8E07AD1A9AB041ACB9A76225B10422ECA6697,
+	DownloadHandlerAudioClip_Create_mF4CEDF78A2AA3497244F199497D2F8923A5D43F7,
 	DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098,
 	DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F,
 	DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F,
@@ -49,22 +49,22 @@ static Il2CppMethodPointer s_methodPointers[12] =
 	DownloadHandlerAudioClip_get_audioClip_mBBA8B1C847780D3442649A0E52C822471F87C262,
 	DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30,
 	DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5,
-	DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9,
+	DownloadHandlerAudioClip_GetContent_m31675D53AAC8820812A3CE0207E93E1333979F0B,
 };
 static const int32_t s_InvokerIndices[12] = 
 {
-	12251,
-	11063,
-	3984,
-	3984,
-	3984,
-	8372,
-	8794,
-	8643,
-	8643,
-	6852,
-	6852,
-	13868,
+	12239,
+	11051,
+	3986,
+	3986,
+	3986,
+	8361,
+	8784,
+	8633,
+	8633,
+	6847,
+	6847,
+	13853,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAudioModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAudioModule_CodeGenModule = 

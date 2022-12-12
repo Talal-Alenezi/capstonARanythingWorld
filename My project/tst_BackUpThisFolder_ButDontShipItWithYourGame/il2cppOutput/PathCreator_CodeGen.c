@@ -121,7 +121,7 @@ extern void BezierPath_NotifyPathModified_mF248CEBE0AD42BB709B1C916EA23889B054CF
 // 0x00000036 System.Collections.Generic.List`1<UnityEngine.Vector3> PathCreation.BezierPath::GetPoints()
 extern void BezierPath_GetPoints_m5480B1E22A7C3C89DAD889BD4EF39B822DF7A04C (void);
 // 0x00000037 System.Void PathCreation.BezierPath/<>c::.cctor()
-extern void U3CU3Ec__cctor_m2B5F49C1EB86A880CE5A00B7DD28ECB49D25B499 (void);
+extern void U3CU3Ec__cctor_m467FE79FC1C623856B60C00719CEECC09571DE3C (void);
 // 0x00000038 System.Void PathCreation.BezierPath/<>c::.ctor()
 extern void U3CU3Ec__ctor_mF7421217006D114D01EB9A80F7A10FAA81EBD4B0 (void);
 // 0x00000039 UnityEngine.Vector3 PathCreation.BezierPath/<>c::<.ctor>b__16_0(UnityEngine.Vector2)
@@ -261,71 +261,71 @@ extern void VertexPath_CalculateClosestPointOnPathData_mC86D5F5D95DDEB4D590478BF
 // 0x0000007C System.Void PathCreation.VertexPath/TimeOnPathData::.ctor(System.Int32,System.Int32,System.Single)
 extern void TimeOnPathData__ctor_m60C5CE3FEA83CF1816E1327C1982C2F78183113D (void);
 // 0x0000007D UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurve(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_EvaluateCurve_mD6A4AC06A9597685974E29C400609DED9503ECF9 (void);
+extern void CubicBezierUtility_EvaluateCurve_m115AE135D21BFFE556AD688AC1A94D83C51B972C (void);
 // 0x0000007E UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_EvaluateCurve_m478A06999C1B8E81CC3E6EB3ABDDD62FFF0D8C84 (void);
+extern void CubicBezierUtility_EvaluateCurve_mCF2A9F2270672749CF6357935B91A66E839CAA59 (void);
 // 0x0000007F UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveDerivative(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_EvaluateCurveDerivative_m045B0BE8D68DC143FDF78E251F48B0E61BA71DBF (void);
+extern void CubicBezierUtility_EvaluateCurveDerivative_m5F1D6B618B5011084426838A65DA97BDE126CCC9 (void);
 // 0x00000080 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_EvaluateCurveDerivative_m9826B537ADAEC8E5AD2A305D86742A4BC2B7694E (void);
+extern void CubicBezierUtility_EvaluateCurveDerivative_mCAC51A3A5069A7CED059937E26BBE76F2F1A55CF (void);
 // 0x00000081 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveSecondDerivative(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m9AC51A6C7BDA83BF041D3496631A07293493614C (void);
+extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m7E29058148013E90A73FC5DE314049A72AB5FA5C (void);
 // 0x00000082 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::EvaluateCurveSecondDerivative(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m0AEC69DA29F5EDCD62ECD602B6AD28BFAE9C432E (void);
+extern void CubicBezierUtility_EvaluateCurveSecondDerivative_m24E064CCD1017907ED014844BEC47117D579E98F (void);
 // 0x00000083 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::Normal(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_Normal_m5719CD57B65DD3842E040A521BBA5DC12705588C (void);
+extern void CubicBezierUtility_Normal_m91ECBBF7398AA62EBE71A5ED1BB54987FD16B9EB (void);
 // 0x00000084 UnityEngine.Vector3 PathCreation.Utility.CubicBezierUtility::Normal(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void CubicBezierUtility_Normal_m346DE7084908162F74ECA8E43D311E74F658FF98 (void);
+extern void CubicBezierUtility_Normal_m4D6E6726DEBB0F074881EEC4F806EA6B65CAB507 (void);
 // 0x00000085 UnityEngine.Bounds PathCreation.Utility.CubicBezierUtility::CalculateSegmentBounds(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CubicBezierUtility_CalculateSegmentBounds_m4AD9D11C5F86D361D008897A571F0265373C36A7 (void);
+extern void CubicBezierUtility_CalculateSegmentBounds_mB0286532AEE902ADC4E7AEB67DFD7BD6C3941240 (void);
 // 0x00000086 UnityEngine.Vector3[][] PathCreation.Utility.CubicBezierUtility::SplitCurve(UnityEngine.Vector3[],System.Single)
-extern void CubicBezierUtility_SplitCurve_m5788F2300F84DDF005C4935A9BF4D19BE2E2E1C0 (void);
+extern void CubicBezierUtility_SplitCurve_m298A58D5B819ABC7955E1D29ED6F62A541C8B8C0 (void);
 // 0x00000087 System.Single PathCreation.Utility.CubicBezierUtility::EstimateCurveLength(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CubicBezierUtility_EstimateCurveLength_mEB272AA3158D04B472DC3FF7D19B325D4107EAEC (void);
+extern void CubicBezierUtility_EstimateCurveLength_m3E7C9F4229C2A706E2705C8871EF07390E008E42 (void);
 // 0x00000088 System.Collections.Generic.List`1<System.Single> PathCreation.Utility.CubicBezierUtility::ExtremePointTimes(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CubicBezierUtility_ExtremePointTimes_m574689C4F7E5A337C710601A01FF5DDA6F66B9AF (void);
+extern void CubicBezierUtility_ExtremePointTimes_m45E6497D7D76B90A145908B73A7E3E326D2D3314 (void);
 // 0x00000089 System.Collections.Generic.IEnumerable`1<System.Single> PathCreation.Utility.CubicBezierUtility::StationaryPointTimes(System.Single,System.Single,System.Single)
-extern void CubicBezierUtility_StationaryPointTimes_m95B2BF0BE061DEE7ACFBA176A3DAB462173A2D1D (void);
+extern void CubicBezierUtility_StationaryPointTimes_m60CF3B2398D2F6F2BB85F5A999D491F5E284B457 (void);
 // 0x0000008A PathCreation.Utility.MathUtility/PosRotScale PathCreation.Utility.MathUtility::LockTransformToSpace(UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_LockTransformToSpace_m369F5DE05CC367E836884228A4805070664F5FC9 (void);
+extern void MathUtility_LockTransformToSpace_m31EA77A81865058B0D742F6438E50768AA470D0D (void);
 // 0x0000008B UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformPoint(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_TransformPoint_m694970C08F81315F9198EA279E4DDBF0963C09CF (void);
+extern void MathUtility_TransformPoint_m8375E95459203C4883AAF1AF8B299C1610EBA432 (void);
 // 0x0000008C UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_InverseTransformPoint_m47509451F279F40CE63C9DDDD17B1A8D5E868129 (void);
+extern void MathUtility_InverseTransformPoint_m662744860E0488187FBF1963EEB54DF3E9A54B9D (void);
 // 0x0000008D UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformVector(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_TransformVector_mBD6E6AAAA2FFEE622B7A4952E9AE58F1274B1477 (void);
+extern void MathUtility_TransformVector_mBA2E4D27FD7C3F02655DA930E595C36BC5C6A151 (void);
 // 0x0000008E UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformVector(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_InverseTransformVector_m023F0931F51AA15C1BEC9B91B537C449E7FB4A09 (void);
+extern void MathUtility_InverseTransformVector_m3CC262C0F039E236D84B61320F9E4D0C83003A8D (void);
 // 0x0000008F UnityEngine.Vector3 PathCreation.Utility.MathUtility::TransformDirection(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_TransformDirection_m02E2268D9FF101D2F08D51F4B5EBD5FB58AEFBAF (void);
+extern void MathUtility_TransformDirection_m72314C76D7061C80BBCABB54D1896A6ED34C4F9E (void);
 // 0x00000090 UnityEngine.Vector3 PathCreation.Utility.MathUtility::InverseTransformDirection(UnityEngine.Vector3,UnityEngine.Transform,PathCreation.PathSpace)
-extern void MathUtility_InverseTransformDirection_m9B6145E21704D17CD449A3CF5537ADB0E00E5B42 (void);
+extern void MathUtility_InverseTransformDirection_mF54AAC97CA44D8761A84DE8216CFA2B15DC2E48D (void);
 // 0x00000091 System.Boolean PathCreation.Utility.MathUtility::LineSegmentsIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_LineSegmentsIntersect_m25579D64669791A8F7937C329DB8F8AD3F1A930D (void);
+extern void MathUtility_LineSegmentsIntersect_m0D7415AEA705F63310AD80D80E8857E5A4AC930C (void);
 // 0x00000092 System.Boolean PathCreation.Utility.MathUtility::LinesIntersect(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_LinesIntersect_m52B6D6F5E6D1B7209F52855AE188ECD306A0D647 (void);
+extern void MathUtility_LinesIntersect_mA6C151032C3B0250091B02FD178132446CB7DB78 (void);
 // 0x00000093 UnityEngine.Vector2 PathCreation.Utility.MathUtility::PointOfLineLineIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_PointOfLineLineIntersection_m3E073D0C95BBDBBBCA44F9956BE31B7F17C150DD (void);
+extern void MathUtility_PointOfLineLineIntersection_mB18515C6545064320D60D405D167CEE88883AC96 (void);
 // 0x00000094 UnityEngine.Vector2 PathCreation.Utility.MathUtility::ClosestPointOnLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_ClosestPointOnLineSegment_m638253003BC7DD8287A09CBA3F2CD84DE223D2B1 (void);
+extern void MathUtility_ClosestPointOnLineSegment_m20AFCAE88735C6008581BA83A88935D15E7F2C5E (void);
 // 0x00000095 UnityEngine.Vector3 PathCreation.Utility.MathUtility::ClosestPointOnLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void MathUtility_ClosestPointOnLineSegment_mC5AAFD1700A823588751C6E3EB1B55B33E04E804 (void);
+extern void MathUtility_ClosestPointOnLineSegment_mCCDD2280490ADD5188FC94F289DD878C4DA89434 (void);
 // 0x00000096 System.Int32 PathCreation.Utility.MathUtility::SideOfLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_SideOfLine_m8F280FCD30E7F394C826E139634861607B0E57A5 (void);
+extern void MathUtility_SideOfLine_mBC632198ACBE833306F5C07FB0CFC5B5620E0D2E (void);
 // 0x00000097 System.Single PathCreation.Utility.MathUtility::MinAngle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void MathUtility_MinAngle_mA5979013D069AB1F6861F8890D017BA7532E7D3F (void);
+extern void MathUtility_MinAngle_m32F0C6F4C3FD2BAA86502DBFF8A28D176CD68750 (void);
 // 0x00000098 System.Boolean PathCreation.Utility.MathUtility::PointInTriangle(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void MathUtility_PointInTriangle_mF29D8CB3E1911C41A06CD6B2B3C0E27391900C9C (void);
+extern void MathUtility_PointInTriangle_m0E63DCAD27D93833DD65F83C747F4F8AD653E171 (void);
 // 0x00000099 System.Boolean PathCreation.Utility.MathUtility::PointsAreClockwise(UnityEngine.Vector2[])
-extern void MathUtility_PointsAreClockwise_mC9CB383EF5BEEB24ACB134F39B6330B779FCD707 (void);
+extern void MathUtility_PointsAreClockwise_mE6DAF9C028251A4F8EEA36A90D3F4D7EFED8A25A (void);
 // 0x0000009A System.Void PathCreation.Utility.MathUtility/PosRotScale::.ctor(UnityEngine.Transform)
 extern void PosRotScale__ctor_m932154111EDFE2432519182DDFAF9301E62C58C8 (void);
 // 0x0000009B System.Void PathCreation.Utility.MathUtility/PosRotScale::SetTransform(UnityEngine.Transform)
 extern void PosRotScale_SetTransform_mE9822A02225370253D7B494F5F3826A46962A57B (void);
 // 0x0000009C PathCreation.Utility.VertexPathUtility/PathSplitData PathCreation.Utility.VertexPathUtility::SplitBezierPathByAngleError(PathCreation.BezierPath,System.Single,System.Single,System.Single)
-extern void VertexPathUtility_SplitBezierPathByAngleError_m41442F8F20784B98487637ED6BB84231F21B59DD (void);
+extern void VertexPathUtility_SplitBezierPathByAngleError_m8CEC160085C5F658ACB37EB11523E44C428496E0 (void);
 // 0x0000009D PathCreation.Utility.VertexPathUtility/PathSplitData PathCreation.Utility.VertexPathUtility::SplitBezierPathEvenly(PathCreation.BezierPath,System.Single,System.Single)
-extern void VertexPathUtility_SplitBezierPathEvenly_m02257BA65663EF91B0C77E2E44367C943003C09B (void);
+extern void VertexPathUtility_SplitBezierPathEvenly_m9F96B2A1592D5E6ACD65720EA695ABC50005C26E (void);
 // 0x0000009E System.Void PathCreation.Utility.VertexPathUtility/PathSplitData::.ctor()
 extern void PathSplitData__ctor_mB05B28B038FEA769FA473B8A7AF8E19B2AEDDFE7 (void);
 static Il2CppMethodPointer s_methodPointers[158] = 
@@ -384,7 +384,7 @@ static Il2CppMethodPointer s_methodPointers[158] =
 	BezierPath_LoopIndex_m16C4E3C60C7A3EFB42888C1B69394A84ECF9AC85,
 	BezierPath_NotifyPathModified_mF248CEBE0AD42BB709B1C916EA23889B054CF73D,
 	BezierPath_GetPoints_m5480B1E22A7C3C89DAD889BD4EF39B822DF7A04C,
-	U3CU3Ec__cctor_m2B5F49C1EB86A880CE5A00B7DD28ECB49D25B499,
+	U3CU3Ec__cctor_m467FE79FC1C623856B60C00719CEECC09571DE3C,
 	U3CU3Ec__ctor_mF7421217006D114D01EB9A80F7A10FAA81EBD4B0,
 	U3CU3Ec_U3C_ctorU3Eb__16_0_m77BD370ACF875994D7D17062A4D56C2033365EAE,
 	U3CU3Ec_U3C_ctorU3Eb__17_0_m08E5DDD985B98BE8AE88A95C1B685C62E0FF2166,
@@ -454,39 +454,39 @@ static Il2CppMethodPointer s_methodPointers[158] =
 	VertexPath_CalculatePercentOnPathData_mDFAB288157B2E10B9C2151F9DBAB4111E719E017,
 	VertexPath_CalculateClosestPointOnPathData_mC86D5F5D95DDEB4D590478BFFC3777A1C3C5E5D8,
 	TimeOnPathData__ctor_m60C5CE3FEA83CF1816E1327C1982C2F78183113D,
-	CubicBezierUtility_EvaluateCurve_mD6A4AC06A9597685974E29C400609DED9503ECF9,
-	CubicBezierUtility_EvaluateCurve_m478A06999C1B8E81CC3E6EB3ABDDD62FFF0D8C84,
-	CubicBezierUtility_EvaluateCurveDerivative_m045B0BE8D68DC143FDF78E251F48B0E61BA71DBF,
-	CubicBezierUtility_EvaluateCurveDerivative_m9826B537ADAEC8E5AD2A305D86742A4BC2B7694E,
-	CubicBezierUtility_EvaluateCurveSecondDerivative_m9AC51A6C7BDA83BF041D3496631A07293493614C,
-	CubicBezierUtility_EvaluateCurveSecondDerivative_m0AEC69DA29F5EDCD62ECD602B6AD28BFAE9C432E,
-	CubicBezierUtility_Normal_m5719CD57B65DD3842E040A521BBA5DC12705588C,
-	CubicBezierUtility_Normal_m346DE7084908162F74ECA8E43D311E74F658FF98,
-	CubicBezierUtility_CalculateSegmentBounds_m4AD9D11C5F86D361D008897A571F0265373C36A7,
-	CubicBezierUtility_SplitCurve_m5788F2300F84DDF005C4935A9BF4D19BE2E2E1C0,
-	CubicBezierUtility_EstimateCurveLength_mEB272AA3158D04B472DC3FF7D19B325D4107EAEC,
-	CubicBezierUtility_ExtremePointTimes_m574689C4F7E5A337C710601A01FF5DDA6F66B9AF,
-	CubicBezierUtility_StationaryPointTimes_m95B2BF0BE061DEE7ACFBA176A3DAB462173A2D1D,
-	MathUtility_LockTransformToSpace_m369F5DE05CC367E836884228A4805070664F5FC9,
-	MathUtility_TransformPoint_m694970C08F81315F9198EA279E4DDBF0963C09CF,
-	MathUtility_InverseTransformPoint_m47509451F279F40CE63C9DDDD17B1A8D5E868129,
-	MathUtility_TransformVector_mBD6E6AAAA2FFEE622B7A4952E9AE58F1274B1477,
-	MathUtility_InverseTransformVector_m023F0931F51AA15C1BEC9B91B537C449E7FB4A09,
-	MathUtility_TransformDirection_m02E2268D9FF101D2F08D51F4B5EBD5FB58AEFBAF,
-	MathUtility_InverseTransformDirection_m9B6145E21704D17CD449A3CF5537ADB0E00E5B42,
-	MathUtility_LineSegmentsIntersect_m25579D64669791A8F7937C329DB8F8AD3F1A930D,
-	MathUtility_LinesIntersect_m52B6D6F5E6D1B7209F52855AE188ECD306A0D647,
-	MathUtility_PointOfLineLineIntersection_m3E073D0C95BBDBBBCA44F9956BE31B7F17C150DD,
-	MathUtility_ClosestPointOnLineSegment_m638253003BC7DD8287A09CBA3F2CD84DE223D2B1,
-	MathUtility_ClosestPointOnLineSegment_mC5AAFD1700A823588751C6E3EB1B55B33E04E804,
-	MathUtility_SideOfLine_m8F280FCD30E7F394C826E139634861607B0E57A5,
-	MathUtility_MinAngle_mA5979013D069AB1F6861F8890D017BA7532E7D3F,
-	MathUtility_PointInTriangle_mF29D8CB3E1911C41A06CD6B2B3C0E27391900C9C,
-	MathUtility_PointsAreClockwise_mC9CB383EF5BEEB24ACB134F39B6330B779FCD707,
+	CubicBezierUtility_EvaluateCurve_m115AE135D21BFFE556AD688AC1A94D83C51B972C,
+	CubicBezierUtility_EvaluateCurve_mCF2A9F2270672749CF6357935B91A66E839CAA59,
+	CubicBezierUtility_EvaluateCurveDerivative_m5F1D6B618B5011084426838A65DA97BDE126CCC9,
+	CubicBezierUtility_EvaluateCurveDerivative_mCAC51A3A5069A7CED059937E26BBE76F2F1A55CF,
+	CubicBezierUtility_EvaluateCurveSecondDerivative_m7E29058148013E90A73FC5DE314049A72AB5FA5C,
+	CubicBezierUtility_EvaluateCurveSecondDerivative_m24E064CCD1017907ED014844BEC47117D579E98F,
+	CubicBezierUtility_Normal_m91ECBBF7398AA62EBE71A5ED1BB54987FD16B9EB,
+	CubicBezierUtility_Normal_m4D6E6726DEBB0F074881EEC4F806EA6B65CAB507,
+	CubicBezierUtility_CalculateSegmentBounds_mB0286532AEE902ADC4E7AEB67DFD7BD6C3941240,
+	CubicBezierUtility_SplitCurve_m298A58D5B819ABC7955E1D29ED6F62A541C8B8C0,
+	CubicBezierUtility_EstimateCurveLength_m3E7C9F4229C2A706E2705C8871EF07390E008E42,
+	CubicBezierUtility_ExtremePointTimes_m45E6497D7D76B90A145908B73A7E3E326D2D3314,
+	CubicBezierUtility_StationaryPointTimes_m60CF3B2398D2F6F2BB85F5A999D491F5E284B457,
+	MathUtility_LockTransformToSpace_m31EA77A81865058B0D742F6438E50768AA470D0D,
+	MathUtility_TransformPoint_m8375E95459203C4883AAF1AF8B299C1610EBA432,
+	MathUtility_InverseTransformPoint_m662744860E0488187FBF1963EEB54DF3E9A54B9D,
+	MathUtility_TransformVector_mBA2E4D27FD7C3F02655DA930E595C36BC5C6A151,
+	MathUtility_InverseTransformVector_m3CC262C0F039E236D84B61320F9E4D0C83003A8D,
+	MathUtility_TransformDirection_m72314C76D7061C80BBCABB54D1896A6ED34C4F9E,
+	MathUtility_InverseTransformDirection_mF54AAC97CA44D8761A84DE8216CFA2B15DC2E48D,
+	MathUtility_LineSegmentsIntersect_m0D7415AEA705F63310AD80D80E8857E5A4AC930C,
+	MathUtility_LinesIntersect_mA6C151032C3B0250091B02FD178132446CB7DB78,
+	MathUtility_PointOfLineLineIntersection_mB18515C6545064320D60D405D167CEE88883AC96,
+	MathUtility_ClosestPointOnLineSegment_m20AFCAE88735C6008581BA83A88935D15E7F2C5E,
+	MathUtility_ClosestPointOnLineSegment_mCCDD2280490ADD5188FC94F289DD878C4DA89434,
+	MathUtility_SideOfLine_mBC632198ACBE833306F5C07FB0CFC5B5620E0D2E,
+	MathUtility_MinAngle_m32F0C6F4C3FD2BAA86502DBFF8A28D176CD68750,
+	MathUtility_PointInTriangle_m0E63DCAD27D93833DD65F83C747F4F8AD653E171,
+	MathUtility_PointsAreClockwise_mE6DAF9C028251A4F8EEA36A90D3F4D7EFED8A25A,
 	PosRotScale__ctor_m932154111EDFE2432519182DDFAF9301E62C58C8,
 	PosRotScale_SetTransform_mE9822A02225370253D7B494F5F3826A46962A57B,
-	VertexPathUtility_SplitBezierPathByAngleError_m41442F8F20784B98487637ED6BB84231F21B59DD,
-	VertexPathUtility_SplitBezierPathEvenly_m02257BA65663EF91B0C77E2E44367C943003C09B,
+	VertexPathUtility_SplitBezierPathByAngleError_m8CEC160085C5F658ACB37EB11523E44C428496E0,
+	VertexPathUtility_SplitBezierPathEvenly_m9F96B2A1592D5E6ACD65720EA695ABC50005C26E,
 	PathSplitData__ctor_mB05B28B038FEA769FA473B8A7AF8E19B2AEDDFE7,
 };
 extern void TimeOnPathData__ctor_m60C5CE3FEA83CF1816E1327C1982C2F78183113D_AdjustorThunk (void);
@@ -497,163 +497,163 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] =
 static const int32_t s_InvokerIndices[158] = 
 {
 	227,
-	8794,
-	6982,
-	6982,
-	2235,
-	2119,
-	2119,
-	2119,
-	2128,
-	6982,
-	8643,
-	8643,
-	6479,
-	6479,
-	2094,
-	8598,
-	8598,
-	8598,
-	8598,
-	6939,
-	8514,
-	6852,
-	8598,
-	6939,
-	8711,
-	7047,
-	7116,
-	7116,
-	2237,
-	6939,
-	6230,
-	2094,
+	8784,
+	6978,
+	6978,
+	2239,
+	2123,
+	2123,
+	2123,
+	2132,
+	6978,
+	8633,
+	8633,
+	6474,
+	6474,
+	2098,
+	8588,
+	8588,
+	8588,
+	8588,
+	6935,
+	8503,
+	6847,
+	8588,
+	6935,
+	8701,
+	7043,
+	7112,
+	7112,
+	2241,
+	6935,
+	6225,
+	2098,
 	4522,
-	8514,
-	6852,
-	8711,
-	7047,
-	8643,
-	6982,
-	6363,
-	6982,
-	3704,
-	8794,
-	8513,
-	8794,
-	6939,
-	8794,
-	6939,
-	8794,
-	6939,
-	8794,
-	5831,
-	8794,
-	8643,
-	15114,
-	8794,
-	6488,
+	8503,
+	6847,
+	8701,
+	7043,
+	8633,
+	6978,
+	6358,
+	6978,
+	3710,
+	8784,
+	8502,
+	8784,
+	6935,
+	8784,
+	6935,
+	8784,
+	6935,
+	8784,
+	5830,
+	8784,
+	8633,
+	15099,
+	8784,
 	6483,
-	6488,
-	8794,
+	6478,
+	6483,
 	8784,
-	7116,
+	8774,
+	7112,
+	8774,
+	7112,
 	8784,
-	7116,
-	8794,
-	7116,
-	6982,
-	6982,
-	8643,
-	8643,
-	6982,
-	8643,
-	6982,
-	6852,
-	8643,
-	8794,
-	8643,
-	8794,
-	8794,
-	6982,
-	7047,
-	8794,
-	6982,
-	6982,
-	6982,
-	6982,
-	6852,
-	4102,
-	4102,
-	8643,
-	6982,
-	8643,
-	6982,
-	6239,
-	3992,
-	4003,
-	6239,
-	8794,
-	8794,
-	8794,
-	8794,
-	8794,
-	1551,
-	2161,
-	2160,
-	6982,
-	8598,
-	6479,
-	6479,
-	6479,
-	3252,
-	3252,
-	3252,
-	3180,
-	3252,
-	3252,
-	3252,
-	3180,
-	6489,
-	6369,
-	6369,
-	4200,
-	7672,
-	2069,
-	12474,
-	9767,
-	12474,
-	9767,
-	12474,
-	9767,
-	12474,
-	9767,
-	10051,
-	12259,
-	10482,
-	10467,
-	11137,
-	12251,
-	11274,
-	11274,
-	11274,
-	11274,
-	11274,
-	11274,
-	10129,
-	10129,
-	10501,
-	11266,
-	11276,
-	11024,
-	11192,
-	10129,
-	13592,
-	6982,
-	6982,
-	10449,
-	11126,
-	8794,
+	7112,
+	6978,
+	6978,
+	8633,
+	8633,
+	6978,
+	8633,
+	6978,
+	6847,
+	8633,
+	8784,
+	8633,
+	8784,
+	8784,
+	6978,
+	7043,
+	8784,
+	6978,
+	6978,
+	6978,
+	6978,
+	6847,
+	4104,
+	4104,
+	8633,
+	6978,
+	8633,
+	6978,
+	6234,
+	3994,
+	4005,
+	6234,
+	8784,
+	8784,
+	8784,
+	8784,
+	8784,
+	1555,
+	2165,
+	2164,
+	6978,
+	8588,
+	6474,
+	6474,
+	6474,
+	3258,
+	3258,
+	3258,
+	3186,
+	3258,
+	3258,
+	3258,
+	3186,
+	6484,
+	6364,
+	6364,
+	4202,
+	7660,
+	2073,
+	12462,
+	9754,
+	12462,
+	9754,
+	12462,
+	9754,
+	12462,
+	9754,
+	10039,
+	12247,
+	10471,
+	10456,
+	11125,
+	12239,
+	11262,
+	11262,
+	11262,
+	11262,
+	11262,
+	11262,
+	10117,
+	10117,
+	10490,
+	11254,
+	11264,
+	11012,
+	11180,
+	10117,
+	13578,
+	6978,
+	6978,
+	10438,
+	11114,
+	8784,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_PathCreator_CodeGenModule;
 const Il2CppCodeGenModule g_PathCreator_CodeGenModule = 

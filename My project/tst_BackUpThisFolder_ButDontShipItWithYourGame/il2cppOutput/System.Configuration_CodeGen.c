@@ -45,7 +45,7 @@ extern void IgnoreSection_ResetModified_m13E416D3841F85E3B334CF9EB517FFBE9F7E224
 // 0x00000010 System.String System.Configuration.IgnoreSection::SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)
 extern void IgnoreSection_SerializeSection_m12BD59834DBCACE13758DA83BD3DEF2B8A6F3DBE (void);
 // 0x00000011 System.Void Unity.ThrowStub::ThrowNotSupportedException()
-extern void ThrowStub_ThrowNotSupportedException_mA14F496FFE8A1B92C4565A9F18F2113E1C1F2A77 (void);
+extern void ThrowStub_ThrowNotSupportedException_m7DA107DED77F144138F4555CA0759114B82C1672 (void);
 static Il2CppMethodPointer s_methodPointers[17] = 
 {
 	ConfigurationElement_get_Properties_m85E584B7C5EAFA411191A245AF41DEC274DE8F93,
@@ -64,27 +64,27 @@ static Il2CppMethodPointer s_methodPointers[17] =
 	IgnoreSection_Reset_m8A41B00CEC8C72D608FEE005D438864B5638B84E,
 	IgnoreSection_ResetModified_m13E416D3841F85E3B334CF9EB517FFBE9F7E224C,
 	IgnoreSection_SerializeSection_m12BD59834DBCACE13758DA83BD3DEF2B8A6F3DBE,
-	ThrowStub_ThrowNotSupportedException_mA14F496FFE8A1B92C4565A9F18F2113E1C1F2A77,
+	ThrowStub_ThrowNotSupportedException_m7DA107DED77F144138F4555CA0759114B82C1672,
 };
 static const int32_t s_InvokerIndices[17] = 
 {
-	8643,
-	8514,
-	6982,
-	8794,
-	6982,
-	8514,
-	8794,
-	1878,
-	6982,
-	8794,
-	8643,
-	6982,
-	8514,
-	6982,
-	8794,
-	1878,
-	15114,
+	8633,
+	8503,
+	6978,
+	8784,
+	6978,
+	8503,
+	8784,
+	1881,
+	6978,
+	8784,
+	8633,
+	6978,
+	8503,
+	6978,
+	8784,
+	1881,
+	15099,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 const Il2CppCodeGenModule g_System_Configuration_CodeGenModule = 

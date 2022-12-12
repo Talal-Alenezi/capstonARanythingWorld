@@ -15,9 +15,9 @@
 // 0x00000001 System.Void UnityEngine.AssetBundle::.ctor()
 extern void AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410 (void);
 // 0x00000002 UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromFile_Internal(System.String,System.UInt32,System.UInt64)
-extern void AssetBundle_LoadFromFile_Internal_m806E92FA35F9FF7F9868058055FB347B9E35BD74 (void);
+extern void AssetBundle_LoadFromFile_Internal_mBADE7FF4DE42B855B626633622F8DE05820B4876 (void);
 // 0x00000003 UnityEngine.AssetBundle UnityEngine.AssetBundle::LoadFromFile(System.String)
-extern void AssetBundle_LoadFromFile_mAFD7B0E8F0A0A88E9BB60180EBA0A99B8B3F2629 (void);
+extern void AssetBundle_LoadFromFile_mFED01CCB7121612FD98DC6D79ECD08F58DADA275 (void);
 // 0x00000004 UnityEngine.Object UnityEngine.AssetBundle::LoadAsset(System.String)
 extern void AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E (void);
 // 0x00000005 T UnityEngine.AssetBundle::LoadAsset(System.String)
@@ -34,8 +34,8 @@ extern void AssetBundle_GetAllScenePaths_m75D1CD4415067D64A8265A7929B6FF76B91B62
 static Il2CppMethodPointer s_methodPointers[10] = 
 {
 	AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410,
-	AssetBundle_LoadFromFile_Internal_m806E92FA35F9FF7F9868058055FB347B9E35BD74,
-	AssetBundle_LoadFromFile_mAFD7B0E8F0A0A88E9BB60180EBA0A99B8B3F2629,
+	AssetBundle_LoadFromFile_Internal_mBADE7FF4DE42B855B626633622F8DE05820B4876,
+	AssetBundle_LoadFromFile_mFED01CCB7121612FD98DC6D79ECD08F58DADA275,
 	AssetBundle_LoadAsset_m25926A405F3AB79A4DF2447F23A09957EC7F063E,
 	NULL,
 	AssetBundle_LoadAsset_m021FE0B52DD660E54AE4C225D9AE66147902B8FE,
@@ -46,16 +46,16 @@ static Il2CppMethodPointer s_methodPointers[10] =
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	8794,
-	11130,
-	13868,
-	6239,
+	8784,
+	11118,
+	13853,
+	6234,
 	0,
-	3151,
-	3151,
-	6852,
-	8643,
-	8643,
+	3157,
+	3157,
+	6847,
+	8633,
+	8633,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {

@@ -143,7 +143,7 @@ PrefabInstance:
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05
+      value: 1.581
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
@@ -153,27 +153,27 @@ PrefabInstance:
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.19
+      value: 1.691
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: -0.32645762
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.009897979
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.94515383
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.003418777
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
@@ -183,12 +183,12 @@ PrefabInstance:
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 218.11
       objectReference: {fileID: 0}
     - target: {fileID: 1065364499270188270, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 6147621107532670821, guid: b576966c13a37054eb8c8ef8d0901022,
         type: 3}
@@ -2029,9 +2029,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera2Follow: {fileID: 1017273511}
-  x: 0
+  x: 0.75
   y: -1.5
-  CameraDistance: 1
+  CameraDistance: 2
 --- !u!1 &1842915659 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a,

@@ -15,9 +15,9 @@
 // 0x00000001 System.Void Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute::.ctor(System.String,System.String)
 extern void ArrayElementTitleAttribute__ctor_m7990542BCC882B8960A3B61CCAAD6D3024438B52 (void);
 // 0x00000002 System.DateTime Oculus.Voice.Core.Utilities.DateTimeUtility::get_UtcNow()
-extern void DateTimeUtility_get_UtcNow_m45B39BA40DBE9DB6D4E96FA5C71A4AE49D6F71E2 (void);
+extern void DateTimeUtility_get_UtcNow_mFA4D3ED39884082EA4A821B6B97CC40145D07812 (void);
 // 0x00000003 System.Int64 Oculus.Voice.Core.Utilities.DateTimeUtility::get_ElapsedMilliseconds()
-extern void DateTimeUtility_get_ElapsedMilliseconds_mFCCD79CB27652B45BB76D679824C381809226602 (void);
+extern void DateTimeUtility_get_ElapsedMilliseconds_mBBBF9AAD86BAF4190085FD83A7D4C36FACBF2C2F (void);
 // 0x00000004 System.Void Oculus.Voice.Core.Utilities.DateTimeUtility::.ctor()
 extern void DateTimeUtility__ctor_m13105FFC88652B794CAFB4919D2B999178A6C946 (void);
 // 0x00000005 System.Void Oculus.Voice.Core.Bindings.Interfaces.IConnection::Connect(System.String)
@@ -79,7 +79,7 @@ extern void VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C
 // 0x0000002A System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::.ctor()
 extern void VoiceSDKConsoleLoggerImpl__ctor_m23702E026CC9965257C14E48CC5A22084EBA6A6D (void);
 // 0x0000002B System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::.cctor()
-extern void VoiceSDKConsoleLoggerImpl__cctor_m67035F85CEEF68A1066E4519BC4CAE0203B42771 (void);
+extern void VoiceSDKConsoleLoggerImpl__cctor_m41CFDEFB22DDA66A4BD8EAC1A9CC73A570E3C29D (void);
 // 0x0000002C System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::.ctor(UnityEngine.AndroidJavaObject)
 extern void VoiceSDKLoggerBinding__ctor_m427F08E3C3B787F1446089A7D7C8F532B4AEEDCF (void);
 // 0x0000002D System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::Connect()
@@ -125,8 +125,8 @@ extern void VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0
 static Il2CppMethodPointer s_methodPointers[64] = 
 {
 	ArrayElementTitleAttribute__ctor_m7990542BCC882B8960A3B61CCAAD6D3024438B52,
-	DateTimeUtility_get_UtcNow_m45B39BA40DBE9DB6D4E96FA5C71A4AE49D6F71E2,
-	DateTimeUtility_get_ElapsedMilliseconds_mFCCD79CB27652B45BB76D679824C381809226602,
+	DateTimeUtility_get_UtcNow_mFA4D3ED39884082EA4A821B6B97CC40145D07812,
+	DateTimeUtility_get_ElapsedMilliseconds_mBBBF9AAD86BAF4190085FD83A7D4C36FACBF2C2F,
 	DateTimeUtility__ctor_m13105FFC88652B794CAFB4919D2B999178A6C946,
 	NULL,
 	NULL,
@@ -166,7 +166,7 @@ static Il2CppMethodPointer s_methodPointers[64] =
 	VoiceSDKConsoleLoggerImpl_LogInteractionPoint_mEE073AF2DA38C14A4C3175BB161D131D6514B185,
 	VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C21279FC7230C9,
 	VoiceSDKConsoleLoggerImpl__ctor_m23702E026CC9965257C14E48CC5A22084EBA6A6D,
-	VoiceSDKConsoleLoggerImpl__cctor_m67035F85CEEF68A1066E4519BC4CAE0203B42771,
+	VoiceSDKConsoleLoggerImpl__cctor_m41CFDEFB22DDA66A4BD8EAC1A9CC73A570E3C29D,
 	VoiceSDKLoggerBinding__ctor_m427F08E3C3B787F1446089A7D7C8F532B4AEEDCF,
 	VoiceSDKLoggerBinding_Connect_m8E3EBF537CDAA7B87345B44994D51B1EDF166009,
 	VoiceSDKLoggerBinding_LogInteractionStart_m644168734AD3E9C5167D85AB69A569544A2851F5,
@@ -191,10 +191,10 @@ static Il2CppMethodPointer s_methodPointers[64] =
 };
 static const int32_t s_InvokerIndices[64] = 
 {
-	3992,
-	15032,
-	15052,
-	8794,
+	3994,
+	15017,
+	15037,
+	8784,
 	0,
 	0,
 	0,
@@ -209,52 +209,52 @@ static const int32_t s_InvokerIndices[64] =
 	0,
 	0,
 	0,
-	8514,
-	8643,
-	3992,
-	6982,
-	8794,
-	8643,
+	8503,
+	8633,
+	3994,
+	6978,
+	8784,
+	8633,
 	0,
 	0,
 	0,
 	0,
-	6982,
-	8794,
-	8514,
-	6852,
-	8643,
-	6982,
-	8514,
-	6852,
-	3992,
-	8794,
-	6982,
-	6982,
-	3992,
-	8794,
-	15114,
-	6982,
-	8794,
-	3992,
-	6982,
-	3992,
-	3992,
-	3992,
-	8514,
-	6852,
-	8643,
-	6982,
-	8514,
-	6852,
-	8794,
-	6982,
-	8794,
-	3992,
-	8794,
-	6982,
-	6982,
-	3992,
+	6978,
+	8784,
+	8503,
+	6847,
+	8633,
+	6978,
+	8503,
+	6847,
+	3994,
+	8784,
+	6978,
+	6978,
+	3994,
+	8784,
+	15099,
+	6978,
+	8784,
+	3994,
+	6978,
+	3994,
+	3994,
+	3994,
+	8503,
+	6847,
+	8633,
+	6978,
+	8503,
+	6847,
+	8784,
+	6978,
+	8784,
+	3994,
+	8784,
+	6978,
+	6978,
+	3994,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
